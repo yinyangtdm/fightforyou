@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
       slug: string
       email?: string
       phone?: string
-      bio?: string
+      description?: string
       photoUrl?: string
       city?: string
       state?: string
@@ -59,7 +59,7 @@ export async function POST(request: NextRequest) {
         slug: body.slug,
         email: body.email || null,
         phone: body.phone || null,
-        bio: body.bio || null,
+        description: body.description || null,
         photoUrl: body.photoUrl || null,
         city: body.city || null,
         state: body.state || null,

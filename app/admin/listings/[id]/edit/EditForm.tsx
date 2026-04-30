@@ -9,7 +9,7 @@ interface FormState {
   slug: string
   email: string
   phone: string
-  bio: string
+  description: string
   photoUrl: string
   city: string
   state: string
@@ -58,7 +58,7 @@ export default function EditForm({ listing }: EditFormProps) {
     slug: listing.slug,
     email: listing.email ?? "",
     phone: listing.phone ?? "",
-    bio: listing.bio ?? "",
+    description: listing.description ?? "",
     photoUrl: listing.photoUrl ?? "",
     city: listing.city ?? "",
     state: listing.state ?? "",
@@ -131,8 +131,8 @@ export default function EditForm({ listing }: EditFormProps) {
             <input name="phone" value={form.phone} onChange={handleChange} className="w-full border rounded p-2" />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Bio</label>
-            <textarea name="bio" value={form.bio} onChange={handleChange} rows={4} className="w-full border rounded p-2" />
+            <label className="block text-sm font-medium mb-1">Description</label>
+            <textarea name="description" value={form.description} onChange={handleChange} rows={4} className="w-full border rounded p-2" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Photo URL</label>

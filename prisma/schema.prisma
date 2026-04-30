@@ -15,7 +15,6 @@ model Listing {
   slug                String    @unique
   email               String?
   phone               String?
-  bio                 String?
   photoUrl            String?
   firm                String?
   tagline             String?
