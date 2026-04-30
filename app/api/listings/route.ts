@@ -36,6 +36,8 @@ export async function POST(request: NextRequest) {
       isFirm?: boolean
       name: string
       slug: string
+      firm?: string
+      tagline?: string
       email?: string
       phone?: string
       description?: string
@@ -43,6 +45,7 @@ export async function POST(request: NextRequest) {
       city?: string
       state?: string
       zipCode?: string
+      isNational?: boolean
       specialties?: string[]
       notableResults?: string[]
       keyCharacteristics?: string[]
@@ -51,12 +54,15 @@ export async function POST(request: NextRequest) {
       linkedin?: string
       facebook?: string
       approved?: boolean
+      featured?: boolean
     }
     const listing = await prisma.listing.create({
       data: {
         isFirm: body.isFirm || false,
         name: body.name,
         slug: body.slug,
+        firm: body.firm || null,
+        tagline: body.tagline || null,
         email: body.email || null,
         phone: body.phone || null,
         description: body.description || null,
@@ -64,6 +70,7 @@ export async function POST(request: NextRequest) {
         city: body.city || null,
         state: body.state || null,
         zipCode: body.zipCode || null,
+        isNational: body.isNational || false,
         specialties: body.specialties ?? [],
         notableResults: body.notableResults ?? [],
         keyCharacteristics: body.keyCharacteristics ?? [],
@@ -72,6 +79,7 @@ export async function POST(request: NextRequest) {
         linkedin: body.linkedin || null,
         facebook: body.facebook || null,
         approved: body.approved || false,
+        featured: body.featured || false,
       },
     })
     return Response.json(listing, { status: 201 })

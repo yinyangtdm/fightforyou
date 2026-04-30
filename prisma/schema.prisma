@@ -34,4 +34,5 @@ model Listing {
   facebook            String?
   approved            Boolean   @default(false)
   featured            Boolean   @default(false)
+  isNonprofit         Boolean   @default(false)
 }

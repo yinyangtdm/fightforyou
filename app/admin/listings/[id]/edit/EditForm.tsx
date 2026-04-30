@@ -7,6 +7,8 @@ interface FormState {
   isFirm: boolean
   name: string
   slug: string
+  firm: string
+  tagline: string
   email: string
   phone: string
   description: string
@@ -14,6 +16,7 @@ interface FormState {
   city: string
   state: string
   zipCode: string
+  isNational: boolean
   specialties: string
   notableResults: string[]
   keyCharacteristics: string[]
@@ -22,11 +25,12 @@ interface FormState {
   linkedin: string
   facebook: string
   approved: boolean
+  featured: boolean
+  isNonprofit: boolean
 }
 
 function splitIntoItems(raw: string): string[] {
   const trimmed = raw.trim()
-  // Comma-separated quoted strings: "item1","item2",...
   if (trimmed.includes('","')) {
     const items = trimmed.replace(/^"|"$/g, "").split('","').map(s => s.trim()).filter(Boolean)
     if (items.length) return items
@@ -43,7 +47,6 @@ function splitIntoItems(raw: string): string[] {
   return results.length ? results : [""]
 }
 
-
 interface EditFormProps {
   listing: Listing
 }
@@ -56,6 +59,8 @@ export default function EditForm({ listing }: EditFormProps) {
     isFirm: listing.isFirm,
     name: listing.name,
     slug: listing.slug,
+    firm: listing.firm ?? "",
+    tagline: listing.tagline ?? "",
     email: listing.email ?? "",
     phone: listing.phone ?? "",
     description: listing.description ?? "",
@@ -63,6 +68,7 @@ export default function EditForm({ listing }: EditFormProps) {
     city: listing.city ?? "",
     state: listing.state ?? "",
     zipCode: listing.zipCode ?? "",
+    isNational: listing.isNational,
     specialties: (listing.specialties ?? []).join(', '),
     notableResults: listing.notableResults.length ? listing.notableResults : [""],
     keyCharacteristics: listing.keyCharacteristics.length ? listing.keyCharacteristics : [""],
@@ -71,6 +77,8 @@ export default function EditForm({ listing }: EditFormProps) {
     linkedin: listing.linkedin ?? "",
     facebook: listing.facebook ?? "",
     approved: listing.approved,
+    featured: listing.featured,
+    isNonprofit: listing.isNonprofit,
   })
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
@@ -88,7 +96,12 @@ export default function EditForm({ listing }: EditFormProps) {
       const res = await fetch(`/api/listings/${listing.id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, specialties: form.specialties.split(',').map(s => s.trim()).filter(Boolean), notableResults: form.notableResults.filter(s => s.trim()), keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()) }),
+        body: JSON.stringify({
+          ...form,
+          specialties: form.specialties.split(',').map(s => s.trim()).filter(Boolean),
+          notableResults: form.notableResults.filter(s => s.trim()),
+          keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()),
+        }),
       })
       if (!res.ok) throw new Error("Failed to update listing")
       router.push("/admin/listings")
@@ -115,12 +128,20 @@ export default function EditForm({ listing }: EditFormProps) {
             <span>This is a firm (not an individual lawyer)</span>
           </label>
           <div>
+            <label className="block text-sm font-medium mb-1">Firm Name</label>
+            <input name="firm" value={form.firm} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Smith & Associates" />
+          </div>
+          <div>
             <label className="block text-sm font-medium mb-1">Name *</label>
             <input required name="name" value={form.name} onChange={handleChange} className="w-full border rounded p-2" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Slug *</label>
             <input required name="slug" value={form.slug} onChange={handleChange} className="w-full border rounded p-2" />
+          </div>
+          <div>
+            <label className="block text-sm font-medium mb-1">Tagline</label>
+            <input name="tagline" value={form.tagline} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. The National Catalyst" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Email</label>
@@ -152,6 +173,10 @@ export default function EditForm({ listing }: EditFormProps) {
               <input name="zipCode" value={form.zipCode} onChange={handleChange} className="w-full border rounded p-2" />
             </div>
           </div>
+          <label className="flex items-center gap-2">
+            <input type="checkbox" name="isNational" checked={form.isNational} onChange={handleChange} />
+            <span>National (operates across the US, not region-specific)</span>
+          </label>
           <div>
             <label className="block text-sm font-medium mb-1">Specialties</label>
             <input name="specialties" value={form.specialties} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
@@ -164,16 +189,6 @@ export default function EditForm({ listing }: EditFormProps) {
                   <input
                     value={item}
                     onChange={e => setForm(prev => ({ ...prev, notableResults: prev.notableResults.map((r, j) => j === i ? e.target.value : r) }))}
-                    onPaste={e => {
-                      const items = splitIntoItems(e.clipboardData.getData("text"))
-                      if (items.length <= 1) return
-                      e.preventDefault()
-                      setForm(prev => {
-                        const arr = [...prev.notableResults]
-                        arr.splice(i, 1, ...items)
-                        return { ...prev, notableResults: arr }
-                      })
-                    }}
                     onKeyDown={e => {
                       if (e.key === "Enter") {
                         e.preventDefault()
@@ -279,8 +294,16 @@ export default function EditForm({ listing }: EditFormProps) {
             <input name="facebook" value={form.facebook} onChange={handleChange} className="w-full border rounded p-2" />
           </div>
           <label className="flex items-center gap-2">
+            <input type="checkbox" name="isNonprofit" checked={form.isNonprofit} onChange={handleChange} />
+            <span>Nonprofit organization</span>
+          </label>
+          <label className="flex items-center gap-2">
             <input type="checkbox" name="approved" checked={form.approved} onChange={handleChange} />
             <span>Approved (visible on site)</span>
+          </label>
+          <label className="flex items-center gap-2">
+            <input type="checkbox" name="featured" checked={form.featured} onChange={handleChange} />
+            <span>Featured</span>
           </label>
           <button type="submit" disabled={loading} className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 disabled:opacity-50">
             {loading ? "Saving..." : "Save Changes"}

@@ -6,6 +6,8 @@ interface FormState {
   isFirm: boolean
   name: string
   slug: string
+  firm: string
+  tagline: string
   email: string
   phone: string
   description: string
@@ -13,6 +15,7 @@ interface FormState {
   city: string
   state: string
   zipCode: string
+  isNational: boolean
   specialties: string
   notableResults: string[]
   keyCharacteristics: string[]
@@ -21,6 +24,8 @@ interface FormState {
   linkedin: string
   facebook: string
   approved: boolean
+  featured: boolean
+  isNonprofit: boolean
 }
 
 interface BatchItem {
@@ -52,7 +57,6 @@ function generateSlug(name: string): string {
 
 function splitIntoItems(raw: string): string[] {
   const trimmed = raw.trim()
-  // Comma-separated quoted strings: "item1","item2",...
   if (trimmed.includes('","')) {
     const items = trimmed.replace(/^"|"$/g, "").split('","').map(s => s.trim()).filter(Boolean)
     if (items.length) return items
@@ -82,7 +86,6 @@ async function lookupByZip(zip: string): Promise<{ city: string; state: string }
   }
 }
 
-
 async function uploadFile(file: File): Promise<string> {
   const data = new FormData()
   data.append("file", file)
@@ -110,6 +113,8 @@ export default function NewListingPage() {
     isFirm: false,
     name: "",
     slug: "",
+    firm: "",
+    tagline: "",
     email: "",
     phone: "",
     description: "",
@@ -117,6 +122,7 @@ export default function NewListingPage() {
     city: "",
     state: "",
     zipCode: "",
+    isNational: false,
     specialties: "",
     notableResults: [""],
     keyCharacteristics: [""],
@@ -125,6 +131,8 @@ export default function NewListingPage() {
     linkedin: "",
     facebook: "",
     approved: false,
+    featured: false,
+    isNonprofit: false,
   })
 
   function formatPhone(value: string): string {
@@ -253,7 +261,12 @@ export default function NewListingPage() {
       const res = await fetch("/api/listings", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, specialties: form.specialties.split(',').map(s => s.trim()).filter(Boolean), notableResults: form.notableResults.filter(s => s.trim()), keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()) }),
+        body: JSON.stringify({
+          ...form,
+          specialties: form.specialties.split(',').map(s => s.trim()).filter(Boolean),
+          notableResults: form.notableResults.filter(s => s.trim()),
+          keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()),
+        }),
       })
       if (!res.ok) throw new Error("Failed to create listing")
       router.push("/admin/listings")
@@ -280,12 +293,20 @@ export default function NewListingPage() {
               <span>This is a firm (not an individual lawyer)</span>
             </label>
             <div>
+              <label className="block text-sm font-medium mb-1">Firm Name</label>
+              <input name="firm" value={form.firm} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Smith & Associates" />
+            </div>
+            <div>
               <label className="block text-sm font-medium mb-1">Name *</label>
               <input required name="name" value={form.name} onChange={handleChange} className="w-full border rounded p-2" />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Slug * (URL-friendly name e.g. john-smith)</label>
               <input readOnly name="slug" value={form.slug} className="w-full border rounded p-2 bg-gray-50 text-gray-500 cursor-default" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium mb-1">Tagline</label>
+              <input name="tagline" value={form.tagline} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. The National Catalyst" />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Email</label>
@@ -377,6 +398,10 @@ export default function NewListingPage() {
                 {zipCodeError && <p className="text-red-500 text-sm mt-1">{zipCodeError}</p>}
               </div>
             </div>
+            <label className="flex items-center gap-2">
+              <input type="checkbox" name="isNational" checked={form.isNational} onChange={handleChange} />
+              <span>National (operates across the US, not region-specific)</span>
+            </label>
             <div>
               <label className="block text-sm font-medium mb-1">Specialties</label>
               <input name="specialties" value={form.specialties} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
@@ -389,16 +414,6 @@ export default function NewListingPage() {
                     <input
                       value={item}
                       onChange={e => setForm(prev => ({ ...prev, notableResults: prev.notableResults.map((r, j) => j === i ? e.target.value : r) }))}
-                      onPaste={e => {
-                        const items = splitIntoItems(e.clipboardData.getData("text"))
-                        if (items.length <= 1) return
-                        e.preventDefault()
-                        setForm(prev => {
-                          const arr = [...prev.notableResults]
-                          arr.splice(i, 1, ...items)
-                          return { ...prev, notableResults: arr }
-                        })
-                      }}
                       onKeyDown={e => {
                         if (e.key === "Enter") {
                           e.preventDefault()
@@ -561,8 +576,16 @@ export default function NewListingPage() {
               {facebookError && <p className="text-red-500 text-sm mt-1">{facebookError}</p>}
             </div>
             <label className="flex items-center gap-2">
+              <input type="checkbox" name="isNonprofit" checked={form.isNonprofit} onChange={handleChange} />
+              <span>Nonprofit organization</span>
+            </label>
+            <label className="flex items-center gap-2">
               <input type="checkbox" name="approved" checked={form.approved} onChange={handleChange} />
               <span>Approved (visible on site)</span>
+            </label>
+            <label className="flex items-center gap-2">
+              <input type="checkbox" name="featured" checked={form.featured} onChange={handleChange} />
+              <span>Featured</span>
             </label>
             <button type="submit" disabled={loading} className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 disabled:opacity-50">
               {loading ? "Saving..." : "Add Listing"}
