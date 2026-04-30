@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
       notableResults?: string[]
       keyCharacteristics?: string[]
       barNumber?: string
-      websiteUrl?: string
+      website?: string
       linkedin?: string
       facebook?: string
       approved?: boolean
@@ -68,7 +68,7 @@ export async function POST(request: NextRequest) {
         notableResults: body.notableResults ?? [],
         keyCharacteristics: body.keyCharacteristics ?? [],
         barNumber: body.barNumber || null,
-        websiteUrl: body.websiteUrl || null,
+        website: body.website || null,
         linkedin: body.linkedin || null,
         facebook: body.facebook || null,
         approved: body.approved || false,

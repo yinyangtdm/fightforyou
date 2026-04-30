@@ -29,7 +29,7 @@ model Listing {
   notableResults      String[]  @default([])
   keyCharacteristics  String[]  @default([])
   barNumber           String?
-  websiteUrl          String?
+  website             String?
   linkedin            String?
   facebook            String?
   approved            Boolean   @default(false)

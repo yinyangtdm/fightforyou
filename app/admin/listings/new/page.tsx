@@ -17,7 +17,7 @@ interface FormState {
   notableResults: string[]
   keyCharacteristics: string[]
   barNumber: string
-  websiteUrl: string
+  website: string
   linkedin: string
   facebook: string
   approved: boolean
@@ -98,7 +98,7 @@ export default function NewListingPage() {
   const [error, setError] = useState<string>("")
   const [emailError, setEmailError] = useState<string>("")
   const [photoUploading, setPhotoUploading] = useState<boolean>(false)
-  const [websiteUrlError, setWebsiteUrlError] = useState<string>("")
+  const [websiteError, setWebsiteUrlError] = useState<string>("")
   const [zipCodeError, setZipCodeError] = useState<string>("")
   const [linkedinError, setLinkedinError] = useState<string>("")
   const [facebookError, setFacebookError] = useState<string>("")
@@ -121,7 +121,7 @@ export default function NewListingPage() {
     notableResults: [""],
     keyCharacteristics: [""],
     barNumber: "",
-    websiteUrl: "",
+    website: "",
     linkedin: "",
     facebook: "",
     approved: false,
@@ -494,21 +494,21 @@ export default function NewListingPage() {
             <div>
               <label className="block text-sm font-medium mb-1">Website URL</label>
               <input
-                name="websiteUrl"
-                value={form.websiteUrl}
+                name="website"
+                value={form.website}
                 onChange={handleChange}
                 onBlur={() => {
-                  if (!form.websiteUrl) { setWebsiteUrlError(""); return }
-                  const formatted = /^https?:\/\//i.test(form.websiteUrl)
-                    ? form.websiteUrl
-                    : "https://" + form.websiteUrl
-                  setForm(prev => ({ ...prev, websiteUrl: formatted }))
+                  if (!form.website) { setWebsiteUrlError(""); return }
+                  const formatted = /^https?:\/\//i.test(form.website)
+                    ? form.website
+                    : "https://" + form.website
+                  setForm(prev => ({ ...prev, website: formatted }))
                   try { new URL(formatted); setWebsiteUrlError("") }
                   catch { setWebsiteUrlError("Please enter a valid website URL.") }
                 }}
-                className={`w-full border rounded p-2 ${websiteUrlError ? "border-red-500" : ""}`}
+                className={`w-full border rounded p-2 ${websiteError ? "border-red-500" : ""}`}
               />
-              {websiteUrlError && <p className="text-red-500 text-sm mt-1">{websiteUrlError}</p>}
+              {websiteError && <p className="text-red-500 text-sm mt-1">{websiteError}</p>}
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">LinkedIn</label>

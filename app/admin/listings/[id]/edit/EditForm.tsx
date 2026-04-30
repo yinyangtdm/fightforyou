@@ -18,7 +18,7 @@ interface FormState {
   notableResults: string[]
   keyCharacteristics: string[]
   barNumber: string
-  websiteUrl: string
+  website: string
   linkedin: string
   facebook: string
   approved: boolean
@@ -67,7 +67,7 @@ export default function EditForm({ listing }: EditFormProps) {
     notableResults: listing.notableResults.length ? listing.notableResults : [""],
     keyCharacteristics: listing.keyCharacteristics.length ? listing.keyCharacteristics : [""],
     barNumber: listing.barNumber ?? "",
-    websiteUrl: listing.websiteUrl ?? "",
+    website: listing.website ?? "",
     linkedin: listing.linkedin ?? "",
     facebook: listing.facebook ?? "",
     approved: listing.approved,
@@ -268,7 +268,7 @@ export default function EditForm({ listing }: EditFormProps) {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Website URL</label>
-            <input name="websiteUrl" value={form.websiteUrl} onChange={handleChange} className="w-full border rounded p-2" />
+            <input name="website" value={form.website} onChange={handleChange} className="w-full border rounded p-2" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">LinkedIn</label>
