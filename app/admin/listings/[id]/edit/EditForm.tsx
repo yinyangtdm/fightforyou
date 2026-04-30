@@ -14,14 +14,42 @@ interface FormState {
   city: string
   state: string
   zipCode: string
-  practiceAreas: string
-  notableResults: string
-  keyCharacteristics: string
+  specialties: string
+  notableResults: string[]
+  keyCharacteristics: string[]
   barNumber: string
   websiteUrl: string
   linkedin: string
   facebook: string
   approved: boolean
+}
+
+function splitIntoItems(raw: string): string[] {
+  const trimmed = raw.trim()
+  // Comma-separated quoted strings: "item1","item2",...
+  if (trimmed.includes('","')) {
+    const items = trimmed.replace(/^"|"$/g, "").split('","').map(s => s.trim()).filter(Boolean)
+    if (items.length) return items
+  }
+  const results: string[] = []
+  for (const line of raw.split(/\r?\n/)) {
+    const content = line.trim().replace(/^(?:[-•*·]|\d+[.)]) */, "")
+    if (!content) continue
+    for (const s of content.split(/(?<=[.!?]) +(?=[A-Z0-9])/)) {
+      const t = s.trim()
+      if (t) results.push(t)
+    }
+  }
+  return results.length ? results : [""]
+}
+
+function parseJsonList(value: string | null): string[] {
+  if (!value) return [""]
+  try {
+    const parsed = JSON.parse(value) as unknown
+    if (Array.isArray(parsed) && parsed.length > 0) return parsed.map(String)
+  } catch { /* not JSON — treat as legacy plain text */ }
+  return splitIntoItems(value)
 }
 
 interface EditFormProps {
@@ -43,9 +71,9 @@ export default function EditForm({ listing }: EditFormProps) {
     city: listing.city ?? "",
     state: listing.state ?? "",
     zipCode: listing.zipCode ?? "",
-    practiceAreas: listing.practiceAreas ?? "",
-    notableResults: listing.notableResults ?? "",
-    keyCharacteristics: listing.keyCharacteristics ?? "",
+    specialties: (listing.specialties ?? []).join(', '),
+    notableResults: parseJsonList(listing.notableResults ?? null),
+    keyCharacteristics: parseJsonList(listing.keyCharacteristics ?? null),
     barNumber: listing.barNumber ?? "",
     websiteUrl: listing.websiteUrl ?? "",
     linkedin: listing.linkedin ?? "",
@@ -68,7 +96,7 @@ export default function EditForm({ listing }: EditFormProps) {
       const res = await fetch(`/api/listings/${listing.id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, specialties: form.specialties.split(',').map(s => s.trim()).filter(Boolean), notableResults: form.notableResults.filter(s => s.trim()), keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()) }),
       })
       if (!res.ok) throw new Error("Failed to update listing")
       router.push("/admin/listings")
@@ -133,16 +161,114 @@ export default function EditForm({ listing }: EditFormProps) {
             </div>
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Practice Areas</label>
-            <input name="practiceAreas" value={form.practiceAreas} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
+            <label className="block text-sm font-medium mb-1">Specialties</label>
+            <input name="specialties" value={form.specialties} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Notable Results</label>
-            <textarea name="notableResults" value={form.notableResults} onChange={handleChange} rows={3} className="w-full border rounded p-2" />
+            <div className="space-y-2">
+              {form.notableResults.map((item, i) => (
+                <div key={i} className="flex gap-2">
+                  <input
+                    value={item}
+                    onChange={e => setForm(prev => ({ ...prev, notableResults: prev.notableResults.map((r, j) => j === i ? e.target.value : r) }))}
+                    onPaste={e => {
+                      const items = splitIntoItems(e.clipboardData.getData("text"))
+                      if (items.length <= 1) return
+                      e.preventDefault()
+                      setForm(prev => {
+                        const arr = [...prev.notableResults]
+                        arr.splice(i, 1, ...items)
+                        return { ...prev, notableResults: arr }
+                      })
+                    }}
+                    onKeyDown={e => {
+                      if (e.key === "Enter") {
+                        e.preventDefault()
+                        setForm(prev => {
+                          const arr = [...prev.notableResults]
+                          arr.splice(i + 1, 0, "")
+                          return { ...prev, notableResults: arr }
+                        })
+                      }
+                    }}
+                    className="flex-1 border rounded p-2"
+                    placeholder="e.g. Won $2M settlement for client"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setForm(prev => ({
+                      ...prev,
+                      notableResults: prev.notableResults.length === 1 ? [""] : prev.notableResults.filter((_, j) => j !== i),
+                    }))}
+                    className="text-gray-400 hover:text-red-600 px-2 text-xl leading-none"
+                    aria-label="Remove item"
+                  >
+                    &times;
+                  </button>
+                </div>
+              ))}
+              <button
+                type="button"
+                onClick={() => setForm(prev => ({ ...prev, notableResults: [...prev.notableResults, ""] }))}
+                className="text-sm text-blue-600 hover:text-blue-800"
+              >
+                + Add Item
+              </button>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Key Characteristics</label>
-            <textarea name="keyCharacteristics" value={form.keyCharacteristics} onChange={handleChange} rows={3} className="w-full border rounded p-2" />
+            <div className="space-y-2">
+              {form.keyCharacteristics.map((item, i) => (
+                <div key={i} className="flex gap-2">
+                  <input
+                    value={item}
+                    onChange={e => setForm(prev => ({ ...prev, keyCharacteristics: prev.keyCharacteristics.map((r, j) => j === i ? e.target.value : r) }))}
+                    onPaste={e => {
+                      const items = splitIntoItems(e.clipboardData.getData("text"))
+                      if (items.length <= 1) return
+                      e.preventDefault()
+                      setForm(prev => {
+                        const arr = [...prev.keyCharacteristics]
+                        arr.splice(i, 1, ...items)
+                        return { ...prev, keyCharacteristics: arr }
+                      })
+                    }}
+                    onKeyDown={e => {
+                      if (e.key === "Enter") {
+                        e.preventDefault()
+                        setForm(prev => {
+                          const arr = [...prev.keyCharacteristics]
+                          arr.splice(i + 1, 0, "")
+                          return { ...prev, keyCharacteristics: arr }
+                        })
+                      }
+                    }}
+                    className="flex-1 border rounded p-2"
+                    placeholder="e.g. Bilingual (Spanish/English)"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => setForm(prev => ({
+                      ...prev,
+                      keyCharacteristics: prev.keyCharacteristics.length === 1 ? [""] : prev.keyCharacteristics.filter((_, j) => j !== i),
+                    }))}
+                    className="text-gray-400 hover:text-red-600 px-2 text-xl leading-none"
+                    aria-label="Remove item"
+                  >
+                    &times;
+                  </button>
+                </div>
+              ))}
+              <button
+                type="button"
+                onClick={() => setForm(prev => ({ ...prev, keyCharacteristics: [...prev.keyCharacteristics, ""] }))}
+                className="text-sm text-blue-600 hover:text-blue-800"
+              >
+                + Add Item
+              </button>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Bar Number</label>

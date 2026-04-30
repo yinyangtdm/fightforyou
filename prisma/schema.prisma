@@ -17,17 +17,22 @@ model Listing {
   phone               String?
   bio                 String?
   photoUrl            String?
+  firm                String?
+  tagline             String?
+  description         String?
   city                String?
   state               String?
   zipCode             String?
+  isNational          Boolean  @default(false)
   latitude            Float?
   longitude           Float?
-  practiceAreas       String?
-  notableResults      String?
-  keyCharacteristics  String?
+  specialties         String[]  @default([])
+  notableResults      String[]  @default([])
+  keyCharacteristics  String[]  @default([])
   barNumber           String?
   websiteUrl          String?
   linkedin            String?
   facebook            String?
   approved            Boolean   @default(false)
+  featured            Boolean   @default(false)
 }

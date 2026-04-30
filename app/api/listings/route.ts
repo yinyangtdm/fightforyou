@@ -43,9 +43,9 @@ export async function POST(request: NextRequest) {
       city?: string
       state?: string
       zipCode?: string
-      practiceAreas?: string
-      notableResults?: string
-      keyCharacteristics?: string
+      specialties?: string[]
+      notableResults?: string[]
+      keyCharacteristics?: string[]
       barNumber?: string
       websiteUrl?: string
       linkedin?: string
@@ -64,9 +64,9 @@ export async function POST(request: NextRequest) {
         city: body.city || null,
         state: body.state || null,
         zipCode: body.zipCode || null,
-        practiceAreas: body.practiceAreas || null,
-        notableResults: body.notableResults || null,
-        keyCharacteristics: body.keyCharacteristics || null,
+        specialties: body.specialties ?? [],
+        notableResults: body.notableResults ?? [],
+        keyCharacteristics: body.keyCharacteristics ?? [],
         barNumber: body.barNumber || null,
         websiteUrl: body.websiteUrl || null,
         linkedin: body.linkedin || null,

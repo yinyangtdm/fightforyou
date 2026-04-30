@@ -13,9 +13,9 @@ interface FormState {
   city: string
   state: string
   zipCode: string
-  practiceAreas: string
-  notableResults: string
-  keyCharacteristics: string
+  specialties: string
+  notableResults: string[]
+  keyCharacteristics: string[]
   barNumber: string
   websiteUrl: string
   linkedin: string
@@ -50,6 +50,39 @@ function generateSlug(name: string): string {
   return s
 }
 
+function splitIntoItems(raw: string): string[] {
+  const trimmed = raw.trim()
+  // Comma-separated quoted strings: "item1","item2",...
+  if (trimmed.includes('","')) {
+    const items = trimmed.replace(/^"|"$/g, "").split('","').map(s => s.trim()).filter(Boolean)
+    if (items.length) return items
+  }
+  const results: string[] = []
+  for (const line of raw.split(/\r?\n/)) {
+    const content = line.trim().replace(/^(?:[-•*·]|\d+[.)]) */, "")
+    if (!content) continue
+    for (const s of content.split(/(?<=[.!?]) +(?=[A-Z0-9])/)) {
+      const t = s.trim()
+      if (t) results.push(t)
+    }
+  }
+  return results.length ? results : [""]
+}
+
+async function lookupByZip(zip: string): Promise<{ city: string; state: string } | null> {
+  try {
+    const res = await fetch(`https://api.zippopotam.us/us/${zip}`)
+    if (!res.ok) return null
+    const data = await res.json() as { places?: Array<{ "place name": string; "state abbreviation": string }> }
+    const place = data.places?.[0]
+    if (!place) return null
+    return { city: place["place name"], state: place["state abbreviation"] }
+  } catch {
+    return null
+  }
+}
+
+
 async function uploadFile(file: File): Promise<string> {
   const data = new FormData()
   data.append("file", file)
@@ -66,6 +99,9 @@ export default function NewListingPage() {
   const [emailError, setEmailError] = useState<string>("")
   const [photoUploading, setPhotoUploading] = useState<boolean>(false)
   const [websiteUrlError, setWebsiteUrlError] = useState<string>("")
+  const [zipCodeError, setZipCodeError] = useState<string>("")
+  const [linkedinError, setLinkedinError] = useState<string>("")
+  const [facebookError, setFacebookError] = useState<string>("")
   const [dragOver, setDragOver] = useState<boolean>(false)
   const [batch, setBatch] = useState<BatchState | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
@@ -81,9 +117,9 @@ export default function NewListingPage() {
     city: "",
     state: "",
     zipCode: "",
-    practiceAreas: "",
-    notableResults: "",
-    keyCharacteristics: "",
+    specialties: "",
+    notableResults: [""],
+    keyCharacteristics: [""],
     barNumber: "",
     websiteUrl: "",
     linkedin: "",
@@ -217,7 +253,7 @@ export default function NewListingPage() {
       const res = await fetch("/api/listings", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, specialties: form.specialties.split(',').map(s => s.trim()).filter(Boolean), notableResults: form.notableResults.filter(s => s.trim()), keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()) }),
       })
       if (!res.ok) throw new Error("Failed to create listing")
       router.push("/admin/listings")
@@ -322,20 +358,134 @@ export default function NewListingPage() {
               </div>
               <div>
                 <label className="block text-sm font-medium mb-1">Zip Code</label>
-                <input name="zipCode" value={form.zipCode} onChange={handleChange} className="w-full border rounded p-2" />
+                <input
+                  name="zipCode"
+                  value={form.zipCode}
+                  onChange={handleChange}
+                  onBlur={async () => {
+                    if (!form.zipCode) { setZipCodeError(""); return }
+                    if (!/^\d{5}(-\d{4})?$/.test(form.zipCode)) {
+                      setZipCodeError("Please enter a valid zip code (e.g. 12345 or 12345-6789).")
+                    } else {
+                      setZipCodeError("")
+                      const result = await lookupByZip(form.zipCode.slice(0, 5))
+                      if (result) setForm(prev => ({ ...prev, city: result.city, state: result.state }))
+                    }
+                  }}
+                  className={`w-full border rounded p-2 ${zipCodeError ? "border-red-500" : ""}`}
+                />
+                {zipCodeError && <p className="text-red-500 text-sm mt-1">{zipCodeError}</p>}
               </div>
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">Practice Areas</label>
-              <input name="practiceAreas" value={form.practiceAreas} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
+              <label className="block text-sm font-medium mb-1">Specialties</label>
+              <input name="specialties" value={form.specialties} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Notable Results</label>
-              <textarea name="notableResults" value={form.notableResults} onChange={handleChange} rows={3} className="w-full border rounded p-2" />
+              <div className="space-y-2">
+                {form.notableResults.map((item, i) => (
+                  <div key={i} className="flex gap-2">
+                    <input
+                      value={item}
+                      onChange={e => setForm(prev => ({ ...prev, notableResults: prev.notableResults.map((r, j) => j === i ? e.target.value : r) }))}
+                      onPaste={e => {
+                        const items = splitIntoItems(e.clipboardData.getData("text"))
+                        if (items.length <= 1) return
+                        e.preventDefault()
+                        setForm(prev => {
+                          const arr = [...prev.notableResults]
+                          arr.splice(i, 1, ...items)
+                          return { ...prev, notableResults: arr }
+                        })
+                      }}
+                      onKeyDown={e => {
+                        if (e.key === "Enter") {
+                          e.preventDefault()
+                          setForm(prev => {
+                            const arr = [...prev.notableResults]
+                            arr.splice(i + 1, 0, "")
+                            return { ...prev, notableResults: arr }
+                          })
+                        }
+                      }}
+                      className="flex-1 border rounded p-2"
+                      placeholder="e.g. Won $2M settlement for client"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setForm(prev => ({
+                        ...prev,
+                        notableResults: prev.notableResults.length === 1 ? [""] : prev.notableResults.filter((_, j) => j !== i),
+                      }))}
+                      className="text-gray-400 hover:text-red-600 px-2 text-xl leading-none"
+                      aria-label="Remove item"
+                    >
+                      &times;
+                    </button>
+                  </div>
+                ))}
+                <button
+                  type="button"
+                  onClick={() => setForm(prev => ({ ...prev, notableResults: [...prev.notableResults, ""] }))}
+                  className="text-sm text-blue-600 hover:text-blue-800"
+                >
+                  + Add Item
+                </button>
+              </div>
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Key Characteristics</label>
-              <textarea name="keyCharacteristics" value={form.keyCharacteristics} onChange={handleChange} rows={3} className="w-full border rounded p-2" />
+              <div className="space-y-2">
+                {form.keyCharacteristics.map((item, i) => (
+                  <div key={i} className="flex gap-2">
+                    <input
+                      value={item}
+                      onChange={e => setForm(prev => ({ ...prev, keyCharacteristics: prev.keyCharacteristics.map((r, j) => j === i ? e.target.value : r) }))}
+                      onPaste={e => {
+                        const items = splitIntoItems(e.clipboardData.getData("text"))
+                        if (items.length <= 1) return
+                        e.preventDefault()
+                        setForm(prev => {
+                          const arr = [...prev.keyCharacteristics]
+                          arr.splice(i, 1, ...items)
+                          return { ...prev, keyCharacteristics: arr }
+                        })
+                      }}
+                      onKeyDown={e => {
+                        if (e.key === "Enter") {
+                          e.preventDefault()
+                          setForm(prev => {
+                            const arr = [...prev.keyCharacteristics]
+                            arr.splice(i + 1, 0, "")
+                            return { ...prev, keyCharacteristics: arr }
+                          })
+                        }
+                      }}
+                      className="flex-1 border rounded p-2"
+                      placeholder="e.g. Bilingual (Spanish/English)"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => setForm(prev => ({
+                        ...prev,
+                        keyCharacteristics: prev.keyCharacteristics.length === 1 ? [""] : prev.keyCharacteristics.filter((_, j) => j !== i),
+                      }))}
+                      className="text-gray-400 hover:text-red-600 px-2 text-xl leading-none"
+                      aria-label="Remove item"
+                    >
+                      &times;
+                    </button>
+                  </div>
+                ))}
+                <button
+                  type="button"
+                  onClick={() => setForm(prev => ({ ...prev, keyCharacteristics: [...prev.keyCharacteristics, ""] }))}
+                  className="text-sm text-blue-600 hover:text-blue-800"
+                >
+                  + Add Item
+                </button>
+              </div>
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Bar Number</label>
@@ -362,11 +512,53 @@ export default function NewListingPage() {
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">LinkedIn</label>
-              <input name="linkedin" value={form.linkedin} onChange={handleChange} className="w-full border rounded p-2" />
+              <input
+                name="linkedin"
+                value={form.linkedin}
+                onChange={handleChange}
+                onBlur={() => {
+                  if (!form.linkedin) { setLinkedinError(""); return }
+                  const formatted = /^https?:\/\//i.test(form.linkedin) ? form.linkedin : "https://" + form.linkedin
+                  setForm(prev => ({ ...prev, linkedin: formatted }))
+                  try {
+                    const url = new URL(formatted)
+                    if (!url.hostname.replace(/^www\./, "").startsWith("linkedin.com")) {
+                      setLinkedinError("Please enter a valid LinkedIn URL.")
+                    } else {
+                      setLinkedinError("")
+                    }
+                  } catch {
+                    setLinkedinError("Please enter a valid LinkedIn URL.")
+                  }
+                }}
+                className={`w-full border rounded p-2 ${linkedinError ? "border-red-500" : ""}`}
+              />
+              {linkedinError && <p className="text-red-500 text-sm mt-1">{linkedinError}</p>}
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Facebook</label>
-              <input name="facebook" value={form.facebook} onChange={handleChange} className="w-full border rounded p-2" />
+              <input
+                name="facebook"
+                value={form.facebook}
+                onChange={handleChange}
+                onBlur={() => {
+                  if (!form.facebook) { setFacebookError(""); return }
+                  const formatted = /^https?:\/\//i.test(form.facebook) ? form.facebook : "https://" + form.facebook
+                  setForm(prev => ({ ...prev, facebook: formatted }))
+                  try {
+                    const url = new URL(formatted)
+                    if (!url.hostname.replace(/^www\./, "").startsWith("facebook.com")) {
+                      setFacebookError("Please enter a valid Facebook URL.")
+                    } else {
+                      setFacebookError("")
+                    }
+                  } catch {
+                    setFacebookError("Please enter a valid Facebook URL.")
+                  }
+                }}
+                className={`w-full border rounded p-2 ${facebookError ? "border-red-500" : ""}`}
+              />
+              {facebookError && <p className="text-red-500 text-sm mt-1">{facebookError}</p>}
             </div>
             <label className="flex items-center gap-2">
               <input type="checkbox" name="approved" checked={form.approved} onChange={handleChange} />

@@ -23,11 +23,13 @@ export async function PATCH(
 
   try {
     const body = await request.json() as Record<string, unknown>
-    const nullable = ["email", "phone", "bio", "photoUrl", "city", "state", "zipCode", "practiceAreas", "notableResults", "keyCharacteristics", "barNumber", "websiteUrl", "linkedin", "facebook"]
-    const direct = ["isFirm", "name", "slug", "approved"]
+    const nullable = ["email", "phone", "bio", "photoUrl", "city", "state", "zipCode", "barNumber", "websiteUrl", "linkedin", "facebook"]
+    const direct = ["isFirm", "name", "slug", "approved", "featured"]
+    const arrays = ["specialties", "notableResults", "keyCharacteristics"]
     const data: Record<string, unknown> = {}
     for (const f of nullable) if (f in body) data[f] = body[f] || null
     for (const f of direct) if (f in body) data[f] = body[f]
+    for (const f of arrays) if (f in body) data[f] = Array.isArray(body[f]) ? body[f] : []
     const listing = await prisma.listing.update({ where: { id }, data })
     return Response.json(listing)
   } catch (err) {
