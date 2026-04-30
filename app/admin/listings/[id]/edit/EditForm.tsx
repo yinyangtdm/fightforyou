@@ -43,14 +43,6 @@ function splitIntoItems(raw: string): string[] {
   return results.length ? results : [""]
 }
 
-function parseJsonList(value: string | null): string[] {
-  if (!value) return [""]
-  try {
-    const parsed = JSON.parse(value) as unknown
-    if (Array.isArray(parsed) && parsed.length > 0) return parsed.map(String)
-  } catch { /* not JSON — treat as legacy plain text */ }
-  return splitIntoItems(value)
-}
 
 interface EditFormProps {
   listing: Listing
@@ -72,8 +64,8 @@ export default function EditForm({ listing }: EditFormProps) {
     state: listing.state ?? "",
     zipCode: listing.zipCode ?? "",
     specialties: (listing.specialties ?? []).join(', '),
-    notableResults: parseJsonList(listing.notableResults ?? null),
-    keyCharacteristics: parseJsonList(listing.keyCharacteristics ?? null),
+    notableResults: listing.notableResults.length ? listing.notableResults : [""],
+    keyCharacteristics: listing.keyCharacteristics.length ? listing.keyCharacteristics : [""],
     barNumber: listing.barNumber ?? "",
     websiteUrl: listing.websiteUrl ?? "",
     linkedin: listing.linkedin ?? "",
