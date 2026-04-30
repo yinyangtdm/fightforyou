@@ -30,6 +30,5 @@ model Listing {
   websiteUrl          String?
   linkedin            String?
   facebook            String?
-  twitter             String?
   approved            Boolean   @default(false)
 }

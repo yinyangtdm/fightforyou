@@ -52,7 +52,6 @@ export default function NewListingPage() {
     websiteUrl: "",
     linkedin: "",
     facebook: "",
-    twitter: "",
     approved: false,
   })
 
@@ -325,10 +324,6 @@ export default function NewListingPage() {
             <div>
               <label className="block text-sm font-medium mb-1">Facebook</label>
               <input name="facebook" value={form.facebook} onChange={handleChange} className="w-full border rounded p-2" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium mb-1">Twitter</label>
-              <input name="twitter" value={form.twitter} onChange={handleChange} className="w-full border rounded p-2" />
             </div>
             <label className="flex items-center gap-2">
               <input type="checkbox" name="approved" checked={form.approved} onChange={handleChange} />

@@ -51,7 +51,6 @@ export async function POST(request) {
         websiteUrl: body.websiteUrl || null,
         linkedin: body.linkedin || null,
         facebook: body.facebook || null,
-        twitter: body.twitter || null,
         approved: body.approved || false,
       }
     })

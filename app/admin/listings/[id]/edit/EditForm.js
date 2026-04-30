@@ -24,7 +24,6 @@ export default function EditForm({ listing }) {
     websiteUrl: listing.websiteUrl ?? "",
     linkedin: listing.linkedin ?? "",
     facebook: listing.facebook ?? "",
-    twitter: listing.twitter ?? "",
     approved: listing.approved,
   })
 
@@ -132,10 +131,6 @@ export default function EditForm({ listing }) {
           <div>
             <label className="block text-sm font-medium mb-1">Facebook</label>
             <input name="facebook" value={form.facebook} onChange={handleChange} className="w-full border rounded p-2" />
-          </div>
-          <div>
-            <label className="block text-sm font-medium mb-1">Twitter</label>
-            <input name="twitter" value={form.twitter} onChange={handleChange} className="w-full border rounded p-2" />
           </div>
           <label className="flex items-center gap-2">
             <input type="checkbox" name="approved" checked={form.approved} onChange={handleChange} />
