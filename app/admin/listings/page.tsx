@@ -49,7 +49,7 @@ export default async function ListingsPage() {
                   <tr key={listing.id} className="hover:bg-gray-50">
                     <td className="px-4 py-3 font-medium">{listing.name}</td>
                     <td className="px-4 py-3 text-gray-500">
-                      {listing.isFirm ? "Firm" : "Lawyer"}
+                      {listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Firm" : "Attorney"}
                     </td>
                     <td className="px-4 py-3 text-gray-500">
                       {[listing.city, listing.state].filter(Boolean).join(", ") || "—"}

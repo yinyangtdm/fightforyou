@@ -12,6 +12,7 @@ interface FormState {
   phone: string
   description: string
   photoUrl: string
+  streetAddress: string
   city: string
   state: string
   zipCode: string
@@ -47,8 +48,10 @@ function generateSlug(name: string): string {
   let s = name.trim()
   s = s.replace(/^(Mr|Mrs|Ms|Dr|Prof)\.?\s+/i, "")
   s = s.replace(/[,\s]+(Jr|Sr|II|III|IV|V)\.?$/i, "")
-  s = s.replace(/[+&,]/g, "")
+  s = s.replace(/,?\s*(PLLC|APLC|CHTD|CORP|LLP|LLC|APC|PLC|LTD|INC|PSC|PA|PC|PL|SC|LP)\.?$/i, "")
+  s = s.replace(/[+,]/g, "")
   s = s.replace(/\band\b/gi, "")
+  s = s.replace(/&/g, " and ")
   s = s.replace(/[\d.]/g, "")
   s = s.toLowerCase().replace(/\s+/g, "-")
   s = s.replace(/-+/g, "-").replace(/^-+|-+$/g, "")
@@ -100,6 +103,7 @@ export default function NewListingPage() {
   const [loading, setLoading] = useState<boolean>(false)
   const [error, setError] = useState<string>("")
   const [emailError, setEmailError] = useState<string>("")
+  const [phoneError, setPhoneError] = useState<string>("")
   const [photoUploading, setPhotoUploading] = useState<boolean>(false)
   const [websiteError, setWebsiteUrlError] = useState<string>("")
   const [zipCodeError, setZipCodeError] = useState<string>("")
@@ -119,6 +123,7 @@ export default function NewListingPage() {
     phone: "",
     description: "",
     photoUrl: "",
+    streetAddress: "",
     city: "",
     state: "",
     zipCode: "",
@@ -152,6 +157,14 @@ export default function NewListingPage() {
     }
     if (name === "phone") {
       setForm(prev => ({ ...prev, phone: formatPhone(value) }))
+      return
+    }
+    if (name === "isFirm" && checked) {
+      setForm(prev => ({ ...prev, isFirm: true, isNonprofit: false }))
+      return
+    }
+    if (name === "isNonprofit" && checked) {
+      setForm(prev => ({ ...prev, isNonprofit: true, isFirm: false }))
       return
     }
     setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
@@ -288,14 +301,22 @@ export default function NewListingPage() {
           <h1 className="text-2xl font-bold mb-6">Add New Listing</h1>
           {error && <p className="text-red-500 mb-4">{error}</p>}
           <form onSubmit={handleSubmit} className="space-y-4">
-            <label className="flex items-center gap-2">
-              <input type="checkbox" name="isFirm" checked={form.isFirm} onChange={handleChange} />
-              <span>This is a firm (not an individual lawyer)</span>
-            </label>
-            <div>
-              <label className="block text-sm font-medium mb-1">Firm Name</label>
-              <input name="firm" value={form.firm} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Smith & Associates" />
+            <div className="flex gap-6">
+              <label className="flex items-center gap-2">
+                <input type="checkbox" name="isFirm" checked={form.isFirm} onChange={handleChange} />
+                <span>Firm</span>
+              </label>
+              <label className="flex items-center gap-2">
+                <input type="checkbox" name="isNonprofit" checked={form.isNonprofit} onChange={handleChange} />
+                <span>Nonprofit</span>
+              </label>
             </div>
+            {!form.isFirm && !form.isNonprofit && (
+              <div>
+                <label className="block text-sm font-medium mb-1">Firm Name</label>
+                <input name="firm" value={form.firm} onChange={handleChange} className="w-full border rounded p-2" />
+              </div>
+            )}
             <div>
               <label className="block text-sm font-medium mb-1">Name *</label>
               <input required name="name" value={form.name} onChange={handleChange} className="w-full border rounded p-2" />
@@ -328,7 +349,21 @@ export default function NewListingPage() {
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Phone</label>
-              <input name="phone" value={form.phone} onChange={handleChange} className="w-full border rounded p-2" />
+              <input
+                name="phone"
+                value={form.phone}
+                onChange={handleChange}
+                onBlur={() => {
+                  const digits = form.phone.replace(/\D/g, "")
+                  if (digits && digits.length < 10) {
+                    setPhoneError("Please enter a complete 10-digit phone number.")
+                  } else {
+                    setPhoneError("")
+                  }
+                }}
+                className={`w-full border rounded p-2 ${phoneError ? "border-red-500" : ""}`}
+              />
+              {phoneError && <p className="text-red-500 text-sm mt-1">{phoneError}</p>}
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Description</label>
@@ -368,14 +403,18 @@ export default function NewListingPage() {
                 </div>
               )}
             </div>
+            <div>
+              <label className="block text-sm font-medium mb-1">Street Address</label>
+              <input name="streetAddress" value={form.streetAddress} onChange={handleChange} className="w-full border rounded p-2" />
+            </div>
             <div className="grid grid-cols-3 gap-4">
               <div>
                 <label className="block text-sm font-medium mb-1">City</label>
-                <input name="city" value={form.city} onChange={handleChange} className="w-full border rounded p-2" />
+                <input readOnly name="city" value={form.city} className="w-full border rounded p-2 bg-gray-50 text-gray-500 cursor-default" />
               </div>
               <div>
                 <label className="block text-sm font-medium mb-1">State</label>
-                <input name="state" value={form.state} onChange={handleChange} className="w-full border rounded p-2" />
+                <input readOnly name="state" value={form.state} className="w-full border rounded p-2 bg-gray-50 text-gray-500 cursor-default" />
               </div>
               <div>
                 <label className="block text-sm font-medium mb-1">Zip Code</label>
@@ -575,10 +614,6 @@ export default function NewListingPage() {
               />
               {facebookError && <p className="text-red-500 text-sm mt-1">{facebookError}</p>}
             </div>
-            <label className="flex items-center gap-2">
-              <input type="checkbox" name="isNonprofit" checked={form.isNonprofit} onChange={handleChange} />
-              <span>Nonprofit organization</span>
-            </label>
             <label className="flex items-center gap-2">
               <input type="checkbox" name="approved" checked={form.approved} onChange={handleChange} />
               <span>Approved (visible on site)</span>
