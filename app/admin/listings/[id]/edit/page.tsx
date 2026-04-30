@@ -5,10 +5,14 @@ import { redirect, notFound } from "next/navigation"
 import EditForm from "./EditForm"
 
 const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL })
+  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
 })
 
-export default async function EditListingPage({ params }) {
+export default async function EditListingPage({
+  params,
+}: {
+  params: Promise<{ id: string }>
+}) {
   const session = await auth()
   if (!session) redirect("/admin/login")
 

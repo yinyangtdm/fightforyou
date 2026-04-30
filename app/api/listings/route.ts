@@ -1,9 +1,10 @@
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { auth } from "../../../auth"
+import { NextRequest } from "next/server"
 
 const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL })
+  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
 })
 
 export async function GET() {
@@ -24,14 +25,33 @@ export async function GET() {
   }
 }
 
-export async function POST(request) {
+export async function POST(request: NextRequest) {
   const session = await auth()
   if (!session) {
     return Response.json({ error: "Unauthorized" }, { status: 401 })
   }
 
   try {
-    const body = await request.json()
+    const body = await request.json() as {
+      isFirm?: boolean
+      name: string
+      slug: string
+      email?: string
+      phone?: string
+      bio?: string
+      photoUrl?: string
+      city?: string
+      state?: string
+      zipCode?: string
+      practiceAreas?: string
+      notableResults?: string
+      keyCharacteristics?: string
+      barNumber?: string
+      websiteUrl?: string
+      linkedin?: string
+      facebook?: string
+      approved?: boolean
+    }
     const listing = await prisma.listing.create({
       data: {
         isFirm: body.isFirm || false,
@@ -52,7 +72,7 @@ export async function POST(request) {
         linkedin: body.linkedin || null,
         facebook: body.facebook || null,
         approved: body.approved || false,
-      }
+      },
     })
     return Response.json(listing, { status: 201 })
   } catch (err) {

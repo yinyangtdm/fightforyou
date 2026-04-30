@@ -1,5 +1,6 @@
 import { v2 as cloudinary } from "cloudinary"
 import { auth } from "../../../auth"
+import { NextRequest } from "next/server"
 
 cloudinary.config({
   cloud_name: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
@@ -7,7 +8,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 })
 
-export async function POST(request) {
+export async function POST(request: NextRequest) {
   const session = await auth()
   if (!session) {
     return Response.json({ error: "Unauthorized" }, { status: 401 })
@@ -16,7 +17,7 @@ export async function POST(request) {
   try {
     const formData = await request.formData()
     const file = formData.get("file")
-    if (!file) {
+    if (!file || !(file instanceof File)) {
       return Response.json({ error: "No file provided" }, { status: 400 })
     }
 

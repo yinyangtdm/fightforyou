@@ -5,7 +5,7 @@ import { redirect } from "next/navigation"
 import DeleteButton from "./DeleteButton"
 
 const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL })
+  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
 })
 
 export default async function ListingsPage() {
@@ -13,7 +13,7 @@ export default async function ListingsPage() {
   if (!session) redirect("/admin/login")
 
   const listings = await prisma.listing.findMany({
-    orderBy: { createdAt: "desc" }
+    orderBy: { createdAt: "desc" },
   })
 
   return (

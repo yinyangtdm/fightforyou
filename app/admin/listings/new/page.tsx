@@ -2,7 +2,43 @@
 import { useState, useRef } from "react"
 import { useRouter } from "next/navigation"
 
-function generateSlug(name) {
+interface FormState {
+  isFirm: boolean
+  name: string
+  slug: string
+  email: string
+  phone: string
+  bio: string
+  photoUrl: string
+  city: string
+  state: string
+  zipCode: string
+  practiceAreas: string
+  notableResults: string
+  keyCharacteristics: string
+  barNumber: string
+  websiteUrl: string
+  linkedin: string
+  facebook: string
+  approved: boolean
+}
+
+interface BatchItem {
+  filename: string
+  slug: string
+  url: string | null
+  listingId: number | null
+  listingName: string | null
+  skip: boolean
+  error: string | null
+}
+
+interface BatchState {
+  status: "processing" | "preview" | "saving" | "done"
+  items: BatchItem[]
+}
+
+function generateSlug(name: string): string {
   let s = name.trim()
   s = s.replace(/^(Mr|Mrs|Ms|Dr|Prof)\.?\s+/i, "")
   s = s.replace(/[,\s]+(Jr|Sr|II|III|IV|V)\.?$/i, "")
@@ -14,27 +50,27 @@ function generateSlug(name) {
   return s
 }
 
-async function uploadFile(file) {
+async function uploadFile(file: File): Promise<string> {
   const data = new FormData()
   data.append("file", file)
   const res = await fetch("/api/upload", { method: "POST", body: data })
-  const result = await res.json()
-  if (!res.ok) throw new Error(result.error || "Upload failed")
-  return result.url
+  const result = await res.json() as { url?: string; error?: string }
+  if (!res.ok) throw new Error(result.error ?? "Upload failed")
+  return result.url!
 }
 
 export default function NewListingPage() {
   const router = useRouter()
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState("")
-  const [emailError, setEmailError] = useState("")
-  const [photoUploading, setPhotoUploading] = useState(false)
-  const [websiteUrlError, setWebsiteUrlError] = useState("")
-  const [dragOver, setDragOver] = useState(false)
-  const [batch, setBatch] = useState(null)
-  const fileInputRef = useRef(null)
+  const [loading, setLoading] = useState<boolean>(false)
+  const [error, setError] = useState<string>("")
+  const [emailError, setEmailError] = useState<string>("")
+  const [photoUploading, setPhotoUploading] = useState<boolean>(false)
+  const [websiteUrlError, setWebsiteUrlError] = useState<string>("")
+  const [dragOver, setDragOver] = useState<boolean>(false)
+  const [batch, setBatch] = useState<BatchState | null>(null)
+  const fileInputRef = useRef<HTMLInputElement>(null)
 
-  const [form, setForm] = useState({
+  const [form, setForm] = useState<FormState>({
     isFirm: false,
     name: "",
     slug: "",
@@ -55,15 +91,17 @@ export default function NewListingPage() {
     approved: false,
   })
 
-  function formatPhone(value) {
+  function formatPhone(value: string): string {
     const digits = value.replace(/\D/g, "").replace(/^1+/, "").slice(0, 10)
     if (digits.length < 4) return digits.length ? `(${digits}` : ""
     if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`
     return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
   }
 
-  function handleChange(e) {
-    const { name, value, type, checked } = e.target
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+    const { name, value } = e.target
+    const checked = (e.target as HTMLInputElement).checked
+    const type = e.target.type
     if (name === "name") {
       setForm(prev => ({ ...prev, name: value, slug: generateSlug(value) }))
       return
@@ -75,20 +113,20 @@ export default function NewListingPage() {
     setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
   }
 
-  async function handleSingleUpload(file) {
+  async function handleSingleUpload(file: File) {
     setPhotoUploading(true)
     try {
       const url = await uploadFile(file)
       setForm(prev => ({ ...prev, photoUrl: url }))
     } catch (err) {
-      setError(err.message)
+      setError((err as Error).message)
     } finally {
       setPhotoUploading(false)
     }
   }
 
-  async function startBatchUpload(files) {
-    const initialItems = files.map(file => ({
+  async function startBatchUpload(files: File[]) {
+    const initialItems: BatchItem[] = files.map(file => ({
       filename: file.name,
       slug: generateSlug(file.name.replace(/\.[^.]+$/, "")),
       url: null,
@@ -102,12 +140,12 @@ export default function NewListingPage() {
 
     const [listingsResult, ...uploadResults] = await Promise.all([
       fetch("/api/listings")
-        .then(r => r.json())
-        .catch(() => []),
+        .then(r => r.json() as Promise<Array<{ id: number; name: string; slug: string }>>)
+        .catch(() => [] as Array<{ id: number; name: string; slug: string }>),
       ...files.map(file =>
         uploadFile(file)
           .then(url => ({ url, error: null }))
-          .catch(err => ({ url: null, error: err.message }))
+          .catch((err: Error) => ({ url: null, error: err.message }))
       ),
     ])
 
@@ -116,8 +154,8 @@ export default function NewListingPage() {
     setBatch({
       status: "preview",
       items: initialItems.map((item, i) => {
-        const { url, error } = uploadResults[i]
-        const match = listings.find(l => l.slug === item.slug)
+        const { url, error } = uploadResults[i] as { url: string | null; error: string | null }
+        const match = listings.find((l: { id: number; name: string; slug: string }) => l.slug === item.slug)
         return {
           ...item,
           url,
@@ -130,14 +168,14 @@ export default function NewListingPage() {
     })
   }
 
-  function handleFileSelect(e) {
-    const files = Array.from(e.target.files)
+  function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
+    const files = Array.from(e.target.files ?? [])
     e.target.value = ""
     if (files.length === 1) handleSingleUpload(files[0])
     else if (files.length > 1) startBatchUpload(files)
   }
 
-  function handleDrop(e) {
+  function handleDrop(e: React.DragEvent<HTMLDivElement>) {
     e.preventDefault()
     setDragOver(false)
     const files = Array.from(e.dataTransfer.files).filter(f => f.type.startsWith("image/"))
@@ -146,8 +184,8 @@ export default function NewListingPage() {
   }
 
   async function handleBatchConfirm() {
-    setBatch(prev => ({ ...prev, status: "saving" }))
-    const toUpdate = batch.items.filter(item => item.listingId && !item.skip && item.url && !item.error)
+    setBatch(prev => prev ? { ...prev, status: "saving" } : prev)
+    const toUpdate = batch!.items.filter(item => item.listingId && !item.skip && item.url && !item.error)
     await Promise.all(
       toUpdate.map(item =>
         fetch(`/api/listings/${item.listingId}`, {
@@ -157,17 +195,21 @@ export default function NewListingPage() {
         })
       )
     )
-    setBatch(prev => ({ ...prev, status: "done" }))
+    setBatch(prev => prev ? { ...prev, status: "done" } : prev)
   }
 
-  function toggleBatchSkip(index, checked) {
-    setBatch(prev => ({
-      ...prev,
-      items: prev.items.map((item, i) => i === index ? { ...item, skip: checked } : item),
-    }))
+  function toggleBatchSkip(index: number, checked: boolean) {
+    setBatch(prev =>
+      prev
+        ? {
+            ...prev,
+            items: prev.items.map((item, i) => (i === index ? { ...item, skip: checked } : item)),
+          }
+        : prev
+    )
   }
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setLoading(true)
     setError("")
@@ -180,7 +222,7 @@ export default function NewListingPage() {
       if (!res.ok) throw new Error("Failed to create listing")
       router.push("/admin/listings")
     } catch (err) {
-      setError(err.message)
+      setError((err as Error).message)
     } finally {
       setLoading(false)
     }
@@ -242,7 +284,7 @@ export default function NewListingPage() {
                 onDragOver={e => { e.preventDefault(); setDragOver(true) }}
                 onDragLeave={() => setDragOver(false)}
                 onDrop={handleDrop}
-                onClick={() => fileInputRef.current.click()}
+                onClick={() => fileInputRef.current?.click()}
                 className={`border-2 border-dashed rounded-lg p-6 text-center cursor-pointer transition-colors select-none ${dragOver ? "border-blue-400 bg-blue-50" : "border-gray-300 hover:border-gray-400"}`}
               >
                 {photoUploading ? (
@@ -257,6 +299,7 @@ export default function NewListingPage() {
               </div>
               {form.photoUrl && (
                 <div className="mt-2 flex items-center gap-3">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={form.photoUrl} alt="Preview" className="h-16 w-16 rounded object-cover" />
                   <button
                     type="button"
@@ -385,6 +428,7 @@ export default function NewListingPage() {
                         </td>
                         <td className="px-3 py-2">
                           {item.url && (
+                            // eslint-disable-next-line @next/next/no-img-element
                             <img src={item.url} alt="" className="h-10 w-10 rounded object-cover" />
                           )}
                         </td>

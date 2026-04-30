@@ -1,12 +1,38 @@
 "use client"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
+import { Listing } from "@prisma/client"
 
-export default function EditForm({ listing }) {
+interface FormState {
+  isFirm: boolean
+  name: string
+  slug: string
+  email: string
+  phone: string
+  bio: string
+  photoUrl: string
+  city: string
+  state: string
+  zipCode: string
+  practiceAreas: string
+  notableResults: string
+  keyCharacteristics: string
+  barNumber: string
+  websiteUrl: string
+  linkedin: string
+  facebook: string
+  approved: boolean
+}
+
+interface EditFormProps {
+  listing: Listing
+}
+
+export default function EditForm({ listing }: EditFormProps) {
   const router = useRouter()
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState("")
-  const [form, setForm] = useState({
+  const [loading, setLoading] = useState<boolean>(false)
+  const [error, setError] = useState<string>("")
+  const [form, setForm] = useState<FormState>({
     isFirm: listing.isFirm,
     name: listing.name,
     slug: listing.slug,
@@ -27,12 +53,14 @@ export default function EditForm({ listing }) {
     approved: listing.approved,
   })
 
-  function handleChange(e) {
-    const { name, value, type, checked } = e.target
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+    const { name, value } = e.target
+    const checked = (e.target as HTMLInputElement).checked
+    const type = e.target.type
     setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
   }
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setLoading(true)
     setError("")
@@ -45,7 +73,7 @@ export default function EditForm({ listing }) {
       if (!res.ok) throw new Error("Failed to update listing")
       router.push("/admin/listings")
     } catch (err) {
-      setError(err.message)
+      setError((err as Error).message)
     } finally {
       setLoading(false)
     }

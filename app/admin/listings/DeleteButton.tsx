@@ -2,9 +2,13 @@
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 
-export default function DeleteButton({ id }) {
+interface DeleteButtonProps {
+  id: number
+}
+
+export default function DeleteButton({ id }: DeleteButtonProps) {
   const router = useRouter()
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState<boolean>(false)
 
   async function handleDelete() {
     if (!confirm("Delete this listing?")) return

@@ -1,12 +1,16 @@
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { auth } from "../../../../auth"
+import { NextRequest } from "next/server"
 
 const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL })
+  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
 })
 
-export async function PATCH(request, { params }) {
+export async function PATCH(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
   const session = await auth()
   if (!session) {
     return Response.json({ error: "Unauthorized" }, { status: 401 })
@@ -18,10 +22,10 @@ export async function PATCH(request, { params }) {
   }
 
   try {
-    const body = await request.json()
-    const nullable = ["email","phone","bio","photoUrl","city","state","zipCode","practiceAreas","notableResults","keyCharacteristics","barNumber","websiteUrl","linkedin","facebook"]
-    const direct = ["isFirm","name","slug","approved"]
-    const data = {}
+    const body = await request.json() as Record<string, unknown>
+    const nullable = ["email", "phone", "bio", "photoUrl", "city", "state", "zipCode", "practiceAreas", "notableResults", "keyCharacteristics", "barNumber", "websiteUrl", "linkedin", "facebook"]
+    const direct = ["isFirm", "name", "slug", "approved"]
+    const data: Record<string, unknown> = {}
     for (const f of nullable) if (f in body) data[f] = body[f] || null
     for (const f of direct) if (f in body) data[f] = body[f]
     const listing = await prisma.listing.update({ where: { id }, data })
@@ -32,7 +36,10 @@ export async function PATCH(request, { params }) {
   }
 }
 
-export async function DELETE(request, { params }) {
+export async function DELETE(
+  request: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
   const session = await auth()
   if (!session) {
     return Response.json({ error: "Unauthorized" }, { status: 401 })
