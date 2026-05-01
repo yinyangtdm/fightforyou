@@ -3,7 +3,6 @@ import { PrismaPg } from "@prisma/adapter-pg"
 import { auth } from "../../../auth"
 import { redirect } from "next/navigation"
 import DeleteButton from "./DeleteButton"
-import BulkPhotoUpload from "./BulkPhotoUpload"
 
 const prisma = new PrismaClient({
   adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
@@ -22,15 +21,12 @@ export default async function ListingsPage() {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-3xl font-bold">Listings</h1>
-          <div className="flex items-center gap-3">
-            <BulkPhotoUpload />
-            <a
-              href="/admin/listings/new"
-              className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800"
-            >
-              Add New
-            </a>
-          </div>
+          <a
+            href="/admin/listings/new"
+            className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800"
+          >
+            Add New
+          </a>
         </div>
 
         {listings.length === 0 ? (
@@ -40,7 +36,6 @@ export default async function ListingsPage() {
             <table className="w-full text-sm text-left">
               <thead className="bg-gray-50 border-b">
                 <tr>
-                  <th className="px-4 py-3 font-medium">Photo</th>
                   <th className="px-4 py-3 font-medium">Name</th>
                   <th className="px-4 py-3 font-medium">Type</th>
                   <th className="px-4 py-3 font-medium">Location</th>
@@ -52,13 +47,6 @@ export default async function ListingsPage() {
               <tbody className="divide-y">
                 {listings.map((listing) => (
                   <tr key={listing.id} className="hover:bg-gray-50">
-                    <td className="px-4 py-3">
-                      {listing.photoUrl
-                        ? /* eslint-disable-next-line @next/next/no-img-element */
-                          <img src={listing.photoUrl} alt="" className="h-10 w-10 rounded object-cover" />
-                        : <div className="h-10 w-10 rounded bg-gray-100" />
-                      }
-                    </td>
                     <td className="px-4 py-3 font-medium">{listing.name}</td>
                     <td className="px-4 py-3 text-gray-500">
                       {listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Firm" : "Attorney"}
