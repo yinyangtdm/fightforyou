@@ -223,9 +223,23 @@ export default function NewListingPage() {
         ...(data.city !== undefined && { city: data.city }),
         ...(data.state !== undefined && { state: data.state }),
         ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
-        ...(data.specialties !== undefined && { specialties: data.specialties }),
-        ...(data.notableResults !== undefined && { notableResults: data.notableResults.length ? data.notableResults : [""] }),
-        ...(data.keyCharacteristics !== undefined && { keyCharacteristics: data.keyCharacteristics.length ? data.keyCharacteristics : [""] }),
+        ...(data.specialties !== undefined && {
+          specialties: prev.specialties && data.specialties
+            ? prev.specialties + ", " + data.specialties
+            : prev.specialties || data.specialties,
+        }),
+        ...(data.notableResults !== undefined && {
+          notableResults: (() => {
+            const merged = [...prev.notableResults.filter(s => s.trim()), ...data.notableResults]
+            return merged.length ? merged : [""]
+          })(),
+        }),
+        ...(data.keyCharacteristics !== undefined && {
+          keyCharacteristics: (() => {
+            const merged = [...prev.keyCharacteristics.filter(s => s.trim()), ...data.keyCharacteristics]
+            return merged.length ? merged : [""]
+          })(),
+        }),
         ...(data.barNumber !== undefined && { barNumber: data.barNumber }),
         ...(data.website !== undefined && { website: data.website }),
         ...(data.linkedin !== undefined && { linkedin: data.linkedin }),
