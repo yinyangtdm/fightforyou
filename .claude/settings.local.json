@@ -8,7 +8,9 @@
       "Bash(git push *)",
       "Bash(npm run *)",
       "Bash(npx prisma *)",
-      "Bash(grep -n \"^\\\\\\\\\\\\.\" C:/Users/yinya/legal-directory/profiles.sql)"
+      "Bash(grep -n \"^\\\\\\\\\\\\.\" C:/Users/yinya/legal-directory/profiles.sql)",
+      "Bash(git pull *)",
+      "Bash(npm install *)"
     ]
   }
 }

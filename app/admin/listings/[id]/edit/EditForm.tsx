@@ -66,6 +66,9 @@ function splitIntoItems(raw: string): string[] {
 function parseAddress(input: string): { streetAddress?: string; city?: string; state?: string; zipCode?: string } | null {
   const s = input.trim()
   if (!s) return null
+  // "street city, ST, zip" (no comma before state, comma after state)
+  const z = s.match(/^(.+)\s+([^,]+),\s*([A-Za-z]{2}),\s*(\d{5}(-\d{4})?)$/)
+  if (z) return { streetAddress: z[1].trim(), city: z[2].trim(), state: z[3].toUpperCase(), zipCode: z[4] }
   // "street, city, ST zip"
   const a = s.match(/^(.+),\s*(.+),\s*([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
   if (a) return { streetAddress: a[1].trim(), city: a[2].trim(), state: a[3].toUpperCase(), zipCode: a[4] }
@@ -175,8 +178,8 @@ export default function EditForm({ listing }: EditFormProps) {
     setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
   }
 
-  async function handleParseAddress() {
-    const parsed = parseAddress(addressInput)
+  async function handleParseAddress(override?: string) {
+    const parsed = parseAddress(override ?? addressInput)
     if (!parsed) return
     setForm(prev => ({
       ...prev,
@@ -339,6 +342,12 @@ export default function EditForm({ listing }: EditFormProps) {
                 value={addressInput}
                 onChange={e => setAddressInput(e.target.value)}
                 onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); void handleParseAddress() } }}
+                onPaste={e => {
+                  e.preventDefault()
+                  const text = e.clipboardData.getData("text")
+                  setAddressInput(text)
+                  void handleParseAddress(text)
+                }}
                 placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
                 className="flex-1 border rounded p-2"
               />

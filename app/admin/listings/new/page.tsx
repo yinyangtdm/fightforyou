@@ -65,6 +65,9 @@ function splitIntoItems(raw: string): string[] {
 function parseAddress(input: string): { streetAddress?: string; city?: string; state?: string; zipCode?: string } | null {
   const s = input.trim()
   if (!s) return null
+  // "street city, ST, zip" (no comma before state, comma after state)
+  const z = s.match(/^(.+)\s+([^,]+),\s*([A-Za-z]{2}),\s*(\d{5}(-\d{4})?)$/)
+  if (z) return { streetAddress: z[1].trim(), city: z[2].trim(), state: z[3].toUpperCase(), zipCode: z[4] }
   // "street, city, ST zip"
   const a = s.match(/^(.+),\s*(.+),\s*([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
   if (a) return { streetAddress: a[1].trim(), city: a[2].trim(), state: a[3].toUpperCase(), zipCode: a[4] }
@@ -111,6 +114,8 @@ export default function NewListingPage() {
   const [linkedinError, setLinkedinError] = useState("")
   const [facebookError, setFacebookError] = useState("")
   const [addressInput, setAddressInput] = useState("")
+  const [pageText, setPageText] = useState("")
+  const [autoFillLoading, setAutoFillLoading] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   const [form, setForm] = useState<FormState>({
@@ -170,8 +175,8 @@ export default function NewListingPage() {
     setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
   }
 
-  async function handleParseAddress() {
-    const parsed = parseAddress(addressInput)
+  async function handleParseAddress(override?: string) {
+    const parsed = parseAddress(override ?? addressInput)
     if (!parsed) return
     setForm(prev => ({
       ...prev,
@@ -184,6 +189,52 @@ export default function NewListingPage() {
       setZipCodeError("")
       const result = await lookupByZip(parsed.zipCode.slice(0, 5))
       if (result) setForm(prev => ({ ...prev, city: result.city, state: result.state }))
+    }
+  }
+
+  async function handleAutoFill() {
+    if (!pageText.trim()) return
+    setAutoFillLoading(true)
+    try {
+      const res = await fetch("/api/extract-listing", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: pageText }),
+      })
+      if (!res.ok) throw new Error("Auto-fill request failed")
+      const data = await res.json() as {
+        name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean
+        tagline?: string; email?: string; phone?: string; description?: string
+        streetAddress?: string; city?: string; state?: string; zipCode?: string
+        specialties?: string; notableResults?: string[]; keyCharacteristics?: string[]
+        barNumber?: string; website?: string; linkedin?: string; facebook?: string
+      }
+      setForm(prev => ({
+        ...prev,
+        ...(data.name !== undefined && { name: data.name, slug: generateSlug(data.name) }),
+        ...(data.firm !== undefined && { firm: data.firm }),
+        ...(data.isFirm !== undefined && { isFirm: data.isFirm }),
+        ...(data.isNonprofit !== undefined && { isNonprofit: data.isNonprofit }),
+        ...(data.tagline !== undefined && { tagline: data.tagline }),
+        ...(data.email !== undefined && { email: data.email }),
+        ...(data.phone !== undefined && { phone: formatPhone(data.phone) }),
+        ...(data.description !== undefined && { description: data.description }),
+        ...(data.streetAddress !== undefined && { streetAddress: data.streetAddress }),
+        ...(data.city !== undefined && { city: data.city }),
+        ...(data.state !== undefined && { state: data.state }),
+        ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
+        ...(data.specialties !== undefined && { specialties: data.specialties }),
+        ...(data.notableResults !== undefined && { notableResults: data.notableResults.length ? data.notableResults : [""] }),
+        ...(data.keyCharacteristics !== undefined && { keyCharacteristics: data.keyCharacteristics.length ? data.keyCharacteristics : [""] }),
+        ...(data.barNumber !== undefined && { barNumber: data.barNumber }),
+        ...(data.website !== undefined && { website: data.website }),
+        ...(data.linkedin !== undefined && { linkedin: data.linkedin }),
+        ...(data.facebook !== undefined && { facebook: data.facebook }),
+      }))
+    } catch (err) {
+      setError((err as Error).message)
+    } finally {
+      setAutoFillLoading(false)
     }
   }
 
@@ -228,6 +279,23 @@ export default function NewListingPage() {
         <h1 className="text-2xl font-bold mb-6">Add New Listing</h1>
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <textarea
+              value={pageText}
+              onChange={e => setPageText(e.target.value)}
+              rows={4}
+              placeholder="Paste lawyer bio page text here to auto-fill..."
+              className="w-full border rounded p-2 text-sm"
+            />
+            <button
+              type="button"
+              onClick={() => void handleAutoFill()}
+              disabled={autoFillLoading || !pageText.trim()}
+              className="mt-1 px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50"
+            >
+              {autoFillLoading ? "Filling..." : "Auto-fill"}
+            </button>
+          </div>
           <div className="flex gap-6">
             <label className="flex items-center gap-2">
               <input type="checkbox" name="isFirm" checked={form.isFirm} onChange={handleChange} />
@@ -325,13 +393,19 @@ export default function NewListingPage() {
             <label className="block text-sm font-medium mb-1">Full Address</label>
             <div className="flex gap-2">
               <input
-                type="text"
-                value={addressInput}
-                onChange={e => setAddressInput(e.target.value)}
-                onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); void handleParseAddress() } }}
-                placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
-                className="flex-1 border rounded p-2"
-              />
+  type="text"
+  value={addressInput}
+  onChange={e => setAddressInput(e.target.value)}
+  onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); void handleParseAddress() } }}
+  onPaste={e => {
+    e.preventDefault()
+    const text = e.clipboardData.getData("text")
+    setAddressInput(text)
+    void handleParseAddress(text)
+  }}
+  placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
+  className="flex-1 border rounded p-2"
+/>
               <button
                 type="button"
                 onClick={() => void handleParseAddress()}
