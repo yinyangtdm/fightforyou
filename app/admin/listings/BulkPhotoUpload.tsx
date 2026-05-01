@@ -148,7 +148,7 @@ export default function BulkPhotoUpload({ listings }: Props) {
         }`}
       >
         <p className="text-gray-500 text-sm">Drag photos here or click to select</p>
-        <p className="text-gray-400 text-xs mt-1">Filenames should match listing names (e.g. "John Smith.jpg")</p>
+        <p className="text-gray-400 text-xs mt-1">Filenames should match listing names (e.g. &quot;John Smith.jpg&quot;)</p>
         <input ref={inputRef} type="file" accept="image/*" multiple onChange={handleInputChange} className="hidden" />
       </div>
 

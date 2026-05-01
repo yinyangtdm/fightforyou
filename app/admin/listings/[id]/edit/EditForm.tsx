@@ -67,13 +67,13 @@ function parseAddress(input: string): { streetAddress?: string; city?: string; s
   const s = input.trim()
   if (!s) return null
   // "street, city, ST zip"
-  const a = s.match(/^(.+),\s*(.+),\s*([A-Za-z]{2})\s+(\d{5}(?:-\d{4})?)$/)
+  const a = s.match(/^(.+),\s*(.+),\s*([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
   if (a) return { streetAddress: a[1].trim(), city: a[2].trim(), state: a[3].toUpperCase(), zipCode: a[4] }
   // "street, city ST zip" (no comma before state)
-  const b = s.match(/^(.+),\s*(.+?)\s+([A-Za-z]{2})\s+(\d{5}(?:-\d{4})?)$/)
+  const b = s.match(/^(.+),\s*(.+?)\s+([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
   if (b) return { streetAddress: b[1].trim(), city: b[2].trim(), state: b[3].toUpperCase(), zipCode: b[4] }
   // zip only / partial — extract what's there
-  const c = s.match(/\b(\d{5}(?:-\d{4})?)\s*$/)
+  const c = s.match(/\b(\d{5}(-\d{4})?)\s*$/)
   if (c) return { zipCode: c[1] }
   return null
 }
