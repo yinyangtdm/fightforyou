@@ -53,7 +53,7 @@ function splitIntoItems(raw: string): string[] {
   for (const line of raw.split(/\r?\n/)) {
     const content = line.trim().replace(/^(?:[-•*·]|\d+[.)]) */, "")
     if (!content) continue
-    for (const s of content.split(/(?<=[.!?]) +(?=[A-Z0-9])/)) {
+    for (const s of content.replace(/([.!?]) +(?=[A-Z0-9])/g, "$1\x00").split("\x00")) {
       const t = s.trim()
       if (t) results.push(t)
     }
