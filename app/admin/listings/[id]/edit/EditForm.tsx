@@ -63,6 +63,21 @@ function splitIntoItems(raw: string): string[] {
   return results.length ? results : [""]
 }
 
+function parseAddress(input: string): { streetAddress?: string; city?: string; state?: string; zipCode?: string } | null {
+  const s = input.trim()
+  if (!s) return null
+  // "street, city, ST zip"
+  const a = s.match(/^(.+),\s*(.+),\s*([A-Za-z]{2})\s+(\d{5}(?:-\d{4})?)$/)
+  if (a) return { streetAddress: a[1].trim(), city: a[2].trim(), state: a[3].toUpperCase(), zipCode: a[4] }
+  // "street, city ST zip" (no comma before state)
+  const b = s.match(/^(.+),\s*(.+?)\s+([A-Za-z]{2})\s+(\d{5}(?:-\d{4})?)$/)
+  if (b) return { streetAddress: b[1].trim(), city: b[2].trim(), state: b[3].toUpperCase(), zipCode: b[4] }
+  // zip only / partial — extract what's there
+  const c = s.match(/\b(\d{5}(?:-\d{4})?)\s*$/)
+  if (c) return { zipCode: c[1] }
+  return null
+}
+
 async function lookupByZip(zip: string): Promise<{ city: string; state: string } | null> {
   try {
     const res = await fetch(`https://api.zippopotam.us/us/${zip}`)
@@ -100,6 +115,7 @@ export default function EditForm({ listing }: EditFormProps) {
   const [linkedinError, setLinkedinError] = useState("")
   const [facebookError, setFacebookError] = useState("")
   const [photoUploading, setPhotoUploading] = useState(false)
+  const [addressInput, setAddressInput] = useState("")
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   const [form, setForm] = useState<FormState>({
@@ -157,6 +173,23 @@ export default function EditForm({ listing }: EditFormProps) {
       return
     }
     setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
+  }
+
+  async function handleParseAddress() {
+    const parsed = parseAddress(addressInput)
+    if (!parsed) return
+    setForm(prev => ({
+      ...prev,
+      ...(parsed.streetAddress !== undefined && { streetAddress: parsed.streetAddress }),
+      ...(parsed.city !== undefined && { city: parsed.city }),
+      ...(parsed.state !== undefined && { state: parsed.state }),
+      ...(parsed.zipCode !== undefined && { zipCode: parsed.zipCode }),
+    }))
+    if (parsed.zipCode) {
+      setZipCodeError("")
+      const result = await lookupByZip(parsed.zipCode.slice(0, 5))
+      if (result) setForm(prev => ({ ...prev, city: result.city, state: result.state }))
+    }
   }
 
   function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
@@ -297,6 +330,26 @@ export default function EditForm({ listing }: EditFormProps) {
                 </button>
               </div>
             )}
+          </div>
+          <div>
+            <label className="block text-sm font-medium mb-1">Full Address</label>
+            <div className="flex gap-2">
+              <input
+                type="text"
+                value={addressInput}
+                onChange={e => setAddressInput(e.target.value)}
+                onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); void handleParseAddress() } }}
+                placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
+                className="flex-1 border rounded p-2"
+              />
+              <button
+                type="button"
+                onClick={() => void handleParseAddress()}
+                className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
+              >
+                Parse
+              </button>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Street Address</label>
