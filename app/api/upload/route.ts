@@ -24,8 +24,12 @@ export async function POST(request: NextRequest) {
     const buffer = Buffer.from(await file.arrayBuffer())
     const dataUrl = `data:${file.type};base64,${buffer.toString("base64")}`
 
+    const publicId = formData.get("publicId")
     const result = await cloudinary.uploader.upload(dataUrl, {
       transformation: [{ width: 400, height: 400, crop: "fill", gravity: "face" }],
+      ...(publicId && typeof publicId === "string"
+        ? { public_id: publicId, overwrite: true, invalidate: true }
+        : {}),
     })
 
     return Response.json({ url: result.secure_url })
