@@ -119,79 +119,7 @@ export default function EditForm({ listing }: EditFormProps) {
   const [facebookError, setFacebookError] = useState("")
   const [photoUploading, setPhotoUploading] = useState(false)
   const [addressInput, setAddressInput] = useState("")
-  const [pageText, setPageText] = useState("")
-  const [autoFillLoading, setAutoFillLoading] = useState(false)
-  const [copyConfirm, setCopyConfirm] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
-
-  const COPY_PROMPT = "Full official firm name. Tagline. Email address. Phone number. 3-4 paragraph description about why he is the heavy hitter against police in his firm. Office address. Practice areas limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields. Notable results such as 7 figure settlements and verdicts against police. Key characteristics. Bar number. Website URL, LinkedIn, Facebook."
-
-  function handleCopyPrompt() {
-    void navigator.clipboard.writeText(COPY_PROMPT).then(() => {
-      setCopyConfirm(true)
-      setTimeout(() => setCopyConfirm(false), 2000)
-    })
-  }
-
-  async function handleAutoFill() {
-    if (!pageText.trim()) return
-    setAutoFillLoading(true)
-    try {
-      const res = await fetch("/api/extract-listing", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: pageText }),
-      })
-      if (!res.ok) throw new Error("Auto-fill request failed")
-      const data = await res.json() as {
-        name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean
-        tagline?: string; email?: string; phone?: string; description?: string
-        streetAddress?: string; city?: string; state?: string; zipCode?: string
-        specialties?: string; notableResults?: string[]; keyCharacteristics?: string[]
-        barNumber?: string; website?: string; linkedin?: string; facebook?: string
-      }
-      setForm(prev => ({
-        ...prev,
-        ...(data.name !== undefined && { name: data.name, slug: generateSlug(data.name) }),
-        ...(data.firm !== undefined && { firm: data.firm }),
-        ...(data.isFirm !== undefined && { isFirm: data.isFirm }),
-        ...(data.isNonprofit !== undefined && { isNonprofit: data.isNonprofit }),
-        ...(data.tagline !== undefined && { tagline: data.tagline }),
-        ...(data.email !== undefined && { email: data.email }),
-        ...(data.phone !== undefined && { phone: formatPhone(data.phone) }),
-        ...(data.description !== undefined && { description: data.description }),
-        ...(data.streetAddress !== undefined && { streetAddress: data.streetAddress }),
-        ...(data.city !== undefined && { city: data.city }),
-        ...(data.state !== undefined && { state: data.state }),
-        ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
-        ...(data.specialties !== undefined && {
-          specialties: prev.specialties && data.specialties
-            ? prev.specialties + ", " + data.specialties
-            : prev.specialties || data.specialties,
-        }),
-        ...(data.notableResults !== undefined && {
-          notableResults: (() => {
-            const merged = [...prev.notableResults.filter(s => s.trim()), ...data.notableResults]
-            return merged.length ? merged : [""]
-          })(),
-        }),
-        ...(data.keyCharacteristics !== undefined && {
-          keyCharacteristics: (() => {
-            const merged = [...prev.keyCharacteristics.filter(s => s.trim()), ...data.keyCharacteristics]
-            return merged.length ? merged : [""]
-          })(),
-        }),
-        ...(data.barNumber !== undefined && { barNumber: data.barNumber }),
-        ...(data.website !== undefined && { website: data.website }),
-        ...(data.linkedin !== undefined && { linkedin: data.linkedin }),
-        ...(data.facebook !== undefined && { facebook: data.facebook }),
-      }))
-    } catch (err) {
-      setError((err as Error).message)
-    } finally {
-      setAutoFillLoading(false)
-    }
-  }
 
   const [form, setForm] = useState<FormState>({
     isFirm: listing.isFirm ?? false,
@@ -313,32 +241,6 @@ export default function EditForm({ listing }: EditFormProps) {
         </div>
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <textarea
-              value={pageText}
-              onChange={e => setPageText(e.target.value)}
-              rows={4}
-              placeholder="Paste lawyer bio page text here to auto-fill..."
-              className="w-full border rounded p-2 text-sm"
-            />
-            <div className="mt-1 flex gap-2">
-              <button
-                type="button"
-                onClick={() => void handleAutoFill()}
-                disabled={autoFillLoading || !pageText.trim()}
-                className="px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50"
-              >
-                {autoFillLoading ? "Filling..." : "Auto-fill"}
-              </button>
-              <button
-                type="button"
-                onClick={handleCopyPrompt}
-                className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
-              >
-                {copyConfirm ? "Copied!" : "Copy prompt"}
-              </button>
-            </div>
-          </div>
           <div className="flex gap-6">
             <label className="flex items-center gap-2">
               <input type="checkbox" name="isFirm" checked={form.isFirm} onChange={handleChange} />
