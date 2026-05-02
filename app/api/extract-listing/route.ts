@@ -1,14 +1,9 @@
 import Anthropic from "@anthropic-ai/sdk"
 import { NextResponse } from "next/server"
 
+const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+
 export async function POST(req: Request) {
-  const apiKey = process.env.ANTHROPIC_API_KEY
-  if (!apiKey) {
-    return NextResponse.json({ error: "ANTHROPIC_API_KEY not set" }, { status: 500 })
-  }
-
-  const client = new Anthropic({ apiKey })
-
   try {
     const { text } = await req.json() as { text: string }
     if (!text?.trim()) return NextResponse.json({ error: "No text provided" }, { status: 400 })
