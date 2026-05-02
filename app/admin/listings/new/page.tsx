@@ -116,7 +116,17 @@ export default function NewListingPage() {
   const [addressInput, setAddressInput] = useState("")
   const [pageText, setPageText] = useState("")
   const [autoFillLoading, setAutoFillLoading] = useState(false)
+  const [copyConfirm, setCopyConfirm] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
+
+  const COPY_PROMPT = "Full official firm name. Tagline. Email address. Phone number. 3-4 paragraph description about why he is the heavy hitter against police in his firm. Office address. Practice areas limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields. Notable results such as 7 figure settlements and verdicts against police. Key characteristics. Bar number. Website URL, LinkedIn, Facebook."
+
+  function handleCopyPrompt() {
+    void navigator.clipboard.writeText(COPY_PROMPT).then(() => {
+      setCopyConfirm(true)
+      setTimeout(() => setCopyConfirm(false), 2000)
+    })
+  }
 
   const [form, setForm] = useState<FormState>({
     isFirm: false,
@@ -301,14 +311,23 @@ export default function NewListingPage() {
               placeholder="Paste lawyer bio page text here to auto-fill..."
               className="w-full border rounded p-2 text-sm"
             />
-            <button
-              type="button"
-              onClick={() => void handleAutoFill()}
-              disabled={autoFillLoading || !pageText.trim()}
-              className="mt-1 px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50"
-            >
-              {autoFillLoading ? "Filling..." : "Auto-fill"}
-            </button>
+            <div className="mt-1 flex gap-2">
+              <button
+                type="button"
+                onClick={() => void handleAutoFill()}
+                disabled={autoFillLoading || !pageText.trim()}
+                className="px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50"
+              >
+                {autoFillLoading ? "Filling..." : "Auto-fill"}
+              </button>
+              <button
+                type="button"
+                onClick={handleCopyPrompt}
+                className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
+              >
+                {copyConfirm ? "Copied!" : "Copy prompt"}
+              </button>
+            </div>
           </div>
           <div className="flex gap-6">
             <label className="flex items-center gap-2">
