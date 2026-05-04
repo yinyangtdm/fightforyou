@@ -4,16 +4,17 @@ import { NextResponse } from "next/server"
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
 export async function POST(req: Request) {
-  const { text } = await req.json() as { text: string }
-  if (!text?.trim()) return NextResponse.json({ error: "No text provided" }, { status: 400 })
+  try {
+    const { text } = await req.json() as { text: string }
+    if (!text?.trim()) return NextResponse.json({ error: "No text provided" }, { status: 400 })
 
-  const message = await client.messages.create({
-    model: "claude-sonnet-4-6",
-    max_tokens: 4096,
-    messages: [
-      {
-        role: "user",
-        content: `Extract lawyer/firm listing fields from the following bio text. Return only a JSON object with these exact keys (omit keys where no information is found):
+    const message = await client.messages.create({
+      model: "claude-sonnet-4-6",
+      max_tokens: 4096,
+      messages: [
+        {
+          role: "user",
+          content: `Extract lawyer/firm listing fields from the following bio text. Return only a JSON object with these exact keys (omit keys where no information is found):
 - name (string)
 - firm (string)
 - isFirm (boolean — true if the listing is itself a law firm rather than an individual)
@@ -38,15 +39,19 @@ Return only valid JSON, no markdown, no explanation.
 
 Bio text:
 ${text}`,
-      },
-    ],
-  })
+        },
+      ],
+    })
 
-  const raw = message.content[0].type === "text" ? message.content[0].text : ""
-  try {
-    const data = JSON.parse(raw) as Record<string, unknown>
-    return NextResponse.json(data)
-  } catch {
-    return NextResponse.json({ error: "Failed to parse response", raw }, { status: 500 })
+    const raw = message.content[0].type === "text" ? message.content[0].text : ""
+    try {
+      const data = JSON.parse(raw) as Record<string, unknown>
+      return NextResponse.json(data)
+    } catch {
+      return NextResponse.json({ error: "Failed to parse response", raw }, { status: 500 })
+    }
+  } catch (error) {
+    console.error("Extract listing error:", error)
+    return NextResponse.json({ error: (error as Error).message }, { status: 500 })
   }
 }
