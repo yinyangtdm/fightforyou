@@ -124,7 +124,7 @@ export default function EditForm({ listing }: EditFormProps) {
   const [copyConfirm, setCopyConfirm] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
 
-  const COPY_PROMPT = "Full official firm name. Tagline. Email address. Phone number. 3-4 paragraph description about why he is the heavy hitter against police in his firm. Office address. Practice areas limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields. Notable results such as 7 figure settlements and verdicts against police. Key characteristics. Bar number. Website URL, LinkedIn, Facebook."
+  const COPY_PROMPT = "Full official firm name. A 3-6 word descriptive nickname-style tagline. Email address. Phone number. 3-4 paragraph description focusing on history against police. Office address. Practice areas limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields. Notable results such as 7 figure settlements and verdicts against police. Key characteristics. Bar number. Website URL, LinkedIn, Facebook."
 
   function handleCopyPrompt() {
     void navigator.clipboard.writeText(COPY_PROMPT).then(() => {
