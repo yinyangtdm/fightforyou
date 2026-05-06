@@ -146,12 +146,9 @@ export default async function SegmentPage({
           </div>
           {data.type === "specialty" && <p>{subheading}</p>}
           {data.type === "specialty" && <span className="listing-page-count">{data.listings.length} results</span>}
+          {data.type === "state" && <p className="listing-page-subheading">{subheading}</p>}
+          {data.type === "state" && <span className="listing-page-count">{data.listings.length} results</span>}
         </div>
-
-        {data.type === "state" && <FilingDeadlines stateAbbr={data.stateAbbr} />}
-
-        {data.type === "state" && <p className="listing-page-subheading">{subheading}</p>}
-        {data.type === "state" && <span className="listing-page-count">{data.listings.length} results</span>}
 
         <div className="listing-grid">
           {data.listings.map((listing) => (
@@ -161,6 +158,12 @@ export default async function SegmentPage({
             <p className="listing-empty">No listings found.</p>
           )}
         </div>
+
+        {data.type === "state" && (
+          <div className="mt-12">
+            <FilingDeadlines stateAbbr={data.stateAbbr} />
+          </div>
+        )}
       </div>
 
       <Footer />
