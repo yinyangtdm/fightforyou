@@ -75,8 +75,8 @@ export default async function ProfilePage({
               <Image
                 src={listing.photoUrl}
                 alt={listing.name}
-                width={120}
-                height={120}
+                width={240}
+                height={240}
                 className="profile-img"
               />
             ) : (
