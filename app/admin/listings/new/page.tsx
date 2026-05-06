@@ -162,6 +162,11 @@ export default function NewListingPage() {
     return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
   }
 
+  function normalizeSpecialties(raw: string): string {
+    const deduped = [...new Set(raw.split(",").map(s => s.trim()).filter(Boolean))]
+    return deduped.sort((a, b) => a.localeCompare(b)).join(", ")
+  }
+
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { name, value } = e.target
     const checked = (e.target as HTMLInputElement).checked
@@ -234,9 +239,11 @@ export default function NewListingPage() {
         ...(data.state !== undefined && { state: data.state }),
         ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
         ...(data.specialties !== undefined && {
-          specialties: prev.specialties && data.specialties
-            ? prev.specialties + ", " + data.specialties
-            : prev.specialties || data.specialties,
+          specialties: normalizeSpecialties(
+            prev.specialties && data.specialties
+              ? prev.specialties + ", " + data.specialties
+              : prev.specialties || data.specialties,
+          ),
         }),
         ...(data.notableResults !== undefined && {
           notableResults: (() => {
@@ -488,7 +495,7 @@ export default function NewListingPage() {
           </label>
           <div>
             <label className="block text-sm font-medium mb-1">Specialties</label>
-            <input name="specialties" value={form.specialties} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
+            <input name="specialties" value={form.specialties} onChange={handleChange} onBlur={(e) => setForm(prev => ({ ...prev, specialties: normalizeSpecialties(e.target.value) }))} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Notable Results</label>
