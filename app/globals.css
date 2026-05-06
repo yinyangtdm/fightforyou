@@ -947,10 +947,7 @@ footer {
 }
 
 .profile-badge {
-  position: absolute;
-  bottom: -7px;
-  left: 50%;
-  transform: translateX(-50%) translateY(50%);
+  margin-top: 16px;
   white-space: nowrap;
   font-size: 10px;
   padding: 3px 12px;
@@ -1105,7 +1102,7 @@ a.listing-card-specialty:hover {
   height: 240px;
   border-radius: 16px;
   object-fit: cover;
-  box-shadow: 0 0 0 7px var(--border-light);
+  box-shadow: 0 0 0 10px var(--border-light);
 }
 
 .profile-img-placeholder {
