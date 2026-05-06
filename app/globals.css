@@ -1192,7 +1192,10 @@ a.listing-card-specialty:hover {
   font-weight: 300;
   color: var(--muted-text);
   line-height: 1.9;
+  margin-bottom: 1em;
 }
+
+.profile-section > p:last-child { margin-bottom: 0; }
 
 .profile-specialty-link {
   font-family: var(--sans);
