@@ -1171,6 +1171,7 @@ a.listing-card-specialty:hover {
   gap: 10px;
   margin-top: 24px;
   width: 260px;
+  align-self: flex-end;
 }
 
 .profile-btn-block {
@@ -1199,6 +1200,7 @@ a.listing-card-specialty:hover {
   display: flex;
   align-items: center;
   gap: 5px;
+  align-self: flex-end;
 }
 
 .profile-website-link:hover { color: var(--blood-red); }
