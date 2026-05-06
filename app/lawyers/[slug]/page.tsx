@@ -65,7 +65,7 @@ export default async function ProfilePage({
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
 
   return (
-    <div className="public">
+    <div className="public profile-public">
       <Nav specialties={specialties} />
 
       <div className="profile-hero">
