@@ -952,7 +952,12 @@ footer {
   padding: 3px 8px;
 }
 
-.profile-photo-col .profile-badge {
+.profile-photo-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-photo-wrap .profile-badge {
   position: absolute;
   top: 240px;
   left: 50%;

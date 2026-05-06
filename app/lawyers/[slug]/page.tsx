@@ -70,18 +70,20 @@ export default async function ProfilePage({
 
       <div className="profile-hero">
         <div className="profile-photo-col">
-          {listing.photoUrl ? (
-            <Image
-              src={listing.photoUrl}
-              alt={listing.name}
-              width={240}
-              height={240}
-              className="profile-img"
-            />
-          ) : (
-            <div className="profile-img-placeholder" />
-          )}
-          <span className="listing-card-badge profile-badge">{type}</span>
+          <div className="profile-photo-wrap">
+            {listing.photoUrl ? (
+              <Image
+                src={listing.photoUrl}
+                alt={listing.name}
+                width={240}
+                height={240}
+                className="profile-img"
+              />
+            ) : (
+              <div className="profile-img-placeholder" />
+            )}
+            <span className="listing-card-badge profile-badge">{type}</span>
+          </div>
         </div>
 
         <div className="profile-info-col">
