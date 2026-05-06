@@ -1052,10 +1052,11 @@ a.listing-card-specialty:hover {
 }
 
 .profile-hero {
-  width: 100%;
+  margin: 32px 40px;
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
   background: transparent;
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
+  overflow: hidden;
 }
 
 .profile-hero-content {
