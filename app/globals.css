@@ -1083,7 +1083,7 @@ a.listing-card-specialty:hover {
 .profile-page {
   max-width: 900px;
   margin: 0 auto;
-  padding: 48px 40px 96px;
+  padding: 24px 40px 96px;
   background: transparent;
 }
 
@@ -1216,6 +1216,12 @@ a.listing-card-specialty:hover {
   gap: 8px;
 }
 
+
+.profile-section:first-child {
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  padding: 28px 32px;
+}
 
 .profile-section:first-child h2 {
   font-size: 26px;
