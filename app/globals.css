@@ -1069,7 +1069,7 @@ a.listing-card-specialty:hover {
 }
 
 .profile-hero {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 32px auto;
   border-radius: 12px;
   border: 1px solid var(--border-light);
