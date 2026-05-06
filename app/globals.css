@@ -1069,6 +1069,7 @@ a.listing-card-specialty:hover {
   border: 1px solid var(--border-light);
   background: var(--pure-white);
   overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
 
 .profile-hero-content {
@@ -1222,6 +1223,7 @@ a.listing-card-specialty:hover {
   border-radius: 12px;
   padding: 28px 32px;
   background: var(--pure-white);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
 }
 
 .profile-section:first-child h2 {
