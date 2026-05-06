@@ -68,10 +68,11 @@ export default async function ProfilePage({
     <div className="public">
       <Nav specialties={specialties} />
 
+      <div className="profile-banner">
+        <Image src="/profile-banner.jpg" alt="" width={1440} height={220} className="profile-banner-img" priority />
+      </div>
+
       <div className="profile-page">
-        <div className="profile-banner">
-          <Image src="/profile-banner.jpg" alt="" width={1440} height={220} className="profile-banner-img" priority />
-        </div>
         <div className="profile-header">
           <div className="profile-photo">
             {listing.photoUrl ? (
