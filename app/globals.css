@@ -1165,26 +1165,15 @@ a.listing-card-specialty:hover {
   margin-bottom: 4px;
 }
 
-.profile-firm {
-  font-family: var(--serif);
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--muted-text);
-  margin-bottom: 4px;
-}
-
-.profile-address {
-  font-family: var(--sans);
-  font-size: 13px;
-  color: var(--muted-text);
-  margin-bottom: 10px;
-}
-
+.profile-firm,
+.profile-address,
 .profile-specialties-inline {
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 400;
   color: var(--muted-text);
   line-height: 1.6;
+  margin-bottom: 4px;
 }
 
 .profile-tagline {
