@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { auth } from "../../auth"
 import { redirect } from "next/navigation"
 
@@ -14,14 +15,14 @@ export default async function AdminPage() {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-8">Admin Dashboard</h1>
         <div className="grid grid-cols-2 gap-6">
-          <a href="/admin/listings/new" className="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          <Link href="/admin/listings/new" className="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
             <h2 className="text-xl font-bold mb-2">Add New Listing</h2>
             <p className="text-gray-500">Add a new lawyer or firm to the directory</p>
-          </a>
-          <a href="/admin/listings" className="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          </Link>
+          <Link href="/admin/listings" className="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
             <h2 className="text-xl font-bold mb-2">Manage Listings</h2>
             <p className="text-gray-500">Edit, approve, or delete existing listings</p>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

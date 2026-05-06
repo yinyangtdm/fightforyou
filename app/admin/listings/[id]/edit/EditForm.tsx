@@ -1,6 +1,7 @@
 "use client"
 import { useState, useRef } from "react"
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 import { Listing } from "@prisma/client"
 
 interface FormState {
@@ -313,9 +314,9 @@ export default function EditForm({ listing }: EditFormProps) {
     <div className="min-h-screen bg-gray-100 p-8">
       <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow">
         <div className="flex items-center gap-4 mb-6">
-          <a href="/admin/listings" className="text-gray-500 hover:text-gray-700 text-sm">
+          <Link href="/admin/listings" className="text-gray-500 hover:text-gray-700 text-sm">
             &larr; Back
-          </a>
+          </Link>
           <h1 className="text-2xl font-bold">Edit Listing</h1>
         </div>
         {error && <p className="text-red-500 mb-4">{error}</p>}
