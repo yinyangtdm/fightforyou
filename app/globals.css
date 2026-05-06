@@ -1052,7 +1052,8 @@ a.listing-card-specialty:hover {
 }
 
 .profile-hero {
-  margin: 32px 40px;
+  max-width: 900px;
+  margin: 32px auto;
   border-radius: 12px;
   border: 1px solid var(--border-light);
   background: transparent;
