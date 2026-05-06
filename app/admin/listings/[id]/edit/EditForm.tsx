@@ -412,7 +412,7 @@ export default function EditForm({ listing }: EditFormProps) {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Description</label>
-            <textarea name="description" value={form.description} onChange={handleChange} rows={4} className="w-full border rounded p-2" />
+            <textarea name="description" value={form.description} onChange={handleChange} rows={10} className="w-full border rounded p-2 whitespace-pre-wrap" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Photo</label>

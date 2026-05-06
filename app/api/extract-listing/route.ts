@@ -22,7 +22,7 @@ export async function POST(req: Request) {
 - tagline (string — short memorable phrase)
 - email (string)
 - phone (string)
-- description (string — bio/summary paragraph)
+- description (string — full multi-paragraph bio copied verbatim from the source, preserving paragraph breaks as \n\n between paragraphs, do not summarize or shorten)
 - streetAddress (string)
 - city (string)
 - state (2-letter US state abbreviation)
