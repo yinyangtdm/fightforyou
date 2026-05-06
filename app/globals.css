@@ -2,26 +2,27 @@
 
 /* ── Shared tokens (safe for admin too) ── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #eceff4;
+  --foreground: #2e3440;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  /* Public-page design tokens */
-  --warm-black: #1c1410;
-  --warm-black-2: #2a2018;
-  --off-white: #f4efe8;
-  --off-white-2: #ede7dc;
-  --blood-red: hsl(0, 68%, 32%);
-  --blood-red-light: #a52020;
-  --blood-red-dim: rgba(139, 26, 26, 0.12);
-  --pure-white: #ffffff;
-  --muted-text: #6b5e52;
-  --dark-muted: #9a8c7f;
-  --border-light: rgba(28, 20, 16, 0.1);
-  --border-dark: rgba(244, 239, 232, 0.12);
+  /* Public-page design tokens (Nord color scheme) */
+  --warm-black: #2e3440;
+  --warm-black-2: #3b4252;
+  --off-white: #e5e9f0;
+  --off-white-2: #d8dee9;
+  --blood-red: #88c0d0;
+  --blood-red-light: #81a1c1;
+  --blood-red-dim: rgba(136, 192, 208, 0.15);
+  --pure-white: #eceff4;
+  --muted-text: #4c566a;
+  --dark-muted: #81a1c1;
+  --border-light: rgba(46, 52, 64, 0.15);
+  --border-dark: rgba(236, 239, 244, 0.15);
+  --card-bg: #eceff4;
   --serif: var(--font-raleway), sans-serif;
   --sans: var(--font-merriweather), Georgia, serif;
 }
@@ -204,8 +205,8 @@ nav {
   outline: none;
 }
 
-.search-field input::placeholder { color: #5a4d44; font-size: 14px; }
-.search-field input:focus { background: #fdfbf9; }
+.search-field input::placeholder { color: #81a1c1; font-size: 14px; }
+.search-field input:focus { background: #eceff4; }
 
 .search-field-icon {
   position: absolute;
@@ -803,8 +804,8 @@ footer {
 /* Filing Deadlines */
 .filing-deadlines {
   margin-bottom: 32px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid var(--border-light);
+  padding-top: 32px;
+  border-top: 1px solid var(--border-light);
 }
 
 .filing-deadlines-title {
@@ -886,9 +887,9 @@ footer {
   width: fit-content;
 }
 
-.qi-abolished { background: #fef2f2; color: #b91c1c; border: 1px solid #fecaca; }
-.qi-limited { background: #fffbeb; color: #92400e; border: 1px solid #fde68a; }
-.qi-federal { background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
+.qi-abolished { background: rgba(191, 97, 106, 0.1); color: #bf616a; border: 1px solid rgba(191, 97, 106, 0.3); }
+.qi-limited { background: rgba(235, 203, 139, 0.1); color: #ebcb8b; border: 1px solid rgba(235, 203, 139, 0.3); }
+.qi-federal { background: rgba(94, 129, 172, 0.1); color: #5e81ac; border: 1px solid rgba(94, 129, 172, 0.3); }
 
 @media (max-width: 860px) {
   .deadline-grid { grid-template-columns: 1fr; }
@@ -1012,12 +1013,12 @@ footer {
 
 .listing-card-national,
 .listing-card-location {
-  font-family: var(--serif);
+  display: block;
+  font-family: var(--sans);
   font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-weight: 300;
   color: var(--muted-text);
+  margin-top: 3px;
 }
 
 .listing-card-name {
@@ -1026,7 +1027,7 @@ footer {
   font-weight: 700;
   color: var(--warm-black);
   letter-spacing: -0.01em;
-  margin-bottom: 6px;
+  margin-bottom: 0;
   line-height: 1.2;
 }
 
@@ -1035,46 +1036,24 @@ footer {
   font-size: 14px;
   font-weight: 300;
   color: var(--muted-text);
-  margin-bottom: 10px;
+  margin-top: 3px;
+  margin-bottom: 0;
 }
 
 .listing-card-specialties {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-
-.listing-card-specialty {
-  font-family: var(--serif);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-family: var(--sans);
+  font-size: 13px;
   color: var(--muted-text);
-  background: var(--off-white-2);
-  border: 1px solid var(--border-light);
-  padding: 4px 10px;
-  border-radius: 20px;
-  text-decoration: none;
-  transition: background 0.15s, color 0.15s;
+  margin: 10px 0 0;
+  line-height: 1.5;
 }
-
-a.listing-card-specialty:hover {
-  background: var(--warm-black);
-  color: var(--pure-white);
-  border-color: var(--warm-black);
-}
-
-.listing-card-specialty-more { opacity: 0.6; }
 
 /* ── PROFILE PAGE ── */
 .profile-public {
-  background: hsla(20, 14%, 79%, 1);
-  background: -webkit-linear-gradient(315deg, hsla(20, 14%, 79%, 1) 0%, hsla(26, 14%, 90%, 1) 0%, hsla(30, 12%, 97%, 1) 59%, hsla(0, 0%, 100%, 1) 100%) fixed;
-  background: -moz-linear-gradient(315deg, hsla(20, 14%, 79%, 1) 0%, hsla(26, 14%, 90%, 1) 0%, hsla(30, 12%, 97%, 1) 59%, hsla(0, 0%, 100%, 1) 100%) fixed;
-  background: linear-gradient(315deg, hsla(20, 14%, 79%, 1) 0%, hsla(26, 14%, 90%, 1) 0%, hsla(30, 12%, 97%, 1) 59%, hsla(0, 0%, 100%, 1) 100%) fixed;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#D1C7C2", endColorstr="#E9E5E2", GradientType=1);
+  background: #eceff4;
+  background: -webkit-linear-gradient(315deg, #e5e9f0 0%, #e5e9f0 0%, #eceff4 59%, #eceff4 100%) fixed;
+  background: -moz-linear-gradient(315deg, #e5e9f0 0%, #e5e9f0 0%, #eceff4 59%, #eceff4 100%) fixed;
+  background: linear-gradient(315deg, #e5e9f0 0%, #e5e9f0 0%, #eceff4 59%, #eceff4 100%) fixed;
 }
 
 .profile-hero {
