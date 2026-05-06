@@ -1109,7 +1109,7 @@ a.listing-card-specialty:hover {
 
 .profile-actions-col {
   flex-shrink: 0;
-  width: 220px;
+  width: 280px;
   padding: 40px 32px;
   display: flex;
   flex-direction: column;
