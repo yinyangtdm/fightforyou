@@ -90,7 +90,7 @@ export default async function ProfilePage({
               {location && <span className="listing-card-location">{location}</span>}
             </div>
             <h1 className="profile-name">{listing.name}</h1>
-            {listing.firm && listing.name !== listing.firm && (
+            {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
               <p className="profile-firm">{listing.firm}</p>
             )}
             <div className="profile-actions">
