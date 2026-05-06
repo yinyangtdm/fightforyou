@@ -954,6 +954,7 @@ footer {
   white-space: nowrap;
   font-size: 10px;
   padding: 3px 12px;
+  background: #f2eaea;
 }
 
 .listing-card-img {
@@ -1169,7 +1170,7 @@ a.listing-card-specialty:hover {
   background: var(--blood-red);
   color: var(--pure-white);
   padding: 12px 24px;
-  border-radius: 2px;
+  border-radius: 8px;
   font-family: var(--serif);
   font-size: 13px;
   font-weight: 600;
