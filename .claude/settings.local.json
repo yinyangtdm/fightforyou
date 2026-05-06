@@ -16,7 +16,10 @@
       "Bash(git -C /c/Users/yinya/legal-directory diff)",
       "Bash(git -C /c/Users/yinya/legal-directory log --oneline -5)",
       "Bash(git -C /c/Users/yinya/legal-directory add .claude/settings.local.json app/globals.css \"app/lawyers/[slug]/page.tsx\")",
-      "Bash(git -C:*)"
+      "Bash(git -C:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(ls:*)",
+      "Bash(git push:*)"
     ]
   }
 }
