@@ -118,9 +118,11 @@ export default async function ProfilePage({
           {listing.description && (
             <div className="profile-section">
               <h2>{listing.tagline ?? "About"}</h2>
-              {listing.description.split(/\n\n+/).map((para, i) => (
-                <p key={i}>{para.trim()}</p>
-              ))}
+              <div className="profile-description">
+                {listing.description.split(/\n\n+/).map((para, i) => (
+                  <p key={i}>{para.trim()}</p>
+                ))}
+              </div>
             </div>
           )}
 

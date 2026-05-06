@@ -1217,7 +1217,7 @@ a.listing-card-specialty:hover {
 }
 
 
-.profile-section:first-child {
+.profile-description {
   border: 1px solid var(--border-light);
   border-radius: 12px;
   padding: 28px 32px;
@@ -1235,7 +1235,7 @@ a.listing-card-specialty:hover {
   display: none;
 }
 
-.profile-section > p {
+.profile-section > p, .profile-description > p {
   font-family: var(--sans);
   font-size: 15px;
   font-weight: 300;
@@ -1244,7 +1244,7 @@ a.listing-card-specialty:hover {
   margin-bottom: 1em;
 }
 
-.profile-section > p:last-child { margin-bottom: 0; }
+.profile-section > p:last-child, .profile-description > p:last-child { margin-bottom: 0; }
 
 .profile-specialty-link {
   font-family: var(--sans);
