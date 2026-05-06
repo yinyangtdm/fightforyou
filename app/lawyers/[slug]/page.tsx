@@ -96,14 +96,15 @@ export default async function ProfilePage({
           {listing.specialties.length > 0 && (
             <p className="profile-specialties-inline">{listing.specialties.join(" · ")}</p>
           )}
-          <div className="profile-actions">
-            {listing.phone && (
-              <a href={`tel:${listing.phone}`} className="btn-primary profile-btn-block">{listing.phone}</a>
-            )}
-            {listing.email && (
-              <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-block profile-btn-ghost">Message</a>
-            )}
-          </div>
+        </div>
+
+        <div className="profile-actions-col">
+          {listing.phone && (
+            <a href={`tel:${listing.phone}`} className="btn-primary profile-btn-block">{listing.phone}</a>
+          )}
+          {listing.email && (
+            <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-block profile-btn-ghost">Message</a>
+          )}
           {listing.website && (
             <a href={listing.website} target="_blank" rel="noopener noreferrer" className="profile-website-link">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
