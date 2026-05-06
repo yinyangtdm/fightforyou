@@ -1067,7 +1067,7 @@ a.listing-card-specialty:hover {
   margin: 32px auto;
   border-radius: 12px;
   border: 1px solid var(--border-light);
-  background: transparent;
+  background: var(--pure-white);
   overflow: hidden;
 }
 
@@ -1221,6 +1221,7 @@ a.listing-card-specialty:hover {
   border: 1px solid var(--border-light);
   border-radius: 12px;
   padding: 28px 32px;
+  background: var(--pure-white);
 }
 
 .profile-section:first-child h2 {
