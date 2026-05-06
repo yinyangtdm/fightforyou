@@ -69,46 +69,42 @@ export default async function ProfilePage({
       <Nav specialties={specialties} />
 
       <div className="profile-hero">
-        <div className="profile-hero-content">
-          <div className="profile-header">
-            <div className="profile-photo">
-              {listing.photoUrl ? (
-                <Image
-                  src={listing.photoUrl}
-                  alt={listing.name}
-                  width={240}
-                  height={240}
-                  className="profile-img"
-                />
-              ) : (
-                <div className="profile-img-placeholder" />
-              )}
-              <span className="listing-card-badge profile-badge">{type}</span>
-            </div>
+        <div className="profile-photo-col">
+          {listing.photoUrl ? (
+            <Image
+              src={listing.photoUrl}
+              alt={listing.name}
+              width={240}
+              height={240}
+              className="profile-img"
+            />
+          ) : (
+            <div className="profile-img-placeholder" />
+          )}
+          <span className="listing-card-badge profile-badge">{type}</span>
+        </div>
 
-            <div className="profile-header-info">
-              <div className="profile-meta">
-                {location && <span className="listing-card-location">{location}</span>}
-              </div>
-              <h1 className="profile-name">{listing.name}</h1>
-              {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
-                <p className="profile-firm">{listing.firm}</p>
-              )}
-              <div className="profile-actions">
-                {listing.phone && (
-                  <a href={`tel:${listing.phone}`} className="btn-primary">{listing.phone}</a>
-                )}
-                {listing.email && (
-                  <a href={`mailto:${listing.email}`} className="btn-ghost">Email</a>
-                )}
-                {listing.website && (
-                  <a href={listing.website} target="_blank" rel="noopener noreferrer" className="btn-ghost">
-                    Website
-                  </a>
-                )}
-              </div>
-            </div>
+        <div className="profile-info-col">
+          <div className="profile-meta">
+            {location && <span className="listing-card-location">{location}</span>}
           </div>
+          <h1 className="profile-name">{listing.name}</h1>
+          {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
+            <p className="profile-firm">{listing.firm}</p>
+          )}
+          <div className="profile-actions">
+            {listing.phone && (
+              <a href={`tel:${listing.phone}`} className="btn-primary profile-btn-block">{listing.phone}</a>
+            )}
+            {listing.email && (
+              <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-block profile-btn-ghost">Message</a>
+            )}
+          </div>
+          {listing.website && (
+            <a href={listing.website} target="_blank" rel="noopener noreferrer" className="profile-website-link">
+              {listing.website}
+            </a>
+          )}
         </div>
       </div>
 

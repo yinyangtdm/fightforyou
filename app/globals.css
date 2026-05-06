@@ -952,7 +952,7 @@ footer {
   padding: 3px 8px;
 }
 
-.profile-photo .profile-badge {
+.profile-photo-col .profile-badge {
   position: absolute;
   top: 240px;
   left: 50%;
@@ -1076,15 +1076,28 @@ a.listing-card-specialty:hover {
   background: var(--pure-white);
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: stretch;
 }
 
-.profile-hero-content {
+.profile-photo-col {
+  flex-shrink: 0;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
   position: relative;
-  z-index: 1;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 48px 40px;
-  background: transparent;
+  border-right: 1px solid var(--border-light);
+}
+
+.profile-info-col {
+  flex: 1;
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .profile-page {
@@ -1092,21 +1105,6 @@ a.listing-card-specialty:hover {
   margin: 0 auto;
   padding: 24px 40px 96px;
   background: transparent;
-}
-
-.profile-header {
-  display: flex;
-  gap: 32px;
-  background: transparent;
-}
-
-.profile-photo {
-  flex-shrink: 0;
-  width: 240px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
 }
 
 .profile-img {
@@ -1169,10 +1167,39 @@ a.listing-card-specialty:hover {
 
 .profile-actions {
   display: flex;
-  gap: 12px;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+  width: 260px;
 }
+
+.profile-btn-block {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.profile-btn-ghost {
+  background: transparent;
+  color: var(--blood-red);
+  border: 1px solid var(--blood-red);
+}
+
+.profile-btn-ghost:hover {
+  background: var(--blood-red-dim);
+}
+
+.profile-website-link {
+  margin-top: auto;
+  padding-top: 24px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--muted-text);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.profile-website-link:hover { color: var(--blood-red); }
 
 .btn-primary {
   background: var(--blood-red);
