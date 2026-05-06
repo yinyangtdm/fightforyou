@@ -1196,7 +1196,9 @@ a.listing-card-specialty:hover {
   font-size: 13px;
   color: var(--muted-text);
   text-decoration: none;
-  word-break: break-all;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .profile-website-link:hover { color: var(--blood-red); }
