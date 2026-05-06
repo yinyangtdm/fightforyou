@@ -41,14 +41,20 @@ html { scroll-behavior: smooth; }
 nav {
   background: var(--pure-white);
   border-bottom: 1px solid var(--border-light);
-  padding: 0 max(40px, calc((100vw - 1200px) / 2));
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: 68px;
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .nav-logo {

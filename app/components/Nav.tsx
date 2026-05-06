@@ -34,6 +34,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
   return (
     <>
       <nav>
+      <div className="nav-inner">
         <button
           className={`nav-hamburger${mobileOpen ? " open" : ""}`}
           onClick={() => { setMobileOpen((o) => !o); setOpenAccordion(null) }}
@@ -117,6 +118,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
         </ul>
 
         <a href="#" className="nav-mobile-signin nav-cta">Sign In</a>
+      </div>
       </nav>
 
       {/* Desktop mega menus — hidden on mobile via CSS */}
