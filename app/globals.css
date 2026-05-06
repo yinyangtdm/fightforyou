@@ -946,7 +946,7 @@ footer {
   padding: 3px 8px;
 }
 
-.profile-badge {
+.profile-photo .profile-badge {
   position: absolute;
   top: 240px;
   left: 50%;
@@ -955,6 +955,7 @@ footer {
   font-size: 10px;
   padding: 3px 12px;
   background: #f2eaea;
+  z-index: 1;
 }
 
 .listing-card-img {
