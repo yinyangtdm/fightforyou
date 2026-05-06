@@ -12,7 +12,7 @@ import type { Metadata } from "next"
 export const revalidate = 3600
 
 const SELECT = {
-  slug: true, name: true, firm: true, tagline: true, photoUrl: true,
+  slug: true, name: true, firm: true, tagline: true, description: true, photoUrl: true,
   city: true, state: true, isFirm: true, isNonprofit: true,
   isNational: true, specialties: true,
 }

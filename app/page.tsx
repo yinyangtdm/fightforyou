@@ -51,7 +51,7 @@ export default async function HomePage() {
       <Nav specialties={practices} />
 
       {/* Hero */}
-      <section style={{ background: "var(--pure-white)", borderBottom: "1px solid var(--border-light)" }}>
+      <section style={{ background: "var(--gray-lightest)", borderBottom: "1px solid var(--border-on-light)" }}>
         <div className="hero">
           <div>
             <h1>

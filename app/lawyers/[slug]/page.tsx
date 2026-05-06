@@ -88,22 +88,51 @@ export default async function ProfilePage({
         <div className="profile-info-col">
           <h1 className="profile-name">{listing.name}</h1>
           {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
-            <p className="profile-firm">{listing.firm}</p>
+            <div className="profile-field">
+              <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <line x1="3" y1="9" x2="21" y2="9" />
+              </svg>
+              <p className="profile-firm">{listing.firm}</p>
+            </div>
           )}
           {[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).length > 0 && (
-            <p className="profile-address">{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</p>
+            <div className="profile-field">
+              <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <p className="profile-address">{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</p>
+            </div>
           )}
           {listing.specialties.length > 0 && (
-            <p className="profile-specialties-inline">{listing.specialties.join(" · ")}</p>
+            <div className="profile-field">
+              <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
+                <path d="M9 12l2 2 4-4" />
+              </svg>
+              <p className="profile-specialties-inline">{listing.specialties.join(" · ")}</p>
+            </div>
           )}
         </div>
 
         <div className="profile-actions-col">
           {listing.phone && (
-            <a href={`tel:${listing.phone}`} className="btn-primary profile-btn-block">{listing.phone}</a>
+            <a href={`tel:${listing.phone}`} className="btn-primary profile-btn-block profile-btn-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              {listing.phone}
+            </a>
           )}
           {listing.email && (
-            <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-block profile-btn-ghost">Message</a>
+            <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-block profile-btn-ghost profile-btn-message profile-btn-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-10 5L2 7" />
+              </svg>
+              Message
+            </a>
           )}
           {listing.website && (
             <a href={listing.website} target="_blank" rel="noopener noreferrer" className="profile-website-link">
@@ -119,7 +148,6 @@ export default async function ProfilePage({
       </div>
 
       <div className="profile-page">
-
         <div className="profile-body">
           {listing.description && (
             <div className="profile-section">
