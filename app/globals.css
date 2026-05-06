@@ -1043,23 +1043,29 @@ a.listing-card-specialty:hover {
 .listing-card-specialty-more { opacity: 0.6; }
 
 /* ── PROFILE PAGE ── */
-.profile-banner {
+.profile-hero {
+  position: relative;
   width: 100%;
-  overflow: hidden;
-  line-height: 0;
+  min-height: 280px;
 }
 
 .profile-banner-img {
-  width: 100%;
-  height: 220px;
   object-fit: cover;
-  display: block;
+  object-position: center;
+}
+
+.profile-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 40px;
 }
 
 .profile-page {
   max-width: 900px;
   margin: 0 auto;
-  padding: 64px 40px 96px;
+  padding: 48px 40px 96px;
 }
 
 .profile-header {
