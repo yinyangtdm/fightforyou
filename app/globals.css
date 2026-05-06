@@ -1105,7 +1105,7 @@ a.listing-card-specialty:hover {
   height: 240px;
   border-radius: 16px;
   object-fit: cover;
-  box-shadow: 0 0 0 4px var(--border-light);
+  box-shadow: 0 0 0 7px var(--border-light);
 }
 
 .profile-img-placeholder {
@@ -1124,6 +1124,11 @@ a.listing-card-specialty:hover {
   align-items: center;
   gap: 8px;
   margin-bottom: 10px;
+}
+
+.profile-meta .listing-card-location {
+  font-weight: 700;
+  color: var(--blood-red-light);
 }
 
 .profile-name {
