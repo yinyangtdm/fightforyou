@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"
+
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "./components/Nav"
