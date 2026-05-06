@@ -1045,7 +1045,11 @@ a.listing-card-specialty:hover {
 /* ── PROFILE PAGE ── */
 .profile-hero {
   width: 100%;
-  background: linear-gradient(115deg, #fdfcfb, #e2d1c3, #1a0303);
+  background: hsla(35, 35%, 93%, 1);
+  background: -webkit-linear-gradient(90deg, hsla(35, 35%, 93%, 1) 0%, hsla(12, 33%, 82%, 1) 37%, hsla(4, 33%, 64%, 1) 67%, hsla(2, 33%, 53%, 1) 82%, hsla(0, 68%, 32%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(35, 35%, 93%, 1) 0%, hsla(12, 33%, 82%, 1) 37%, hsla(4, 33%, 64%, 1) 67%, hsla(2, 33%, 53%, 1) 82%, hsla(0, 68%, 32%, 1) 100%);
+  background: linear-gradient(90deg, hsla(35, 35%, 93%, 1) 0%, hsla(12, 33%, 82%, 1) 37%, hsla(4, 33%, 64%, 1) 67%, hsla(2, 33%, 53%, 1) 82%, hsla(0, 68%, 32%, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F4EFE8", endColorstr="#E1C9C3", GradientType=1);
 }
 
 .profile-hero-content {
