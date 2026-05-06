@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import { STATE_NAMES } from "../lib/slugs"
 
 type Listing = {
   slug: string
@@ -17,10 +16,7 @@ type Listing = {
 }
 
 export default function ListingCard({ listing }: { listing: Listing }) {
-  const location = [
-    listing.city,
-    listing.state ? STATE_NAMES[listing.state] ?? listing.state : null,
-  ]
+  const location = [listing.city, listing.state]
     .filter(Boolean)
     .join(", ")
 
@@ -49,19 +45,13 @@ export default function ListingCard({ listing }: { listing: Listing }) {
         <span className="listing-card-badge">{badge}</span>
       </div>
       <div className="listing-card-body">
-        <div className="listing-card-meta">
-          {location && <span className="listing-card-location">{location}</span>}
-        </div>
         <h3 className="listing-card-name">{listing.name}</h3>
         {!listing.isFirm && !listing.isNonprofit && listing.firm && (
           <p className="listing-card-firm">{listing.firm}</p>
         )}
+        {location && <span className="listing-card-location">{location}</span>}
         {specialties.length > 0 && (
-          <div className="listing-card-specialties">
-            {specialties.map((s) => (
-              <span key={s} className="listing-card-specialty">{s}</span>
-            ))}
-          </div>
+          <p className="listing-card-specialties">{specialties.join(" · ")}</p>
         )}
       </div>
     </Link>
