@@ -1044,14 +1044,10 @@ a.listing-card-specialty:hover {
 
 /* ── PROFILE PAGE ── */
 .profile-hero {
-  position: relative;
   width: 100%;
-  min-height: 280px;
-}
-
-.profile-banner-img {
-  object-fit: cover;
-  object-position: center;
+  background-image: url('/profile-banner.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .profile-hero-content {

@@ -69,7 +69,6 @@ export default async function ProfilePage({
       <Nav specialties={specialties} />
 
       <div className="profile-hero">
-        <Image src="/profile-banner.jpg" alt="" fill className="profile-banner-img" priority />
         <div className="profile-hero-content">
           <div className="profile-header">
             <div className="profile-photo">
