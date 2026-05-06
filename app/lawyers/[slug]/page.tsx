@@ -61,7 +61,6 @@ export default async function ProfilePage({
 
   const { listing, specialties } = data
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null
-  const location = [listing.city, stateName].filter(Boolean).join(", ")
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
 
   return (
@@ -87,12 +86,15 @@ export default async function ProfilePage({
         </div>
 
         <div className="profile-info-col">
-          <div className="profile-meta">
-            {location && <span className="listing-card-location">{location}</span>}
-          </div>
           <h1 className="profile-name">{listing.name}</h1>
           {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
             <p className="profile-firm">{listing.firm}</p>
+          )}
+          {[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).length > 0 && (
+            <p className="profile-address">{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</p>
+          )}
+          {listing.specialties.length > 0 && (
+            <p className="profile-specialties-inline">{listing.specialties.join(" · ")}</p>
           )}
           <div className="profile-actions">
             {listing.phone && (
