@@ -10,7 +10,12 @@
       "Bash(npx prisma *)",
       "Bash(grep -n \"^\\\\\\\\\\\\.\" C:/Users/yinya/legal-directory/profiles.sql)",
       "Bash(git pull *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "WebFetch(domain:www.avvo.com)",
+      "Bash(git -C /c/Users/yinya/legal-directory status)",
+      "Bash(git -C /c/Users/yinya/legal-directory diff)",
+      "Bash(git -C /c/Users/yinya/legal-directory log --oneline -5)",
+      "Bash(git -C /c/Users/yinya/legal-directory add .claude/settings.local.json app/globals.css \"app/lawyers/[slug]/page.tsx\")"
     ]
   }
 }

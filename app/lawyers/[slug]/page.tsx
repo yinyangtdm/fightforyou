@@ -74,15 +74,15 @@ export default async function ProfilePage({
               <Image
                 src={listing.photoUrl}
                 alt={listing.name}
-                width={240}
-                height={240}
+                width={200}
+                height={200}
                 className="profile-img"
               />
             ) : (
               <div className="profile-img-placeholder" />
             )}
-            <span className="listing-card-badge profile-badge">{type}</span>
           </div>
+          <span className="listing-card-badge profile-badge">{type}</span>
         </div>
 
         <div className="profile-info-col">
