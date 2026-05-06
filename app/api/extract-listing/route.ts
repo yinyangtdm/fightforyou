@@ -22,7 +22,7 @@ export async function POST(req: Request) {
 - tagline (string — short memorable phrase)
 - email (string)
 - phone (string)
-- description (string — full multi-paragraph bio copied verbatim from the source, preserving paragraph breaks as \n\n between paragraphs, do not summarize or shorten)
+- description (string — full multi-paragraph bio copied verbatim from the source, do not summarize or shorten; separate paragraphs with the escaped newline sequence \\n\\n so the JSON remains valid)
 - streetAddress (string)
 - city (string)
 - state (2-letter US state abbreviation)
@@ -44,8 +44,9 @@ ${text}`,
     })
 
     const raw = message.content[0].type === "text" ? message.content[0].text : ""
+    const cleaned = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "").trim()
     try {
-      const data = JSON.parse(raw) as Record<string, unknown>
+      const data = JSON.parse(cleaned) as Record<string, unknown>
       return NextResponse.json(data)
     } catch {
       return NextResponse.json({ error: "Failed to parse response", raw }, { status: 500 })
