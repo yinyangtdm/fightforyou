@@ -1045,9 +1045,7 @@ a.listing-card-specialty:hover {
 /* ── PROFILE PAGE ── */
 .profile-hero {
   width: 100%;
-  background-image: url('/profile-banner.jpg');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(115deg, #fdfcfb, #e2d1c3, #1a0303);
 }
 
 .profile-hero-content {
