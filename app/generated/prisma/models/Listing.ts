@@ -215,6 +215,14 @@ export type ListingCountAggregateInputType = {
   _all?: true
 }
 
+/**
+ * Arguments for aggregating Listings.
+ *
+ * All properties are optional, but at least one aggregation property (`_count`, `_avg`, `_sum`, `_min`, `_max`)
+ * must be provided for a valid aggregate query.
+ *
+ * @see {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Prisma Aggregation Docs}
+ */
 export type ListingAggregateArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   /**
    * Filter which Listing to aggregate.
@@ -245,34 +253,34 @@ export type ListingAggregateArgs<ExtArgs extends runtime.Types.Extensions.Intern
    */
   skip?: number
   /**
+   * Count returned Listings.
+   * At least one of `_count`, `_avg`, `_sum`, `_min`, or `_max` must be provided.
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
-   * 
-   * Count returned Listings
-  **/
+   */
   _count?: true | ListingCountAggregateInputType
   /**
+   * Select which fields to average.
+   * At least one of `_count`, `_avg`, `_sum`, `_min`, or `_max` must be provided.
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
-   * 
-   * Select which fields to average
-  **/
+   */
   _avg?: ListingAvgAggregateInputType
   /**
+   * Select which fields to sum.
+   * At least one of `_count`, `_avg`, `_sum`, `_min`, or `_max` must be provided.
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
-   * 
-   * Select which fields to sum
-  **/
+   */
   _sum?: ListingSumAggregateInputType
   /**
+   * Select which fields to find the minimum value.
+   * At least one of `_count`, `_avg`, `_sum`, `_min`, or `_max` must be provided.
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
-   * 
-   * Select which fields to find the minimum value
-  **/
+   */
   _min?: ListingMinAggregateInputType
   /**
+   * Select which fields to find the maximum value.
+   * At least one of `_count`, `_avg`, `_sum`, `_min`, or `_max` must be provided.
    * {@link https://www.prisma.io/docs/concepts/components/prisma-client/aggregations Aggregation Docs}
-   * 
-   * Select which fields to find the maximum value
-  **/
+   */
   _max?: ListingMaxAggregateInputType
 }
 
