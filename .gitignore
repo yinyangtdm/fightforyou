@@ -42,3 +42,5 @@ next-env.d.ts
 
 # local data
 profiles.sql
+
+docker-compose.yml
