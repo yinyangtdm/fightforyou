@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from "next/link"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
@@ -47,8 +48,8 @@ export default async function ListingsPage({
   }
 
   function sortIndicator(col: string) {
-    if (sort !== col) return <span className="ml-1 text-gray-300">↕</span>
-    return <span className="ml-1">{dir === "desc" ? "↓" : "↑"}</span>
+    if (sort !== col) return ""
+    return dir === "desc" ? " ↓" : " ↑"
   }
 
   return (
