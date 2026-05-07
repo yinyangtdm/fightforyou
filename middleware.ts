@@ -27,7 +27,7 @@ const COMING_SOON_HTML = `<!DOCTYPE html>
 </head>
 <body>
   <h1>fight<span>for</span>.you</h1>
-  <p>We're building something to help hold police accountable. Check back soon.</p>
+  <p>Check back soon.</p>
 </body>
 </html>`
 
