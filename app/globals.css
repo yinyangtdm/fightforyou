@@ -136,26 +136,24 @@ nav {
 }
 
 .theme-toggle {
-  background: none;
-  border: 1px solid var(--border-on-dark);
-  border-radius: 20px;
-  width: 36px;
-  height: 36px;
+  background: var(--nord8);
+  border: none;
+  border-radius: 2px;
+  height: 38px;
+  width: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: var(--nord4);
-  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  color: var(--nord0);
+  transition: background 0.2s;
   flex-shrink: 0;
   font-size: 16px;
   line-height: 1;
 }
 
 .theme-toggle:hover {
-  background: var(--border-on-dark);
-  border-color: var(--accent);
-  color: var(--accent);
+  background: var(--nord7);
 }
 
 .nav-links {
@@ -181,10 +179,10 @@ nav {
 .nav-cta {
   background: var(--nord8) !important;
   color: var(--nord0) !important;
-  padding: 9px 20px;
+  padding: 11px 28px;
   border-radius: 2px;
   font-family: var(--serif) !important;
-  font-size: 12px !important;
+  font-size: 13px !important;
   letter-spacing: 0.08em !important;
   transition: background 0.2s !important;
 }
