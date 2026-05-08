@@ -145,10 +145,10 @@ export default function EditForm({ listing }: EditFormProps) {
       })
       if (!res.ok) throw new Error("Auto-fill request failed")
       const data = await res.json() as {
-        name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean
+        name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean; isNational?: boolean
         tagline?: string; email?: string; phone?: string; description?: string
         streetAddress?: string; city?: string; state?: string; zipCode?: string
-        specialties?: string; notableResults?: string[]; keyCharacteristics?: string[]
+        specialties?: string[]; notableResults?: string[]; keyCharacteristics?: string[]
         barNumber?: string; website?: string; linkedin?: string; facebook?: string
       }
       setForm(prev => ({
@@ -157,6 +157,7 @@ export default function EditForm({ listing }: EditFormProps) {
         ...(data.firm !== undefined && { firm: data.firm }),
         ...(data.isFirm !== undefined && { isFirm: data.isFirm }),
         ...(data.isNonprofit !== undefined && { isNonprofit: data.isNonprofit }),
+        ...(data.isNational !== undefined && { isNational: data.isNational }),
         ...(data.tagline !== undefined && { tagline: data.tagline }),
         ...(data.email !== undefined && { email: data.email }),
         ...(data.phone !== undefined && { phone: formatPhone(data.phone) }),
@@ -167,9 +168,9 @@ export default function EditForm({ listing }: EditFormProps) {
         ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
         ...(data.specialties !== undefined && {
           specialties: normalizeSpecialties(
-            prev.specialties && data.specialties
-              ? prev.specialties + ", " + data.specialties
-              : prev.specialties || data.specialties,
+            prev.specialties && data.specialties.length
+              ? prev.specialties + ", " + data.specialties.join(", ")
+              : prev.specialties || data.specialties.join(", "),
           ),
         }),
         ...(data.notableResults !== undefined && {
