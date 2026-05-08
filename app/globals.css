@@ -1279,18 +1279,6 @@ footer {
   gap: 10px;
 }
 
-.profile-btn-block {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 14px 16px;
-  text-transform: none;
-  letter-spacing: 0.02em;
-}
-
 .profile-btn-ghost {
   background: transparent;
   color: var(--accent);
@@ -1301,11 +1289,16 @@ footer {
   background: var(--accent-dim);
 }
 
-.profile-btn-icon {
-  display: inline-flex !important;
+.profile-actions-col .btn-primary {
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  text-transform: none;
+  letter-spacing: 0.02em;
 }
 
 .profile-field {
@@ -1530,7 +1523,8 @@ footer {
 
   .profile-actions-col .btn-primary {
     flex: 1;
-    min-width: 120px;
+    min-width: 140px;
+    width: auto;
   }
 }
 
