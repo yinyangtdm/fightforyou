@@ -1321,19 +1321,6 @@ footer {
   height: 14px;
 }
 
-.profile-website-link {
-  margin-top: 8px;
-  font-family: var(--sans);
-  font-size: 13px;
-  color: var(--text-muted);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  align-self: flex-end;
-}
-
-.profile-website-link:hover { color: var(--accent); }
 
 .btn-primary {
   background: var(--nord8);
