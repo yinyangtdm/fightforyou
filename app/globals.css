@@ -136,24 +136,26 @@ nav {
 }
 
 .theme-toggle {
-  background: var(--nord8);
-  border: none;
-  border-radius: 2px;
-  height: 38px;
-  width: 38px;
+  background: none;
+  border: 1px solid var(--border-on-dark);
+  border-radius: 20px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: var(--nord0);
-  transition: background 0.2s;
+  color: var(--nord4);
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
   flex-shrink: 0;
   font-size: 16px;
   line-height: 1;
 }
 
 .theme-toggle:hover {
-  background: var(--nord7);
+  background: var(--border-on-dark);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .nav-links {
