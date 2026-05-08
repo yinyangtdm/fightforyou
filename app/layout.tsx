@@ -29,6 +29,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} ${merriweather.variable} h-full antialiased`}
     >
+      <head>
+        {/* Prevent flash of wrong theme */}
+        <script dangerouslySetInnerHTML={{ __html: `(function(){var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t)})()` }} />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   )

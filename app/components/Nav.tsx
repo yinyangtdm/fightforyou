@@ -14,6 +14,21 @@ export default function Nav({ specialties }: { specialties: string[] }) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openMenu, setOpenMenu] = useState<MenuId | null>(null)
   const [openAccordion, setOpenAccordion] = useState<MenuId | null>(null)
+  const [theme, setTheme] = useState<"dark" | "light">("dark")
+
+  useEffect(() => {
+    const saved = localStorage.getItem("theme") as "dark" | "light" | null
+    const initial = saved ?? "dark"
+    setTheme(initial)
+    document.documentElement.setAttribute("data-theme", initial)
+  }, [])
+
+  function toggleTheme() {
+    const next = theme === "dark" ? "light" : "dark"
+    setTheme(next)
+    document.documentElement.setAttribute("data-theme", next)
+    localStorage.setItem("theme", next)
+  }
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -117,7 +132,16 @@ export default function Nav({ specialties }: { specialties: string[] }) {
           </li>
         </ul>
 
-        <a href="#" className="nav-mobile-signin nav-cta">Sign In</a>
+        <div className="nav-right">
+          <button
+            className="theme-toggle"
+            onClick={toggleTheme}
+            aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {theme === "dark" ? "☀" : "☾"}
+          </button>
+          <a href="#" className="nav-mobile-signin nav-cta">Sign In</a>
+        </div>
       </div>
       </nav>
 
