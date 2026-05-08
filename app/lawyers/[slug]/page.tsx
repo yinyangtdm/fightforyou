@@ -126,12 +126,12 @@ export default async function ProfilePage({
             </a>
           )}
           {listing.email && (
-            <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-block profile-btn-ghost profile-btn-message profile-btn-icon">
+            <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-block profile-btn-ghost profile-btn-icon">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="4" width="20" height="16" rx="2" />
                 <path d="m22 7-10 5L2 7" />
               </svg>
-              Message
+              Message Me
             </a>
           )}
           {listing.website && (

@@ -1278,9 +1278,15 @@ footer {
 }
 
 .profile-btn-block {
-  display: block;
-  text-align: center;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
   width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  text-transform: none;
+  letter-spacing: 0.02em;
 }
 
 .profile-btn-ghost {
@@ -1291,11 +1297,6 @@ footer {
 
 .profile-btn-ghost:hover {
   background: var(--accent-dim);
-}
-
-.profile-btn-message {
-  text-transform: none;
-  letter-spacing: 0.02em;
 }
 
 .profile-btn-icon {
