@@ -1568,6 +1568,25 @@ footer {
   .about-section { padding: 72px 40px; }
 }
 
+/* ── TABLET (861px – 1024px) ── */
+@media (min-width: 861px) and (max-width: 1024px) {
+  .nav-inner { padding: 0 32px; }
+
+  .hero { padding: 60px 32px 52px; }
+  .stats-bar { padding: 48px 32px; }
+  .about-section { padding: 72px 32px; }
+  .rights-section { padding: 64px 32px; }
+
+  footer { padding: 56px 32px 36px; }
+  .footer-top { gap: 28px; }
+
+  .listing-page { padding: 48px 32px 72px; }
+  .profile-page { padding: 20px 32px 80px; }
+  .profile-hero { margin: 24px auto; }
+
+  .mega-menu { padding: 40px 32px; }
+}
+
 @media (max-width: 860px) {
   nav { padding: 0 20px; }
 
