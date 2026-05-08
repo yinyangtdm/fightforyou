@@ -86,34 +86,38 @@ export default async function ProfilePage({
         </div>
 
         <div className="profile-info-col">
-          <h1 className="profile-name">{listing.name}</h1>
-          {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
-            <div className="profile-field">
-              <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                <line x1="3" y1="9" x2="21" y2="9" />
-              </svg>
-              <p className="profile-firm">{listing.firm}</p>
-            </div>
-          )}
-          {[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).length > 0 && (
-            <div className="profile-field">
-              <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                <circle cx="12" cy="10" r="3" />
-              </svg>
-              <p className="profile-address">{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</p>
-            </div>
-          )}
-          {listing.specialties.length > 0 && (
-            <div className="profile-field">
-              <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
-                <path d="M9 12l2 2 4-4" />
-              </svg>
-              <p className="profile-specialties-inline">{listing.specialties.join(" · ")}</p>
-            </div>
-          )}
+          <div className="profile-info-identity">
+            <h1 className="profile-name">{listing.name}</h1>
+            {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
+              <div className="profile-field">
+                <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                  <line x1="3" y1="9" x2="21" y2="9" />
+                </svg>
+                <p className="profile-firm">{listing.firm}</p>
+              </div>
+            )}
+          </div>
+          <div className="profile-info-details">
+            {[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).length > 0 && (
+              <div className="profile-field">
+                <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <p className="profile-address">{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</p>
+              </div>
+            )}
+            {listing.specialties.length > 0 && (
+              <div className="profile-field">
+                <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
+                  <path d="M9 12l2 2 4-4" />
+                </svg>
+                <p className="profile-specialties-inline">{listing.specialties.join(" · ")}</p>
+              </div>
+            )}
+          </div>
         </div>
 
         <div className="profile-actions-col">
@@ -200,12 +204,6 @@ export default async function ProfilePage({
               <div className="profile-contact-item">
                 <span className="profile-contact-label">Address</span>
                 <span>{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</span>
-              </div>
-            )}
-            {listing.barNumber && (
-              <div className="profile-contact-item">
-                <span className="profile-contact-label">Bar Number</span>
-                <span>{listing.barNumber}</span>
               </div>
             )}
             {listing.linkedin && (

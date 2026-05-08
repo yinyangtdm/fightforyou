@@ -50,32 +50,38 @@ export default function ListingCard({ listing }: { listing: Listing }) {
         )}
         <span className="listing-card-badge">{badge}</span>
       </div>
-      <div className="listing-card-body">
+
+      <div className="listing-card-info">
         <h3 className="listing-card-name">{listing.name}</h3>
-        {!listing.isFirm && !listing.isNonprofit && listing.firm && (
-          <div className="listing-card-meta-item">
-            <span className="listing-card-icon">🏢</span>
-            <p className="listing-card-firm">{listing.firm}</p>
-          </div>
-        )}
-        {location && (
-          <div className="listing-card-meta-item">
-            <span className="listing-card-icon">📍</span>
-            <span className="listing-card-location">{location}</span>
-          </div>
-        )}
-        {specialties.length > 0 && (
-          <div className="listing-card-meta-item">
-            <span className="listing-card-icon">⚖️</span>
-            <p className="listing-card-specialties">{specialties.join(" · ")}</p>
-          </div>
-        )}
+        <div className="listing-card-info-grid">
+          {!listing.isFirm && !listing.isNonprofit && listing.firm && (
+            <div className="listing-card-meta-item">
+              <span className="listing-card-icon">🏢</span>
+              <p className="listing-card-firm">{listing.firm}</p>
+            </div>
+          )}
+          {location && (
+            <div className="listing-card-meta-item">
+              <span className="listing-card-icon">📍</span>
+              <span className="listing-card-location">{location}</span>
+            </div>
+          )}
+          {specialties.length > 0 && (
+            <div className="listing-card-meta-item listing-card-info-grid-full">
+              <span className="listing-card-icon">⚖️</span>
+              <p className="listing-card-specialties">{specialties.join(" · ")}</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      <div className="listing-card-actions">
         {bioPreview && (
           <p className="listing-card-bio">
             {bioPreview.length === 220 ? bioPreview + "..." : bioPreview}
-            <span className="listing-card-read-more"> Read More →</span>
           </p>
         )}
+        <span className="listing-card-read-more">View Profile →</span>
       </div>
     </Link>
   )
