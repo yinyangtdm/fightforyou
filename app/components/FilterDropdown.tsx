@@ -31,8 +31,8 @@ export default function FilterDropdown({
 
   return (
     <div className="filter-dropdown">
-      <select defaultValue="" onChange={(e) => handleChange(e.target.value)}>
-        <option value="" disabled>{label}</option>
+      <select defaultValue="" title={label} onChange={(e) => handleChange(e.target.value)}>
+        <option value="" hidden>{label}</option>
         {options.map((opt) => (
           <option key={opt} value={opt}>{opt}</option>
         ))}
