@@ -1042,8 +1042,8 @@ footer {
 }
 
 .listing-card-badge--firm {
-  color: var(--nord9);
-  background: rgba(129, 161, 193, 0.15);
+  color: var(--nord15);
+  background: rgba(180, 142, 173, 0.15);
 }
 
 .listing-card-badge--nonprofit {
