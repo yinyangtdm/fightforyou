@@ -14,14 +14,14 @@ export default function Nav({ specialties }: { specialties: string[] }) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openMenu, setOpenMenu] = useState<MenuId | null>(null)
   const [openAccordion, setOpenAccordion] = useState<MenuId | null>(null)
-  const [theme, setTheme] = useState<"dark" | "light">("dark")
+  const [theme, setTheme] = useState<"dark" | "light">(() => {
+    if (typeof window === "undefined") return "dark"
+    return (localStorage.getItem("theme") as "dark" | "light") ?? "dark"
+  })
 
   useEffect(() => {
-    const saved = localStorage.getItem("theme") as "dark" | "light" | null
-    const initial = saved ?? "dark"
-    setTheme(initial)
-    document.documentElement.setAttribute("data-theme", initial)
-  }, [])
+    document.documentElement.setAttribute("data-theme", theme)
+  }, [theme])
 
   function toggleTheme() {
     const next = theme === "dark" ? "light" : "dark"
