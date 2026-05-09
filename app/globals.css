@@ -650,7 +650,7 @@ nav {
   border-top: 2px solid var(--nord8);
   border-bottom: 1px solid var(--border-on-dark);
   padding: 48px max(40px, calc((100vw - 1200px) / 2));
-  z-index: 99;
+  z-index: 200;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
@@ -703,7 +703,7 @@ nav {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 98;
+  z-index: 199;
 }
 
 .mega-overlay.open { display: block; }
@@ -1717,6 +1717,11 @@ footer {
   footer { padding: 48px 24px 32px; }
   .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
   .footer-bottom-links { justify-content: center; }
+}
+
+@media (max-width: 1024px) {
+  .mega-menu { display: none !important; }
+  .mega-overlay { display: none !important; }
 }
 
 @media (min-width: 1025px) {
