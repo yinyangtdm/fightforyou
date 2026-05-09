@@ -589,56 +589,6 @@ nav {
   background: currentColor;
 }
 
-/* ── AMENDMENT CARDS ── */
-.amendment-cards-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2px;
-  margin-top: 2px;
-}
-
-.amendment-card {
-  background: var(--nord2);
-  border: 1px solid var(--border-on-dark);
-  padding: 24px;
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  transition: background 0.2s, border-color 0.2s;
-}
-
-.amendment-card:hover {
-  background: var(--nord3);
-  border-color: var(--nord8);
-}
-
-.amendment-num {
-  font-family: var(--serif);
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--accent);
-  opacity: 0.6;
-  line-height: 1;
-  min-width: 32px;
-}
-
-.amendment-info h4 {
-  font-family: var(--serif);
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--nord6);
-  margin-bottom: 3px;
-  letter-spacing: -0.01em;
-}
-
-.amendment-info p {
-  font-family: var(--sans);
-  font-size: 11px;
-  color: var(--nord4);
-  font-weight: 300;
-  line-height: 1.6;
-}
-
 /* ── MEGA MENU ── */
 .mega-menu {
   display: none;
@@ -1069,7 +1019,6 @@ footer {
   border: 1px solid var(--border-on-dark);
 }
 
-.listing-card-body,
 .listing-card-info { flex: 1; min-width: 0; }
 
 .listing-card-meta {
@@ -1105,7 +1054,6 @@ footer {
   margin-top: 1px;
 }
 
-.listing-card-national,
 .listing-card-location {
   display: block;
   font-family: var(--sans);
@@ -1226,7 +1174,6 @@ footer {
   border: 1px solid var(--border-on-dark);
 }
 
-.profile-header-info { flex: 1; }
 
 .profile-meta {
   display: flex;
@@ -1502,7 +1449,6 @@ footer {
   .listing-page-header h1 { font-size: 30px; }
   .listing-grid { grid-template-columns: 1fr; }
   .profile-page { padding: 40px 24px 64px; }
-  .profile-header { flex-direction: column; gap: 20px; }
   .profile-name { font-size: 28px; }
 
   .profile-hero {
@@ -1547,16 +1493,15 @@ footer {
 .hero-eyebrow { animation: fadeUp 0.6s ease both; }
 .hero h1 { animation: fadeUp 0.6s 0.1s ease both; }
 .hero-sub { animation: fadeUp 0.6s 0.2s ease both; }
-.hero-actions { animation: fadeUp 0.6s 0.3s ease both; }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 1024px) {
   .hero { padding: 64px 40px 56px; }
   .stats-inner { gap: 0; }
   .stat-item { padding: 0 20px; }
-  .footer-top { grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 32px; }
+  .footer-top { grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .footer-brand { grid-column: 1 / -1; }
   .rights-grid { grid-template-columns: repeat(2, 1fr); }
-  .amendment-cards-row { grid-template-columns: repeat(2, 1fr); }
   .about-section { padding: 72px 40px; }
 }
 
@@ -1709,10 +1654,9 @@ footer {
 
   .rights-section { padding: 60px 24px; }
   .rights-grid { grid-template-columns: 1fr; }
-  .amendment-cards-row { grid-template-columns: repeat(2, 1fr); }
   .section-header { flex-direction: column; align-items: flex-start; gap: 12px; }
 
-  .footer-top { grid-template-columns: 1fr 1fr; gap: 40px; }
+  .footer-top { grid-template-columns: repeat(3, 1fr); gap: 32px; }
   .footer-brand { grid-column: 1 / -1; }
   footer { padding: 48px 24px 32px; }
   .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
@@ -1732,7 +1676,6 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .amendment-cards-row { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr; }
 
   .nav-inner { padding: 0 16px; }

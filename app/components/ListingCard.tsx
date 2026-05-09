@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Building2, MapPin, Briefcase } from "lucide-react"
 
 type Listing = {
   slug: string
@@ -68,7 +67,7 @@ export default function ListingCard({ listing }: { listing: Listing }) {
               </div>
             )}
             {specialties.length > 0 && (
-              <div className="listing-card-meta-item listing-card-info-grid-full">
+              <div className="listing-card-meta-item">
                 <span className="listing-card-icon">⚖️</span>
                 <p className="listing-card-specialties">{specialties.join(" · ")}</p>
               </div>

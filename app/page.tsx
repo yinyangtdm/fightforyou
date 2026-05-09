@@ -177,37 +177,14 @@ export default async function HomePage() {
               </p>
               <div className="rights-count">Learn more</div>
             </a>
-          </div>
-
-          <div className="amendment-cards-row">
-            <div className="amendment-card">
-              <div className="amendment-num">I</div>
-              <div className="amendment-info">
-                <h4>Freedom of Speech &amp; Assembly</h4>
-                <p>Protest, petition, and speak without government interference.</p>
-              </div>
-            </div>
-            <div className="amendment-card">
-              <div className="amendment-num">IV</div>
-              <div className="amendment-info">
-                <h4>Search &amp; Seizure Protections</h4>
-                <p>Your home, person, and papers are protected from unreasonable searches.</p>
-              </div>
-            </div>
-            <div className="amendment-card">
-              <div className="amendment-num">V</div>
-              <div className="amendment-info">
-                <h4>Due Process Rights</h4>
-                <p>You cannot be deprived of life, liberty, or property without due process.</p>
-              </div>
-            </div>
-            <div className="amendment-card">
-              <div className="amendment-num">XIV</div>
-              <div className="amendment-info">
-                <h4>Equal Protection Under Law</h4>
-                <p>No state shall deny any person the equal protection of the laws.</p>
-              </div>
-            </div>
+            <a href="#" className="rights-card">
+              <h3>Due Process</h3>
+              <p>
+                Your right not to be deprived of life, liberty, or property without fair procedures — and how that
+                applies when police or government actors cause harm.
+              </p>
+              <div className="rights-count">Learn more</div>
+            </a>
           </div>
         </div>
       </section>

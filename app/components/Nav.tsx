@@ -168,7 +168,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
           {ALL_STATES.map((state) => (
             <Link key={state} href={`/${STATE_ABBRS[state]}`}>{state}</Link>
           ))}
-          <Link href="/dc" className="mega-menu-dc">Washington D.C.</Link>
+          <Link href="/dc">Washington D.C.</Link>
         </div>
       </div>
 
