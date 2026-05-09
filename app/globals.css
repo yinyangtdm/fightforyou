@@ -251,7 +251,7 @@ nav {
 
 .hero h1 em {
   font-style: italic;
-  color: var(--accent);
+  color: var(--nord13);
 }
 
 .hero-sub {
@@ -1039,6 +1039,16 @@ footer {
   background: var(--accent-dim);
   padding: 3px 8px;
   border-radius: 2px;
+}
+
+.listing-card-badge--firm {
+  color: var(--nord9);
+  background: rgba(129, 161, 193, 0.15);
+}
+
+.listing-card-badge--nonprofit {
+  color: var(--nord14);
+  background: rgba(163, 190, 140, 0.15);
 }
 
 .listing-card-meta-item {

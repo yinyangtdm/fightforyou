@@ -29,6 +29,12 @@ export default function ListingCard({ listing }: { listing: Listing }) {
     ? "Law Firm"
     : "Attorney"
 
+  const badgeClass = listing.isNonprofit
+    ? "listing-card-badge--nonprofit"
+    : listing.isFirm
+    ? "listing-card-badge--firm"
+    : "listing-card-badge--attorney"
+
   const bioPreview = listing.description
     ? listing.description.substring(0, 220)
     : null
@@ -48,7 +54,7 @@ export default function ListingCard({ listing }: { listing: Listing }) {
           ) : (
             <div className="listing-card-img-placeholder" />
           )}
-          <span className="listing-card-badge">{badge}</span>
+          <span className={`listing-card-badge ${badgeClass}`}>{badge}</span>
         </div>
 
         <div className="listing-card-info">

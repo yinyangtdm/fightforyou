@@ -62,6 +62,7 @@ export default async function ProfilePage({
   const { listing, specialties } = data
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
+  const badgeClass = listing.isNonprofit ? "listing-card-badge--nonprofit" : listing.isFirm ? "listing-card-badge--firm" : "listing-card-badge--attorney"
 
   return (
     <div className="public profile-public">
@@ -82,7 +83,7 @@ export default async function ProfilePage({
               <div className="profile-img-placeholder" />
             )}
           </div>
-          <span className="listing-card-badge profile-badge">{type}</span>
+          <span className={`listing-card-badge profile-badge ${badgeClass}`}>{type}</span>
         </div>
 
         <div className="profile-info-col">
