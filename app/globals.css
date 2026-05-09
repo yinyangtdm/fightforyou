@@ -546,6 +546,7 @@ nav {
 }
 
 .rights-card:hover { background: var(--nord3); border-color: var(--nord8); }
+[data-theme="light"] .rights-card:hover { background: var(--nord1); }
 .rights-card:hover::before { height: 100%; }
 
 .rights-card h3 {
