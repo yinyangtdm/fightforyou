@@ -1289,6 +1289,12 @@ footer {
 
 .btn-primary:hover { background: var(--nord7); }
 
+.btn-phone { background: var(--nord14); }
+.btn-phone:hover { background: rgba(163, 190, 140, 0.8); }
+
+.btn-website { color: var(--nord12); border-color: var(--nord12); }
+.btn-website:hover { background: rgba(208, 135, 112, 0.12); }
+
 .btn-ghost {
   color: var(--nord6);
   font-family: var(--serif);
