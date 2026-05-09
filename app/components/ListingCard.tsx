@@ -36,53 +36,53 @@ export default function ListingCard({ listing }: { listing: Listing }) {
 
   return (
     <Link href={`/lawyers/${listing.slug}`} className="listing-card">
-      <div className="listing-card-photo">
-        {listing.photoUrl ? (
-          <Image
-            src={listing.photoUrl}
-            alt={listing.name}
-            width={144}
-            height={144}
-            className="listing-card-img"
-          />
-        ) : (
-          <div className="listing-card-img-placeholder" />
-        )}
-        <span className="listing-card-badge">{badge}</span>
-      </div>
+      <div className="listing-card-top">
+        <div className="listing-card-photo">
+          {listing.photoUrl ? (
+            <Image
+              src={listing.photoUrl}
+              alt={listing.name}
+              width={144}
+              height={144}
+              className="listing-card-img"
+            />
+          ) : (
+            <div className="listing-card-img-placeholder" />
+          )}
+          <span className="listing-card-badge">{badge}</span>
+        </div>
 
-      <div className="listing-card-info">
-        <h3 className="listing-card-name">{listing.name}</h3>
-        <div className="listing-card-info-grid">
-          {!listing.isFirm && !listing.isNonprofit && listing.firm && (
-            <div className="listing-card-meta-item">
-              <span className="listing-card-icon">🏢</span>
-              <p className="listing-card-firm">{listing.firm}</p>
-            </div>
-          )}
-          {location && (
-            <div className="listing-card-meta-item">
-              <span className="listing-card-icon">📍</span>
-              <span className="listing-card-location">{location}</span>
-            </div>
-          )}
-          {specialties.length > 0 && (
-            <div className="listing-card-meta-item listing-card-info-grid-full">
-              <span className="listing-card-icon">⚖️</span>
-              <p className="listing-card-specialties">{specialties.join(" · ")}</p>
-            </div>
-          )}
+        <div className="listing-card-info">
+          <h3 className="listing-card-name">{listing.name}</h3>
+          <div className="listing-card-info-grid">
+            {!listing.isFirm && !listing.isNonprofit && listing.firm && (
+              <div className="listing-card-meta-item">
+                <span className="listing-card-icon">🏢</span>
+                <p className="listing-card-firm">{listing.firm}</p>
+              </div>
+            )}
+            {location && (
+              <div className="listing-card-meta-item">
+                <span className="listing-card-icon">📍</span>
+                <span className="listing-card-location">{location}</span>
+              </div>
+            )}
+            {specialties.length > 0 && (
+              <div className="listing-card-meta-item listing-card-info-grid-full">
+                <span className="listing-card-icon">⚖️</span>
+                <p className="listing-card-specialties">{specialties.join(" · ")}</p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
-      <div className="listing-card-actions">
-        {bioPreview && (
-          <p className="listing-card-bio">
-            {bioPreview.length === 220 ? bioPreview + "..." : bioPreview}
-          </p>
-        )}
-        <span className="listing-card-read-more">View Profile →</span>
-      </div>
+      {bioPreview && (
+        <p className="listing-card-bio">
+          {bioPreview.length === 220 ? bioPreview + "..." : bioPreview}
+          <span className="listing-card-read-more"> Read More →</span>
+        </p>
+      )}
     </Link>
   )
 }
