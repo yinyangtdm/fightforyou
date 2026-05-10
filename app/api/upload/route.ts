@@ -25,8 +25,11 @@ export async function POST(request: NextRequest) {
     const dataUrl = `data:${file.type};base64,${buffer.toString("base64")}`
 
     const publicId = formData.get("publicId")
+    const isGuide = formData.get("type") === "guide"
     const result = await cloudinary.uploader.upload(dataUrl, {
-      transformation: [{ width: 400, height: 400, crop: "fill", gravity: "face" }],
+      transformation: isGuide
+        ? [{ width: 1200, crop: "limit", quality: "auto", fetch_format: "auto" }]
+        : [{ width: 400, height: 400, crop: "fill", gravity: "face" }],
       ...(publicId && typeof publicId === "string"
         ? { public_id: publicId, overwrite: true, invalidate: true }
         : {}),

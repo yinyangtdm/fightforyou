@@ -25,12 +25,20 @@ async function getSearchData() {
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
 
-  const specialtyRows = await prisma.$queryRaw<{ specialty: string }[]>`
-    SELECT DISTINCT UNNEST(specialties) AS specialty
-    FROM "Listing"
-    WHERE array_length(specialties, 1) > 0
-    ORDER BY specialty
-  `
+  const [specialtyRows, guideRows] = await Promise.all([
+    prisma.$queryRaw<{ specialty: string }[]>`
+      SELECT DISTINCT UNNEST(specialties) AS specialty
+      FROM "Listing"
+      WHERE array_length(specialties, 1) > 0
+      ORDER BY specialty
+    `,
+    prisma.guide.findMany({
+      where: { published: true },
+      select: { title: true, slug: true },
+      orderBy: { createdAt: "desc" },
+      take: 50,
+    }),
+  ])
 
   await prisma.$disconnect()
 
@@ -40,15 +48,15 @@ async function getSearchData() {
     .map((row: { specialty: string }) => row.specialty)
     .filter(Boolean)
 
-  return { states, practices }
+  return { states, practices, guides: guideRows }
 }
 
 export default async function HomePage() {
-  const { states, practices } = await getSearchData()
+  const { states, practices, guides } = await getSearchData()
 
   return (
     <div className="public">
-      <Nav specialties={practices} />
+      <Nav specialties={practices} guides={guides} />
 
       {/* Hero */}
       <section style={{ background: "var(--nord0)", borderBottom: "1px solid var(--border-on-dark)" }}>

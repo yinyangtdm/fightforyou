@@ -26,7 +26,7 @@ async function getData(segment: string) {
   const stateAbbr = STATE_SLUGS[segment]
 
   if (stateAbbr) {
-    const [listings, specialtyRows] = await Promise.all([
+    const [listings, specialtyRows, guideRows] = await Promise.all([
       prisma.listing.findMany({
         where: { state: stateAbbr, approved: true },
         select: SELECT,
@@ -35,6 +35,12 @@ async function getData(segment: string) {
       prisma.$queryRaw<{ specialty: string }[]>`
         SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
       `,
+      prisma.guide.findMany({
+        where: { published: true },
+        select: { title: true, slug: true },
+        orderBy: { createdAt: "desc" },
+        take: 50,
+      }),
     ])
     await prisma.$disconnect()
     return {
@@ -43,6 +49,7 @@ async function getData(segment: string) {
       label: STATE_NAMES[stateAbbr],
       listings,
       specialties: specialtyRows.map((r) => r.specialty),
+      guides: guideRows,
     }
   }
 
@@ -58,22 +65,30 @@ async function getData(segment: string) {
     return null
   }
 
-  const listings = await prisma.listing.findMany({
-    where: { specialties: { has: specialty }, approved: true },
-    select: SELECT,
-    orderBy: { name: "asc" },
-  })
-
-  const specialties = await prisma.$queryRaw<{ specialty: string }[]>`
-    SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-  `
+  const [listings, allSpecialties, guideRows] = await Promise.all([
+    prisma.listing.findMany({
+      where: { specialties: { has: specialty }, approved: true },
+      select: SELECT,
+      orderBy: { name: "asc" },
+    }),
+    prisma.$queryRaw<{ specialty: string }[]>`
+      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
+    `,
+    prisma.guide.findMany({
+      where: { published: true },
+      select: { title: true, slug: true },
+      orderBy: { createdAt: "desc" },
+      take: 50,
+    }),
+  ])
 
   await prisma.$disconnect()
   return {
     type: "specialty" as const,
     label: specialty,
     listings,
-    specialties: specialties.map((r) => r.specialty),
+    specialties: allSpecialties.map((r) => r.specialty),
+    guides: guideRows,
   }
 }
 
@@ -106,7 +121,7 @@ export default async function SegmentPage({
   const data = await getData(segment)
   if (!data) notFound()
 
-  const specialties = data.specialties
+  const { specialties, guides } = data
 
   const heading =
     data.type === "state"
@@ -120,7 +135,7 @@ export default async function SegmentPage({
 
   return (
     <div className="public">
-      <Nav specialties={specialties} />
+      <Nav specialties={specialties} guides={guides} />
 
       <div className="listing-page">
         <div className="listing-page-header">

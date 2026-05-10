@@ -37,7 +37,7 @@ async function getData(specialtySegment: string, stateSegment: string) {
     return null
   }
 
-  const [listings, allSpecialties] = await Promise.all([
+  const [listings, allSpecialties, guideRows] = await Promise.all([
     prisma.listing.findMany({
       where: { specialties: { has: specialty }, state: stateAbbr, approved: true },
       select: SELECT,
@@ -46,6 +46,12 @@ async function getData(specialtySegment: string, stateSegment: string) {
     prisma.$queryRaw<{ specialty: string }[]>`
       SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
     `,
+    prisma.guide.findMany({
+      where: { published: true },
+      select: { title: true, slug: true },
+      orderBy: { createdAt: "desc" },
+      take: 50,
+    }),
   ])
 
   await prisma.$disconnect()
@@ -56,6 +62,7 @@ async function getData(specialtySegment: string, stateSegment: string) {
     stateName: STATE_NAMES[stateAbbr],
     listings,
     specialties: allSpecialties.map((r) => r.specialty),
+    guides: guideRows,
   }
 }
 
@@ -85,7 +92,7 @@ export default async function SpecialtyStatePage({
 
   return (
     <div className="public">
-      <Nav specialties={data.specialties} />
+      <Nav specialties={data.specialties} guides={data.guides} />
 
       <div className="listing-page">
         <div className="listing-page-header">

@@ -93,6 +93,8 @@ const descriptions: Record<string, string> = {
     "Wrongful imprisonment lawyers represent people who were unlawfully or unjustly incarcerated — whether because of a false arrest, malicious prosecution, a wrongful conviction, or a systemic failure of the justice system. These attorneys fight both to secure their clients' freedom and to pursue compensation for the devastating harm that wrongful imprisonment causes to a person's life.",
 }
 
+export const specialtyDescriptions = descriptions
+
 export function getSpecialtyDescription(specialty: string): string | null {
   return descriptions[specialty] ?? null
 }

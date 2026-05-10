@@ -10,7 +10,7 @@ const ALL_STATES = Object.values(STATE_NAMES)
 
 type MenuId = "states" | "specialty" | "rights"
 
-export default function Nav({ specialties }: { specialties: string[] }) {
+export default function Nav({ specialties, guides = [] }: { specialties: string[], guides?: { title: string, slug: string }[] }) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openMenu, setOpenMenu] = useState<MenuId | null>(null)
   const [openAccordion, setOpenAccordion] = useState<MenuId | null>(null)
@@ -65,7 +65,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
         </Link>
 
         <ul className={`nav-links${mobileOpen ? " open" : ""}`}>
-          {/* Attorneys by State */}
+          {/* Browse by State */}
           <li className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}>
             <a
               href="#"
@@ -76,7 +76,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
                 else toggleMenu("states")
               }}
             >
-              Attorneys by State
+              Browse by State
               <span className="nav-accordion-arrow" aria-hidden>›</span>
             </a>
             <ul className="nav-accordion-list">
@@ -87,7 +87,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
             </ul>
           </li>
 
-          {/* Attorneys by Specialty */}
+          {/* Browse by Specialty */}
           <li className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}>
             <a
               href="#"
@@ -98,7 +98,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
                 else toggleMenu("specialty")
               }}
             >
-              Attorneys by Specialty
+              Browse by Specialty
               <span className="nav-accordion-arrow" aria-hidden>›</span>
             </a>
             <ul className="nav-accordion-list">
@@ -123,7 +123,12 @@ export default function Nav({ specialties }: { specialties: string[] }) {
               <span className="nav-accordion-arrow" aria-hidden>›</span>
             </a>
             <ul className="nav-accordion-list">
-              <li><a href="#">Guides coming soon.</a></li>
+              <li><Link href="/guides/filing-deadlines-by-state">Filing Deadlines by State</Link></li>
+              <li><Link href="/guides/qualified-immunity">Qualified Immunity by State</Link></li>
+              {guides.map(g => (
+                <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title}</Link></li>
+              ))}
+              <li><Link href="/guides">All Guides →</Link></li>
             </ul>
           </li>
 
@@ -163,7 +168,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
 
       {/* Desktop mega menus — hidden on mobile via CSS */}
       <div className={`mega-menu${openMenu === "states" ? " open" : ""}`}>
-        <div className="mega-menu-heading">Attorneys by State</div>
+        <div className="mega-menu-heading">Browse by State</div>
         <div className="mega-menu-grid">
           {ALL_STATES.map((state) => (
             <Link key={state} href={`/${STATE_ABBRS[state]}`}>{state}</Link>
@@ -173,7 +178,7 @@ export default function Nav({ specialties }: { specialties: string[] }) {
       </div>
 
       <div className={`mega-menu${openMenu === "specialty" ? " open" : ""}`}>
-        <div className="mega-menu-heading">Attorneys by Specialty</div>
+        <div className="mega-menu-heading">Browse by Specialty</div>
         <div className="mega-menu-grid">
           {specialties.map((s) => (
             <Link key={s} href={`/${toSlug(s)}`}>{s}</Link>
@@ -183,7 +188,14 @@ export default function Nav({ specialties }: { specialties: string[] }) {
 
       <div className={`mega-menu${openMenu === "rights" ? " open" : ""}`}>
         <div className="mega-menu-heading">Know Your Rights</div>
-        <p className="mega-menu-empty">Guides coming soon.</p>
+        <div className="mega-menu-grid">
+          <Link href="/guides/filing-deadlines-by-state">Filing Deadlines by State</Link>
+          <Link href="/guides/qualified-immunity">Qualified Immunity by State</Link>
+          {guides.map(g => (
+            <Link key={g.slug} href={`/guides/${g.slug}`}>{g.title}</Link>
+          ))}
+          <Link href="/guides">All Guides →</Link>
+        </div>
       </div>
 
       <div

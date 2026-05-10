@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -6,6 +7,7 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-top">
           <div className="footer-brand">
+            <Image src="/logo.svg" alt="fightforyou" width={120} height={40} className="footer-brand-logo" />
             <Link href="/" className="footer-logo">
               fightfor<span>you</span>
             </Link>
@@ -21,11 +23,12 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h5>Know Your Rights</h5>
+            <h5>Legal Guides</h5>
             <ul>
-              <li><a href="#">Know Your Rights</a></li>
-              <li><a href="#">Do You Have a Case?</a></li>
-              <li><a href="#">Filing Deadlines by State</a></li>
+              <li><a href="/guides">Know Your Rights</a></li>
+              <li><a href="/guides/do-i-have-a-case">Do You Have a Case?</a></li>
+              <li><a href="/guides/filing-deadlines-by-state">Filing Deadlines by State</a></li>
+              <li><a href="/guides/qualified-immunity">Qualified Immunity by State</a></li>
               <li><a href="#">Legal Glossary</a></li>
             </ul>
           </div>
