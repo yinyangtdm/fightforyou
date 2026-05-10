@@ -84,18 +84,14 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
         <ul className={`nav-links${mobileOpen ? " open" : ""}`}>
           {/* Browse by State */}
           <li className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}>
-            <a
-              href="#"
+            <button
+              type="button"
               className="nav-accordion-trigger"
-              onClick={(e) => {
-                e.preventDefault()
-                if (mobileOpen) toggleAccordion("states")
-                else toggleMenu("states")
-              }}
+              onClick={() => { if (mobileOpen) toggleAccordion("states"); else toggleMenu("states") }}
             >
               Browse by State
               <span className="nav-accordion-arrow" aria-hidden>›</span>
-            </a>
+            </button>
             <ul className="nav-accordion-list">
               {ALL_STATES.map((state) => (
                 <li key={state}><Link href={`/${STATE_ABBRS[state]}`}>{state}</Link></li>
@@ -106,18 +102,14 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
           {/* Browse by Specialty */}
           <li className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}>
-            <a
-              href="#"
+            <button
+              type="button"
               className="nav-accordion-trigger"
-              onClick={(e) => {
-                e.preventDefault()
-                if (mobileOpen) toggleAccordion("specialty")
-                else toggleMenu("specialty")
-              }}
+              onClick={() => { if (mobileOpen) toggleAccordion("specialty"); else toggleMenu("specialty") }}
             >
               Browse by Specialty
               <span className="nav-accordion-arrow" aria-hidden>›</span>
-            </a>
+            </button>
             <ul className="nav-accordion-list">
               {specialties.map((s) => (
                 <li key={s}><Link href={`/${toSlug(s)}`}>{s}</Link></li>
@@ -127,18 +119,14 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
           {/* Know Your Rights */}
           <li className={`nav-accordion-item${openAccordion === "rights" ? " accordion-open" : ""}`}>
-            <a
-              href="#"
+            <button
+              type="button"
               className="nav-accordion-trigger"
-              onClick={(e) => {
-                e.preventDefault()
-                if (mobileOpen) toggleAccordion("rights")
-                else toggleMenu("rights")
-              }}
+              onClick={() => { if (mobileOpen) toggleAccordion("rights"); else toggleMenu("rights") }}
             >
               Know Your Rights
               <span className="nav-accordion-arrow" aria-hidden>›</span>
-            </a>
+            </button>
             <ul className="nav-accordion-list">
               <li><Link href="/guides/filing-deadlines-by-state">Filing Deadlines by State</Link></li>
               <li><Link href="/guides/qualified-immunity">Qualified Immunity by State</Link></li>
