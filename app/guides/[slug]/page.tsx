@@ -70,10 +70,8 @@ function renderBody(body: string) {
     // inline image: ![alt](url)
     const imgMatch = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
     if (imgMatch) {
-      return (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img key={i} src={imgMatch[2]} alt={imgMatch[1]} className="guide-body-img" />
-      )
+      // eslint-disable-next-line @next/next/no-img-element
+      return <img key={i} src={imgMatch[2]} alt={imgMatch[1]} className="guide-body-img" />
     }
     return <p key={i}>{block.trim()}</p>
   })

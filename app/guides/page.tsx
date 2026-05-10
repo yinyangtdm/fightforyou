@@ -6,7 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
 
-export const revalidate = 3600
+export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
   title: "Know Your Rights — Guides | fightfor.you",

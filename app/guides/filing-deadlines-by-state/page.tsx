@@ -6,7 +6,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import StatePicker from "./StatePicker"
 
-export const revalidate = 3600
+export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
   title: "Filing Deadlines by State | fightfor.you",
