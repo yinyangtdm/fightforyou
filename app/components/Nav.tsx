@@ -39,8 +39,13 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
   }, [])
 
   useEffect(() => {
-    document.body.style.overflow = (mobileOpen || openMenu !== null) ? "hidden" : ""
-    return () => { document.body.style.overflow = "" }
+    const locked = mobileOpen || openMenu !== null
+    document.documentElement.style.overflow = locked ? "hidden" : ""
+    document.body.style.overflow = locked ? "hidden" : ""
+    return () => {
+      document.documentElement.style.overflow = ""
+      document.body.style.overflow = ""
+    }
   }, [mobileOpen, openMenu])
 
   function toggleMenu(id: MenuId) {
