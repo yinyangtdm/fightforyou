@@ -1,25 +1,17 @@
 @import "tailwindcss";
 
-/* ── Shared tokens (safe for admin too) ── */
 :root {
-  --background: #2e3440;
-  --foreground: #f8f9fb;
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-
-  /* Nord dark palette */
-  --nord0: #2e3440;
-  --nord1: #3b4252;
-  --nord2: #434c5e;
-  --nord3: #4c566a;
-  --nord4: #d8dee9;
-  --nord5: #e5e9f0;
-  --nord6: #eceff4;
-  --nord7: #8fbcbb;
-  --nord8: #88c0d0;
-  --nord9: #81a1c1;
+  /* Nord palette */
+  --nord0:  #2e3440;
+  --nord1:  #3b4252;
+  --nord2:  #434c5e;
+  --nord3:  #4c566a;
+  --nord4:  #d8dee9;
+  --nord5:  #e5e9f0;
+  --nord6:  #eceff4;
+  --nord7:  #8fbcbb;
+  --nord8:  #88c0d0;
+  --nord9:  #81a1c1;
   --nord10: #5e81ac;
   --nord11: #bf616a;
   --nord12: #d08770;
@@ -27,68 +19,34 @@
   --nord14: #a3be8c;
   --nord15: #b48ead;
 
-  /* Semantic aliases */
-  --gray-dark: var(--nord0);
-  --gray-dark-2: var(--nord1);
-  --gray-mid: var(--nord2);
-  --gray-muted: var(--nord3);
-  --gray-light-2: var(--nord4);
-  --gray-light: var(--nord5);
-  --gray-lightest: var(--nord6);
-  --accent: var(--nord8);
-  --accent-light: var(--nord7);
-  --accent-dim: rgba(136, 192, 208, 0.15);
-  --accent-secondary: var(--nord9);
-  --accent-deep: var(--nord10);
-  --text-muted: var(--nord4);
-  --text-muted-dark: var(--nord3);
-  --border-on-dark: rgba(216, 222, 233, 0.1);
-  --border-on-light: rgba(216, 222, 233, 0.12);
-  --surface: var(--nord1);
+  /* Fonts */
   --serif: var(--font-raleway), sans-serif;
-  --sans: var(--font-merriweather), Georgia, serif;
+  --sans:  var(--font-merriweather), Georgia, serif;
+
+  /* Semantic aliases */
+  --accent:        var(--nord8);
+  --accent-light:  var(--nord7);
+  --accent-dim:    rgba(136, 192, 208, 0.15);
+  --text-muted:    var(--nord4);
+  --border-on-dark:  rgba(216, 222, 233, 0.1);
+  --border-on-light: rgba(216, 222, 233, 0.12);
 }
-
-html { scroll-behavior: smooth; }
-
-::selection { background: var(--nord10); color: var(--nord6); }
-::-moz-selection { background: var(--nord10); color: var(--nord6); }
 
 /* ── Light mode overrides ── */
 [data-theme="light"] {
-  --background: #;
-  --foreground: #2e3440;
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-
-  --gray-dark: #2e3440;
-  --gray-dark-2: #3b4252;
-  --gray-mid: #434c5e;
-  --gray-muted: #4c566a;
-  --gray-light-2: #d8dee9;
-  --gray-light: #e5e9f0;
-  --gray-lightest: #eceff4;
-  --accent: #5e81ac;
-  --accent-light: #81a1c1;
-  --accent-dim: rgba(94, 129, 172, 0.12);
-  --accent-secondary: #81a1c1;
-  --accent-deep: #5e81ac;
-  --text-muted: #4c566a;
-  --text-muted-dark: #81a1c1;
-  --border-on-dark: rgba(46, 52, 64, 0.12);
-  --border-on-light: rgba(46, 52, 64, 0.12);
-  --surface: #eceff4;
-
-  /* Override all component-level nordX vars used in rules */
-  --nord0: #eceff4;
-  --nord1: #f8f9fb;  
-  --nord2: #e5e9f0;
+  --nord0: #d8dee9;
+  --nord1: #e5e9f0;
+  --nord2: #eceff4;
   --nord3: #4c566a;
   --nord4: #434c5e;
   --nord5: #3b4252;
   --nord6: #2e3440;
   --nord7: #81a1c1;
   --nord8: #5e81ac;
+
+  --accent-dim:      rgba(94, 129, 172, 0.12);
+  --border-on-dark:  rgba(46, 52, 64, 0.12);
+  --border-on-light: rgba(46, 52, 64, 0.12);
 }
 
 /* ── Public page wrapper ── */
@@ -156,9 +114,13 @@ nav {
 }
 
 .theme-toggle:hover {
-  background: var(--border-on-dark);
+  background: #434c5e;
   border-color: var(--accent);
   color: var(--accent);
+}
+
+[data-theme="light"] .theme-toggle:hover {
+  background: #c4c9d5;
 }
 
 .nav-links {
@@ -254,7 +216,7 @@ nav {
 
 .hero h1 em {
   font-style: italic;
-  color: var(--nord13);
+  color: var(--nord7);
 }
 
 .hero-sub {
@@ -337,7 +299,9 @@ nav {
 
 .autocomplete-item:last-child { border-bottom: none; }
 .autocomplete-item:hover,
-.autocomplete-item.highlighted { background: var(--nord2); }
+.autocomplete-item.highlighted { background: var(--nord3); }
+[data-theme="light"] .autocomplete-item:hover,
+[data-theme="light"] .autocomplete-item.highlighted { background: #c4c9d5; }
 
 .autocomplete-item mark {
   background: none;
@@ -549,7 +513,7 @@ nav {
 }
 
 .rights-card:hover { background: var(--nord3); border-color: var(--nord8); }
-[data-theme="light"] .rights-card:hover { background: var(--nord1); }
+[data-theme="light"] .rights-card:hover { background: #c4c9d5; }
 .rights-card:hover::before { height: 100%; }
 
 .rights-card h3 {
@@ -576,14 +540,14 @@ nav {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-light);
   display: flex;
   align-items: center;
   gap: 6px;
   transition: color 0.2s;
 }
 
-.rights-card:hover .rights-count { color: var(--accent-light); }
+.rights-card:hover .rights-count { color: var(--accent); }
 
 .rights-count::before {
   content: "";
@@ -787,32 +751,60 @@ footer {
   flex-shrink: 0;
 }
 
-.filter-dropdown select {
-  appearance: none;
+.filter-dropdown-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--sans);
-  font-size: 14px;
-  padding: 9px 36px 9px 14px;
+  font-size: 15px;
+  padding: 12px 16px;
   border: 1px solid var(--border-on-dark);
-  border-radius: 8px;
-  background: var(--nord2);
+  border-radius: 6px;
+  background: var(--nord1);
   color: var(--nord6);
   cursor: pointer;
   outline: none;
   transition: border-color 0.15s;
 }
 
-.filter-dropdown select:focus { border-color: var(--accent); }
+
+.filter-dropdown-btn[aria-expanded="true"] { border-color: var(--nord8); }
 
 .filter-dropdown-chevron {
-  position: absolute;
-  right: 11px;
-  top: 50%;
-  transform: translateY(-50%);
   width: 14px;
   height: 14px;
-  color: var(--text-muted);
-  pointer-events: none;
+  flex-shrink: 0;
+  color: inherit;
 }
+
+.filter-dropdown-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 100%;
+  background: var(--nord1);
+  border: 1px solid var(--border-on-dark);
+  border-radius: 8px;
+  z-index: 200;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.filter-dropdown-option {
+  padding: 10px 14px;
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--nord6);
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.filter-dropdown-option:hover { background: var(--nord2); }
 
 @media (max-width: 860px) {
   .listing-page-filter-row { flex-wrap: wrap; }
@@ -1716,9 +1708,8 @@ footer {
 
 /* State picker on filing deadlines page */
 .state-picker-section {
-  margin-top: 48px;
-  border-top: 1px solid var(--border-on-dark);
-  padding-top: 40px;
+  margin-top: 24px;
+  padding-top: 0;
 }
 
 .state-picker-heading {
@@ -1746,7 +1737,7 @@ footer {
   border: 1px solid var(--border-on-dark);
   border-radius: 6px;
   background: var(--nord1);
-  color: var(--text);
+  color: var(--nord6);
   outline: none;
   box-sizing: border-box;
 }
@@ -1776,7 +1767,7 @@ footer {
   padding: 9px 16px;
   font-size: 14px;
   cursor: pointer;
-  color: var(--text);
+  color: var(--nord6);
 }
 
 .state-picker-option:hover {

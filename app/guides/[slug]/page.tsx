@@ -101,7 +101,6 @@ export default async function GuidePage({
               <Image src={guide.coverImageUrl} alt={guide.title} width={900} height={420} className="guide-hero-img" />
             )}
 
-            <span className="guide-card-category">{guide.categories[0] ?? ""}</span>
             <h1 className="guide-title">{guide.title}</h1>
 
             {guide.excerpt && (
@@ -121,6 +120,12 @@ export default async function GuidePage({
                 </>
               ) : null}
               <span>{guide.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+              {guide.categories.length > 0 && (
+                <>
+                  <span className="guide-meta-sep">·</span>
+                  <span>{guide.categories.join(", ")}</span>
+                </>
+              )}
             </div>
 
             <div className="guide-body">

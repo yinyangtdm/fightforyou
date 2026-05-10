@@ -55,6 +55,8 @@ export default async function FilingDeadlinesPage() {
               you need to know before that clock runs out.
             </p>
 
+            <StatePicker />
+
             <div className="guide-body">
               <h3 className="guide-body-h3">Statute of Limitations</h3>
               <p>
@@ -70,7 +72,9 @@ export default async function FilingDeadlinesPage() {
                 clock in limited circumstances, such as when the victim is a minor or is incapacitated, but you should
                 never rely on tolling without consulting an attorney. When in doubt, assume the clock is running.
               </p>
+            </div>
 
+            <div className="guide-body">
               <h3 className="guide-body-h3">Notice of Claim</h3>
               <p>
                 Separate from the statute of limitations, many states require you to file a formal &ldquo;notice of claim&rdquo;
@@ -93,8 +97,6 @@ export default async function FilingDeadlinesPage() {
                 possible. Many work on contingency, meaning no upfront cost to you.
               </p>
             </div>
-
-            <StatePicker />
 
             <div className="guide-disclaimer">
               This page is for general informational purposes only and does not constitute legal advice. Laws change

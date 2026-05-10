@@ -55,6 +55,8 @@ export default async function QualifiedImmunityPage() {
               a government official.
             </p>
 
+            <QIStatePicker />
+
             <div className="guide-body">
               <h3 className="guide-body-h3">What Is Qualified Immunity?</h3>
               <p>
@@ -70,7 +72,9 @@ export default async function QualifiedImmunityPage() {
                 Critics argue it has grown far beyond that purpose and now shields officers from accountability even
                 in egregious cases.
               </p>
+            </div>
 
+            <div className="guide-body">
               <h3 className="guide-body-h3">The &ldquo;Clearly Established&rdquo; Standard</h3>
               <p>
                 To overcome qualified immunity, a plaintiff must show not only that their constitutional rights were
@@ -111,8 +115,6 @@ export default async function QualifiedImmunityPage() {
                 force, unlawful arrest, or illegal searches.
               </p>
             </div>
-
-            <QIStatePicker />
 
             <div className="guide-disclaimer">
               This page is for general informational purposes only and does not constitute legal advice. Laws change

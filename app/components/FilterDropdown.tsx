@@ -1,5 +1,6 @@
 "use client"
 
+import { useState, useRef, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { toSlug, STATE_ABBRS } from "../lib/slugs"
 
@@ -13,9 +14,13 @@ export default function FilterDropdown({
   currentSlug: string
 }) {
   const router = useRouter()
+  const [open, setOpen] = useState(false)
+  const containerRef = useRef<HTMLDivElement>(null)
 
-  function handleChange(value: string) {
-    if (!value) return
+  const label = type === "state" ? "Filter by practice area" : "Filter by state"
+
+  function handleSelect(value: string) {
+    setOpen(false)
     if (type === "state") {
       router.push(`/${toSlug(value)}/${currentSlug}`)
     } else {
@@ -25,21 +30,44 @@ export default function FilterDropdown({
     }
   }
 
+  useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setOpen(false)
+      }
+    }
+    document.addEventListener("mousedown", onClickOutside)
+    return () => document.removeEventListener("mousedown", onClickOutside)
+  }, [])
+
   if (options.length === 0) return null
 
-  const label = type === "state" ? "Filter by practice area" : "Filter by state"
-
   return (
-    <div className="filter-dropdown">
-      <select defaultValue="" title={label} onChange={(e) => handleChange(e.target.value)}>
-        <option value="" hidden>{label}</option>
-        {options.map((opt) => (
-          <option key={opt} value={opt}>{opt}</option>
-        ))}
-      </select>
-      <svg className="filter-dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round">
-        <polyline points="6 9 12 15 18 9" />
-      </svg>
+    <div ref={containerRef} className="filter-dropdown">
+      <button
+        className="filter-dropdown-btn"
+        onClick={() => setOpen((o) => !o)}
+        aria-expanded={open}
+        type="button"
+      >
+        {label}
+        <svg className="filter-dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      {open && (
+        <ul className="filter-dropdown-list">
+          {options.map((opt) => (
+            <li
+              key={opt}
+              className="filter-dropdown-option"
+              onMouseDown={(e) => { e.preventDefault(); handleSelect(opt) }}
+            >
+              {opt}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )
 }
