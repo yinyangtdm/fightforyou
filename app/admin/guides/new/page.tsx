@@ -164,6 +164,7 @@ export default function NewGuidePage() {
             {coverUploading && <p className="text-sm text-gray-500 mt-1">Uploading…</p>}
             {form.coverImageUrl && (
               <div className="mt-2 relative inline-block">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={form.coverImageUrl} alt="Cover" className="h-32 rounded border object-cover" />
                 <button
                   type="button"

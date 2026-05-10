@@ -4,6 +4,7 @@ import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
 import Link from "next/link"
+import Image from "next/image"
 import type { Metadata } from "next"
 
 export const revalidate = 3600
@@ -70,12 +71,8 @@ function renderBody(body: string) {
     const imgMatch = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
     if (imgMatch) {
       return (
-        <img
-          key={i}
-          src={imgMatch[2]}
-          alt={imgMatch[1]}
-          className="guide-body-img"
-        />
+        // eslint-disable-next-line @next/next/no-img-element
+        <img key={i} src={imgMatch[2]} alt={imgMatch[1]} className="guide-body-img" />
       )
     }
     return <p key={i}>{block.trim()}</p>
@@ -103,7 +100,7 @@ export default async function GuidePage({
             <Link href="/guides" className="guide-back">← All guides</Link>
 
             {guide.coverImageUrl && (
-              <img src={guide.coverImageUrl} alt={guide.title} className="guide-hero-img" />
+              <Image src={guide.coverImageUrl} alt={guide.title} width={900} height={420} className="guide-hero-img" />
             )}
 
             <span className="guide-card-category">{guide.categories[0] ?? ""}</span>

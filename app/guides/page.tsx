@@ -3,6 +3,7 @@ import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import Link from "next/link"
+import Image from "next/image"
 import type { Metadata } from "next"
 
 export const revalidate = 3600
@@ -72,7 +73,7 @@ export default async function GuidesPage() {
             {featured.map((g) => (
               <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card guide-card--featured">
                 {g.coverImageUrl && (
-                  <img src={g.coverImageUrl} alt={g.title} className="guide-card-cover" />
+                  <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
                 )}
                 <span className="guide-card-category">{g.categories[0] ?? ""}</span>
                 <h2 className="guide-card-title">{g.title}</h2>
@@ -88,7 +89,7 @@ export default async function GuidesPage() {
             {rest.map((g) => (
               <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card">
                 {g.coverImageUrl && (
-                  <img src={g.coverImageUrl} alt={g.title} className="guide-card-cover" />
+                  <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
                 )}
                 <span className="guide-card-category">{g.categories[0] ?? ""}</span>
                 <h2 className="guide-card-title">{g.title}</h2>
