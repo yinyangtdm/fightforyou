@@ -1493,9 +1493,10 @@ footer {
 /* ── 720px: info-col dissolves; address/specialties wrap below photo+name ── */
 @media (max-width: 720px) {
   .profile-photo-col {
-    flex: 0 0 auto;
+    flex: 0 0 190px;
     border-right: none;
   }
+  .profile-photo-wrap { width: 150px; height: 150px; }
 
   .profile-info-col {
     display: contents;
@@ -1519,6 +1520,11 @@ footer {
   .profile-actions-col {
     order: 3;
   }
+
+  .profile-actions-col .btn-website {
+    flex: 0 0 100%;
+    min-width: unset;
+  }
 }
 
 @media (max-width: 860px) {
@@ -1532,6 +1538,9 @@ footer {
     margin: 16px 24px;
     border-radius: 8px;
   }
+
+  .profile-photo-col { flex: 0 0 220px; }
+  .profile-photo-wrap { width: 175px; height: 175px; }
 }
 
 /* ── GUIDES ── */
