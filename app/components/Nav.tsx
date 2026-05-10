@@ -34,8 +34,15 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") { setOpenMenu(null); setMobileOpen(false) }
     }
+    function onVisibilityChange() {
+      if (document.hidden) { setOpenMenu(null); setMobileOpen(false) }
+    }
     document.addEventListener("keydown", onKey)
-    return () => document.removeEventListener("keydown", onKey)
+    document.addEventListener("visibilitychange", onVisibilityChange)
+    return () => {
+      document.removeEventListener("keydown", onKey)
+      document.removeEventListener("visibilitychange", onVisibilityChange)
+    }
   }, [])
 
   useEffect(() => {
