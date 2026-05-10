@@ -34,9 +34,25 @@ const COMING_SOON_HTML = `<!DOCTYPE html>
 export function middleware(request: NextRequest) {
   if (process.env.COMING_SOON !== "true") return NextResponse.next()
 
-  const { pathname } = request.nextUrl
+  const { pathname, searchParams } = request.nextUrl
   if (pathname.startsWith("/admin") || pathname.startsWith("/api")) {
     return NextResponse.next()
+  }
+
+  const secret = process.env.PREVIEW_SECRET
+  if (secret) {
+    // Grant access via ?preview=<secret>, set a cookie, then redirect clean
+    if (searchParams.get("preview") === secret) {
+      const url = request.nextUrl.clone()
+      url.searchParams.delete("preview")
+      const res = NextResponse.redirect(url)
+      res.cookies.set("preview_access", secret, { httpOnly: true, sameSite: "lax", maxAge: 60 * 60 * 24 * 7 })
+      return res
+    }
+    // Allow if cookie already set
+    if (request.cookies.get("preview_access")?.value === secret) {
+      return NextResponse.next()
+    }
   }
 
   return new NextResponse(COMING_SOON_HTML, {
