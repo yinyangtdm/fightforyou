@@ -38,6 +38,11 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
     return () => document.removeEventListener("keydown", onKey)
   }, [])
 
+  useEffect(() => {
+    document.body.style.overflow = (mobileOpen || openMenu !== null) ? "hidden" : ""
+    return () => { document.body.style.overflow = "" }
+  }, [mobileOpen, openMenu])
+
   function toggleMenu(id: MenuId) {
     setOpenMenu((prev) => (prev === id ? null : id))
   }
