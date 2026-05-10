@@ -106,7 +106,7 @@ export default async function GuidesPage() {
         <div className="guides-cta">
           <h2>Are you an attorney?</h2>
           <p>Share your expertise by contributing a guide. Attorney submissions are reviewed before publishing.</p>
-          <a href="/admin/login" className="btn-primary">Submit a Guide</a>
+          <Link href="/admin/login" className="btn-primary">Submit a Guide</Link>
         </div>
       </div>
 

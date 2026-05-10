@@ -25,10 +25,10 @@ export default function Footer() {
           <div className="footer-col">
             <h5>Legal Guides</h5>
             <ul>
-              <li><a href="/guides">Know Your Rights</a></li>
-              <li><a href="/guides/do-i-have-a-case">Do You Have a Case?</a></li>
-              <li><a href="/guides/filing-deadlines-by-state">Filing Deadlines by State</a></li>
-              <li><a href="/guides/qualified-immunity">Qualified Immunity by State</a></li>
+              <li><Link href="/guides">Know Your Rights</Link></li>
+              <li><Link href="/guides/do-i-have-a-case">Do You Have a Case?</Link></li>
+              <li><Link href="/guides/filing-deadlines-by-state">Filing Deadlines by State</Link></li>
+              <li><Link href="/guides/qualified-immunity">Qualified Immunity by State</Link></li>
               <li><a href="#">Legal Glossary</a></li>
             </ul>
           </div>
