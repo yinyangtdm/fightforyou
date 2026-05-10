@@ -46,6 +46,14 @@ All `/admin` routes call `auth()` from `./auth` and redirect to `/admin/login` i
   ```
 - Server components fetch data directly; client components are separate files with `"use client"`.
 
+## Build rules — must follow every time
+
+**Internal navigation** — never use `<a href="...">` for internal routes. Always use `<Link href="...">` from `next/link`. The linter treats this as a hard error and breaks the build.
+
+**Images** — never use `<img>` for public-facing pages. Use `<Image>` from `next/image` with explicit `width` and `height`. For images with unknown dimensions at render time (e.g. markdown body images, admin upload previews), add `{/* eslint-disable-next-line @next/next/no-img-element */}` on the line directly before the `<img>` tag — not inside a JSX expression/return wrapper.
+
+**Static pages that query the DB** — any page route that is not a dynamic segment (e.g. `/guides`, `/guides/filing-deadlines-by-state`) must export `export const dynamic = "force-dynamic"` instead of `revalidate`. The Railway build environment cannot reach the database, so static prerendering fails. Dynamic segments (`[slug]`, `[id]`) are safe without this because Next.js does not prerender them without `generateStaticParams`.
+
 ## File map
 ```
 auth.ts                              NextAuth config
