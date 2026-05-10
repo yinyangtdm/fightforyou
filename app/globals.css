@@ -49,6 +49,9 @@
   --border-on-light: rgba(46, 52, 64, 0.12);
 }
 
+html, body { overflow-x: hidden; }
+input, textarea, select { font-size: 16px; }
+
 /* ── Public page wrapper ── */
 .public {
   font-family: var(--sans);
@@ -249,7 +252,7 @@ nav {
   border: none;
   border-right: 1px solid var(--border-on-dark);
   font-family: var(--serif);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   color: var(--nord6);
   background: transparent;
@@ -2258,6 +2261,7 @@ footer {
 }
 
 @media (max-width: 480px) {
+
   .footer-top { grid-template-columns: 1fr; }
 
   .nav-inner { padding: 0 16px; }
