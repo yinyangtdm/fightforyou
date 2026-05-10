@@ -186,27 +186,6 @@ nav {
   gap: 40px;
 }
 
-.hero-eyebrow {
-  font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.hero-eyebrow::before {
-  content: "";
-  display: block;
-  width: 28px;
-  height: 1.5px;
-  background: var(--accent);
-}
-
 .hero h1 {
   font-family: var(--serif);
   font-size: clamp(52px, 6vw, 80px);
@@ -312,12 +291,6 @@ nav {
   font-weight: 600;
 }
 
-.autocomplete-meta {
-  font-size: 11px;
-  color: var(--nord3);
-  white-space: nowrap;
-}
-
 .search-btn {
   background: var(--nord8);
   color: var(--nord0);
@@ -391,26 +364,6 @@ nav {
 .about-inner {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.section-eyebrow {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.section-eyebrow::before {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 1.5px;
-  background: var(--accent);
 }
 
 .about-inner h2 {
@@ -607,14 +560,6 @@ nav {
 
 .mega-menu-grid a:hover { color: var(--nord8); border-color: var(--nord8); }
 
-
-.mega-menu-empty {
-  font-family: var(--sans);
-  font-size: 13px;
-  font-weight: 300;
-  color: var(--nord4);
-  font-style: italic;
-}
 
 .mega-overlay {
   display: none;
@@ -1195,18 +1140,6 @@ footer {
 }
 
 
-.profile-meta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 10px;
-}
-
-.profile-meta .listing-card-location {
-  font-weight: 700;
-  color: var(--accent-light);
-}
-
 .profile-name {
   font-family: var(--serif);
   font-size: 36px;
@@ -1226,15 +1159,6 @@ footer {
   color: var(--text-muted);
   line-height: 1.6;
   margin-bottom: 4px;
-}
-
-.profile-tagline {
-  font-family: var(--sans);
-  font-size: 16px;
-  font-weight: 300;
-  color: var(--text-muted);
-  line-height: 1.7;
-  margin-bottom: 20px;
 }
 
 .profile-actions {
@@ -1556,27 +1480,6 @@ footer {
   margin-bottom: 56px;
 }
 
-.guides-eyebrow {
-  font-family: var(--serif);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.guides-eyebrow::before {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 1.5px;
-  background: var(--accent);
-}
-
 .guides-header h1 {
   font-family: var(--serif);
   font-size: 48px;
@@ -1796,12 +1699,6 @@ footer {
   margin: 0 0 20px;
 }
 
-.state-picker-disclaimer {
-  margin-top: 20px;
-  font-size: 13px;
-  color: var(--text-muted);
-  font-style: italic;
-}
 
 .guides-cta {
   background: var(--nord1);
@@ -2083,7 +1980,6 @@ footer {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.hero-eyebrow { animation: fadeUp 0.6s ease both; }
 .hero h1 { animation: fadeUp 0.6s 0.1s ease both; }
 .hero-sub { animation: fadeUp 0.6s 0.2s ease both; }
 
