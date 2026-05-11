@@ -7,6 +7,7 @@ import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
 import ListingCard from "../../components/ListingCard"
 import FilingDeadlines from "../../components/FilingDeadlines"
+import Breadcrumb from "../../components/Breadcrumb"
 import type { Metadata } from "next"
 
 export const revalidate = 3600
@@ -95,6 +96,13 @@ export default async function SpecialtyStatePage({
       <Nav specialties={data.specialties} guides={data.guides} />
 
       <div className="listing-page">
+        <Breadcrumb
+          items={[
+            { label: "Home", href: "/" },
+            { label: data.stateName, href: `/${state}` },
+            { label: data.specialty },
+          ]}
+        />
         <div className="listing-page-header">
           <h1>{data.specialty} Lawyers in {data.stateName}</h1>
          <p className="listing-page-subheading">

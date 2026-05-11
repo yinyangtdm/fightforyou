@@ -8,6 +8,7 @@ import Footer from "../components/Footer"
 import ListingCard from "../components/ListingCard"
 import FilingDeadlines from "../components/FilingDeadlines"
 import FilterDropdown from "../components/FilterDropdown"
+import Breadcrumb from "../components/Breadcrumb"
 import type { Metadata } from "next"
 
 export const revalidate = 3600
@@ -138,6 +139,12 @@ export default async function SegmentPage({
       <Nav specialties={specialties} guides={guides} />
 
       <div className="listing-page">
+        <Breadcrumb
+          items={[
+            { label: "Home", href: "/" },
+            { label: data.label },
+          ]}
+        />
         <div className="listing-page-header">
           <h1>{heading}</h1>
           {data.type === "specialty" && <p>{subheading}</p>}
