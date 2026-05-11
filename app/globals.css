@@ -963,7 +963,7 @@ footer {
   transition: height 0.3s ease;
 }
 
-.listing-card:hover { background: var(--nord3); border-color: var(--nord8); }
+.listing-card:hover { background: var(--nord0); border-color: var(--nord8); }
 .listing-card:hover::before { height: 100%; }
 
 .listing-card-photo {
