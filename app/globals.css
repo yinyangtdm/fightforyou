@@ -713,6 +713,53 @@ footer {
 
 .footer-bottom-links a:hover { opacity: 1; }
 
+/* ── BREADCRUMB ── */
+.breadcrumb {
+  margin-bottom: 20px;
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breadcrumb-link {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb-link:hover {
+  color: var(--accent-light);
+}
+
+.breadcrumb-current {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--nord6);
+  font-weight: 500;
+}
+
+.breadcrumb-separator {
+  font-size: 14px;
+  color: var(--accent);
+  opacity: 0.4;
+  user-select: none;
+}
+
 /* ── LISTING PAGES ── */
 .listing-page {
   max-width: 1200px;
