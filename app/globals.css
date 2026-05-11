@@ -770,7 +770,7 @@ footer {
 .listing-page-header {
   margin-bottom: 0;
   padding-bottom: 0;
-  padding-top: 8px;
+  padding-top: 0;
 }
 
 .listing-page-filter-row {
@@ -1173,7 +1173,7 @@ footer {
 }
 
 .profile-hero {
-  margin: 12px 0 16px;
+  margin: 0 0 16px;
   border-radius: 12px;
   border: 1px solid var(--border-on-dark);
   background: var(--nord1);
@@ -2254,7 +2254,7 @@ footer {
   .profile-page { padding: 40px 24px 64px; }
   .profile-name { font-size: 28px; }
   .profile-hero-outer { padding: 20px 24px 0; }
-  .profile-hero { margin: 12px 0 16px; border-radius: 8px; }
+  .profile-hero { margin: 0 0 16px; border-radius: 8px; }
   .profile-map-row { grid-template-columns: 1fr; }
   .profile-photo-col { flex: 0 0 170px; padding: 10px; }
   .profile-photo-wrap { width: 148px; height: 148px; }
@@ -2313,7 +2313,7 @@ footer {
 
   .profile-page { padding: 16px 16px 56px; }
   .profile-hero-outer { padding: 20px 16px 0; }
-  .profile-hero { margin: 12px 0 16px; height: auto; }
+  .profile-hero { margin: 0 0 16px; height: auto; }
   .profile-photo-col {
     flex: 0 0 100%;
     align-items: center;
