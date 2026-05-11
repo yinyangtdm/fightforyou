@@ -376,13 +376,14 @@ nav {
 /* ── ABOUT ── */
 .about-section {
   background: var(--nord0);
-  padding: 96px 40px;
+  padding: 96px 0;
   border-bottom: 1px solid var(--border-on-dark);
 }
 
 .about-inner {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .about-inner h2 {
@@ -2160,7 +2161,8 @@ footer {
   .stats-inner { padding: 0 24px; }
 
   /* About */
-  .about-section { padding: 60px 24px; }
+  .about-section { padding: 60px 0; }
+  .about-inner { padding: 0 24px; }
   .about-inner { max-width: 100%; }
   .about-inner h2 { font-size: 32px; }
 
@@ -2224,7 +2226,8 @@ footer {
   .stats-inner { gap: 28px; }
   .stat-num { font-size: 40px; }
 
-  .about-section { padding: 52px 16px; }
+  .about-section { padding: 52px 0; }
+  .about-inner { padding: 0 16px; }
   .rights-section { padding: 52px 0; }
   .rights-inner { padding: 0 16px; }
 
