@@ -178,7 +178,7 @@ nav {
 /* ── HERO ── */
 .hero {
   background: var(--nord0);
-  padding: 80px 40px 72px;
+  padding: 10px 40px 72px;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
