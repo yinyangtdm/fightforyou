@@ -132,10 +132,8 @@ export default async function ProfilePage({
       <Nav specialties={specialties} guides={guides} />
 
       <div className="profile-hero-outer">
-        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '16px 40px 0' }}>
-          <Breadcrumb items={breadcrumbItems} />
-        </div>
-      <div className="profile-hero">
+        <Breadcrumb items={breadcrumbItems} />
+        <div className="profile-hero">
         <div className="profile-photo-col">
           <div className="profile-photo-wrap">
             {listing.photoUrl ? (

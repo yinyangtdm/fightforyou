@@ -715,7 +715,7 @@ footer {
 
 /* ── BREADCRUMB ── */
 .breadcrumb {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .breadcrumb-list {
@@ -764,12 +764,13 @@ footer {
 .listing-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 12px 40px 24px;
+  padding: 24px 40px 24px;
 }
 
 .listing-page-header {
   margin-bottom: 0;
   padding-bottom: 0;
+  padding-top: 8px;
 }
 
 .listing-page-filter-row {
@@ -1168,11 +1169,11 @@ footer {
 .profile-hero-outer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 24px 40px 0;
 }
 
 .profile-hero {
-  margin: 16px 0;
+  margin: 12px 0 16px;
   border-radius: 12px;
   border: 1px solid var(--border-on-dark);
   background: var(--nord1);
@@ -2242,7 +2243,7 @@ footer {
   .footer-bottom-links { justify-content: center; }
 
   /* Listings */
-  .listing-page { padding: 12px 24px 20px; }
+  .listing-page { padding: 20px 24px 20px; }
   .listing-section-inner { padding: 28px 24px; }
   .listing-page-filter-row { flex-wrap: wrap; }
   .listing-page-header h1 { font-size: 30px; }
@@ -2252,8 +2253,8 @@ footer {
   /* Profile */
   .profile-page { padding: 40px 24px 64px; }
   .profile-name { font-size: 28px; }
-  .profile-hero-outer { padding: 0 24px; }
-  .profile-hero { margin: 16px 0; border-radius: 8px; }
+  .profile-hero-outer { padding: 20px 24px 0; }
+  .profile-hero { margin: 12px 0 16px; border-radius: 8px; }
   .profile-map-row { grid-template-columns: 1fr; }
   .profile-photo-col { flex: 0 0 170px; padding: 10px; }
   .profile-photo-wrap { width: 148px; height: 148px; }
@@ -2307,12 +2308,12 @@ footer {
   .footer-top { grid-template-columns: 1fr; }
   footer { padding: 40px 0 28px; }
 
-  .listing-page { padding: 12px 16px 16px; }
+  .listing-page { padding: 20px 16px 16px; }
   .listing-section-inner { padding: 24px 16px; }
 
   .profile-page { padding: 16px 16px 56px; }
-  .profile-hero-outer { padding: 0 16px; }
-  .profile-hero { margin: 12px 0; height: auto; }
+  .profile-hero-outer { padding: 20px 16px 0; }
+  .profile-hero { margin: 12px 0 16px; height: auto; }
   .profile-photo-col {
     flex: 0 0 100%;
     align-items: center;
