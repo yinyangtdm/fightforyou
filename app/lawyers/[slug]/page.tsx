@@ -4,6 +4,7 @@ import { PrismaPg } from "@prisma/adapter-pg"
 import { STATE_NAMES, toSlug } from "../../lib/slugs"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
+import Breadcrumb from "../../components/Breadcrumb"
 import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
@@ -71,11 +72,37 @@ export default async function ProfilePage({
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
   const badgeClass = listing.isNonprofit ? "listing-card-badge--nonprofit" : listing.isFirm ? "listing-card-badge--firm" : "listing-card-badge--attorney"
 
+  // Build breadcrumb items
+  const breadcrumbItems = [{ label: "Home", href: "/" }]
+  
+  if (listing.state && stateName) {
+    breadcrumbItems.push({
+      label: stateName,
+      href: `/${listing.state.toLowerCase()}`,
+    })
+  }
+  
+  if (listing.specialties.length > 0) {
+    const firstSpecialty = listing.specialties[0]
+    const specialtySlug = toSlug(firstSpecialty)
+    breadcrumbItems.push({
+      label: firstSpecialty,
+      href: listing.state
+        ? `/${specialtySlug}/${listing.state.toLowerCase()}`
+        : `/${specialtySlug}`,
+    })
+  }
+  
+  breadcrumbItems.push({ label: listing.name })
+
   return (
     <div className="public profile-public">
       <Nav specialties={specialties} guides={guides} />
 
       <div className="profile-hero-outer">
+        <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '16px 40px 0' }}>
+          <Breadcrumb items={breadcrumbItems} />
+        </div>
       <div className="profile-hero">
         <div className="profile-photo-col">
           <div className="profile-photo-wrap">

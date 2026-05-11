@@ -2153,6 +2153,12 @@ footer {
 /* ── TABLET / MOBILE (≤ 768px) ── */
 @media (max-width: 768px) {
 
+  /* Breadcrumb */
+  .breadcrumb-link,
+  .breadcrumb-current {
+    font-size: 12px;
+  }
+
   /* Hero */
   .hero { padding: 52px 24px 48px; gap: 28px; }
   .hero h1 { font-size: clamp(38px, 9vw, 60px); }
@@ -2225,6 +2231,16 @@ footer {
 @media (max-width: 480px) {
   .nav-inner { padding: 0 16px; }
   .nav-mobile-signin { display: none; }
+
+  /* Breadcrumb */
+  .breadcrumb-list {
+    gap: 6px;
+  }
+  
+  .breadcrumb-link,
+  .breadcrumb-current {
+    font-size: 11px;
+  }
 
   .hero { padding: 44px 16px 40px; }
   
