@@ -718,6 +718,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 64px 40px 96px;
+  background: var(--nord1);
 }
 
 .listing-page-header {
