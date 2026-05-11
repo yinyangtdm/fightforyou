@@ -7,6 +7,7 @@ import Footer from "../../components/Footer"
 import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
+import SpecialtyList from "../../components/SpecialtyList"
 
 export const revalidate = 3600
 
@@ -74,6 +75,7 @@ export default async function ProfilePage({
     <div className="public profile-public">
       <Nav specialties={specialties} guides={guides} />
 
+      <div className="profile-hero-outer">
       <div className="profile-hero">
         <div className="profile-photo-col">
           <div className="profile-photo-wrap">
@@ -125,7 +127,7 @@ export default async function ProfilePage({
                   <path d="M7 21h10"/><path d="M12 3v18"/>
                   <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
                 </svg>
-                <p className="profile-specialties-inline">{listing.specialties.join(" · ")}</p>
+                <SpecialtyList specialties={listing.specialties} />
               </div>
             )}
           </div>
@@ -160,6 +162,7 @@ export default async function ProfilePage({
             </a>
           )}
         </div>
+      </div>
       </div>
 
       <div className="profile-page">
