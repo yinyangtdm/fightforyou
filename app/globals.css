@@ -717,13 +717,12 @@ footer {
 .listing-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 64px 40px 48px;
+  padding: 64px 40px 24px;
 }
 
 .listing-page-header {
   margin-bottom: 0;
-  border-bottom: 1px solid var(--border-on-dark);
-  padding-bottom: 24px;
+  padding-bottom: 0;
 }
 
 .listing-page-filter-row {
@@ -826,8 +825,7 @@ footer {
 /* Filing Deadlines */
 .filing-deadlines {
   margin-bottom: 32px;
-  padding-top: 32px;
-  border-top: 1px solid var(--border-on-dark);
+  padding-top: 24px;
 }
 
 .filing-deadlines-title {
@@ -922,14 +920,12 @@ footer {
   background: var(--nord1);
   padding: 0;
   margin: 0 calc(-50vw + 50%);
-  border-top: 1px solid var(--border-on-dark);
-  border-bottom: 1px solid var(--border-on-dark);
 }
 
 .listing-section-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 48px 40px;
+  padding: 32px 40px;
 }
 
 .listing-grid {
@@ -2193,8 +2189,8 @@ footer {
   .footer-bottom-links { justify-content: center; }
 
   /* Listings */
-  .listing-page { padding: 40px 24px 32px; }
-  .listing-section-inner { padding: 40px 24px; }
+  .listing-page { padding: 40px 24px 20px; }
+  .listing-section-inner { padding: 28px 24px; }
   .listing-page-filter-row { flex-wrap: wrap; }
   .listing-page-header h1 { font-size: 30px; }
   .listing-grid { grid-template-columns: 1fr; }
@@ -2248,8 +2244,8 @@ footer {
   .footer-top { grid-template-columns: 1fr; }
   footer { padding: 40px 0 28px; }
 
-  .listing-page { padding: 32px 16px 28px; }
-  .listing-section-inner { padding: 32px 16px; }
+  .listing-page { padding: 32px 16px 16px; }
+  .listing-section-inner { padding: 24px 16px; }
 
   .profile-page { padding: 16px 16px 56px; }
   .profile-hero-outer { padding: 0 16px; }
