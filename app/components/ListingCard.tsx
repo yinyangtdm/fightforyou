@@ -1,5 +1,8 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
+import { usePathname } from "next/navigation"
 
 type Listing = {
   slug: string
@@ -17,6 +20,10 @@ type Listing = {
 }
 
 export default function ListingCard({ listing }: { listing: Listing }) {
+  const pathname = usePathname()
+  
+  // Build the href with breadcrumb trail
+  const href = `/lawyers/${listing.slug}?from=${encodeURIComponent(pathname)}`
   const location = [listing.city, listing.state]
     .filter(Boolean)
     .join(", ")
@@ -40,7 +47,7 @@ export default function ListingCard({ listing }: { listing: Listing }) {
     : null
 
   return (
-    <Link href={`/lawyers/${listing.slug}`} className="listing-card">
+    <Link href={href} className="listing-card">
       <div className="listing-card-top">
         <div className="listing-card-photo">
           {listing.photoUrl ? (

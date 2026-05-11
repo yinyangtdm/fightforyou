@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
-import { STATE_NAMES, toSlug } from "../../lib/slugs"
+import { STATE_NAMES, STATE_SLUGS, toSlug } from "../../lib/slugs"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
 import Breadcrumb from "../../components/Breadcrumb"
@@ -60,10 +60,13 @@ export async function generateMetadata({
 
 export default async function ProfilePage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>
+  searchParams: Promise<{ from?: string }>
 }) {
   const { slug } = await params
+  const { from } = await searchParams
   const data = await getData(slug)
   if (!data) notFound()
 
@@ -72,25 +75,54 @@ export default async function ProfilePage({
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
   const badgeClass = listing.isNonprofit ? "listing-card-badge--nonprofit" : listing.isFirm ? "listing-card-badge--firm" : "listing-card-badge--attorney"
 
-  // Build breadcrumb items
+  // Build breadcrumb items based on actual user path
   const breadcrumbItems = [{ label: "Home", href: "/" }]
   
-  if (listing.state && stateName) {
-    breadcrumbItems.push({
-      label: stateName,
-      href: `/${listing.state.toLowerCase()}`,
-    })
-  }
-  
-  if (listing.specialties.length > 0) {
-    const firstSpecialty = listing.specialties[0]
-    const specialtySlug = toSlug(firstSpecialty)
-    breadcrumbItems.push({
-      label: firstSpecialty,
-      href: listing.state
-        ? `/${specialtySlug}/${listing.state.toLowerCase()}`
-        : `/${specialtySlug}`,
-    })
+  if (from) {
+    // Parse the referrer path to build accurate breadcrumbs
+    const pathParts = from.split('/').filter(Boolean)
+    
+    if (pathParts.length === 1) {
+      // Single segment: either state or specialty
+      const segment = pathParts[0]
+      const stateAbbr = Object.entries(STATE_SLUGS).find(([slug]) => slug === segment)?.[1]
+      
+      if (stateAbbr) {
+        // User came from a state page
+        breadcrumbItems.push({
+          label: STATE_NAMES[stateAbbr],
+          href: `/${segment}`,
+        })
+      } else {
+        // User came from a specialty page
+        const specialty = listing.specialties.find(s => toSlug(s) === segment)
+        if (specialty) {
+          breadcrumbItems.push({
+            label: specialty,
+            href: `/${segment}`,
+          })
+        }
+      }
+    } else if (pathParts.length === 2) {
+      // Two segments: specialty + state
+      const [specialtySlug, stateSlug] = pathParts
+      const stateAbbr = Object.entries(STATE_SLUGS).find(([slug]) => slug === stateSlug)?.[1]
+      const specialty = listing.specialties.find(s => toSlug(s) === specialtySlug)
+      
+      if (stateAbbr) {
+        breadcrumbItems.push({
+          label: STATE_NAMES[stateAbbr],
+          href: `/${stateSlug}`,
+        })
+      }
+      
+      if (specialty) {
+        breadcrumbItems.push({
+          label: specialty,
+          href: `/${specialtySlug}/${stateSlug}`,
+        })
+      }
+    }
   }
   
   breadcrumbItems.push({ label: listing.name })
