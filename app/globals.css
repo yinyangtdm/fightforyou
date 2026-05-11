@@ -939,7 +939,7 @@ footer {
   flex-direction: column;
   gap: 16px;
   padding: 28px 24px;
-  background: var(--nord1);
+  background: var(--nord2);
   border: 1px solid var(--border-on-dark);
   text-decoration: none;
   transition: background 0.2s, border-color 0.2s;
@@ -963,7 +963,7 @@ footer {
   transition: height 0.3s ease;
 }
 
-.listing-card:hover { background: var(--nord2); border-color: var(--nord8); }
+.listing-card:hover { background: var(--nord3); border-color: var(--nord8); }
 .listing-card:hover::before { height: 100%; }
 
 .listing-card-photo {
