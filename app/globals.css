@@ -2025,6 +2025,11 @@ footer {
   .mega-menu { display: none !important; }
   .mega-overlay { display: none !important; }
 
+  .listing-grid { grid-template-columns: 1fr; }
+  .guides-grid { grid-template-columns: repeat(2, 1fr); }
+  .guides-featured { grid-template-columns: 1fr; }
+  .rights-grid { grid-template-columns: repeat(2, 1fr); }
+
   /* Profile hero — wrap actions col below at 1024px */
   .profile-info-col { border-right: none; }
   .profile-actions-col {
@@ -2099,7 +2104,9 @@ footer {
 
   /* Guides */
   .guides-page { padding: 40px 24px 64px; }
+  .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
+  .guides-grid { grid-template-columns: 1fr; }
   .guide-page { padding: 40px 24px 64px; }
   .guide-title { font-size: 30px; }
   .guide-page-inner { grid-template-columns: 1fr; }
