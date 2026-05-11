@@ -95,7 +95,7 @@ export default async function SpecialtyStatePage({
     <div className="public">
       <Nav specialties={data.specialties} guides={data.guides} />
 
-      <div className="listing-page">
+      <div className="breadcrumb-container">
         <Breadcrumb
           items={[
             { label: "Home", href: "/" },
@@ -103,6 +103,9 @@ export default async function SpecialtyStatePage({
             { label: data.specialty },
           ]}
         />
+      </div>
+
+      <div className="listing-page">
         <div className="listing-page-header">
           <h1>{data.specialty} Lawyers in {data.stateName}</h1>
          <p className="listing-page-subheading">
