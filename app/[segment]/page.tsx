@@ -163,20 +163,29 @@ export default async function SegmentPage({
             )}
           </div>
         </div>
+      </div>
 
-        <div className="listing-grid">
-          {data.listings.map((listing) => (
-            <ListingCard key={listing.slug} listing={listing} />
-          ))}
-          {data.listings.length === 0 && (
-            <p className="listing-empty">No listings found.</p>
-          )}
+      <div className="listing-section">
+        <div className="listing-section-inner">
+          <div className="listing-grid">
+            {data.listings.map((listing) => (
+              <ListingCard key={listing.slug} listing={listing} />
+            ))}
+            {data.listings.length === 0 && (
+              <p className="listing-empty">No listings found.</p>
+            )}
+          </div>
         </div>
+      </div>
 
+      <div className="listing-page">
         {data.type === "state" && (
-          <div className="mt-12">
+          <div className="mt-12" style={{ paddingBottom: '96px' }}>
             <FilingDeadlines stateAbbr={data.stateAbbr} />
           </div>
+        )}
+        {data.type === "specialty" && (
+          <div style={{ paddingBottom: '96px' }} />
         )}
       </div>
 
