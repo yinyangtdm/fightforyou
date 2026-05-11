@@ -330,12 +330,13 @@ nav {
 /* ── STATS BAR ── */
 .stats-bar {
   background: var(--nord1);
-  padding: 48px 40px;
+  padding: 48px 0;
 }
 
 .stats-inner {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -416,12 +417,13 @@ nav {
 /* ── KNOW YOUR RIGHTS ── */
 .rights-section {
   background: var(--nord1);
-  padding: 80px 40px;
+  padding: 80px 0;
 }
 
 .rights-inner {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .section-header {
@@ -2154,7 +2156,8 @@ footer {
   /* Stats */
   .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 32px; }
   .stat-item { padding: 0; border-right: none; }
-  .stats-bar { padding: 48px 24px; }
+  .stats-bar { padding: 48px 0; }
+  .stats-inner { padding: 0 24px; }
 
   /* About */
   .about-section { padding: 60px 24px; }
@@ -2162,7 +2165,8 @@ footer {
   .about-inner h2 { font-size: 32px; }
 
   /* Rights */
-  .rights-section { padding: 60px 24px; }
+  .rights-section { padding: 60px 0; }
+  .rights-inner { padding: 0 24px; }
   .rights-grid { grid-template-columns: 1fr; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 12px; }
 
@@ -2215,12 +2219,14 @@ footer {
   .footer-inner { padding: 0 16px; }
   .hero h1 { font-size: 32px; }
 
-  .stats-bar { padding: 40px 16px; }
+  .stats-bar { padding: 40px 0; }
+  .stats-inner { padding: 0 16px; }
   .stats-inner { gap: 28px; }
   .stat-num { font-size: 40px; }
 
   .about-section { padding: 52px 16px; }
-  .rights-section { padding: 52px 16px; }
+  .rights-section { padding: 52px 0; }
+  .rights-inner { padding: 0 16px; }
 
   .footer-top { grid-template-columns: 1fr; }
   footer { padding: 40px 24px 28px; }
