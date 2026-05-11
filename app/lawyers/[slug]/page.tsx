@@ -125,7 +125,7 @@ export default async function ProfilePage({
     }
   }
   
-  breadcrumbItems.push({ label: listing.name })
+  breadcrumbItems.push({ label: listing.name, href: "" })
 
   return (
     <div className="public profile-public">
