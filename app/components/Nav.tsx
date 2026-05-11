@@ -86,7 +86,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           <li className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}>
             <a
               href="#"
-              className="nav-accordion-trigger"
+              className={`nav-accordion-trigger${openMenu === "states" ? " nav-trigger-active" : ""}`}
               onClick={(e) => {
                 e.preventDefault()
                 if (mobileOpen) toggleAccordion("states")
@@ -108,7 +108,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           <li className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}>
             <a
               href="#"
-              className="nav-accordion-trigger"
+              className={`nav-accordion-trigger${openMenu === "specialty" ? " nav-trigger-active" : ""}`}
               onClick={(e) => {
                 e.preventDefault()
                 if (mobileOpen) toggleAccordion("specialty")
@@ -129,7 +129,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           <li className={`nav-accordion-item${openAccordion === "rights" ? " accordion-open" : ""}`}>
             <a
               href="#"
-              className="nav-accordion-trigger"
+              className={`nav-accordion-trigger${openMenu === "rights" ? " nav-trigger-active" : ""}`}
               onClick={(e) => {
                 e.preventDefault()
                 if (mobileOpen) toggleAccordion("rights")

@@ -121,14 +121,21 @@ export default function SearchBar({
   const router = useRouter()
   const [practice, setPractice] = useState("")
   const [state, setState] = useState("")
+  const [shaking, setShaking] = useState(false)
+
+  const matchedPractice = practices.find(
+    (p) => p.toLowerCase() === practice.trim().toLowerCase()
+  )
+  const matchedState = states.find(
+    (s) => s.toLowerCase() === state.trim().toLowerCase()
+  )
+  const isUnavailable = !matchedPractice && !matchedState
 
   function handleSearch() {
-    const matchedPractice = practices.find(
-      (p) => p.toLowerCase() === practice.trim().toLowerCase()
-    )
-    const matchedState = states.find(
-      (s) => s.toLowerCase() === state.trim().toLowerCase()
-    )
+    if (isUnavailable) {
+      setShaking(true)
+      return
+    }
     const practiceSlug = matchedPractice ? toSlug(matchedPractice) : null
     const stateSlug = matchedState ? STATE_ABBRS[matchedState] : null
 
@@ -157,7 +164,13 @@ export default function SearchBar({
         value={state}
         onChange={setState}
       />
-      <button className="search-btn" onClick={handleSearch}>Search</button>
+      <button
+        className={`search-btn${isUnavailable ? " search-btn--unavailable" : ""}${shaking ? " search-btn--shaking" : ""}`}
+        onClick={handleSearch}
+        onAnimationEnd={() => setShaking(false)}
+      >
+        Search
+      </button>
     </div>
   )
 }
