@@ -771,6 +771,7 @@ footer {
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 0;
+  border-bottom: none;
 }
 
 .listing-page-filter-row {
@@ -1915,8 +1916,8 @@ footer {
   color: var(--text-muted);
   line-height: 1.75;
   margin-top: 16px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid var(--border-on-dark);
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .guide-meta {
