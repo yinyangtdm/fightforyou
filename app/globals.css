@@ -716,6 +716,7 @@ footer {
 /* ── BREADCRUMB ── */
 .breadcrumb {
   margin-bottom: 12px;
+  border-bottom: none;
 }
 
 .breadcrumb-list {
@@ -765,12 +766,14 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 24px 40px 24px;
+  border-bottom: none;
 }
 
 .listing-page-header {
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 0;
+  border-bottom: none;
 }
 
 .listing-page-filter-row {
@@ -1171,6 +1174,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 24px 40px 0;
+  border-bottom: none;
 }
 
 .profile-hero {
