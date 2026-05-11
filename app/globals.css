@@ -489,7 +489,7 @@ nav {
   transition: height 0.3s ease;
 }
 
-.rights-card:hover { background: var(--nord1); border-color: var(--nord8); }
+.rights-card:hover { background: var(--nord0); border-color: var(--nord8); }
 [data-theme="light"] .rights-card:hover { background: #c4c9d5; }
 .rights-card:hover::before { height: 100%; }
 
