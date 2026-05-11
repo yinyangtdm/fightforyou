@@ -1538,17 +1538,32 @@ footer {
   flex-direction: column;
   gap: 10px;
   padding: 28px 32px;
-  background: var(--nord1);
+  background: var(--nord2);
   border: 1px solid var(--border-on-dark);
-  border-radius: 10px;
   text-decoration: none;
-  transition: border-color 0.2s, transform 0.18s;
+  transition: background 0.25s, border-color 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 0;
+  background: var(--accent);
+  transition: height 0.3s ease;
 }
 
 .guide-card:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
+  background: var(--nord3);
+  border-color: var(--nord8);
 }
+
+[data-theme="light"] .guide-card:hover { background: #c4c9d5; }
+.guide-card:hover::before { height: 100%; }
 
 .guide-card--featured {
   padding: 36px 40px;
@@ -1589,9 +1604,13 @@ footer {
   font-family: var(--serif);
   font-size: 13px;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-light);
   margin-top: 4px;
+  transition: color 0.2s;
 }
+
+.guide-card:hover .guide-card-read,
+.guide-pinned-card:hover .guide-card-read { color: var(--accent); }
 
 .guides-empty {
   color: var(--text-muted);
@@ -1610,18 +1629,33 @@ footer {
 
 .guide-pinned-card {
   display: block;
-  background: var(--nord1);
-  border: 1px solid var(--accent);
-  border-radius: 10px;
+  background: var(--nord2);
+  border: 1px solid var(--border-on-dark);
   padding: 28px 32px;
   text-decoration: none;
-  transition: background 0.15s, border-color 0.15s;
+  transition: background 0.25s, border-color 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+.guide-pinned-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 0;
+  background: var(--accent);
+  transition: height 0.3s ease;
 }
 
 .guide-pinned-card:hover {
-  background: var(--nord2);
-  border-color: var(--accent);
+  background: var(--nord3);
+  border-color: var(--nord8);
 }
+
+[data-theme="light"] .guide-pinned-card:hover { background: #c4c9d5; }
+.guide-pinned-card:hover::before { height: 100%; }
 
 .guide-pinned-card .guide-card-title {
   font-size: 22px;
