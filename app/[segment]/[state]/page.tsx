@@ -118,9 +118,7 @@ export default async function SpecialtyStatePage({
       </div>
 
       <div className="listing-page">
-        <div className="mt-12">
-          <FilingDeadlines stateAbbr={data.stateAbbr} />
-        </div>
+        <FilingDeadlines stateAbbr={data.stateAbbr} />
       </div>
 
       <Footer />

@@ -180,12 +180,7 @@ export default async function SegmentPage({
 
       <div className="listing-page">
         {data.type === "state" && (
-          <div className="mt-12" style={{ paddingBottom: '96px' }}>
-            <FilingDeadlines stateAbbr={data.stateAbbr} />
-          </div>
-        )}
-        {data.type === "specialty" && (
-          <div style={{ paddingBottom: '96px' }} />
+          <FilingDeadlines stateAbbr={data.stateAbbr} />
         )}
       </div>
 
