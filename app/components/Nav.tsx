@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useState, useEffect } from "react"
+import { useState, useEffect, startTransition } from "react"
 import { STATE_NAMES, STATE_ABBRS, toSlug } from "../lib/slugs"
 
 const ALL_STATES = Object.values(STATE_NAMES)
@@ -18,8 +18,8 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
   useEffect(() => {
     const stored = (localStorage.getItem("theme") as "dark" | "light") ?? "dark"
-    setTheme(stored)
     document.documentElement.setAttribute("data-theme", stored)
+    startTransition(() => setTheme(stored))
   }, [])
 
   useEffect(() => {
