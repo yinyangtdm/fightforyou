@@ -60,11 +60,11 @@ export default async function ProfilePage({
   params,
   searchParams,
 }: {
-  params: Promise<{ slug: string }>
-  searchParams: Promise<{ from?: string }>
+  params: { slug: string }
+  searchParams: { from?: string }
 }) {
-  const { slug } = await params
-  const { from } = await searchParams
+  const { slug } = params
+  const { from } = searchParams
   const data = await getData(slug)
   if (!data) notFound()
 
