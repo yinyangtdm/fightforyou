@@ -13,9 +13,7 @@ import SpecialtyList from "../../components/SpecialtyList"
 export const revalidate = 3600
 
 async function getData(slug: string) {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
+  const prisma = new PrismaClient()
 
   const [listing, specialtyRows, guideRows] = await Promise.all([
     prisma.listing.findUnique({
@@ -43,7 +41,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
-  const { slug } = await params
+  const { slug } = params
   const data = await getData(slug)
   if (!data) return {}
 
