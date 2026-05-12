@@ -773,6 +773,13 @@ footer {
   line-height: 1;
 }
 
+/* ── PAGE CONTAINER ── */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
 /* ── LISTING PAGES ── */
 .listing-page {
   max-width: 1200px;
@@ -2262,6 +2269,7 @@ footer {
 
   /* Listings */
   .breadcrumb-container { padding: 12px 24px 8px; }
+  .page-container { padding: 0 24px; }
   .listing-page { padding: 12px 24px 20px; }
   .listing-section-inner { padding: 28px 24px; }
   .listing-page-filter-row { flex-wrap: wrap; }
@@ -2328,6 +2336,7 @@ footer {
   footer { padding: 40px 0 28px; }
 
   .breadcrumb-container { padding: 12px 16px 8px; }
+  .page-container { padding: 0 16px; }
   .listing-page { padding: 12px 16px 16px; }
   .listing-section-inner { padding: 24px 16px; }
 
