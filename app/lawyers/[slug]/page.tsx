@@ -39,7 +39,7 @@ async function getData(slug: string) {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params: { slug: string }
 }): Promise<Metadata> {
   const { slug } = params
   const data = await getData(slug)
