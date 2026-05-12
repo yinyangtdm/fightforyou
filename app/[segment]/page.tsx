@@ -138,17 +138,16 @@ export default async function SegmentPage({
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="page-container">
-        <div className="breadcrumb-container">
-          <Breadcrumb
-            items={[
-              { label: "Home", href: "/" },
-              { label: data.label },
-            ]}
-          />
-        </div>
+      <div className="breadcrumb-container">
+        <Breadcrumb
+          items={[
+            { label: "Home", href: "/" },
+            { label: data.label },
+          ]}
+        />
+      </div>
 
-        <div className="listing-page">
+      <div className="listing-page">
         <div className="listing-page-header">
           <h1>{heading}</h1>
           {data.type === "specialty" && <p>{subheading}</p>}
@@ -189,11 +188,10 @@ export default async function SegmentPage({
         </div>
       </div>
 
-        <div className="listing-page">
-          {data.type === "state" && (
-            <FilingDeadlines stateAbbr={data.stateAbbr} />
-          )}
-        </div>
+      <div className="listing-page">
+        {data.type === "state" && (
+          <FilingDeadlines stateAbbr={data.stateAbbr} />
+        )}
       </div>
 
       <Footer />

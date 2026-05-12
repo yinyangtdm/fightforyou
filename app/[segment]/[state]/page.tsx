@@ -95,18 +95,17 @@ export default async function SpecialtyStatePage({
     <div className="public">
       <Nav specialties={data.specialties} guides={data.guides} />
 
-      <div className="page-container">
-        <div className="breadcrumb-container">
-          <Breadcrumb
-            items={[
-              { label: "Home", href: "/" },
-              { label: data.stateName, href: `/${state}` },
-              { label: data.specialty },
-            ]}
-          />
-        </div>
+      <div className="breadcrumb-container">
+        <Breadcrumb
+          items={[
+            { label: "Home", href: "/" },
+            { label: data.stateName, href: `/${state}` },
+            { label: data.specialty },
+          ]}
+        />
+      </div>
 
-        <div className="listing-page">
+      <div className="listing-page">
         <div className="listing-page-header">
           <h1>{data.specialty} Lawyers in {data.stateName}</h1>
          <p className="listing-page-subheading">
@@ -129,9 +128,8 @@ export default async function SpecialtyStatePage({
         </div>
       </div>
 
-        <div className="listing-page">
-          <FilingDeadlines stateAbbr={data.stateAbbr} />
-        </div>
+      <div className="listing-page">
+        <FilingDeadlines stateAbbr={data.stateAbbr} />
       </div>
 
       <Footer />

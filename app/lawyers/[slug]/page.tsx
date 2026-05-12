@@ -131,12 +131,11 @@ export default async function ProfilePage({
     <div className="public profile-public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="page-container">
-        <div className="breadcrumb-container">
-          <Breadcrumb items={breadcrumbItems} />
-        </div>
+      <div className="breadcrumb-container">
+        <Breadcrumb items={breadcrumbItems} />
+      </div>
 
-        <div className="profile-hero-outer">
+      <div className="profile-hero-outer">
         <div className="profile-hero">
         <div className="profile-photo-col">
           <div className="profile-photo-wrap">
@@ -226,6 +225,8 @@ export default async function ProfilePage({
         </div>
       </div>
 
+      </div>
+
       <div className="profile-page">
         <div className="profile-body">
           {listing.description && (
@@ -298,7 +299,6 @@ export default async function ProfilePage({
             )}
           </div>
         </div>
-      </div>
       </div>
 
       <Footer />
