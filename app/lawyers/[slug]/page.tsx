@@ -137,7 +137,7 @@ export default async function ProfilePage({
 
       <div className="profile-hero-outer">
         <div className="profile-hero">
-        <div className="profile-photo-col">
+          <div className="profile-photo-col">
           <div className="profile-photo-wrap">
             {listing.photoUrl ? (
               <Image
@@ -151,10 +151,10 @@ export default async function ProfilePage({
               <div className="profile-img-placeholder" />
             )}
           </div>
-          <span className={`listing-card-badge profile-badge ${badgeClass}`}>{type}</span>
-        </div>
+            <span className={`listing-card-badge profile-badge ${badgeClass}`}>{type}</span>
+          </div>
 
-        <div className="profile-info-col">
+          <div className="profile-info-col">
           <div className="profile-info-identity">
             <h1 className="profile-name">{listing.name}</h1>
             {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
@@ -191,9 +191,9 @@ export default async function ProfilePage({
               </div>
             )}
           </div>
-        </div>
+          </div>
 
-        <div className="profile-actions-col">
+          <div className="profile-actions-col">
           {listing.phone && (
             <a href={`tel:${listing.phone}`} className="btn-primary btn-phone">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
