@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation"
 import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
 import { STATE_NAMES, STATE_SLUGS, toSlug } from "../../lib/slugs"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
@@ -79,12 +78,12 @@ export default async function ProfilePage({
   if (from) {
     // Parse the referrer path to build accurate breadcrumbs
     const pathParts = from.split('/').filter(Boolean)
-    
+  
     if (pathParts.length === 1) {
       // Single segment: either state or specialty
       const segment = pathParts[0]
       const stateAbbr = Object.entries(STATE_SLUGS).find(([slug]) => slug === segment)?.[1]
-      
+    
       if (stateAbbr) {
         // User came from a state page
         breadcrumbItems.push({
@@ -106,14 +105,14 @@ export default async function ProfilePage({
       const [specialtySlug, stateSlug] = pathParts
       const stateAbbr = Object.entries(STATE_SLUGS).find(([slug]) => slug === stateSlug)?.[1]
       const specialty = listing.specialties.find(s => toSlug(s) === specialtySlug)
-      
+    
       if (stateAbbr) {
         breadcrumbItems.push({
           label: STATE_NAMES[stateAbbr],
           href: `/${stateSlug}`,
         })
       }
-      
+    
       if (specialty) {
         breadcrumbItems.push({
           label: specialty,
@@ -122,7 +121,7 @@ export default async function ProfilePage({
       }
     }
   }
-  
+
   breadcrumbItems.push({ label: listing.name, href: "" })
 
   return (
