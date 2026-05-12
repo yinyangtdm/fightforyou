@@ -1,2 +1,2 @@
 model: ollama/qwen2.5-coder:32b
-#edit-format: architect # Highly recommended for local 32B models
+edit-format: architect # Highly recommended for local 32B models
