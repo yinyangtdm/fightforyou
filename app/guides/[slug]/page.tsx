@@ -118,10 +118,7 @@ export default async function GuidePage({
               ) : null}
               <span>{guide.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
               {guide.categories.length > 0 && (
-                <>
-                  <span className="guide-meta-sep">·</span>
-                  <span>{guide.categories.join(", ")}</span>
-                </>
+                <span className="guide-meta-categories">{guide.categories.join(", ")}</span>
               )}
             </div>
 

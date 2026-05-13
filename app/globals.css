@@ -1960,7 +1960,7 @@ footer {
   font-family: var(--sans);
   font-size: 13px;
   color: var(--text-muted);
-  margin: 16px 0 36px;
+  margin: 16px 0 16px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1976,6 +1976,7 @@ footer {
 .guide-author-name { color: var(--nord6); }
 
 .guide-meta-sep { opacity: 0.4; }
+.guide-meta-categories::before { content: "· "; opacity: 0.4; }
 
 .guide-body {
   font-family: var(--sans);
@@ -2243,6 +2244,11 @@ footer {
   }
   .profile-actions-col .btn-primary { flex: 1; min-width: 140px; width: auto; }
   .profile-actions-col .btn-website { flex: 0 0 100%; min-width: unset; }
+
+  /* Guide meta — categories wrap to new line */
+  .guide-meta { flex-wrap: wrap; }
+  .guide-meta-categories { width: 100%; margin-top: 2px; }
+  .guide-meta-categories::before { content: none; }
 }
 
 /* ── TABLET / MOBILE (≤ 768px) ── */
