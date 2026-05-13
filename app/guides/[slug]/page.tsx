@@ -14,14 +14,8 @@ async function getData(slug: string) {
   const prisma = new PrismaClient({
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
-  const [guide, related, specialtyRows, navGuideRows] = await Promise.all([
+  const [guide, specialtyRows, navGuideRows] = await Promise.all([
     prisma.guide.findUnique({ where: { slug, published: true } }),
-    prisma.guide.findMany({
-      where: { published: true, slug: { not: slug } },
-      orderBy: { createdAt: "desc" },
-      take: 3,
-      select: { title: true, slug: true, excerpt: true, categories: true },
-    }),
     prisma.$queryRaw<{ specialty: string }[]>`
       SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
     `,
@@ -34,7 +28,7 @@ async function getData(slug: string) {
   ])
   await prisma.$disconnect()
   if (!guide) return null
-  return { guide, related, specialties: specialtyRows.map((r) => r.specialty), navGuides: navGuideRows }
+  return { guide, specialties: specialtyRows.map((r) => r.specialty), navGuides: navGuideRows }
 }
 
 export async function generateMetadata({
@@ -87,7 +81,7 @@ export default async function GuidePage({
   const data = await getData(slug)
   if (!data) notFound()
 
-  const { guide, related, specialties, navGuides } = data
+  const { guide, specialties, navGuides } = data
 
   return (
     <div className="public">
@@ -140,23 +134,6 @@ export default async function GuidePage({
             </div>
           </div>
 
-          {related.length > 0 && (
-            <aside className="guide-sidebar">
-              <h3 className="guide-sidebar-heading">More Guides</h3>
-              <div className="guide-sidebar-list">
-                {related.map((g) => (
-                  <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-sidebar-item">
-                    <span className="guide-sidebar-category">{g.categories[0] ?? ""}</span>
-                    <span className="guide-sidebar-title">{g.title}</span>
-                  </Link>
-                ))}
-              </div>
-              <div className="guide-sidebar-cta">
-                <p>Were your rights violated?</p>
-                <Link href="/" className="btn-primary">Find an Attorney</Link>
-              </div>
-            </aside>
-          )}
         </div>
       </div>
 
