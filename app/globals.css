@@ -1182,11 +1182,6 @@ footer {
   margin: 0;
   padding-top: 14px;
   border-top: 1px solid var(--border-on-dark);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  line-clamp: 3;
-  overflow: hidden;
 }
 
 .listing-card-read-more {
@@ -1486,7 +1481,7 @@ footer {
   box-shadow: 0 4px 24px rgba(0,0,0,0.25);
 }
 
-.profile-section:first-child h2 {
+.profile-body > .profile-section:first-child h2 {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -1494,7 +1489,7 @@ footer {
   color: var(--nord6);
 }
 
-.profile-section:first-child h2::before {
+.profile-body > .profile-section:first-child h2::before {
   display: none;
 }
 
@@ -1568,7 +1563,7 @@ footer {
 .profile-contact {
   background: var(--nord2);
   border: 1px solid var(--border-on-dark);
-  padding: 16px 32px;
+  padding: 16px 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -2331,6 +2326,7 @@ footer {
   .listing-page-header h1 { font-size: 30px; }
   .listing-grid { grid-template-columns: 1fr; }
   .deadline-grid { grid-template-columns: 1fr; }
+  .listing-card-top { flex-direction: column; }
 
   /* Profile */
   .profile-page { padding: 12px var(--page-px) 64px; }
