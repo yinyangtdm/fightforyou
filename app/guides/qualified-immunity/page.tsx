@@ -47,7 +47,6 @@ export default async function QualifiedImmunityPage() {
           <div className="guide-article">
             <Link href="/guides" className="guide-back">← All guides</Link>
 
-            <span className="guide-card-category">Legal Reference</span>
             <h1 className="guide-title">Qualified Immunity by State</h1>
             <p className="guide-lead">
               Qualified immunity is one of the most significant legal obstacles in civil rights cases. Understanding
