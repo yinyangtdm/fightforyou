@@ -1898,9 +1898,7 @@ footer {
 
 .guide-page-inner {
   display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 64px;
-  align-items: start;
+  grid-template-columns: 1fr;
 }
 
 .guide-hero-img {
