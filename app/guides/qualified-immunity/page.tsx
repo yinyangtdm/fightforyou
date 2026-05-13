@@ -50,6 +50,11 @@ export default async function QualifiedImmunityPage() {
         <div className="guide-page-inner">
           <div className="guide-article">
             <h1 className="guide-title">Qualified Immunity by State</h1>
+            <div className="guide-meta">
+              <span>fightfor.you</span>
+              <span className="guide-meta-sep">·</span>
+              <span>Legal Reference</span>
+            </div>
             <p className="guide-lead">
               Qualified immunity is one of the most significant legal obstacles in civil rights cases. Understanding
               how it works — and how your state has responded to it — is essential before pursuing a claim against

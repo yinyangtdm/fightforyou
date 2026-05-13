@@ -50,6 +50,11 @@ export default async function FilingDeadlinesPage() {
         <div className="guide-page-inner">
           <div className="guide-article">
             <h1 className="guide-title">Filing Deadlines by State</h1>
+            <div className="guide-meta">
+              <span>fightfor.you</span>
+              <span className="guide-meta-sep">·</span>
+              <span>Legal Reference</span>
+            </div>
             <p className="guide-lead">
               In civil rights cases, missing a deadline doesn&apos;t just hurt your case — it permanently ends it.
               No matter how strong the facts are, a court will dismiss a claim filed one day too late. Here is what
