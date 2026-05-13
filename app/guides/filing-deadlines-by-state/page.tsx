@@ -43,7 +43,7 @@ export default async function FilingDeadlinesPage() {
       <Nav specialties={specialties} guides={guides} />
 
       <div className="breadcrumb-container">
-        <Breadcrumb items={[{ label: "All guides", href: "/guides" }]} />
+        <Breadcrumb items={[{ label: "← All guides", href: "/guides" }]} />
       </div>
 
       <div className="guide-page">

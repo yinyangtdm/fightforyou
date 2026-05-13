@@ -94,7 +94,7 @@ export default async function GuidePage({
       <Nav specialties={specialties} guides={navGuides} />
 
       <div className="breadcrumb-container">
-        <Breadcrumb items={[{ label: "All guides", href: "/guides" }]} />
+        <Breadcrumb items={[{ label: "← All guides", href: "/guides" }]} />
       </div>
 
       <div className="guide-page">
