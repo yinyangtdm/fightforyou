@@ -108,10 +108,12 @@ export default async function SpecialtyStatePage({
       <div className="listing-page">
         <div className="listing-page-header">
           <h1>{data.specialty} Lawyers in {data.stateName}</h1>
-         <p className="listing-page-subheading">
-          {getSpecialtyDescription(data.specialty) ?? `Attorneys and firms specializing in ${data.specialty} in ${data.stateName}, with a proven record against law enforcement.`}
-        </p>
-        <span className="listing-page-count">{data.listings.length} results</span>
+          <p className="listing-page-subheading">
+            {getSpecialtyDescription(data.specialty) ?? `Attorneys and firms specializing in ${data.specialty} in ${data.stateName}, with a proven record against law enforcement.`}
+          </p>
+          <div className="listing-page-filter-row">
+            <span className="listing-page-count">{data.listings.length} results</span>
+          </div>
         </div>
       </div>
 

@@ -150,8 +150,7 @@ export default async function SegmentPage({
       <div className="listing-page">
         <div className="listing-page-header">
           <h1>{heading}</h1>
-          {data.type === "specialty" && <p>{subheading}</p>}
-          {data.type === "state" && <p className="listing-page-subheading">{subheading}</p>}
+          <p className="listing-page-subheading">{subheading}</p>
           <div className="listing-page-filter-row">
             <span className="listing-page-count">{data.listings.length} results</span>
             {data.type === "state" && (
@@ -188,11 +187,11 @@ export default async function SegmentPage({
         </div>
       </div>
 
-      <div className="listing-page">
-        {data.type === "state" && (
+      {data.type === "state" && (
+        <div className="listing-page">
           <FilingDeadlines stateAbbr={data.stateAbbr} />
-        )}
-      </div>
+        </div>
+      )}
 
       <Footer />
     </div>

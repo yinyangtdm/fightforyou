@@ -41,6 +41,9 @@ const descriptions: Record<string, string> = {
   "Failure to Protect":
     "Failure to protect lawyers represent people who were harmed when a law enforcement officer or government official had a duty to protect them and deliberately failed to act. This includes cases where police ignored credible threats of violence, prison officials allowed inmates to be attacked, or officers stood by while someone was seriously harmed. The government has a legal obligation to protect people in its care or custody — when officials choose to do nothing in the face of known danger, these attorneys hold them accountable.",
 
+  "Excessive Force":
+    "Excessive force lawyers represent people who were injured or killed when a law enforcement officer used more physical force than the situation required. This includes cases involving beatings, chokeholds, shootings, Taser deployments, K-9 attacks, and other uses of force that were unnecessary, disproportionate, or intended to punish rather than control. The Constitution requires that any force used by officers be objectively reasonable — when it isn't, these attorneys hold officers and their departments accountable.",
+
   "False Arrest":
     "False arrest lawyers represent people who were arrested without probable cause, without a warrant, or without any legitimate legal basis. If you were taken into custody when no crime had been committed or when officers had no real reason to believe you had done anything wrong, these attorneys can help you hold the officers and their department accountable.",
 

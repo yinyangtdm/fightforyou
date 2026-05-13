@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useState, useEffect, startTransition } from "react"
+import { useState, useEffect } from "react"
 import { STATE_NAMES, STATE_ABBRS, toSlug } from "../lib/slugs"
 
 const ALL_STATES = Object.values(STATE_NAMES)
@@ -14,13 +14,10 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openMenu, setOpenMenu] = useState<MenuId | null>(null)
   const [openAccordion, setOpenAccordion] = useState<MenuId | null>(null)
-  const [theme, setTheme] = useState<"dark" | "light">("dark")
-
-  useEffect(() => {
-    const stored = (localStorage.getItem("theme") as "dark" | "light") ?? "dark"
-    document.documentElement.setAttribute("data-theme", stored)
-    startTransition(() => setTheme(stored))
-  }, [])
+  const [theme, setTheme] = useState<"dark" | "light">(() => {
+    if (typeof window === "undefined") return "dark"
+    return (localStorage.getItem("theme") as "dark" | "light") ?? "dark"
+  })
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme)
@@ -68,7 +65,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
   return (
     <>
-      <nav>
+      <nav className="site-nav">
       <div className="nav-inner">
         <button
           className={`nav-hamburger${mobileOpen ? " open" : ""}`}

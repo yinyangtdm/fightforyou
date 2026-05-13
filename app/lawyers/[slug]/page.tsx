@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation"
 import { PrismaClient } from "@prisma/client"
+import { PrismaPg } from "@prisma/adapter-pg"
 import { STATE_NAMES, STATE_SLUGS, toSlug } from "../../lib/slugs"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
@@ -12,35 +13,31 @@ import SpecialtyList from "../../components/SpecialtyList"
 export const revalidate = 3600
 
 async function getData(slug: string) {
-  const prisma = new PrismaClient()
+  const prisma = new PrismaClient({
+    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
+  })
 
-  const [listing, specialtyRows, guideRows] = await Promise.all([
+  const [listing, specialtyRows] = await Promise.all([
     prisma.listing.findUnique({
       where: { slug, approved: true },
     }),
     prisma.$queryRaw<{ specialty: string }[]>`
       SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
     `,
-    prisma.guide.findMany({
-      where: { published: true },
-      select: { title: true, slug: true },
-      orderBy: { createdAt: "desc" },
-      take: 50,
-    }),
   ])
 
   await prisma.$disconnect()
   if (!listing) return null
 
-  return { listing, specialties: specialtyRows.map((r) => r.specialty), guides: guideRows }
+  return { listing, specialties: specialtyRows.map((r) => r.specialty) }
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }): Promise<Metadata> {
-  const { slug } = params
+  const { slug } = await params
   const data = await getData(slug)
   if (!data) return {}
 
@@ -59,18 +56,18 @@ export default async function ProfilePage({
   params,
   searchParams,
 }: {
-  params: { slug: string }
-  searchParams: { from?: string }
+  params: Promise<{ slug: string }>
+  searchParams: Promise<{ from?: string }>
 }) {
-  const { slug } = params
-  const { from } = searchParams
+  const { slug } = await params
+  const { from } = await searchParams
   const data = await getData(slug)
   if (!data) notFound()
 
-  const { listing, specialties, guides } = data
+  const { listing, specialties } = data
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
-  const badgeClass = listing.isNonprofit ? "listing-card-badge--nonprofit" : listing.isFirm ? "listing-card-badge--firm" : "listing-card-badge--attorney"
+  const badgeClass = listing.isNonprofit ? "listing-card-badge--nonprofit" : listing.isFirm ? "listing-card-badge--firm" : ""
 
   // Build breadcrumb items based on actual user path
   const breadcrumbItems = [{ label: "Home", href: "/" }]
@@ -105,8 +102,7 @@ export default async function ProfilePage({
       const [specialtySlug, stateSlug] = pathParts
       const stateAbbr = Object.entries(STATE_SLUGS).find(([slug]) => slug === stateSlug)?.[1]
       const specialty = listing.specialties.find(s => toSlug(s) === specialtySlug)
-    
-      if (stateAbbr) {
+       if (stateAbbr) {
         breadcrumbItems.push({
           label: STATE_NAMES[stateAbbr],
           href: `/${stateSlug}`,
@@ -126,7 +122,7 @@ export default async function ProfilePage({
 
   return (
     <div className="public profile-public">
-      <Nav specialties={specialties} guides={guides} />
+      <Nav specialties={specialties} guides={[]} />
 
       <div className="breadcrumb-container">
         <Breadcrumb items={breadcrumbItems} />
@@ -192,7 +188,7 @@ export default async function ProfilePage({
 
           <div className="profile-actions-col">
           {listing.phone && (
-            <a href={`tel:${listing.phone}`} className="btn-primary btn-phone">
+            <a href={`tel:${listing.phone}`} className="btn-primary">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
@@ -200,7 +196,7 @@ export default async function ProfilePage({
             </a>
           )}
           {listing.email && (
-            <a href={`mailto:${listing.email}`} className="btn-primary profile-btn-ghost">
+            <a href={`mailto:${listing.email}`} className="btn-primary">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="4" width="20" height="16" rx="2" />
                 <path d="m22 7-10 5L2 7" />
@@ -209,7 +205,7 @@ export default async function ProfilePage({
             </a>
           )}
           {listing.website && (
-            <a href={listing.website} target="_blank" rel="noopener noreferrer" className="btn-primary profile-btn-ghost btn-website">
+            <a href={listing.website} target="_blank" rel="noopener noreferrer" className="btn-primary btn-website">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                 <polyline points="15 3 21 3 21 9" />
@@ -220,8 +216,6 @@ export default async function ProfilePage({
           )}
         </div>
         </div>
-      </div>
-
       </div>
 
       <div className="profile-page">
