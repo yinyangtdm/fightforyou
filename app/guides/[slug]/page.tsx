@@ -92,11 +92,13 @@ export default async function GuidePage({
     <div className="public">
       <Nav specialties={specialties} guides={navGuides} />
 
+      <div className="breadcrumb-container">
+        <Link href="/guides" className="guide-back">← All guides</Link>
+      </div>
+
       <div className="guide-page">
         <div className="guide-page-inner">
           <div className="guide-article">
-            <Link href="/guides" className="guide-back">← All guides</Link>
-
             {guide.coverImageUrl && (
               <Image src={guide.coverImageUrl} alt={guide.title} width={900} height={420} className="guide-hero-img" />
             )}

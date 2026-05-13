@@ -730,7 +730,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 16px var(--page-px) 2px;
+  padding: 16px var(--page-px) 16px;
 }
 
 .breadcrumb {
@@ -792,7 +792,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 12px var(--page-px) 24px;
+  padding: 24px var(--page-px) 24px;
   border-bottom: none;
 }
 
@@ -1890,9 +1890,10 @@ footer {
 .guide-page {
   display: grid;
   grid-template-columns: 1fr;
+  width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 56px var(--page-px) 96px;
+  padding: 24px var(--page-px) 96px;
 }
 
 .guide-page-inner {
