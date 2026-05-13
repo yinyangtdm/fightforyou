@@ -107,11 +107,10 @@ export default async function GuidePage({
             <div className="guide-meta">
               {guide.authorName ? (
                 <>
-                  <span>By </span>
                   {guide.authorSlug ? (
-                    <Link href={`/lawyers/${guide.authorSlug}`} className="guide-author-link">{guide.authorName}</Link>
+                    <Link href={`/lawyers/${guide.authorSlug}`} className="guide-author-link">By {guide.authorName}</Link>
                   ) : (
-                    <span className="guide-author-name">{guide.authorName}</span>
+                    <span className="guide-author-name">By {guide.authorName}</span>
                   )}
                   <span className="guide-meta-sep">·</span>
                 </>
