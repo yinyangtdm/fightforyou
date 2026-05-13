@@ -53,7 +53,7 @@ export default async function QualifiedImmunityPage() {
             <div className="guide-meta">
               <span>By fightfor.you</span>
               <span className="guide-meta-sep">·</span>
-              <span>Legal Reference</span>
+              <Link href="/guides?category=Legal+Reference" className="guide-author-link">Legal Reference</Link>
             </div>
             <p className="guide-lead">
               Qualified immunity is one of the most significant legal obstacles in civil rights cases. Understanding

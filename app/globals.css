@@ -1604,6 +1604,18 @@ footer {
   margin-bottom: 56px;
 }
 
+.guides-clear-filter {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
+  transition: color 0.2s;
+}
+
+.guides-clear-filter:hover { color: var(--accent-light); }
+
 .guides-header h1 {
   font-family: var(--serif);
   font-size: 48px;

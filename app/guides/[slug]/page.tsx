@@ -108,7 +108,7 @@ export default async function GuidePage({
               {guide.authorName ? (
                 <>
                   {guide.authorSlug ? (
-                    <Link href={`/lawyers/${guide.authorSlug}`} className="guide-author-link">By {guide.authorName}</Link>
+                    <Link href={`/guides?author=${guide.authorSlug}`} className="guide-author-link">By {guide.authorName}</Link>
                   ) : (
                     <span className="guide-author-name">By {guide.authorName}</span>
                   )}
@@ -117,7 +117,14 @@ export default async function GuidePage({
               ) : null}
               <span>{guide.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
               {guide.categories.length > 0 && (
-                <span className="guide-meta-categories">{guide.categories.join(", ")}</span>
+                <span className="guide-meta-categories">
+                  {guide.categories.map((cat, i) => (
+                    <span key={cat}>
+                      {i > 0 && <span className="guide-meta-sep">, </span>}
+                      <Link href={`/guides?category=${encodeURIComponent(cat)}`} className="guide-author-link">{cat}</Link>
+                    </span>
+                  ))}
+                </span>
               )}
             </div>
 
