@@ -1928,16 +1928,15 @@ footer {
 }
 
 .guide-back {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 13px;
-  font-weight: 600;
-  color: var(--text-muted);
+  color: var(--accent);
   text-decoration: none;
-  display: block;
+  line-height: 1.2;
   transition: color 0.2s;
 }
 
-.guide-back:hover { color: var(--accent); }
+.guide-back:hover { color: var(--accent-light); }
 
 .guide-title {
   font-family: var(--serif);

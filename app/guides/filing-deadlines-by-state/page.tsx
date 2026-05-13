@@ -42,11 +42,13 @@ export default async function FilingDeadlinesPage() {
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
+      <div className="breadcrumb-container">
+        <Link href="/guides" className="guide-back">← All guides</Link>
+      </div>
+
       <div className="guide-page">
         <div className="guide-page-inner">
           <div className="guide-article">
-            <Link href="/guides" className="guide-back">← All guides</Link>
-
             <h1 className="guide-title">Filing Deadlines by State</h1>
             <p className="guide-lead">
               In civil rights cases, missing a deadline doesn&apos;t just hurt your case — it permanently ends it.
