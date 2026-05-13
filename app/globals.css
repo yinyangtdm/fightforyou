@@ -1254,7 +1254,7 @@ footer {
   gap: 48px;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 16px var(--page-px) 96px;
+  padding: 12px var(--page-px) 96px;
   background: transparent;
 }
 
@@ -1893,7 +1893,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 24px var(--page-px) 96px;
+  padding: 12px var(--page-px) 96px;
 }
 
 .guide-page-inner {
@@ -1945,7 +1945,6 @@ footer {
   letter-spacing: -0.02em;
   color: var(--nord6);
   line-height: 1.1;
-  margin: 12px 0 0;
 }
 
 .guide-lead {
@@ -2300,7 +2299,7 @@ footer {
   .deadline-grid { grid-template-columns: 1fr; }
 
   /* Profile */
-  .profile-page { padding: 40px var(--page-px) 64px; }
+  .profile-page { padding: 12px var(--page-px) 64px; }
   .profile-name { font-size: 28px; }
   .profile-hero { margin: 0 0 16px; border-radius: 8px; }
   .profile-map-row { grid-template-columns: 1fr; }
@@ -2317,7 +2316,7 @@ footer {
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
-  .guide-page { padding: 40px var(--page-px) 64px; }
+  .guide-page { padding: 12px var(--page-px) 64px; }
   .guide-title { font-size: 30px; }
   .guide-page-inner { grid-template-columns: 1fr; }
   .guide-sidebar { position: static; border-top: 1px solid var(--border-on-dark); padding-top: 40px; }
@@ -2351,7 +2350,8 @@ footer {
   .listing-page { padding: 12px var(--page-px) 16px; }
   .listing-section-inner { padding: 24px var(--page-px); }
 
-  .profile-page { padding: 16px var(--page-px) 56px; }
+  .guide-page { padding: 12px var(--page-px) 56px; }
+  .profile-page { padding: 12px var(--page-px) 56px; }
   .profile-hero { margin: 0 0 16px; height: auto; }
   .profile-hero {
     grid-template-columns: 1fr;
