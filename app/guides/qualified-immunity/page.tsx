@@ -51,7 +51,7 @@ export default async function QualifiedImmunityPage() {
           <div className="guide-article">
             <h1 className="guide-title">Qualified Immunity by State</h1>
             <div className="guide-meta">
-              <span>fightfor.you</span>
+              <span>By fightfor.you</span>
               <span className="guide-meta-sep">·</span>
               <span>Legal Reference</span>
             </div>
