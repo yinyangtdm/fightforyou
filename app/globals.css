@@ -1934,7 +1934,6 @@ footer {
   color: var(--text-muted);
   text-decoration: none;
   display: block;
-  margin-bottom: 24px;
   transition: color 0.2s;
 }
 
