@@ -64,6 +64,17 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
     setOpenAccordion((prev) => (prev === id ? null : id))
   }
 
+  const glossaryEntry = PINNED_GUIDES.find(g => g.slug === "glossary")!
+  const sortedGuideLinks = [
+    ...PINNED_GUIDES
+      .filter(g => g.slug !== "glossary")
+      .map(g => ({ title: g.title, href: g.href, slug: g.slug })),
+    ...guides
+      .filter(g => !PINNED_GUIDES.some(p => p.slug === g.slug))
+      .map(g => ({ title: g.title, href: `/guides/${g.slug}`, slug: g.slug })),
+  ].sort((a, b) => a.title.localeCompare(b.title))
+  sortedGuideLinks.push({ title: glossaryEntry.title, href: glossaryEntry.href, slug: glossaryEntry.slug })
+
   return (
     <>
       <nav className="site-nav">
@@ -141,11 +152,8 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
               <span className="nav-accordion-arrow" aria-hidden>›</span>
             </a>
             <ul className="nav-accordion-list">
-              {PINNED_GUIDES.map(g => (
+              {sortedGuideLinks.map(g => (
                 <li key={g.slug}><Link href={g.href}>{g.title}</Link></li>
-              ))}
-              {guides.filter(g => !PINNED_GUIDES.some(p => p.slug === g.slug)).map(g => (
-                <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title}</Link></li>
               ))}
               <li><Link href="/guides">All Guides →</Link></li>
             </ul>
@@ -207,11 +215,8 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
       <div className={`mega-menu${openMenu === "rights" ? " open" : ""}`}>
         <div className="mega-menu-heading">Know Your Rights</div>
         <div className="mega-menu-grid">
-          {PINNED_GUIDES.map(g => (
+          {sortedGuideLinks.map(g => (
             <Link key={g.slug} href={g.href}>{g.title}</Link>
-          ))}
-          {guides.filter(g => !PINNED_GUIDES.some(p => p.slug === g.slug)).map(g => (
-            <Link key={g.slug} href={`/guides/${g.slug}`}>{g.title}</Link>
           ))}
           <Link href="/guides">All Guides →</Link>
         </div>
