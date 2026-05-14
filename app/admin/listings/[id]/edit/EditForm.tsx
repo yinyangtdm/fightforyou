@@ -134,6 +134,74 @@ export default function EditForm({ listing }: EditFormProps) {
     })
   }
 
+  type AutoFillData = {
+    name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean; isNational?: boolean
+    tagline?: string; email?: string; phone?: string; description?: string
+    streetAddress?: string; city?: string; state?: string; zipCode?: string
+    specialties?: string[]; notableResults?: string[]; keyCharacteristics?: string[]
+    barNumber?: string; website?: string; linkedin?: string; facebook?: string
+  }
+
+  function applyAutoFillData(data: AutoFillData) {
+    setForm(prev => ({
+      ...prev,
+      ...(data.name !== undefined && { name: data.name, slug: generateSlug(data.name) }),
+      ...(data.firm !== undefined && { firm: data.firm }),
+      ...(data.isFirm !== undefined && { isFirm: data.isFirm }),
+      ...(data.isNonprofit !== undefined && { isNonprofit: data.isNonprofit }),
+      ...(data.isNational !== undefined && { isNational: data.isNational }),
+      ...(data.tagline !== undefined && { tagline: data.tagline }),
+      ...(data.email !== undefined && { email: data.email }),
+      ...(data.phone !== undefined && { phone: formatPhone(data.phone) }),
+      ...(data.description !== undefined && { description: data.description }),
+      ...(data.streetAddress !== undefined && { streetAddress: data.streetAddress }),
+      ...(data.city !== undefined && { city: data.city }),
+      ...(data.state !== undefined && { state: data.state }),
+      ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
+      ...(data.specialties !== undefined && {
+        specialties: normalizeSpecialties(
+          prev.specialties && data.specialties!.length
+            ? prev.specialties + ", " + data.specialties!.join(", ")
+            : prev.specialties || data.specialties!.join(", "),
+        ),
+      }),
+      ...(data.notableResults !== undefined && {
+        notableResults: (() => {
+          const merged = [...prev.notableResults.filter(s => s.trim()), ...data.notableResults!]
+          return merged.length ? merged : [""]
+        })(),
+      }),
+      ...(data.keyCharacteristics !== undefined && {
+        keyCharacteristics: (() => {
+          const merged = [...prev.keyCharacteristics.filter(s => s.trim()), ...data.keyCharacteristics!]
+          return merged.length ? merged : [""]
+        })(),
+      }),
+      ...(data.barNumber !== undefined && { barNumber: data.barNumber }),
+      ...(data.website !== undefined && { website: data.website }),
+      ...(data.linkedin !== undefined && { linkedin: data.linkedin }),
+      ...(data.facebook !== undefined && { facebook: data.facebook }),
+    }))
+  }
+
+  async function handleAutoFillFromName() {
+    if (!form.name.trim()) return
+    setAutoFillLoading(true)
+    try {
+      const res = await fetch("/api/extract-listing", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: form.name }),
+      })
+      if (!res.ok) throw new Error("Auto-fill request failed")
+      applyAutoFillData(await res.json() as AutoFillData)
+    } catch (err) {
+      setError((err as Error).message)
+    } finally {
+      setAutoFillLoading(false)
+    }
+  }
+
   async function handleAutoFill() {
     if (!pageText.trim()) return
     setAutoFillLoading(true)
@@ -144,52 +212,7 @@ export default function EditForm({ listing }: EditFormProps) {
         body: JSON.stringify({ text: pageText }),
       })
       if (!res.ok) throw new Error("Auto-fill request failed")
-      const data = await res.json() as {
-        name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean; isNational?: boolean
-        tagline?: string; email?: string; phone?: string; description?: string
-        streetAddress?: string; city?: string; state?: string; zipCode?: string
-        specialties?: string[]; notableResults?: string[]; keyCharacteristics?: string[]
-        barNumber?: string; website?: string; linkedin?: string; facebook?: string
-      }
-      setForm(prev => ({
-        ...prev,
-        ...(data.name !== undefined && { name: data.name, slug: generateSlug(data.name) }),
-        ...(data.firm !== undefined && { firm: data.firm }),
-        ...(data.isFirm !== undefined && { isFirm: data.isFirm }),
-        ...(data.isNonprofit !== undefined && { isNonprofit: data.isNonprofit }),
-        ...(data.isNational !== undefined && { isNational: data.isNational }),
-        ...(data.tagline !== undefined && { tagline: data.tagline }),
-        ...(data.email !== undefined && { email: data.email }),
-        ...(data.phone !== undefined && { phone: formatPhone(data.phone) }),
-        ...(data.description !== undefined && { description: data.description }),
-        ...(data.streetAddress !== undefined && { streetAddress: data.streetAddress }),
-        ...(data.city !== undefined && { city: data.city }),
-        ...(data.state !== undefined && { state: data.state }),
-        ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
-        ...(data.specialties !== undefined && {
-          specialties: normalizeSpecialties(
-            prev.specialties && data.specialties.length
-              ? prev.specialties + ", " + data.specialties.join(", ")
-              : prev.specialties || data.specialties.join(", "),
-          ),
-        }),
-        ...(data.notableResults !== undefined && {
-          notableResults: (() => {
-            const merged = [...prev.notableResults.filter(s => s.trim()), ...data.notableResults]
-            return merged.length ? merged : [""]
-          })(),
-        }),
-        ...(data.keyCharacteristics !== undefined && {
-          keyCharacteristics: (() => {
-            const merged = [...prev.keyCharacteristics.filter(s => s.trim()), ...data.keyCharacteristics]
-            return merged.length ? merged : [""]
-          })(),
-        }),
-        ...(data.barNumber !== undefined && { barNumber: data.barNumber }),
-        ...(data.website !== undefined && { website: data.website }),
-        ...(data.linkedin !== undefined && { linkedin: data.linkedin }),
-        ...(data.facebook !== undefined && { facebook: data.facebook }),
-      }))
+      applyAutoFillData(await res.json() as AutoFillData)
     } catch (err) {
       setError((err as Error).message)
     } finally {
@@ -366,7 +389,17 @@ export default function EditForm({ listing }: EditFormProps) {
           )}
           <div>
             <label className="block text-sm font-medium mb-1">Name *</label>
-            <input required name="name" value={form.name} onChange={handleChange} className="w-full border rounded p-2" />
+            <div className="flex gap-2">
+              <input required name="name" value={form.name} onChange={handleChange} className="flex-1 border rounded p-2" />
+              <button
+                type="button"
+                onClick={() => void handleAutoFillFromName()}
+                disabled={autoFillLoading || !form.name.trim()}
+                className="px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50 whitespace-nowrap"
+              >
+                {autoFillLoading ? "Filling..." : "Auto-fill"}
+              </button>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Slug</label>
