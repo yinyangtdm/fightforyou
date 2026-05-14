@@ -1,0 +1,106 @@
+import { PrismaClient } from "@prisma/client"
+import { PrismaPg } from "@prisma/adapter-pg"
+import Nav from "../../../components/Nav"
+import Footer from "../../../components/Footer"
+import Link from "next/link"
+import Image from "next/image"
+import type { Metadata } from "next"
+import { deriveExcerpt, categorySlug, categoryFromSlug, PINNED_GUIDES } from "../../_lib"
+
+export const dynamic = "force-dynamic"
+
+async function getData(category: string) {
+  const prisma = new PrismaClient({
+    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
+  })
+  const [guides, specialtyRows] = await Promise.all([
+    prisma.guide.findMany({
+      where: { published: true, categories: { has: category } },
+      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+    }),
+    prisma.$queryRaw<{ specialty: string }[]>`
+      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
+    `,
+  ])
+  await prisma.$disconnect()
+  return { guides, specialties: specialtyRows.map((r) => r.specialty) }
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
+  const { category } = await params
+  const displayCategory = categoryFromSlug(category)
+  return {
+    title: `Guides tagged "${displayCategory}" | fightfor.you`,
+    description: `Civil rights guides and resources tagged "${displayCategory}".`,
+  }
+}
+
+export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {
+  const { category } = await params
+  const displayCategory = categoryFromSlug(category)
+  const { guides, specialties } = await getData(displayCategory)
+
+  const navGuides = guides.slice(0, 8).map((g) => ({ title: g.title, slug: g.slug }))
+  const showPinned = category === "legal-reference"
+
+  return (
+    <div className="public">
+      <Nav specialties={specialties} guides={navGuides} />
+
+      <div className="guides-page">
+        <div className="guides-header">
+          <h1>Guides tagged &ldquo;{displayCategory}&rdquo;</h1>
+          <Link href="/guides" className="guides-clear-filter">← All guides</Link>
+        </div>
+
+        {showPinned && (
+          <div className="guides-grid">
+            {PINNED_GUIDES.map((p) => (
+              <Link key={p.slug} href={p.href} className="guide-card">
+                <h2 className="guide-card-title">{p.title}</h2>
+                <div className="guide-card-meta">
+                  <span className="guide-card-author">{p.authorName}</span>
+                  <span className="guide-card-meta-sep">·</span>
+                  <span className="guide-card-date">{p.date}</span>
+                </div>
+                <p className="guide-card-excerpt">{p.excerpt}</p>
+                <span className="guide-card-read">{p.readLabel}</span>
+              </Link>
+            ))}
+          </div>
+        )}
+
+        {guides.length > 0 && (
+          <div className="guides-grid">
+            {guides.map((g) => (
+              <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card">
+                {g.coverImageUrl && (
+                  <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
+                )}
+                <h2 className="guide-card-title">{g.title}</h2>
+                <div className="guide-card-meta">
+                  {g.authorName && g.authorSlug && (
+                    <>
+                      <span className="guide-card-author">{g.authorName}</span>
+                      <span className="guide-card-meta-sep">·</span>
+                    </>
+                  )}
+                  <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+                </div>
+                {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
+                <span className="guide-card-read">Read guide →</span>
+              </Link>
+            ))}
+          </div>
+        )}
+
+        {guides.length === 0 && !showPinned && (
+          <p className="guides-empty">No guides found.</p>
+        )}
+      </div>
+
+      <Footer />
+    </div>
+  )
+}

@@ -3,13 +3,14 @@ import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
 import Breadcrumb from "../../components/Breadcrumb"
+import Link from "next/link"
 import type { Metadata } from "next"
 import QIStatePicker from "./StatePicker"
 
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "Qualified Immunity by State | fightfor.you",
+  title: "Qualified Immunity Laws | fightfor.you",
   description: "How qualified immunity works, which states have reformed or abolished it, and what it means for your civil rights case.",
 }
 
@@ -49,11 +50,14 @@ export default async function QualifiedImmunityPage() {
       <div className="guide-page">
         <div className="guide-page-inner">
           <div className="guide-article">
-            <h1 className="guide-title">Qualified Immunity by State</h1>
+            <h1 className="guide-title">Qualified Immunity Laws</h1>
             <div className="guide-meta">
-              <span>By fightfor.you</span>
+              <Link href="/guides/author/fight-for-you" className="guide-author-link">By fightfor.you</Link>
               <span className="guide-meta-sep">·</span>
-              <Link href="/guides?category=Legal+Reference" className="guide-author-link">Legal Reference</Link>
+              <span>May 9, 2026</span>
+              <span className="guide-meta-categories">
+                <Link href="/guides/category/legal-reference" className="guide-category-link">Legal Reference</Link>
+              </span>
             </div>
             <p className="guide-lead">
               Qualified immunity is one of the most significant legal obstacles in civil rights cases. Understanding

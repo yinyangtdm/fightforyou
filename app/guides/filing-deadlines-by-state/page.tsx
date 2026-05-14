@@ -3,13 +3,14 @@ import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
 import Breadcrumb from "../../components/Breadcrumb"
+import Link from "next/link"
 import type { Metadata } from "next"
 import StatePicker from "./StatePicker"
 
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "Filing Deadlines by State | fightfor.you",
+  title: "State Filing Deadlines | fightfor.you",
   description: "State-by-state statutes of limitations and notice-of-claim deadlines for civil rights cases. Missing a deadline permanently bars your claim.",
 }
 
@@ -49,10 +50,14 @@ export default async function FilingDeadlinesPage() {
       <div className="guide-page">
         <div className="guide-page-inner">
           <div className="guide-article">
-            <h1 className="guide-title">Filing Deadlines by State</h1>
+            <h1 className="guide-title">State Filing Deadlines</h1>
             <div className="guide-meta">
-              <span>By fightfor.you</span>
+              <Link href="/guides/author/fight-for-you" className="guide-author-link">By fightfor.you</Link>
               <span className="guide-meta-sep">·</span>
+              <span>May 9, 2026</span>
+              <span className="guide-meta-categories">
+                <Link href="/guides/category/legal-reference" className="guide-category-link">Legal Reference</Link>
+              </span>
             </div>
             <p className="guide-lead">
               In civil rights cases, missing a deadline doesn&apos;t just hurt your case — it permanently ends it.

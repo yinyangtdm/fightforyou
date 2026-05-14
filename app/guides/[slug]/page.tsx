@@ -7,6 +7,7 @@ import Breadcrumb from "../../components/Breadcrumb"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
+import { categorySlug } from "../_lib"
 
 export const revalidate = 3600
 
@@ -107,7 +108,7 @@ export default async function GuidePage({
             <div className="guide-meta">
               {guide.authorName && guide.authorSlug ? (
                 <>
-                  <Link href={`/guides?author=${guide.authorSlug}`} className="guide-author-link">By {guide.authorName}</Link>
+                  <Link href={`/guides/author/${guide.authorSlug}`} className="guide-author-link">By {guide.authorName}</Link>
                   <span className="guide-meta-sep">·</span>
                 </>
               ) : null}
@@ -117,7 +118,7 @@ export default async function GuidePage({
                   {guide.categories.map((cat, i) => (
                     <span key={cat}>
                       {i > 0 && <span className="guide-meta-sep">, </span>}
-                      <Link href={`/guides?category=${encodeURIComponent(cat)}`} className="guide-category-link">{cat}</Link>
+                      <Link href={`/guides/category/${categorySlug(cat)}`} className="guide-category-link">{cat}</Link>
                     </span>
                   ))}
                 </span>
