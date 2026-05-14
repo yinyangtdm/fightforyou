@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "../../../components/Nav"
 import Footer from "../../../components/Footer"
+import Breadcrumb from "../../../components/Breadcrumb"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
@@ -48,11 +49,12 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     <div className="public">
       <Nav specialties={specialties} guides={navGuides} />
 
+      <div className="breadcrumb-container">
+        <Breadcrumb items={[{ label: "← All guides", href: "/guides" }]} />
+      </div>
+
       <div className="guides-page">
-        <div className="guides-header">
-          <h1>Guides tagged &ldquo;{displayCategory}&rdquo;</h1>
-          <Link href="/guides" className="guides-clear-filter">← All guides</Link>
-        </div>
+        <h1>Guides tagged &ldquo;{displayCategory}&rdquo;</h1>
 
         {showPinned && (
           <div className="guides-grid">
