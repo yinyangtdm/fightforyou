@@ -10,6 +10,7 @@ import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import SpecialtyList from "../../components/SpecialtyList"
+import ProfileMap from "../../components/ProfileMap"
 
 export const revalidate = 3600
 
@@ -266,7 +267,13 @@ export default async function ProfilePage({
                   ))}
                 </ul>
               </div>
-              <div className="profile-map-placeholder" />
+              {listing.latitude && listing.longitude ? (
+                <div className="profile-map-placeholder">
+                  <ProfileMap latitude={listing.latitude} longitude={listing.longitude} name={listing.name} />
+                </div>
+              ) : (
+                <div className="profile-map-placeholder" />
+              )}
             </div>
           )}
 
