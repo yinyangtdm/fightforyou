@@ -1135,7 +1135,7 @@ footer {
 .listing-card-location {
   display: block;
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   color: var(--text-muted);
   margin: 0;
@@ -1155,7 +1155,7 @@ footer {
 .listing-card-specialties,
 .listing-card-bio {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   color: var(--text-muted);
   margin: 0;
