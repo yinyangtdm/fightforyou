@@ -51,8 +51,8 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
       <div className="guides-page">
         <div className="guides-header">
-          <h1>Guides by {authorName}</h1>
           <Link href="/guides" className="guides-clear-filter">← All guides</Link>
+          <h1>Guides by {authorName}</h1>
         </div>
 
         {showPinned && (
