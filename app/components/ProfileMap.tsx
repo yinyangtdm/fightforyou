@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from "react"
+import "mapbox-gl/dist/mapbox-gl.css"
 
 interface Props {
   latitude: number
@@ -19,7 +20,6 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
 
     async function init() {
       const mapboxgl = (await import("mapbox-gl")).default
-      await import("mapbox-gl/dist/mapbox-gl.css")
 
       mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!
 
