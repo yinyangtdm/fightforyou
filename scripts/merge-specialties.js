@@ -29,7 +29,6 @@ const MERGES = {
   "Police Shootings":             "Police Brutality",
 
   // Into Police Misconduct (chains flattened)
-  "Fourth Amendment":             "Police Misconduct",
   "Illegal Searches":             "Police Misconduct",
   "Illegal Search and Seizure":   "Police Misconduct",
   "Police Pursuit":               "Police Misconduct",
@@ -127,18 +126,21 @@ const MERGES = {
   // Social / First Amendment variants
   "First Amendment Rights":    "First Amendment",
   "First Amendment Violations": "First Amendment",
-  "Racial Discrimination":     "Discrimination",
+  "Racial Discrimination":                    "Discrimination",
+  "Racial Discrimination by Law Enforcement": "Discrimination",
 
-  // Search and seizure variants
-  "Fourth Amendment Violations": "Unlawful Search and Seizure",
-  "Unlawful Surveillance":       "Unlawful Search and Seizure",
+  // Into Fourth Amendment
+  "Unlawful Search and Seizure":  "Fourth Amendment",
+  "Fourth Amendment Violations":  "Fourth Amendment",
+  "Unlawful Surveillance":        "Fourth Amendment",
 
   // Police Brutality variants
   "Excessive force":            "Police Brutality",
   "Officer-Involved Shootings": "Police Brutality",
 
   // Sexual assault variants
-  "Sexual Abuse by Law Enforcement": "Sexual Assault by Law Enforcement",
+  "Sexual Abuse by Law Enforcement":    "Sexual Assault by Police",
+  "Sexual Assault by Law Enforcement":  "Sexual Assault by Police",
 
   // Wrongful Conviction variants
   "Exoneration Cases": "Wrongful Conviction",
