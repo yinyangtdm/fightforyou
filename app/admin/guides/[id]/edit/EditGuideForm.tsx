@@ -236,6 +236,7 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
               {[
                 { label: "B", title: "Bold", before: "**", after: "**", placeholder: "bold text" },
                 { label: "I", title: "Italic", before: "*", after: "*", placeholder: "italic text" },
+                { label: "H1", title: "Heading 1", before: "# ", after: "", placeholder: "Heading" },
                 { label: "H2", title: "Heading 2", before: "## ", after: "", placeholder: "Heading" },
                 { label: "H3", title: "Heading 3", before: "### ", after: "", placeholder: "Heading" },
                 { label: "UL", title: "Bullet list", before: "- ", after: "", placeholder: "List item" },
