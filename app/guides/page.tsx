@@ -43,7 +43,7 @@ export default async function GuidesPage() {
     <div className="public">
       <Nav specialties={specialties} guides={navGuides} />
 
-      <div className="guides-page">
+      <div className="guides-page guides-page--index">
         <div className="guides-header">
           <h1>Guides &amp; Resources</h1>
           <p className="guides-subheading">
