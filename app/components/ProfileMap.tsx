@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import "mapbox-gl/dist/mapbox-gl.css"
+import nordMapStyle from "../lib/mapStyleNord"
 
 interface Props {
   latitude: number
@@ -25,7 +26,7 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
 
       map = new mapboxgl.Map({
         container: containerRef.current!,
-        style: "mapbox://styles/mapbox/streets-v12",
+        style: nordMapStyle as Parameters<typeof mapboxgl.Map>[0]["style"],
         center: [longitude, latitude],
         zoom: 14,
         interactive: false,
