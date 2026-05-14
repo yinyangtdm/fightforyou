@@ -1637,8 +1637,9 @@ footer {
 .guides-featured {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  gap: 24px;
+  gap: 16px;
   margin-bottom: 24px;
+  margin-top: 8px
 }
 
 .guides-grid {
