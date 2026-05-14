@@ -47,8 +47,8 @@ export async function POST(req: Request) {
 - keyCharacteristics: Key traits, credentials, awards, languages — do NOT include bar number here
 - barNumber: State bar admission number
 - website: Full website URL
-- linkedin: Full LinkedIn URL
-- facebook: Full Facebook URL
+- linkedin: Full LinkedIn profile URL — search "[name] attorney [firm name] LinkedIn" to find it; LinkedIn attorney URLs typically follow the pattern linkedin.com/in/firstname-lastname or linkedin.com/company/firm-name
+- facebook: Full Facebook page URL — search "[name] attorney [firm name] Facebook" to find it; firm Facebook pages typically follow the pattern facebook.com/firmname
 - isFirm: true if this is a law firm, false if individual attorney
 - isNonprofit: true if nonprofit legal organization
 - isNational: true if they serve clients nationwide
