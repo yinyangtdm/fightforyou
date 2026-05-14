@@ -1541,7 +1541,7 @@ footer {
   border-radius: 8px;
   background: var(--nord2);
   border: 1px solid var(--border-on-dark);
-  min-height: 240px;
+  min-height: 400px;
 }
 
 
