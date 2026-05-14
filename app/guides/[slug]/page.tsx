@@ -101,9 +101,6 @@ export default async function GuidePage({
 
             <h1 className="guide-title">{guide.title}</h1>
 
-            {guide.excerpt && (
-              <p className="guide-lead">{guide.excerpt}</p>
-            )}
 
             <div className="guide-meta">
               {guide.authorName && guide.authorSlug ? (
