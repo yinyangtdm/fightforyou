@@ -38,4 +38,13 @@ export const PINNED_GUIDES = [
     date: "May 9, 2026",
     readLabel: "Look up your state →",
   },
+  {
+    slug: "glossary",
+    href: "/guides/glossary",
+    title: "Legal Glossary",
+    excerpt: "Plain-language definitions of legal terms that come up in civil rights cases — from qualified immunity to Section 1983.",
+    authorName: "fightfor.you",
+    date: "May 14, 2026",
+    readLabel: "Browse terms →",
+  },
 ]

@@ -179,33 +179,6 @@ export default async function HomePage() {
             </div>
           )}
 
-          {guides.filter((g) => !g.featured).length > 0 && (
-            <div className="guides-grid">
-              {guides.filter((g) => !g.featured).map((g) => (
-                <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card">
-                  {g.coverImageUrl && (
-                    <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
-                  )}
-                  <h2 className="guide-card-title">{g.title}</h2>
-                  <div className="guide-card-meta">
-                    {g.authorName && g.authorSlug && (
-                      <>
-                        <span className="guide-card-author">{g.authorName}</span>
-                        <span className="guide-card-meta-sep">·</span>
-                      </>
-                    )}
-                    <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
-                  </div>
-                  {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
-                  <span className="guide-card-read">Read guide →</span>
-                </Link>
-              ))}
-            </div>
-          )}
-
-          {guides.length === 0 && (
-            <p className="guides-empty">No guides yet.</p>
-          )}
         </div>
       </section>
 

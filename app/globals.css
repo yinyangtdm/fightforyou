@@ -1642,7 +1642,7 @@ footer {
 
 .guides-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-bottom: 0px;
   margin-top: 8px;
@@ -1678,6 +1678,8 @@ footer {
 }
 
 [data-theme="light"] .guide-card:hover { background: #c4c9d5; }
+[data-theme="light"] .glossary-page-btn:hover,
+[data-theme="light"] .glossary-page-btn--active { background: #c4c9d5; }
 .guide-card:hover::before { height: 100%; }
 
 .guide-card--featured {
@@ -2022,6 +2024,97 @@ footer {
   line-height: 1.85;
   color: var(--nord5);
 }
+
+/* ── GLOSSARY ── */
+.glossary-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0 16px;
+  justify-content: center;
+}
+
+.glossary-page-btn {
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--nord4);
+  text-decoration: none;
+  width: 80px;
+  padding: 10px 0;
+  text-align: center;
+  background: var(--nord2);
+  border: 1px solid var(--border-on-dark);
+  transition: background 0.25s, border-color 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+.glossary-page-btn:hover,
+.glossary-page-btn--active {
+  background: var(--nord3);
+  border-color: var(--nord8);
+  color: var(--nord6);
+}
+
+.glossary-page-btn--active {
+  border-color: var(--accent);
+}
+
+
+.glossary-section {
+  margin-bottom: 48px;
+}
+
+.glossary-letter {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-on-dark);
+}
+
+.glossary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.glossary-entry { display: flex; flex-direction: column; gap: 4px; }
+
+.glossary-term {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--nord6);
+}
+
+.glossary-def {
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nord4);
+  margin: 0;
+}
+
+.glossary-top-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-family: var(--serif);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.glossary-top-link:hover { color: var(--accent-light); }
 
 .guide-body p { margin-bottom: 20px; }
 
@@ -2425,4 +2518,6 @@ footer {
   .guides-header h1,
   .guides-page > h1 { font-size: 30px; }
   .guide-title { font-size: 26px; }
+
+  .glossary-page-btn { width: 56px; font-size: 11px; padding: 8px 0; }
 }
