@@ -19,6 +19,25 @@ function detectCategories(body: string): string[] {
   return ALL_CATEGORY_OPTIONS.filter(opt => lower.includes(opt.toLowerCase()))
 }
 
+function insertMarkdown(
+  textarea: HTMLTextAreaElement,
+  before: string,
+  after = "",
+  placeholder = "text",
+  onUpdate: (val: string) => void
+) {
+  const start = textarea.selectionStart
+  const end = textarea.selectionEnd
+  const selected = textarea.value.slice(start, end) || placeholder
+  const newVal = textarea.value.slice(0, start) + before + selected + after + textarea.value.slice(end)
+  onUpdate(newVal)
+  setTimeout(() => {
+    textarea.focus()
+    const cursor = start + before.length + selected.length + after.length
+    textarea.selectionStart = textarea.selectionEnd = cursor
+  }, 0)
+}
+
 function generateSlug(title: string): string {
   let s = title
     .trim()
@@ -194,25 +213,38 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
             <textarea name="excerpt" value={form.excerpt} onChange={handleChange} rows={2} className="w-full border rounded p-2" placeholder="Short summary shown in listings" maxLength={161} />
           </div>
           <div>
-            <div className="flex items-center justify-between mb-1">
-              <label className="block text-sm font-medium">Body *</label>
-              <div>
-                <input
-                  ref={bodyImageInputRef}
-                  type="file"
-                  accept="image/*"
-                  onChange={handleBodyImageUpload}
-                  className="hidden"
-                />
+            <label className="block text-sm font-medium mb-1">Body *</label>
+            <div className="flex flex-wrap gap-1 mb-1 p-1 border rounded bg-gray-50">
+              {[
+                { label: "B", title: "Bold", before: "**", after: "**", placeholder: "bold text" },
+                { label: "I", title: "Italic", before: "*", after: "*", placeholder: "italic text" },
+                { label: "H2", title: "Heading 2", before: "## ", after: "", placeholder: "Heading" },
+                { label: "H3", title: "Heading 3", before: "### ", after: "", placeholder: "Heading" },
+                { label: "UL", title: "Bullet list", before: "- ", after: "", placeholder: "List item" },
+                { label: "OL", title: "Numbered list", before: "1. ", after: "", placeholder: "List item" },
+                { label: "\"\"", title: "Blockquote", before: "> ", after: "", placeholder: "Quote" },
+                { label: "—", title: "Divider", before: "\n\n---\n\n", after: "", placeholder: "" },
+              ].map(btn => (
                 <button
+                  key={btn.label}
                   type="button"
-                  onClick={() => bodyImageInputRef.current?.click()}
-                  disabled={bodyUploading}
-                  className="text-xs border rounded px-2 py-1 text-gray-600 hover:bg-gray-50 disabled:opacity-50"
+                  title={btn.title}
+                  onClick={() => bodyRef.current && insertMarkdown(bodyRef.current, btn.before, btn.after, btn.placeholder, val => setForm(prev => ({ ...prev, body: val })))}
+                  className="text-xs border rounded px-2 py-1 font-mono font-bold text-gray-700 hover:bg-white hover:shadow-sm"
                 >
-                  {bodyUploading ? "Uploading…" : "Insert Image"}
+                  {btn.label}
                 </button>
-              </div>
+              ))}
+              <div className="w-px bg-gray-300 mx-1" />
+              <input ref={bodyImageInputRef} type="file" accept="image/*" onChange={handleBodyImageUpload} className="hidden" />
+              <button
+                type="button"
+                onClick={() => bodyImageInputRef.current?.click()}
+                disabled={bodyUploading}
+                className="text-xs border rounded px-2 py-1 text-gray-600 hover:bg-white hover:shadow-sm disabled:opacity-50"
+              >
+                {bodyUploading ? "Uploading…" : "🖼 Image"}
+              </button>
             </div>
             <textarea ref={bodyRef} required name="body" value={form.body} onChange={handleChange} rows={16} className="w-full border rounded p-2 font-mono text-sm" />
             {(() => {
