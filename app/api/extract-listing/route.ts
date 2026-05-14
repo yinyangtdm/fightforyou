@@ -34,12 +34,45 @@ type ContactFields = {
   city?: string
   state?: string
   zipCode?: string
+  linkedin?: string
+  facebook?: string
+}
+
+const LINKEDIN_SKIP = /linkedin\.com\/(shareArticle|sharing|feed|jobs|pulse|login|signup|uas)/i
+const FACEBOOK_SKIP = /facebook\.com\/(sharer|share|login|dialog|plugins|tr\?|photo|video|watch|events|groups|marketplace|gaming|ads)/i
+
+function extractSocialLinks(html: string): { linkedin?: string; facebook?: string } {
+  const hrefRe = /href=["']([^"']+)["']/gi
+  let match
+  let linkedin: string | undefined
+  let facebook: string | undefined
+
+  while ((match = hrefRe.exec(html)) !== null) {
+    const href = match[1]
+    if (!linkedin && /linkedin\.com\/(in|company)\//i.test(href) && !LINKEDIN_SKIP.test(href)) {
+      linkedin = href.split("?")[0].replace(/\/$/, "")
+      if (!linkedin.startsWith("http")) linkedin = `https://${linkedin.replace(/^\/\//, "")}`
+    }
+    if (!facebook && /facebook\.com\/(?!sharer|share|login|dialog|plugins|tr\?|photo|video|watch|events|groups|marketplace|gaming|ads)/i.test(href) && !FACEBOOK_SKIP.test(href)) {
+      const clean = href.split("?")[0].replace(/\/$/, "")
+      // must have a path segment that isn't just the domain
+      if (/facebook\.com\/[a-zA-Z0-9._-]{2,}/.test(clean)) {
+        facebook = clean
+        if (!facebook.startsWith("http")) facebook = `https://${facebook.replace(/^\/\//, "")}`
+      }
+    }
+    if (linkedin && facebook) break
+  }
+
+  return { linkedin, facebook }
 }
 
 async function scrapeContactFromWebsite(websiteUrl: string): Promise<ContactFields> {
   const base = websiteUrl.replace(/\/$/, "")
   const pages = [base, `${base}/contact`, `${base}/contact-us`, `${base}/about`]
-  const chunks: string[] = []
+  const textChunks: string[] = []
+  let linkedin: string | undefined
+  let facebook: string | undefined
 
   for (const url of pages) {
     try {
@@ -48,21 +81,30 @@ async function scrapeContactFromWebsite(websiteUrl: string): Promise<ContactFiel
         headers: { "User-Agent": "Mozilla/5.0 (compatible; LegalDirectory/1.0)" },
       })
       if (!res.ok) continue
-      const text = (await res.text())
+      const html = await res.text()
+
+      // Extract social links from raw HTML before stripping tags
+      if (!linkedin || !facebook) {
+        const found = extractSocialLinks(html)
+        if (!linkedin && found.linkedin) linkedin = found.linkedin
+        if (!facebook && found.facebook) facebook = found.facebook
+      }
+
+      const text = html
         .replace(/<script[\s\S]*?<\/script>/gi, "")
         .replace(/<style[\s\S]*?<\/style>/gi, "")
         .replace(/<[^>]+>/g, " ")
         .replace(/\s{2,}/g, " ")
         .trim()
-      chunks.push(text.slice(0, 3000))
+      textChunks.push(text.slice(0, 3000))
     } catch {
       continue
     }
   }
 
-  if (!chunks.length) return {}
+  if (!textChunks.length) return { linkedin, facebook }
 
-  const siteText = chunks.join("\n\n---\n\n").slice(0, 8000)
+  const siteText = textChunks.join("\n\n---\n\n").slice(0, 8000)
 
   try {
     const msg = await client.messages.create({
@@ -87,9 +129,10 @@ ${siteText}`,
 
     const raw = msg.content[0].type === "text" ? msg.content[0].text : ""
     const cleaned = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "").trim()
-    return JSON.parse(cleaned) as ContactFields
+    const contact = JSON.parse(cleaned) as ContactFields
+    return { ...contact, linkedin, facebook }
   } catch {
-    return {}
+    return { linkedin, facebook }
   }
 }
 
@@ -150,6 +193,8 @@ ${body.text}`
         if (scraped.city) parsed.city = scraped.city
         if (scraped.state) parsed.state = scraped.state
         if (scraped.zipCode) parsed.zipCode = scraped.zipCode
+        if (scraped.linkedin) parsed.linkedin = scraped.linkedin
+        if (scraped.facebook) parsed.facebook = scraped.facebook
       }
       return NextResponse.json(parsed)
     } catch {
