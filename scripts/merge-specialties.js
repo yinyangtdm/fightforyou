@@ -73,6 +73,75 @@ const MERGES = {
 
   // Into Wrongful Conviction
   "Exoneration":                  "Wrongful Conviction",
+
+  // Round 2 — consolidate variants from auto-fill
+  // Section 1983 variants → Civil Rights
+  "42 U.S.C. § 1983 Claims":                  "Civil Rights",
+  "42 U.S.C. § 1983 Litigation":              "Civil Rights",
+  "Section 1983 Claims":                       "Civil Rights",
+  "Section 1983 Litigation":                   "Civil Rights",
+  "Section 1983 Civil Rights Claims":          "Civil Rights",
+  "Section 1983 Civil Rights Litigation":      "Civil Rights",
+  "Section 1983 Federal Civil Rights Claims":  "Civil Rights",
+
+  // Civil Rights variants → Civil Rights
+  "Civil Rights Claims":             "Civil Rights",
+  "Civil Rights Litigation":         "Civil Rights",
+  "Civil Rights Violations":         "Civil Rights",
+  "Civil Rights Defense":            "Civil Rights",
+
+  // Constitutional Law variants
+  "Constitutional Rights Violations": "Constitutional Law",
+  "Constitutional Violations":        "Constitutional Law",
+
+  // False Arrest variants
+  "False Arrest and Imprisonment":       "False Arrest",
+  "False Arrest and Unlawful Detention": "False Arrest",
+
+  // Unlawful Detention variants
+  "False Imprisonment":          "Unlawful Detention",
+  "Unconstitutional Detention":  "Unlawful Detention",
+
+  // Wrongful Death / Police Misconduct variants
+  "Wrongful Death Defense":   "Wrongful Death",
+  "Police Misconduct Defense": "Police Misconduct",
+
+  // Monell / Government variants
+  "Governmental Liability":  "Monell Claims",
+  "Municipal Liability":     "Monell Claims",
+  "Government Negligence":   "Government Misconduct",
+
+  // Prison / Custody variants → Prison Reform
+  "In-custody death":               "Death in Custody",
+  "In-custody Death":               "Death in Custody",
+  "Correctional Officer Abuse":     "Prison Reform",
+  "Custodial Abuse":                "Prison Reform",
+  "Jail and Detention Facility Abuse": "Prison Reform",
+  "Jail and Prison Civil Rights":   "Prison Reform",
+  "Pretrial Justice":               "Prison Reform",
+
+  // Medical Neglect variants
+  "Custodial Neglect":         "Medical Neglect",
+  "Institutional Abuse & Neglect": "Medical Neglect",
+
+  // Social / First Amendment variants
+  "First Amendment Rights":    "First Amendment",
+  "First Amendment Violations": "First Amendment",
+  "Racial Discrimination":     "Discrimination",
+
+  // Search and seizure variants
+  "Fourth Amendment Violations": "Unlawful Search and Seizure",
+  "Unlawful Surveillance":       "Unlawful Search and Seizure",
+
+  // Police Brutality variants
+  "Excessive force":            "Police Brutality",
+  "Officer-Involved Shootings": "Police Brutality",
+
+  // Sexual assault variants
+  "Sexual Abuse by Law Enforcement": "Sexual Assault by Law Enforcement",
+
+  // Wrongful Conviction variants
+  "Exoneration Cases": "Wrongful Conviction",
 }
 
 const REMOVE = new Set([
@@ -83,6 +152,7 @@ const REMOVE = new Set([
   "Qualified Immunity",
   "Mental Health Crisis",
   "Appellate Litigation",
+  "Trial Advocacy",
 ])
 
 async function main() {
