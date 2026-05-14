@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import { STATE_NAMES, STATE_ABBRS, toSlug } from "../lib/slugs"
+import { PINNED_GUIDES } from "../guides/_lib"
 
 const ALL_STATES = Object.values(STATE_NAMES)
   .filter((name) => name !== "Washington D.C.")
@@ -140,9 +141,10 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
               <span className="nav-accordion-arrow" aria-hidden>›</span>
             </a>
             <ul className="nav-accordion-list">
-              <li><Link href="/guides/filing-deadlines-by-state">State Filing Deadlines</Link></li>
-              <li><Link href="/guides/qualified-immunity">Qualified Immunity Laws</Link></li>
-              {guides.map(g => (
+              {PINNED_GUIDES.map(g => (
+                <li key={g.slug}><Link href={g.href}>{g.title}</Link></li>
+              ))}
+              {guides.filter(g => !PINNED_GUIDES.some(p => p.slug === g.slug)).map(g => (
                 <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title}</Link></li>
               ))}
               <li><Link href="/guides">All Guides →</Link></li>
@@ -205,9 +207,10 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
       <div className={`mega-menu${openMenu === "rights" ? " open" : ""}`}>
         <div className="mega-menu-heading">Know Your Rights</div>
         <div className="mega-menu-grid">
-          <Link href="/guides/filing-deadlines-by-state">State Filing Deadlines</Link>
-          <Link href="/guides/qualified-immunity">Qualified Immunity Laws</Link>
-          {guides.map(g => (
+          {PINNED_GUIDES.map(g => (
+            <Link key={g.slug} href={g.href}>{g.title}</Link>
+          ))}
+          {guides.filter(g => !PINNED_GUIDES.some(p => p.slug === g.slug)).map(g => (
             <Link key={g.slug} href={`/guides/${g.slug}`}>{g.title}</Link>
           ))}
           <Link href="/guides">All Guides →</Link>
