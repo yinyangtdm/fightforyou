@@ -4,6 +4,20 @@ import { useRouter } from "next/navigation"
 import Link from "next/link"
 import CategoryPicker from "../../../../components/CategoryPicker"
 import { Guide } from "@prisma/client"
+import { specialtyDescriptions } from "../../../../lib/specialty-descriptions"
+import { STATE_NAMES } from "../../../../lib/slugs"
+
+const ALL_CATEGORY_OPTIONS: string[] = [
+  "General",
+  "Other",
+  ...Object.keys(specialtyDescriptions),
+  ...Object.values(STATE_NAMES),
+]
+
+function detectCategories(body: string): string[] {
+  const lower = body.toLowerCase()
+  return ALL_CATEGORY_OPTIONS.filter(opt => lower.includes(opt.toLowerCase()))
+}
 
 function generateSlug(title: string): string {
   let s = title
@@ -201,6 +215,25 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
               </div>
             </div>
             <textarea ref={bodyRef} required name="body" value={form.body} onChange={handleChange} rows={16} className="w-full border rounded p-2 font-mono text-sm" />
+            {(() => {
+              const suggestions = detectCategories(form.body).filter(c => !form.categories.includes(c))
+              if (!suggestions.length) return null
+              return (
+                <div className="mt-2 flex flex-wrap gap-1 items-center">
+                  <span className="text-xs text-gray-400 mr-1">Detected:</span>
+                  {suggestions.map(s => (
+                    <button
+                      key={s}
+                      type="button"
+                      onClick={() => setForm(prev => ({ ...prev, categories: [...prev.categories, s] }))}
+                      className="text-xs border border-blue-300 text-blue-600 rounded px-2 py-0.5 hover:bg-blue-50"
+                    >
+                      + {s}
+                    </button>
+                  ))}
+                </div>
+              )
+            })()}
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Author Name</label>
