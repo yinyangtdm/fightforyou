@@ -176,7 +176,7 @@ export default function NewGuidePage() {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Excerpt</label>
-            <textarea name="excerpt" value={form.excerpt} onChange={handleChange} rows={2} className="w-full border rounded p-2" placeholder="Short summary shown in listings" />
+            <textarea name="excerpt" value={form.excerpt} onChange={handleChange} rows={2} className="w-full border rounded p-2" placeholder="Short summary shown in listings" maxLength={161} />
           </div>
           <div>
             <div className="flex items-center justify-between mb-1">

@@ -53,7 +53,6 @@ export default async function FilingDeadlinesPage() {
             <div className="guide-meta">
               <span>By fightfor.you</span>
               <span className="guide-meta-sep">·</span>
-              <Link href="/guides?category=Legal+Reference" className="guide-author-link">Legal Reference</Link>
             </div>
             <p className="guide-lead">
               In civil rights cases, missing a deadline doesn&apos;t just hurt your case — it permanently ends it.

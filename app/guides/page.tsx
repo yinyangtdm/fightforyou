@@ -25,7 +25,7 @@ async function getData(author?: string, category?: string) {
     prisma.guide.findMany({
       where,
       orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-      select: { id: true, title: true, slug: true, excerpt: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
     }),
     prisma.$queryRaw<{ specialty: string }[]>`
       SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
@@ -33,6 +33,19 @@ async function getData(author?: string, category?: string) {
   ])
   await prisma.$disconnect()
   return { guides, specialties: specialtyRows.map((r) => r.specialty) }
+}
+
+function deriveExcerpt(body: string): string {
+  for (const block of body.split(/\n\n+/)) {
+    const t = block.trim()
+    if (!t || t.startsWith("#") || t.startsWith("- ") || t.startsWith("![")) continue
+    const text = t.replace(/[*_`]/g, "")
+    if (text.length <= 200) return text
+    const cut = text.slice(0, 200)
+    const dot = cut.lastIndexOf(".")
+    return dot > 100 ? cut.slice(0, dot + 1) : cut + "…"
+  }
+  return ""
 }
 
 export default async function GuidesPage({
@@ -80,16 +93,24 @@ export default async function GuidesPage({
         {!isFiltered && (
           <div className="guides-pinned">
             <Link href="/guides/filing-deadlines-by-state" className="guide-pinned-card">
-              <span className="guide-card-category">Legal Reference</span>
               <h2 className="guide-card-title">Filing Deadlines by State</h2>
+              <div className="guide-card-meta">
+                <span className="guide-card-author">fightfor.you</span>
+                <span className="guide-card-meta-sep">·</span>
+                <span className="guide-card-date">May 9, 2026</span>
+              </div>
               <p className="guide-card-excerpt">
                 State-by-state statutes of limitations and notice-of-claim deadlines for civil rights cases. Missing a deadline permanently bars your claim.
               </p>
               <span className="guide-card-read">Look up your state →</span>
             </Link>
             <Link href="/guides/qualified-immunity" className="guide-pinned-card">
-              <span className="guide-card-category">Legal Reference</span>
               <h2 className="guide-card-title">Qualified Immunity by State</h2>
+              <div className="guide-card-meta">
+                <span className="guide-card-author">fightfor.you</span>
+                <span className="guide-card-meta-sep">·</span>
+                <span className="guide-card-date">May 9, 2026</span>
+              </div>
               <p className="guide-card-excerpt">
                 How qualified immunity shields officers from personal liability, which states have reformed or abolished it, and what it means for your case.
               </p>
@@ -105,9 +126,17 @@ export default async function GuidesPage({
                 {g.coverImageUrl && (
                   <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
                 )}
-                <span className="guide-card-category">{g.categories[0] ?? ""}</span>
                 <h2 className="guide-card-title">{g.title}</h2>
-                {g.excerpt && <p className="guide-card-excerpt">{g.excerpt}</p>}
+                <div className="guide-card-meta">
+                  {g.authorName && g.authorSlug && (
+                    <>
+                      <span className="guide-card-author">{g.authorName}</span>
+                      <span className="guide-card-meta-sep">·</span>
+                    </>
+                  )}
+                  <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+                </div>
+                {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
                 <span className="guide-card-read">Read guide →</span>
               </Link>
             ))}
@@ -121,9 +150,17 @@ export default async function GuidesPage({
                 {g.coverImageUrl && (
                   <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
                 )}
-                <span className="guide-card-category">{g.categories[0] ?? ""}</span>
                 <h2 className="guide-card-title">{g.title}</h2>
-                {g.excerpt && <p className="guide-card-excerpt">{g.excerpt}</p>}
+                <div className="guide-card-meta">
+                  {g.authorName && g.authorSlug && (
+                    <>
+                      <span className="guide-card-author">{g.authorName}</span>
+                      <span className="guide-card-meta-sep">·</span>
+                    </>
+                  )}
+                  <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+                </div>
+                {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
                 <span className="guide-card-read">Read guide →</span>
               </Link>
             ))}

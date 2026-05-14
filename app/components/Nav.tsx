@@ -178,7 +178,6 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
               </svg>
             )}
           </button>
-          <a href="#" className="nav-mobile-signin nav-cta">Sign In</a>
         </div>
       </div>
       </nav>
