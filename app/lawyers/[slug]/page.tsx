@@ -255,8 +255,8 @@ export default async function ProfilePage({
             </div>
           )}
 
-          {listing.specialties.length > 0 && (
-            <div className="profile-map-row">
+          <div className="profile-map-row">
+            {listing.specialties.length > 0 && (
               <div className="profile-section profile-section--areas">
                 <h2>Practice Areas</h2>
                 <ul className="profile-list">
@@ -267,15 +267,15 @@ export default async function ProfilePage({
                   ))}
                 </ul>
               </div>
-              {listing.latitude && listing.longitude ? (
-                <div className="profile-map-placeholder">
-                  <ProfileMap latitude={listing.latitude} longitude={listing.longitude} name={listing.name} />
-                </div>
-              ) : (
-                <div className="profile-map-placeholder" />
-              )}
-            </div>
-          )}
+            )}
+            {listing.latitude && listing.longitude ? (
+              <div className="profile-map-placeholder">
+                <ProfileMap latitude={listing.latitude} longitude={listing.longitude} name={listing.name} />
+              </div>
+            ) : (
+              <div className="profile-map-placeholder" />
+            )}
+          </div>
 
           <div className="profile-section profile-contact">
             {listing.streetAddress && (
