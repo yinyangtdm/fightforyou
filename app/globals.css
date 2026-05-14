@@ -1544,6 +1544,37 @@ footer {
   min-height: 400px;
 }
 
+.mapboxgl-popup-content {
+  background: var(--nord1);
+  color: var(--nord4);
+  border: 1px solid var(--border-on-dark);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  padding: 10px 14px;
+}
+
+.mapboxgl-popup-content strong {
+  color: var(--nord6);
+}
+
+.mapboxgl-popup-content a {
+  color: var(--nord8);
+  text-decoration: none;
+}
+
+.mapboxgl-popup-content a:hover {
+  text-decoration: underline;
+}
+
+.mapboxgl-popup-tip {
+  border-top-color: var(--nord1) !important;
+  border-bottom-color: var(--nord1) !important;
+}
+
+.mapboxgl-popup-close-button {
+  color: var(--nord4);
+}
+
 .profile-map-actions {
   display: flex;
   gap: 16px;
