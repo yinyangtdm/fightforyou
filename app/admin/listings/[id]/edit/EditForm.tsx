@@ -342,6 +342,7 @@ export default function EditForm({ listing }: EditFormProps) {
             &larr; Back
           </Link>
           <h1 className="text-2xl font-bold">Edit Listing</h1>
+          <span className="ml-auto text-sm text-gray-400 font-mono">#{listing.id}</span>
         </div>
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
