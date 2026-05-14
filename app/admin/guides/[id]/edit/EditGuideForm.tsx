@@ -71,6 +71,7 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
   const [error, setError] = useState("")
   const [coverUploading, setCoverUploading] = useState(false)
   const [bodyUploading, setBodyUploading] = useState(false)
+  const [coverFileName, setCoverFileName] = useState(guide.coverImageUrl ? "Current image" : "")
   const bodyRef = useRef<HTMLTextAreaElement>(null)
   const coverInputRef = useRef<HTMLInputElement>(null)
   const bodyImageInputRef = useRef<HTMLInputElement>(null)
@@ -102,6 +103,7 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
   async function handleCoverUpload(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0]
     if (!file) return
+    setCoverFileName(file.name)
     setCoverUploading(true)
     try {
       const fd = new FormData()
@@ -188,21 +190,37 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Cover Image</label>
-            <input
-              ref={coverInputRef}
-              type="file"
-              accept="image/*"
-              onChange={handleCoverUpload}
-              className="w-full border rounded p-2"
-            />
-            {coverUploading && <p className="text-sm text-gray-500 mt-1">Uploading…</p>}
+            <div className="flex gap-2">
+              <button
+                type="button"
+                onClick={() => coverInputRef.current?.click()}
+                disabled={coverUploading}
+                className="shrink-0 px-3 py-2 bg-black text-white text-sm rounded hover:bg-gray-800 disabled:opacity-50"
+              >
+                {coverUploading ? "Uploading…" : "Browse"}
+              </button>
+              <input
+                type="text"
+                readOnly
+                value={coverUploading ? "Uploading…" : coverFileName}
+                placeholder="No file chosen"
+                className="flex-1 border rounded p-2 text-sm text-gray-500 bg-gray-50 cursor-default"
+              />
+              <input
+                ref={coverInputRef}
+                type="file"
+                accept="image/*"
+                onChange={handleCoverUpload}
+                className="hidden"
+              />
+            </div>
             {form.coverImageUrl && (
               <div className="mt-2 relative inline-block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={form.coverImageUrl} alt="Cover" className="h-32 rounded border object-cover" />
                 <button
                   type="button"
-                  onClick={() => { setForm(prev => ({ ...prev, coverImageUrl: "" })); if (coverInputRef.current) coverInputRef.current.value = "" }}
+                  onClick={() => { setForm(prev => ({ ...prev, coverImageUrl: "" })); setCoverFileName(""); if (coverInputRef.current) coverInputRef.current.value = "" }}
                   className="absolute top-1 right-1 bg-black text-white rounded-full w-5 h-5 text-xs flex items-center justify-center"
                 >×</button>
               </div>
