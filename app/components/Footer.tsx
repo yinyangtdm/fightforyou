@@ -27,8 +27,8 @@ export default function Footer() {
             <ul>
               <li><Link href="/guides">Know Your Rights</Link></li>
               <li><Link href="/guides/do-i-have-a-case">Do You Have a Case?</Link></li>
-              <li><Link href="/guides/filing-deadlines-by-state">Filing Deadlines by State</Link></li>
-              <li><Link href="/guides/qualified-immunity">Qualified Immunity by State</Link></li>
+              <li><Link href="/guides/filing-deadlines-by-state">State Filing Deadlines</Link></li>
+              <li><Link href="/guides/qualified-immunity">Qualified Immunity Laws</Link></li>
               <li><a href="#">Legal Glossary</a></li>
             </ul>
           </div>

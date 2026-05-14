@@ -140,8 +140,8 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
               <span className="nav-accordion-arrow" aria-hidden>›</span>
             </a>
             <ul className="nav-accordion-list">
-              <li><Link href="/guides/filing-deadlines-by-state">Filing Deadlines by State</Link></li>
-              <li><Link href="/guides/qualified-immunity">Qualified Immunity by State</Link></li>
+              <li><Link href="/guides/filing-deadlines-by-state">State Filing Deadlines</Link></li>
+              <li><Link href="/guides/qualified-immunity">Qualified Immunity Laws</Link></li>
               {guides.map(g => (
                 <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title}</Link></li>
               ))}
@@ -205,8 +205,8 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
       <div className={`mega-menu${openMenu === "rights" ? " open" : ""}`}>
         <div className="mega-menu-heading">Know Your Rights</div>
         <div className="mega-menu-grid">
-          <Link href="/guides/filing-deadlines-by-state">Filing Deadlines by State</Link>
-          <Link href="/guides/qualified-immunity">Qualified Immunity by State</Link>
+          <Link href="/guides/filing-deadlines-by-state">State Filing Deadlines</Link>
+          <Link href="/guides/qualified-immunity">Qualified Immunity Laws</Link>
           {guides.map(g => (
             <Link key={g.slug} href={`/guides/${g.slug}`}>{g.title}</Link>
           ))}
