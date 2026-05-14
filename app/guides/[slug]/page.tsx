@@ -49,7 +49,10 @@ export async function generateMetadata({
 function renderBody(body: string) {
   const sections = body.split(/\n\n+/)
   return sections.map((block, i) => {
-    if (block.startsWith("## ")) {
+    if (block.startsWith("# ") && !block.startsWith("## ")) {
+      return <h2 key={i} className="guide-body-h2">{block.slice(2)}</h2>
+    }
+    if (block.startsWith("## ") && !block.startsWith("### ")) {
       return <h3 key={i} className="guide-body-h3">{block.slice(3)}</h3>
     }
     if (block.startsWith("### ")) {
