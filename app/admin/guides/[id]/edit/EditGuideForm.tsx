@@ -158,7 +158,7 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Slug</label>
-            <input readOnly name="slug" value={form.slug} className="w-full border rounded p-2 bg-gray-50 text-gray-500 cursor-default" />
+            <input name="slug" value={form.slug} onChange={handleChange} className="w-full border rounded p-2 font-mono text-sm" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Categories</label>
