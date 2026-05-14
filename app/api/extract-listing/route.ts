@@ -38,6 +38,9 @@ type ContactFields = {
   facebook?: string
 }
 
+const LINKEDIN_SKIP = /linkedin\.com\/(shareArticle|sharing|feed|jobs|pulse|login|signup|uas)/i
+const FACEBOOK_SKIP =
+  /facebook\.com\/(sharer|share\.php|login|dialog|plugins|tr\b|photo|video|watch|events|groups|marketplace|gaming|ads)/i
 
 function extractSocialLinks(html: string): { linkedin?: string; facebook?: string } {
   const hrefRe = /href=["']([^"']+)["']/gi
@@ -51,7 +54,7 @@ function extractSocialLinks(html: string): { linkedin?: string; facebook?: strin
       linkedin = href.split("?")[0].replace(/\/$/, "")
       if (!linkedin.startsWith("http")) linkedin = `https://${linkedin.replace(/^\/\//, "")}`
     }
-    if (!facebook && /facebook\.com\/(?!sharer|share|login|dialog|plugins|tr\?|photo|video|watch|events|groups|marketplace|gaming|ads)/i.test(href) && !FACEBOOK_SKIP.test(href)) {
+    if (!facebook && /facebook\.com\//i.test(href) && !FACEBOOK_SKIP.test(href)) {
       const clean = href.split("?")[0].replace(/\/$/, "")
       // must have a path segment that isn't just the domain
       if (/facebook\.com\/[a-zA-Z0-9._-]{2,}/.test(clean)) {
