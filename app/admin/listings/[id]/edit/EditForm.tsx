@@ -82,6 +82,20 @@ function parseAddress(input: string): { streetAddress?: string; city?: string; s
   return null
 }
 
+async function geocodeAddress(streetAddress: string, city: string, state: string, zipCode: string): Promise<{ latitude: number; longitude: number } | null> {
+  try {
+    const params = new URLSearchParams({ street: streetAddress, city, state, zip: zipCode, benchmark: "2020", format: "json" })
+    const res = await fetch(`https://geocoding.geo.census.gov/geocoder/locations/address?${params}`)
+    if (!res.ok) return null
+    const json = await res.json() as { result?: { addressMatches?: Array<{ coordinates: { x: number; y: number } }> } }
+    const match = json.result?.addressMatches?.[0]
+    if (!match) return null
+    return { latitude: match.coordinates.y, longitude: match.coordinates.x }
+  } catch {
+    return null
+  }
+}
+
 async function lookupByZip(zip: string): Promise<{ city: string; state: string } | null> {
   try {
     const res = await fetch(`https://api.zippopotam.us/us/${zip}`)
@@ -315,6 +329,17 @@ export default function EditForm({ listing }: EditFormProps) {
     setLoading(true)
     setError("")
     try {
+      const addressChanged =
+        form.streetAddress !== (listing.streetAddress ?? "") ||
+        form.city !== (listing.city ?? "") ||
+        form.state !== (listing.state ?? "") ||
+        form.zipCode !== (listing.zipCode ?? "")
+
+      let coords: { latitude: number; longitude: number } | null = null
+      if (addressChanged && form.streetAddress) {
+        coords = await geocodeAddress(form.streetAddress, form.city, form.state, form.zipCode)
+      }
+
       const res = await fetch(`/api/listings/${listing.id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
@@ -323,6 +348,7 @@ export default function EditForm({ listing }: EditFormProps) {
           specialties: form.specialties.split(",").map(s => s.trim()).filter(Boolean),
           notableResults: form.notableResults.filter(s => s.trim()),
           keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()),
+          ...(coords && { latitude: coords.latitude, longitude: coords.longitude }),
         }),
       })
       if (!res.ok) throw new Error("Failed to update listing")
