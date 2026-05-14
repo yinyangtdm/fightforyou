@@ -21,9 +21,9 @@ const FIELDS_PROMPT = `Return only a JSON object with these exact keys (omit key
 - notableResults (array of strings — case results, verdicts, settlements, especially 7-figure results against police or government)
 - keyCharacteristics (array of strings — each entry should be a full descriptive sentence or phrase, not a short label; include traits, languages, awards, credentials, and distinguishing qualities with context; e.g. "Secured over $50M in settlements against law enforcement" not just "High settlements" — do NOT include bar numbers here)
 - barNumber (string — bar admission number, do NOT include this in keyCharacteristics)
-- website (string — full URL)
-- linkedin (string — full URL)
-- facebook (string — full URL)
+- website (string — full URL including https://)
+- linkedin (string — full LinkedIn profile or company URL; for individuals linkedin.com/in/firstname-lastname, for firms linkedin.com/company/firm-name; search the name if not stated in the bio)
+- facebook (string — full Facebook page URL; typically facebook.com/FirmName or facebook.com/firstname.lastname; search the name if not stated in the bio)
 
 Return only valid JSON, no markdown, no explanation.`
 
@@ -38,7 +38,7 @@ export async function POST(req: Request) {
 
 - name: Full official firm or attorney name
 - tagline: A 3-6 word descriptive nickname-style tagline that captures the essence of the lawyer or firm (e.g. "The National Police Accountability Firm")
-- email: Email address
+- email: Email address — check the firm website contact page, attorney profile pages, and bar association listings. Try searching "[name] [firm] email contact" if not immediately obvious.
 - phone: Phone number
 - description: 3-4 paragraph bio focusing specifically on their history taking on police and government entities — their track record, notable cases, approach, and reputation. Authoritative tone. Separate paragraphs with \\n\\n.
 - streetAddress / city / state / zipCode: Office address
@@ -46,9 +46,9 @@ export async function POST(req: Request) {
 - notableResults: Notable case results — specifically 7-figure settlements and verdicts against police or government entities
 - keyCharacteristics: Key traits, credentials, awards, languages, and distinguishing qualities — each entry should be a full descriptive sentence or phrase, not just a label. For example: "One of fewer than 50 attorneys in the country board-certified in civil rights law" rather than "Board certified". Or "Represented over 300 families in wrongful death cases against law enforcement" rather than "Wrongful death experience". Do NOT include bar number here.
 - barNumber: State bar admission number
-- website: Full website URL
-- linkedin: Full LinkedIn profile URL — search "[name] attorney [firm name] LinkedIn" to find it; LinkedIn attorney URLs typically follow the pattern linkedin.com/in/firstname-lastname or linkedin.com/company/firm-name
-- facebook: Full Facebook page URL — search "[name] attorney [firm name] Facebook" to find it; firm Facebook pages typically follow the pattern facebook.com/firmname
+- website: Full website URL — include https://
+- linkedin: Full LinkedIn profile URL. This is required — do your best to find it. For individual attorneys the URL follows linkedin.com/in/firstname-lastname (e.g. linkedin.com/in/john-doe-attorney). For firms it follows linkedin.com/company/firm-name. To find it: (1) search "[full name] [firm name] LinkedIn attorney", (2) try linkedin.com/in/ variations of their name, (3) check if the firm website lists a LinkedIn link. Only omit if truly not findable after exhausting these approaches.
+- facebook: Full Facebook page URL. This is required — do your best to find it. Firm pages typically follow facebook.com/FirmName or facebook.com/FirmNameLaw. Individual attorneys may use facebook.com/firstname.lastname or facebook.com/attorneyfirstnamelastname. To find it: (1) search "[full name] [firm name] Facebook attorney", (2) try facebook.com/ variations of their name or firm name, (3) check if the firm website or LinkedIn lists a Facebook link. Only omit if truly not findable after exhausting these approaches.
 - isFirm: true if this is a law firm, false if individual attorney
 - isNonprofit: true if nonprofit legal organization
 - isNational: true if they serve clients nationwide
