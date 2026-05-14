@@ -1707,7 +1707,7 @@ footer {
 }
 
 .guide-card--featured .guide-card-title {
-  font-size: 28px;
+  font-size: 22px;
 }
 
 .guide-card-excerpt {
@@ -1741,7 +1741,7 @@ footer {
   font-family: var(--serif);
   font-size: 13px;
   font-weight: 600;
-  color: var(--accent-light);
+  color: var(--accent);
   margin-top: 4px;
   transition: color 0.2s;
 }
