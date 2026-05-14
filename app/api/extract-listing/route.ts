@@ -34,7 +34,24 @@ export async function POST(req: Request) {
     let prompt: string
 
     if (body.name?.trim()) {
-      prompt = `Using your knowledge, research the civil rights attorney or law firm named "${body.name}" and fill out their profile for a legal directory focused on police misconduct and civil rights cases. Focus on their history against police and government entities, notable settlements and verdicts, practice areas, and contact information.
+      prompt = `Using your knowledge, research the civil rights attorney or law firm named "${body.name}" and fill out the following fields for a legal directory focused on police misconduct and civil rights cases:
+
+- name: Full official firm or attorney name
+- tagline: A 3-6 word descriptive nickname-style tagline that captures the essence of the lawyer or firm (e.g. "The National Police Accountability Firm")
+- email: Email address
+- phone: Phone number
+- description: 3-4 paragraph bio focusing specifically on their history taking on police and government entities — their track record, notable cases, approach, and reputation. Authoritative tone. Separate paragraphs with \\n\\n.
+- streetAddress / city / state / zipCode: Office address
+- specialties: Practice areas limited strictly to civil rights, police misconduct, wrongful death, wrongful conviction, excessive force, false arrest, and other police-related fields only
+- notableResults: Notable case results — specifically 7-figure settlements and verdicts against police or government entities
+- keyCharacteristics: Key traits, credentials, awards, languages — do NOT include bar number here
+- barNumber: State bar admission number
+- website: Full website URL
+- linkedin: Full LinkedIn URL
+- facebook: Full Facebook URL
+- isFirm: true if this is a law firm, false if individual attorney
+- isNonprofit: true if nonprofit legal organization
+- isNational: true if they serve clients nationwide
 
 ${FIELDS_PROMPT}`
     } else if (body.text?.trim()) {
