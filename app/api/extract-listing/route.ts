@@ -27,25 +27,70 @@ const FIELDS_PROMPT = `Return only a JSON object with these exact keys (omit key
 
 Return only valid JSON, no markdown, no explanation.`
 
-const PHONE_RE = /(?:\+1[-.\s]?)?\(?\d{3}\)?[-.\s]\d{3}[-.\s]\d{4}/
+type ContactFields = {
+  phone?: string
+  email?: string
+  streetAddress?: string
+  city?: string
+  state?: string
+  zipCode?: string
+}
 
-async function scrapePhone(websiteUrl: string): Promise<string | null> {
+async function scrapeContactFromWebsite(websiteUrl: string): Promise<ContactFields> {
   const base = websiteUrl.replace(/\/$/, "")
-  for (const url of [base, `${base}/contact`, `${base}/contact-us`]) {
+  const pages = [base, `${base}/contact`, `${base}/contact-us`, `${base}/about`]
+  const chunks: string[] = []
+
+  for (const url of pages) {
     try {
       const res = await fetch(url, {
         signal: AbortSignal.timeout(6000),
         headers: { "User-Agent": "Mozilla/5.0 (compatible; LegalDirectory/1.0)" },
       })
       if (!res.ok) continue
-      const text = (await res.text()).replace(/<[^>]+>/g, " ")
-      const m = PHONE_RE.exec(text)
-      if (m) return m[0].trim()
+      const text = (await res.text())
+        .replace(/<script[\s\S]*?<\/script>/gi, "")
+        .replace(/<style[\s\S]*?<\/style>/gi, "")
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s{2,}/g, " ")
+        .trim()
+      chunks.push(text.slice(0, 3000))
     } catch {
       continue
     }
   }
-  return null
+
+  if (!chunks.length) return {}
+
+  const siteText = chunks.join("\n\n---\n\n").slice(0, 8000)
+
+  try {
+    const msg = await client.messages.create({
+      model: "claude-haiku-4-5-20251001",
+      max_tokens: 512,
+      messages: [{
+        role: "user",
+        content: `Extract contact information from the following law firm website text. Return only a JSON object with these keys (omit any you cannot find with confidence):
+- phone (string — main office phone number)
+- email (string — main contact email)
+- streetAddress (string)
+- city (string)
+- state (2-letter US state abbreviation)
+- zipCode (string)
+
+Return only valid JSON, no markdown, no explanation.
+
+Website text:
+${siteText}`,
+      }],
+    })
+
+    const raw = msg.content[0].type === "text" ? msg.content[0].text : ""
+    const cleaned = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "").trim()
+    return JSON.parse(cleaned) as ContactFields
+  } catch {
+    return {}
+  }
 }
 
 export async function POST(req: Request) {
@@ -60,7 +105,7 @@ export async function POST(req: Request) {
 - name: Full official firm or attorney name
 - tagline: A 3-6 word descriptive nickname-style tagline that captures the essence of the lawyer or firm (e.g. "The National Police Accountability Firm")
 - email: Email address — check the firm website contact page, attorney profile pages, and bar association listings. Try searching "[name] [firm] email contact" if not immediately obvious.
-- phone: Phone number. Scrape the firm website and contact pages to find this if not listed in the bio. If you find multiple numbers, prioritize direct lines for attorneys or a general contact number over individual cell phones.
+- phone: Main office phone number
 - description: 3-4 paragraph bio focusing specifically on their history taking on police and government entities — their track record, notable cases, approach, and reputation. Authoritative tone. Separate paragraphs with \\n\\n.
 - streetAddress / city / state / zipCode: Office address
 - specialties: Practice areas limited strictly to civil rights, police misconduct, wrongful death, wrongful conviction, excessive force, false arrest, and other police-related fields only
@@ -97,8 +142,14 @@ ${body.text}`
     try {
       const parsed = JSON.parse(cleaned)
       if (parsed.website) {
-        const scraped = await scrapePhone(parsed.website)
-        if (scraped) parsed.phone = scraped
+        const scraped = await scrapeContactFromWebsite(parsed.website)
+        // Website is the source of truth for contact fields — override Claude's guesses
+        if (scraped.phone) parsed.phone = scraped.phone
+        if (scraped.email) parsed.email = scraped.email
+        if (scraped.streetAddress) parsed.streetAddress = scraped.streetAddress
+        if (scraped.city) parsed.city = scraped.city
+        if (scraped.state) parsed.state = scraped.state
+        if (scraped.zipCode) parsed.zipCode = scraped.zipCode
       }
       return NextResponse.json(parsed)
     } catch {
