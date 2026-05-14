@@ -38,8 +38,6 @@ type ContactFields = {
   facebook?: string
 }
 
-const LINKEDIN_SKIP = /linkedin\.com\/(shareArticle|sharing|feed|jobs|pulse|login|signup|uas)/i
-const FACEBOOK_SKIP = /facebook\.com\/(sharer|share|login|dialog|plugins|tr\?|photo|video|watch|events|groups|marketplace|gaming|ads)/i
 
 function extractSocialLinks(html: string): { linkedin?: string; facebook?: string } {
   const hrefRe = /href=["']([^"']+)["']/gi
