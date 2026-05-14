@@ -2118,6 +2118,15 @@ footer {
 
 .guide-body p { margin-bottom: 20px; }
 
+.guide-body-h2 {
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--nord6);
+  margin: 52px 0 14px;
+  letter-spacing: -0.02em;
+}
+
 .guide-body-h3 {
   font-family: var(--serif);
   font-size: 22px;
