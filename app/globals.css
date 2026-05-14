@@ -1528,7 +1528,7 @@ footer {
 
 .profile-map-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   gap: 32px;
   margin-bottom: 48px;
 }
