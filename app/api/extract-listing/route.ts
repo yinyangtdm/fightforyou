@@ -19,7 +19,7 @@ const FIELDS_PROMPT = `Return only a JSON object with these exact keys (omit key
 - isNational (boolean — true if the lawyer or firm serves clients nationwide rather than a specific state or region)
 - specialties (array of strings — practice area names, limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields)
 - notableResults (array of strings — case results, verdicts, settlements, especially 7-figure results against police or government)
-- keyCharacteristics (array of strings — traits, languages, awards, credentials — do NOT include bar numbers here)
+- keyCharacteristics (array of strings — each entry should be a full descriptive sentence or phrase, not a short label; include traits, languages, awards, credentials, and distinguishing qualities with context; e.g. "Secured over $50M in settlements against law enforcement" not just "High settlements" — do NOT include bar numbers here)
 - barNumber (string — bar admission number, do NOT include this in keyCharacteristics)
 - website (string — full URL)
 - linkedin (string — full URL)
@@ -44,7 +44,7 @@ export async function POST(req: Request) {
 - streetAddress / city / state / zipCode: Office address
 - specialties: Practice areas limited strictly to civil rights, police misconduct, wrongful death, wrongful conviction, excessive force, false arrest, and other police-related fields only
 - notableResults: Notable case results — specifically 7-figure settlements and verdicts against police or government entities
-- keyCharacteristics: Key traits, credentials, awards, languages — do NOT include bar number here
+- keyCharacteristics: Key traits, credentials, awards, languages, and distinguishing qualities — each entry should be a full descriptive sentence or phrase, not just a label. For example: "One of fewer than 50 attorneys in the country board-certified in civil rights law" rather than "Board certified". Or "Represented over 300 families in wrongful death cases against law enforcement" rather than "Wrongful death experience". Do NOT include bar number here.
 - barNumber: State bar admission number
 - website: Full website URL
 - linkedin: Full LinkedIn profile URL — search "[name] attorney [firm name] LinkedIn" to find it; LinkedIn attorney URLs typically follow the pattern linkedin.com/in/firstname-lastname or linkedin.com/company/firm-name
