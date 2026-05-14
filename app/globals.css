@@ -2172,6 +2172,40 @@ footer {
   top: 3px;
 }
 
+.guide-body-list--ol {
+  counter-reset: none;
+}
+
+.guide-body-list--ol li::before {
+  content: counter(list-item) ".";
+  counter-increment: list-item;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.guide-body-hr {
+  border: none;
+  border-top: 1px solid var(--border-on-dark);
+  margin: 40px 0;
+}
+
+.guide-body-blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 24px 0;
+  padding: 12px 20px;
+  background: var(--nord1);
+  border-radius: 0 4px 4px 0;
+}
+
+.guide-body-blockquote p {
+  font-family: var(--serif);
+  font-size: 16px;
+  font-style: italic;
+  color: var(--nord5);
+  line-height: 1.7;
+  margin: 0;
+}
+
 .guide-disclaimer {
   margin-top: 48px;
   padding: 20px 24px;
