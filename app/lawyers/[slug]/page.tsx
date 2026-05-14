@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation"
+import { headers } from "next/headers"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { STATE_NAMES, STATE_SLUGS, toSlug } from "../../lib/slugs"
@@ -54,13 +55,13 @@ export async function generateMetadata({
 
 export default async function ProfilePage({
   params,
-  searchParams,
 }: {
   params: Promise<{ slug: string }>
-  searchParams: Promise<{ from?: string }>
 }) {
   const { slug } = await params
-  const { from } = await searchParams
+  const headersList = await headers()
+  const referer = headersList.get("referer") ?? ""
+  const from = referer ? new URL(referer).pathname : ""
   const data = await getData(slug)
   if (!data) notFound()
 

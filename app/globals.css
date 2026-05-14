@@ -1306,25 +1306,13 @@ footer {
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, var(--nord7) 0 -3px 0 inset;
-  transition: box-shadow 0.15s, transform 0.15s;
+  transition: background 0.2s;
   user-select: none;
   touch-action: manipulation;
-  will-change: box-shadow, transform;
-}
-
-.profile-actions-col .btn-primary:focus {
-  box-shadow: var(--nord7) 0 0 0 1.5px inset, rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, var(--nord7) 0 -3px 0 inset;
 }
 
 .profile-actions-col .btn-primary:hover {
-  box-shadow: rgba(0, 0, 0, 0.4) 0 4px 8px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, var(--nord7) 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
-.profile-actions-col .btn-primary:active {
-  box-shadow: var(--nord10) 0 3px 7px inset;
-  transform: translateY(2px);
+  background: var(--nord7);
 }
 
 .profile-info-identity {
