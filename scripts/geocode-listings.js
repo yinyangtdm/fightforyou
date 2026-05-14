@@ -1,97 +1,69 @@
-"use strict";
+"use strict"
 
-const path = require("path");
-const { PrismaClient } = require("@prisma/client");
-const { PrismaPg } = require("@prisma/adapter-pg");
-require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
+const path = require("path")
+const { PrismaClient } = require("@prisma/client")
+const { PrismaPg } = require("@prisma/adapter-pg")
+require("dotenv").config({ path: path.join(__dirname, "..", ".env") })
 
 const prisma = new PrismaClient({
   adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-});
-
-// Nominatim requires a descriptive User-Agent
-const USER_AGENT = "legal-directory-geocoder/1.0 (yinyangthetwin@gmail.com)";
-
-// Nominatim ToS: max 1 request/second
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+})
 
 async function geocode(listing) {
-  const parts = [
-    listing.streetAddress,
-    listing.city,
-    listing.state,
-    listing.zipCode,
-  ].filter(Boolean);
-
-  if (parts.length === 0) return null;
-
-  const q = encodeURIComponent(parts.join(", ") + ", USA");
-  const url = `https://nominatim.openstreetmap.org/search?q=${q}&format=json&limit=1`;
-
-  const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${listing.name}`);
-
-  const data = await res.json();
-  if (!data.length) return null;
-
-  return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
+  const params = new URLSearchParams({
+    street: listing.streetAddress,
+    city: listing.city || "",
+    state: listing.state || "",
+    zip: listing.zipCode || "",
+    benchmark: "2020",
+    format: "json",
+  })
+  const url = `https://geocoding.geo.census.gov/geocoder/locations/address?${params}`
+  const res = await fetch(url, { signal: AbortSignal.timeout(8000) })
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  const json = await res.json()
+  const matches = json?.result?.addressMatches
+  if (!matches?.length) return null
+  const { x: longitude, y: latitude } = matches[0].coordinates
+  return { latitude, longitude }
 }
 
 async function main() {
   const listings = await prisma.listing.findMany({
-    where: {
-      latitude: null,
-      OR: [
-        { streetAddress: { not: null } },
-        { city: { not: null } },
-        { zipCode: { not: null } },
-      ],
-    },
-    select: {
-      id: true,
-      name: true,
-      streetAddress: true,
-      city: true,
-      state: true,
-      zipCode: true,
-    },
-  });
+    where: { streetAddress: { not: null }, latitude: null },
+    select: { id: true, name: true, streetAddress: true, city: true, state: true, zipCode: true },
+    orderBy: { id: "asc" },
+  })
+  console.log(`Found ${listings.length} listings to geocode\n`)
 
-  console.log(`Found ${listings.length} listings without coordinates.\n`);
-
-  let updated = 0;
-  let failed = 0;
+  let filled = 0
+  let failed = 0
 
   for (const listing of listings) {
+    process.stdout.write(`[#${listing.id}] ${listing.name} — `)
     try {
-      const coords = await geocode(listing);
-      if (coords) {
+      const coords = await geocode(listing)
+      if (!coords) {
+        console.log("no match")
+        failed++
+      } else {
         await prisma.listing.update({
           where: { id: listing.id },
-          data: { latitude: coords.lat, longitude: coords.lng },
-        });
-        console.log(`  ✓ ${listing.name} → ${coords.lat}, ${coords.lng}`);
-        updated++;
-      } else {
-        console.log(`  ✗ ${listing.name} — no result`);
-        failed++;
+          data: { latitude: coords.latitude, longitude: coords.longitude },
+        })
+        console.log(`${coords.latitude}, ${coords.longitude}`)
+        filled++
       }
     } catch (err) {
-      console.error(`  ! ${listing.name} — ${err.message}`);
-      failed++;
+      console.log(`error: ${err.message}`)
+      failed++
     }
-
-    await sleep(1100); // stay under Nominatim's 1 req/s limit
+    // Census geocoder asks for max ~1 req/sec
+    await new Promise(r => setTimeout(r, 1100))
   }
 
-  console.log(`\nDone. ${updated} geocoded, ${failed} failed/skipped.`);
+  await prisma.$disconnect()
+  console.log(`\nDone. ${filled} geocoded, ${failed} failed.`)
 }
 
-main()
-  .catch((err) => {
-    console.error(err);
-    process.exit(1);
-  })
-  .finally(() => prisma.$disconnect());
+main().catch(err => { console.error(err); process.exit(1) })
