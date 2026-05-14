@@ -1544,6 +1544,21 @@ footer {
   min-height: 400px;
 }
 
+.profile-map-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.profile-map-directions-link {
+  font-size: 13px;
+  color: var(--nord8);
+  text-decoration: none;
+}
+
+.profile-map-directions-link:hover {
+  text-decoration: underline;
+}
+
 
 .profile-contact {
   background: var(--nord2);
