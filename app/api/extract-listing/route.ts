@@ -27,6 +27,27 @@ const FIELDS_PROMPT = `Return only a JSON object with these exact keys (omit key
 
 Return only valid JSON, no markdown, no explanation.`
 
+const PHONE_RE = /(?:\+1[-.\s]?)?\(?\d{3}\)?[-.\s]\d{3}[-.\s]\d{4}/
+
+async function scrapePhone(websiteUrl: string): Promise<string | null> {
+  const base = websiteUrl.replace(/\/$/, "")
+  for (const url of [base, `${base}/contact`, `${base}/contact-us`]) {
+    try {
+      const res = await fetch(url, {
+        signal: AbortSignal.timeout(6000),
+        headers: { "User-Agent": "Mozilla/5.0 (compatible; LegalDirectory/1.0)" },
+      })
+      if (!res.ok) continue
+      const text = (await res.text()).replace(/<[^>]+>/g, " ")
+      const m = PHONE_RE.exec(text)
+      if (m) return m[0].trim()
+    } catch {
+      continue
+    }
+  }
+  return null
+}
+
 export async function POST(req: Request) {
   try {
     const body = await req.json() as { text?: string; name?: string }
@@ -74,7 +95,12 @@ ${body.text}`
     const raw = message.content[0].type === "text" ? message.content[0].text : ""
     const cleaned = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "").trim()
     try {
-      return NextResponse.json(JSON.parse(cleaned))
+      const parsed = JSON.parse(cleaned)
+      if (parsed.website) {
+        const scraped = await scrapePhone(parsed.website)
+        if (scraped) parsed.phone = scraped
+      }
+      return NextResponse.json(parsed)
     } catch {
       return NextResponse.json({ error: "Failed to parse response", raw }, { status: 500 })
     }
