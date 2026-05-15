@@ -400,7 +400,7 @@ input, textarea, select { font-size: 16px; }
 
 .about-inner p {
   font-family: var(--sans);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
   color: var(--nord4);
   line-height: 1.9;
@@ -433,7 +433,7 @@ input, textarea, select { font-size: 16px; }
 
 .section-title {
   font-family: var(--serif);
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 700;
   color: var(--nord6);
   letter-spacing: -0.02em;
@@ -1308,25 +1308,25 @@ footer {
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, var(--nord7) 0 -3px 0 inset;
-  transition: box-shadow 0.15s, transform 0.15s;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
+  transition: background 0.15s, box-shadow 0.15s;
   user-select: none;
   touch-action: manipulation;
-  will-change: box-shadow, transform;
 }
 
 .profile-actions-col .btn-primary:focus {
-  box-shadow: var(--nord7) 0 0 0 1.5px inset, rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, var(--nord7) 0 -3px 0 inset;
+  box-shadow: var(--nord7) 0 0 0 1.5px inset, rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
 }
 
 .profile-actions-col .btn-primary:hover {
-  box-shadow: rgba(0, 0, 0, 0.4) 0 4px 8px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, var(--nord7) 0 -3px 0 inset;
-  transform: translateY(-2px);
+  background: var(--nord7);
 }
 
 .profile-actions-col .btn-primary:active {
+  background: var(--nord9);
   box-shadow: var(--nord10) 0 3px 7px inset;
-  transform: translateY(2px);
+  transform: scale(0.97);
+  transition: transform 0.08s, background 0.08s, box-shadow 0.08s;
 }
 
 .profile-info-identity {
@@ -1678,7 +1678,7 @@ footer {
 
 .guides-subheading {
   font-family: var(--sans);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   color: var(--text-muted);
   line-height: 1.75;
@@ -1762,7 +1762,7 @@ footer {
 
 .guide-card-excerpt {
   font-family: var(--sans);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   color: var(--text-muted);
   line-height: 1.7;
@@ -2591,6 +2591,10 @@ footer {
 
   .listing-page { padding: 12px var(--page-px) 16px; }
   .listing-page-header h1 {font-size: 24px;  }
+  .listing-page-header p,
+  .listing-page-subheading { font-size: 16px; }
+  .guides-subheading,
+  .guide-card-excerpt { font-size: 16px; }
   .listing-section-inner { padding: 24px var(--page-px); }
 
   .guide-page { padding: 12px var(--page-px) 56px; }
