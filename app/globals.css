@@ -745,7 +745,7 @@ footer {
 
 .breadcrumb-link {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 16px;
   color: var(--accent);
   text-decoration: none;
   transition: color 0.2s;
@@ -758,7 +758,7 @@ footer {
 
 .breadcrumb-current {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 16px;
   color: var(--nord6);
   font-weight: 500;
   line-height: 1.2;
@@ -2485,7 +2485,7 @@ footer {
   /* Breadcrumb */
   .breadcrumb-link,
   .breadcrumb-current {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   /* Hero */
@@ -2521,8 +2521,9 @@ footer {
   .footer-bottom-links { justify-content: center; }
 
   /* Listings */
-  .breadcrumb-container { padding: 12px var(--page-px) 8px; }
+  .breadcrumb-container { padding: 12px var(--page-px) 12px; }
   .listing-page { padding: 12px var(--page-px) 20px; }
+  .listing-page-header { margin-top: 0; }
   .listing-section-inner { padding: 28px var(--page-px); }
   .listing-page-filter-row { flex-wrap: wrap; }
   .listing-page-header h1 { font-size: 30px; }
@@ -2564,7 +2565,7 @@ footer {
   /* Breadcrumb */
   .breadcrumb-list { gap: 6px; }
   .breadcrumb-link,
-  .breadcrumb-current { font-size: 11px; }
+  .breadcrumb-current { font-size: 12px; }
 
   .hero { padding: 44px var(--page-px) 40px; }
   .hero h1 { font-size: 32px; }
