@@ -139,6 +139,20 @@ export default function EditForm({ listing }: EditFormProps) {
   const [fieldLoading, setFieldLoading] = useState<string | null>(null)
   const [copyConfirm, setCopyConfirm] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const htmlFileInputRef = useRef<HTMLInputElement>(null)
+
+  function handleHtmlFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0]
+    e.target.value = ""
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = (ev) => {
+      const html = ev.target?.result as string
+      const doc = new DOMParser().parseFromString(html, "text/html")
+      setPageText(doc.body.innerText ?? doc.body.textContent ?? "")
+    }
+    reader.readAsText(file)
+  }
 
   const COPY_PROMPT = "Full official firm name. A 3-6 word descriptive nickname-style tagline. Email address. Phone number. 3-4 paragraph description focusing on history against police. Office address. Practice areas limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields. Notable results such as 7 figure settlements and verdicts against police. Key characteristics. Bar number. Website URL, LinkedIn, Facebook."
 
@@ -439,6 +453,14 @@ export default function EditForm({ listing }: EditFormProps) {
                 className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
               >
                 {copyConfirm ? "Copied!" : "Copy prompt"}
+              </button>
+              <input ref={htmlFileInputRef} type="file" accept=".html,text/html" onChange={handleHtmlFileSelect} className="hidden" />
+              <button
+                type="button"
+                onClick={() => htmlFileInputRef.current?.click()}
+                className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
+              >
+                Upload HTML
               </button>
             </div>
           </div>

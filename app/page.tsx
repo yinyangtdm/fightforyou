@@ -69,7 +69,7 @@ export default async function HomePage() {
               <em>Proven in court.</em>
             </h1>
             <p className="hero-sub">
-              These attorneys and firms make it their business to take police and government entities to court. And win.
+              These attorneys and firms make it their business to take law enforcement and their governing bodies to court. And win.
             </p>
           </div>
           <SearchBar states={states} practices={practices} />
