@@ -863,7 +863,7 @@ footer {
 
 .listing-page-header h1 {
   font-family: var(--serif);
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 700;
   color: var(--nord6);
   letter-spacing: -0.02em;
@@ -1668,7 +1668,7 @@ footer {
 .guides-header h1,
 .guides-page > h1 {
   font-family: var(--serif);
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--nord6);
@@ -1678,7 +1678,7 @@ footer {
 
 .guides-subheading {
   font-family: var(--sans);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300;
   color: var(--text-muted);
   line-height: 1.75;
@@ -2023,7 +2023,7 @@ footer {
 
 .guide-title {
   font-family: var(--serif);
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--nord6);
@@ -2469,11 +2469,6 @@ footer {
   }
   .profile-actions-col .btn-primary { flex: 1; min-width: 140px; width: auto; }
   .profile-actions-col .btn-website { flex: 0 0 100%; min-width: unset; }
-
-  /* Guide meta — categories wrap to new line */
-  .guide-meta { flex-wrap: wrap; }
-  .guide-meta-categories { width: 100%; margin-top: 2px; }
-  .guide-meta-categories::before { content: none; }
 }
 
 /* ── TABLET / MOBILE (≤ 768px) ── */
@@ -2545,6 +2540,11 @@ footer {
   .profile-specialties-inline,
   .profile-specialty-item { font-size: 12px; }
 
+  /* Guide meta — categories wrap to new line */
+  .guide-meta { flex-wrap: wrap; }
+  .guide-meta-categories { width: 100%; margin-top: 2px; }
+  .guide-meta-categories::before { content: none; }
+
   /* Guides */
   .guides-page { padding: 40px var(--page-px) 64px; }
   .guides-pinned { grid-template-columns: 1fr; }
@@ -2581,6 +2581,7 @@ footer {
   footer { padding: 40px 0 28px; }
 
   .listing-page { padding: 12px var(--page-px) 16px; }
+  .listing-page-header h1 {font-size: 24px;  }
   .listing-section-inner { padding: 24px var(--page-px); }
 
   .guide-page { padding: 12px var(--page-px) 56px; }
@@ -2612,8 +2613,8 @@ footer {
   .profile-actions-col .btn-primary { flex: unset; width: 100%; }
 
   .guides-header h1,
-  .guides-page > h1 { font-size: 30px; }
-  .guide-title { font-size: 26px; }
+  .guides-page > h1 { font-size: 24px; }
+  .guide-title { font-size: 24px; }
 
-  .glossary-page-btn { width: 56px; font-size: 11px; padding: 8px 0; }
+  .glossary-page-btn { width: 56px; font-size: 12px; padding: 8px 0; }
 }
