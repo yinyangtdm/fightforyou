@@ -53,7 +53,8 @@
   --border-on-light: rgba(46, 52, 64, 0.12);
 }
 
-html, body { overflow-x: hidden; }
+html { overflow-x: clip; }
+body { overflow-x: hidden; }
 input, textarea, select { font-size: 16px; }
 
 /* ── Public page wrapper ── */
@@ -1623,6 +1624,9 @@ footer {
   font-weight: 300;
   color: var(--nord6);
   text-decoration: none;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+  min-width: 0;
 }
 
 .profile-contact-item a:hover { color: var(--accent); }
