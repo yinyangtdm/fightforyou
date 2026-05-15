@@ -2010,9 +2010,16 @@ footer {
   margin-bottom: 12px;
 }
 
+.guide-back-container {
+  width: 100%;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 16px var(--page-px) 16px;
+}
+
 .guide-back {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 16px;
   color: var(--accent);
   text-decoration: none;
   line-height: 1.2;
@@ -2479,7 +2486,8 @@ footer {
 
   /* Breadcrumb */
   .breadcrumb-link,
-  .breadcrumb-current {
+  .breadcrumb-current,
+  .guide-back {
     font-size: 14px;
   }
 
@@ -2565,7 +2573,8 @@ footer {
   /* Breadcrumb */
   .breadcrumb-list { gap: 6px; }
   .breadcrumb-link,
-  .breadcrumb-current { font-size: 12px; }
+  .breadcrumb-current,
+  .guide-back { font-size: 12px; }
 
   .hero { padding: 44px var(--page-px) 40px; }
   .hero h1 { font-size: 32px; }

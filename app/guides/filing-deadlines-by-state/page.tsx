@@ -2,7 +2,6 @@ import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "../../components/Nav"
 import Footer from "../../components/Footer"
-import Breadcrumb from "../../components/Breadcrumb"
 import Link from "next/link"
 import type { Metadata } from "next"
 import StatePicker from "./StatePicker"
@@ -43,8 +42,8 @@ export default async function FilingDeadlinesPage() {
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="breadcrumb-container">
-        <Breadcrumb items={[{ label: "← All guides", href: "/guides" }]} />
+      <div className="guide-back-container">
+        <Link href="/guides" className="guide-back">← All Guides</Link>
       </div>
 
       <div className="guide-page">
