@@ -7,20 +7,41 @@ import { toSlug } from "../lib/slugs"
 export default function SpecialtyList({ specialties }: { specialties: string[] }) {
   const containerRef = useRef<HTMLDivElement>(null)
   const [visibleCount, setVisibleCount] = useState(specialties.length)
+  const lastWidth = useRef(0)
 
   const measure = useCallback(() => {
     const container = containerRef.current
     if (!container) return
 
-    // All items are always in the DOM — query in DOM order
+    const currentWidth = container.getBoundingClientRect().width
+    if (Math.abs(currentWidth - lastWidth.current) < 1 && lastWidth.current !== 0) return
+    lastWidth.current = currentWidth
+
     const items = Array.from(container.querySelectorAll<HTMLElement>("[data-item]"))
     if (!items.length) return
 
-    const containerRight = container.getBoundingClientRect().right - 64
+    // Temporarily show all items for measurement
+    items.forEach(el => { el.style.display = "" })
+    void container.offsetHeight
 
-    let cutoff = specialties.length
+    const rects = items.map(el => el.getBoundingClientRect())
+
+    // Restore inline display (React will reconcile on next render)
+    items.forEach(el => { el.style.display = "" })
+
+    // Collect distinct line tops (4px tolerance for subpixel rendering)
+    const lineTops: number[] = []
+    for (const r of rects) {
+      if (!lineTops.some(t => Math.abs(t - r.top) < 4)) lineTops.push(r.top)
+    }
+    lineTops.sort((a, b) => a - b)
+
+    // Allow 2 lines
+    const maxTop = lineTops.length >= 2 ? lineTops[1] : (lineTops[0] ?? 0)
+
+    let cutoff = items.length
     for (let i = 0; i < items.length; i++) {
-      if (items[i].getBoundingClientRect().right > containerRight) {
+      if (rects[i].top > maxTop + 4) {
         cutoff = i
         break
       }
@@ -30,13 +51,11 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
   }, [specialties])
 
   useLayoutEffect(() => {
+    lastWidth.current = 0
     measure()
 
     const container = containerRef.current
     if (!container) return
-
-    // Toggling opacity/order on hidden items doesn't change container width,
-    // so the observer only fires on genuine layout changes (window resize, etc.)
     const observer = new ResizeObserver(measure)
     observer.observe(container)
     return () => observer.disconnect()
@@ -53,9 +72,7 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
             key={s}
             data-item
             className="profile-specialty-item"
-            style={isHidden
-              ? { order: 3, opacity: 0, pointerEvents: "none" }
-              : { order: 1 }}
+            style={isHidden ? { display: "none" } : undefined}
             aria-hidden={isHidden || undefined}
           >
             {i > 0 && <span className="profile-specialty-sep" aria-hidden>·</span>}
@@ -64,7 +81,7 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
         )
       })}
       {hidden > 0 && (
-        <span className="profile-specialty-more" style={{ order: 2 }}>+{hidden} more</span>
+        <span className="profile-specialty-more">+{hidden} more</span>
       )}
     </div>
   )

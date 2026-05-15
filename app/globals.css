@@ -1370,9 +1370,8 @@ footer {
   flex: 1;
   min-width: 0;
   display: flex;
-  align-items: center;
-  overflow: hidden;
-  white-space: nowrap;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 0;
 }
 
