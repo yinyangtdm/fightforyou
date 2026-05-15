@@ -224,7 +224,7 @@ export async function POST(req: Request) {
 
       prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. The entity is: ${entityLabel}.
 
-Use the website text below as your primary source. Also draw on everything you know about this attorney or firm from your training data to add depth, context, and notable results that may not appear on the website.
+Extract ONLY information explicitly present in the website text below. Do NOT invent, infer, or supplement with anything from your training data. If a field's information is not stated in the source, omit that key entirely.
 
 ${FIELDS_PROMPT}
 
@@ -237,13 +237,13 @@ ${stripped}`
         ? `attorney "${body.name}" at "${body.firm}"`
         : `"${body.name}"`
 
-      prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. Using your training knowledge, research the attorney or law firm ${entityLabel} and fill out all the fields you can.
+      prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. Using your training knowledge, fill in basic factual fields for ${entityLabel} that you are confident about (name, website, phone, address, specialties). Do NOT fabricate notable results, settlements, verdicts, or descriptions — omit notableResults and description entirely unless you have specific verified knowledge of real cases.
 
 ${FIELDS_PROMPT}`
 
     } else if (body.text?.trim()) {
       // Plain text pasted — no name known
-      prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. The user has provided source text about a lawyer or law firm. Extract all structured data from it and fill out the fields below. For address fields, ONLY include values explicitly stated in the source — do NOT guess or infer. Also draw on your training knowledge if you recognize the attorney or firm.
+      prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. The user has provided source text about a lawyer or law firm. Extract ONLY information explicitly present in the source text below — do NOT invent, infer, or add anything from your training data. Omit any key whose value is not stated in the source.
 
 ${FIELDS_PROMPT}
 
