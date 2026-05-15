@@ -20,30 +20,37 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
     const items = Array.from(container.querySelectorAll<HTMLElement>("[data-item]"))
     if (!items.length) return
 
-    // Temporarily show all items for measurement
+    // Show all items for measurement
     items.forEach(el => { el.style.display = "" })
     void container.offsetHeight
 
+    const containerRect = container.getBoundingClientRect()
     const rects = items.map(el => el.getBoundingClientRect())
 
-    // Restore inline display (React will reconcile on next render)
-    items.forEach(el => { el.style.display = "" })
-
-    // Collect distinct line tops (4px tolerance for subpixel rendering)
+    // Collect distinct line tops (4px tolerance for subpixel)
     const lineTops: number[] = []
     for (const r of rects) {
       if (!lineTops.some(t => Math.abs(t - r.top) < 4)) lineTops.push(r.top)
     }
     lineTops.sort((a, b) => a - b)
 
-    // Allow 2 lines
     const maxTop = lineTops.length >= 2 ? lineTops[1] : (lineTops[0] ?? 0)
 
+    // Cut items that fall on line 3+
     let cutoff = items.length
     for (let i = 0; i < items.length; i++) {
       if (rects[i].top > maxTop + 4) {
         cutoff = i
         break
+      }
+    }
+
+    // If there are hidden items, walk back from the cutoff until "+N more"
+    // fits on line 2 (reserve ~80px at the right edge of that line)
+    if (cutoff < items.length) {
+      const MORE_WIDTH = 80
+      while (cutoff > 0 && containerRect.right - rects[cutoff - 1].right < MORE_WIDTH) {
+        cutoff--
       }
     }
 
