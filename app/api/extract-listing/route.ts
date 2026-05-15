@@ -6,24 +6,21 @@ const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 const FIELDS_PROMPT = `Return only a JSON object with these exact keys (omit keys where no information is found):
 - name (string)
 - firm (string)
-- isFirm (boolean — true if the listing is itself a law firm rather than an individual)
-- isNonprofit (boolean)
-- tagline (string — short memorable nickname-like description, ideally 3-5 words, that captures the essence of the lawyer or firm and uniquely distinguishes them from the others in the database; for example, "The Top Personal Injury Lawyer" or "Award-Winning Civil Rights Firm")
+- tagline (string — short memorable nickname-style description, ideally 3–6 words, that captures the essence of the lawyer or firm and uniquely distinguishes them; e.g. "The National Police Accountability Firm" or "Chicago's Relentless Civil Rights Advocate")
 - email (string)
 - phone (string)
-- description (string — full multi-paragraph bio, authoritative tone; separate paragraphs with \\n\\n so the JSON stays valid)
-- streetAddress (string)
-- city (string)
-- state (2-letter US state abbreviation)
-- zipCode (string)
-- isNational (boolean — true if the lawyer or firm serves clients nationwide rather than a specific state or region)
-- specialties (array of strings — practice area names, limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields)
-- notableResults (array of strings — case results, verdicts, settlements, especially 7-figure results against police or government)
-- keyCharacteristics (array of strings — each entry should be a full descriptive sentence or phrase, not a short label; include traits, languages, awards, credentials, and distinguishing qualities with context; e.g. "Secured over $50M in settlements against law enforcement" not just "High settlements" — do NOT include bar numbers here)
-- barNumber (string — bar admission number, do NOT include this in keyCharacteristics)
+- description (string — ORIGINAL 3–5 paragraph bio, authoritative tone, focusing on their history taking on police and government entities — track record, notable cases, approach, reputation. Do NOT copy sentences from source material. Separate paragraphs with \\n\\n so the JSON stays valid.)
+- streetAddress (string — ONLY include if explicitly stated in the source material; do NOT guess or infer)
+- city (string — ONLY include if explicitly stated in the source material; do NOT guess or infer)
+- state (2-letter US state abbreviation — ONLY include if explicitly stated in the source material; do NOT guess or infer)
+- zipCode (string — ONLY include if explicitly stated in the source material; do NOT guess)
+- specialties (array of strings — practice area names STRICTLY limited to civil rights, police misconduct, wrongful death, wrongful conviction, excessive force, false arrest, and other police-related fields only)
+- notableResults (array of strings — case results, verdicts, settlements; especially 7-figure results against police or government; include dollar amounts and context)
+- keyCharacteristics (array of strings — each entry MUST be a full descriptive sentence or phrase, NOT a short label; include traits, languages, awards, credentials, and distinguishing qualities with context; e.g. "Secured over $50M in settlements against law enforcement" not "High settlements" — do NOT include bar number here)
+- barNumber (string — bar admission number; do NOT include in keyCharacteristics)
 - website (string — full URL including https://)
-- linkedin (string — full LinkedIn profile or company URL; for individuals linkedin.com/in/firstname-lastname, for firms linkedin.com/company/firm-name; search the name if not stated in the bio)
-- facebook (string — full Facebook page URL; typically facebook.com/FirmName or facebook.com/firstname.lastname; search the name if not stated in the bio)
+- linkedin (string — find the attorney's personal profile (linkedin.com/in/...) or fall back to the firm's company page (linkedin.com/company/...); use name-based URL patterns and training knowledge to generate your best candidate; the URL will be verified before use so include your best guess — but a URL that comes back 404 is worse than nothing)
+- facebook (string — find the attorney's personal profile or fall back to the firm's page; use name-based URL patterns and training knowledge to generate your best candidate; the URL will be verified before use so include your best guess — but a URL that comes back 404 is worse than nothing)
 
 Return only valid JSON, no markdown, no explanation.`
 
@@ -36,6 +33,73 @@ type ContactFields = {
   zipCode?: string
   linkedin?: string
   facebook?: string
+}
+
+type AddressFields = {
+  streetAddress?: string
+  city?: string
+  state?: string
+  zipCode?: string
+}
+
+function splitAddressString(s: string): AddressFields | null {
+  s = s.trim()
+  // "street, city, ST zip"
+  const a = s.match(/^(.+),\s*(.+),\s*([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
+  if (a) return { streetAddress: a[1].trim(), city: a[2].trim(), state: a[3].toUpperCase(), zipCode: a[4] }
+  // "street, city ST zip" (no comma before state)
+  const b = s.match(/^(.+),\s*(.+?)\s+([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
+  if (b) return { streetAddress: b[1].trim(), city: b[2].trim(), state: b[3].toUpperCase(), zipCode: b[4] }
+  // "street city, ST, zip"
+  const z = s.match(/^(.+)\s+([^,]+),\s*([A-Za-z]{2}),\s*(\d{5}(-\d{4})?)$/)
+  if (z) return { streetAddress: z[1].trim(), city: z[2].trim(), state: z[3].toUpperCase(), zipCode: z[4] }
+  return null
+}
+
+async function lookupByZip(zip: string): Promise<{ city: string; state: string } | null> {
+  try {
+    const res = await fetch(`https://api.zippopotam.us/us/${zip}`, { signal: AbortSignal.timeout(4000) })
+    if (!res.ok) return null
+    const data = await res.json() as { places?: Array<{ "place name": string; "state abbreviation": string }> }
+    const place = data.places?.[0]
+    if (!place) return null
+    return { city: place["place name"], state: place["state abbreviation"] }
+  } catch {
+    return null
+  }
+}
+
+async function normalizeAddress(fields: AddressFields): Promise<AddressFields> {
+  // If streetAddress looks like a full combined string Claude didn't split, parse it now
+  if (fields.streetAddress && !fields.zipCode) {
+    const parsed = splitAddressString(fields.streetAddress)
+    if (parsed) fields = { ...fields, ...parsed }
+  }
+  // Validate and correct city/state from zip — zippopotam.us is authoritative for US zips
+  if (fields.zipCode) {
+    const zip = fields.zipCode.slice(0, 5)
+    if (/^\d{5}$/.test(zip)) {
+      const result = await lookupByZip(zip)
+      if (result) fields = { ...fields, city: result.city, state: result.state }
+    }
+  }
+  return fields
+}
+
+async function verifyUrl(url: string): Promise<boolean> {
+  try {
+    const res = await fetch(url, {
+      method: "GET",
+      signal: AbortSignal.timeout(5000),
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      },
+      redirect: "follow",
+    })
+    return res.status !== 404
+  } catch {
+    return true
+  }
 }
 
 const LINKEDIN_SKIP = /linkedin\.com\/(shareArticle|sharing|feed|jobs|pulse|login|signup|uas)/i
@@ -56,7 +120,6 @@ function extractSocialLinks(html: string): { linkedin?: string; facebook?: strin
     }
     if (!facebook && /facebook\.com\//i.test(href) && !FACEBOOK_SKIP.test(href)) {
       const clean = href.split("?")[0].replace(/\/$/, "")
-      // must have a path segment that isn't just the domain
       if (/facebook\.com\/[a-zA-Z0-9._-]{2,}/.test(clean)) {
         facebook = clean
         if (!facebook.startsWith("http")) facebook = `https://${facebook.replace(/^\/\//, "")}`
@@ -84,7 +147,6 @@ async function scrapeContactFromWebsite(websiteUrl: string): Promise<ContactFiel
       if (!res.ok) continue
       const html = await res.text()
 
-      // Extract social links from raw HTML before stripping tags
       if (!linkedin || !facebook) {
         const found = extractSocialLinks(html)
         if (!linkedin && found.linkedin) linkedin = found.linkedin
@@ -139,38 +201,55 @@ ${siteText}`,
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json() as { text?: string; name?: string }
+    const body = await req.json() as { text?: string; name?: string; firm?: string }
 
     let prompt: string
+    let htmlSocial: { linkedin?: string; facebook?: string } = {}
 
-    if (body.name?.trim()) {
-      prompt = `Using your knowledge, research the civil rights attorney or law firm named "${body.name}" and fill out the following fields for a legal directory focused on police misconduct and civil rights cases:
+    if (body.text?.trim() && (body.name?.trim() || body.firm?.trim())) {
+      // HTML pasted + name/firm already known — primary workflow
+      const entityLabel = body.name && body.firm
+        ? `attorney "${body.name}" at "${body.firm}"`
+        : body.firm ? `law firm "${body.firm}"` : `attorney "${body.name}"`
 
-- name: Full official firm or attorney name
-- tagline: A 3-6 word descriptive nickname-style tagline that captures the essence of the lawyer or firm (e.g. "The National Police Accountability Firm")
-- email: Email address — check the firm website contact page, attorney profile pages, and bar association listings. Try searching "[name] [firm] email contact" if not immediately obvious.
-- phone: Main office phone number
-- description: 3-4 paragraph bio focusing specifically on their history taking on police and government entities — their track record, notable cases, approach, and reputation. Authoritative tone. Separate paragraphs with \\n\\n.
-- streetAddress / city / state / zipCode: Office address
-- specialties: Practice areas limited strictly to civil rights, police misconduct, wrongful death, wrongful conviction, excessive force, false arrest, and other police-related fields only
-- notableResults: Notable case results — specifically 7-figure settlements and verdicts against police or government entities
-- keyCharacteristics: Key traits, credentials, awards, languages, and distinguishing qualities — each entry should be a full descriptive sentence or phrase, not just a label. For example: "One of fewer than 50 attorneys in the country board-certified in civil rights law" rather than "Board certified". Or "Represented over 300 families in wrongful death cases against law enforcement" rather than "Wrongful death experience". Do NOT include bar number here.
-- barNumber: State bar admission number
-- website: Full website URL — include https://
-- linkedin: Full LinkedIn profile URL. This is required — do your best to find it. Search google for Full name plus "LinkedIn". For individual attorneys the URL follows linkedin.com/in/firstname-lastname (e.g. linkedin.com/in/john-doe-attorney). For firms it follows linkedin.com/company/firm-name. To find it: (1) search "[full name] [firm name] LinkedIn attorney", (2) try linkedin.com/in/ variations of their name, (3) check if the firm website lists a LinkedIn link. Only omit if truly not findable after exhausting these approaches.
-- facebook: Full Facebook page URL. This is required — do your best to find it. Search google for Full name plus "Facebook". Firm pages typically follow facebook.com/FirmName or facebook.com/FirmNameLaw. Individual attorneys may use facebook.com/firstname.lastname or facebook.com/attorneyfirstnamelastname. To find it: (1) search "[full name] [firm name] Facebook attorney", (2) try facebook.com/ variations of their name or firm name, (3) check if the firm website or LinkedIn lists a Facebook link. Only omit if truly not findable after exhausting these approaches.
-- isFirm: true if this is a law firm, false if individual attorney
-- isNonprofit: true if nonprofit legal organization
-- isNational: true if they serve clients nationwide
+      const stripped = body.text
+        .replace(/<script[\s\S]*?<\/script>/gi, "")
+        .replace(/<style[\s\S]*?<\/style>/gi, "")
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s{2,}/g, " ")
+        .trim()
+        .slice(0, 10000)
 
-${FIELDS_PROMPT}`
-    } else if (body.text?.trim()) {
-      prompt = `Extract lawyer/firm listing fields from the following bio text.
+      htmlSocial = extractSocialLinks(body.text)
+
+      prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. The entity is: ${entityLabel}.
+
+Use the website text below as your primary source. Also draw on everything you know about this attorney or firm from your training data to add depth, context, and notable results that may not appear on the website.
 
 ${FIELDS_PROMPT}
 
-Bio text:
+Website text:
+${stripped}`
+
+    } else if (body.name?.trim()) {
+      // Name only — look up from training data
+      const entityLabel = body.firm
+        ? `attorney "${body.name}" at "${body.firm}"`
+        : `"${body.name}"`
+
+      prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. Using your training knowledge, research the attorney or law firm ${entityLabel} and fill out all the fields you can.
+
+${FIELDS_PROMPT}`
+
+    } else if (body.text?.trim()) {
+      // Plain text pasted — no name known
+      prompt = `You are building a listing for a civil rights legal directory focused on police misconduct cases. The user has provided source text about a lawyer or law firm. Extract all structured data from it and fill out the fields below. For address fields, ONLY include values explicitly stated in the source — do NOT guess or infer. Also draw on your training knowledge if you recognize the attorney or firm.
+
+${FIELDS_PROMPT}
+
+Source text:
 ${body.text}`
+
     } else {
       return NextResponse.json({ error: "No text or name provided" }, { status: 400 })
     }
@@ -185,9 +264,12 @@ ${body.text}`
     const cleaned = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "").trim()
     try {
       const parsed = JSON.parse(cleaned)
+      // Social links extracted directly from pasted HTML take precedence over Claude's output
+      if (htmlSocial.linkedin) parsed.linkedin = htmlSocial.linkedin
+      if (htmlSocial.facebook) parsed.facebook = htmlSocial.facebook
+      // Scrape contact/social from other pages of the website if a URL was found
       if (parsed.website) {
         const scraped = await scrapeContactFromWebsite(parsed.website)
-        // Website is the source of truth for contact fields — override Claude's guesses
         if (scraped.phone) parsed.phone = scraped.phone
         if (scraped.email) parsed.email = scraped.email
         if (scraped.streetAddress) parsed.streetAddress = scraped.streetAddress
@@ -197,6 +279,19 @@ ${body.text}`
         if (scraped.linkedin) parsed.linkedin = scraped.linkedin
         if (scraped.facebook) parsed.facebook = scraped.facebook
       }
+      const addr = await normalizeAddress({
+        streetAddress: parsed.streetAddress,
+        city: parsed.city,
+        state: parsed.state,
+        zipCode: parsed.zipCode,
+      })
+      parsed.streetAddress = addr.streetAddress
+      parsed.city = addr.city
+      parsed.state = addr.state
+      parsed.zipCode = addr.zipCode
+      // Verify social URLs — discard anything that 404s
+      if (parsed.linkedin && !(await verifyUrl(parsed.linkedin))) delete parsed.linkedin
+      if (parsed.facebook && !(await verifyUrl(parsed.facebook))) delete parsed.facebook
       return NextResponse.json(parsed)
     } catch {
       return NextResponse.json({ error: "Failed to parse response", raw }, { status: 500 })

@@ -184,7 +184,7 @@ input, textarea, select { font-size: 16px; }
 
 .hero h1 {
   font-family: var(--serif);
-  font-size: clamp(31px, 3.6vw, 48px);
+  font-size: clamp(52px, 5vw, 80px);
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.02em;
@@ -1308,7 +1308,7 @@ footer {
   cursor: pointer;
   white-space: nowrap;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, var(--nord7) 0 -3px 0 inset;
   transition: background 0.15s, box-shadow 0.15s;
   user-select: none;
   touch-action: manipulation;
@@ -1370,8 +1370,9 @@ footer {
   flex: 1;
   min-width: 0;
   display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
   gap: 0;
 }
 

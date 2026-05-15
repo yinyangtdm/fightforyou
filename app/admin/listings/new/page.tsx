@@ -116,6 +116,7 @@ export default function NewListingPage() {
   const [addressInput, setAddressInput] = useState("")
   const [pageText, setPageText] = useState("")
   const [autoFillLoading, setAutoFillLoading] = useState(false)
+  const [fieldLoading, setFieldLoading] = useState<string | null>(null)
   const [copyConfirm, setCopyConfirm] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -207,62 +208,128 @@ export default function NewListingPage() {
     }
   }
 
+  type AutoFillData = {
+    name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean; isNational?: boolean
+    tagline?: string; email?: string; phone?: string; description?: string
+    streetAddress?: string; city?: string; state?: string; zipCode?: string
+    specialties?: string[]; notableResults?: string[]; keyCharacteristics?: string[]
+    barNumber?: string; website?: string; linkedin?: string; facebook?: string
+  }
+
+  function applyAutoFillData(data: AutoFillData) {
+    setForm(prev => ({
+      ...prev,
+      ...(data.name !== undefined && !prev.name && { name: data.name, slug: generateSlug(data.name) }),
+      ...(data.firm !== undefined && !prev.firm && { firm: data.firm }),
+      ...(data.tagline !== undefined && !prev.tagline && { tagline: data.tagline }),
+      ...(data.email !== undefined && !prev.email && { email: data.email }),
+      ...(data.phone !== undefined && !prev.phone && { phone: formatPhone(data.phone) }),
+      ...(data.description !== undefined && {
+        description: prev.description
+          ? prev.description + "\n\n" + data.description
+          : data.description,
+      }),
+      ...(data.streetAddress !== undefined && !prev.streetAddress && { streetAddress: data.streetAddress }),
+      ...(data.city !== undefined && !prev.city && { city: data.city }),
+      ...(data.state !== undefined && !prev.state && { state: data.state }),
+      ...(data.zipCode !== undefined && !prev.zipCode && { zipCode: data.zipCode }),
+      ...(data.specialties !== undefined && {
+        specialties: normalizeSpecialties(
+          prev.specialties && data.specialties!.length
+            ? prev.specialties + ", " + data.specialties!.join(", ")
+            : prev.specialties || data.specialties!.join(", "),
+        ),
+      }),
+      ...(data.notableResults !== undefined && {
+        notableResults: (() => {
+          const merged = [...prev.notableResults.filter(s => s.trim()), ...data.notableResults!]
+          return merged.length ? merged : [""]
+        })(),
+      }),
+      ...(data.keyCharacteristics !== undefined && {
+        keyCharacteristics: (() => {
+          const merged = [...prev.keyCharacteristics.filter(s => s.trim()), ...data.keyCharacteristics!]
+          return merged.length ? merged : [""]
+        })(),
+      }),
+      ...(data.barNumber !== undefined && !prev.barNumber && { barNumber: data.barNumber }),
+      ...(data.website !== undefined && !prev.website && { website: data.website }),
+      ...(data.linkedin !== undefined && !prev.linkedin && { linkedin: data.linkedin }),
+      ...(data.facebook !== undefined && !prev.facebook && { facebook: data.facebook }),
+    }))
+  }
+
+  async function handleFieldLookup(field: string) {
+    if (!form.name.trim() && !form.firm.trim()) return
+    setFieldLoading(field)
+    try {
+      const res = await fetch("/api/lookup-field", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ field, name: form.name, firm: form.firm, website: form.website }),
+      })
+      if (!res.ok) throw new Error("Lookup failed")
+      const data = await res.json() as { value?: unknown; error?: string }
+      if (data.error) throw new Error(data.error)
+      if (data.value === null || data.value === undefined) return
+      if (field === "specialties" && Array.isArray(data.value)) {
+        setForm(prev => ({
+          ...prev,
+          specialties: normalizeSpecialties(
+            prev.specialties && (data.value as string[]).length
+              ? prev.specialties + ", " + (data.value as string[]).join(", ")
+              : prev.specialties || (data.value as string[]).join(", "),
+          ),
+        }))
+      } else if (field === "notableResults" && Array.isArray(data.value)) {
+        setForm(prev => ({
+          ...prev,
+          notableResults: (() => {
+            const merged = [...prev.notableResults.filter(s => s.trim()), ...(data.value as string[])]
+            return merged.length ? merged : [""]
+          })(),
+        }))
+      } else if (field === "keyCharacteristics" && Array.isArray(data.value)) {
+        setForm(prev => ({
+          ...prev,
+          keyCharacteristics: (() => {
+            const merged = [...prev.keyCharacteristics.filter(s => s.trim()), ...(data.value as string[])]
+            return merged.length ? merged : [""]
+          })(),
+        }))
+      } else if (field === "description" && typeof data.value === "string") {
+        setForm(prev => ({
+          ...prev,
+          description: prev.description ? prev.description + "\n\n" + (data.value as string) : (data.value as string),
+        }))
+      } else if (field === "address" && typeof data.value === "object" && data.value !== null) {
+        setForm(prev => ({ ...prev, ...(data.value as Record<string, string>) }))
+      } else if (field === "phone" && typeof data.value === "string") {
+        setForm(prev => ({ ...prev, phone: formatPhone(data.value as string) }))
+      } else if (typeof data.value === "string") {
+        setForm(prev => ({ ...prev, [field]: data.value as string }))
+      }
+    } catch (err) {
+      setError((err as Error).message)
+    } finally {
+      setFieldLoading(null)
+    }
+  }
+
   async function handleAutoFill() {
-    if (!pageText.trim()) return
+    const usingText = !!pageText.trim()
+    const usingName = !!form.name.trim()
+    if (!usingText && !usingName) return
     setAutoFillLoading(true)
     try {
+      const body = usingText ? { text: pageText, name: form.name, firm: form.firm } : { name: form.name }
       const res = await fetch("/api/extract-listing", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: pageText }),
+        body: JSON.stringify(body),
       })
       if (!res.ok) throw new Error("Auto-fill request failed")
-      const data = await res.json() as {
-        name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean; isNational?: boolean
-        tagline?: string; email?: string; phone?: string; description?: string
-        streetAddress?: string; city?: string; state?: string; zipCode?: string
-        specialties?: string[]; notableResults?: string[]; keyCharacteristics?: string[]
-        barNumber?: string; website?: string; linkedin?: string; facebook?: string
-      }
-      setForm(prev => ({
-        ...prev,
-        ...(data.name !== undefined && { name: data.name, slug: generateSlug(data.name) }),
-        ...(data.firm !== undefined && { firm: data.firm }),
-        ...(data.isFirm !== undefined && { isFirm: data.isFirm }),
-        ...(data.isNonprofit !== undefined && { isNonprofit: data.isNonprofit }),
-        ...(data.isNational !== undefined && { isNational: data.isNational }),
-        ...(data.tagline !== undefined && { tagline: data.tagline }),
-        ...(data.email !== undefined && { email: data.email }),
-        ...(data.phone !== undefined && { phone: formatPhone(data.phone) }),
-        ...(data.description !== undefined && { description: data.description }),
-        ...(data.streetAddress !== undefined && { streetAddress: data.streetAddress }),
-        ...(data.city !== undefined && { city: data.city }),
-        ...(data.state !== undefined && { state: data.state }),
-        ...(data.zipCode !== undefined && { zipCode: data.zipCode }),
-        ...(data.specialties !== undefined && {
-          specialties: normalizeSpecialties(
-            prev.specialties && data.specialties.length
-              ? prev.specialties + ", " + data.specialties.join(", ")
-              : prev.specialties || data.specialties.join(", "),
-          ),
-        }),
-        ...(data.notableResults !== undefined && {
-          notableResults: (() => {
-            const merged = [...prev.notableResults.filter(s => s.trim()), ...data.notableResults]
-            return merged.length ? merged : [""]
-          })(),
-        }),
-        ...(data.keyCharacteristics !== undefined && {
-          keyCharacteristics: (() => {
-            const merged = [...prev.keyCharacteristics.filter(s => s.trim()), ...data.keyCharacteristics]
-            return merged.length ? merged : [""]
-          })(),
-        }),
-        ...(data.barNumber !== undefined && { barNumber: data.barNumber }),
-        ...(data.website !== undefined && { website: data.website }),
-        ...(data.linkedin !== undefined && { linkedin: data.linkedin }),
-        ...(data.facebook !== undefined && { facebook: data.facebook }),
-      }))
+      applyAutoFillData(await res.json() as AutoFillData)
     } catch (err) {
       setError((err as Error).message)
     } finally {
@@ -316,14 +383,14 @@ export default function NewListingPage() {
               value={pageText}
               onChange={e => setPageText(e.target.value)}
               rows={4}
-              placeholder="Paste lawyer bio page text here to auto-fill..."
+              placeholder="Paste bio text here to auto-fill — or leave blank and fill the Name field below to look up the attorney automatically."
               className="w-full border rounded p-2 text-sm"
             />
             <div className="mt-1 flex gap-2">
               <button
                 type="button"
                 onClick={() => void handleAutoFill()}
-                disabled={autoFillLoading || !pageText.trim()}
+                disabled={autoFillLoading || (!pageText.trim() && !form.name.trim())}
                 className="px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50"
               >
                 {autoFillLoading ? "Filling..." : "Auto-fill"}
@@ -363,46 +430,58 @@ export default function NewListingPage() {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Tagline</label>
-            <input name="tagline" value={form.tagline} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. The National Catalyst" />
+            <div className="flex gap-2">
+              <input name="tagline" value={form.tagline} onChange={handleChange} className="flex-1 border rounded p-2" placeholder="e.g. The National Catalyst" />
+              <button type="button" onClick={() => void handleFieldLookup("tagline")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "tagline" ? "…" : "Find"}</button>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Email</label>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              onBlur={() => {
-                if (form.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-                  setEmailError("Please enter a valid email address.")
-                } else {
-                  setEmailError("")
-                }
-              }}
-              className={`w-full border rounded p-2 ${emailError ? "border-red-500" : ""}`}
-            />
+            <div className="flex gap-2">
+              <input
+                type="email"
+                name="email"
+                value={form.email}
+                onChange={handleChange}
+                onBlur={() => {
+                  if (form.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+                    setEmailError("Please enter a valid email address.")
+                  } else {
+                    setEmailError("")
+                  }
+                }}
+                className={`flex-1 border rounded p-2 ${emailError ? "border-red-500" : ""}`}
+              />
+              <button type="button" onClick={() => void handleFieldLookup("email")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "email" ? "…" : "Find"}</button>
+            </div>
             {emailError && <p className="text-red-500 text-sm mt-1">{emailError}</p>}
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Phone</label>
-            <input
-              name="phone"
-              value={form.phone}
-              onChange={handleChange}
-              onBlur={() => {
-                const digits = form.phone.replace(/\D/g, "")
-                if (digits && digits.length < 10) {
-                  setPhoneError("Please enter a complete 10-digit phone number.")
-                } else {
-                  setPhoneError("")
-                }
-              }}
-              className={`w-full border rounded p-2 ${phoneError ? "border-red-500" : ""}`}
-            />
+            <div className="flex gap-2">
+              <input
+                name="phone"
+                value={form.phone}
+                onChange={handleChange}
+                onBlur={() => {
+                  const digits = form.phone.replace(/\D/g, "")
+                  if (digits && digits.length < 10) {
+                    setPhoneError("Please enter a complete 10-digit phone number.")
+                  } else {
+                    setPhoneError("")
+                  }
+                }}
+                className={`flex-1 border rounded p-2 ${phoneError ? "border-red-500" : ""}`}
+              />
+              <button type="button" onClick={() => void handleFieldLookup("phone")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "phone" ? "…" : "Find"}</button>
+            </div>
             {phoneError && <p className="text-red-500 text-sm mt-1">{phoneError}</p>}
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Description</label>
+            <div className="flex items-center gap-2 mb-1">
+              <label className="text-sm font-medium">Description</label>
+              <button type="button" onClick={() => void handleFieldLookup("description")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-gray-500 hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "description" ? "…" : "Find"}</button>
+            </div>
             <textarea name="description" value={form.description} onChange={handleChange} rows={10} className="w-full border rounded p-2 whitespace-pre-wrap" />
           </div>
           <div>
@@ -447,13 +526,8 @@ export default function NewListingPage() {
   placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
   className="flex-1 border rounded p-2"
 />
-              <button
-                type="button"
-                onClick={() => void handleParseAddress()}
-                className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
-              >
-                Parse
-              </button>
+              <button type="button" onClick={() => void handleParseAddress()} className="px-4 py-2 border rounded text-sm hover:bg-gray-50">Parse</button>
+              <button type="button" onClick={() => void handleFieldLookup("address")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "address" ? "…" : "Find"}</button>
             </div>
           </div>
           <div>
@@ -496,10 +570,16 @@ export default function NewListingPage() {
           </label>
           <div>
             <label className="block text-sm font-medium mb-1">Specialties</label>
-            <input name="specialties" value={form.specialties} onChange={handleChange} onBlur={(e) => setForm(prev => ({ ...prev, specialties: normalizeSpecialties(e.target.value) }))} className="w-full border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
+            <div className="flex gap-2">
+              <input name="specialties" value={form.specialties} onChange={handleChange} onBlur={(e) => setForm(prev => ({ ...prev, specialties: normalizeSpecialties(e.target.value) }))} className="flex-1 border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
+              <button type="button" onClick={() => void handleFieldLookup("specialties")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "specialties" ? "…" : "Find"}</button>
+            </div>
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Notable Results</label>
+            <div className="flex items-center gap-2 mb-1">
+              <label className="text-sm font-medium">Notable Results</label>
+              <button type="button" onClick={() => void handleFieldLookup("notableResults")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-gray-500 hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "notableResults" ? "…" : "Find"}</button>
+            </div>
             <div className="space-y-2">
               {form.notableResults.map((item, i) => (
                 <div key={i} className="flex gap-2">
@@ -542,7 +622,10 @@ export default function NewListingPage() {
             </div>
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Key Characteristics</label>
+            <div className="flex items-center gap-2 mb-1">
+              <label className="text-sm font-medium">Key Characteristics</label>
+              <button type="button" onClick={() => void handleFieldLookup("keyCharacteristics")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-gray-500 hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "keyCharacteristics" ? "…" : "Find"}</button>
+            </div>
             <div className="space-y-2">
               {form.keyCharacteristics.map((item, i) => (
                 <div key={i} className="flex gap-2">
@@ -596,75 +679,87 @@ export default function NewListingPage() {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Bar Number</label>
-            <input name="barNumber" value={form.barNumber} onChange={handleChange} className="w-full border rounded p-2" />
+            <div className="flex gap-2">
+              <input name="barNumber" value={form.barNumber} onChange={handleChange} className="flex-1 border rounded p-2" />
+              <button type="button" onClick={() => void handleFieldLookup("barNumber")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "barNumber" ? "…" : "Find"}</button>
+            </div>
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Website URL</label>
-            <input
-              name="website"
-              value={form.website}
-              onChange={handleChange}
-              onBlur={() => {
-                if (!form.website) { setWebsiteError(""); return }
-                const formatted = /^https?:\/\//i.test(form.website)
-                  ? form.website
-                  : "https://" + form.website
-                setForm(prev => ({ ...prev, website: formatted }))
-                try { new URL(formatted); setWebsiteError("") }
-                catch { setWebsiteError("Please enter a valid website URL.") }
-              }}
-              className={`w-full border rounded p-2 ${websiteError ? "border-red-500" : ""}`}
-            />
+            <div className="flex gap-2">
+              <input
+                name="website"
+                value={form.website}
+                onChange={handleChange}
+                onBlur={() => {
+                  if (!form.website) { setWebsiteError(""); return }
+                  const formatted = /^https?:\/\//i.test(form.website)
+                    ? form.website
+                    : "https://" + form.website
+                  setForm(prev => ({ ...prev, website: formatted }))
+                  try { new URL(formatted); setWebsiteError("") }
+                  catch { setWebsiteError("Please enter a valid website URL.") }
+                }}
+                className={`flex-1 border rounded p-2 ${websiteError ? "border-red-500" : ""}`}
+              />
+              <button type="button" onClick={() => void handleFieldLookup("website")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "website" ? "…" : "Find"}</button>
+            </div>
             {websiteError && <p className="text-red-500 text-sm mt-1">{websiteError}</p>}
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">LinkedIn</label>
-            <input
-              name="linkedin"
-              value={form.linkedin}
-              onChange={handleChange}
-              onBlur={() => {
-                if (!form.linkedin) { setLinkedinError(""); return }
-                const formatted = /^https?:\/\//i.test(form.linkedin) ? form.linkedin : "https://" + form.linkedin
-                setForm(prev => ({ ...prev, linkedin: formatted }))
-                try {
-                  const url = new URL(formatted)
-                  if (!url.hostname.replace(/^www\./, "").startsWith("linkedin.com")) {
+            <div className="flex gap-2">
+              <input
+                name="linkedin"
+                value={form.linkedin}
+                onChange={handleChange}
+                onBlur={() => {
+                  if (!form.linkedin) { setLinkedinError(""); return }
+                  const formatted = /^https?:\/\//i.test(form.linkedin) ? form.linkedin : "https://" + form.linkedin
+                  setForm(prev => ({ ...prev, linkedin: formatted }))
+                  try {
+                    const url = new URL(formatted)
+                    if (!url.hostname.replace(/^www\./, "").startsWith("linkedin.com")) {
+                      setLinkedinError("Please enter a valid LinkedIn URL.")
+                    } else {
+                      setLinkedinError("")
+                    }
+                  } catch {
                     setLinkedinError("Please enter a valid LinkedIn URL.")
-                  } else {
-                    setLinkedinError("")
                   }
-                } catch {
-                  setLinkedinError("Please enter a valid LinkedIn URL.")
-                }
-              }}
-              className={`w-full border rounded p-2 ${linkedinError ? "border-red-500" : ""}`}
-            />
+                }}
+                className={`flex-1 border rounded p-2 ${linkedinError ? "border-red-500" : ""}`}
+              />
+              <button type="button" onClick={() => void handleFieldLookup("linkedin")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "linkedin" ? "…" : "Find"}</button>
+            </div>
             {linkedinError && <p className="text-red-500 text-sm mt-1">{linkedinError}</p>}
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Facebook</label>
-            <input
-              name="facebook"
-              value={form.facebook}
-              onChange={handleChange}
-              onBlur={() => {
-                if (!form.facebook) { setFacebookError(""); return }
-                const formatted = /^https?:\/\//i.test(form.facebook) ? form.facebook : "https://" + form.facebook
-                setForm(prev => ({ ...prev, facebook: formatted }))
-                try {
-                  const url = new URL(formatted)
-                  if (!url.hostname.replace(/^www\./, "").startsWith("facebook.com")) {
+            <div className="flex gap-2">
+              <input
+                name="facebook"
+                value={form.facebook}
+                onChange={handleChange}
+                onBlur={() => {
+                  if (!form.facebook) { setFacebookError(""); return }
+                  const formatted = /^https?:\/\//i.test(form.facebook) ? form.facebook : "https://" + form.facebook
+                  setForm(prev => ({ ...prev, facebook: formatted }))
+                  try {
+                    const url = new URL(formatted)
+                    if (!url.hostname.replace(/^www\./, "").startsWith("facebook.com")) {
+                      setFacebookError("Please enter a valid Facebook URL.")
+                    } else {
+                      setFacebookError("")
+                    }
+                  } catch {
                     setFacebookError("Please enter a valid Facebook URL.")
-                  } else {
-                    setFacebookError("")
                   }
-                } catch {
-                  setFacebookError("Please enter a valid Facebook URL.")
-                }
-              }}
-              className={`w-full border rounded p-2 ${facebookError ? "border-red-500" : ""}`}
-            />
+                }}
+                className={`flex-1 border rounded p-2 ${facebookError ? "border-red-500" : ""}`}
+              />
+              <button type="button" onClick={() => void handleFieldLookup("facebook")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "facebook" ? "…" : "Find"}</button>
+            </div>
             {facebookError && <p className="text-red-500 text-sm mt-1">{facebookError}</p>}
           </div>
           <label className="flex items-center gap-2">
