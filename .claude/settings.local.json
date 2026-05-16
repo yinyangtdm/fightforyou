@@ -26,7 +26,8 @@
       "Bash(grep -r \"specialties\\\\|practice\\\\|categor\" \"c:\\\\Users\\\\yinya\\\\legal-directory\\\\scripts\" 2>nul | head -30)",
       "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\yinya\\\\legal-directory\\\\app\\\\components\\\\\" -ErrorAction SilentlyContinue | Select-Object Name, PSIsContainer)",
       "Bash(git restore *)",
-      "Bash(xargs sed -i \"s/take: 8/take: 50/g\")"
+      "Bash(xargs sed -i \"s/take: 8/take: 50/g\")",
+      "Bash(npm add *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\yinya\\legal-directory"
