@@ -697,7 +697,7 @@ img, video { max-width: 100%; height: auto; }
 .mega-menu-grid a {
   font-family: var(--serif);
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--nord5);
   text-decoration: none;
   padding: 7px 8px;
@@ -2516,7 +2516,7 @@ footer {
   .nav-accordion-arrow { display: none; }
   .nav-accordion-list { display: none; }
 
-  .nav-trigger-active { color: var(--accent); }
+  .nav-links a.nav-trigger-active { color: var(--accent); }
 }
 
 /* ── NAV HAMBURGER (≤ 1024px) ── */
