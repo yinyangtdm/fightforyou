@@ -252,7 +252,7 @@ img, video { max-width: 100%; height: auto; }
 
 [data-theme="light"] .theme-toggle { color: var(--text-primary); }
 [data-theme="light"] .theme-toggle:hover {
-  background: var(--nord0);
+  background: #d8dee9;
 }
 
 .nav-links {
