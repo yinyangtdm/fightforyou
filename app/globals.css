@@ -36,8 +36,8 @@
   --border-on-light: var(--border-strong);
 
   /* ── Typography ── */
-  --serif: var(--font-raleway), sans-serif;
-  --sans:  var(--font-merriweather), Georgia, serif;
+  --sans: var(--font-raleway), sans-serif;
+  --serif:  var(--font-merriweather), Georgia, serif;
 
   /* Type scale */
   --fs-xs:   11px;
@@ -130,7 +130,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body { overflow-x: hidden; font-family: var(--sans); }
+body { overflow-x: hidden; font-family: var(--serif); }
 
 /* Prevent iOS font scaling on inputs */
 input, textarea, select { font-size: 16px; }
@@ -175,7 +175,7 @@ img, video { max-width: 100%; height: auto; }
 
 /* ── Public page wrapper ── */
 .public {
-  font-family: var(--sans);
+  font-family: var(--serif);
   background: var(--nord0);
   color: var(--nord6);
   line-height: 1.6;
@@ -207,7 +207,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .nav-logo {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 700;
   color: var(--nord6);
@@ -264,7 +264,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .nav-links a {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -281,7 +281,7 @@ img, video { max-width: 100%; height: auto; }
   color: var(--nord0);
   padding: 11px 28px;
   border-radius: var(--radius-sm);
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: var(--fs-base);
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -309,7 +309,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .hero h1 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: clamp(52px, 5vw, 80px);
   font-weight: 700;
   line-height: 1.02;
@@ -324,7 +324,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .hero-sub {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 22px;
   font-weight: 300;
   color: var(--nord4);
@@ -352,7 +352,7 @@ img, video { max-width: 100%; height: auto; }
   padding: 20px 20px 20px 52px;
   border: none;
   border-right: 1px solid var(--border-on-dark);
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 16px;
   font-weight: 400;
   color: var(--nord6);
@@ -418,7 +418,7 @@ img, video { max-width: 100%; height: auto; }
   color: var(--nord0);
   border: none;
   padding: 20px 36px;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -476,7 +476,7 @@ img, video { max-width: 100%; height: auto; }
 .stat-item:last-child { border-right: none; }
 
 .stat-num {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 52px;
   font-weight: 700;
   color: var(--nord6);
@@ -487,7 +487,7 @@ img, video { max-width: 100%; height: auto; }
 .stat-num span { color: var(--nord8); font-size: 36px; }
 
 .stat-label {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 12px;
   font-weight: 400;
   color: var(--nord4);
@@ -510,7 +510,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .about-inner h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 36px;
   font-weight: 700;
   color: var(--nord6);
@@ -525,7 +525,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .about-inner p {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   font-weight: 300;
   color: var(--nord4);
@@ -558,7 +558,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .section-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 36px;
   font-weight: 700;
   color: var(--nord6);
@@ -616,7 +616,7 @@ img, video { max-width: 100%; height: auto; }
 .rights-card:hover::before { height: 100%; }
 
 .rights-card h3 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 600;
   color: var(--nord6);
@@ -626,7 +626,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .rights-card p {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 12px;
   font-weight: 300;
   color: var(--nord4);
@@ -679,7 +679,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .mega-menu-heading {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -695,7 +695,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 .mega-menu-grid a {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 13px;
   font-weight: 600;
   color: var(--nord5);
@@ -788,7 +788,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 24px;
   font-weight: 700;
   color: var(--nord6);
@@ -801,7 +801,7 @@ footer {
 .footer-logo span { color: var(--accent); }
 
 .footer-brand p {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 12px;
   font-weight: 300;
   color: var(--nord4);
@@ -817,7 +817,7 @@ footer {
   color: var(--nord5);
   margin-bottom: 18px;
   opacity: 0.5;
-  font-family: var(--serif);
+  font-family: var(--sans);
 }
 
 .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
@@ -829,7 +829,7 @@ footer {
   font-weight: 300;
   transition: color 0.18s;
   display: block;
-  font-family: var(--sans);
+  font-family: var(--serif);
 }
 
 .footer-col a:hover { color: var(--nord8); }
@@ -846,7 +846,7 @@ footer {
   color: var(--nord4);
   font-weight: 300;
   opacity: 0.7;
-  font-family: var(--sans);
+  font-family: var(--serif);
 }
 
 .footer-bottom-links { display: flex; gap: 24px; }
@@ -896,7 +896,7 @@ footer {
 }
 
 .breadcrumb-link {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   color: var(--accent);
   text-decoration: none;
@@ -909,7 +909,7 @@ footer {
 }
 
 .breadcrumb-current {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   color: var(--nord6);
   font-weight: 500;
@@ -957,7 +957,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 15px;
   padding: 12px 16px;
   border: 1px solid var(--border-on-dark);
@@ -999,7 +999,7 @@ footer {
 
 .filter-dropdown-option {
   padding: 10px 14px;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   color: var(--nord6);
   cursor: pointer;
@@ -1010,7 +1010,7 @@ footer {
 
 
 .listing-header h1 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 36px;
   font-weight: 700;
   color: var(--nord6);
@@ -1022,7 +1022,7 @@ footer {
 
 .listing-header p,
 .listing-subheading {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 18px;
   font-weight: 300;
   color: var(--text-muted);
@@ -1033,7 +1033,7 @@ footer {
 }
 
 .listing-count {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -1049,7 +1049,7 @@ footer {
 }
 
 .filing-deadlines-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 700;
   color: var(--nord6);
@@ -1057,7 +1057,7 @@ footer {
 }
 
 .filing-deadlines-disclaimer {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 13px;
   color: var(--text-muted);
   margin-bottom: 24px;
@@ -1089,7 +1089,7 @@ footer {
 }
 
 .deadline-label {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -1098,7 +1098,7 @@ footer {
 }
 
 .deadline-years {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 30px;
   font-weight: 700;
   color: var(--accent);
@@ -1106,7 +1106,7 @@ footer {
 }
 
 .deadline-code {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 13px;
   font-weight: 500;
   color: var(--nord6);
@@ -1115,7 +1115,7 @@ footer {
 }
 
 .deadline-note {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 14px;
   color: var(--text-muted);
   line-height: 1.6;
@@ -1123,7 +1123,7 @@ footer {
 
 .deadline-qi-badge {
   display: inline-block;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 12px;
   font-weight: 600;
   padding: 3px 10px;
@@ -1151,7 +1151,7 @@ footer {
 }
 
 .listing-empty {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 15px;
   color: var(--text-muted);
   grid-column: 1 / -1;
@@ -1245,7 +1245,7 @@ footer {
 }
 
 .listing-card-badge {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -1281,7 +1281,7 @@ footer {
 
 .listing-card-location {
   display: block;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 14px;
   font-weight: 300;
   color: var(--text-muted);
@@ -1289,7 +1289,7 @@ footer {
 }
 
 .listing-card-name {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 28px;
   font-weight: 700;
   color: var(--nord6);
@@ -1301,7 +1301,7 @@ footer {
 .listing-card-firm,
 .listing-card-specialties,
 .listing-card-bio {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 14px;
   font-weight: 300;
   color: var(--text-muted);
@@ -1406,7 +1406,7 @@ footer {
 
 
 .profile-name {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 36px;
   font-weight: 700;
   color: var(--nord6);
@@ -1419,7 +1419,7 @@ footer {
 .profile-firm,
 .profile-address,
 .profile-specialties-inline {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 14px;
   font-weight: 400;
   color: var(--text-muted);
@@ -1444,7 +1444,7 @@ footer {
   padding: 0 16px;
   height: 48px;
   font-size: 15px;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-weight: 500;
   line-height: 1;
   border-radius: 4px;
@@ -1562,7 +1562,7 @@ footer {
   color: var(--nord0);
   padding: 12px 24px;
   border-radius: 8px;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -1577,7 +1577,7 @@ footer {
 
 .btn-ghost {
   color: var(--nord6);
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -1595,7 +1595,7 @@ footer {
 }
 
 .profile-section h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -1629,7 +1629,7 @@ footer {
 }
 
 .profile-section > p, .profile-description > p {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   font-weight: 300;
   color: var(--text-muted);
@@ -1640,7 +1640,7 @@ footer {
 .profile-section > p:last-child, .profile-description > p:last-child { margin-bottom: 0; }
 
 .profile-specialty-link {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 15px;
   font-weight: 300;
   color: var(--accent);
@@ -1659,7 +1659,7 @@ footer {
 }
 
 .profile-list li {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 14px;
   font-weight: 300;
   color: var(--text-muted);
@@ -1770,7 +1770,7 @@ footer {
 
 .profile-contact-item span:last-child,
 .profile-contact-item a {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 14px;
   font-weight: 300;
   color: var(--nord6);
@@ -1796,7 +1796,7 @@ footer {
 }
 
 .guides-clear-filter {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 13px;
   color: var(--accent);
   text-decoration: none;
@@ -1809,7 +1809,7 @@ footer {
 
 .guides-header h1,
 .guides-page > h1 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 36px;
   font-weight: 700;
   color: var(--nord6);
@@ -1818,7 +1818,7 @@ footer {
 }
 
 .guides-subheading {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 18px;
   font-weight: 300;
   color: var(--text-muted);
@@ -1882,7 +1882,7 @@ footer {
 }
 
 .guide-card-category {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -1891,7 +1891,7 @@ footer {
 }
 
 .guide-card-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 700;
   color: var(--nord6);
@@ -1904,7 +1904,7 @@ footer {
 }
 
 .guide-card-excerpt {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   font-weight: 300;
   color: var(--text-muted);
@@ -1920,7 +1920,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 12px;
 }
 
@@ -1931,7 +1931,7 @@ footer {
 .guide-card-date { color: var(--text-muted); }
 
 .guide-card-read {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 13px;
   font-weight: 600;
   color: var(--accent);
@@ -1944,7 +1944,7 @@ footer {
 
 .guides-empty {
   color: var(--text-muted);
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   margin-bottom: 64px;
 }
@@ -2014,7 +2014,7 @@ footer {
 }
 
 .state-picker-heading {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 28px;
   font-weight: 700;
   margin: 0 0 8px;
@@ -2080,7 +2080,7 @@ footer {
 }
 
 .state-picker-result-heading {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 700;
   margin: 0 0 20px;
@@ -2101,14 +2101,14 @@ footer {
 }
 
 .guides-cta h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 700;
   color: var(--nord6);
 }
 
 .guides-cta p {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 15px;
   font-weight: 300;
   color: var(--text-muted);
@@ -2164,7 +2164,7 @@ footer {
 }
 
 .guide-back {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   color: var(--accent);
   text-decoration: none;
@@ -2175,7 +2175,7 @@ footer {
 .guide-back:hover { color: var(--accent-light); }
 
 .guide-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -2184,7 +2184,7 @@ footer {
 }
 
 .guide-lead {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   font-weight: 300;
   color: var(--text-muted);
@@ -2195,7 +2195,7 @@ footer {
 }
 
 .guide-meta {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 13px;
   color: var(--text-muted);
   margin: 16px 0 16px;
@@ -2223,7 +2223,7 @@ footer {
 .guide-meta-categories::before { content: "· "; opacity: 0.4; }
 
 .guide-body {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 16px;
   font-weight: 300;
   line-height: 1.85;
@@ -2240,7 +2240,7 @@ footer {
 }
 
 .glossary-page-btn {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 13px;
   font-weight: 700;
   color: var(--nord4);
@@ -2272,7 +2272,7 @@ footer {
 }
 
 .glossary-letter {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 700;
   color: var(--accent);
@@ -2291,14 +2291,14 @@ footer {
 .glossary-entry { display: flex; flex-direction: column; gap: 4px; }
 
 .glossary-term {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 16px;
   font-weight: 700;
   color: var(--nord6);
 }
 
 .glossary-def {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 15px;
   font-weight: 300;
   line-height: 1.75;
@@ -2309,7 +2309,7 @@ footer {
 .glossary-top-link {
   display: inline-block;
   margin-top: 24px;
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -2324,7 +2324,7 @@ footer {
 .guide-body p { margin-bottom: 20px; }
 
 .guide-body-h2 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 28px;
   font-weight: 700;
   color: var(--nord6);
@@ -2333,7 +2333,7 @@ footer {
 }
 
 .guide-body-h3 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 22px;
   font-weight: 700;
   color: var(--nord6);
@@ -2342,7 +2342,7 @@ footer {
 }
 
 .guide-body-h4 {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 17px;
   font-weight: 700;
   color: var(--nord6);
@@ -2361,7 +2361,7 @@ footer {
 .guide-body-list li {
   padding-left: 20px;
   position: relative;
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 15px;
   color: var(--nord5);
   line-height: 1.7;
@@ -2402,7 +2402,7 @@ footer {
 }
 
 .guide-body-blockquote p {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 16px;
   font-style: italic;
   color: var(--nord5);
@@ -2414,7 +2414,7 @@ footer {
   margin-top: 48px;
   padding: 20px 24px;
   border-left: 3px solid var(--border-on-dark);
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 13px;
   color: var(--accent);
   line-height: 1.7;
@@ -2429,7 +2429,7 @@ footer {
 }
 
 .guide-sidebar-heading {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -2457,7 +2457,7 @@ footer {
 .guide-sidebar-item:hover { background: var(--nord1); }
 
 .guide-sidebar-category {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -2466,7 +2466,7 @@ footer {
 }
 
 .guide-sidebar-title {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 15px;
   font-weight: 600;
   color: var(--nord6);
@@ -2484,7 +2484,7 @@ footer {
 }
 
 .guide-sidebar-cta p {
-  font-family: var(--sans);
+  font-family: var(--serif);
   font-size: 14px;
   color: var(--text-muted);
   line-height: 1.6;
