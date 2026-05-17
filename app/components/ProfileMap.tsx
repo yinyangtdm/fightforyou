@@ -44,6 +44,8 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
         pitchWithRotate: false,
       })
 
+      map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-right")
+
       const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent)
       const url = isApple ? appleUrl : googleUrl
       const popupHtml = `<strong>${name}</strong><br/><a href="${url}" target="_blank" rel="noopener noreferrer">Get Directions</a>`
