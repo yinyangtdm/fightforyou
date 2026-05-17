@@ -2090,17 +2090,15 @@ footer {
 /* ── GUIDE DETAIL PAGE ── */
 
 .guide-page {
-  display: grid;
-  grid-template-columns: 1fr;
   width: 100%;
-  max-width: var(--page-max);
-  margin: 0 auto;
-  padding: 0 var(--page-px) 96px;
 }
 
 .guide-page-inner {
   display: grid;
   grid-template-columns: 1fr;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 var(--page-px) 96px;
 }
 
 .guide-hero-img {
@@ -2128,6 +2126,9 @@ footer {
 }
 
 .guide-back-container {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 var(--page-px);
   height: 52px;
   display: flex;
   align-items: center;
@@ -2683,7 +2684,7 @@ footer {
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
-  .guide-page { padding: 0 var(--page-px) 64px; }
+  .guide-page-inner { padding: 0 var(--page-px) 64px; }
   .guide-title { font-size: 30px; }
   .guide-page-inner { grid-template-columns: 1fr; }
   .guide-sidebar { position: static; border-top: 1px solid var(--border-on-dark); padding-top: 40px; }
@@ -2723,7 +2724,7 @@ footer {
   .listing-section { padding: 24px 0; }
   .guides-header { padding-top: 48px; padding-bottom: 24px; }
 
-  .guide-page { padding: 0 var(--page-px) 56px; }
+  .guide-page-inner { padding: 0 var(--page-px) 56px; }
   .profile-body { padding: 12px var(--page-px) 56px; }
   .profile-hero { margin: 0 0 16px; height: auto; }
   .profile-hero {
