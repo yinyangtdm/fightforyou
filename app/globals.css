@@ -1698,7 +1698,7 @@ footer {
   letter-spacing: -0.02em;
   color: var(--nord6);
   margin-bottom: 48px;
-  line-height: 1.08;
+  line-height: 1;
 }
 
 .guides-subheading {
