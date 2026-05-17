@@ -1,0 +1,331 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Logo of Zalkind Duncan & Bernstein LLP Zalkind Duncan & Bernstein LLP Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Logo of Zalkind Duncan & Bernstein LLP" [ref=e9]
+          - text: Zalkind Duncan & Bernstein LLP Home
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Home" [ref=e13] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e14]:
+            - link "Why Choose Us?" [ref=e15] [cursor=pointer]:
+              - /url: about-us.html
+          - listitem [ref=e16]:
+            - link "Our Team" [ref=e17] [cursor=pointer]:
+              - /url: attorney-profiles.html
+          - listitem [ref=e18]:
+            - link "Practices" [ref=e19] [cursor=pointer]:
+              - /url: practice-areas.html
+          - listitem [ref=e20]:
+            - link "News + Insights" [ref=e21] [cursor=pointer]:
+              - /url: https://www.bostonlawyerblog.com
+          - listitem [ref=e22]:
+            - link "Successes" [ref=e23] [cursor=pointer]:
+              - /url: our-successes.html
+          - listitem [ref=e24]:
+            - link "Work With Us" [ref=e25] [cursor=pointer]:
+              - /url: work-with-us.html
+          - listitem [ref=e26]:
+            - link "Contact Us" [ref=e27] [cursor=pointer]:
+              - /url: contact-us.html
+      - link "617-742-6020" [ref=e30] [cursor=pointer]:
+        - /url: tel:6177426020
+    - generic [ref=e31]:
+      - generic [ref=e37]:
+        - strong [ref=e38]: RISING
+        - strong [ref=e39]: TO THE CHALLENGE
+      - heading "ZALKIND IS A BOSTON TRIAL LAW FIRM WITH THE KNOWLEDGE, CREATIVITY, AND TENACITY TO WIN." [level=1] [ref=e43]:
+        - text: ZALKIND IS A BOSTON TRIAL LAW FIRM WITH THE KNOWLEDGE, CREATIVITY,
+        - generic [ref=e44]: AND TENACITY TO WIN.
+    - generic [ref=e46]:
+      - generic [ref=e50]:
+        - paragraph [ref=e51]: Focused on criminal defense, employment, civil litigation, and students’ rights, we stand with you as you seek what’s just and right. We build your case on facts and a passionate belief in justice. For more than 50 years, we’ve helped our clients win when it mattered most. We’re ready to do the same for you.
+        - link "Learn More" [ref=e53] [cursor=pointer]:
+          - /url: "#text-container-01"
+      - generic [ref=e56]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: PREPARED .
+          - generic [ref=e61]: PERSUASIVE .
+          - generic [ref=e62]: FEARLESS .
+        - generic [ref=e66]:
+          - generic [ref=e67]: slide 5 to 8 of 13
+          - generic [ref=e70]:
+            - link [ref=e71] [cursor=pointer]:
+              - /url: ana-isabel-munoz_1.html
+              - img [ref=e73]
+            - link [ref=e74] [cursor=pointer]:
+              - /url: inga-bernstein.html
+              - img [ref=e76]
+            - link [ref=e77] [cursor=pointer]:
+              - /url: rachel-stroup.html
+              - img [ref=e79]
+            - link [ref=e80] [cursor=pointer]:
+              - /url: david-duncan.html
+              - img [ref=e82]
+            - link "Jackson Estrin" [ref=e83] [cursor=pointer]:
+              - /url: jackson-estrin.html
+              - img "Jackson Estrin" [ref=e85]
+            - link "Jacob Bezner" [ref=e86] [cursor=pointer]:
+              - /url: jacob-bezner.html
+              - img "Jacob Bezner" [ref=e88]
+            - link "Noah Gillen" [ref=e89] [cursor=pointer]:
+              - /url: noah-gillen.html
+              - img "Noah Gillen" [ref=e91]
+            - link "Tess Halpern" [ref=e92] [cursor=pointer]:
+              - /url: tess-halpern.html
+              - img "Tess Halpern" [ref=e94]
+            - link [ref=e95] [cursor=pointer]:
+              - /url: emma-quinn-judge.html
+              - img [ref=e97]
+            - link [ref=e98] [cursor=pointer]:
+              - /url: monica-r-shah.html
+              - img [ref=e100]
+            - link [ref=e101] [cursor=pointer]:
+              - /url: david-russcol.html
+              - img [ref=e103]
+            - link [ref=e104] [cursor=pointer]:
+              - /url: niamh-gibbons.html
+              - img [ref=e106]
+            - link [ref=e107] [cursor=pointer]:
+              - /url: naomi-r-shatz.html
+              - img [ref=e109]
+            - link [ref=e110] [cursor=pointer]:
+              - /url: ana-isabel-munoz_1.html
+              - img [ref=e112]
+            - link [ref=e113] [cursor=pointer]:
+              - /url: inga-bernstein.html
+              - img [ref=e115]
+            - link [ref=e116] [cursor=pointer]:
+              - /url: rachel-stroup.html
+              - img [ref=e118]
+            - link [ref=e119] [cursor=pointer]:
+              - /url: david-duncan.html
+              - img [ref=e121]
+            - link [ref=e122] [cursor=pointer]:
+              - /url: jackson-estrin.html
+              - img [ref=e124]
+            - link [ref=e125] [cursor=pointer]:
+              - /url: jacob-bezner.html
+              - img [ref=e127]
+            - link [ref=e128] [cursor=pointer]:
+              - /url: noah-gillen.html
+              - img [ref=e130]
+            - link [ref=e131] [cursor=pointer]:
+              - /url: tess-halpern.html
+              - img [ref=e133]
+          - generic "Carousel Navigation":
+            - button "prev" [ref=e134] [cursor=pointer]
+            - button "next" [ref=e135] [cursor=pointer]
+      - generic [ref=e137]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: slide 1 of 4
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]: Preliminary Injunction Prevents Dismissal of Graduate Student
+              - paragraph [ref=e145]: Naomi Shatz and David Russcol won a preliminary injunction against a local university that attempted to dismiss a graduate student for comments he made online years before he enrolled at the university...
+              - link "READ CASE STORY →" [ref=e146] [cursor=pointer]:
+                - /url: our-successes.html
+            - generic [ref=e147]:
+              - generic [ref=e148]: Boston Jury Awards Nearly $11 Million Verdict Against the City
+              - paragraph [ref=e149]: Emma Quinn-Judge and Monica Shah won a nearly $11 million verdict in a race discrimination and retaliation case against the City of Boston...
+              - link [ref=e150] [cursor=pointer]:
+                - /url: our-successes.html
+                - text: READ CASE STORY →
+            - generic [ref=e151]:
+              - generic [ref=e152]: Acquittal on All Charges in First-Degree Murder Case
+              - paragraph [ref=e153]: In a first-degree murder case, which included charges of armed assault with intent to murder and possession of a firearm, Norman Zalkind and Rachel Stroup won...
+              - link [ref=e154] [cursor=pointer]:
+                - /url: our-successes.html
+                - text: READ CASE STORY →
+            - generic [ref=e155]:
+              - generic [ref=e156]: $7.6 Million Verdict in Employment Case
+              - paragraph [ref=e157]: Inga Bernstein and Norman Zalkind won a $7.6 million verdict in a case charging the MBTA with retaliation against its former Chief Administrative Officer...
+              - link [ref=e158] [cursor=pointer]:
+                - /url: our-successes.html
+                - text: READ CASE STORY →
+            - generic [ref=e159]:
+              - generic [ref=e160]: Preliminary Injunction Prevents Dismissal of Graduate Student
+              - paragraph [ref=e161]: Naomi Shatz and David Russcol won a preliminary injunction against a local university that attempted to dismiss a graduate student for comments he made online years before he enrolled at the university...
+              - link [ref=e162] [cursor=pointer]:
+                - /url: our-successes.html
+                - text: READ CASE STORY →
+        - generic "Carousel Navigation" [ref=e164]:
+          - generic "Carousel Pagination" [ref=e165]:
+            - button "Carousel Page 1 (Current Slide)" [ref=e166] [cursor=pointer]
+            - button "Carousel Page 2" [ref=e167] [cursor=pointer]
+            - button "Carousel Page 3" [ref=e168] [cursor=pointer]
+            - button "Carousel Page 4" [ref=e169] [cursor=pointer]
+      - generic [ref=e170]:
+        - strong [ref=e171]:
+          - link "Practices" [ref=e172] [cursor=pointer]:
+            - /url: practice-areas.html
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - list [ref=e175]:
+              - listitem [ref=e176]:
+                - link "Criminal Defense" [ref=e177] [cursor=pointer]:
+                  - /url: criminal-defense.html
+                  - generic [ref=e178]: Criminal Defense
+              - listitem [ref=e179]:
+                - link "Employment Law" [ref=e180] [cursor=pointer]:
+                  - /url: employment-law.html
+                  - generic [ref=e181]: Employment Law
+              - listitem [ref=e182]:
+                - link "Title IX & Student Rights" [ref=e183] [cursor=pointer]:
+                  - /url: students-rights.html
+                  - generic [ref=e184]: Title IX & Student Rights
+              - listitem [ref=e185]:
+                - link "Civil Litigation" [ref=e186] [cursor=pointer]:
+                  - /url: civil-litigation.html
+                  - generic [ref=e187]: Civil Litigation
+            - link "SEE ALL PRACTICES →" [ref=e188] [cursor=pointer]:
+              - /url: practice-areas.html
+          - list
+      - generic [ref=e189]:
+        - strong [ref=e190]:
+          - link "NEWS + INSIGHTS" [ref=e191] [cursor=pointer]:
+            - /url: https://www.bostonlawyerblog.com/category/recent-news/
+        - generic [ref=e193]:
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - strong [ref=e196]:
+                - link "\"Ghost Network\" Class Action Lawsuit Filed Against Harvard Pilgrim Healthcare and Point32 Health" [ref=e197] [cursor=pointer]:
+                  - /url: https://www.bostonlawyerblog.com/recent_news/ghost-network-class-action-lawsuit-filed-against-harvard-pilgrim-healthcare-and-point32-health/
+              - text: Boston, Mass., May 6, 2026 – Pollock Cohen LLP, along with co-counsels Walden Macht Haran & Williams LLP, and Zalkind Duncan & Bernstein…
+            - listitem [ref=e198]:
+              - strong [ref=e199]:
+                - link "Zalkind Law Challenges Massachusetts Law Targeting Indigent Defense Attorneys" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.bostonlawyerblog.com/recent_news/zalkind-law-challenges-massachusetts-law-targeting-indigent-defense-attorneys/
+              - text: Zalkind Law filed a lawsuit yesterday on behalf of the Massachusetts Association of Private Appointed Counsel (MAPAC) and six defense attorneys from…
+            - listitem [ref=e201]:
+              - strong [ref=e202]:
+                - link "Naomi Shatz speaks to the Globe about AI-generated deepfakes circulating at area schools" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.bostonlawyerblog.com/in_the_press/naomi-shatz-speaks-to-the-globe-about-ai-generated-deepfakes-circulating-at-area-schools/
+              - text: The Boston Globe examined the increasing problem of middle and high school students creating AI-generated nude images of their classmates. Attorney…
+          - link "SEE ALL NEWS" [ref=e205] [cursor=pointer]:
+            - /url: https://www.bostonlawyerblog.com/recent_news/
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e211]: "1"
+          - strong [ref=e212]: Legal team with the knowledge, creativity, and tenacity to win
+        - generic [ref=e213]:
+          - generic [ref=e215]: "2"
+          - strong [ref=e216]: Ranked Tier 1 "Best Law Firms" in U.S. News & World Report
+        - generic [ref=e217]:
+          - generic [ref=e219]: "3"
+          - strong [ref=e220]: Over 50 years of experience
+      - generic [ref=e221]:
+        - strong [ref=e222]: Contact Us
+        - paragraph [ref=e224]:
+          - text: Fill out the
+          - link "contact form" [ref=e225] [cursor=pointer]:
+            - /url: https://zalkindlaw.cliogrow.com/intake/CmyoU2uTdB5b1IsCPC48rg
+          - text: or call us at 617-742-6020 to schedule your consultation.
+      - generic [ref=e226]:
+        - strong [ref=e227]: Client Reviews
+        - generic [ref=e228]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: slide 1 of 5
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - generic [ref=e235]: ★★★★★
+                - text: I hired Mr. Duncan to deal with a very sensitive issue that my daughter had. Since the first contact, I had a very good impression of him. He transmitted confidence and appeared to know exactly what to do. I called and emailed him many times, he was polite and comprehensible with the anxiety of a father and appeared to know every step to solve the case. I strongly recommend Mr. Duncan.
+                - generic [ref=e236]: "- Flavio Lajoia"
+              - generic [ref=e237]:
+                - generic [ref=e238]: ★★★★★
+                - text: If you are reading this review, it means either you or a family member is in trouble and needs immediate legal counsel. Please know your search can end right now because Zalkind, Duncan & Bernstein is the law firm to hire. They are honest, responsive, compassionate and have the experience and expertise to bring...
+                - generic [ref=e239]: "- Client"
+              - generic [ref=e240]:
+                - generic [ref=e241]: ★★★★★
+                - text: I contacted Zalkind Duncan & Bernstein to assist with a Title IX case. From our initial conversation, Naomi Shatz had a strong understanding of Title IX policies and conducted each step of the process with professionalism, honesty and a responsiveness that did not disappoint. Ms. Shatz displayed confidence and just as important, compassion when needed.
+                - generic [ref=e242]: "- Client"
+              - generic [ref=e243]:
+                - generic [ref=e244]: ★★★★★
+                - text: I worked with Emma Quinn-Judge and Monica Shah. And from my first contact on the phone, on to my first meeting in their office and during the trial, I found them and the firm's entire team to be a group of consummate legal professionals who are very knowledgeable, patient, dedicated, fair, honest and caring...
+                - generic [ref=e245]: "- Chantal C."
+              - generic [ref=e246]:
+                - generic [ref=e247]: ★★★★★
+                - text: I am forever grateful to all the staff at this firm, but in particular, Ms. Shah, Mr. Zalkind and Mr. Silverglate. They represented my son who was being sought for extradition to Scotland. The case took years to fight, covering new legal ground, setting precedence. But each one of these legal eagles went above and beyond the duty of office...
+                - generic [ref=e248]: "- Suzanne D."
+              - generic [ref=e249]:
+                - generic [ref=e250]: ★★★★★
+                - text: I hired Mr. Duncan to deal with a very sensitive issue that my daughter had. Since the first contact, I had a very good impression of him. He transmitted confidence and appeared to know exactly what to do. I called and emailed him many times, he was polite and comprehensible with the anxiety of a father and appeared to know every step to solve the case. I strongly recommend Mr. Duncan.
+                - generic [ref=e251]: "- Flavio Lajoia"
+          - generic "Carousel Navigation" [ref=e253]:
+            - generic "Carousel Pagination" [ref=e254]:
+              - button "Carousel Page 1 (Current Slide)" [ref=e255] [cursor=pointer]
+              - button "Carousel Page 2" [ref=e256] [cursor=pointer]
+              - button "Carousel Page 3" [ref=e257] [cursor=pointer]
+              - button "Carousel Page 4" [ref=e258] [cursor=pointer]
+              - button "Carousel Page 5" [ref=e259] [cursor=pointer]
+          - link "View More Reviews" [ref=e261] [cursor=pointer]:
+            - /url: client-reviews.html
+          - link "Submit a Law Firm Client Review" [ref=e263] [cursor=pointer]:
+            - /url: submit-a-law-firm-review-testimonial.html
+  - generic [ref=e265]:
+    - generic [ref=e266]:
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - generic [ref=e270]: "2 Oliver St #200"
+          - text: Boston, MA 02109
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - text: "Phone:"
+            - link "617-742-6020" [ref=e274] [cursor=pointer]:
+              - /url: tel:6177426020
+          - generic [ref=e275]:
+            - text: "Fax:"
+            - link "617-742-3269" [ref=e277] [cursor=pointer]:
+              - /url: tel:6177423269
+        - generic [ref=e279]:
+          - text: "Email:"
+          - link "info@zalkindlaw.com" [ref=e281] [cursor=pointer]:
+            - /url: mailto:info@zalkindlaw.com
+      - generic [ref=e282]:
+        - generic [ref=e285]:
+          - link "Facebook Icon" [ref=e286] [cursor=pointer]:
+            - /url: https://www.facebook.com/Zalkind-Duncan-Bernstein-LLP-524597237620620/
+            - img "Facebook Icon" [ref=e287]
+          - link "Twitter Icon" [ref=e288] [cursor=pointer]:
+            - /url: https://twitter.com/zalkindlaw
+            - img "Twitter Icon" [ref=e289]
+          - link "LinkedIn Icon" [ref=e290] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/zalkind-duncan-&-bernstein-llp
+            - img "LinkedIn Icon" [ref=e291]
+          - link "Justia Icon" [ref=e292] [cursor=pointer]:
+            - /url: https://lawyers.justia.com/firm/zalkind-duncan-bernstein-llp-70985
+            - img "Justia Icon" [ref=e293]
+        - generic [ref=e294]: "We serve clients across the country and the Commonwealth of Massachusetts. In Massachusetts, we primarily serve the following localities: Suffolk County, including Boston, Allston, Brighton, Hyde Park, Jamaica Plain, Roslindale, and West Roxbury; Middlesex County, including Cambridge, Lowell, Somerville, and Newton; Norfolk County, including Brookline, Quincy, and Weymouth; and Martha's Vineyard and Nantucket."
+      - paragraph [ref=e295]:
+        - link "Portrait and Candid Photography by David Shopper, Boston" [ref=e296] [cursor=pointer]:
+          - /url: https://www.davidshopper.com/
+    - list [ref=e298]:
+      - listitem [ref=e299]:
+        - link "Home" [ref=e300] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e301]:
+        - link "Disclaimer" [ref=e302] [cursor=pointer]:
+          - /url: disclaimer.html
+      - listitem [ref=e303]:
+        - link "Privacy Policy" [ref=e304] [cursor=pointer]:
+          - /url: privacy-policy.html
+      - listitem [ref=e305]:
+        - link "Site Map" [ref=e306] [cursor=pointer]:
+          - /url: sitemap.html
+      - listitem [ref=e307]:
+        - link "Contact Us" [ref=e308] [cursor=pointer]:
+          - /url: contact-us.html
+    - generic [ref=e309]:
+      - paragraph [ref=e311]: Boston Criminal Defense Lawyer | Massachusetts Employment Attorney | Zalkind Duncan & Bernstein LLP
+      - generic [ref=e312]:
+        - paragraph
+        - paragraph [ref=e313]: Please do not include confidential or sensitive information in an email, text message, or voicemail. Although we will maintain the confidentiality of information sent to us by potential clients, we cannot control information that may be transmitted through insecure means. Submitting a contact form, sending a text message, making a phone call, or leaving a voicemail does not create an attorney-client relationship.
+        - paragraph
+      - text: Copyright © 2026,
+      - link "Zalkind Duncan & Bernstein LLP" [ref=e314] [cursor=pointer]:
+        - /url: index.html
+    - link "Justia Law Firm Website Design" [ref=e316] [cursor=pointer]:
+      - /url: https://elevate.justia.com/websites/

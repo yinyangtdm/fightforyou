@@ -1,0 +1,669 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - strong [ref=e10]: "Chopra & Nocerino is the exclusive personal injury law firm of the New York Mets, New York Islanders, Brooklyn Nets, Barclays Center, & UBS Arena! #1 Rear-End Collision Result in the U.S. | $19.5 Million Settlement Secured for Commercial Truck Accident - 2025"
+          - generic [ref=e12]:
+            - paragraph [ref=e15]: GET A FREE CONSULTATION
+            - link "855-NYC-HURT" [ref=e19] [cursor=pointer]:
+              - /url: tel:855-692-4878
+              - generic [ref=e21]: 855-NYC-HURT
+        - generic [ref=e22]:
+          - link "Chopra & Nocerino, Injury & Accident Attorneys" [ref=e26] [cursor=pointer]:
+            - /url: /
+            - img "Chopra & Nocerino, Injury & Accident Attorneys" [ref=e27]
+          - navigation "Menu" [ref=e31]:
+            - button "Menu Toggle" [ref=e32] [cursor=pointer]:
+              - img [ref=e34]
+              - img [ref=e37]
+    - main [ref=e42]:
+      - article [ref=e43]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - img "New York Sky Line with blue gradient and white text showing 'It's Personal'" [ref=e49]
+            - generic [ref=e51]:
+              - heading "We are the exclusive personal injury law firm of the New York Mets, New York Islanders, Brooklyn Nets, UBS Arena & Barclays Center" [level=3] [ref=e54]
+              - generic [ref=e55]:
+                - img "Image of Mets" [ref=e58]
+                - img "NY Islanders Logo" [ref=e61]
+                - img "Brooklyn Nets basketball logo" [ref=e64]
+                - img "UBS Arena logo" [ref=e67]
+                - img "blue Barclays Center logo" [ref=e70]
+          - generic [ref=e72]:
+            - paragraph [ref=e75]: Chopra & Nocerino Honored by RMHC
+            - button "Play Video" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+            - link "CONNECT WITH OUR ATTORNEYS NOW" [ref=e88] [cursor=pointer]:
+              - /url: /contact/
+              - generic [ref=e90]: CONNECT WITH OUR ATTORNEYS NOW
+          - img "Image of a red baseball threads" [ref=e95]
+          - generic [ref=e97]:
+            - heading "New York City and Long Island Personal Injury & Accident Law Firm" [level=1] [ref=e102]:
+              - text: New York City and Long Island
+              - text: Personal Injury & Accident Law Firm
+            - region "Carousel" [ref=e107]:
+              - generic [ref=e108]:
+                - group "1 of 3" [ref=e109]:
+                  - generic [ref=e111]:
+                    - img "The image depicts Lady Justice, a symbolic figure representing fairness and the impartial rule of law." [ref=e114]
+                    - paragraph [ref=e117]: When you work with our talented and compassionate team of personal injury lawyers in Garden City, NY, you will never be just another case to us. No matter what you are facing in the aftermath of your accident, the skilled personal injury team at Chopra & Nocerino is here to help. You can count on us to be your dedicated advocates and to treat you like family throughout the life of your case and beyond.
+                - group "2 of 3" [ref=e118]:
+                  - generic [ref=e120]:
+                    - img "The image showcases a breathtaking overview of New York City's skyline." [ref=e123]
+                    - paragraph [ref=e126]: Located in Garden City, we proudly serve the Greater New York community by providing excellent legal representation to injury victims throughout New York and the surrounding area. We also happen to be the exclusive personal injury law firm of the New York Mets, New York Islanders, and the UBS Arena—just another way we show our love for this great city.
+                - group "3 of 3" [ref=e127]:
+                  - generic [ref=e129]:
+                    - img "The image focuses solely on a handshake between two individuals. Both hands are dressed in suit sleeves, indicating a formal or professional interaction." [ref=e132]
+                    - paragraph [ref=e135]:
+                      - text: To better serve our clients, our Garden City firm provides services in both English and Spanish. Whether you are a doctor, lawyer, student, taxi driver, construction worker, or food service worker, you can count on us to fight for you. Contact us today to schedule your
+                      - link "free, no-obligation consultation" [ref=e137] [cursor=pointer]:
+                        - /url: /contact/
+                      - text: with a skilled personal injury lawyer at Chopra & Nocerino.
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - img "Forward play icon" [ref=e145]
+              - heading "OUR PERSONAL INJURY VERDICTS & SETTLEMENTS" [level=2] [ref=e148]
+              - img "Backward play icon" [ref=e151]
+            - generic [ref=e153]:
+              - region "Carousel" [ref=e154]:
+                - generic [ref=e155]:
+                  - group "1 of 14" [ref=e156]:
+                    - generic [ref=e158]:
+                      - paragraph [ref=e161]: MARCH 2025
+                      - paragraph [ref=e164]: Truck Accident
+                  - group "2 of 14" [ref=e165]:
+                    - generic [ref=e167]:
+                      - paragraph [ref=e170]: NOVEMBER 2025
+                      - paragraph [ref=e173]: $7.5 Million
+                      - paragraph [ref=e176]: Read-End Motor Vehicle Accident
+                  - group "3 of 14" [ref=e177]:
+                    - generic [ref=e179]:
+                      - paragraph [ref=e182]: JULY 2025
+                      - paragraph [ref=e185]: $4 Million
+                      - paragraph [ref=e188]: Read-End Motor Vehicle Accident
+                  - group "4 of 14" [ref=e189]:
+                    - generic [ref=e191]:
+                      - paragraph [ref=e194]: JUNE 2023
+                      - paragraph [ref=e197]: $3.65 Million
+                      - paragraph [ref=e200]: Motor Vehicle Accident
+                  - group "5 of 14" [ref=e201]:
+                    - generic [ref=e203]:
+                      - paragraph [ref=e206]: August 2025
+                      - paragraph [ref=e209]: $3.3 Million
+                      - paragraph [ref=e212]: Pedestrian Accident
+                  - group "6 of 14" [ref=e213]:
+                    - generic [ref=e215]:
+                      - paragraph [ref=e218]: FEBRUARY 2026
+                      - paragraph [ref=e221]: $1 Million
+                      - paragraph [ref=e224]: Motor Vehicle Accident
+                  - group "7 of 14" [ref=e225]:
+                    - generic [ref=e227]:
+                      - paragraph [ref=e230]: JULY 2025
+                      - paragraph [ref=e233]: $3.175 Million
+                      - paragraph [ref=e236]: Motor Vehicle Accident
+                  - group "8 of 14" [ref=e237]:
+                    - generic [ref=e239]:
+                      - paragraph [ref=e242]: SEPTEMBER 2023
+                      - paragraph [ref=e245]: $2.55 Million
+                      - paragraph [ref=e248]: Slip and Fall Accident
+                  - group "9 of 14" [ref=e249]:
+                    - generic [ref=e251]:
+                      - paragraph [ref=e254]: JULY 2025
+                      - paragraph [ref=e257]: $2 Million
+                      - paragraph [ref=e260]: Gas Tank Accident
+                  - group "10 of 14" [ref=e261]:
+                    - generic [ref=e263]:
+                      - paragraph [ref=e266]: FEBRUARY 2023
+                      - paragraph [ref=e269]: $2 Million
+                      - paragraph [ref=e272]: Motor Vehicle Accident
+                  - group "11 of 14" [ref=e273]:
+                    - generic [ref=e275]:
+                      - paragraph [ref=e278]: JUNE 2023
+                      - paragraph [ref=e281]: $1.3 Million
+                      - paragraph [ref=e284]: Slip and Fall Accident
+                  - group "12 of 14" [ref=e285]:
+                    - generic [ref=e287]:
+                      - paragraph [ref=e290]: FEBRUARY 2022
+                      - paragraph [ref=e293]: $1.25 Million
+                      - paragraph [ref=e296]: Motor Vehicle Accident
+                  - group "13 of 14" [ref=e297]:
+                    - generic [ref=e299]:
+                      - paragraph [ref=e302]: SEPTEMBER 2023
+                      - paragraph [ref=e305]: $1.025 Million
+                      - paragraph [ref=e308]: Motor Vehicle Accident
+                  - group "14 of 14" [ref=e309]:
+                    - generic [ref=e311]:
+                      - paragraph [ref=e314]: OCTOBER 2023
+                      - paragraph [ref=e317]: $945,000
+                      - paragraph [ref=e320]: Motor Vehicle Accident
+              - button "Previous" [ref=e321] [cursor=pointer]:
+                - img [ref=e322]
+              - button "Next" [ref=e324] [cursor=pointer]:
+                - img [ref=e325]
+            - link "SEE MORE CASE RESULTS" [ref=e330] [cursor=pointer]:
+              - /url: /verdicts-settlements/
+              - generic [ref=e332]: SEE MORE CASE RESULTS
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - img "This image shows the logo of USB Arena" [ref=e338]
+              - generic [ref=e339]:
+                - img "NY Islanders logo" [ref=e346]
+                - img "Image of Mets" [ref=e353]
+                - img "White BG CN logo" [ref=e360]
+                - img "Brooklyn Nets basketball logo" [ref=e367]
+              - img "blue Barclays Center logo" [ref=e374]
+            - generic [ref=e377]: WE ARE HERE FOR YOU
+            - paragraph [ref=e380]: DON'T JUST TAKE OUR WORD FOR IT; CHECK OUT THESE
+            - heading "PERSONAL INJURY CLIENT TESTIMONIALS" [level=2] [ref=e383]
+            - region "Slides" [ref=e387]:
+              - generic [ref=e388]:
+                - group [ref=e389]:
+                  - generic [ref=e390]:
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: I can’t recommend Chopra & Nocerino enough. They took my case when no one else would and earned me a settlement that most didn’t think was possible. They have the resources of a larger firm but treat you as if you are their only client. Great firm with great lawyers, especially Alex Nocerino.
+                      - generic [ref=e394]: Marty B
+                    - img "Marty B" [ref=e397]
+                - group [ref=e398]:
+                  - generic [ref=e399]:
+                    - generic [ref=e400]:
+                      - generic [ref=e401]: I have nothing but the upmost respect for this firm. They took on my case when no one else would and got me a settlement through diligence and hard work. Alex Nocerino is a true professional and I can't recommend his and their services enough. They work very hard to do right by their clients and they helped turn a bad situation into a better one. Forever grateful.
+                      - generic [ref=e403]: Matthew B.
+                    - img "Yelp logo" [ref=e406]
+                - group [ref=e407]:
+                  - generic [ref=e408]:
+                    - generic [ref=e409]:
+                      - generic [ref=e410]: Alex Nocerino won a settlement for me that is beyond my expectations. He guided me clearly throughout the entire process. He responded extremely quickly and answered all questions without legalese. His office staff was equally attentive. I couldn't be more satisfied, and I highly recommend Alex and Chopra & Nocerino.
+                      - generic [ref=e412]: Steve
+                    - img "Avvo icon" [ref=e415]
+                - group [ref=e416]:
+                  - generic [ref=e417]:
+                    - generic [ref=e418]:
+                      - generic [ref=e419]: Chopra & Nocerino LLP is a hallmark of a law firm, they are the best! They prioritize my needs and my concerns. They maintained open and transparent communication with me, and they are experts in their field. Their staff are really nice, respectful and incredible. I love their client-centered approach, and I highly recommended them to anyone.
+                      - generic [ref=e421]: Gem London
+                    - img "Gem London" [ref=e424]
+                - group [ref=e425]:
+                  - generic [ref=e426]:
+                    - generic [ref=e427]:
+                      - generic [ref=e428]: My experience with the law firm Chopra & Nocerino was one of the best experiences I had. The staff is very professional and helpful, guarantee to get the job.
+                      - generic [ref=e430]: Tedesha Phillips
+                    - img "Tedesha Phillips" [ref=e433]
+                - group [ref=e434]:
+                  - generic [ref=e435]:
+                    - generic [ref=e436]:
+                      - generic [ref=e437]: I highly recommend this law firm. The attorneys and staff are professional, knowledgeable, very thorough and compassionate. They truly work hard to get the best outcome for their clients. You will not be pressured to take an offer when they know you deserve more for your injuries. I am truly blessed to have been referred to Chopra & Nocerino.
+                      - generic [ref=e439]: Deborah Cullum
+                    - img "Deborah Cullum" [ref=e442]
+                - group [ref=e443]:
+                  - generic [ref=e444]:
+                    - generic [ref=e445]:
+                      - generic [ref=e446]: Extremely happy with Chopra & Nocerino! Throughout my whole case they kept me updated & always handled all of my concerns promptly & thoroughly. Having them handle my case was the best decision and I’m beyond happy at the outcome of my settlement. Highly recommend.
+                      - generic [ref=e448]: Brenna Long
+                    - img "Brenna Long" [ref=e451]
+                - group [ref=e452]:
+                  - generic [ref=e453]:
+                    - generic [ref=e454]:
+                      - generic [ref=e455]: Highly professional, and hard working. Made my experience as seamless as possible. Handled everything for me, even scheduling appointments etc. And my case had a great outcome!
+                      - generic [ref=e457]: Alizeh Habib
+                    - img "Alizeh Habib" [ref=e460]
+          - generic [ref=e462]:
+            - heading "PERSONAL INJURY BLOG" [level=3] [ref=e467]
+            - generic [ref=e470]:
+              - article [ref=e471]:
+                - generic [ref=e472]:
+                  - generic [ref=e476]:
+                    - img "A lawyer sitting at their desk writing notes while on the phone with their client" [ref=e479]
+                    - generic [ref=e481]:
+                      - list [ref=e484]:
+                        - listitem [ref=e485]:
+                          - time [ref=e487]: 05.15.26
+                      - 'link "New York Accident Law Changes 2026: What Victims Need to Know" [ref=e491] [cursor=pointer]':
+                        - /url: https://www.chopranocerino.com/blog/new-york-accident-law-changes-2026/
+                  - link "READ MORE" [ref=e499] [cursor=pointer]:
+                    - /url: https://www.chopranocerino.com/blog/new-york-accident-law-changes-2026/
+                    - generic [ref=e501]: READ MORE
+              - article [ref=e502]:
+                - generic [ref=e503]:
+                  - generic [ref=e507]:
+                    - img "person riding a bike on a trail in a forest" [ref=e510]
+                    - generic [ref=e512]:
+                      - list [ref=e515]:
+                        - listitem [ref=e516]:
+                          - time [ref=e518]: 05.05.26
+                      - link "Common Causes of Bicycle Accidents in New York" [ref=e522] [cursor=pointer]:
+                        - /url: https://www.chopranocerino.com/blog/common-causes-bicycle-accidents-new-york/
+                  - link "READ MORE" [ref=e530] [cursor=pointer]:
+                    - /url: https://www.chopranocerino.com/blog/common-causes-bicycle-accidents-new-york/
+                    - generic [ref=e532]: READ MORE
+              - article [ref=e533]:
+                - generic [ref=e534]:
+                  - generic [ref=e538]:
+                    - img "doctor taking the blood pressure for a patient in an independent medical exam" [ref=e541]
+                    - generic [ref=e543]:
+                      - list [ref=e546]:
+                        - listitem [ref=e547]:
+                          - time [ref=e549]: 05.01.26
+                      - link "What Is an Independent Medical Exam (IME)?" [ref=e553] [cursor=pointer]:
+                        - /url: https://www.chopranocerino.com/blog/what-is-an-independent-medical-examination/
+                  - link "READ MORE" [ref=e561] [cursor=pointer]:
+                    - /url: https://www.chopranocerino.com/blog/what-is-an-independent-medical-examination/
+                    - generic [ref=e563]: READ MORE
+            - link "GO TO BLOG" [ref=e567] [cursor=pointer]:
+              - /url: /blog/
+              - generic [ref=e569]: GO TO BLOG
+          - generic [ref=e572]:
+            - heading "Why Hire a New York Metro and West Nassau Personal Injury Lawyer to Fight for You?" [level=2] [ref=e575]
+            - generic [ref=e577]:
+              - paragraph [ref=e578]: Our dedicated personal injury attorneys serving across New York know how to push back large insurance companies when they refuse to pay full and fair compensation. We know all their tricks and how to push through their nonsense. Our attorneys get straight to the heart of things.
+              - paragraph [ref=e579]:
+                - text: Over the years, we have learned that our direct approach works. We have won hundreds of millions of dollars in
+                - link "verdicts and settlements" [ref=e580] [cursor=pointer]:
+                  - /url: https://www.chopranocerino.com/verdicts-settlements/
+                - text: . How? By standing firm and refusing to let unscrupulous insurance adjusters sugar-coat the plain and simple truth.
+              - paragraph [ref=e581]: "Our strong track record of hitting home runs for our clients has earned us an excellent professional reputation in the legal community. We have been recognized by numerous organizations and publications, including:"
+            - list [ref=e584]:
+              - listitem [ref=e585]:
+                - img [ref=e587]
+                - generic [ref=e589]: Super Lawyers
+              - listitem [ref=e590]:
+                - img [ref=e592]
+                - generic [ref=e594]: Nation’s Top 1% by the National Association of Distinguished Counsel
+              - listitem [ref=e595]:
+                - img [ref=e597]
+                - generic [ref=e599]: Who’s Who Top Attorneys of North America – Exclusive President’s Circle status for continuous excellence within the legal community
+              - listitem [ref=e600]:
+                - img [ref=e602]
+                - generic [ref=e604]: The National Trial Lawyers Top 40 Under 40
+              - listitem [ref=e605]:
+                - img [ref=e607]
+                - generic [ref=e609]: The National Trial Lawyers Top 100 Lawyers
+              - listitem [ref=e610]:
+                - img [ref=e612]
+                - generic [ref=e614]: Top Lawyer’s Top 100 Registry
+              - listitem [ref=e615]:
+                - img [ref=e617]
+                - generic [ref=e619]: Lead Counsel Rating
+              - listitem [ref=e620]:
+                - img [ref=e622]
+                - generic [ref=e624]: Forbes Advisor | Featured Partner
+            - list [ref=e627]:
+              - listitem [ref=e628]:
+                - link "Best Personal Injury Attorneys in New York City by Forbes Advisor for 2024-2027" [ref=e629] [cursor=pointer]:
+                  - /url: /blog/chopra-nocerino-forbes-advisor-best-personal-injury-lawyers-ny/
+                  - img [ref=e631]
+                  - generic [ref=e633]: Best Personal Injury Attorneys in New York City by Forbes Advisor for 2024-2027
+            - img "Forbes Advisor featured partner - top new york personal injury attorney" [ref=e636]
+            - link "LEARN MORE ABOUT US" [ref=e640] [cursor=pointer]:
+              - /url: /about-us/
+              - generic [ref=e642]: LEARN MORE ABOUT US
+          - generic [ref=e644]:
+            - heading "GREATER NEW YORK ACCIDENT & INJURY PRACTICE AREAS" [level=2] [ref=e647]
+            - heading "No Matter How You Were Injured, We Have What It Takes to Handle Your NY Metro Area & Island Personal Injury Claim from Start to Finish" [level=3] [ref=e650]:
+              - text: No Matter How You Were Injured, We Have What It Takes to Handle Your NY Metro Area & Island Personal Injury Claim from
+              - text: Start to Finish
+          - generic [ref=e656]:
+            - generic [ref=e657]:
+              - img [ref=e662]
+              - link "CAR ACCIDENTS" [ref=e673] [cursor=pointer]:
+                - /url: https://www.chopranocerino.com/new-york-car-accident-lawyer/
+              - link "LEARN MORE" [ref=e677] [cursor=pointer]:
+                - /url: https://www.chopranocerino.com/new-york-car-accident-lawyer/
+                - generic [ref=e679]: LEARN MORE
+            - generic [ref=e680]:
+              - img [ref=e685]
+              - link "TRUCK ACCIDENTS" [ref=e696] [cursor=pointer]:
+                - /url: /truck-accident-lawyer/
+              - link "LEARN MORE" [ref=e700] [cursor=pointer]:
+                - /url: /truck-accident-lawyer/
+                - generic [ref=e702]: LEARN MORE
+            - generic [ref=e703]:
+              - img [ref=e708]
+              - link "BICYCLE ACCIDENTS" [ref=e719] [cursor=pointer]:
+                - /url: /bicycle-accident-lawyer/
+              - link "LEARN MORE" [ref=e723] [cursor=pointer]:
+                - /url: /bicycle-accident-lawyer/
+                - generic [ref=e725]: LEARN MORE
+            - generic [ref=e726]:
+              - img [ref=e731]
+              - link "MOTORCYCLE ACCIDENTS" [ref=e742] [cursor=pointer]:
+                - /url: /motorcycle-accident-lawyer/
+              - link "LEARN MORE" [ref=e746] [cursor=pointer]:
+                - /url: /motorcycle-accident-lawyer/
+                - generic [ref=e748]: LEARN MORE
+            - generic [ref=e749]:
+              - img [ref=e754]
+              - link "CONSTRUCTION ACCIDENTS" [ref=e765] [cursor=pointer]:
+                - /url: https://www.chopranocerino.com/new-york-construction-accident-lawyer/
+              - link "LEARN MORE" [ref=e769] [cursor=pointer]:
+                - /url: https://www.chopranocerino.com/new-york-construction-accident-lawyer/
+                - generic [ref=e771]: LEARN MORE
+            - generic [ref=e772]:
+              - img [ref=e777]
+              - link "PREMISES LIABILITY" [ref=e788] [cursor=pointer]:
+                - /url: /premises-liability-lawyer/
+              - link "LEARN MORE" [ref=e792] [cursor=pointer]:
+                - /url: /premises-liability-lawyer/
+                - generic [ref=e794]: LEARN MORE
+            - generic [ref=e795]:
+              - img [ref=e800]
+              - link "SLIP AND FALLS" [ref=e811] [cursor=pointer]:
+                - /url: /slip-and-fall-accident-lawyer/
+              - link "LEARN MORE" [ref=e815] [cursor=pointer]:
+                - /url: /slip-and-fall-accident-lawyer/
+                - generic [ref=e817]: LEARN MORE
+            - generic [ref=e818]:
+              - img [ref=e823]
+              - link "TRAUMATIC BRAIN INJURIES" [ref=e834] [cursor=pointer]:
+                - /url: /traumatic-brain-injury-lawyer/
+              - link "LEARN MORE" [ref=e838] [cursor=pointer]:
+                - /url: /traumatic-brain-injury-lawyer/
+                - generic [ref=e840]: LEARN MORE
+            - generic [ref=e841]:
+              - img [ref=e846]
+              - link "BURN INJURIES" [ref=e857] [cursor=pointer]:
+                - /url: /burn-injury-lawyer/
+              - link "LEARN MORE" [ref=e861] [cursor=pointer]:
+                - /url: /burn-injury-lawyer/
+                - generic [ref=e863]: LEARN MORE
+            - generic [ref=e864]:
+              - img [ref=e869]
+              - link "WRONGFUL DEATH" [ref=e880] [cursor=pointer]:
+                - /url: /wrongful-death-lawyer/
+              - link "LEARN MORE" [ref=e884] [cursor=pointer]:
+                - /url: /wrongful-death-lawyer/
+                - generic [ref=e886]: LEARN MORE
+          - generic [ref=e887]:
+            - generic [ref=e888]:
+              - heading "We Are Real Deal New Yorkers Who Will Step Up to the Plate for You When You Need Us Most" [level=2] [ref=e891]
+              - generic [ref=e893]:
+                - paragraph [ref=e894]: When you suffer serious injuries in an accident, you get one chance to fight for the financial compensation you deserve. Insurance companies will use every trick in the book to avoid compensating you fairly. They have in-house teams of defense lawyers who represent their interests. Their goal? Preventing you from getting the full and fair compensation you are entitled to and pocketing the rest.
+                - paragraph [ref=e895]: You can level the playing field by working with our all-star team of injury attorneys in Garden City, NY. When you work with us, you can rest assured that your case is in capable hands. Our compassionate and supportive personal injury lawyers will hit whatever curveball the insurance company handling your claim throws our way.
+                - paragraph [ref=e896]: "We understand that dealing with the ins and outs of a lawsuit is probably the last thing you want to do as you recover from your injuries. Let our Garden City law firm handle everything for you. Among other things, our services include:"
+                - list [ref=e897]:
+                  - listitem [ref=e898]:
+                    - strong [ref=e899]: Conducting a thorough investigation of your accident to find out who is liable.
+                  - listitem [ref=e900]:
+                    - strong [ref=e901]: Gathering all available evidence before it disappears or deteriorates.
+                  - listitem [ref=e902]:
+                    - strong [ref=e903]: Handling all correspondence with insurers so you can focus on your recovery and family.
+                  - listitem [ref=e904]:
+                    - strong [ref=e905]: Work hard to prove that you were not at fault for the accident if the insurance company tries to pin the blame on you.
+                  - listitem [ref=e906]:
+                    - strong [ref=e907]: Reviewing your medical records and calculating your full and fair compensation.
+                  - listitem [ref=e908]:
+                    - strong [ref=e909]: Working with experts, such as doctors, accident reconstruction specialists, and forensic analysts, to substantiate your claim.
+                  - listitem [ref=e910]:
+                    - strong [ref=e911]: Negotiating a settlement or taking your case to trial if the insurance company refuses to pay what you deserve.
+                  - listitem [ref=e912]:
+                    - strong [ref=e913]: Negotiating with your medical providers to reduce your medical bills and keep your money where it belongs, in your pocket.
+            - img "Sameer Chopra and Alex Nocerino at the UBS Arena in front of the NY Islander ice rink" [ref=e916]
+          - generic [ref=e918]:
+            - heading "OUR PERSONAL INJURY TEAM" [level=2] [ref=e923]
+            - generic [ref=e927]:
+              - region "Carousel" [ref=e928]:
+                - generic [ref=e929]:
+                  - group "1 of 8" [ref=e930]:
+                    - generic [ref=e932]:
+                      - link "The image features Sameer Chopra, partner of Chopra & Nocerino Law Firm." [ref=e935] [cursor=pointer]:
+                        - /url: /attorneys/sameer-chopra/
+                        - img "The image features Sameer Chopra, partner of Chopra & Nocerino Law Firm." [ref=e936]
+                      - heading "SAMEER CHOPRA" [level=3] [ref=e939]:
+                        - link "SAMEER CHOPRA" [ref=e940] [cursor=pointer]:
+                          - /url: https://www.chopranocerino.com/attorneys/sameer-chopra/
+                      - paragraph [ref=e943]: Managing Partner
+                  - group "2 of 8" [ref=e944]:
+                    - generic [ref=e946]:
+                      - link "This is an image of Alex Nocerino, Partner of Chopra & Nocerino Law Firm" [ref=e949] [cursor=pointer]:
+                        - /url: /attorneys/alex-nocerino/
+                        - img "This is an image of Alex Nocerino, Partner of Chopra & Nocerino Law Firm" [ref=e950]
+                      - heading "ALEX NOCERINO" [level=3] [ref=e953]:
+                        - link "ALEX NOCERINO" [ref=e954] [cursor=pointer]:
+                          - /url: https://www.chopranocerino.com/attorneys/alex-nocerino/
+                      - paragraph [ref=e957]: Managing Partner
+                  - group "3 of 8" [ref=e958]:
+                    - generic [ref=e960]:
+                      - link "This is an image of Todd Arbesfeld is an associate at Chopra & Nocerino, LLP." [ref=e963] [cursor=pointer]:
+                        - /url: /attorneys/todd-arbesfeld/
+                        - img "This is an image of Todd Arbesfeld is an associate at Chopra & Nocerino, LLP." [ref=e964]
+                      - heading "TODD ARBESFELD" [level=3] [ref=e967]:
+                        - link "TODD ARBESFELD" [ref=e968] [cursor=pointer]:
+                          - /url: https://www.chopranocerino.com/attorneys/todd-arbesfeld/
+                      - generic [ref=e970]: Associate Attorney
+                  - group "4 of 8" [ref=e971]:
+                    - generic [ref=e973]:
+                      - link "Image of Pavlo Pavlatos is an associate at Chopra & Nocerino, LLP." [ref=e976] [cursor=pointer]:
+                        - /url: /attorneys/pavlo-pavlatos/
+                        - img "Image of Pavlo Pavlatos is an associate at Chopra & Nocerino, LLP." [ref=e977]
+                      - heading "PAVLO PAVLATOS" [level=3] [ref=e980]:
+                        - link "PAVLO PAVLATOS" [ref=e981] [cursor=pointer]:
+                          - /url: https://www.chopranocerino.com/attorneys/pavlo-pavlatos/
+                      - paragraph [ref=e984]: Associate Attorney
+                  - group "5 of 8" [ref=e985]:
+                    - generic [ref=e987]:
+                      - link "Image of Christine Duchatellier who is an associate at Chopra & Nocerino, LLP." [ref=e990] [cursor=pointer]:
+                        - /url: /attorneys/christine-duchatellier/
+                        - img "Image of Christine Duchatellier who is an associate at Chopra & Nocerino, LLP." [ref=e991]
+                      - heading "CHRISTINE DUCHATELLIER" [level=3] [ref=e994]:
+                        - link "CHRISTINE DUCHATELLIER" [ref=e995] [cursor=pointer]:
+                          - /url: https://www.chopranocerino.com/attorneys/christine-duchatellier/
+                      - paragraph [ref=e998]: Associate Attorney
+                  - group "6 of 8" [ref=e999]:
+                    - generic [ref=e1001]:
+                      - link "Personal injury lawyer Hassan Ahmed" [ref=e1004] [cursor=pointer]:
+                        - /url: /attorneys/hassan-ahmed/
+                        - img "Personal injury lawyer Hassan Ahmed" [ref=e1005]
+                      - heading "HASSAN AHMED" [level=3] [ref=e1008]:
+                        - link "HASSAN AHMED" [ref=e1009] [cursor=pointer]:
+                          - /url: /attorneys/hassan-ahmed/
+                      - paragraph [ref=e1012]: Associate Attorney
+                  - group "7 of 8" [ref=e1013]:
+                    - generic [ref=e1015]:
+                      - link "Taeshin Kyle Kim, associate injury attorney at Chopra Nocerino" [ref=e1018] [cursor=pointer]:
+                        - /url: /attorneys/taeshin-kyle-kim/
+                        - img "Taeshin Kyle Kim, associate injury attorney at Chopra Nocerino" [ref=e1019]
+                      - heading "TAESHIN KYLE KIM" [level=3] [ref=e1022]:
+                        - link "TAESHIN KYLE KIM" [ref=e1023] [cursor=pointer]:
+                          - /url: /attorneys/taeshin-kyle-kim/
+                          - text: TAESHIN
+                          - text: KYLE KIM
+                      - paragraph [ref=e1026]: Associate Attorney
+                  - group "8 of 8" [ref=e1027]:
+                    - generic [ref=e1029]:
+                      - link "Michael Heffernan, accident attorney with round orange frame" [ref=e1032] [cursor=pointer]:
+                        - /url: /attorneys/michael-heffernan/
+                        - img "Michael Heffernan, accident attorney with round orange frame" [ref=e1033]
+                      - heading "MICHAEL HEFFERNAN" [level=3] [ref=e1036]:
+                        - link "MICHAEL HEFFERNAN" [ref=e1037] [cursor=pointer]:
+                          - /url: /attorneys/michael-heffernan/
+                      - paragraph [ref=e1040]: Associate Attorney
+              - button "Previous" [ref=e1041] [cursor=pointer]:
+                - img [ref=e1042]
+              - button "Next" [ref=e1044] [cursor=pointer]:
+                - img [ref=e1045]
+          - img "An orange streak" [ref=e1051]
+          - generic [ref=e1053]:
+            - generic [ref=e1054]:
+              - heading "Waiting Too Long to Contact Us Could Lead to Your Case Being Dismissed in Court" [level=2] [ref=e1057]
+              - generic [ref=e1059]:
+                - paragraph [ref=e1060]:
+                  - text: If you or someone you love was injured in an accident, it is important to contact a personal injury attorney as soon as possible.
+                  - link "The New York statute of limitations" [ref=e1061] [cursor=pointer]:
+                    - /url: /faqs/new-york-personal-injury-statute-of-limitations/
+                  - text: requires that most personal injury lawsuits be filed within
+                  - link "three years" [ref=e1062] [cursor=pointer]:
+                    - /url: https://www.nysenate.gov/legislation/laws/CVP/214
+                  - text: from the date of injury or
+                  - link "two years" [ref=e1063] [cursor=pointer]:
+                    - /url: https://www.nysenate.gov/legislation/laws/EPT/5-4.1
+                  - text: from the date of death. These deadlines are strictly enforced. If you file after they pass, you will most likely lose your chance to pursue compensation for your injuries and losses.
+                - paragraph [ref=e1064]: To build the strongest claim possible, we will need time to prepare your case ahead of the filing deadline. Further, the sooner you reach out to us, the sooner we can start gathering evidence before it is tampered with or disappears altogether.
+            - img "New York accident attorneys, Alex Nocerino and Sameer Chopra fist bumping" [ref=e1068]
+            - generic [ref=e1069]:
+              - heading "GET STARTED ON YOUR NEW YORK CITY AND WEST NASSAU PERSONAL INJURY CASE BY CALLING ON CHOPRA & NOCERINO" [level=2] [ref=e1072]
+              - generic [ref=e1074]:
+                - paragraph [ref=e1075]:
+                  - text: Our New York personal injury and accident law firm provides
+                  - link "free, no-obligation consultations" [ref=e1076] [cursor=pointer]:
+                    - /url: /contact/
+                  - text: . During your consultation, we will ask questions about your accident, give you an idea of what your case may be worth, and make sure you know your full legal rights and options. This will also be your opportunity to ask your own questions about your case and our services.
+                - paragraph [ref=e1077]: "To prepare for this meeting, you should bring all the evidence you’ve been able to gather on your own. This may include things like:"
+              - list [ref=e1081]:
+                - listitem [ref=e1082]:
+                  - img [ref=e1084]
+                  - generic [ref=e1090]: Names and contact information of witnesses.
+                - listitem [ref=e1091]:
+                  - img [ref=e1093]
+                  - generic [ref=e1099]: The names, addresses, and contact information of your medical providers.
+                - listitem [ref=e1100]:
+                  - img [ref=e1102]
+                  - generic [ref=e1108]: Records and receipts for any medical treatment you have received.
+                - listitem [ref=e1109]:
+                  - img [ref=e1111]
+                  - generic [ref=e1117]: Pictures and video footage you have of the accident or its aftermath.
+                - listitem [ref=e1118]:
+                  - img [ref=e1120]
+                  - generic [ref=e1126]: A police report if you have one.
+                - listitem [ref=e1127]:
+                  - img [ref=e1129]
+                  - generic [ref=e1135]: The names of any suspected at-fault parties.
+              - generic [ref=e1137]:
+                - paragraph [ref=e1138]: If you decide to move forward with our Garden City law firm, we will deal with insurance companies and even help you manage your medical care if needed. We charge nothing upfront, and you will never pay us anything unless we win your case.
+                - paragraph [ref=e1139]: If you have been injured in an accident in the five boroughs due to someone else’s carelessness, you deserve justice, accountability, and compensation. Our hard-working injury attorneys in the Greater New York Region are here to help injury victims throughout our community.
+                - paragraph [ref=e1140]: Our playing field is the courtroom, and we have what it takes to hit a home run at the settlement table and in front of a jury. Contact us today to schedule your free consultation with an experienced, knowledgeable, and compassionate New York personal injury attorney. To better serve our community, we offer services in English and in Spanish.
+              - generic [ref=e1141]:
+                - generic [ref=e1144]: THE EXCLUSIVE PERSONAL INJURY LAW FIRM FOR NYC SPORTS FANS
+                - generic [ref=e1145]:
+                  - generic [ref=e1146]:
+                    - img "Mets Logo" [ref=e1149]
+                    - img "Brooklyn Nets basketball logo" [ref=e1152]
+                    - img "NY Islanders logo" [ref=e1155]
+                  - generic [ref=e1160]:
+                    - img "This image shows the logo of USB Arena" [ref=e1163]
+                    - img "blue Barclays Center logo" [ref=e1166]
+              - generic [ref=e1177]:
+                - generic [ref=e1179]:
+                  - generic [ref=e1180]:
+                    - generic [ref=e1181]:
+                      - text: First Name
+                      - generic [ref=e1182]: "* *"
+                    - textbox "First Name *" [ref=e1184]
+                  - generic [ref=e1185]:
+                    - generic [ref=e1186]:
+                      - text: Last Name
+                      - generic [ref=e1187]: "* *"
+                    - textbox "Last Name *" [ref=e1189]
+                  - generic [ref=e1190]:
+                    - generic [ref=e1191]:
+                      - text: Email Address
+                      - generic [ref=e1192]: "* *"
+                    - textbox "Email Address *" [ref=e1194]
+                  - generic [ref=e1195]:
+                    - generic [ref=e1196]:
+                      - text: Phone Number
+                      - generic [ref=e1197]: "* *"
+                    - textbox "Phone Number *" [ref=e1199]
+                  - generic [ref=e1200]:
+                    - generic [ref=e1201]:
+                      - text: How can we help you?
+                      - generic [ref=e1202]: "* *"
+                    - textbox "How can we help you? *" [ref=e1204]:
+                      - /placeholder: Message
+                  - generic [ref=e1205]: CAPTCHA
+                - button "SEND TO OUR TEAM" [ref=e1207] [cursor=pointer]
+    - contentinfo [ref=e1208]:
+      - generic [ref=e1210]:
+        - region "Image Carousel" [ref=e1213]:
+          - generic [ref=e1214]:
+            - group "1 of 10" [ref=e1215]:
+              - figure [ref=e1216]:
+                - img "Trial Lawyers Logo" [ref=e1217]
+            - group "2 of 10" [ref=e1218]:
+              - figure [ref=e1219]:
+                - img "President's circle award badge" [ref=e1220]
+            - group "3 of 10" [ref=e1221]:
+              - figure [ref=e1222]:
+                - img "Lead Counsel Logo" [ref=e1223]
+            - group "4 of 10" [ref=e1224]:
+              - figure [ref=e1225]:
+                - img "10 Best Attorney 2026 Award" [ref=e1226]
+            - group "5 of 10" [ref=e1227]:
+              - figure [ref=e1228]:
+                - img "SuperLawyers 2025" [ref=e1229]
+            - group "6 of 10" [ref=e1230]:
+              - figure [ref=e1231]:
+                - img "Best Truck Accident Lawyers in NYC - Expertise.com Award" [ref=e1232]
+            - group "7 of 10" [ref=e1233]:
+              - figure [ref=e1234]:
+                - img "Top Lawyer Logo" [ref=e1235]
+            - group "8 of 10" [ref=e1236]:
+              - figure [ref=e1237]:
+                - img "National Association of Distinguished Counsel Logo" [ref=e1238]
+            - group "9 of 10" [ref=e1239]:
+              - figure [ref=e1240]:
+                - img "Forbes Advisor featured partner - top new york personal injury attorney" [ref=e1241]
+            - group "10 of 10" [ref=e1242]:
+              - figure [ref=e1243]:
+                - img "Logo" [ref=e1244]
+        - generic [ref=e1246]:
+          - generic [ref=e1249]:
+            - generic [ref=e1250]:
+              - img "Mets Logo" [ref=e1253]
+              - img "Brooklyn Nets basketball logo" [ref=e1256]
+              - img "NY Islanders Logo" [ref=e1259]
+            - img "White UBS Logo" [ref=e1262]
+            - img "blue Barclays Center logo" [ref=e1265]
+          - generic [ref=e1267]:
+            - paragraph [ref=e1270]: Chopra & Nocerino, Injury & Accident Attorneys
+            - paragraph [ref=e1273]:
+              - link "Western Nassau County Office" [ref=e1274] [cursor=pointer]:
+                - /url: /contact/
+                - generic [ref=e1275]: Western Nassau County Office
+              - text: 100 Quentin Roosevelt Blvd
+              - text: Unit 107
+              - text: Garden City, NY 11530
+            - paragraph [ref=e1278]:
+              - link "855-NYC-HURT" [ref=e1280] [cursor=pointer]:
+                - /url: tel:855-692-4878
+                - strong [ref=e1281]: 855-NYC-HURT
+            - paragraph [ref=e1284]:
+              - link "Map & Directions" [ref=e1286] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Chopra+%26+Nocerino,+LLP/@40.730156,-73.603854,15z/data=!4m2!3m1!1s0x0:0x5753a887839b60bd?sa=X&ved=2ahUKEwi4qKa94LKCAxVsQTABHSL9ATsQ_BJ6BAhEEAA
+          - generic [ref=e1288]:
+            - generic [ref=e1289]:
+              - generic [ref=e1291]: © 2026 Chopra & Nocerino | All Rights Reserved
+              - paragraph [ref=e1294]:
+                - link "Disclaimer" [ref=e1295] [cursor=pointer]:
+                  - /url: /disclaimer/
+                - text: "|"
+                - link "Site Map" [ref=e1296] [cursor=pointer]:
+                  - /url: /site-map/
+                - text: "|"
+                - link "Privacy Policy" [ref=e1297] [cursor=pointer]:
+                  - /url: /privacy/
+            - list [ref=e1300]:
+              - listitem [ref=e1301]:
+                - link "Instagram" [ref=e1302] [cursor=pointer]:
+                  - /url: https://www.instagram.com/chopranocerino/
+                  - generic [ref=e1303]: Instagram
+                  - img [ref=e1304]
+              - listitem [ref=e1306]:
+                - link "Facebook" [ref=e1307] [cursor=pointer]:
+                  - /url: https://www.facebook.com/ChopraNocerinoLLP/
+                  - generic [ref=e1308]: Facebook
+                  - img [ref=e1309]
+              - listitem [ref=e1311]:
+                - link [ref=e1312] [cursor=pointer]:
+                  - /url: https://x.com/ChopraNocerino
+                  - img [ref=e1314]
+              - listitem [ref=e1316]:
+                - link "Linkedin" [ref=e1317] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/chopranocerino/
+                  - generic [ref=e1318]: Linkedin
+                  - img [ref=e1319]
+              - listitem [ref=e1321]:
+                - link "Youtube" [ref=e1322] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCmB6yN1Ex5Dq3TMSDsaF_sQ/
+                  - generic [ref=e1323]: Youtube
+                  - img [ref=e1324]

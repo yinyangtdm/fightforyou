@@ -9,7 +9,7 @@ const FIELDS_PROMPT = `Return only a JSON object with these exact keys (omit key
 - tagline (string — short memorable nickname-style description, ideally 3–6 words, that captures the essence of the lawyer or firm and uniquely distinguishes them; e.g. "The National Police Accountability Firm" or "Chicago's Relentless Civil Rights Advocate")
 - email (string)
 - phone (string)
-- description (string — ORIGINAL 3–5 paragraph bio, authoritative tone, focusing on their history taking on police and government entities — track record, notable cases, approach, reputation. Do NOT copy sentences from source material. Separate paragraphs with \\n\\n so the JSON stays valid.)
+- description (string — 3–5 paragraph bio, authoritative tone, focusing on their history taking on police and government entities — track record, notable cases, approach, reputation. Separate paragraphs with \\n\\n so the JSON stays valid.)
 - streetAddress (string — ONLY include if explicitly stated in the source material; do NOT guess or infer)
 - city (string — ONLY include if explicitly stated in the source material; do NOT guess or infer)
 - state (2-letter US state abbreviation — ONLY include if explicitly stated in the source material; do NOT guess or infer)

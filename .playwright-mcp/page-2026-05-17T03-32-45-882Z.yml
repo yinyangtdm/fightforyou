@@ -1,0 +1,239 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "The Erlich Law Office" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img "The Erlich Law Office" [ref=e10]
+          - generic [ref=e11]:
+            - link "Call Us Today" [ref=e13] [cursor=pointer]:
+              - /url: /contact-us/
+            - link "(703) 791-9087" [ref=e16] [cursor=pointer]:
+              - /url: tel:+17037919087
+        - navigation [ref=e17]:
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Home" [ref=e21] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e22]:
+              - link "Attorney Profiles" [ref=e23] [cursor=pointer]:
+                - /url: /lawyers/
+            - listitem [ref=e24]:
+              - link "Practice Areas" [ref=e25] [cursor=pointer]:
+                - /url: /practice-areas/
+            - listitem [ref=e26]:
+              - link "Local Counsel Services" [ref=e27] [cursor=pointer]:
+                - /url: /local-counsel-services/
+            - listitem [ref=e28]:
+              - link "Contact Us" [ref=e29] [cursor=pointer]:
+                - /url: /contact-us/
+            - listitem [ref=e30] [cursor=pointer]:
+              - link "More" [ref=e31]:
+                - /url: "#"
+    - banner [ref=e32]:
+      - generic [ref=e35]:
+        - img "Main_Image_Banner.jpg" [ref=e36]
+        - generic [ref=e40]:
+          - text: EMPLOYMENT, CIVIL RIGHTS,
+          - text: AND LITIGATION SOLUTIONS
+    - main [ref=e41]:
+      - generic [ref=e46]:
+        - generic [ref=e47]: slide 1 to 3 of 10
+        - generic [ref=e50]:
+          - img [ref=e53]
+          - img [ref=e56]
+          - img [ref=e59]
+          - img [ref=e62]
+          - img [ref=e65]
+          - img [ref=e68]
+          - img [ref=e71]
+          - img [ref=e74]
+          - img [ref=e77]
+          - img [ref=e80]
+          - img "Avvo Rating 9.9 Top Attorney Employment" [ref=e83]
+          - img "Rated by Super Lawyers" [ref=e86]
+          - img "Virgina Equality Bar Association" [ref=e89]
+          - img [ref=e92]
+          - img [ref=e95]
+          - img [ref=e98]
+          - img [ref=e101]
+          - img [ref=e104]
+          - img [ref=e107]
+          - img [ref=e110]
+          - img [ref=e113]
+          - img [ref=e116]
+          - img [ref=e119]
+          - img [ref=e122]
+          - img [ref=e125]
+          - img [ref=e128]
+          - img [ref=e131]
+          - img [ref=e134]
+          - img [ref=e137]
+          - img [ref=e140]
+      - generic [ref=e142]:
+        - heading "Northern Virginia Employment Lawyers" [level=1] [ref=e143]
+        - generic [ref=e144]:
+          - heading "YOUR RIGHTS MATTER • YOU DESERVE TO BE FREE FROM HARASSMENT • YOU DESERVE TO WORK" [level=2] [ref=e145]
+          - paragraph [ref=e146]: Our job is to understand your rights. Give our Northern Virginia employment lawyers a call or come in for a consultation to find out if we can help you protect your rights.
+          - heading "Workplace Discrimination" [level=2] [ref=e147]
+          - paragraph [ref=e148]: A workplace should not be discriminatory. It should not be hostile. These sorts of environments chip away at the self-confidence of employees and prevent individuals from taking pride in their work. These environments can also create additional stress, causing individuals to lose sleep or develop other stress-related health disorders. Individuals undergoing harassment or discrimination at work can see their personal lives suffer, bringing tension into their homes and straining relationships with friends and family. When these situations arise, our Northern Virginia employment attorneys can help.
+          - paragraph [ref=e151]: We can help you get the compensation you deserve, such as lost wages, compensation for emotional harm, or future wages that you would have earned if you had been treated fairly.
+          - link "Learn More" [ref=e153] [cursor=pointer]:
+            - /url: "#ui-narrative-3"
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - heading "Practice Areas" [level=2] [ref=e156]:
+            - link "Practice Areas" [ref=e157] [cursor=pointer]:
+              - /url: /practice-areas/
+          - generic [ref=e159]:
+            - link "Employment Law Employment Law The Erlich Law Office prides itself on working with..." [ref=e161] [cursor=pointer]:
+              - /url: /practice-areas/employment-law/
+              - img "Employment Law" [ref=e164]
+              - generic [ref=e165]:
+                - strong [ref=e166]: Employment Law
+                - generic [ref=e167]: The Erlich Law Office prides itself on working with...
+            - link "Civil Litigation Civil Litigation We provide experienced and aggressive representation in..." [ref=e169] [cursor=pointer]:
+              - /url: /practice-areas/civil-litigation/
+              - img "Civil Litigation" [ref=e172]
+              - generic [ref=e173]:
+                - strong [ref=e174]: Civil Litigation
+                - generic [ref=e175]: We provide experienced and aggressive representation in...
+            - link "Civil Rights Civil Rights The Erlich Law Office proudly represents individuals who..." [ref=e177] [cursor=pointer]:
+              - /url: /practice-areas/civil-rights/
+              - img "Civil Rights" [ref=e180]
+              - generic [ref=e181]:
+                - strong [ref=e182]: Civil Rights
+                - generic [ref=e183]: The Erlich Law Office proudly represents individuals who...
+          - link "View More" [ref=e185] [cursor=pointer]:
+            - /url: /practice-areas/
+        - generic [ref=e186]:
+          - heading "Meet Our Team" [level=2] [ref=e187]:
+            - link "Meet Our Team" [ref=e188] [cursor=pointer]:
+              - /url: /lawyers/
+          - generic [ref=e191]:
+            - link "Joshua Erlich Joshua Erlich Partner Josh’s practice focuses heavily on finding ways to use the law to help people who have been treated unfairly. Often times, he litigates employment cases, negotiates severances agreements, or handles other workplace disputes. Other times, though, Josh handles varied matters ranging from assault and..." [ref=e193] [cursor=pointer]:
+              - /url: /lawyers/joshua-erlich/
+              - img "Joshua Erlich" [ref=e196]
+              - generic [ref=e197]:
+                - strong [ref=e198]: Joshua Erlich
+                - generic [ref=e199]: Partner
+                - generic [ref=e200]: Josh’s practice focuses heavily on finding ways to use the law to help people who have been treated unfairly. Often times, he litigates employment cases, negotiates severances agreements, or handles other workplace disputes. Other times, though, Josh handles varied matters ranging from assault and...
+            - link "Katherine Herrmann Katherine Herrmann Partner Katie is passionate about educating and empowering others, and utilizes her legal experience to help individuals understand and resolve their legal issues. Although interested in a diverse range of legal fields, Katie is enthusiastic about advocating for the rights of others in matters of..." [ref=e202] [cursor=pointer]:
+              - /url: /lawyers/katherine-herrmann/
+              - img "Katherine Herrmann" [ref=e205]
+              - generic [ref=e206]:
+                - strong [ref=e207]: Katherine Herrmann
+                - generic [ref=e208]: Partner
+                - generic [ref=e209]: Katie is passionate about educating and empowering others, and utilizes her legal experience to help individuals understand and resolve their legal issues. Although interested in a diverse range of legal fields, Katie is enthusiastic about advocating for the rights of others in matters of...
+          - link "View More" [ref=e211] [cursor=pointer]:
+            - /url: /lawyers/
+        - generic [ref=e212]:
+          - heading "Virginia Employment Law Blog" [level=2] [ref=e213]:
+            - link "Virginia Employment Law Blog" [ref=e214] [cursor=pointer]:
+              - /url: https://www.virginiaemploymentlawblog.com/
+          - link "View More" [ref=e217] [cursor=pointer]:
+            - /url: https://www.virginiaemploymentlawblog.com/
+        - generic [ref=e218]:
+          - heading "How Can We Help?" [level=2] [ref=e219]:
+            - link "How Can We Help?" [ref=e220] [cursor=pointer]:
+              - /url: /contact-us/
+          - generic [ref=e222]:
+            - link "hands icon Are You an Employer?" [ref=e223] [cursor=pointer]:
+              - /url: /questionnaire-forms/for-employer/
+              - img "hands icon" [ref=e226]
+              - strong [ref=e228]: Are You an Employer?
+            - link "person icon Are You an Employee?" [ref=e229] [cursor=pointer]:
+              - /url: /questionnaire-forms/for-employee/
+              - img "person icon" [ref=e232]
+              - strong [ref=e234]: Are You an Employee?
+            - link "gavel icon Were Your Civil Rights Violated?" [ref=e235] [cursor=pointer]:
+              - /url: /questionnaire-forms/civil-rights-questionnaire/
+              - img "gavel icon" [ref=e238]
+              - strong [ref=e240]: Were Your Civil Rights Violated?
+            - link "Unlawful-Dwellings-1.png Do You Need to File a Civil Lawsuit?" [ref=e241] [cursor=pointer]:
+              - /url: /questionnaire-forms/civil-litigation-questionnaire/
+              - img "Unlawful-Dwellings-1.png" [ref=e244]
+              - strong [ref=e246]: Do You Need to File a Civil Lawsuit?
+    - contentinfo [ref=e247]:
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - link "The Erlich Law Office" [ref=e251] [cursor=pointer]:
+            - /url: /
+            - img "The Erlich Law Office" [ref=e253]
+          - generic [ref=e255]:
+            - generic [ref=e256]: "1550 Wilson Blvd #700"
+            - paragraph [ref=e258]: Arlington, VA 22209
+            - generic [ref=e260]:
+              - strong [ref=e261]: "Phone:"
+              - link "(703) 791-9087" [ref=e262] [cursor=pointer]:
+                - /url: tel:+17037919087
+          - generic [ref=e263]:
+            - generic [ref=e265]:
+              - link "Facebook Icon" [ref=e267] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheErlichLawOffice
+                - img "Facebook Icon" [ref=e268]
+              - link "LinkedIn Icon" [ref=e270] [cursor=pointer]:
+                - /url: http://www.linkedin.com/company/the-erlich-law-office-pllc
+                - img "LinkedIn Icon" [ref=e271]
+              - link "Justia Icon" [ref=e273] [cursor=pointer]:
+                - /url: https://lawyers.justia.com/firm/the-erlich-law-office-59366
+                - img "Justia Icon" [ref=e274]
+            - generic [ref=e276]: "We serve the following localities: Alexandria; Arlington; Fairfax; Falls Church; Fairfax County including Annandale, Burke, Centreville, Chantilly, Clifton, Great Falls, Herndon, Lorton, McLean, Mount Vernon, Newington, Springfield, West Falls Church, West Springfield, and Vienna; Loudoun County including Leesburg and Sterling; and Prince William County including Dale City and Manassas. ›"
+          - navigation [ref=e277]:
+            - list [ref=e279]:
+              - listitem [ref=e280]:
+                - link "Home" [ref=e281] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e282]:
+                - link "Disclaimer" [ref=e283] [cursor=pointer]:
+                  - /url: /disclaimer/
+              - listitem [ref=e284]:
+                - link "Privacy Policy" [ref=e285] [cursor=pointer]:
+                  - /url: /privacy-policy/
+              - listitem [ref=e286]:
+                - link "Site Map" [ref=e287] [cursor=pointer]:
+                  - /url: /sitemap/
+              - listitem [ref=e288]:
+                - link "Contact Us" [ref=e289] [cursor=pointer]:
+                  - /url: /contact-us/
+          - paragraph [ref=e291]: Northern Virginia Employment Lawyer | Arlington Wage & Hour Attorney | The Erlich Law Office
+          - generic [ref=e292]:
+            - paragraph [ref=e293]:
+              - link "California Consumer Privacy Act (CCPA) Opt-Out Icon Your Privacy Choices" [ref=e294] [cursor=pointer]:
+                - /url: /your-privacy-choices/
+                - img "California Consumer Privacy Act (CCPA) Opt-Out Icon" [ref=e295]
+                - text: Your Privacy Choices
+              - link "Cookie Policy" [ref=e296] [cursor=pointer]:
+                - /url: /cookie-policy/
+              - link "Manage Cookies" [ref=e297] [cursor=pointer]:
+                - /url: "#"
+            - paragraph [ref=e298]:
+              - text: This site is protected by reCAPTCHA and the
+              - link "Google Privacy Policy" [ref=e299] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy
+              - text: and
+              - link "Terms of Service" [ref=e300] [cursor=pointer]:
+                - /url: https://policies.google.com/terms
+              - text: apply.
+            - paragraph [ref=e301]: Please do not include any confidential or sensitive information in a contact form, text message, or voicemail. The contact form sends information by non-encrypted email, which is not secure. Submitting a contact form, sending a text message, making a phone call, or leaving a voicemail does not create an attorney-client relationship.
+        - generic [ref=e303]:
+          - paragraph [ref=e304]:
+            - text: Copyright © 2026,
+            - link "The Erlich Law Office" [ref=e305] [cursor=pointer]:
+              - /url: /
+          - paragraph [ref=e306]:
+            - link "Justia Elevate | Websites for Lawyers" [ref=e307] [cursor=pointer]:
+              - /url: https://elevate.justia.com/websites/
+  - banner [ref=e308]:
+    - generic [ref=e309]:
+      - paragraph [ref=e310]:
+        - text: We use cookies for site operations, enhanced functionality, analytics, and marketing purposes. You can review our
+        - link "Cookie Policy" [ref=e311] [cursor=pointer]:
+          - /url: /cookie-policy/
+        - text: for more details.
+      - generic [ref=e312]:
+        - button "Accept All" [ref=e313] [cursor=pointer]
+        - button "Necessary Cookies Only" [ref=e314] [cursor=pointer]
+        - button "Manage Cookies" [ref=e315] [cursor=pointer]
+    - button "Close" [ref=e316] [cursor=pointer]: ×

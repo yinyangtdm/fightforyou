@@ -1,0 +1,6 @@
+[    2175ms] ReferenceError: wp is not defined
+    at wp-i18n-js-after:3:1
+[    2979ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://cdn-bbmoo.nitrocdn.com/tQalsmoWISkBiZuFXQcAHbWjsJGOAJVZ/assets/static/optimized/rev-7d6fd3d/bencrump.com/wp-includes/js/jquery/nitro-min-558973c0fd98109493258c8470e94016.jquery-migrate.min.js:1
+[    2983ms] [WARNING] you cached a dynamic script.  operation degraded @ https://cdn-bbmoo.nitrocdn.com/tQalsmoWISkBiZuFXQcAHbWjsJGOAJVZ/assets/static/optimized/rev-7d6fd3d/240840.tctm.co/nitro-min-t.js:2
+[    3076ms] Uncaught TypeError: Cannot read properties of null (reading 'length')
+    at <anonymous> (https://cdn-bbmoo.nitrocdn.com/tQalsmoWISkBiZuFXQcAHbWjsJGOAJVZ/assets/static/optimized/rev-7d6fd3d/bencrump.com/wp-content/themes/bencrump-rebuild/assets/app/js/nitro-min-5fb8144427f9f52388efcb7fd90481ca.main.js:0:10128)

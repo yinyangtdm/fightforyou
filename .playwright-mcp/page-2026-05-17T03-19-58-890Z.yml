@@ -1,0 +1,289 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "The Marcel Benavides Law Firm" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "The Marcel Benavides Law Firm" [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e10]: Get the Help You Need Today!
+        - generic [ref=e11]:
+          - text: "Consultations:"
+          - link "(248) 549-8555" [ref=e12] [cursor=pointer]:
+            - /url: tel:2485498555
+        - generic [ref=e13]: Se Habla Espanol
+  - generic [ref=e16]:
+    - generic [ref=e17]: Menu
+    - button [ref=e18] [cursor=pointer]
+  - generic [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - text: We Know
+        - text: the Criminal
+        - text: Justice
+        - text: System.
+      - generic [ref=e24]:
+        - text: As a former prosecutor & in-house counsel for the Chicago Police, Marcel Benavides has the experience you need to
+        - strong [ref=e25]: get results.
+    - generic [ref=e26]:
+      - generic [ref=e27]: "See How We Can Help:"
+      - link "Criminal Defense" [ref=e28] [cursor=pointer]:
+        - /url: /criminal-defense.html
+        - text: Criminal
+        - text: Defense
+      - link "Police Misconduct" [ref=e29] [cursor=pointer]:
+        - /url: /police-misconduct.html
+        - text: Police
+        - text: Misconduct
+  - generic [ref=e31]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - text: Our Results
+        - text: Speak Volumes
+      - generic [ref=e35]: Don't settle for an attorney that's in a hurry to settle. We're not afraid to fight for justice, and our history of success proves it.
+      - link "See Case Results play_circle_filled" [ref=e36] [cursor=pointer]:
+        - /url: /results.html
+        - text: See Case Results
+        - generic [ref=e37]: play_circle_filled
+    - generic [ref=e38]:
+      - generic [ref=e39]: “He was more than just an attorney, he believed in me."
+      - blockquote [ref=e40]:
+        - generic [ref=e41]: Retaining Marcel as my attorney was the start of a significant and positive direction in my life. He talked straight with me, and treated me as if I was the most important case he's ever had. He was able to get me a reduced sentence, despite having one of the toughest judges in Oakland County.
+      - link "Read More Testimonials" [ref=e42] [cursor=pointer]:
+        - /url: /testimonials.html
+  - generic [ref=e43]:
+    - generic [ref=e44]: What Makes Marcel the Best Choice for Defending Your Future?
+    - generic [ref=e45]:
+      - generic [ref=e47]:
+        - text: Over 15 Years
+        - text: of Experience
+      - generic [ref=e49]:
+        - text: Has Worked
+        - text: Thousands of Cases
+      - generic [ref=e51]:
+        - text: Personally
+        - text: Handles Every Case
+      - generic [ref=e53]:
+        - text: Former In-House
+        - text: Chicago Police Counsel
+    - link "Meet Marcel Benavides play_circle_filled" [ref=e55] [cursor=pointer]:
+      - /url: /meet-marcel.html
+      - text: Meet Marcel Benavides
+      - generic [ref=e56]: play_circle_filled
+  - generic [ref=e58]:
+    - main [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: Police Misconduct Results - Obtained One of the Highest Settlements Paid in the State of Michigan
+        - separator [ref=e62]
+        - generic [ref=e63]:
+          - heading "Police Misconduct - Framed for Murder (Malicious Prosecution)" [level=2] [ref=e64]
+          - 'heading "Result: Client was found ''not guilty'' and received a six-figure settlement." [level=3] [ref=e65]':
+            - strong [ref=e66]: "Result:"
+            - text: Client was found 'not guilty' and received a six-figure settlement.
+          - img "Criminal Defense Lawyer Detroit, MI | Marcel Benavides Law Firm - case1" [ref=e67]
+          - paragraph [ref=e68]: Our client was framed by Pontiac police officers for the attempted murder of a police officer. He went to trial in the criminal case and was found not guilty of all charges. Charges that would have put him in prison for nearly 40 years. We alleged in our civil lawsuit that the main officer lied in his police report, lied to the prosecutor, lied on the stand at the preliminary examination, and even on the stand at the trial. We conducted our own investigation and proved that the officer lied about where our client originally ran and "threw" a gun... that was because the officer who lied was not aware that our client was wearing a global positioning satellite device (GPS tether) from an unrelated criminal matter. This tether tracked him running in a different direction. Our client was vindicated in his criminal trial and this matter was settled for well over six figures.
+          - separator [ref=e69]
+        - generic [ref=e70]:
+          - heading "Police Brutality - Use of Excessive Force" [level=2] [ref=e71]
+          - 'heading "Result: Client received a six-figure settlement." [level=3] [ref=e72]':
+            - strong [ref=e73]: "Result:"
+            - text: Client received a six-figure settlement.
+          - img "Criminal Defense Lawyer Detroit, MI | Marcel Benavides Law Firm - case3" [ref=e74]
+          - paragraph [ref=e75]: Our client was tasered and punched numerous times by the officers simply because he did not wish to engage in a conversation with one of the officers. Numerous officers broke into his home and attacked him while he held his daughter. Our client called all of the attorneys on TV and they all told him nobody would ever believe him. I believed him and recovered nearly six figures for him.
+          - separator [ref=e76]
+          - generic [ref=e77]:
+            - text: Criminal Defense Results - We Don't Give Up Until Every Detail Of Your Case is Explored
+            - paragraph [ref=e78]
+          - separator [ref=e79]
+          - generic [ref=e80]:
+            - heading "Criminal Sexual Conduct - First Degree" [level=2] [ref=e81]
+            - 'heading "Result: All charges dropped." [level=3] [ref=e82]':
+              - strong [ref=e83]: "Result:"
+              - text: All charges dropped.
+            - img "Criminal Defense Lawyer Detroit, MI | Marcel Benavides Law Firm - case2" [ref=e84]
+            - paragraph [ref=e85]: My client was under investigation for alleged conduct that mandated decades in prison. The allegations against my client were extremely harsh. Once retained, I was able to conduct a thorough investigation prior to the detective presenting the case for charges to the prosecutor's office. Our very own investigation of text messages, online social media, digital media and other evidence allowed us to prove that the complaining witness lacked credibility and no charges were approved and/or issued by the Wayne County Prosecutor's Office.
+            - separator [ref=e86]
+    - complementary [ref=e87]:
+      - generic [ref=e89]:
+        - img "Criminal Defense Lawyer Detroit, MI | Marcel Benavides Law Firm - avvo-logo" [ref=e91]
+        - separator [ref=e92]
+        - heading "GREAT ATTORNEY" [level=4] [ref=e93]
+        - img "Criminal Defense Lawyer Detroit, MI | Marcel Benavides Law Firm - stars" [ref=e94]
+        - blockquote [ref=e95]:
+          - generic [ref=e96]: "Posted by Michelle, March 23, 2015:"
+          - generic [ref=e97]: I retained Marcel Benavides to represent my minor child in a police brutality case. Marcel was the perfect choice! He was very passionate in dealing with my son and making sure my son knew what was going on and what to expect at every turn. Marcel was able to get my son a fair and reasonable settlement in a timely manner, he also went above and beyond his "job" in talking to my son to help him face some emotional issues he was facing due to the police brutality. No matter what your reason for needing a lawyer is and no matter what age you are, I can only say...CALL MARCEL he will work hard for you!!
+        - separator [ref=e98]
+        - heading "Hands down the best money I've ever spent..." [level=4] [ref=e99]
+        - img "Criminal Defense Lawyer Detroit, MI | Marcel Benavides Law Firm - stars" [ref=e100]
+        - blockquote [ref=e101]:
+          - generic [ref=e102]: "Posted by Nadiya, July 16, 2014:"
+          - generic [ref=e103]: I hired Marcel to help me with 12 felony counts which would not only get me jail sentence but will guarantee my deportation for something that I wasn't fully a part of. Marcel worked hard to make sure that doesn't happen. Not only did he get the 12 counts dropped but reached out to an immigration lawyer to find a charge that will allow me to stay here. The prosecutor he was up against was not the most easy-going and the fact that he managed to get all of this done is a miracle!!
+        - paragraph [ref=e104]:
+          - strong [ref=e105]:
+            - link "See More Avvo Reviews play_circle_filled" [ref=e106] [cursor=pointer]:
+              - /url: https://www.avvo.com/attorneys/48009-mi-marcel-benavides-1031265/reviews.html
+              - text: See More Avvo Reviews
+              - generic [ref=e107]: play_circle_filled
+  - generic [ref=e109]:
+    - generic [ref=e110]: Contact Us Today for a Case Evaluation!
+    - generic [ref=e111]: Do you have questions or concerns regarding your personal legal situation? If so, now is the time to act! We stand ready to assist you, and encourage you to schedule an initial case evaluation with our skilled legal team right away.
+    - generic [ref=e112]:
+      - text: "Call:"
+      - link "(248) 549-8555" [ref=e113] [cursor=pointer]:
+        - /url: tel:2485498555
+  - generic [ref=e115]:
+    - main [ref=e116]:
+      - generic [ref=e117]:
+        - heading "Experienced Michigan Criminal Defense and Police Misconduct Attorney in Detroit, MI" [level=1] [ref=e118]
+        - img "Criminal Defense Lawyer Detroit, MI | Marcel Benavides Law Firm - home" [ref=e119]
+        - paragraph [ref=e120]:
+          - text: At The Marcel Benavides Law Firm, our team is committed to the practice of criminal defense, civil rights and police misconduct law in SE Michigan. We recognize how complicated these fields of law can be, and we do everything we can to ensure the rights of every client we represent are protected. At
+          - link "our firm" [ref=e121] [cursor=pointer]:
+            - /url: /meet-marcel.html
+          - text: ", we are proud to have"
+          - strong [ref=e122]: over 15 years of experience
+          - text: in handling these types of complex cases.
+        - separator [ref=e123]
+        - heading "By choosing The Marcel Benavides Law Firm, you can benefit from:" [level=2] [ref=e124]
+        - list [ref=e125]:
+          - listitem [ref=e126]: 15+ years of trial advocacy experience
+          - listitem [ref=e127]: Insider's perspective into law enforcement proceedings
+          - listitem [ref=e128]: Working with an attorney who is highly recommended by clients
+          - listitem [ref=e129]: Experience backed by thousands of misdemeanor and felony cases
+          - listitem [ref=e130]: A proven record of success in and out of court
+        - separator [ref=e131]
+        - heading "We Specialize in Getting Justice for Police Misconduct" [level=2] [ref=e132]
+        - paragraph [ref=e133]:
+          - text: Do you feel that you have been on the wrong side of law enforcement procedures? The Marcel Benavides Law Firm is proud to offer representation to individuals who have been the victim of
+          - link "police misconduct" [ref=e134] [cursor=pointer]:
+            - /url: /police-misconduct.html
+          - text: . Our founding attorney has experience as a
+          - strong [ref=e135]: former in-house legal counsel for the Chicago Police Department.
+        - paragraph [ref=e136]:
+          - text: During this time, our attorney was involved defending officers who were accused of misconduct. This insider's view and unique understanding of law enforcement proceedings can be beneficial to individuals who have been the victim of false arrest, malicious prosecution, excessive force, or police brutality.
+          - strong [ref=e137]: We offer a contingency-only fee contract for police misconduct victims, meaning you don't pay us unless we win.
+        - paragraph [ref=e138]:
+          - iframe [ref=e139]:
+            
+    - complementary [ref=e140]:
+      - generic [ref=e142]:
+        - generic [ref=e143]: Need Immediate Legal Advice?
+        - generic [ref=e144]: Get Your Case Evaluation
+        - generic [ref=e145]:
+          - generic [ref=e146]: "* Indicates required questions"
+          - generic [ref=e147]:
+            - generic [ref=e148]: Name *
+            - generic [ref=e149]:
+              - generic [ref=e151]:
+                - generic [ref=e152]: First Name
+                - textbox "First Name" [ref=e153]:
+                  - /placeholder: First
+              - generic [ref=e155]:
+                - generic [ref=e156]: Last Name
+                - textbox "Last Name" [ref=e157]:
+                  - /placeholder: Last
+          - generic [ref=e158]:
+            - generic [ref=e159]: Email *
+            - generic [ref=e160]:
+              - generic [ref=e161]: Email
+              - textbox "Email" [ref=e162]
+          - generic [ref=e163]:
+            - generic [ref=e164]: "Phone #"
+            - generic [ref=e165]:
+              - generic [ref=e166]: Mobile Phone
+              - textbox "Mobile Phone" [ref=e167]
+          - generic [ref=e168]:
+            - generic [ref=e170]: How can we help you? *
+            - generic [ref=e171]: How can we help you? *
+            - textbox "How can we help you? *" [ref=e173]
+          - generic [ref=e174]:
+            - generic [ref=e175]: "Enter:"
+            - textbox "Enter:" [ref=e176]
+          - button "Send Message" [ref=e178] [cursor=pointer]
+          - paragraph [ref=e179]:
+            - text: This site is protected by reCAPTCHA and the Google
+            - link "Privacy Policy" [ref=e180] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: and
+            - link "Terms of Service" [ref=e181] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: apply.
+  - contentinfo [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - link "a" [ref=e185] [cursor=pointer]:
+          - /url: https://www.facebook.com/The-Marcel-Benavides-Law-Office-881480855215043/
+          - generic [ref=e186]: a
+        - link "l" [ref=e187] [cursor=pointer]:
+          - /url: https://twitter.com/MBenavidesLaw
+          - generic [ref=e188]: l
+        - link "j" [ref=e189] [cursor=pointer]:
+          - /url: https://www.google.com/search?q=The+Marcel+Benavides+Law+Office&oq=The+Marcel+Benavides+Law+Office&aqs=chrome..69i57j69i64.1258j0j9&sourceid=chrome&ie=UTF-8#lrd=0x8824c6394d59e731:0x5dcc122c41e68827,3,
+          - generic [ref=e190]: j
+      - generic [ref=e191]:
+        - generic [ref=e192]: Get the Help You Need Today!
+        - generic [ref=e194]:
+          - generic [ref=e195]: "Consultations:"
+          - link "(248) 549-8555" [ref=e196] [cursor=pointer]:
+            - /url: tel:2485498555
+      - navigation [ref=e197]:
+        - list [ref=e198]:
+          - listitem [ref=e199]:
+            - link "Home" [ref=e200] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/
+          - listitem [ref=e201]:
+            - link "Meet Marcel" [ref=e202] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/meet-marcel.html
+          - listitem [ref=e203]:
+            - link "Criminal Defense" [ref=e204] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/criminal-defense.html
+          - listitem [ref=e205]:
+            - link "Police Misconduct" [ref=e206] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/police-misconduct.html
+          - listitem [ref=e207]:
+            - link "Results" [ref=e208] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/results.html
+          - listitem [ref=e209]:
+            - link "Testimonials" [ref=e210] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/testimonials.html
+          - listitem [ref=e211]:
+            - link "Blog" [ref=e212] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/blog.html
+          - listitem [ref=e213]:
+            - link "Contact" [ref=e214] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/contact-us.html
+          - listitem [ref=e215]:
+            - link "Privacy" [ref=e216] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/privacy.html
+      - generic [ref=e217]: The contents of this webpage are Copyright © 2026 The Marcel Benavides Law Firm. All Rights Reserved.
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - text: The Marcel Benavides Law Office
+            - link "The Marcel Benavides Law Office" [ref=e221] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net
+            - img [ref=e222]
+            - text: "Phone:"
+            - generic [ref=e223] [cursor=pointer]:
+              - text: 248-549-8555
+              - generic [ref=e224]: 3321 Rochester Rd. Royal Oak, MI 48073
+          - generic [ref=e225]:
+            - link "Police Misconduct Attorney Southfield MI" [ref=e226] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/michigan/Police-Misconduct-Attorney-Southfield-MI.html
+            - text: "|"
+            - link "Criminal Defense Attorney Troy MI" [ref=e227] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/michigan/Criminal-Defense-Attorney-Troy-MI.html
+            - text: "|"
+            - link "DUI Lawyer Pontiac MI" [ref=e228] [cursor=pointer]:
+              - /url: https://www.benavideslaw.net/michigan/DUI-Lawyer-Pontiac-MI.html
+            - text: "|"
+            - link "Google+" [ref=e229] [cursor=pointer]:
+              - /url: https://plus.google.com/104242853023001768423
+        - navigation [ref=e230]:
+          - list [ref=e231]:
+            - listitem [ref=e232]:
+              - link "Web Design" [ref=e233] [cursor=pointer]:
+                - /url: http://superpathsolutions.com/?utm_source=superpathsolutions_com&utm_medium=footer&utm_campaign=brand_footer_links
+              - text: "-"
+            - listitem [ref=e234]:
+              - link "Manage" [ref=e235] [cursor=pointer]:
+                - /url: /cm

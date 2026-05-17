@@ -1,0 +1,457 @@
+- generic [active] [ref=e1]:
+  - navigation "Skip links":
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+      - /url: "#ajax-content-wrap"
+  - generic [ref=e4]:
+    - img [ref=e8]
+    - generic:
+      - banner "Main Menu":
+        - generic:
+          - generic:
+            - link "DKOW logo DKOW logo DKOW logo" [ref=e11] [cursor=pointer]:
+              - /url: https://www.dkow.com
+              - img "DKOW logo" [ref=e13]
+              - img "DKOW logo" [ref=e14]
+              - img "DKOW logo" [ref=e15]
+            - navigation "Main Menu" [ref=e17]:
+              - list [ref=e18]:
+                - listitem [ref=e19]:
+                  - link "Practice Areas" [ref=e20] [cursor=pointer]:
+                    - /url: https://www.dkow.com/practice-areas/
+                  - list:
+                    - listitem:
+                      - link "Wrongful Death":
+                        - /url: https://www.dkow.com/practice-areas/wrongful-death/
+                    - listitem:
+                      - link "Catastrophic Injury":
+                        - /url: https://www.dkow.com/practice-areas/catastrophic-injury-attorney/
+                    - listitem:
+                      - link "Medical Malpractice":
+                        - /url: https://www.dkow.com/practice-areas/medical-malpractice/
+                    - listitem:
+                      - link "Product Liability":
+                        - /url: https://www.dkow.com/practice-areas/product-liability/
+                    - listitem:
+                      - link "Motor Vehicle Accidents":
+                        - /url: https://www.dkow.com/practice-areas/motor-vehicle-accidents/
+                    - listitem:
+                      - link "Oil, Gas, Mining and Construction Accidents":
+                        - /url: https://www.dkow.com/practice-areas/oil-gas-mining-and-construction-accidents/
+                    - listitem:
+                      - link "Aviation Disasters":
+                        - /url: https://www.dkow.com/practice-areas/aviation-disasters/
+                    - listitem:
+                      - link "Polaris Vehicle Incidents":
+                        - /url: https://www.dkow.com/practice-areas/polaris-vehicle-incidents/
+                    - listitem:
+                      - link "Insurance Bad Faith":
+                        - /url: https://www.dkow.com/practice-areas/insurance-bad-faith/
+                    - listitem:
+                      - link "Drug and Medical Devices Injuries":
+                        - /url: https://www.dkow.com/practice-areas/drug-and-medical-devices-injuries/
+                - listitem [ref=e21]:
+                  - link "Results" [ref=e22] [cursor=pointer]:
+                    - /url: https://www.dkow.com/our-results/
+                - listitem [ref=e23]:
+                  - link "Attorneys" [ref=e24] [cursor=pointer]:
+                    - /url: https://www.dkow.com/attorneys/
+                  - list:
+                    - listitem:
+                      - link "About Us":
+                        - /url: https://www.dkow.com/attorneys/
+                    - listitem:
+                      - link "Colin King":
+                        - /url: https://www.dkow.com/attorneys/colin-king/
+                    - listitem:
+                      - link "Michael A. Worel":
+                        - /url: https://www.dkow.com/attorneys/michael-a-worel/
+                    - listitem:
+                      - link "Nathan E. Dorsey":
+                        - /url: https://www.dkow.com/attorneys/nathan-e-dorsey/
+                    - listitem:
+                      - link "Walter M. Mason":
+                        - /url: https://www.dkow.com/attorneys/walter-m-mason/
+                    - listitem:
+                      - link "Greg Soderberg":
+                        - /url: https://www.dkow.com/attorneys/greg-soderberg/
+                    - listitem:
+                      - link "Emily Nackos":
+                        - /url: https://www.dkow.com/attorneys/emily-nackos/
+                    - listitem:
+                      - link "Tyler S. Young":
+                        - /url: https://www.dkow.com/attorneys/tyler-s-young/
+                    - listitem:
+                      - link "Edward B. Havas":
+                        - /url: https://www.dkow.com/attorneys/edward-b-havas/
+                    - listitem:
+                      - link "David R. Olsen":
+                        - /url: https://www.dkow.com/attorneys/david-r-olsen/
+                    - listitem:
+                      - link "Paul M. Simmons":
+                        - /url: https://www.dkow.com/attorneys/paul-m-simmons/
+                    - listitem:
+                      - link "Ralph L. Dewsnup":
+                        - /url: https://www.dkow.com/attorneys/ralph-l-dewsnup/
+                - listitem [ref=e25]:
+                  - link "About" [ref=e26] [cursor=pointer]:
+                    - /url: https://www.dkow.com/why-choose-dkow/
+                  - list:
+                    - listitem:
+                      - link "Why Choose DKOW":
+                        - /url: https://www.dkow.com/why-choose-dkow/
+                    - listitem:
+                      - link "Frequently Asked Questions":
+                        - /url: https://www.dkow.com/frequently-asked-questions/
+                    - listitem:
+                      - link "Testimonials":
+                        - /url: https://www.dkow.com/testimonials/
+                - listitem [ref=e27]:
+                  - link "News" [ref=e28] [cursor=pointer]:
+                    - /url: https://www.dkow.com/news-publications/
+                - listitem [ref=e29]:
+                  - link "Contact" [ref=e30] [cursor=pointer]:
+                    - /url: https://www.dkow.com/contact/
+              - list [ref=e31]:
+                - listitem [ref=e32]:
+                  - link "800.404.8520" [ref=e36] [cursor=pointer]:
+                    - /url: tel:+18004048520
+    - generic [ref=e37]:
+      - main [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e56]:
+            - heading "Dedicated lawyers. Extraordinary Results." [level=1] [ref=e57]
+            - button "See Our Results " [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]: See Our Results
+              - generic [ref=e60]: 
+            - button "Meet our Attorneys " [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: Meet our Attorneys
+              - generic [ref=e63]: 
+          - generic [ref=e71]:
+            - link "DKOW's results" [ref=e72] [cursor=pointer]:
+              - /url: /our-results/
+              - generic [ref=e73]: DKOW's results
+            - generic [ref=e81]:
+              - generic [ref=e84]:
+                - heading "Record Breakers" [level=5] [ref=e85]
+                - heading "DKOW's clients set records for the largest recoveries in Utah" [level=3] [ref=e86]:
+                  - text: DKOW's clients set records
+                  - text: for the largest recoveries in Utah
+                - paragraph [ref=e88]:
+                  - text: Salt Lake City’s DKOW has set Utah legal records, including a
+                  - strong [ref=e89]: $11.2 million dollar medical malpractice verdict, a $32 million dollar workplace disaster settlement, and a $10 million dollar product defect settlement
+                  - text: . These landmark cases showcase the firm’s prowess in securing substantial compensation for their clients in high-stakes personal injury cases.
+              - generic [ref=e92]:
+                - heading "Recoveries" [level=5] [ref=e93]
+                - heading "Record-Breaking Recoveries:" [level=4] [ref=e94]
+                - generic [ref=e95]:
+                  - generic [ref=e97]: 
+                  - heading "Medical Malpractice Verdict" [level=6] [ref=e99]
+                - generic [ref=e100]:
+                  - generic [ref=e102]: 
+                  - heading "Workplace Disaster Settlement" [level=6] [ref=e104]
+                - generic [ref=e105]:
+                  - generic [ref=e107]: 
+                  - heading "Medical Malpractice Settlement" [level=6] [ref=e109]
+          - generic [ref=e125]:
+            - heading "Proven Results" [level=5] [ref=e126]
+            - heading "Utah's most trusted name for wrongful death and catastrophic injury" [level=3] [ref=e127]
+            - generic [ref=e128]:
+              - paragraph [ref=e129]: At DKOW, we are more than just a law firm—we are Utah’s premier trial team, dedicated to achieving exceptional outcomes for our clients.
+              - paragraph [ref=e130]: With over a century of combined experience, our first-chair trial attorneys are proven leaders in personal injury litigation. Based in Salt Lake City, Utah, DKOW’s team has secured more multi-million-dollar verdicts than any other firm in the state. Our track record includes numerous seven-figure and eight-figure settlements—and a relentless commitment to justice for every client we represent.
+              - paragraph [ref=e131]: When results matter, DKOW is the firm to trust.
+            - button "See Our Results " [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: See Our Results
+              - generic [ref=e134]: 
+            - button "View Practice Specialties " [ref=e135] [cursor=pointer]:
+              - generic [ref=e136]: View Practice Specialties
+              - generic [ref=e137]: 
+          - generic [ref=e151]:
+            - link "DKOW Attorneys" [ref=e159] [cursor=pointer]:
+              - /url: /attorneys/
+              - img "DKOW Attorneys" [ref=e160]
+            - generic [ref=e163]:
+              - heading "Our talented team" [level=5] [ref=e164]
+              - heading "Meet our Attorneys" [level=2] [ref=e165]
+              - paragraph [ref=e167]: Meet our talented and powerful team, with more than 100 years of combined experience. Learn more and read their individual backgrounds, biographies, and practice areas.
+              - button "Meet our Attorneys " [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: Meet our Attorneys
+                - generic [ref=e170]: 
+          - generic [ref=e175]:
+            - generic [ref=e180]:
+              - generic [ref=e182]:
+                - heading "Practice areas" [level=4] [ref=e186]
+                - paragraph [ref=e187]: Learn more about the different areas in which we specialize.
+              - link "Practice areas" [ref=e188] [cursor=pointer]:
+                - /url: https://wordpress-1345672-5607865.cloudwaysapps.com/practice-areas/
+                - generic [ref=e189]: Practice areas
+            - generic [ref=e194]:
+              - generic [ref=e196]:
+                - heading "Attorneys" [level=4] [ref=e200]
+                - paragraph [ref=e201]: Meet the people on our team and read about their backgrounds.
+              - link "Attorneys" [ref=e202] [cursor=pointer]:
+                - /url: https://wordpress-1345672-5607865.cloudwaysapps.com/attorneys/
+                - generic [ref=e203]: Attorneys
+            - generic [ref=e208]:
+              - generic [ref=e210]:
+                - heading "Our Results" [level=4] [ref=e214]
+                - paragraph [ref=e215]: See the verdicts and settlements that our attorneys have accomplished.
+              - link "Our results" [ref=e216] [cursor=pointer]:
+                - /url: https://wordpress-1345672-5607865.cloudwaysapps.com/our-results/
+                - generic [ref=e217]: Our results
+          - generic [ref=e222]:
+            - generic [ref=e227]:
+              - generic [ref=e229]:
+                - heading "News & Publications" [level=4] [ref=e233]
+                - paragraph [ref=e234]: Read highlights, articles, and updates from our practice.
+              - link "News & Publications" [ref=e235] [cursor=pointer]:
+                - /url: https://wordpress-1345672-5607865.cloudwaysapps.com/news-publications/
+                - generic [ref=e236]: News & Publications
+            - generic [ref=e241]:
+              - generic [ref=e243]:
+                - heading "Contact" [level=4] [ref=e247]
+                - paragraph [ref=e248]: Contact us to see how we can help with your case.
+              - link "Contact" [ref=e249] [cursor=pointer]:
+                - /url: https://wordpress-1345672-5607865.cloudwaysapps.com/contact/
+                - generic [ref=e250]: Contact
+          - generic [ref=e267]:
+            - generic [ref=e275]:
+              - heading "Our efforts have gotten us noticed" [level=5] [ref=e276]
+              - heading "Awards and Associations" [level=3] [ref=e277]
+              - paragraph [ref=e279]: We are proud of the awards we have received and the associations we belong to.
+            - generic [ref=e290]:
+              - link "ABOTA-Logo" [ref=e291] [cursor=pointer]:
+                - /url: https://www.abota.org/
+                - img "ABOTA-Logo" [ref=e292]
+              - link "ACTL-Logo" [ref=e293] [cursor=pointer]:
+                - /url: https://www.actl.com
+                - img "ACTL-Logo" [ref=e294]
+              - link "NATLA Top 10" [ref=e295] [cursor=pointer]:
+                - /url: https://natla.org/
+                - img "NATLA Top 10" [ref=e296]
+              - paragraph [ref=e297]:
+                - img "ProdLiab Top25" [ref=e298]
+              - paragraph [ref=e299]:
+                - img "MedMal Top25" [ref=e300]
+              - paragraph [ref=e301]:
+                - img "MVA Top 25" [ref=e302]
+              - link "aaj" [ref=e303] [cursor=pointer]:
+                - /url: https://directory.justice.org/SearchResult.asp?access=public&firstmiddlename=&middlename=&lastname=&maidenname=&firmname=Dewsnup+King+Olsen+Worel+Havas+Mortensen+Milne&city=&provstateid=UT&zip=&countryid=&keyword=&areaofpractice=&areaofpractice2=&sectiontype=&memtype=&sb=&gender=Any&zipdistance=50
+                - img "aaj" [ref=e304]
+              - link "BW-IC-Logo" [ref=e305] [cursor=pointer]:
+                - /url: https://www.innercircle.org/
+                - img "BW-IC-Logo" [ref=e306]
+              - link "International-Academy-of-Trial-Lawyers-Logo" [ref=e307] [cursor=pointer]:
+                - /url: https://portal.iatl.net/i4a/memberDirectory/index.cfm?controller=memberDirectory&action=resultsDetail&directory_id=1&detail_lookup_id=9A5728A099478778&pageID=3384
+                - img "International-Academy-of-Trial-Lawyers-Logo" [ref=e308]
+              - link "tntltop100" [ref=e309] [cursor=pointer]:
+                - /url: https://www.thenationaltriallawyers.org/
+                - img "tntltop100" [ref=e310]
+              - link "public justice" [ref=e311] [cursor=pointer]:
+                - /url: https://www.publicjustice.net/
+                - img "public justice" [ref=e312]
+              - link "Million Dollar Advocates Forum" [ref=e313] [cursor=pointer]:
+                - /url: https://www.milliondollaradvocates.com/Sys/PublicProfile/47456060/4631703
+                - img "Million Dollar Advocates Forum" [ref=e314]
+              - link "Multi-Million Dollar Advocates Forum" [ref=e315] [cursor=pointer]:
+                - /url: https://www.milliondollaradvocates.com/Sys/PublicProfile/47452252/4631703
+                - img "Multi-Million Dollar Advocates Forum" [ref=e316]
+              - link "Top 10 Ranked Colin King" [ref=e317] [cursor=pointer]:
+                - /url: https://profiles.superlawyers.com/utah/salt-lake-city/lawyer/colin-king/9a72b27a-1285-4dec-a6ab-cac6de7e4aa3.html
+                - img "Top 10 Ranked Colin King" [ref=e318]
+              - link "Top 100 Edward B Havas" [ref=e319] [cursor=pointer]:
+                - /url: https://profiles.superlawyers.com/utah/salt-lake-city/lawyer/edward-b-havas/5143730b-0535-4e35-87d2-1418a55b3acc.html
+                - img "Top 100 Edward B Havas" [ref=e320]
+              - link "15 Yrs Plus Ralph Edward Colin David Michael" [ref=e321] [cursor=pointer]:
+                - /url: https://profiles.superlawyers.com/utah/salt-lake-city/lawfirm/dewsnup-king-olsen-worel-havas/0dc35796-68e6-4b7e-8ad6-17f906048db8.html
+                - img "15 Yrs Plus Ralph Edward Colin David Michael" [ref=e322]
+              - link "Colin King has been rated by Super Lawyers" [ref=e323] [cursor=pointer]:
+                - /url: https://profiles.superlawyers.com/utah/salt-lake-city/lawyer/colin-king/9a72b27a-1285-4dec-a6ab-cac6de7e4aa3.html?npcmp=slb:badge:sl_badge:9a72b27a-1285-4dec-a6ab-cac6de7e4aa3:main&utm_source=9a72b27a-1285-4dec-a6ab-cac6de7e4aa3&utm_campaign=v2-slbadge-blue&utm_content=profile
+                - img "Colin King has been rated by Super Lawyers" [ref=e324]
+              - link "Best Lawyers" [ref=e325] [cursor=pointer]:
+                - /url: https://www.bestlawyers.com/lawyers/colin-p-king/14782
+                - img "Best Lawyers" [ref=e326]
+              - link "Law Dragon" [ref=e327] [cursor=pointer]:
+                - /url: https://www.lawdragon.com/guides/2022-10-04-lawdragon-500-leading-litigators-in-america
+                - img "Law Dragon" [ref=e328]
+              - link "NADC" [ref=e329] [cursor=pointer]:
+                - /url: https://www.distinguishedcounsel.org/members/colinp-king/78/
+                - img "NADC" [ref=e330]
+              - link "High Stakes Litigators" [ref=e331] [cursor=pointer]:
+                - /url: https://www.top100highstakeslitigators.com/listing/michael-worel/
+                - img "High Stakes Litigators" [ref=e332]
+              - link "Martindale" [ref=e333] [cursor=pointer]:
+                - /url: https://www.martindale.com/attorney/colin-king-1716560/
+                - img "Martindale" [ref=e334]
+          - generic [ref=e351]:
+            - heading "advocates for justice" [level=5] [ref=e352]
+            - heading "Set up a free consultation to discuss your case" [level=2] [ref=e353]
+            - paragraph [ref=e355]: At DKOW, we are more than just a law firm—we are Utah’s premier trial team, dedicated to achieving exceptional outcomes for our clients. To speak with one of our personal injury and wrongful death attorneys about your case schedule a call with us today.
+            - button "Schedule a call " [ref=e356] [cursor=pointer]:
+              - generic [ref=e357]: Schedule a call
+              - generic [ref=e358]: 
+            - button "View publications " [ref=e359] [cursor=pointer]:
+              - generic [ref=e360]: View publications
+              - generic [ref=e361]: 
+      - contentinfo [ref=e363]:
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - link [ref=e369] [cursor=pointer]:
+              - /url: https://www.dkow.com/
+              - figure [ref=e370]:
+                - img "Dewsnup King Olsen Worel Havas Logo" [ref=e372]
+            - paragraph [ref=e374]:
+              - strong [ref=e375]:
+                - link "Dewsnup King Olsen Worel Havas" [ref=e376] [cursor=pointer]:
+                  - /url: https://www.dkow.com/
+              - link "800.404.8520" [ref=e377] [cursor=pointer]:
+                - /url: tel:+18004048520
+              - link "dko@dkow.com" [ref=e378] [cursor=pointer]:
+                - /url: mailto:dko@dkow.com
+          - generic [ref=e380]:
+            - heading "Menu" [level=4] [ref=e381]
+            - list [ref=e383]:
+              - listitem [ref=e384]:
+                - link "Home" [ref=e385] [cursor=pointer]:
+                  - /url: https://www.dkow.com/
+              - listitem [ref=e386]:
+                - link "Practice Areas" [ref=e387] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/
+              - listitem [ref=e388]:
+                - link "Attorneys" [ref=e389] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/
+              - listitem [ref=e390]:
+                - link "Our Results" [ref=e391] [cursor=pointer]:
+                  - /url: https://www.dkow.com/our-results/
+              - listitem [ref=e392]:
+                - link "News" [ref=e393] [cursor=pointer]:
+                  - /url: https://www.dkow.com/news-publications/
+              - listitem [ref=e394]:
+                - link "Contact" [ref=e395] [cursor=pointer]:
+                  - /url: https://www.dkow.com/contact/
+              - listitem [ref=e396]:
+                - link "Frequently Asked Questions" [ref=e397] [cursor=pointer]:
+                  - /url: https://www.dkow.com/frequently-asked-questions/
+              - listitem [ref=e398]:
+                - link "Privacy Policy" [ref=e399] [cursor=pointer]:
+                  - /url: https://www.dkow.com/privacy-policy/
+          - generic [ref=e401]:
+            - heading "Practice Areas" [level=4] [ref=e402]
+            - list [ref=e404]:
+              - listitem [ref=e405]:
+                - link "All Practice Areas" [ref=e406] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/
+              - listitem [ref=e407]:
+                - link "Wrongful Death" [ref=e408] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/wrongful-death/
+              - listitem [ref=e409]:
+                - link "Catastrophic Injury" [ref=e410] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/catastrophic-injury-attorney/
+              - listitem [ref=e411]:
+                - link "Medical Malpractice" [ref=e412] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/medical-malpractice/
+              - listitem [ref=e413]:
+                - link "Product Liability" [ref=e414] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/product-liability/
+              - listitem [ref=e415]:
+                - link "Motor Vehicle Accidents" [ref=e416] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/motor-vehicle-accidents/
+              - listitem [ref=e417]:
+                - link "Oil, Gas, Mining and Construction Accidents" [ref=e418] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/oil-gas-mining-and-construction-accidents/
+              - listitem [ref=e419]:
+                - link "Aviation Disasters" [ref=e420] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/aviation-disasters/
+              - listitem [ref=e421]:
+                - link "Polaris Vehicle Incidents" [ref=e422] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/polaris-vehicle-incidents/
+              - listitem [ref=e423]:
+                - link "Drug and Medical Devices Injuries" [ref=e424] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/drug-and-medical-devices-injuries/
+              - listitem [ref=e425]:
+                - link "Insurance Bad Faith" [ref=e426] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/insurance-bad-faith/
+              - listitem [ref=e427]:
+                - link "Birth Injuries" [ref=e428] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/medical-malpractice/birth-injuries/
+              - listitem [ref=e429]:
+                - link "Surgical Mistakes" [ref=e430] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/medical-malpractice/surgical-mistakes/
+              - listitem [ref=e431]:
+                - link "Misdiagnosis" [ref=e432] [cursor=pointer]:
+                  - /url: https://www.dkow.com/practice-areas/medical-malpractice/misdiagnosis/
+          - generic [ref=e434]:
+            - heading "Attorneys" [level=4] [ref=e435]
+            - list [ref=e437]:
+              - listitem [ref=e438]:
+                - link "All Attorneys" [ref=e439] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/
+              - listitem [ref=e440]:
+                - link "Colin King" [ref=e441] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/colin-king/
+              - listitem [ref=e442]:
+                - link "Michael A. Worel" [ref=e443] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/michael-a-worel/
+              - listitem [ref=e444]:
+                - link "Nathan E. Dorsey" [ref=e445] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/nathan-e-dorsey/
+              - listitem [ref=e446]:
+                - link "Walter M. Mason" [ref=e447] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/walter-m-mason/
+              - listitem [ref=e448]:
+                - link "Greg Soderberg" [ref=e449] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/greg-soderberg/
+              - listitem [ref=e450]:
+                - link "Emily Nackos" [ref=e451] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/emily-nackos/
+              - listitem [ref=e452]:
+                - link "Tyler S. Young" [ref=e453] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/tyler-s-young/
+              - listitem [ref=e454]:
+                - link "Edward B. Havas" [ref=e455] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/edward-b-havas/
+              - listitem [ref=e456]:
+                - link "David R. Olsen" [ref=e457] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/david-r-olsen/
+              - listitem [ref=e458]:
+                - link "Paul M. Simmons" [ref=e459] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/paul-m-simmons/
+              - listitem [ref=e460]:
+                - link "Ralph L. Dewsnup" [ref=e461] [cursor=pointer]:
+                  - /url: https://www.dkow.com/attorneys/ralph-l-dewsnup/
+        - generic [ref=e463]:
+          - paragraph [ref=e465]:
+            - text: © 2017-24 Dewsnup King Olsen Worel Havas –
+            - link "Web design by Bootpack Digital" [ref=e466] [cursor=pointer]:
+              - /url: https://bootpackdigital.com/
+          - list [ref=e468]:
+            - listitem [ref=e469]:
+              - link "x-twitter" [ref=e470] [cursor=pointer]:
+                - /url: https://twitter.com/DKOWlaw
+                - generic [ref=e471]: x-twitter
+                - generic [ref=e472]: 
+            - listitem [ref=e473]:
+              - link "facebook" [ref=e474] [cursor=pointer]:
+                - /url: https://www.facebook.com/DKOWlaw/?modal=admin_todo_tour
+                - generic [ref=e475]: facebook
+                - generic [ref=e476]: 
+            - listitem [ref=e477]:
+              - link "linkedin" [ref=e478] [cursor=pointer]:
+                - /url: http://www.linkedin.com/company/dewsnup-king-olsen-worel-havas/
+                - generic [ref=e479]: linkedin
+                - generic [ref=e480]: 
+            - listitem [ref=e481]:
+              - link "youtube" [ref=e482] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCrPZGcCtrcLtAUWaSfvq-uw
+                - generic [ref=e483]: youtube
+                - generic [ref=e484]: 
+            - listitem [ref=e485]:
+              - link "phone" [ref=e486] [cursor=pointer]:
+                - /url: tel:+18004048520
+                - generic [ref=e487]: phone
+                - generic [ref=e488]: 
+            - listitem [ref=e489]:
+              - link "email" [ref=e490] [cursor=pointer]:
+                - /url: mailto:dko@dkow.com
+                - generic [ref=e491]: email
+                - generic [ref=e492]: 
+    - button "Back to top" [ref=e493] [cursor=pointer]: 

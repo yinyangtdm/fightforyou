@@ -1,0 +1,192 @@
+- generic [active] [ref=e1]:
+  - img [ref=e4]
+  - generic [ref=e17]:
+    - link "Skip to content" [ref=e18] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e19]:
+      - generic [ref=e21]:
+        - link [ref=e25] [cursor=pointer]:
+          - /url: https://nsbhf.com
+        - button "Menu Toggle" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+        - search [ref=e35]:
+          - generic [ref=e36]:
+            - button "Search" [ref=e37] [cursor=pointer]:
+              - img [ref=e39]
+            - generic:
+              - generic: Search
+              - searchbox "Search"
+    - main [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e63]:
+          - heading "Leaders In" [level=2] [ref=e66]
+          - heading "CIVIL RIGHTS" [level=1] [ref=e69]
+          - heading "Litigation." [level=2] [ref=e72]
+        - generic [ref=e73]:
+          - heading "Delivering the justice our clients deserve." [level=1] [ref=e77]:
+            - text: Delivering
+            - text: the justice our
+            - text: clients deserve.
+          - generic [ref=e78]:
+            - heading "NSBHF established the field of civil wrongful conviction litigation and continues to be the standard bearer for record jury verdicts and settlements in wrongful conviction cases across the country." [level=2] [ref=e82]
+            - heading "We fight tirelessly to obtain justice for our clients, who have experienced the nightmare of being wrongfully convicted, assaulted, and mistreated at the hands of the law." [level=2] [ref=e86]
+            - heading "With every multi-million dollar recovery we win for our clients, we hold officers accountable for biased policing, falsifying evidence, violating the Constitution, and subverting justice." [level=2] [ref=e90]
+        - generic [ref=e91]:
+          - heading "IN THE NEWS" [level=1] [ref=e97]
+          - generic [ref=e98]:
+            - list [ref=e102]:
+              - listitem [ref=e103]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - heading "Baldwin Park Police Department Pays Exoneree Daniel Saldaña $19.1 Million for Wrongful Conviction" [level=3] [ref=e106]:
+                      - link "Baldwin Park Police Department Pays Exoneree Daniel Saldaña $19.1 Million for Wrongful Conviction" [ref=e107] [cursor=pointer]:
+                        - /url: https://nsbhf.com/baldwin-park-police-department-pays-exoneree-daniel-saldana-19-1-million-for-wrongful-conviction/
+                    - paragraph [ref=e109]: Settlement Comes After Attorneys Uncovered Damning Evidence of a Frame-up That Put an Innocent Man Behind Bars for 33 Years (BALDWIN PARK, CA) The City of Baldwin Park has agreed to pay $19.1 million to settle a wrongful conviction lawsuit brought by exoneree Daniel Saldaña, the national civil rights firm Neufeld Scheck Brustin Hoffmann & Freudenberger, LLP announced today. At age 22, Saldaña was just starting out his life when he was wrongfully convicted of charges relating to a 1989 attempted murder. His nightmare began when a Baldwin Park Police Department (BPPD) detective framed him for the drive-by shooting. Saldaña steadfastly maintained his innocence until he was exonerated in 2023 at age 55. “Mr. Saldaña’s wrongful conviction resulted from the egregious misconduct of a Baldwin Park detective who systematically fabricated evidence and pressured witnesses throughout a fundamentally flawed investigation,” said NSBHF partner Amelia Green. “While no amount of money can
+                    - link "Read more about Baldwin Park Police Department Pays Exoneree Daniel Saldaña $19.1 Million for Wrongful Conviction" [ref=e110] [cursor=pointer]:
+                      - /url: https://nsbhf.com/baldwin-park-police-department-pays-exoneree-daniel-saldana-19-1-million-for-wrongful-conviction/
+                      - text: Read More »
+                  - generic [ref=e111]: November 14, 2025
+            - generic [ref=e112]:
+              - heading "Recent News Headlines" [level=2] [ref=e115]
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - generic [ref=e120]:
+                    - heading "In California’s Largest-Ever Wrongful Conviction Settlement, the City of Inglewood Pays a Record-Breaking $25 Million to Exoneree Maurice Hastings" [level=3] [ref=e121]:
+                      - link "In California’s Largest-Ever Wrongful Conviction Settlement, the City of Inglewood Pays a Record-Breaking $25 Million to Exoneree Maurice Hastings" [ref=e122] [cursor=pointer]:
+                        - /url: https://nsbhf.com/in-californias-largest-ever-wrongful-conviction-settlement-the-city-of-inglewood-pays-a-record-breaking-25-million-to-exoneree-maurice-hastings/
+                    - generic [ref=e123]: September 23, 2025
+                - listitem [ref=e124]:
+                  - generic [ref=e125]:
+                    - heading "NSBHF Brings Lawsuit on Behalf of Man Killed in BOP Custody" [level=3] [ref=e126]:
+                      - link "NSBHF Brings Lawsuit on Behalf of Man Killed in BOP Custody" [ref=e127] [cursor=pointer]:
+                        - /url: https://nsbhf.com/nsbhf-brings-lawsuit-on-behalf-of-man-killed-in-bop-custody/
+                    - generic [ref=e128]: May 21, 2025
+              - link "Read All News Posts" [ref=e132] [cursor=pointer]:
+                - /url: /news/
+              - heading "Recent Blog Postings" [level=2] [ref=e135]
+              - list [ref=e138]:
+                - listitem [ref=e139]:
+                  - generic [ref=e140]:
+                    - heading "A Paralegal Gains Unique Insights on the Law" [level=3] [ref=e141]:
+                      - link "A Paralegal Gains Unique Insights on the Law" [ref=e142] [cursor=pointer]:
+                        - /url: https://nsbhf.com/a-paralegal-gains-unique-insights-on-the-law/
+                    - generic [ref=e143]: January 10, 2025
+                - listitem [ref=e144]:
+                  - generic [ref=e145]:
+                    - heading "From Jeopardy! Contender to an Advocate for the Wrongfully Convicted" [level=3] [ref=e146]:
+                      - link "From Jeopardy! Contender to an Advocate for the Wrongfully Convicted" [ref=e147] [cursor=pointer]:
+                        - /url: https://nsbhf.com/from-jeopardy-contender-to-an-advocate-for-the-wrongfully-convicted/
+                    - generic [ref=e148]: January 9, 2025
+              - link "Read All Blog Posts" [ref=e152] [cursor=pointer]:
+                - /url: /blog/
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - heading "The Cochran Fellowship" [level=2] [ref=e158]
+            - paragraph [ref=e161]: NSBHF’s Cochran Fellowship in civil rights law is one of the most selective post-graduate legal fellowships in the country and attracts exceptional applicants committed to social justice.
+            - link "Learn More & Apply" [ref=e165] [cursor=pointer]:
+              - /url: /cochran-fellowship/
+              - generic [ref=e167]: Learn More & Apply
+          - generic [ref=e168]:
+            - heading "Cochran Fellow Profile" [level=2] [ref=e171]
+            - heading "Tony Joe" [level=2] [ref=e174]
+            - paragraph [ref=e177]: As an associate at a Big Law firm in 2019, Tony Joe was thrilled to join a pro bono case team working on the exoneration of a client wrongfully convicted for murder.
+            - link "Read More" [ref=e181] [cursor=pointer]:
+              - /url: /cochran-fellowship/
+              - generic [ref=e183]: Read More
+        - generic [ref=e188]:
+          - generic [ref=e189]:
+            - heading "How Can We Help You?" [level=1] [ref=e192]
+            - heading "Fill Out Our Contact Form and Let Us Fight for Your Rights." [level=1] [ref=e195]:
+              - text: Fill Out Our Contact Form and
+              - text: Let Us Fight for Your Rights.
+          - generic [ref=e200]:
+            - generic:
+              - paragraph
+            - generic [ref=e201]:
+              - generic [ref=e203]:
+                - group "Name (Required)" [ref=e204]:
+                  - generic [ref=e205]:
+                    - text: Name
+                    - generic [ref=e206]: (Required)
+                  - generic [ref=e207]:
+                    - generic [ref=e208]:
+                      - textbox "First" [ref=e209]:
+                        - /placeholder: First Name
+                      - generic [ref=e210]: First
+                    - generic [ref=e211]:
+                      - textbox "Last" [ref=e212]:
+                        - /placeholder: Last Name
+                      - generic [ref=e213]: Last
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - text: Email
+                    - generic [ref=e216]: (Required)
+                  - textbox "Email (Required)" [ref=e218]
+                - generic [ref=e219]:
+                  - generic [ref=e220]:
+                    - text: Phone
+                    - generic [ref=e221]: (Required)
+                  - textbox "Phone (Required)" [ref=e223]
+                - generic [ref=e224]:
+                  - generic [ref=e225]:
+                    - text: Your Message
+                    - generic [ref=e226]: (Required)
+                  - generic [ref=e227]:
+                    - textbox "Your Message (Required)" [ref=e228]
+                    - generic [ref=e229]: 0 of 600 max characters
+                - group "Disclaimer (Required)" [ref=e230]:
+                  - generic [ref=e231]:
+                    - text: Disclaimer
+                    - generic [ref=e232]: (Required)
+                  - generic [ref=e233]:
+                    - checkbox "I have read this site's disclaimer and understand that contacting NSBHF through this site, by email, phone, or any other means, does not create an attorney-client relationship." [ref=e234]: 
+                    - generic [ref=e235]:
+                      - text: I have read this site's
+                      - link "disclaimer" [ref=e236] [cursor=pointer]:
+                        - /url: /disclaimer/
+                      - text: and understand that contacting NSBHF through this site, by email, phone, or any other means, does not create an attorney-client relationship.
+              - button "Submit" [ref=e238] [cursor=pointer]
+    - contentinfo [ref=e239]:
+      - contentinfo [ref=e243]:
+        - generic [ref=e245]:
+          - paragraph [ref=e251]:
+            - text: 200 Varick Street
+            - text: Suite 800
+            - text: Tel (212) 965-9081
+            - text: Fax (212) 965-9084
+          - navigation "Menu" [ref=e255]:
+            - list [ref=e256]:
+              - listitem [ref=e257]:
+                - link "About" [ref=e258] [cursor=pointer]:
+                  - /url: https://nsbhf.com/about-nsbhf/
+              - listitem [ref=e259]:
+                - link "Our Team" [ref=e260] [cursor=pointer]:
+                  - /url: https://nsbhf.com/our-team/
+              - listitem [ref=e261]:
+                - link "What We Do" [ref=e262] [cursor=pointer]:
+                  - /url: https://nsbhf.com/what-we-do/
+              - listitem [ref=e263]:
+                - link "News" [ref=e264] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e265]:
+                - link "Careers" [ref=e266] [cursor=pointer]:
+                  - /url: https://nsbhf.com/careers/
+              - listitem [ref=e267]:
+                - link "Contact Us" [ref=e268] [cursor=pointer]:
+                  - /url: https://nsbhf.com/contact/
+        - navigation "Menu" [ref=e274]:
+          - list [ref=e275]:
+            - listitem [ref=e276]:
+              - link "Disclaimer" [ref=e277] [cursor=pointer]:
+                - /url: https://nsbhf.com/disclaimer/
+            - listitem [ref=e278]:
+              - link "Site Map" [ref=e279] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e281]:
+          - paragraph [ref=e286]: © 2026 Neufeld Scheck Brustin Hoffmann & Freudenberger, LLP | Site design by Kind Design
+          - paragraph [ref=e291]: This website contains Attorney Advertising. Prior results do not guarantee a similar outcome.
+    - link "Go to Top" [ref=e292] [cursor=pointer]:
+      - /url: "#"
+      - img [ref=e293]
+      - generic [ref=e295]: Go to Top
+  - generic [ref=e296]: tablet

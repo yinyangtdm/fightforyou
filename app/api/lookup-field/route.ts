@@ -73,7 +73,7 @@ export async function POST(req: Request) {
         break
 
       case "description":
-        prompt = `Write an original 3–5 paragraph bio for ${entityLabel} for a civil rights legal directory. Focus on their history taking on police and government entities — track record, notable cases, approach, reputation. Authoritative tone. Draw on your training knowledge and any website text provided. Separate paragraphs with \\n\\n. Return only the bio text, no explanation.${siteContext}`
+        prompt = `Write an original 3–5 paragraph bio for ${entityLabel} for a civil rights legal directory. Focus on their history taking on police and government entities — track record, notable cases, approach, reputation. Authoritative tone. Draw on your training knowledge and any website text provided, but do NOT fabricate specific case results, dollar amounts, settlements, or verdicts — only include specifics you are confident are true. Separate paragraphs with \\n\\n. Return only the bio text, no explanation.${siteContext}`
         break
 
       case "specialties":
@@ -83,12 +83,12 @@ export async function POST(req: Request) {
 
       case "notableResults":
         isArray = true
-        prompt = `List notable case results for ${entityLabel} — specifically 7-figure settlements and verdicts against police or government entities. Include dollar amounts and context. Draw from website text and training knowledge. Return a JSON array of strings. If none known with certainty, return []. No markdown, no explanation.${siteContext}`
+        prompt = `List notable case results for ${entityLabel} found ONLY in the website text below — specifically settlements and verdicts against police or government entities. Include dollar amounts and context. Do NOT use training data — if no results are stated in the website text, return []. Return a JSON array of strings, no markdown, no explanation.${siteContext}`
         break
 
       case "keyCharacteristics":
         isArray = true
-        prompt = `List key traits, credentials, awards, languages, and distinguishing qualities for ${entityLabel}. Each entry MUST be a full descriptive sentence or phrase, NOT a short label. E.g. "Secured over $50M in settlements against law enforcement" not "High settlements". Do NOT include bar number. Return a JSON array of strings, no markdown, no explanation.${siteContext}`
+        prompt = `List key traits, credentials, awards, languages, and distinguishing qualities for ${entityLabel}. Each entry MUST be a full descriptive sentence or phrase, NOT a short label. E.g. "Secured over $50M in settlements against law enforcement" not "High settlements". Only include facts you are confident are true — do NOT fabricate dollar amounts, case results, or credentials. Do NOT include bar number. Return a JSON array of strings, no markdown, no explanation.${siteContext}`
         break
 
       case "barNumber":

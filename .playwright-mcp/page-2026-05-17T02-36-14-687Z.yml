@@ -1,0 +1,217 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e7]:
+      - 'link "Homepage: ACLU of Arkansas" [ref=e9] [cursor=pointer]':
+        - /url: /
+        - img [ref=e10]
+      - generic [ref=e13]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - button "Open submenu for About" [ref=e18] [cursor=pointer]: About
+          - listitem [ref=e19]:
+            - button "Open submenu for Issues" [ref=e20] [cursor=pointer]: Issues
+          - listitem [ref=e21]:
+            - button "Open submenu for Our Work" [ref=e22] [cursor=pointer]: Our Work
+          - listitem [ref=e23]:
+            - link "Know Your Rights" [ref=e24] [cursor=pointer]:
+              - /url: https://www.acluarkansas.org/know-your-rights/
+          - listitem [ref=e25]:
+            - link "Request Help" [ref=e26] [cursor=pointer]:
+              - /url: https://www.acluarkansas.org/get-help/
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - button "Open submenu for Join Us" [ref=e31] [cursor=pointer]: Join Us
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: Protecting Your Rights Means
+        - heading "Protecting Everyone's Rights in Arkansas" [level=1] [ref=e37]
+        - paragraph [ref=e38]: The ACLU of Arkansas defends your civil rights and liberties — in the courts, at the Capitol, and with the people.
+        - generic [ref=e41]:
+          - generic [ref=e42]: All fields are required unless labeled optional.
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - text: Email *
+              - generic [ref=e45]: Required
+            - textbox "Email Required" [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - text: ZIP code *
+              - generic [ref=e49]: Required
+            - textbox "ZIP code Required" [ref=e50]
+          - button "Sign Up" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: Sign Up
+      - img "ACLU-AR Hero Fallback Banner Blue" [ref=e54]
+    - generic [ref=e56]:
+      - heading "The Latest" [level=2] [ref=e59]
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e65]:
+              - img [ref=e67]
+              - generic [ref=e69]: News & Commentary
+            - img "ACLU sign, blue text on white and red background reading, \"Still Fighting for Voting Rights.\"" [ref=e71]
+          - generic [ref=e72]:
+            - 'heading "Defending Democracy After Callais: Arkansas Cannot Afford to Look Away" [level=3] [ref=e73]'
+            - generic [ref=e74]: The Supreme Court’s Callais ruling weakens voting rights protections and threatens fair representation in Arkansas and across the country.
+          - 'link "Defending Democracy After Callais: Arkansas Cannot Afford to Look Away" [ref=e75] [cursor=pointer]':
+            - /url: https://www.acluarkansas.org/news/defending-democracy-after-callais-arkansas-cannot-afford-to-look-away/
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e79]:
+              - img [ref=e81]
+              - generic [ref=e89]: Know Your Rights
+            - img "Vote Your Rights" [ref=e91]
+          - 'heading "Know Your Rights: Voting in Arkansas" [level=3] [ref=e93]'
+          - 'link "Know Your Rights: Voting in Arkansas" [ref=e94] [cursor=pointer]':
+            - /url: https://www.acluarkansas.org/know-your-rights/know-your-rights-voting-arkansas/
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e98]:
+              - img [ref=e100]
+              - generic [ref=e102]: News & Commentary
+            - img "ACLU poster with FREE SPEECH, FREE COUNTRY written in yellow and white letters on blue background." [ref=e104]
+          - generic [ref=e105]:
+            - heading "When Universities Silence Speech, They Undermine Themselves" [level=3] [ref=e106]
+            - generic [ref=e107]: Arkansas universities are failing to protect faculty free speech, undermining academic freedom, due process, and their own core values.
+          - link "When Universities Silence Speech, They Undermine Themselves" [ref=e108] [cursor=pointer]:
+            - /url: https://www.acluarkansas.org/news/when-universities-silence-speech-they-undermine-themselves/
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e112]:
+              - img [ref=e114]
+              - generic [ref=e123]: Issue
+            - img "Placeholder image" [ref=e125]
+          - generic [ref=e126]:
+            - heading "LGBTQ Rights" [level=3] [ref=e127]
+            - generic [ref=e128]: The LGBTQ Project fights discrimination and moves public opinion through the courts, legislatures and public education across five issue areas - and beyond.
+          - link "LGBTQ Rights" [ref=e129] [cursor=pointer]:
+            - /url: https://www.acluarkansas.org/issues/lgbt-rights/
+    - generic [ref=e131]:
+      - heading "Issues We're Monitoring" [level=2] [ref=e134]
+      - generic [ref=e136]:
+        - link "Immigrants' Rights" [ref=e137] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/immigrants-rights/
+        - link "Racial Justice" [ref=e138] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/racial-justice/
+        - link "Prisoners' Rights" [ref=e139] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/prisoners-rights/
+        - link "Religion & Belief" [ref=e140] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/religion-and-belief/
+        - link "LGBTQ Rights" [ref=e141] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/lgbt-rights/
+        - link "Free Speech" [ref=e142] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/free-speech/
+        - link "Privacy" [ref=e143] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/privacy/
+        - link "View All Issues" [ref=e144] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/issues/
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - 'heading "Know Your Rights: Immigrants in Arkansas" [level=2] [ref=e150]'
+        - link "Explore Your Rights" [ref=e152] [cursor=pointer]:
+          - /url: https://www.acluarkansas.org/know-your-rights/know-your-rights-immigrants-arkansas/
+      - img "Sign that reads Immigrants are welcome here" [ref=e154]
+    - generic [ref=e156]:
+      - heading "Featured Case" [level=2] [ref=e158]
+      - generic [ref=e159]:
+        - img "Purple Gavel" [ref=e161]
+        - generic [ref=e163]:
+          - link [ref=e164] [cursor=pointer]:
+            - /url: https://www.acluarkansas.org/cases/fason-v-hamlet/
+            - generic [ref=e165]:
+              - heading "Fason v. Hamlet" [level=3] [ref=e166]
+              - generic [ref=e167]: On February 2, 2026, a group of incarcerated Arkansans filed a class action lawsuit against the Arkansas Post-Prison Transfer Board (PPTB) and the Arkansas Department of Corrections (ADC) challenging parole revocation practices that routinely deny people their constitutional right to due process. Parole revocation can result in someone being sent back to prison for months or even years. The U.S. Supreme Court has made clear that when the state seeks to revoke parole, individuals are entitled to basic procedural protections — including the right to a fair hearing, the ability to present evidence and witnesses, and, in some circumstances, the right to legal counsel. Despite these longstanding legal requirements, Arkansas’s parole revocation system systematically fails to provide these protections. The lawsuit alleges that people on parole are frequently pressured or coerced into waiving their right to a revocation hearing, denied access to attorneys, and blocked from presenting evidence or witnesses in their defense. For people who do proceed to hearings, the process is often rushed, opaque, and fundamentally unfair. Individuals with disabilities are also regularly denied reasonable accommodations, preventing them from meaningfully participating in proceedings that determine their freedom. As a result of these unconstitutional practices, thousands of Arkansans have been returned to prison through a system that prioritizes speed and punishment over fairness and accountability — fueling mass incarceration while undermining public safety. The plaintiffs seek to stop these unlawful practices and to ensure that parole revocation proceedings in Arkansas comply with the Constitution. The case aims to bring transparency, fairness, and due process to a system that has operated with little oversight for far too long. The plaintiffs are represented by the ACLU of Arkansas, the MacArthur Justice Center, and Latham & Watkins.
+          - link "View All Cases" [ref=e169] [cursor=pointer]:
+            - /url: https://www.acluarkansas.org/cases/
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - generic [ref=e175]: Make an impact
+        - heading "Take Action" [level=2] [ref=e176]
+        - generic [ref=e177]:
+          - paragraph [ref=e178]: Today, years of hard-fought civil liberty protections are under threat.
+          - paragraph [ref=e179]: To influence lawmakers, we need everyone to get involved.
+      - generic [ref=e181]:
+        - generic [ref=e186]:
+          - img "Person in shadows holding megaphone" [ref=e189]
+          - generic [ref=e190]:
+            - heading "Sign Up for Action Alerts" [level=3] [ref=e192]
+            - button [ref=e194] [cursor=pointer]: Get Action Alerts
+          - link "Sign Up for Action Alerts" [ref=e195] [cursor=pointer]:
+            - /url: https://action.aclu.org/signup/ar-email-updates
+        - generic [ref=e197]:
+          - button [ref=e199]:
+            - generic:
+              - img
+          - paragraph [ref=e200]: Action 1 of 3
+          - button [ref=e202] [cursor=pointer]:
+            - generic:
+              - img
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - heading "Stay Informed" [level=2] [ref=e207]
+        - paragraph [ref=e208]: Sign up to be the first to hear about how to take action.
+        - paragraph [ref=e210]:
+          - text: By completing this form, I agree to receive occasional emails per the terms of the ACLU’s
+          - link "privacy statement." [ref=e211] [cursor=pointer]:
+            - /url: https://www.aclu.org/about/privacy/statement
+      - generic [ref=e214]:
+        - generic [ref=e215]: All fields are required unless labeled optional.
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - text: Email *
+            - generic [ref=e218]: Required
+          - textbox "Email Required" [ref=e219]
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - text: ZIP code *
+            - generic [ref=e222]: Required
+          - textbox "ZIP code Required" [ref=e223]
+        - button "Sign Up" [ref=e224] [cursor=pointer]:
+          - generic [ref=e225]: Sign Up
+    - navigation "Language Switcher" [ref=e226]:
+      - list
+  - contentinfo [ref=e227]:
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - list [ref=e233]:
+          - listitem [ref=e234]:
+            - link "Request Assistance" [ref=e235] [cursor=pointer]:
+              - /url: https://acluarkansas.cliogrow.com/intake/e39f6fd87e61b1dbe45c4d2f70434472
+          - listitem [ref=e236]:
+            - link "Donate" [ref=e237] [cursor=pointer]:
+              - /url: https://action.aclu.org/secure/support-aclu-arkansas?ms=web__aff_ar_actionbutton_join
+        - generic [ref=e239]:
+          - generic [ref=e240]: Search
+          - searchbox "Search" [ref=e241]
+          - button "search" [ref=e242] [cursor=pointer]:
+            - generic:
+              - img
+      - generic [ref=e243]:
+        - list [ref=e246]:
+          - listitem [ref=e247]:
+            - link "Follow the ACLU of Arkansas on Facebook" [ref=e248] [cursor=pointer]:
+              - /url: https://www.facebook.com/pages/ACLU-of-Arkansas/108671089209550
+              - generic:
+                - img
+          - listitem [ref=e249]:
+            - link "Follow the ACLU of Arkansas on YouTube" [ref=e250] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/acluvideos
+              - generic:
+                - img
+          - listitem [ref=e251]:
+            - link "Follow the ACLU of Arkansas on Instagram" [ref=e252] [cursor=pointer]:
+              - /url: https://www.instagram.com/acluofarkansas/
+              - generic:
+                - img
+        - paragraph [ref=e253]: © 2026 ACLU of Arkansas
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - link "User Agreement" [ref=e257] [cursor=pointer]:
+              - /url: https://www.acluarkansas.org/user-agreement/
+          - listitem [ref=e258]:
+            - link "Privacy Statement" [ref=e259] [cursor=pointer]:
+              - /url: https://www.acluarkansas.org/privacy-statement/
+          - listitem [ref=e260]:
+            - link "Website Accessibility" [ref=e261] [cursor=pointer]:
+              - /url: https://www.acluarkansas.org/statement-on-accessibility/

@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content-skip"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - text: 
+      - generic [ref=e7]:
+        - navigation "Main website navigation" [ref=e8]:
+          - menubar [ref=e9]:
+            - menuitem "People" [ref=e10] [cursor=pointer]
+            - menuitem "Practices" [ref=e11] [cursor=pointer]
+            - menuitem "News" [ref=e12] [cursor=pointer]
+            - menuitem "Why BGL" [ref=e13] [cursor=pointer]
+            - menuitem "Big Wins" [ref=e14] [cursor=pointer]
+            - menuitem "Contact Us" [ref=e15] [cursor=pointer]
+        - button " Search Toggle" [ref=e16]:
+          - generic [ref=e17]:
+            - text: 
+            - generic [ref=e18]: Search Toggle
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e28]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - note [ref=e47]: Slide
+            - generic [ref=e50]:
+              - generic [ref=e52]:
+                - img "Michael Abrams" [ref=e58]
+                - img "Joshua Auerbach" [ref=e64]
+                - img "Monica Basche, Associate" [ref=e70]
+              - generic [ref=e72]:
+                - img "Jacqui Cadman" [ref=e78]
+                - heading "Let us tell your story." [level=1] [ref=e82]:
+                  - text: Let us
+                  - text: tell your
+                  - text: story.
+                - img "Gregory Care" [ref=e88]
+              - generic [ref=e90]:
+                - img "Lauren DiMartino" [ref=e96]
+                - img "Kevin Docherty" [ref=e103]
+                - img "Michelle Fraling" [ref=e111]
+          - generic [ref=e112]:
+            - note [ref=e113]: Slide
+            - generic [ref=e116]:
+              - generic [ref=e118]:
+                - img [ref=e124]
+                - img [ref=e130]
+                - img [ref=e137]
+              - generic [ref=e139]:
+                - img [ref=e145]
+                - heading [level=1] [ref=e149]: Let us tell your story.
+                - img [ref=e155]
+              - generic [ref=e157]:
+                - img [ref=e163]
+                - img [ref=e169]
+                - img [ref=e178]
+          - generic [ref=e180]:
+            - note [ref=e181]: Slide
+            - generic [ref=e184]:
+              - generic [ref=e186]:
+                - img [ref=e192]
+                - img [ref=e198]
+                - img [ref=e204]
+              - generic [ref=e206]:
+                - img [ref=e212]
+                - heading [level=1] [ref=e216]: Let us tell your story.
+                - img [ref=e222]
+              - generic [ref=e224]:
+                - img [ref=e230]
+                - img [ref=e236]
+                - img [ref=e242]
+          - generic [ref=e243]:
+            - note [ref=e244]: Slide
+            - generic [ref=e247]:
+              - generic [ref=e249]:
+                - img [ref=e255]
+                - img [ref=e261]
+                - img [ref=e267]
+              - generic [ref=e269]:
+                - img [ref=e275]
+                - heading [level=1] [ref=e279]: Let us tell your story.
+                - img [ref=e285]
+              - generic [ref=e287]:
+                - img [ref=e293]
+                - img [ref=e299]
+                - img [ref=e305]
+          - generic [ref=e306]:
+            - note [ref=e307]: Slide
+            - generic [ref=e310]:
+              - generic [ref=e312]:
+                - img [ref=e318]
+                - img [ref=e326]
+                - img [ref=e332]
+              - generic [ref=e334]:
+                - img [ref=e340]
+                - heading [level=1] [ref=e344]: Let us tell your story.
+                - img [ref=e350]
+              - generic [ref=e352]:
+                - img [ref=e358]
+                - img [ref=e364]
+                - img [ref=e370]
+          - generic [ref=e371]:
+            - note [ref=e372]: Slide
+            - generic [ref=e375]:
+              - generic [ref=e377]:
+                - img [ref=e383]
+                - img [ref=e391]
+                - img [ref=e397]
+              - generic [ref=e399]:
+                - img [ref=e405]
+                - heading [level=1] [ref=e409]: Let us tell your story.
+                - img [ref=e415]
+              - generic [ref=e417]:
+                - img [ref=e423]
+                - img [ref=e429]
+                - img [ref=e435]
+        - button "previous arrow" [ref=e436] [cursor=pointer]:
+          - img "previous arrow" [ref=e437]
+        - button "next arrow" [ref=e438] [cursor=pointer]:
+          - img "next arrow" [ref=e439]
+      - generic [ref=e440]:
+        - button "Find an Attorney >" [ref=e441] [cursor=pointer]
+        - button "View our Practices >" [ref=e442] [cursor=pointer]
+    - generic [ref=e443]:
+      - generic [ref=e446]:
+        - paragraph [ref=e447]:
+          - img "Orange hazard sign on road says \"Utility work ahead\"" [ref=e448]
+          - link "Andrew Freeman" [ref=e449] [cursor=pointer]:
+            - /url: https://browngold.com/people/andy-freeman/
+          - text: ","
+          - link "Anisha Queen" [ref=e450] [cursor=pointer]:
+            - /url: https://browngold.com/people/anisha-queen/
+          - text: ", and"
+          - link "Erin O’Neill" [ref=e451] [cursor=pointer]:
+            - /url: https://browngold.com/people/erin-e-oneill/
+          - text: recently resolved a case involving a tragic collision caused by a reckless driver who killed their client’s husband while he performed utility work on the side of a road on Maryland’s Eastern Shore. The team obtained a million-dollar settlement for their client’s profound loss.
+        - paragraph [ref=e452]:
+          - link "Read more about the settlement here." [ref=e453] [cursor=pointer]:
+            - /url: https://browngold.com/news/bgl-secured-a-1-million-settlement-on-behalf-of-the-widow-of-a-man-killed-by-a-reckless-driver-while-performing-roadside-utility-work/
+      - generic [ref=e455]:
+        - generic [ref=e456]:
+          - paragraph [ref=e457]: Big Wins
+          - link "View All Big Wins" [ref=e458] [cursor=pointer]:
+            - /url: /big-wins
+            - generic [ref=e459]:
+              - text: View All
+              - generic [ref=e460]: Big Wins
+            - text: →
+        - generic [ref=e461]:
+          - generic [ref=e464]:
+            - link "A federal judge sided with Baltimore nonprofit and BGL client Green & Healthy Homes Initiative, ruling that the Environmental Protection Agency unlawfully terminated environmental justice grants worth $180 million." [ref=e465] [cursor=pointer]:
+              - /url: https://browngold.com/big-wins/a-federal-judge-sided-with-baltimore-nonprofit-and-bgl-client-green-healthy-homes-initiative-ruling-that-the-environmental-protection-agency-unlawfully-terminated-environmental-justice-grants-worth-2/
+              - article [ref=e466]:
+                - img "No alternative text provided" [ref=e467]
+                - paragraph [ref=e469]: A federal judge sided with Baltimore nonprofit and BGL client Green & Healthy Homes Initiative, ruling that the Environmental Protection Agency unlawfully terminated environmental justice grants worth $180 million.
+            - link "Andy Levy helps secure $266 million victory for City of Baltimore in major opioid case against prescription drug distributors." [ref=e470] [cursor=pointer]:
+              - /url: https://browngold.com/big-wins/andy-levy-helps-secure-266-million-victory-for-city-of-baltimore-in-major-opioid-case-against-prescription-drug-distributors/
+              - article [ref=e471]:
+                - img "No alternative text provided" [ref=e472]
+                - paragraph [ref=e474]: Andy Levy helps secure $266 million victory for City of Baltimore in major opioid case against prescription drug distributors.
+            - link "Supreme Court of Maryland allows BGL client to proceed with lawsuit against her landlord for policy that discriminates against housing voucher users." [ref=e475] [cursor=pointer]:
+              - /url: https://browngold.com/big-wins/supreme-court-of-maryland-allows-bgl-client-to-proceed-with-lawsuit-against-her-landlord-for-policy-that-discriminates-against-housing-voucher-users-2/
+              - article [ref=e476]:
+                - img "No alternative text provided" [ref=e477]
+                - paragraph [ref=e479]: Supreme Court of Maryland allows BGL client to proceed with lawsuit against her landlord for policy that discriminates against housing voucher users.
+            - link "BGL reaches historic $48 million settlement in Harlem Park Three wrongful conviction case." [ref=e480] [cursor=pointer]:
+              - /url: https://browngold.com/big-wins/bgl-reaches-historic-48-million-settlement-in-harlem-park-three-wrongful-conviction-case/
+              - article [ref=e481]:
+                - img "No alternative text provided" [ref=e482]
+                - paragraph [ref=e484]: BGL reaches historic $48 million settlement in Harlem Park Three wrongful conviction case.
+          - button "Next Slide " [disabled]
+          - button " Previous Slide" [disabled]
+      - generic [ref=e486]:
+        - generic [ref=e487]:
+          - generic [ref=e488]:
+            - generic [ref=e489]: June 6, 2025
+            - generic [ref=e490]: News
+          - link "BGL earns continued recognition and stands out as a legal market leader in Chambers 2025 USA guide, the most rigorously and independently researched legal directory on the market." [ref=e493] [cursor=pointer]:
+            - /url: https://browngold.com/news/bgl-earns-continued-recognition-and-stands-out-as-a-legal-market-leader-in-chambers-2025-usa-guide-the-most-rigorously-and-independently-researched-legal-directory-on-the-market/
+        - list [ref=e495]:
+          - listitem [ref=e496]:
+            - link "Acquitted man sues Charles County, Maryland, police officers for violating his rights and causing his wrongful arrest and incarceration." [ref=e497] [cursor=pointer]:
+              - /url: https://browngold.com/news/acquitted-man-sues-charles-county-maryland-police-officers-for-violating-his-rights-and-causing-his-wrongful-arrest-and-incarceration/
+              - article [ref=e498]:
+                - generic [ref=e499]:
+                  - generic [ref=e500]: May 15, 2026
+                  - generic [ref=e501]: News
+                - paragraph [ref=e502]: Acquitted man sues Charles County, Maryland, police officers for violating his rights and causing his wrongful arrest and incarceration.
+          - listitem [ref=e503]:
+            - link "Eve Hill was presented with the prestigious Stanley S. Herr Advocacy Leadership Award from The Arc of Baltimore for her outstanding advocacy and leadership on behalf of Marylanders with disabilities." [ref=e504] [cursor=pointer]:
+              - /url: https://browngold.com/news/eve-hill-was-presented-with-the-prestigious-stanley-s-herr-advocacy-leadership-award-from-the-arc-of-baltimore-for-her-outstanding-advocacy-and-leadership-on-behalf-of-marylanders-with-disabilities/
+              - article [ref=e505]:
+                - generic [ref=e506]:
+                  - generic [ref=e507]: May 14, 2026
+                  - generic [ref=e508]: News
+                - paragraph [ref=e509]: Eve Hill was presented with the prestigious Stanley S. Herr Advocacy Leadership Award from The Arc of Baltimore for her outstanding advocacy and leadership on behalf of Marylanders with disabilities.
+          - listitem [ref=e510]:
+            - link "Jessie Weber continues to receive top recognition for outstanding leadership as Managing Partner of Brown, Goldstein & Levy." [ref=e511] [cursor=pointer]:
+              - /url: https://browngold.com/news/jessie-weber-continues-to-receive-top-recognition-for-outstanding-leadership-as-managing-partner-of-brown-goldstein-levy/
+              - article [ref=e512]:
+                - generic [ref=e513]:
+                  - generic [ref=e514]: May 11, 2026
+                  - generic [ref=e515]: News
+                - paragraph [ref=e516]: Jessie Weber continues to receive top recognition for outstanding leadership as Managing Partner of Brown, Goldstein & Levy.
+          - listitem [ref=e517]:
+            - link "Charged with misdemeanor sexual abuse in D.C.? Double-check your jury trial rights." [ref=e518] [cursor=pointer]:
+              - /url: https://browngold.com/blog/charged-with-misdemeanor-sexual-abuse-in-d-c-double-check-your-jury-trial-rights/
+              - article [ref=e519]:
+                - generic [ref=e520]:
+                  - generic [ref=e521]: May 4, 2026
+                  - generic [ref=e522]: Blog
+                - paragraph [ref=e523]: Charged with misdemeanor sexual abuse in D.C.? Double-check your jury trial rights.
+      - generic [ref=e524]:
+        - img "mural of faces in Baltimore" [ref=e525]
+        - generic [ref=e526]:
+          - link "Community Impact Every person at Brown, Goldstein & Levy shares a deep sense of community and social responsibility. For almost 40 years, we have given back to Baltimore City through dedicated pro bono advocacy and service and support for community organizations fighting for fair housing, civil rights, and more." [ref=e527] [cursor=pointer]:
+            - /url: https://browngold.com/community-impact/
+            - generic [ref=e528]: Community Impact
+            - generic [ref=e529]: Every person at Brown, Goldstein & Levy shares a deep sense of community and social responsibility. For almost 40 years, we have given back to Baltimore City through dedicated pro bono advocacy and service and support for community organizations fighting for fair housing, civil rights, and more.
+          - link "Diversity, Inclusion, & Accessibility Brown, Goldstein & Levy holds itself to the highest standards of inclusion in all our work. We celebrate diversity and foster a collaborative, creative environment in which every person can use their strengths to their fullest and achieve the best results for our clients." [ref=e530] [cursor=pointer]:
+            - /url: https://browngold.com/diversity-inclusion-accessibility/
+            - generic [ref=e531]: Diversity, Inclusion, & Accessibility
+            - generic [ref=e532]: Brown, Goldstein & Levy holds itself to the highest standards of inclusion in all our work. We celebrate diversity and foster a collaborative, creative environment in which every person can use their strengths to their fullest and achieve the best results for our clients.
+      - generic [ref=e534]:
+        - generic [ref=e537]:
+          - img "Firm Logo (1)" [ref=e539]
+          - img "American Academy of Appellate Lawyers" [ref=e541]
+          - img "ACTL_Logo_Email_Web" [ref=e543]
+          - img [ref=e545]
+          - img [ref=e547]
+          - img [ref=e549]
+          - img [ref=e551]
+          - img [ref=e553]
+          - img [ref=e555]
+          - img [ref=e557]
+          - img [ref=e559]
+          - img [ref=e561]
+          - img [ref=e563]
+          - img [ref=e565]
+          - img [ref=e567]
+          - img [ref=e569]
+          - img [ref=e571]
+          - img [ref=e573]
+          - img [ref=e575]
+          - img [ref=e577]
+        - button "Next Slide " [ref=e578]
+        - button " Previous Slide" [disabled]
+  - contentinfo [ref=e579]:
+    - generic [ref=e580]:
+      - generic [ref=e581]:
+        - list [ref=e583]:
+          - listitem [ref=e584]:
+            - generic [ref=e585]:
+              - strong [ref=e586]: Baltimore Office
+              - generic [ref=e587]:
+                - text: 120 East Baltimore Street
+                - text: Suite 2500
+                - text: Baltimore, MD 21202
+              - link "(410) 962-1030" [ref=e588] [cursor=pointer]:
+                - /url: tel:4109621030
+          - listitem [ref=e589]:
+            - generic [ref=e590]:
+              - strong [ref=e591]: Washington, D.C. Office
+              - generic [ref=e592]:
+                - text: 1331 Pennsylvania Ave NW
+                - text: Suite 555 South
+                - text: Washington, DC 20004
+              - link "(202) 742-5969" [ref=e593] [cursor=pointer]:
+                - /url: tel:2027425969
+        - generic [ref=e594]:
+          - link "Contact Us" [ref=e595] [cursor=pointer]:
+            - /url: /contact-us/
+          - link "Inclusivity.Consulting" [ref=e596] [cursor=pointer]:
+            - /url: https://inclusivity.consulting/
+          - link "Review Us" [ref=e597] [cursor=pointer]:
+            - /url: https://browngold.com/review-us/
+            - img "Review Us" [ref=e598]
+      - generic [ref=e599]:
+        - list [ref=e602]:
+          - listitem [ref=e603]:
+            - link "Sitemap, opens a new window" [ref=e604] [cursor=pointer]:
+              - /url: /sitemap_index.xml
+              - text: Sitemap
+              - generic [ref=e605]: 
+          - listitem [ref=e606]:
+            - link "Disclaimer" [ref=e607] [cursor=pointer]:
+              - /url: https://browngold.com/disclaimer/
+          - listitem [ref=e608]:
+            - link "Accessibility Policy" [ref=e609] [cursor=pointer]:
+              - /url: https://browngold.com/accessibility-policy/
+          - listitem [ref=e610]:
+            - link "Privacy Policy" [ref=e611] [cursor=pointer]:
+              - /url: https://browngold.com/privacy-policy/
+          - listitem [ref=e612]:
+            - link "Cookie Policy" [ref=e613] [cursor=pointer]:
+              - /url: https://browngold.com/cookie-policy/
+        - list [ref=e616]:
+          - listitem [ref=e617]:
+            - text: 
+            - link "LinkedIn LinkedIn" [ref=e618] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/brown-goldstein-&-levy-llp/
+              - text: LinkedIn
+              - generic [ref=e619]: LinkedIn
+          - listitem [ref=e620]:
+            - text: 
+            - link "Facebook Facebook" [ref=e621] [cursor=pointer]:
+              - /url: https://www.facebook.com/BrownGoldsteinLevy
+              - text: Facebook
+              - generic [ref=e622]: Facebook
+          - listitem [ref=e623]:
+            - text: 
+            - link "X Twitter" [ref=e624] [cursor=pointer]:
+              - /url: https://twitter.com/BrownGoldLevy
+              - text: X
+              - generic [ref=e625]: Twitter
+      - paragraph [ref=e628]: © 2026 Brown, Goldstein & Levy LLP

@@ -1,0 +1,49 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e8]:
+      - img "mainlogo" [ref=e11]
+      - heading "Connecticut Personal Injury and Employment Trial Lawyers" [level=1] [ref=e14]
+  - generic [ref=e15]:
+    - article [ref=e17]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - link "Sabatini and Associates Employment Law" [ref=e25] [cursor=pointer]:
+            - /url: https://www.sabatiniemploymentlaw.com/
+            - img "Sabatini and Associates Employment Law" [ref=e27]
+          - link "Sabatini and Associates Personal Injury Lawyers" [ref=e30] [cursor=pointer]:
+            - /url: http://www.sabatinipersonalinjurylaw.com/
+            - img "Sabatini and Associates Personal Injury Lawyers" [ref=e32]
+        - generic [ref=e36]:
+          - 'heading "Sabatini and Associates, LLC is Connecticut trial law firm. The firm’s trial lawyers practice law in two main areas: personal injury and employment law." [level=2] [ref=e37]'
+          - paragraph [ref=e38]: The firm has three convenient locations. The main office is located in Newington. The firm’s additional offices are located in Hartford and Stamford. The firm’s regular office hours are 9:00 a.m. to 5:00 p.m., Monday through Friday. Appointments can be scheduled at other times during the week and on weekends. If needed, the firm’s attorneys will also travel to the client’s home . Individuals who have litigation matters or potential legal claims are invited to call us at 860-667-0839 for a consultation.
+    - contentinfo [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Sabatini and Associates – Connecticut Personal Injury Lawyers" [level=3] [ref=e46]
+        - generic [ref=e47]:
+          - generic [ref=e50]:
+            - heading "Hartford" [level=4] [ref=e51]
+            - paragraph [ref=e52]:
+              - text: 100 Pearl Street -14th Floor
+              - text: Hartford, CT 06103
+              - text: "Tel: 860.249.7150"
+              - text: "Fax: 860.249.7001"
+          - generic [ref=e55]:
+            - heading "Newington" [level=4] [ref=e56]
+            - paragraph [ref=e57]:
+              - text: One Market Square
+              - text: Newington, CT 06111-2992
+              - text: "Tel: 860.667.0839"
+              - text: "Fax: 860.667.0867"
+          - generic [ref=e60]:
+            - heading "Stamford" [level=4] [ref=e61]
+            - paragraph [ref=e62]:
+              - text: 1 Stamford Plaza
+              - text: 263 Tresser Boulevard – 9th Floor
+              - text: Stamford, CT 06901
+              - text: "Tel: 203.564.1967"
+        - generic [ref=e63]:
+          - paragraph [ref=e67]: © 2026 Sabatini and Associates, LLC | Powered by Smart 1 Marketing
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - link "" [ref=e71] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=100068352574124

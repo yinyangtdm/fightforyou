@@ -1,0 +1,195 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Emancipate North Carolina" [ref=e6] [cursor=pointer]:
+        - /url: https://emancipatenc.org/
+        - img "Emancipate North Carolina" [ref=e7]
+      - generic [ref=e8]:
+        - text: 3 3 3
+        - generic [ref=e11]: a
+  - generic [ref=e12]:
+    - article [ref=e14]:
+      - generic [ref=e17]:
+        - generic [ref=e19]:
+          - generic [ref=e22]:
+            - heading "Dismantling Structural Racism and Mass Incarceration Across North Carolina" [level=1] [ref=e23]
+            - paragraph [ref=e24]: Through community education, narrative shift, and litigation, Emancipate NC supports North Carolina’s people as they free themselves from mass incarceration and structural racism.
+          - generic [ref=e26]:
+            - generic:
+              - link "4" [ref=e30] [cursor=pointer]:
+                - /url: "#"
+              - link "5" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e32]:
+              - link "1" [ref=e33] [cursor=pointer]:
+                - /url: "#"
+              - link "2" [ref=e34] [cursor=pointer]:
+                - /url: "#"
+              - link "3" [ref=e35] [cursor=pointer]:
+                - /url: "#"
+              - link "4" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+              - link "5" [ref=e37] [cursor=pointer]:
+                - /url: "#"
+              - link "6" [ref=e38] [cursor=pointer]:
+                - /url: "#"
+              - link "7" [ref=e39] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - img "Dawn Blagrove, a Black woman in a red dress, stands smiling at a podium at the NC CRED symposium" [ref=e45]
+            - generic [ref=e47]:
+              - heading "Don’t Plead to Weed" [level=3] [ref=e48]
+              - paragraph [ref=e49]:
+                - text: Protect your rights. Learn what you need to know about illegal weed and legal hemp at our
+                - generic:
+                  - generic:
+                    - strong
+                - text: resource site.
+                - strong
+            - link "Visit Site" [ref=e51] [cursor=pointer]:
+              - /url: https://dontpleadtoweed.com
+          - generic [ref=e52]:
+            - img "Dawn Blagrove, a Black woman in a red dress, stands smiling at a podium at the NC CRED symposium" [ref=e55]
+            - generic [ref=e57]:
+              - heading "Carolina Parent Defenders" [level=3] [ref=e58]
+              - paragraph [ref=e59]: Our sister organization was founded by Toia and Elizabeth, a directly-impacted mom and her lawyer. CPD defends parents against involuntary separation from their kids.
+            - link "Visit Site" [ref=e61] [cursor=pointer]:
+              - /url: https://www.carolinaparentdefenders.org
+          - generic [ref=e62]:
+            - img "badge" [ref=e65]
+            - generic [ref=e67]:
+              - heading "Report an Encounter" [level=3] [ref=e68]
+              - paragraph [ref=e69]: Were you a victim of a police encounter? Report it on Emancipate NC’s Police Encounter Database!
+            - link "View Form" [ref=e71] [cursor=pointer]:
+              - /url: https://emancipatenc.org/report-a-police-encounter/
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - heading "Join Our Fight Today" [level=2] [ref=e77]
+            - paragraph [ref=e79]: Sign up for our email list to receive news, updates, stories from across North Carolina, and action alerts.
+          - generic [ref=e82]:
+            - paragraph [ref=e83]:
+              - textbox "Email" [ref=e84]
+            - paragraph [ref=e85]:
+              - link "Subscribe" [ref=e86] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e89]:
+          - heading "Latest News and Updates" [level=1] [ref=e92]
+          - generic [ref=e94]:
+            - generic:
+              - generic:
+                - generic [ref=e95]:
+                  - article [ref=e96]:
+                    - 'link "Attention, Greenville: Seeking Information about Officer Jennifer Umphlet" [ref=e98] [cursor=pointer]':
+                      - /url: https://emancipatenc.org/attention-greenville-seeking-information-about-officer-jennifer-umphlet/
+                      - 'img "Attention, Greenville: Seeking Information about Officer Jennifer Umphlet" [ref=e99]'
+                    - 'heading "Attention, Greenville: Seeking Information about Officer Jennifer Umphlet" [level=2] [ref=e100]':
+                      - 'link "Attention, Greenville: Seeking Information about Officer Jennifer Umphlet" [ref=e101] [cursor=pointer]':
+                        - /url: https://emancipatenc.org/attention-greenville-seeking-information-about-officer-jennifer-umphlet/
+                    - paragraph [ref=e102]: May 7, 2026
+                    - generic [ref=e103]:
+                      - paragraph [ref=e105]: Officer Umphlet was involved in an incident with our client, Anthony Drayton, at a McDonald’s in February 2025. We are gathering information to...
+                      - link "read more" [ref=e106] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/attention-greenville-seeking-information-about-officer-jennifer-umphlet/
+                  - article [ref=e107]:
+                    - link "Amani Collective Community Center" [ref=e109] [cursor=pointer]:
+                      - /url: https://emancipatenc.org/amani-collective-community-center/
+                      - img "Amani Collective Community Center" [ref=e110]
+                    - heading "Amani Collective Community Center" [level=2] [ref=e111]:
+                      - link "Amani Collective Community Center" [ref=e112] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/amani-collective-community-center/
+                    - paragraph [ref=e113]: May 7, 2026
+                    - generic [ref=e114]:
+                      - paragraph [ref=e116]: By Dedan Waciuri The upcoming opening of the Amani Collective Community Center at 1100 Ward St. in Greenville is about more than just a new...
+                      - link "read more" [ref=e117] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/amani-collective-community-center/
+                - generic [ref=e118]:
+                  - article [ref=e119]:
+                    - link "Congrats to Phillip Vance Smith, II — Journalist of the Year!" [ref=e121] [cursor=pointer]:
+                      - /url: https://emancipatenc.org/congrats-to-phillip-vance-smith-ii-journalist-of-the-year/
+                      - img "Congrats to Phillip Vance Smith, II — Journalist of the Year!" [ref=e122]
+                    - heading "Congrats to Phillip Vance Smith, II — Journalist of the Year!" [level=2] [ref=e123]:
+                      - link "Congrats to Phillip Vance Smith, II — Journalist of the Year!" [ref=e124] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/congrats-to-phillip-vance-smith-ii-journalist-of-the-year/
+                    - paragraph [ref=e125]: May 7, 2026
+                    - generic [ref=e126]:
+                      - paragraph [ref=e128]: "Huge congrats to friend of Emancipate NC on the 2025 Stillwater Award for Journalist of the Year! From Phill: \"Earlier today I found out that..."
+                      - link "read more" [ref=e129] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/congrats-to-phillip-vance-smith-ii-journalist-of-the-year/
+                  - article [ref=e130]:
+                    - link "The Callais Decision" [ref=e132] [cursor=pointer]:
+                      - /url: https://emancipatenc.org/the-callais-decision/
+                      - img "The Callais Decision" [ref=e133]
+                    - heading "The Callais Decision" [level=2] [ref=e134]:
+                      - link "The Callais Decision" [ref=e135] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/the-callais-decision/
+                    - paragraph [ref=e136]: May 7, 2026
+                    - generic [ref=e137]:
+                      - paragraph [ref=e139]: Last week, the Supreme Court invalidated Louisiana’s congressional map, delivering a devastating blow to voting rights by gutting Section 2 of the...
+                      - link "read more" [ref=e140] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/the-callais-decision/
+                - generic [ref=e141]:
+                  - article [ref=e142]:
+                    - link "Kerwin Pittman Wins the 2026 Conen Morgan Trailblazer Award at the NC Black Summit" [ref=e144] [cursor=pointer]:
+                      - /url: https://emancipatenc.org/kerwin-pittman-wins-the-2026-conen-morgan-trailblazer-award-at-the-nc-black-summit/
+                      - img "Kerwin Pittman Wins the 2026 Conen Morgan Trailblazer Award at the NC Black Summit" [ref=e145]
+                    - heading "Kerwin Pittman Wins the 2026 Conen Morgan Trailblazer Award at the NC Black Summit" [level=2] [ref=e146]:
+                      - link "Kerwin Pittman Wins the 2026 Conen Morgan Trailblazer Award at the NC Black Summit" [ref=e147] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/kerwin-pittman-wins-the-2026-conen-morgan-trailblazer-award-at-the-nc-black-summit/
+                    - paragraph [ref=e148]: May 7, 2026
+                    - generic [ref=e149]:
+                      - paragraph [ref=e151]: "Congrats to Kerwin on his receipt of the Conen Morgan Trailblazer Award at the NC Black Summit! In Kerwin’s own words: \"When your work speaks..."
+                      - link "read more" [ref=e152] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/kerwin-pittman-wins-the-2026-conen-morgan-trailblazer-award-at-the-nc-black-summit/
+                  - article [ref=e153]:
+                    - link "Dawn Blagrove Honored at Bloom in Power" [ref=e155] [cursor=pointer]:
+                      - /url: https://emancipatenc.org/dawn-blagrove-honored-at-bloom-in-power/
+                      - img "Dawn Blagrove Honored at Bloom in Power" [ref=e156]
+                    - heading "Dawn Blagrove Honored at Bloom in Power" [level=2] [ref=e157]:
+                      - link "Dawn Blagrove Honored at Bloom in Power" [ref=e158] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/dawn-blagrove-honored-at-bloom-in-power/
+                    - paragraph [ref=e159]: Apr 23, 2026
+                    - generic [ref=e160]:
+                      - paragraph [ref=e162]: "Dawn Blagrove was honored at Bloom in Power: Embracing Our Crowns, hosted by the North Carolina A&T State University chapter of Black Girls..."
+                      - link "read more" [ref=e163] [cursor=pointer]:
+                        - /url: https://emancipatenc.org/dawn-blagrove-honored-at-bloom-in-power/
+          - link "View All Stories" [ref=e165] [cursor=pointer]:
+            - /url: /blog/
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Support Our Work" [level=2] [ref=e171]
+            - paragraph [ref=e173]: Through community education and mobilization, we work to dismantle structural racism and mass incarceration in North Carolina. Your gift today helps us fight for a just future.
+          - link "Give Today" [ref=e175] [cursor=pointer]:
+            - /url: /donate/
+    - contentinfo [ref=e176]:
+      - generic [ref=e178]:
+        - generic [ref=e180]:
+          - heading "About" [level=4] [ref=e181]
+          - paragraph [ref=e183]:
+            - text: Emancipate NC was founded on the knowledge that mass incarceration and structural racism harm all of us. Prison is state-sponsored violence. We are all complicit in its harms. As an organization, we are dedicated to shifting the narrative on racialized mass incarceration through community education and mobilization. The mainstream narrative that criminalizes Black and Brown people must be transformed—so that we can all get free. Emancipate NC is a 501(c)(3) nonprofit organization and was previously known as the
+            - strong [ref=e184]:
+              - link "Carolina Justice Policy Center" [ref=e185] [cursor=pointer]:
+                - /url: https://cjpcenter.org
+            - text: .
+        - generic [ref=e187]:
+          - heading "Contact" [level=4] [ref=e188]
+          - paragraph [ref=e191]:
+            - strong [ref=e192]: Emancipate NC
+            - text: PO Box 309
+            - text: Durham, NC 27702
+            - text: (919) 682-1149
+        - generic [ref=e194]:
+          - heading "Follow Us" [level=4] [ref=e195]
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - link " " [ref=e199] [cursor=pointer]:
+                - /url: https://www.facebook.com/emancipatenc
+                - generic [ref=e200]:  
+            - listitem [ref=e201]:
+              - link " " [ref=e202] [cursor=pointer]:
+                - /url: https://www.instagram.com/emancipate.nc/
+                - generic [ref=e203]:  
+      - generic [ref=e206]:
+        - text: Site by
+        - link "Sellars Design and Development" [ref=e207] [cursor=pointer]:
+          - /url: https://sellarsdesign.com

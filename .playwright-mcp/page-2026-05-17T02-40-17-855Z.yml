@@ -1,0 +1,447 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link [ref=e8] [cursor=pointer]:
+            - /url: https://www.facebook.com/SheffLawOffices/
+            - text: 
+        - listitem [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company-beta/2274064/
+            - text: 
+        - listitem [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCRyVkRusCZvehzwAp9kFLIw
+            - text: 
+      - link "1-888-423-4477" [ref=e16] [cursor=pointer]:
+        - /url: tel:+18884234477
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - generic:
+          - link "Sheff Law":
+            - /url: https://www.shefflaw.com/
+            - img "Sheff Law"
+        - text:   
+      - navigation [ref=e22]:
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - link "HOME" [ref=e26] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/#top
+          - listitem [ref=e27]:
+            - link "ABOUT US" [ref=e28] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/about-us/
+              - text: ABOUT US
+          - listitem [ref=e29]:
+            - link "IN THE NEWS" [ref=e30] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/sheff-law-in-the-news/
+              - text: IN THE NEWS
+          - listitem [ref=e31]:
+            - link "WHAT WE DO" [ref=e32] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/personal-injury-attorney-practice-areas/
+              - text: WHAT WE DO
+          - listitem [ref=e33]:
+            - link "CONTACT US" [ref=e34] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/contact/
+          - listitem [ref=e35]:
+            - link "PROVEN RESULTS" [ref=e36] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/
+              - text: PROVEN RESULTS
+          - listitem [ref=e37]:
+            - link "BLOG" [ref=e38] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/?p=1725
+              - text: BLOG
+          - listitem [ref=e39]:
+            - link "LAWYER OF THE YEAR" [ref=e40] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/?p=4560
+  - generic [ref=e42]:
+    - main [ref=e45]:
+      - heading "OVER HALF A BILLION DOLLARS IN PERSONAL INJURY SETTLEMENTS RECOVERED FOR OUR CLIENTS" [level=2] [ref=e50]:
+        - text: OVER
+        - emphasis [ref=e52]: HALF A BILLION DOLLARS
+        - text: IN PERSONAL INJURY SETTLEMENTS RECOVERED FOR OUR CLIENTS
+    - generic [ref=e57]:
+      - img "blog-1-cover-1500x1000-1" [ref=e62]
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: For 60 years Sheff Law’s exceptional combination of skill, experience and resources have enabled us to recover hundreds of millions of dollars for our clients in serious injury and death cases.
+          - paragraph [ref=e68]: "Our consistent success is due to our unique team approach, which differentiates us from the rest. We are privileged to receive referrals throughout the country and have handled some of the most significant and high-profile cases of the decade:"
+        - generic [ref=e70]:
+          - button "Hingham Apple Store Car Accident" [ref=e72]: Hingham Apple Store Car Accident
+          - button "Columbia Gas Explosion & Fire Disaster" [ref=e74]: Columbia Gas Explosion & Fire Disaster
+          - button "Wrongful Death Case Against Aaron Hernandez" [ref=e76]: Wrongful Death Case Against Aaron Hernandez
+          - button "Back Bay Fire Tragedy" [ref=e78]:
+            - text: Back Bay
+            - text: Fire Tragedy
+        - paragraph [ref=e81]:
+          - generic [ref=e82]:
+            - text: Sheff Law is
+            - emphasis [ref=e83]:
+              - strong [ref=e84]: THE
+            - text: firm for catastrophic injury.
+    - generic [ref=e89]:
+      - heading "Our Areas Of Practice" [level=2] [ref=e92]
+      - generic [ref=e95] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e96]:
+          - /url: https://www.shefflaw.com/personal-injury-attorney-practice-areas/
+        - img "Personal Injury" [ref=e100]
+        - heading "Personal Injury" [level=3] [ref=e105]
+      - generic [ref=e106] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e107]:
+          - /url: https://www.shefflaw.com/explosion-injury/
+        - heading "Fire & Explosions" [level=3] [ref=e113]
+      - generic [ref=e114] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e115]:
+          - /url: https://www.shefflaw.com/construction-injury-lawyer-massachusetts/
+        - img "Construction Site Accidents" [ref=e119]
+        - heading "Construction Site Accidents" [level=3] [ref=e124]
+      - generic [ref=e125] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e126]:
+          - /url: https://www.shefflaw.com/boston-brain-injury-lawyer/
+        - img "Brain Injury" [ref=e130]
+        - heading "Brain Injury" [level=3] [ref=e135]
+      - generic [ref=e136] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e137]:
+          - /url: https://www.shefflaw.com/trucking-tractor-trailer-accidents/
+        - img "Truck/Tractor Trailer Accidents" [ref=e141]
+        - heading "Truck/Tractor-Trailer Accidents" [level=3] [ref=e146]
+      - generic [ref=e147] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e148]:
+          - /url: https://www.shefflaw.com/burn-injury-compensation/
+        - img "Burn Injury" [ref=e152]
+        - heading "Burn Injury" [level=3] [ref=e157]
+      - generic [ref=e158] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e159]:
+          - /url: https://www.shefflaw.com/car-accidents/
+        - img "Car Accidents" [ref=e163]
+        - heading "Car Accidents" [level=3] [ref=e168]
+      - generic [ref=e169] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e170]:
+          - /url: https://www.shefflaw.com/workplace-accidents/
+        - img "Workplace Accidents" [ref=e174]
+        - heading "Workplace Accidents" [level=3] [ref=e179]
+      - generic [ref=e180] [cursor=pointer]:
+        - link "Follow a manual added link" [ref=e181]:
+          - /url: https://www.shefflaw.com/wrongful-death/
+        - img "Wrongful Death" [ref=e185]
+        - heading "Wrongful Death" [level=3] [ref=e190]
+      - link "View All Areas Of Practice" [ref=e193] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/personal-injury-attorney-practice-areas/
+    - text:   
+    - generic [ref=e198]:
+      - generic [ref=e203]:
+        - list [ref=e204]:
+          - listitem [ref=e205]:
+            - link "LAWYER OF THE YEAR Douglas Sheff has been named Lawyer of the Year by Massachusetts Lawyers Weekly. Portrait of Boston injury attorney Douglas Sheff in the hallway of Sheff Law Offices." [ref=e206] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/?p=4560
+              - generic [ref=e208]:
+                - heading "LAWYER OF THE YEAR" [level=2] [ref=e209]
+                - paragraph [ref=e211]: Douglas Sheff has been named Lawyer of the Year by Massachusetts Lawyers Weekly.
+              - img "Portrait of Boston injury attorney Douglas Sheff in the hallway of Sheff Law Offices." [ref=e212]
+              - generic: 
+        - generic:
+          - link [ref=e213] [cursor=pointer]:
+            - /url: "#prev"
+            - text:  Previous
+          - link [ref=e214] [cursor=pointer]:
+            - /url: "#next"
+            - text:  Next
+        - generic:
+          - link "1" [ref=e215] [cursor=pointer]:
+            - /url: "#1"
+          - link "2" [ref=e216] [cursor=pointer]:
+            - /url: "#2"
+          - link "3" [ref=e217] [cursor=pointer]:
+            - /url: "#3"
+      - heading "DOUG SHEFF’S CREDENTIALS ARE UNMATCHED. HE HAS PROUDLY HAD THE HONOR TO SERVE AS:" [level=2] [ref=e223]:
+        - text: DOUG SHEFF’S CREDENTIALS ARE UNMATCHED.
+        - text: "HE HAS PROUDLY HAD THE HONOR TO SERVE AS:"
+      - generic [ref=e224]:
+        - img "cert1" [ref=e228]
+        - generic [ref=e229]:
+          - heading "President" [level=2] [ref=e230]:
+            - strong [ref=e231]: President
+          - paragraph [ref=e233]:
+            - text: Of The Massachusetts
+            - text: Bar Association
+      - generic [ref=e234]:
+        - img "cert1" [ref=e238]
+        - generic [ref=e239]:
+          - heading "President" [level=2] [ref=e240]:
+            - strong [ref=e241]: President
+          - paragraph [ref=e243]:
+            - text: Of The Massachusetts
+            - text: Academy Of Trial Attorneys
+      - generic [ref=e244]:
+        - img "cert3" [ref=e248]
+        - generic [ref=e249]:
+          - heading "Governor" [level=2] [ref=e250]:
+            - strong [ref=e251]: Governor
+          - paragraph [ref=e253]:
+            - text: Of The American
+            - text: Association Of Justice
+      - generic [ref=e254]:
+        - img "cert4" [ref=e258]
+        - generic [ref=e259]:
+          - heading "Trustee" [level=2] [ref=e260]:
+            - strong [ref=e261]: Trustee
+          - paragraph [ref=e263]:
+            - text: Of The National
+            - text: College Of Advocacy
+    - heading "Boston Brain Injury, Wrongful Death and Personal Injury Lawyers" [level=3] [ref=e272]
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - strong [ref=e281]: $00,000,000
+          - paragraph [ref=e284]:
+            - link "Workplace Explosion" [ref=e285] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/
+        - generic [ref=e287]:
+          - strong [ref=e289]: $00,000,000
+          - paragraph [ref=e292]:
+            - link "Dementia from Brain Injury" [ref=e293] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/
+        - generic [ref=e295]:
+          - strong [ref=e297]: $0,000,000
+          - paragraph [ref=e300]:
+            - link "Traumatic Brain Injury" [ref=e301] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/
+        - generic [ref=e303]:
+          - strong [ref=e305]: $0,000,000
+          - paragraph [ref=e308]:
+            - link "Toxic Exposure" [ref=e309] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/
+      - generic [ref=e314]:
+        - heading "Sheff Law Has Merged with Kathy Jo Cook Law Firm, Creating Sheff & Cook" [level=2] [ref=e315]:
+          - link "Sheff Law Has Merged with Kathy Jo Cook Law Firm, Creating Sheff & Cook" [ref=e316] [cursor=pointer]:
+            - /url: https://sheffandcook.com/
+        - paragraph [ref=e317]:
+          - text: After decades of successful leadership within the legal community, Sheff Law is proud to share that it has combined forces with the equally renowned Kathy Jo Cook Law Firm, creating one formidable law firm that has distinguished itself as a
+          - strong [ref=e318]: leader in the field of personal injury law and wrongful death cases
+          - text: . The new firm,
+          - link "Sheff & Cook" [ref=e319] [cursor=pointer]:
+            - /url: https://sheffandcook.com/
+          - text: ", will be managed by both Kathy Jo Cook and our own Doug Sheff. Together, they share a goal of consistently providing clients with unparalleled expertise and extraordinary outcomes to continue the legacy of excellence each firm was built upon."
+      - heading "Personal Injury Lawyers in Boston, Massachusetts" [level=1] [ref=e325]:
+        - link "Personal Injury Lawyers" [ref=e326] [cursor=pointer]:
+          - /url: https://www.shefflaw.com/attorney-profiles/
+        - text: in Boston, Massachusetts
+      - generic [ref=e327]:
+        - img "2018 10 Best Law Firm Client Satisfaction badge from the American Institute of Personal Injury Attorneys" [ref=e331]
+        - generic [ref=e333]:
+          - paragraph [ref=e334]:
+            - generic [ref=e336]: 
+            - generic [ref=e338]: 
+            - generic [ref=e340]: 
+            - generic [ref=e342]: 
+            - generic [ref=e344]: 
+          - paragraph [ref=e345]: I want to thank the Sheff team for their tireless effort on my behalf. They are so helpful and easy to work with and a great group of lawyers all around.
+          - paragraph [ref=e346]: — Katherine G
+          - paragraph [ref=e347]:
+            - generic [ref=e349]: 
+            - generic [ref=e351]: 
+            - generic [ref=e353]: 
+            - generic [ref=e355]: 
+            - generic [ref=e357]: 
+          - paragraph [ref=e358]:
+            - generic [ref=e360]: I retained Sheff Law Offices to help me with a case, I could not be happier with the results! I recommend them to everyone!
+          - paragraph [ref=e361]: –Frenchesa Rodriguez
+          - paragraph [ref=e362]:
+            - generic [ref=e364]: 
+            - generic [ref=e366]: 
+            - generic [ref=e368]: 
+            - generic [ref=e370]: 
+            - generic [ref=e372]: 
+          - paragraph [ref=e373]: Doug is a hard-working and genuine person who hires equally hard-working and compassionate attorneys.
+          - paragraph [ref=e374]: –Tara R
+          - paragraph [ref=e375]:
+            - generic [ref=e377]: 
+            - generic [ref=e379]: 
+            - generic [ref=e381]: 
+            - generic [ref=e383]: 
+            - generic [ref=e385]: 
+          - paragraph [ref=e386]: I can’t imagine any other Law firm that can do what Sheff Law did for me. Don Grady is very knowledgeable and has always been there for my family and I whenever needed. I couldn’t have ask for better service and results.
+          - paragraph [ref=e387]: –Matthew Clewer
+          - paragraph [ref=e388]:
+            - generic [ref=e390]: 
+            - generic [ref=e392]: 
+            - generic [ref=e394]: 
+            - generic [ref=e396]: 
+            - generic [ref=e398]: 
+          - paragraph [ref=e399]:
+            - generic [ref=e401]: The attorneys at Sheff Law are fantastic and they are very friendly. They are bilingual and I felt very comfortable speaking Spanish with them and handling my case!
+          - paragraph [ref=e402]: –Julisa Curet
+          - paragraph [ref=e403]:
+            - text: See more
+            - link "client reviews on Google" [ref=e404] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=sheff+law&ie=utf-8&oe=utf-8&client=firefox-b-1#lrd=0x89e37084efaa8db7:0xa473619c1be8f741,1,,,
+        - generic [ref=e408]:
+          - heading "Referrals" [level=3] [ref=e409]
+          - paragraph [ref=e410]: Sheff Law has an established history of excellence in cases referred to us.
+          - paragraph [ref=e411]:
+            - text: Please call us at
+            - link "617-227-7000" [ref=e412] [cursor=pointer]:
+              - /url: tel:6172277000
+            - text: for more information.
+      - generic [ref=e413]:
+        - generic [ref=e415]:
+          - paragraph [ref=e416]:
+            - text: At Sheff Law, our team approach to wrongful death and
+            - link "personal injury law" [ref=e417] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/injury-types/
+            - text: results in remarkable resolutions for our clients. We have proven our method consistently, providing our clients with unparalleled expertise and extraordinary outcomes. Recently, several of our cases have been widely publicized, including the wrongful death case of Leonel Rondon in the Merrimack Valley Columbia Gas Explosion, the wrongful death of Odin Lloyd at the hands of Aaron Hernandez and the Back Bay Fire tragedy.
+          - heading "Personal Injury Settlements with Sheff Law" [level=2] [ref=e418]
+          - paragraph [ref=e419]: Our team approach has evolved throughout Sheff Law’s 60 years of excellence in personal injury litigation in Massachusetts. Every Sheff Law client has a team of personal injury lawyers, including partners, who bring their individual experience and expertise to each case. This team approach ensures that each client receives superior communication and support from the first day they contact our Boston law firm to the final resolution of their personal injury case.
+          - 'heading "Doug Sheff: Massachusetts Lawyer of the Year" [level=2] [ref=e420]'
+          - paragraph [ref=e421]:
+            - text: "Doug Sheff, one of the most accomplished personal injury lawyers in Boston, developed the team approach to leverage the most important element in personal injury cases: experience. No single attorney can fully appreciate all of the complex implications of"
+            - link "wrongful death" [ref=e422] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/wrongful-death/
+            - text: cases,
+            - link "traumatic brain injury" [ref=e423] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/boston-brain-injury-lawyer/
+            - text: claims or
+            - link "workplace accident" [ref=e424] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/workplace-accidents/
+            - text: cases.
+            - link "Trucking accident" [ref=e425] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/trucking-tractor-trailer-accidents/
+            - text: cases require a mastery of a myriad of local, state or federal rules. Many personal injury lawyers in MA hire outside counsel to deal with complex cases, creating extra cost for their clients and slowing the resolution process.
+          - heading "Meet with Our Boston Personal Injury Law Office" [level=2] [ref=e426]
+          - paragraph [ref=e427]: At Sheff & Cook, our in-house team of personal injury attorneys work together to bring their knowledge and experience on each case. This team approach surpasses the service and results available from other Boston personal injury lawyers and gives every Sheff & Cook client the outstanding representation they deserve. We work hand in hand with clients, placing them in position to succeed and to obtain outstanding results.
+          - paragraph [ref=e428]:
+            - text: If you or someone you know has a personal injury claim,
+            - link "contact Sheff & Cook" [ref=e429] [cursor=pointer]:
+              - /url: https://sheffandcook.com/contact-us/
+            - text: today and meet with our team for a free consultation.
+        - iframe [ref=e434]
+        - heading "Family of Teen Killed During Gas Explosions Settles Lawsuit" [level=4] [ref=e437]
+    - generic [ref=e444]:
+      - heading "Why us?" [level=2] [ref=e446]
+      - article [ref=e450]:
+        - generic [ref=e451]: 
+        - generic [ref=e452]:
+          - heading "Team Approach" [level=3] [ref=e454]
+          - paragraph [ref=e456]: Every client gets a team of personal injury lawyers, including partners.
+      - article [ref=e458]:
+        - generic [ref=e459]: 
+        - generic [ref=e460]:
+          - heading "60 Years Experience" [level=3] [ref=e462]
+          - paragraph [ref=e464]: A 60-year track record of excellence in personal injury law in Boston.
+      - article [ref=e466]:
+        - generic [ref=e467]: 
+        - generic [ref=e468]:
+          - heading "In-Depth Expertise" [level=3] [ref=e470]
+          - paragraph [ref=e472]:
+            - text: Recognized leaders in
+            - link "workplace accidents" [ref=e473] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/#workplace-explosion
+            - text: ","
+            - link "traumatic brain injury" [ref=e474] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/#workplace-explosion
+            - text: and
+            - link "vehicle accidents" [ref=e475] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/proven-results/#workplace-explosion
+            - text: .
+      - article [ref=e477]:
+        - generic [ref=e478]: 
+        - generic [ref=e479]:
+          - heading "Superior Communication" [level=3] [ref=e481]
+          - paragraph [ref=e483]: Compassionate support and answers to every question whenever you need.
+      - article [ref=e485]:
+        - generic [ref=e486]: 
+        - generic [ref=e487]:
+          - heading "Relentless Focus on Results" [level=3] [ref=e489]
+          - paragraph [ref=e491]: We help our clients get the awards they deserve in personal injury cases.
+      - article [ref=e493]:
+        - generic [ref=e494]: 
+        - generic [ref=e495]:
+          - heading "No Fees" [level=3] [ref=e497]
+          - paragraph [ref=e499]: There are no fees for our services unless you are awarded a settlement.
+    - generic [ref=e501]:
+      - link [ref=e502] [cursor=pointer]:
+        - /url: "#next-section"
+        - text: 
+      - generic [ref=e506]:
+        - heading "Media Coverage" [level=2] [ref=e508]
+        - generic [ref=e511]:
+          - generic [ref=e512]:
+            - iframe [ref=e515]
+            - 'heading "Merrimack Valley Explosions, One Year Later: Leonel Rondon’s Story" [level=4] [ref=e518]'
+          - generic [ref=e520]:
+            - iframe [ref=e523]
+            - heading "New Federal Gas Pipeline Legislation to be Named for Merrimack Valley Gas Explosion Victim Leonel Rondon" [level=4] [ref=e526]
+          - generic [ref=e528]:
+            - iframe [ref=e531]
+            - 'heading "EMOTIONAL: Mom of Odin Lloyd, Murder Victim of Aaron Hernandez, Speaks Out After Athlete’s Death" [level=4] [ref=e534]'
+        - heading "See Sheff Law in the News for recent media coverage" [level=3] [ref=e539]:
+          - text: See
+          - link "Sheff Law in the News" [ref=e541] [cursor=pointer]:
+            - /url: https://www.shefflaw.com/sheff-law-in-the-news/
+          - text: for recent media coverage
+    - generic [ref=e543]:
+      - link [ref=e544] [cursor=pointer]:
+        - /url: "#next-section"
+        - text: 
+      - generic [ref=e548]:
+        - heading "Recognitions" [level=2] [ref=e550]
+        - generic [ref=e556]:
+          - img "American Association for Justice logo" [ref=e559]
+          - img "Avvo logo" [ref=e561]
+          - img "Massachusetts Academy of Trial Attorneys logo" [ref=e563]
+          - img "Martindale Hubbell logo" [ref=e565]
+    - paragraph [ref=e574]:
+      - link "Boston Personal Injury Lawyer" [ref=e575] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/practice-areas/
+      - text: "|"
+      - link "Lawrence Explosion Lawyer" [ref=e576] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/those-impacted-by-the-andover-lawrence-and-north-andover-gas-explosions-should-exercise-caution/
+      - text: "|"
+      - link "Andover Explosion Lawyer" [ref=e577] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/those-impacted-by-the-andover-lawrence-and-north-andover-gas-explosions-should-exercise-caution/
+      - text: "|"
+      - link "Boston Car Accident Lawyer" [ref=e578] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/boston-car-accident-lawyer/
+      - text: "|"
+      - link "Boston Wrongful Death Lawyer" [ref=e579] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/wrongful-death/
+      - text: "|"
+      - link "Boston Motorcycle Accident Lawyer" [ref=e580] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/motorcycle-accident-lawyer-in-boston/
+      - text: "|"
+      - link "Boston Brain Injury Lawyer" [ref=e581] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/brain-injury/
+      - text: "|"
+      - link "Boston Slip and Fall Lawyer" [ref=e582] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/premises-liability/
+      - text: "|"
+      - link "Boston Burn Injuries Lawyer" [ref=e583] [cursor=pointer]:
+        - /url: https://www.shefflaw.com/burn-injury-compensation/
+    - generic [ref=e585]:
+      - generic [ref=e589]:
+        - img [ref=e590]
+        - text: The Daniel Webster Suite
+        - text: 10 Tremont Street
+        - text: Boston, MA 02108
+        - text: (888) 423-4477 | (617) 227-7000
+      - generic [ref=e592]:
+        - heading "Search" [level=3] [ref=e593]
+        - generic [ref=e595]:
+          - button "" [ref=e596] [cursor=pointer]
+          - textbox "Search" [ref=e597]
+    - contentinfo [ref=e598]:
+      - generic [ref=e599]:
+        - generic [ref=e600]: © Copyright 2020 - Sheff Law
+        - list [ref=e601]:
+          - listitem [ref=e602]:
+            - link [ref=e603] [cursor=pointer]:
+              - /url: https://www.facebook.com/SheffLawOffices/
+              - text: 
+          - listitem [ref=e604]:
+            - link [ref=e605] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company-beta/2274064/
+              - text: 
+          - listitem [ref=e606]:
+            - link [ref=e607] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCRyVkRusCZvehzwAp9kFLIw
+              - text: 

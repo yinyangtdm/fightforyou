@@ -1,0 +1,912 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Logo Link" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+      - navigation [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Personal Injury " [ref=e11] [cursor=pointer]:
+              - /url: /shreveport-injury-lawyer
+          - listitem [ref=e12]:
+            - generic [ref=e13]: Motor Vehicle Accidents 
+          - listitem [ref=e14]:
+            - link "Cases" [ref=e15] [cursor=pointer]:
+              - /url: /results
+          - listitem [ref=e16]:
+            - link "About Us " [ref=e17] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=e18]:
+            - link "Service Area " [ref=e19] [cursor=pointer]:
+              - /url: /areas-we-serve
+          - listitem [ref=e20]:
+            - link "Contact Us" [ref=e21] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=e22]:
+        - link "Phone Icon" [ref=e23] [cursor=pointer]:
+          - /url: tel:+13182222772
+          - text: 
+          - generic [ref=e24]: (318) 222-2772
+        - list [ref=e26]:
+          - listitem
+          - listitem [ref=e27]:
+            - button "ES" [ref=e28] [cursor=pointer]
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - img "entry into a court" [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - heading "Northwest Louisiana's Trusted Personal Injury Law Firm" [level=1] [ref=e36]
+          - generic [ref=e37]:
+            - text: Complex Cases.
+            - text: Clear Solutions.
+            - emphasis [ref=e38]: Rice & Kendig
+          - link "Your Free Consultation" [ref=e40] [cursor=pointer]:
+            - /url: /contact-us
+          - generic [ref=e41]:
+            - button "Button Play" [ref=e42] [cursor=pointer]:
+              - img [ref=e44]
+            - generic [ref=e46]: Watch Video About Us
+        - img "Northwest Louisiana's Trusted Personal Injury Law Firm" [ref=e47]
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: Cases
+          - generic [ref=e53]:
+            - heading "Fighting and Winning for Louisiana Families:" [level=2] [ref=e54]
+            - heading "‍Over $156M Recovered" [level=2] [ref=e55]:
+              - text: ‍
+              - emphasis [ref=e56]: Over $156M Recovered
+        - link "View More Cases " [ref=e57] [cursor=pointer]:
+          - /url: /results
+      - generic [ref=e58]:
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - link " $900,000 Motor Vehicle Accident A truck towing a large piece of equipment blocked a rural roadway, leading to a collision that left our client with rib and ankle fractures." [ref=e62] [cursor=pointer]:
+              - /url: /results/mansfield-roadway-obstruction-900k-settlement
+              - text: 
+              - generic [ref=e63]: $900,000
+              - paragraph [ref=e64]: Motor Vehicle Accident
+              - generic:
+                - paragraph: A truck towing a large piece of equipment blocked a rural roadway, leading to a collision that left our client with rib and ankle fractures.
+          - listitem [ref=e65]:
+            - link " $1,000,000 Wrongful Death A series of truck collisions on a rural roadway resulted in catastrophic injuries and the wrongful death of our client." [ref=e66] [cursor=pointer]:
+              - /url: /results/18-wheeler-wrongful-death-1m-settlement
+              - text: 
+              - generic [ref=e67]: $1,000,000
+              - paragraph [ref=e68]: Wrongful Death
+              - generic:
+                - paragraph: A series of truck collisions on a rural roadway resulted in catastrophic injuries and the wrongful death of our client.
+          - listitem [ref=e69]:
+            - link " $900,000 Car Accidents Clients were rear-ended by an oilfield service truck, resulting in shoulder and wrist injuries and the aggravation of a hernia." [ref=e70] [cursor=pointer]:
+              - /url: /results/oilfield-truck-accident-900k-settlement
+              - text: 
+              - generic [ref=e71]: $900,000
+              - paragraph [ref=e72]: Car Accidents
+              - generic:
+                - paragraph: Clients were rear-ended by an oilfield service truck, resulting in shoulder and wrist injuries and the aggravation of a hernia.
+          - listitem [ref=e73]:
+            - link " $755,000 Car Accidents A distracted driver failed to stop for our client’s vehicle, causing injuries, including sacroiliac joint dysfunction and post-concussion syndrome." [ref=e74] [cursor=pointer]:
+              - /url: /results/rear-end-collision-755k-settlement
+              - text: 
+              - generic [ref=e75]: $755,000
+              - paragraph [ref=e76]: Car Accidents
+              - generic:
+                - paragraph: A distracted driver failed to stop for our client’s vehicle, causing injuries, including sacroiliac joint dysfunction and post-concussion syndrome.
+          - listitem [ref=e77]:
+            - link " $650,000 Trip and Fall A caterer suffered major shoulder and knee injuries requiring surgery after tripping over a loose board that the facility had failed to repair." [ref=e78] [cursor=pointer]:
+              - /url: /results/shreveport-trip-and-fall-650k-settlement
+              - text: 
+              - generic [ref=e79]: $650,000
+              - paragraph [ref=e80]: Trip and Fall
+              - generic:
+                - paragraph: A caterer suffered major shoulder and knee injuries requiring surgery after tripping over a loose board that the facility had failed to repair.
+          - listitem [ref=e81]:
+            - link " $826,000 Car Accidents A client was rear-ended in Haughton by a distracted driver, resulting in herniated discs and central stenosis." [ref=e82] [cursor=pointer]:
+              - /url: /results/haughton-rear-end-accident-826k-settlement
+              - text: 
+              - generic [ref=e83]: $826,000
+              - paragraph [ref=e84]: Car Accidents
+              - generic:
+                - paragraph: A client was rear-ended in Haughton by a distracted driver, resulting in herniated discs and central stenosis.
+          - listitem [ref=e85]:
+            - link " $675,000 Car Accidents Our client sustained spinal injuries and chronic headaches after being rear-ended by a distracted driver in Desoto Parish." [ref=e86] [cursor=pointer]:
+              - /url: /results/desoto-parish-distracted-driver-675k-settlement
+              - text: 
+              - generic [ref=e87]: $675,000
+              - paragraph [ref=e88]: Car Accidents
+              - generic:
+                - paragraph: Our client sustained spinal injuries and chronic headaches after being rear-ended by a distracted driver in Desoto Parish.
+          - listitem [ref=e89]:
+            - link " $850,000 Car Accidents A driver’s failure to yield on LA 3132 led to a high-impact rear-end collision, causing the client to suffer multi-level disc disease and chronic pain." [ref=e90] [cursor=pointer]:
+              - /url: /results/shreveport-rear-end-accident-850k-settlement
+              - text: 
+              - generic [ref=e91]: $850,000
+              - paragraph [ref=e92]: Car Accidents
+              - generic:
+                - paragraph: A driver’s failure to yield on LA 3132 led to a high-impact rear-end collision, causing the client to suffer multi-level disc disease and chronic pain.
+          - listitem [ref=e93]:
+            - link " $2,000,000 Truck Accidents An 18-wheeler driver suffered severe facial and internal injuries after a defective tire blew out, causing the truck to flip several times." [ref=e94] [cursor=pointer]:
+              - /url: /results/truck-tire-defect-2m-settlement
+              - text: 
+              - generic [ref=e95]: $2,000,000
+              - paragraph [ref=e96]: Truck Accidents
+              - generic:
+                - paragraph: An 18-wheeler driver suffered severe facial and internal injuries after a defective tire blew out, causing the truck to flip several times.
+          - listitem [ref=e97]:
+            - link " $2,700,000 Slip and Fall A client suffered a head injury after slipping on unattended mop water in a facility that failed to post warning signs." [ref=e98] [cursor=pointer]:
+              - /url: /results/slip-and-fall-head-injury-2-7m-settlement
+              - text: 
+              - generic [ref=e99]: $2,700,000
+              - paragraph [ref=e100]: Slip and Fall
+              - generic:
+                - paragraph: A client suffered a head injury after slipping on unattended mop water in a facility that failed to post warning signs.
+          - listitem [ref=e101]:
+            - link " $16,000,000 Wrongful Death A tragic head-on collision caused by a speeding 18-wheeler resulted in the wrongful death of a mother and great-grandmother and injuries to an infant." [ref=e102] [cursor=pointer]:
+              - /url: /results/wrongful-death-18-wheeler-16m-settlement
+              - text: 
+              - generic [ref=e103]: $16,000,000
+              - paragraph [ref=e104]: Wrongful Death
+              - generic:
+                - paragraph: A tragic head-on collision caused by a speeding 18-wheeler resulted in the wrongful death of a mother and great-grandmother and injuries to an infant.
+          - listitem [ref=e105]:
+            - link " $1,000,000 Premises Liability The client was a passenger in a vehicle when the roadway suddenly collapsed, causing vertebral compression fractures and significant PTSD." [ref=e106] [cursor=pointer]:
+              - /url: /results/premises-liability-roadway-collapse-1m-settlement
+              - text: 
+              - generic [ref=e107]: $1,000,000
+              - paragraph [ref=e108]: Premises Liability
+              - generic:
+                - paragraph: The client was a passenger in a vehicle when the roadway suddenly collapsed, causing vertebral compression fractures and significant PTSD.
+          - listitem [ref=e109]:
+            - link " $2,150,000 Wrongful Death The client suffered fatal injuries when the defendant ran a stop sign, causing a collision that resulted in multiple broken bones and severe head trauma." [ref=e110] [cursor=pointer]:
+              - /url: /results/wrongful-death-2-15m-settlement
+              - text: 
+              - generic [ref=e111]: $2,150,000
+              - paragraph [ref=e112]: Wrongful Death
+              - generic:
+                - paragraph: The client suffered fatal injuries when the defendant ran a stop sign, causing a collision that resulted in multiple broken bones and severe head trauma.
+          - listitem [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]: $1,600,000
+              - paragraph [ref=e116]: Truck Accidents
+              - generic:
+                - paragraph: Former sheriff's deputy, age 72, was rear-ended by a heavy-duty work truck, aggravating a degenerative neck problem.
+          - listitem [ref=e117]:
+            - link " $1,275,000 Car Accidents The client was a passenger when another driver ran a stop sign, causing a t-bone collision resulting in a broken femur requiring surgery." [ref=e118] [cursor=pointer]:
+              - /url: /results/car-collision-1-275m-settlement
+              - text: 
+              - generic [ref=e119]: $1,275,000
+              - paragraph [ref=e120]: Car Accidents
+              - generic:
+                - paragraph: The client was a passenger when another driver ran a stop sign, causing a t-bone collision resulting in a broken femur requiring surgery.
+          - listitem [ref=e121]:
+            - link " $750,000 Truck Accidents An 18-wheeler lost power and rolled back into the client's vehicle, aggravating a pre-existing lower back injury." [ref=e122] [cursor=pointer]:
+              - /url: /results/truck-accident-750k-settlement
+              - text: 
+              - generic [ref=e123]: $750,000
+              - paragraph [ref=e124]: Truck Accidents
+              - generic:
+                - paragraph: An 18-wheeler lost power and rolled back into the client's vehicle, aggravating a pre-existing lower back injury.
+          - listitem [ref=e125]:
+            - link " $2,000,000 Car Accidents The client's pre-existing Chiari malformation was aggravated in a rear-end collision, requiring a posterior craniotomy." [ref=e126] [cursor=pointer]:
+              - /url: /results/car-accident-2m-settlement
+              - text: 
+              - generic [ref=e127]: $2,000,000
+              - paragraph [ref=e128]: Car Accidents
+              - generic:
+                - paragraph: The client's pre-existing Chiari malformation was aggravated in a rear-end collision, requiring a posterior craniotomy.
+          - listitem [ref=e129]:
+            - link " $650,000 Car Accidents The client was turning into a gas station when struck from behind by a distracted driver, resulting in neck injuries requiring a 2-level cervical fusion." [ref=e130] [cursor=pointer]:
+              - /url: /results/car-accident-distracted-driver-collision-650k-settlement
+              - text: 
+              - generic [ref=e131]: $650,000
+              - paragraph [ref=e132]: Car Accidents
+              - generic:
+                - paragraph: The client was turning into a gas station when struck from behind by a distracted driver, resulting in neck injuries requiring a 2-level cervical fusion.
+          - listitem [ref=e133]:
+            - link " $465,000 Truck Accidents An inattentive 18-wheeler driver made an improper turn, causing a collision that aggravated the client's pre-existing neck injury requiring surgery." [ref=e134] [cursor=pointer]:
+              - /url: /results/truck-accident-leads-to-neck-surgery-465k-settlement
+              - text: 
+              - generic [ref=e135]: $465,000
+              - paragraph [ref=e136]: Truck Accidents
+              - generic:
+                - paragraph: An inattentive 18-wheeler driver made an improper turn, causing a collision that aggravated the client's pre-existing neck injury requiring surgery.
+          - listitem [ref=e137]:
+            - link " $1,000,000 Car Accidents An 84-year-old client suffered multiple injuries when a vehicle turned left in front of her, causing a t-bone collision." [ref=e138] [cursor=pointer]:
+              - /url: /results/car-accident-collision-1m-settlement
+              - text: 
+              - generic [ref=e139]: $1,000,000
+              - paragraph [ref=e140]: Car Accidents
+              - generic:
+                - paragraph: An 84-year-old client suffered multiple injuries when a vehicle turned left in front of her, causing a t-bone collision.
+          - listitem [ref=e141]:
+            - link " $2,500,000 Pedestrian Accidents The client was helping a friend load car seats when struck by a driver who fell asleep at the wheel." [ref=e142] [cursor=pointer]:
+              - /url: /results/pedestrian-hit-by-sleeping-driver-2-5m-settlement
+              - text: 
+              - generic [ref=e143]: $2,500,000
+              - paragraph [ref=e144]: Pedestrian Accidents
+              - generic:
+                - paragraph: The client was helping a friend load car seats when struck by a driver who fell asleep at the wheel.
+          - listitem [ref=e145]:
+            - generic [ref=e146]:
+              - generic [ref=e147]: $987,525
+              - paragraph [ref=e148]: 18-Wheeler Collision
+              - generic:
+                - paragraph: Logging truck’s failure to yield caused client to suffer fractures in the arm and leg, amputation of 3 toes, and shoulder injuries.
+          - listitem [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: $1,000,000
+              - paragraph [ref=e152]: Premises Liability
+              - generic:
+                - paragraph: Fall at a hotel convention center caused hand, neck, and low back injuries resulting in a 7-year recovery period.
+          - listitem [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]: $500,000
+              - paragraph [ref=e156]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Injuries to back, chest, shoulder, leg and spine requiring surgery.
+          - listitem [ref=e157]:
+            - generic [ref=e158]:
+              - generic [ref=e159]: $500,000
+              - paragraph [ref=e160]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was rear-ended sustaining injuries to the neck, back, and knee.
+          - listitem [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: $500,000
+              - paragraph [ref=e164]: Wrongful Death/Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was struck and killed during daylight hours while retrieving an item from the highway.
+          - listitem [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: $500,000
+              - paragraph [ref=e168]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was t-boned by a city vehicle sustaining neck and back injuries, TMJ, and headaches that required physical therapy and multiple injections.
+          - listitem [ref=e169]:
+            - generic [ref=e170]:
+              - generic [ref=e171]: $504,150
+              - paragraph [ref=e172]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was rear-ended causing injuries to the neck and right side of the body. Client’s neck injury required surgery.
+          - listitem [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]: $545,000
+              - paragraph [ref=e176]: Cycling/Motor Vehicle Collision
+              - generic:
+                - paragraph: Client on a bicycle was hit by a police patrol car causing brain damage, and injuries to the head, neck, legs, and arm.
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: $550,000
+              - paragraph [ref=e180]: 18-Wheeler Collision
+              - generic:
+                - paragraph: Client was rear-ended by a big rig causing low back and neck pain; physical recovery and treatment included injections, physical therapy, and counseling.
+          - listitem [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: $625,000
+              - paragraph [ref=e184]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Head-on collision led to wrist and hand injuries that required surgery, seat belt injuries, pain in the neck, sternum, pelvis, abdomen, shoulder, and back, and post-traumatic stress disorder.
+          - listitem [ref=e185]:
+            - generic [ref=e186]:
+              - generic [ref=e187]: $650,000
+              - paragraph [ref=e188]: 18-Wheeler Collision
+              - generic:
+                - paragraph: 18-wheeler driver was rear-ended by another 18-wheeler causing headaches and neck injury.
+          - listitem [ref=e189]:
+            - generic [ref=e190]:
+              - generic [ref=e191]: $663,000
+              - paragraph [ref=e192]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was backed into while on the job at an oil field site. Collision resulted in numerous back and neck injuries requiring surgeries.
+          - listitem [ref=e193]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: $665,000
+              - paragraph [ref=e196]: Motor Vehicle Collision/Wrongful Death
+              - generic:
+                - paragraph: Client went to the aid of a vehicle accident victim and was struck and killed by a passing vehicle.
+          - listitem [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: $685,000
+              - paragraph [ref=e200]: Premises Liability
+              - generic:
+                - paragraph: Client sustained two broken legs from a fall over an unreasonably dangerous tripping hazard.
+          - listitem [ref=e201]:
+            - generic [ref=e202]:
+              - generic [ref=e203]: $800,000
+              - paragraph [ref=e204]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Head-on collision that left client with back and neck injuries as well as seat belt injuries. Client’s recovery was lengthy and included physical therapy and injections.
+          - listitem [ref=e205]:
+            - generic [ref=e206]:
+              - generic [ref=e207]: $800,606
+              - paragraph [ref=e208]: Motor Vehicle Collision
+              - generic:
+                - paragraph: A defendant driver's unprotected left turn caused a collision, resulting in a severely broken leg requiring surgery, PTSD, loss of independence, and job loss for the client.
+          - listitem [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]: $950,000
+              - paragraph [ref=e212]: 18-Wheeler Collision
+              - generic:
+                - paragraph: 18-wheeler driver turned left, without the protection of a green arrow, in front of client. The collision caused injuries to the hand, neck, shoulder, low back, hip, foot, ankle, and eye.
+          - listitem [ref=e213]:
+            - generic [ref=e214]:
+              - generic [ref=e215]: $950,000
+              - paragraph [ref=e216]: 18-Wheeler Collision
+              - generic:
+                - paragraph: Client was hit by a delivery truck and the vehicle rolled over. Client’s injuries included six broken ribs and a neck injury requiring extensive medical treatment.
+          - listitem [ref=e217]:
+            - generic [ref=e218]:
+              - generic [ref=e219]: $987,610
+              - paragraph [ref=e220]: 18-Wheeler Collision
+              - generic:
+                - paragraph: Client was rear-ended multiple times by a big rig causing PTSD, spinal injuries requiring spinal fusion surgery, physical therapy, and counseling.
+          - listitem [ref=e221]:
+            - generic [ref=e222]:
+              - generic [ref=e223]: $1,000,000
+              - paragraph [ref=e224]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was hit by a commercial vehicle that ran a stop sign. Injuries to the knee, neck, and back requiring interventional pain management.
+          - listitem [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e227]: $1,000,000
+              - paragraph [ref=e228]: 18-Wheeler Collision
+              - generic:
+                - paragraph: Client was rear-ended by a drunk driver of an 18-wheeler causing client to suffer short-term memory loss and injuries to the head, neck, shoulders, and back.
+          - listitem [ref=e229]:
+            - generic [ref=e230]:
+              - generic [ref=e231]: $1,151,000
+              - paragraph [ref=e232]: Pedestrian/Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was struck by a vehicle in a gas station parking lot. Client suffered head and brain damage resulting in memory loss.
+          - listitem [ref=e233]:
+            - generic [ref=e234]:
+              - generic [ref=e235]: $1,250,000
+              - paragraph [ref=e236]: Wrongful Death
+              - generic:
+                - paragraph: Client’s husband died due to a logging truck running a red light.
+          - listitem [ref=e237]:
+            - generic [ref=e238]:
+              - generic [ref=e239]: $1,375,000
+              - paragraph [ref=e240]: Pedestrian/Motor Vehicle Collision
+              - generic:
+                - paragraph: Client sustained injuries to head, leg and wrist. Client’s broken leg required surgery. In addition, client sought treatment with a neurologist for his head injury and cognitive issues.
+          - listitem [ref=e241]:
+            - generic [ref=e242]:
+              - generic [ref=e243]: $5,100,000
+              - paragraph [ref=e244]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client’s motorcycle was hit by a car leaving him in the ICU with facial injuries, arm injuries, and amputation of one leg.
+          - listitem [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: $1,996,460
+              - paragraph [ref=e248]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was rear-ended while sitting at a stop sign. Neck and back injuries resulting in headaches and disability. Neck injury required surgery.
+          - listitem [ref=e249]:
+            - generic [ref=e250]:
+              - generic [ref=e251]: $1,855,500
+              - paragraph [ref=e252]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Defendant driver’s failure to stop at a stop sign caused a collision injuring the client’s leg and ankle (required surgery), knee, hip, back, and chest. The airbags deployed, causing airbag injuries.
+          - listitem [ref=e253]:
+            - generic [ref=e254]:
+              - generic [ref=e255]: $1,500,000
+              - paragraph [ref=e256]: Motor Vehicle Collision
+              - generic:
+                - paragraph: Client was hit head-on by a delivery truck sustaining injuries to the knee, hand, neck, and back. Neck injury required surgery.
+          - listitem [ref=e257]:
+            - generic [ref=e258]:
+              - generic [ref=e259]: $1,400,000
+              - paragraph [ref=e260]: Workplace Injury
+              - generic:
+                - paragraph: A piece of loading equipment fell on client causing spinal injuries resulting in partial disability.
+        - generic [ref=e261]:
+          - button "Button Prev" [ref=e262] [cursor=pointer]: 
+          - button "Button Next" [ref=e263] [cursor=pointer]: 
+    - list [ref=e266]:
+      - listitem [ref=e267]:
+        - img "Super Lawyers" [ref=e268]
+      - listitem [ref=e269]:
+        - img "Accredited Business" [ref=e270]
+      - listitem [ref=e271]:
+        - img "Preeminent" [ref=e272]
+      - listitem [ref=e273]:
+        - img "Avvo 10 Superb" [ref=e274]
+      - listitem [ref=e275]:
+        - img "Northwest Louisiana's Trusted Personal Injury Law Firm" [ref=e276]
+      - listitem [ref=e277]:
+        - img "Northwest Louisiana's Trusted Personal Injury Law Firm" [ref=e278]
+      - listitem [ref=e279]:
+        - img "Top 100" [ref=e280]
+      - listitem [ref=e281]:
+        - img "Top 10 shreveport" [ref=e282]
+      - listitem [ref=e283]:
+        - img "Advacates Forum" [ref=e284]
+      - listitem [ref=e285]:
+        - img "Top 100 2020" [ref=e286]
+      - listitem [ref=e287]:
+        - img "Seal of Shreveport Bar Association featuring a stylized column in navy blue." [ref=e288]
+    - generic [ref=e290]:
+      - img "Standing Strong with Louisiana Families Since the 1970s"
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic [ref=e295]: "Rice & Kendig:"
+          - generic [ref=e296]:
+            - heading "Standing Strong with Louisiana Families Since the 1970s" [level=2] [ref=e297]:
+              - text: Standing Strong with Louisiana
+              - text: Families
+              - emphasis [ref=e298]: Since the 1970s
+            - paragraph [ref=e299]: What started in the 1970s as a small family practice under Carl Rice has become Rice & Kendig, a trusted name in personal injury law across Northwest Louisiana.
+        - img "Standing Strong with Louisiana Families Since the 1970s"
+        - link "View More About Us " [ref=e300] [cursor=pointer]:
+          - /url: /about-us
+    - generic [ref=e302]:
+      - list [ref=e304]:
+        - listitem [ref=e305]:
+          - img "Northwest Louisiana's Trusted Personal Injury Law Firm" [ref=e307]
+          - generic [ref=e308]:
+            - strong [ref=e309]:
+              - emphasis [ref=e310]: We Take on the
+            - text: Toughest Cases
+          - generic [ref=e311]:
+            - text: Serious injuries require serious legal skill — we deliver.
+            - strong [ref=e312]
+        - listitem [ref=e313]:
+          - img "Northwest Louisiana's Trusted Personal Injury Law Firm" [ref=e315]
+          - generic [ref=e316]:
+            - emphasis [ref=e317]: Family-First
+            - text: Focus
+          - generic [ref=e318]:
+            - text: Direct attorney access, not
+            - text: endless phone trees
+        - listitem [ref=e319]:
+          - img "Northwest Louisiana's Trusted Personal Injury Law Firm" [ref=e321]
+          - generic [ref=e322]:
+            - emphasis [ref=e323]: Bilingual
+            - text: Advocacy
+          - generic [ref=e324]: Proudly serving our Spanish-speaking neighbors.
+      - text:  
+    - generic [ref=e326]:
+      - generic [ref=e327]:
+        - generic [ref=e329]: "Fighting for the Injured:"
+        - heading "Our Practice Areas" [level=2] [ref=e331]:
+          - text: Our
+          - emphasis [ref=e332]: Practice Areas
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - text: 
+            - list [ref=e336]:
+              - listitem [ref=e337]:
+                - button "Auto Accidents" [ref=e338] [cursor=pointer]
+              - listitem [ref=e339]:
+                - button "Catastrophic & Fatal Injuries" [ref=e340] [cursor=pointer]
+              - listitem [ref=e341]:
+                - button "Other Cases We Handle" [ref=e342] [cursor=pointer]
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - generic [ref=e345]:
+                - heading "Auto Accidents" [level=3] [ref=e346]
+                - paragraph [ref=e347]: "When metal meets metal on Louisiana highways, lives change in an instant. With both Louisiana and Texas licenses, our attorneys protect victims' rights across state lines in:"
+                - list [ref=e348]:
+                  - listitem [ref=e349]:
+                    - link " Car accidents" [ref=e350] [cursor=pointer]:
+                      - /url: /shreveport-car-accident-lawyer
+                  - listitem [ref=e351]:
+                    - link " Pedestrian accidents" [ref=e352] [cursor=pointer]:
+                      - /url: /shreveport-pedestrian-accident-lawyer
+                  - listitem [ref=e353]:
+                    - link " Motorcycle accidents" [ref=e354] [cursor=pointer]:
+                      - /url: /shreveport-motorcycle-accident-lawyer
+                  - listitem [ref=e355]:
+                    - link " Bicycle accidents" [ref=e356] [cursor=pointer]:
+                      - /url: /shreveport-bicycle-accident-lawyer
+                  - listitem [ref=e357]:
+                    - link " Truck accidents" [ref=e358] [cursor=pointer]:
+                      - /url: /shreveport-truck-accident-lawyer
+                  - listitem [ref=e359]:
+                    - link " Bus accidents" [ref=e360] [cursor=pointer]:
+                      - /url: /shreveport-bus-accident-lawyer
+                  - listitem [ref=e361]:
+                    - link " DUI accidents" [ref=e362] [cursor=pointer]:
+                      - /url: /shreveport-dui-lawyers
+                  - listitem [ref=e363]:
+                    - link " Rideshare accidents" [ref=e364] [cursor=pointer]:
+                      - /url: /shreveport-rideshare-accident-lawyer
+                - paragraph [ref=e365]: Our Northwest Louisiana auto accident lawyers have a proven record of holding negligent drivers accountable and fighting aggressive insurance companies.
+            - listitem:
+              - generic:
+                - heading "Catastrophic & Fatal Injuries" [level=3]
+                - paragraph: Some accidents leave wounds that never fully heal. At Rice & Kendig, we handle Northwest Louisiana's most serious injury cases with unwavering dedication and skilled determination. Our deep understanding of complex medical evidence and life-care planning helps secure compensation that truly reflects the long-term impact of catastrophic injuries.
+                - paragraph: "We stand beside families facing:"
+                - list:
+                  - listitem:
+                    - link " Wrongful Death":
+                      - /url: /shreveport-wrongful-death-lawyer
+                  - listitem:
+                    - link " Brain Injuries":
+                      - /url: /shreveport-brain-injury-lawyer
+                  - listitem:
+                    - link " Catastrophic Injuries":
+                      - /url: /shreveport-catastrophic-injury-lawyer
+                  - listitem:
+                    - link " Burn Injuries":
+                      - /url: /shreveport-burn-injury-lawyer
+                  - listitem:
+                    - link " Spinal Cord Injuries":
+                      - /url: /shreveport-spinal-cord-injury-lawyer
+                    - link " ‍":
+                      - /url: /shreveport-broken-bones-lawyer
+                  - listitem:
+                    - link " Broken Bones":
+                      - /url: /shreveport-broken-bones-lawyer
+            - listitem:
+              - generic:
+                - heading "Other Cases We Handle" [level=3]
+                - paragraph: "Life's accidents come in many forms, each with its own unique challenges. Our seasoned Louisiana personal injury lawyers bring decades of experience to complex cases involving:"
+                - list:
+                  - listitem:
+                    - link " Aviation accidents":
+                      - /url: /shreveport-aviation-accident-lawyer
+                  - listitem:
+                    - link " Dog bites":
+                      - /url: /shreveport-dog-bite-lawyer
+                  - listitem:
+                    - link " Boating accidents":
+                      - /url: /shreveport-boat-accident-lawyer
+                  - listitem:
+                    - link " Mass tort":
+                      - /url: /shreveport-mass-tort-lawyer
+                  - listitem:
+                    - link " Premises liability":
+                      - /url: /shreveport-premises-liability-lawyer
+                  - listitem: Chemical exposure
+                  - listitem:
+                    - link " Slip and fall accidents":
+                      - /url: /shreveport-slip-and-fall-lawyer
+                  - listitem:
+                    - link " Amputation injury":
+                      - /url: /shreveport-amputation-injury-lawyer
+              - link "See All Practice Areas ":
+                - /url: /shreveport-injury-lawyer
+        - img "Auto Accidents" [ref=e367]
+    - generic [ref=e368]:
+      - img "Path to Justice Starts with One Call — Get the Support You Need Today!" [ref=e370]
+      - generic [ref=e371]:
+        - generic [ref=e372]:
+          - generic [ref=e373]:
+            - heading "Path to Justice Starts with One Call — Get the Support You Need Today!" [level=2] [ref=e374]:
+              - text: Path to Justice Starts with One Call —
+              - emphasis [ref=e375]: Get the Support You Need Today!
+            - paragraph [ref=e376]: You deserve answers, support, and peace of mind after an injury. Our personal injury attorneys are here to guide you through every step. Schedule your free consultation today, and let's discuss how we can protect your rights and secure your future.
+          - generic [ref=e377]:
+            - link "Free Consultation" [ref=e378] [cursor=pointer]:
+              - /url: /contact-us
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: or Call Us
+              - link " (318) 222-2772" [ref=e381] [cursor=pointer]:
+                - /url: tel:+13182222772
+        - generic [ref=e382]:
+          - img "Path to Justice Starts with One Call — Get the Support You Need Today!"
+    - generic [ref=e384]:
+      - img "Real Stories from Real Clients"
+      - generic [ref=e385]:
+        - generic [ref=e386]: TESTIMONIALS
+        - heading "Real Stories from Real Clients" [level=2] [ref=e388]:
+          - text: Real Stories from
+          - emphasis [ref=e389]: Real Clients
+      - generic [ref=e390]:
+        - list [ref=e391]:
+          - listitem [ref=e392]:
+            - paragraph [ref=e395]: I knew that they would take care of us, and I would definitely recommend them to anybody.
+          - listitem [ref=e396]:
+            - paragraph [ref=e399]: Rice & Kendig are very good at seeing what the weakness in our case is and what the strength is and developing both sides of the case.
+          - listitem [ref=e400]:
+            - paragraph [ref=e403]: They take great care of you. They care, and they make sure that you get what you need, they make sure that you're okay.
+          - listitem [ref=e404]:
+            - paragraph [ref=e407]: I suggest Rice & Kendig if you want someone who cares about you and your situation.
+          - listitem [ref=e408]:
+            - paragraph [ref=e411]: They did such a good job fighting for us and not dragging it on... Thanks to Rice & Kendig, the matter was over within a year.
+          - listitem [ref=e412]:
+            - paragraph [ref=e415]: He called me every day, made sure I was okay... he was just perfect. You couldn't ask for a better attorney.
+          - listitem [ref=e416]:
+            - paragraph [ref=e419]: They took care of us right away. They were loving.
+        - generic [ref=e420]:
+          - button "Button Prev" [ref=e421] [cursor=pointer]: 
+          - button "Button Next" [ref=e422] [cursor=pointer]: 
+    - generic [ref=e424]:
+      - generic [ref=e425]:
+        - generic [ref=e426]: our attorneys
+        - heading "Meet the Team Fighting for Your Future" [level=2] [ref=e428]:
+          - text: Meet the Team Fighting for
+          - emphasis [ref=e429]: Your Future
+      - generic [ref=e430]:
+        - list [ref=e431]:
+          - listitem [ref=e432]:
+            - link "William F. Kendig" [ref=e433] [cursor=pointer]:
+              - /url: /william-f-kendig
+              - img "William F. Kendig" [ref=e434]
+            - generic [ref=e435]:
+              - link "William F. Kendig " [ref=e436] [cursor=pointer]:
+                - /url: /william-f-kendig
+                - heading "William F. Kendig" [level=3] [ref=e437]
+                - text: 
+              - paragraph [ref=e438]: attorney
+              - paragraph [ref=e439]: Battle-tested in Louisiana’s courts with nearly 40 years of winning results.
+          - listitem [ref=e440]:
+            - link "J. Marshall Rice" [ref=e441] [cursor=pointer]:
+              - /url: /j-marshall-rice
+              - img "J. Marshall Rice" [ref=e442]
+            - generic [ref=e443]:
+              - link "J. Marshall Rice " [ref=e444] [cursor=pointer]:
+                - /url: /j-marshall-rice
+                - heading "J. Marshall Rice" [level=3] [ref=e445]
+                - text: 
+              - paragraph [ref=e446]: attorney
+              - paragraph [ref=e447]: Million-dollar recoveries. Your trusted advocate in Louisiana and Texas.
+          - listitem [ref=e448]:
+            - link "Jason Nichols" [ref=e449] [cursor=pointer]:
+              - /url: /jason-nichols
+              - img "Jason Nichols" [ref=e450]
+            - generic [ref=e451]:
+              - link "Jason Nichols " [ref=e452] [cursor=pointer]:
+                - /url: /jason-nichols
+                - heading "Jason Nichols" [level=3] [ref=e453]
+                - text: 
+              - paragraph [ref=e454]: attorney
+              - paragraph [ref=e455]: Federal court insight. Community-driven, client-focused.
+          - listitem [ref=e456]:
+            - link "Franeka Taylor" [ref=e457] [cursor=pointer]:
+              - /url: /franeka-taylor
+              - img "Franeka Taylor" [ref=e458]
+            - generic [ref=e459]:
+              - link "Franeka Taylor " [ref=e460] [cursor=pointer]:
+                - /url: /franeka-taylor
+                - heading "Franeka Taylor" [level=3] [ref=e461]
+                - text: 
+              - paragraph [ref=e462]: attorney
+              - paragraph [ref=e463]: Sharp, determined, and ready to fight for your success.
+          - listitem [ref=e464]:
+            - link "Sonny Lopez" [ref=e465] [cursor=pointer]:
+              - /url: /sonny-lopez
+              - img "Sonny Lopez" [ref=e466]
+            - generic [ref=e467]:
+              - link "Sonny Lopez " [ref=e468] [cursor=pointer]:
+                - /url: /sonny-lopez
+                - heading "Sonny Lopez" [level=3] [ref=e469]
+                - text: 
+              - paragraph [ref=e470]: attorney
+              - paragraph [ref=e471]: Empathetic guidance. Fighting for the fair recovery you deserve.
+          - listitem [ref=e472]:
+            - link "M. Carl Rice" [ref=e473] [cursor=pointer]:
+              - /url: /m-carl-rice-of-counsel
+              - img "M. Carl Rice" [ref=e474]
+            - generic [ref=e475]:
+              - link "M. Carl Rice " [ref=e476] [cursor=pointer]:
+                - /url: /m-carl-rice-of-counsel
+                - heading "M. Carl Rice" [level=3] [ref=e477]
+                - text: 
+              - paragraph [ref=e478]: attorney, Of Counsel
+              - paragraph [ref=e479]: 46 years of wisdom. Serving clients with purpose and care.
+        - text:  
+    - generic [ref=e481]:
+      - generic [ref=e482]:
+        - generic [ref=e484]: "Your Local Advocates:"
+        - heading "Serving Northwest Louisiana" [level=2] [ref=e486]:
+          - text: Serving
+          - emphasis [ref=e487]: Northwest Louisiana
+      - generic [ref=e488]:
+        - generic [ref=e490]:
+          - paragraph [ref=e491]: We're deeply rooted in the Northwest Louisiana communities we serve. Our local experience means we know the courts, understand the jurisdiction and have established relationships that benefit our clients.
+          - list [ref=e492]:
+            - listitem [ref=e493]:
+              - link " Caddo Parish" [ref=e494] [cursor=pointer]:
+                - /url: /caddo-parish-personal-injury-lawyer
+            - listitem [ref=e495]:
+              - link " Bossier Parish" [ref=e496] [cursor=pointer]:
+                - /url: /bossier-parish-personal-injury-lawyer
+            - listitem [ref=e497]:
+              - link " Desoto Parish" [ref=e498] [cursor=pointer]:
+                - /url: /desoto-parish-personal-injury-lawyer
+            - listitem [ref=e499]:
+              - link " Webster Parish" [ref=e500] [cursor=pointer]:
+                - /url: /webster-parish-personal-injury-lawyer
+            - listitem [ref=e501]:
+              - link " Natchitoches Parish" [ref=e502] [cursor=pointer]:
+                - /url: /natchitoches-personal-injury-lawyer
+            - listitem [ref=e503]: Sabine Parish
+            - listitem [ref=e504]:
+              - link " Red River Parish" [ref=e505] [cursor=pointer]:
+                - /url: /red-river-parish-personal-injury-lawyer
+            - listitem [ref=e506]: Bienville Parish
+            - listitem [ref=e507]:
+              - link " Claiborne Parish" [ref=e508] [cursor=pointer]:
+                - /url: /claiborne-parish-personal-injury-lawyer
+            - listitem [ref=e509]:
+              - link " Ouachita Parish" [ref=e510] [cursor=pointer]:
+                - /url: /ouachita-parish-personal-injury-lawyer
+            - listitem [ref=e511]:
+              - link " Lincoln Parish" [ref=e512] [cursor=pointer]:
+                - /url: /lincoln-parish-personal-injury-lawyer
+            - listitem [ref=e513]: Jackson Parish
+            - listitem [ref=e514]: Winn Parish
+            - listitem [ref=e515]: Grant Parish
+            - listitem [ref=e516]:
+              - link " Union Parish" [ref=e517] [cursor=pointer]:
+                - /url: /union-parish-personal-injury-lawyer
+        - img "Serving Northwest Louisiana" [ref=e519]
+    - generic [ref=e521]:
+      - img "Real Stories from Real Clients"
+      - generic [ref=e522]:
+        - generic [ref=e523]: testimonials
+        - heading "Real Stories from Real Clients" [level=2] [ref=e525]:
+          - text: Real Stories
+          - emphasis [ref=e526]: from Real Clients
+      - generic [ref=e527]:  
+    - generic [ref=e531]:
+      - generic [ref=e532]:
+        - img "We’ll Take It From Here!"
+        - paragraph [ref=e533]: It’s Your Turn to Be Heard —
+        - generic [ref=e534]:
+          - heading "We’ll Take It From Here!" [level=2] [ref=e535]
+          - paragraph [ref=e536]: Your voice is powerful, and we’re here to amplify it. At Rice & Kendig, we’re here to listen, act, and deliver results. Schedule your free consultation today to get started.
+      - form "Email_Form" [ref=e538]:
+        - generic [ref=e539]:
+          - textbox "First Name *" [ref=e540]:
+            - /placeholder: " "
+          - generic: First Name *
+        - generic [ref=e541]:
+          - textbox "Last Name *" [ref=e542]:
+            - /placeholder: " "
+          - generic: Last Name *
+        - generic [ref=e543]:
+          - textbox "Phone *" [ref=e544]:
+            - /placeholder: " "
+          - generic: Phone *
+        - generic [ref=e545]:
+          - textbox "Email *" [ref=e546]:
+            - /placeholder: " "
+          - generic: Email *
+        - generic [ref=e547]:
+          - combobox:
+            - option [selected]
+            - option "Yes"
+            - option "No"
+          - generic: Are You or a Loved One Injured or Deceased? *
+        - generic [ref=e548]:
+          - combobox "Are You or a Loved One Injured or Deceased? * Case Type *":
+            - option [selected]
+            - option "Motor Vehicle Collision"
+            - option "Motorcycle Wreck"
+            - option "Wrongful Death"
+            - option "Premises Liability"
+            - option "Dog Bite"
+            - option "Mass Tort"
+            - option "Other"
+          - generic: Case Type *
+        - generic [ref=e549]:
+          - textbox "Describe Your Case" [ref=e550]:
+            - /placeholder: " "
+          - generic: Describe Your Case
+        - generic [ref=e551]:
+          - button "Free Consultation" [ref=e552] [cursor=pointer]
+          - generic [ref=e553]:
+            - paragraph [ref=e554]: or Call Us
+            - link " (318) 222-2772" [ref=e555] [cursor=pointer]:
+              - /url: tel:+13182222772
+    - generic [ref=e557]:
+      - generic [ref=e558]:
+        - generic [ref=e559]: FAQ
+        - heading "Common Questions About Personal Injury Cases" [level=2] [ref=e561]:
+          - text: Common Questions About
+          - emphasis [ref=e562]: Personal Injury Cases
+      - generic [ref=e563]:
+        - list [ref=e564]:
+          - listitem [ref=e565]:
+            - generic [ref=e566]:
+              - img "Common Questions About Personal Injury Cases" [ref=e567]
+              - generic [ref=e568]:
+                - button "Button Play" [ref=e569] [cursor=pointer]:
+                  - img [ref=e571]
+                - generic [ref=e573]: PLAY VIDEO
+            - generic [ref=e574]:
+              - paragraph [ref=e575]: Do I need a lawyer for my case?
+              - paragraph [ref=e576]: While not required by law, having an experienced personal injury attorney in Louisiana significantly increases your chances of receiving fair compensation. Insurance companies have teams of lawyers protecting their interests — you deserve the same protection
+          - listitem [ref=e577]:
+            - generic [ref=e578]:
+              - img "Common Questions About Personal Injury Cases" [ref=e579]
+              - generic [ref=e580]:
+                - button "Button Play" [ref=e581] [cursor=pointer]:
+                  - img [ref=e583]
+                - generic [ref=e585]: PLAY VIDEO
+            - generic [ref=e586]:
+              - paragraph [ref=e587]: Can I afford to hire an attorney?
+              - paragraph [ref=e588]: At Rice & Kendig, we work on a contingency fee basis — you pay nothing unless we win your case. Your initial consultation is always free, and we advance all case costs.
+          - listitem [ref=e589]:
+            - generic [ref=e590]:
+              - img "Common Questions About Personal Injury Cases" [ref=e591]
+              - generic [ref=e592]:
+                - button "Button Play" [ref=e593] [cursor=pointer]:
+                  - img [ref=e595]
+                - generic [ref=e597]: PLAY VIDEO
+            - generic [ref=e598]:
+              - paragraph [ref=e599]: How do I pay for medical bills?
+              - paragraph [ref=e600]: If you've been in a wreck, a lot of times people are worried, "Am I going to have this big medical bill to pay for?" But if you have an attorney, they're going to make sure that that's taken care of.
+        - text:  
+      - link "Explore More FAQs " [ref=e601] [cursor=pointer]:
+        - /url: /faq
+  - contentinfo [ref=e602]:
+    - generic [ref=e603]:
+      - generic [ref=e604]:
+        - generic [ref=e605]:
+          - img "Northwest Louisiana's Trusted Personal Injury Law Firm"
+        - list [ref=e606]:
+          - listitem [ref=e607]:
+            - link "facebook" [ref=e608] [cursor=pointer]:
+              - /url: https://www.facebook.com/RiceKendigPersonalInjuryAttorneysShreveport/
+              - text: 
+          - listitem [ref=e609]:
+            - link "In" [ref=e610] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rice-kendig
+              - text: 
+          - listitem [ref=e611]:
+            - link "Instagram" [ref=e612] [cursor=pointer]:
+              - /url: https://www.instagram.com/ricekendig/?hl=en
+              - text: 
+          - listitem [ref=e613]:
+            - link "youtube" [ref=e614] [cursor=pointer]:
+              - /url: https://www.youtube.com/@ricekendiginjurylaw
+              - text: 
+          - listitem [ref=e615]:
+            - link "tiktok" [ref=e616] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@rice.kendig
+              - img [ref=e618]
+      - list [ref=e620]:
+        - listitem [ref=e621]:
+          - text: Shreveport,
+          - emphasis [ref=e622]: Louisiana
+        - listitem [ref=e623]:
+          - link "912 Kings Highway Shreveport, Louisiana 71104" [ref=e625] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/ToR4fsgcn6Ue4sW1A
+            - text: 912 Kings Highway
+            - text: Shreveport, Louisiana 71104
+        - listitem [ref=e626]:
+          - link "(318) 222-2772" [ref=e627] [cursor=pointer]:
+            - /url: tel:+13182222772
+      - list [ref=e628]:
+        - listitem [ref=e629]:
+          - link "Blog" [ref=e630] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e631]:
+          - link "Frequently Asked Questions" [ref=e632] [cursor=pointer]:
+            - /url: /faq
+        - listitem [ref=e633]:
+          - link "Testimonials" [ref=e634] [cursor=pointer]:
+            - /url: /testimonials
+        - listitem [ref=e635]:
+          - link "Open Positions" [ref=e636] [cursor=pointer]:
+            - /url: /open-positions
+        - listitem [ref=e637]:
+          - link "Privacy Policy" [ref=e638] [cursor=pointer]:
+            - /url: /privacy-policy
+        - listitem [ref=e639]:
+          - link "Cookie Policy" [ref=e640] [cursor=pointer]:
+            - /url: /cookie-policy
+        - listitem [ref=e641]:
+          - link "Terms & Conditions" [ref=e642] [cursor=pointer]:
+            - /url: /terms-and-conditions
+        - listitem [ref=e643]:
+          - link "Disclaimer" [ref=e644] [cursor=pointer]:
+            - /url: /disclaimer
+        - listitem [ref=e645]:
+          - link "AI Info" [ref=e646] [cursor=pointer]:
+            - /url: /ai-info
+      - generic [ref=e647]:
+        - paragraph [ref=e648]: © 2026 All Rights Reserved.
+        - paragraph [ref=e649]: Advertising does not indicate a guarantee of results.
+        - paragraph [ref=e651]:
+          - text: Powered by
+          - link "Grow Law Marketing Agency" [ref=e652] [cursor=pointer]:
+            - /url: https://growlaw.co

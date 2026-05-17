@@ -1,0 +1,453 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - img "Romanucci & Blandin" [ref=e4]
+    - link "Cookie Settings":
+      - /url: "#CookieBanner"
+    - link "Main Content":
+      - /url: "#mainContent"
+    - link "Main Menu":
+      - /url: "#mainNav"
+    - generic [ref=e5]:
+      - link "Search" [ref=e6] [cursor=pointer]:
+        - /url: "#siteSearch"
+        - img "Search" [ref=e7]
+      - button "Menu" [ref=e9] [cursor=pointer]:
+        - generic [ref=e12]: Menu
+    - list [ref=e14]:
+      - listitem [ref=e15]:
+        - link "312.458.1000" [ref=e16]:
+          - /url: tel:312.458.1000
+      - listitem [ref=e17]:
+        - link "Español, Polski +" [ref=e18] [cursor=pointer]:
+          - /url: "#"
+      - link "Select Language" [ref=e21] [cursor=pointer]:
+        - /url: "#"
+        - text: Select Language▼
+      - listitem [ref=e22]:
+        - link "Free Case Evaluation" [ref=e23] [cursor=pointer]:
+          - /url: contact-inquiry
+        - link "Free Case Evaluation" [ref=e24] [cursor=pointer]:
+          - /url: contact-inquiry
+  - main [ref=e26]:
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: YOUR BRIDGE
+          - generic [ref=e36]: To Justice
+        - link "“The Lawyer for Good” – Chicago Magazine profiles R&B Founding Partner Antonio M. Romanucci and his lifelong fight to pursue justice for clients and change for communities." [ref=e38] [cursor=pointer]:
+          - /url: /news-the-lawyer-for-good-chicago-magazine-antonio-romanucci
+          - paragraph [ref=e39]: “The Lawyer for Good” – Chicago Magazine profiles R&B Founding Partner Antonio M. Romanucci and his lifelong fight to pursue justice for clients and change for communities.
+    - generic [ref=e40]:
+      - heading "Big Wins" [level=2] [ref=e41]
+      - generic [ref=e45]:
+        - link [ref=e47] [cursor=pointer]:
+          - /url: /pressrelease-22-million-settlement-clients-abused-staff-private-california-high-school-1980s
+          - generic [ref=e48]: $22 million
+          - generic [ref=e49]: Settlement for the abuse of clients by private high school staff member
+          - generic [ref=e50]: R&B Results
+        - link [ref=e52] [cursor=pointer]:
+          - /url: /pressrelease-verdict-15-million-j-sterling-morton-sexual-abuse
+          - generic [ref=e53]: $15 million
+          - generic [ref=e54]: Verdict for plaintiff's past and future damages arising from the school district’s failure to protect him from sexual abuse by a teacher.
+          - generic [ref=e55]: R&B Results
+        - link "$150 million Settlement for Romanucci & Blandin clients was part of a global agreement. R&B Results" [ref=e57] [cursor=pointer]:
+          - /url: /experience-settlement-mass-tort-litigation
+          - generic [ref=e58]: $150 million
+          - generic [ref=e59]: Settlement for Romanucci & Blandin clients was part of a global agreement.
+          - generic [ref=e60]: R&B Results
+        - link "$27 million Civil Settlement for the murder of George Floyd in Minneapolis. Record breaking pre-trial settlement" [ref=e62] [cursor=pointer]:
+          - /url: pressrelease-george-floyd-civil-lawsuit-against-city-of-minneapolis-and-police-officers-settles-for-27-million-largest-pre-trial-civil-rights-wrongful-death-settlement-in-u-s-history
+          - generic [ref=e63]: $27 million
+          - generic [ref=e64]: Civil Settlement for the murder of George Floyd in Minneapolis.
+          - generic [ref=e65]: Record breaking pre-trial settlement
+        - link [ref=e67] [cursor=pointer]:
+          - /url: pressrelease-mediation-by-adr-systems-honorable-william-e-gomolinski-results-in-140-million-settlement-for-workplace-injury-matter
+          - generic [ref=e68]: $50 million
+          - generic [ref=e69]: Settlement for the family of a man who was injured and died while working.
+          - generic [ref=e70]: Record-Breaking Case
+        - link [ref=e72] [cursor=pointer]:
+          - /url: /pressrelease-40million-verdict-medical-malpractice-advocate-health-chicago
+          - generic [ref=e73]: $40 million
+          - generic [ref=e74]: Verdict against Advocate Christ Medical Center for child paralyzed after surgery.
+          - generic [ref=e75]: R&B Results
+        - link [ref=e77] [cursor=pointer]:
+          - /url: /pressrelease-medical-malpractice-team-resolve-birth-injury-case-against-fabio-ortega-and-northshore-university-healthsystem
+          - generic [ref=e78]: $35 million
+          - generic [ref=e79]: Settlement for a birth injury that resulted in cerebral palsy for a girl.
+          - generic [ref=e80]: R&B Results
+        - link [ref=e82] [cursor=pointer]:
+          - /url: pressrelease-court-certifies-class-action-lawsuit-city-chicago-seeking-hundreds-millions-dollars-speed-red-light-camera-fines-penalties
+          - generic [ref=e83]: $38.75 million
+          - generic [ref=e84]: Settlement from a Class Action lawsuit against the City of Chicago.
+          - generic [ref=e85]: R&B Results
+        - link [ref=e87] [cursor=pointer]:
+          - /url: /news-womans-family-awarded-28m-wrongful-death-lawsuit
+          - generic [ref=e88]: $28.7 million
+          - generic [ref=e89]: Verdict for a medical malpractice and wrongful death case against a Chicago-area hospital.
+          - generic [ref=e90]: R&B Results
+        - generic [ref=e91]:
+          - generic [ref=e92]: $300+ million in verdicts and settlements
+          - generic [ref=e93]: for Sexual Abuse cases
+          - generic [ref=e94]: 2024-2025 R&B Results
+        - generic [ref=e95]:
+          - generic [ref=e96]: $270+ million in verdicts and settlements
+          - generic [ref=e97]: for Environmental & Toxic Tort cases
+          - generic [ref=e98]: 2024-2025 R&B Results
+        - link [ref=e100] [cursor=pointer]:
+          - /url: /experience-98-650-000-verdict-civil-rights-wrongful-death
+          - generic [ref=e101]: $98.65 million
+          - generic [ref=e102]: Historic verdict for police shooting death.
+          - generic [ref=e103]: R&B Results
+        - link [ref=e105] [cursor=pointer]:
+          - /url: /pressrelease-22-million-settlement-clients-abused-staff-private-california-high-school-1980s
+          - generic [ref=e106]: $22 million
+          - generic [ref=e107]: Settlement for the abuse of clients by private high school staff member
+          - generic [ref=e108]: R&B Results
+        - link [ref=e110] [cursor=pointer]:
+          - /url: /pressrelease-verdict-15-million-j-sterling-morton-sexual-abuse
+          - generic [ref=e111]: $15 million
+          - generic [ref=e112]: Verdict for plaintiff's past and future damages arising from the school district’s failure to protect him from sexual abuse by a teacher.
+          - generic [ref=e113]: R&B Results
+        - link [ref=e115] [cursor=pointer]:
+          - /url: /experience-settlement-mass-tort-litigation
+          - generic [ref=e116]: $150 million
+          - generic [ref=e117]: Settlement for Romanucci & Blandin clients was part of a global agreement.
+          - generic [ref=e118]: R&B Results
+        - link [ref=e120] [cursor=pointer]:
+          - /url: pressrelease-george-floyd-civil-lawsuit-against-city-of-minneapolis-and-police-officers-settles-for-27-million-largest-pre-trial-civil-rights-wrongful-death-settlement-in-u-s-history
+          - generic [ref=e121]: $27 million
+          - generic [ref=e122]: Civil Settlement for the murder of George Floyd in Minneapolis.
+          - generic [ref=e123]: Record breaking pre-trial settlement
+        - link [ref=e125] [cursor=pointer]:
+          - /url: pressrelease-mediation-by-adr-systems-honorable-william-e-gomolinski-results-in-140-million-settlement-for-workplace-injury-matter
+          - generic [ref=e126]: $50 million
+          - generic [ref=e127]: Settlement for the family of a man who was injured and died while working.
+          - generic [ref=e128]: Record-Breaking Case
+        - link [ref=e130] [cursor=pointer]:
+          - /url: /pressrelease-40million-verdict-medical-malpractice-advocate-health-chicago
+          - generic [ref=e131]: $40 million
+          - generic [ref=e132]: Verdict against Advocate Christ Medical Center for child paralyzed after surgery.
+          - generic [ref=e133]: R&B Results
+        - link [ref=e135] [cursor=pointer]:
+          - /url: /pressrelease-medical-malpractice-team-resolve-birth-injury-case-against-fabio-ortega-and-northshore-university-healthsystem
+          - generic [ref=e136]: $35 million
+          - generic [ref=e137]: Settlement for a birth injury that resulted in cerebral palsy for a girl.
+          - generic [ref=e138]: R&B Results
+        - link [ref=e140] [cursor=pointer]:
+          - /url: pressrelease-court-certifies-class-action-lawsuit-city-chicago-seeking-hundreds-millions-dollars-speed-red-light-camera-fines-penalties
+          - generic [ref=e141]: $38.75 million
+          - generic [ref=e142]: Settlement from a Class Action lawsuit against the City of Chicago.
+          - generic [ref=e143]: R&B Results
+        - link [ref=e145] [cursor=pointer]:
+          - /url: /news-womans-family-awarded-28m-wrongful-death-lawsuit
+          - generic [ref=e146]: $28.7 million
+          - generic [ref=e147]: Verdict for a medical malpractice and wrongful death case against a Chicago-area hospital.
+          - generic [ref=e148]: R&B Results
+        - generic [ref=e149]:
+          - generic [ref=e150]: $300+ million in verdicts and settlements
+          - generic [ref=e151]: for Sexual Abuse cases
+          - generic [ref=e152]: 2024-2025 R&B Results
+        - generic [ref=e153]:
+          - generic [ref=e154]: $270+ million in verdicts and settlements
+          - generic [ref=e155]: for Environmental & Toxic Tort cases
+          - generic [ref=e156]: 2024-2025 R&B Results
+        - link [ref=e158] [cursor=pointer]:
+          - /url: /experience-98-650-000-verdict-civil-rights-wrongful-death
+          - generic [ref=e159]: $98.65 million
+          - generic [ref=e160]: Historic verdict for police shooting death.
+          - generic [ref=e161]: R&B Results
+        - link [ref=e163] [cursor=pointer]:
+          - /url: /pressrelease-22-million-settlement-clients-abused-staff-private-california-high-school-1980s
+          - generic [ref=e164]: $22 million
+          - generic [ref=e165]: Settlement for the abuse of clients by private high school staff member
+          - generic [ref=e166]: R&B Results
+        - link [ref=e168] [cursor=pointer]:
+          - /url: /pressrelease-verdict-15-million-j-sterling-morton-sexual-abuse
+          - generic [ref=e169]: $15 million
+          - generic [ref=e170]: Verdict for plaintiff's past and future damages arising from the school district’s failure to protect him from sexual abuse by a teacher.
+          - generic [ref=e171]: R&B Results
+    - generic [ref=e172]:
+      - heading "Practice Areas" [level=2] [ref=e173]
+      - generic [ref=e174]:
+        - list [ref=e175]:
+          - listitem [ref=e176]:
+            - link "Medical Malpractice" [ref=e177] [cursor=pointer]:
+              - /url: practices-medical-malpractice
+              - generic [ref=e180]: Medical Malpractice
+          - listitem [ref=e181]:
+            - link "Civil Rights & Police Misconduct" [ref=e182] [cursor=pointer]:
+              - /url: practices-police-misconduct
+              - generic [ref=e185]: Civil Rights & Police Misconduct
+          - listitem [ref=e186]:
+            - link "Workplace Injury" [ref=e187] [cursor=pointer]:
+              - /url: practices-workplace-injury
+              - generic [ref=e190]: Workplace Injury
+          - listitem [ref=e191]:
+            - link "Transportation & Car Accidents" [ref=e192] [cursor=pointer]:
+              - /url: practices-transportation-car-accidents
+              - generic [ref=e195]: Transportation & Car Accidents
+          - listitem [ref=e196]:
+            - link "Sexual Abuse & Hazing" [ref=e197] [cursor=pointer]:
+              - /url: practices-sexual-abuse-hazing-cases
+              - generic [ref=e200]: Sexual Abuse & Hazing
+          - listitem [ref=e201]:
+            - link "Mass Torts & Class Actions" [ref=e202] [cursor=pointer]:
+              - /url: practices-mass-torts-class-actions
+              - generic [ref=e205]: Mass Torts & Class Actions
+        - link "View All Practices" [ref=e207] [cursor=pointer]:
+          - /url: practices
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - img [ref=e216]
+        - generic [ref=e217]:
+          - heading [level=2] [ref=e219]:
+            - strong [ref=e220]: MEDIA EXPERTISE
+          - generic [ref=e221]:
+            - paragraph [ref=e222]: Romanucci & Blandin attorneys are often called upon by media to share their expertise regionally, nationally and globally. The firm, its clients and cases have been mentioned in more than 400 newspapers and broadcast outlets.
+            - paragraph [ref=e223]:
+              - link [ref=e224] [cursor=pointer]:
+                - /url: newsroom
+                - text: Learn more
+      - generic [ref=e225]:
+        - link "Link (opens in a new window)" [ref=e227] [cursor=pointer]:
+          - /url: https://youtu.be/NaW3PCE5OOo
+          - img "WHAT SEPARATES US" [ref=e229]
+        - generic [ref=e230]:
+          - heading "WHAT SEPARATES US" [level=2] [ref=e232]:
+            - strong [ref=e233]: WHAT SEPARATES US
+          - generic [ref=e234]:
+            - paragraph [ref=e235]: For over 25 years, Romanucci & Blandin has committed to providing the highest caliber legal service for our clients. As a result, we have recovered over $1 billion for our clients since our founding and we're just getting started.
+            - paragraph [ref=e236]:
+              - link "Free Case Evaluation" [ref=e237] [cursor=pointer]:
+                - /url: contact-inquiry
+      - generic [ref=e238]:
+        - img [ref=e241]
+        - generic [ref=e242]:
+          - heading [level=2] [ref=e244]:
+            - strong [ref=e245]: MEDIA EXPERTISE
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: Romanucci & Blandin attorneys are often called upon by media to share their expertise regionally, nationally and globally. The firm, its clients and cases have been mentioned in more than 400 newspapers and broadcast outlets.
+            - paragraph [ref=e248]:
+              - link [ref=e249] [cursor=pointer]:
+                - /url: newsroom
+                - text: Learn more
+      - generic [ref=e250]:
+        - link [ref=e252] [cursor=pointer]:
+          - /url: https://youtu.be/NaW3PCE5OOo
+          - img [ref=e254]
+        - generic [ref=e255]:
+          - heading [level=2] [ref=e257]:
+            - strong [ref=e258]: WHAT SEPARATES US
+          - generic [ref=e259]:
+            - paragraph [ref=e260]: For over 25 years, Romanucci & Blandin has committed to providing the highest caliber legal service for our clients. As a result, we have recovered over $1 billion for our clients since our founding and we're just getting started.
+            - paragraph [ref=e261]:
+              - link [ref=e262] [cursor=pointer]:
+                - /url: contact-inquiry
+                - text: Free Case Evaluation
+      - generic [ref=e263]:
+        - img [ref=e266]
+        - generic [ref=e267]:
+          - heading [level=2] [ref=e269]:
+            - strong [ref=e270]: MEDIA EXPERTISE
+          - generic [ref=e271]:
+            - paragraph [ref=e272]: Romanucci & Blandin attorneys are often called upon by media to share their expertise regionally, nationally and globally. The firm, its clients and cases have been mentioned in more than 400 newspapers and broadcast outlets.
+            - paragraph [ref=e273]:
+              - link [ref=e274] [cursor=pointer]:
+                - /url: newsroom
+                - text: Learn more
+    - generic [ref=e275]:
+      - heading "Newsroom" [level=2] [ref=e276]
+      - list [ref=e278]:
+        - listitem [ref=e279]:
+          - link "Image of Romanucci & Blandin reaches milestone $1 billion obtained for clients Press Release Romanucci & Blandin reaches milestone $1 billion obtained for clients" [ref=e280] [cursor=pointer]:
+            - /url: pressrelease-romanucci-blandin-reaches-milestone-billion-obtained-clients
+            - img "Image of Romanucci & Blandin reaches milestone $1 billion obtained for clients" [ref=e283]
+            - generic [ref=e284]:
+              - generic [ref=e285]: Press Release
+              - generic [ref=e286]: Romanucci & Blandin reaches milestone $1 billion obtained for clients
+        - listitem [ref=e287]:
+          - link "Image of Romanucci & Blandin Calls Chicago Police Shooting Death of Derek Jordan a “Failure to De-escalate\" Press Release Romanucci & Blandin Calls Chicago Police Shooting Death of Derek Jordan a “Failure to De-escalate\"" [ref=e288] [cursor=pointer]:
+            - /url: pressrelease-romanucci-blandin-chicago-police-shooting-death-derek-jordan-failure-deescalate
+            - img "Image of Romanucci & Blandin Calls Chicago Police Shooting Death of Derek Jordan a “Failure to De-escalate\"" [ref=e291]
+            - generic [ref=e292]:
+              - generic [ref=e293]: Press Release
+              - generic [ref=e294]: Romanucci & Blandin Calls Chicago Police Shooting Death of Derek Jordan a “Failure to De-escalate"
+        - listitem [ref=e295]:
+          - link "Image of Romanucci & Blandin voices concerns about the body-worn camera video released of shooting death of Krystal Rivera Press Release Romanucci & Blandin voices concerns about the body-worn camera video released of shooting death of Krystal Rivera" [ref=e296] [cursor=pointer]:
+            - /url: pressrelease-statement-release-bodycam-footage-shooting-death-krystal-rivera
+            - img "Image of Romanucci & Blandin voices concerns about the body-worn camera video released of shooting death of Krystal Rivera" [ref=e299]
+            - generic [ref=e300]:
+              - generic [ref=e301]: Press Release
+              - generic [ref=e302]: Romanucci & Blandin voices concerns about the body-worn camera video released of shooting death of Krystal Rivera
+        - listitem:
+          - link "Get A Free Consultation If you have questions regarding your personal injury case, contact us today for a free consultation":
+            - /url: contact-inquiry
+            - generic [ref=e303] [cursor=pointer]:
+              - generic [ref=e304]: Get A Free Consultation
+              - generic [ref=e305]: If you have questions regarding your personal injury case, contact us today for a free consultation
+  - link "Jump to Page":
+    - /url: "#header"
+  - list [ref=e308]:
+    - listitem [ref=e309]:
+      - heading "National Impact" [level=2] [ref=e312]
+      - generic [ref=e315]:
+        - generic [ref=e316]: "6"
+        - generic [ref=e317]: Tier 1 National and Chicago Regional Rankings in the 2026 Best Law Firms list
+        - generic [ref=e318]: 30+
+        - generic [ref=e319]: Laws and regulations stemming from our cases which made positive changes to our country
+        - generic [ref=e320]: "50"
+        - generic [ref=e321]: Attorney network and clients in all U.S. states
+  - list [ref=e324]:
+    - generic [ref=e326]:
+      - listitem [ref=e327]:
+        - img [ref=e329]
+      - listitem [ref=e330]:
+        - img [ref=e332]
+      - listitem [ref=e333]:
+        - img [ref=e335]
+      - listitem [ref=e336]:
+        - link "2026 Best Lawyers" [ref=e337] [cursor=pointer]:
+          - /url: /pressrelease-2026-best-lawyers-in-america-romanucci-blandin-partners-attorneys
+          - img "2026 Best Lawyers" [ref=e339]
+      - listitem [ref=e340]:
+        - img "AAJ - 2025" [ref=e342]
+      - listitem [ref=e343]:
+        - link "Link (opens in a new window)" [ref=e344] [cursor=pointer]:
+          - /url: https://www.justice.org/ways-to-give/support-aaj/evergreen-fund
+          - img "AAJ Evergreen Fund Contributor" [ref=e346]
+      - listitem [ref=e347]:
+        - link [ref=e348] [cursor=pointer]:
+          - /url: https://www.justice.org/community/pledge-to-act
+          - img [ref=e350]
+      - listitem [ref=e351]:
+        - img [ref=e353]
+      - listitem [ref=e354]:
+        - img [ref=e356]
+      - listitem [ref=e357]:
+        - img [ref=e359]
+      - listitem [ref=e360]:
+        - img [ref=e362]
+      - listitem [ref=e363]:
+        - img [ref=e365]
+      - listitem [ref=e366]:
+        - img [ref=e368]
+      - listitem [ref=e369]:
+        - img [ref=e371]
+      - listitem [ref=e372]:
+        - img [ref=e374]
+      - listitem [ref=e375]:
+        - img [ref=e377]
+      - listitem [ref=e378]:
+        - link [ref=e379] [cursor=pointer]:
+          - /url: /pressrelease-2026-best-lawyers-in-america-romanucci-blandin-partners-attorneys
+          - img [ref=e381]
+      - listitem [ref=e382]:
+        - img [ref=e384]
+      - listitem [ref=e385]:
+        - link [ref=e386] [cursor=pointer]:
+          - /url: https://www.justice.org/ways-to-give/support-aaj/evergreen-fund
+          - img [ref=e388]
+      - listitem [ref=e389]:
+        - link [ref=e390] [cursor=pointer]:
+          - /url: https://www.justice.org/community/pledge-to-act
+          - img [ref=e392]
+      - listitem [ref=e393]:
+        - img [ref=e395]
+      - listitem [ref=e396]:
+        - img [ref=e398]
+      - listitem [ref=e399]:
+        - img [ref=e401]
+      - listitem [ref=e402]:
+        - img [ref=e404]
+      - listitem [ref=e405]:
+        - img [ref=e407]
+      - listitem [ref=e408]:
+        - img [ref=e410]
+      - listitem [ref=e411]:
+        - img [ref=e413]
+      - listitem [ref=e414]:
+        - img [ref=e416]
+      - listitem [ref=e417]:
+        - img [ref=e419]
+  - generic [ref=e420]:
+    - generic [ref=e421]:
+      - generic [ref=e422]:
+        - heading "DO YOU HAVE QUESTIONS?" [level=2] [ref=e423]:
+          - strong [ref=e424]: DO YOU HAVE QUESTIONS?
+        - paragraph [ref=e425]:
+          - text: Get a
+          - link "free consultation (opens in a new window)" [ref=e426] [cursor=pointer]:
+            - /url: contact-inquiry
+            - text: free consultation
+          - text: regarding your personal injury case today.
+        - paragraph [ref=e427]:
+          - link "Tell Us About Your Case (opens in a new window)" [ref=e428] [cursor=pointer]:
+            - /url: contact-inquiry
+            - text: Tell Us About Your Case
+      - list [ref=e430]:
+        - listitem [ref=e431]:
+          - generic [ref=e432]:
+            - 'link "Toll Free: 888.458.1145" [ref=e434]':
+              - /url: tel:888.458.1145
+            - 'link "T: 312.458.1000" [ref=e436]':
+              - /url: tel:312.458.1000
+            - 'link "F: 312.458.1004" [ref=e438]':
+              - /url: tel:312.458.1004
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - generic [ref=e441]: 321 North Clark Street
+              - generic [ref=e442]: Suite 900
+              - generic [ref=e443]: Chicago, Illinois 60654
+            - link "Other Locations" [ref=e445] [cursor=pointer]:
+              - /url: contact
+    - generic [ref=e446]:
+      - generic [ref=e447]:
+        - heading "Sign Up for Our Newsletter" [level=5] [ref=e448]
+        - generic [ref=e451]:
+          - generic [ref=e452]:
+            - generic [ref=e453]: First Name
+            - textbox "First Name" [ref=e454]
+          - generic [ref=e455]:
+            - generic [ref=e456]: Last Name
+            - textbox "Last Name" [ref=e457]
+          - generic [ref=e458]:
+            - generic [ref=e459]: Email
+            - textbox "Email" [ref=e460]
+          - button "Submit" [ref=e462] [cursor=pointer]
+      - list [ref=e464]:
+        - listitem [ref=e465]:
+          - button "Share Icon" [ref=e467] [cursor=pointer]:
+            - img "Share Icon" [ref=e468]
+        - listitem [ref=e470]:
+          - link "LinkedIn (opens in a new window)" [ref=e471] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/romanucci-&-blandin-law-office/
+            - img "LinkedIn" [ref=e472]
+        - listitem [ref=e476]:
+          - link "Instagram (opens in a new window)" [ref=e477] [cursor=pointer]:
+            - /url: https://www.instagram.com/romanucciblandin/
+            - img "Instagram" [ref=e478]
+        - listitem [ref=e480]:
+          - link "Facebook (opens in a new window)" [ref=e481] [cursor=pointer]:
+            - /url: https://www.facebook.com/RomanucciBlandin/
+            - img "Facebook" [ref=e482]
+        - listitem [ref=e484]:
+          - link "YouTube (opens in a new window)" [ref=e485] [cursor=pointer]:
+            - /url: https://www.youtube.com/@RomanucciBlandinLaw
+            - img "YouTube" [ref=e486]
+  - contentinfo [ref=e488]:
+    - list [ref=e489]:
+      - listitem [ref=e490]:
+        - link "Disclaimer" [ref=e491] [cursor=pointer]:
+          - /url: disclaimer
+      - listitem [ref=e492]:
+        - link "Privacy Policy" [ref=e493] [cursor=pointer]:
+          - /url: privacy
+      - listitem [ref=e494]:
+        - link "Site Map" [ref=e495] [cursor=pointer]:
+          - /url: sitemap
+      - listitem [ref=e496]:
+        - link "Manage Cookies" [ref=e497] [cursor=pointer]:
+          - /url: "#CookieSettings"
+      - listitem [ref=e498]: © 2026 Romanucci & Blandin
+  - text: › × ×
+  - img [ref=e501]

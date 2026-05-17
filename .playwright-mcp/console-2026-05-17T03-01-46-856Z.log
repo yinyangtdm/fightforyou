@@ -1,0 +1,6 @@
+[    5360ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://bamberg-legal.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    5578ms] [LOG] Invitation with cdn @ https://www.apex.live/scripts/invitation.ashx?company=bamberglegal:0
+[    6420ms] [LOG] public path: https://v2.apex.live/contents/scripts/dist/ @ https://v2.apex.live/contents/scripts/dist/invitationHandler.chunk.753b10b243f4088562f2.js:0
+[    6776ms] [LOG] domain https://v2.apex.live/ Loading RdPlusTheme/tab.css @ https://v2.apex.live/contents/scripts/dist/5413.chunk.753b10b243f4088562f2.js:0
+[    6971ms] [LOG] domain https://v2.apex.live/ Loading RdPlusTheme/prechat.css @ https://v2.apex.live/contents/scripts/dist/5413.chunk.753b10b243f4088562f2.js:0
+[    9408ms] [LOG] Rounded Template renderer _questionTypeUIConfiguration @ https://v2.apex.live/contents/scripts/dist/PreChatInvitation.chunk.753b10b243f4088562f2.js:0

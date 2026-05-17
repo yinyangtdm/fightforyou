@@ -1,0 +1,2 @@
+[     840ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.formisanoandcompany.com/wp-content/cache/jch-optimize/assets1304155/js/40b2ea8379d3d1b082e67c9946339fe5c0d52fedeea78124a4f56db1906b473e.js:3
+[     945ms] [WARNING] Datadog Browser SDK: env value doesn't meet tag requirements and will be sanitized. More details: https://docs.datadoghq.com/getting_started/tagging/#defining-tags @ https://www.datadoghq-browser-agent.com/datadog-rum-v5.js:0

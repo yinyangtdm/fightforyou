@@ -1,0 +1,354 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - link "Skip to main content" [ref=e2] [cursor=pointer]:
+      - /url: "#main"
+      - generic [ref=e3]: Skip to main content
+  - main [ref=e5]:
+    - group [ref=e6]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - link "Excellent 4.6 out of 5 Trustpilot" [ref=e12] [cursor=pointer]:
+          - /url: https://www.trustpilot.com/review/godaddy.com
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - generic [ref=e15]: Excellent
+              - generic [ref=e16]: 4.6 out of 5
+            - img "Trustpilot" [ref=e18]
+    - generic [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - heading "The domain name" [level=6] [ref=e27]
+          - heading "gbfirm.com" [level=2] [ref=e28]
+          - heading "is for sale!" [level=6] [ref=e29]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "Get a price in less than 24 hours" [level=5] [ref=e32]
+            - separator [ref=e33]
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - generic [ref=e38]:
+                  - generic:
+                    - text: First Name
+                    - generic: "*"
+                  - textbox "First Name" [ref=e39]
+                - generic [ref=e42]:
+                  - generic:
+                    - text: Last Name
+                    - generic: "*"
+                  - textbox "Last Name" [ref=e43]
+              - generic [ref=e46]:
+                - generic:
+                  - text: Email
+                  - generic: "*"
+                - textbox "Email" [ref=e47]
+              - generic [ref=e50]:
+                - generic:
+                  - text: Phone
+                  - generic: "*"
+                - textbox "Phone" [ref=e51]
+              - generic [ref=e54] [cursor=pointer]:
+                - generic: United States
+                - combobox [ref=e55]:
+                  - option "Afghanistan"
+                  - option "Åland Islands"
+                  - option "Albania"
+                  - option "Algeria"
+                  - option "American Samoa"
+                  - option "Andorra"
+                  - option "Angola"
+                  - option "Anguilla"
+                  - option "Antarctica"
+                  - option "Antigua and Barbuda"
+                  - option "Argentina"
+                  - option "Armenia"
+                  - option "Aruba"
+                  - option "Ascension Island"
+                  - option "Australia"
+                  - option "Austria"
+                  - option "Azerbaijan"
+                  - option "Bahamas"
+                  - option "Bahrain"
+                  - option "Bangladesh"
+                  - option "Barbados"
+                  - option "Belarus"
+                  - option "Belgium"
+                  - option "Belize"
+                  - option "Benin"
+                  - option "Bermuda"
+                  - option "Bhutan"
+                  - option "Bolivia"
+                  - option "Bonaire, Sint Eustatius and Saba"
+                  - option "Bosnia and Herzegovina"
+                  - option "Botswana"
+                  - option "Bouvet Island"
+                  - option "Brazil"
+                  - option "British Indian Ocean Territory"
+                  - option "Brunei Darussalam"
+                  - option "Bulgaria"
+                  - option "Burkina Faso"
+                  - option "Burundi"
+                  - option "Cambodia"
+                  - option "Cameroon"
+                  - option "Canada"
+                  - option "Cape Verde Islands"
+                  - option "Cayman Islands"
+                  - option "Central African Republic"
+                  - option "Chad"
+                  - option "Chile"
+                  - option "China"
+                  - option "Christmas Island"
+                  - option "Cocos (Keeling) Islands"
+                  - option "Colombia"
+                  - option "Comoros"
+                  - option "Congo, Democratic Republic of"
+                  - option "Congo, Republic of"
+                  - option "Cook Islands"
+                  - option "Costa Rica"
+                  - option "Cote d'Ivoire"
+                  - option "Croatia"
+                  - option "Curacao"
+                  - option "Cyprus"
+                  - option "Czech Republic"
+                  - option "Denmark"
+                  - option "Djibouti"
+                  - option "Dominica"
+                  - option "Dominican Republic"
+                  - option "East Timor"
+                  - option "Ecuador"
+                  - option "Egypt"
+                  - option "El Salvador"
+                  - option "Equatorial Guinea"
+                  - option "Eritrea"
+                  - option "Estonia"
+                  - option "Ethiopia"
+                  - option "Falkland Islands"
+                  - option "Faroe Islands"
+                  - option "Fiji"
+                  - option "Finland"
+                  - option "France"
+                  - option "French Guiana"
+                  - option "French Polynesia"
+                  - option "French Southern Territories"
+                  - option "Gabon"
+                  - option "Gambia"
+                  - option "Georgia"
+                  - option "Germany"
+                  - option "Ghana"
+                  - option "Gibraltar"
+                  - option "Greece"
+                  - option "Greenland"
+                  - option "Grenada"
+                  - option "Guadeloupe"
+                  - option "Guam"
+                  - option "Guatemala"
+                  - option "Guernsey"
+                  - option "Guinea"
+                  - option "Guinea-Bissau"
+                  - option "Guyana"
+                  - option "Haiti"
+                  - option "Heard and McDonald Islands"
+                  - option "Honduras"
+                  - option "Hong Kong"
+                  - option "Hungary"
+                  - option "Iceland"
+                  - option "India"
+                  - option "Indonesia"
+                  - option "Iraq"
+                  - option "Ireland"
+                  - option "Isle of Man"
+                  - option "Israel"
+                  - option "Italy"
+                  - option "Jamaica"
+                  - option "Japan"
+                  - option "Jersey"
+                  - option "Jordan"
+                  - option "Kazakhstan"
+                  - option "Kenya"
+                  - option "Kiribati"
+                  - option "Korea, Republic of (South Korea)"
+                  - option "Kosovo"
+                  - option "Kuwait"
+                  - option "Kyrgyzstan"
+                  - option "Laos"
+                  - option "Latvia"
+                  - option "Lebanon"
+                  - option "Lesotho"
+                  - option "Liberia"
+                  - option "Libya"
+                  - option "Liechtenstein"
+                  - option "Lithuania"
+                  - option "Luxembourg"
+                  - option "Macau"
+                  - option "Madagascar"
+                  - option "Malawi"
+                  - option "Malaysia"
+                  - option "Maldives"
+                  - option "Mali"
+                  - option "Malta"
+                  - option "Marshall Islands"
+                  - option "Martinique"
+                  - option "Mauritania"
+                  - option "Mauritius"
+                  - option "Mayotte Island"
+                  - option "Mexico"
+                  - option "Micronesia"
+                  - option "Moldova"
+                  - option "Monaco"
+                  - option "Mongolia"
+                  - option "Montenegro"
+                  - option "Montserrat"
+                  - option "Morocco"
+                  - option "Mozambique"
+                  - option "Myanmar"
+                  - option "Namibia"
+                  - option "Nauru"
+                  - option "Nepal"
+                  - option "Netherlands"
+                  - option "New Caledonia"
+                  - option "New Zealand"
+                  - option "Nicaragua"
+                  - option "Niger"
+                  - option "Nigeria"
+                  - option "Niue"
+                  - option "Norfolk Island"
+                  - option "North Macedonia"
+                  - option "Northern Mariana Islands"
+                  - option "Norway"
+                  - option "Oman"
+                  - option "Pakistan"
+                  - option "Palau"
+                  - option "Palestinian Territories"
+                  - option "Panama"
+                  - option "Papua New Guinea"
+                  - option "Paraguay"
+                  - option "Peru"
+                  - option "Philippines"
+                  - option "Pitcairn Island"
+                  - option "Poland"
+                  - option "Portugal"
+                  - option "Puerto Rico"
+                  - option "Qatar"
+                  - option "Reunion Island"
+                  - option "Romania"
+                  - option "Russian Federation"
+                  - option "Rwanda"
+                  - option "Saint Helena"
+                  - option "Saint Kitts and Nevis"
+                  - option "Saint Lucia"
+                  - option "Saint Pierre and Miquelon"
+                  - option "Saint Vincent and the Grenadines"
+                  - option "San Marino"
+                  - option "Sao Tome and Principe"
+                  - option "Saudi Arabia"
+                  - option "Senegal"
+                  - option "Serbia"
+                  - option "Seychelles"
+                  - option "Sierra Leone"
+                  - option "Singapore"
+                  - option "Sint Maarten"
+                  - option "Slovak Republic"
+                  - option "Slovenia"
+                  - option "Solomon Islands"
+                  - option "Somalia"
+                  - option "South Africa"
+                  - option "South Georgia and South Sandwich Islands"
+                  - option "Spain"
+                  - option "Sri Lanka"
+                  - option "Sudan"
+                  - option "Suriname"
+                  - option "Svalbard and Jan Mayen Islands"
+                  - option "Swaziland"
+                  - option "Sweden"
+                  - option "Switzerland"
+                  - option "Taiwan"
+                  - option "Tajikistan"
+                  - option "Tanzania"
+                  - option "Thailand"
+                  - option "Timor-Leste"
+                  - option "Togo"
+                  - option "Tokelau"
+                  - option "Tonga Islands"
+                  - option "Trinidad and Tobago"
+                  - option "Tunisia"
+                  - option "Turkey"
+                  - option "Turkmenistan"
+                  - option "Turks and Caicos Islands"
+                  - option "Tuvalu"
+                  - option "Uganda"
+                  - option "Ukraine"
+                  - option "United Arab Emirates"
+                  - option "United Kingdom"
+                  - option "United States" [selected]
+                  - option "Uruguay"
+                  - option "US Minor Outlying Islands"
+                  - option "Uzbekistan"
+                  - option "Vanuatu"
+                  - option "Vatican City"
+                  - option "Venezuela"
+                  - option "Vietnam"
+                  - option "Virgin Islands (British)"
+                  - option "Virgin Islands (USA)"
+                  - option "Wallis and Futuna Islands"
+                  - option "Western Sahara"
+                  - option "Western Samoa"
+                  - option "Yemen"
+                  - option "Zambia"
+                  - option "Zimbabwe"
+              - paragraph [ref=e56]:
+                - text: By submitting, you agree to our
+                - button "Privacy Policy" [ref=e57] [cursor=pointer]:
+                  - generic: Privacy Policy
+                - text: .
+              - button "Get Price" [ref=e58] [cursor=pointer]:
+                - generic: Get Price
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: Need a price instantly? Contact us now.
+            - paragraph [ref=e62]:
+              - link "1-855-646-1390" [ref=e63] [cursor=pointer]:
+                - /url: "true"
+              - generic [ref=e64]: (Toll Free in the U.S. and Canada)
+            - paragraph [ref=e66]:
+              - link "+1 781-373-6808" [ref=e67] [cursor=pointer]:
+                - /url: "true"
+              - generic [ref=e68]: (International number)
+      - generic [ref=e69]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - img "Safe & secure transactions" [ref=e74]
+            - paragraph [ref=e75]: Safe & secure transactions
+          - generic [ref=e76]:
+            - img "Fast & easy transfers" [ref=e77]
+            - paragraph [ref=e78]: Fast & easy transfers
+          - generic [ref=e79]:
+            - img "Hassle free payments" [ref=e80]
+            - paragraph [ref=e81]: Hassle free payments
+        - generic [ref=e84]:
+          - separator [ref=e85]
+          - heading "The simple, and safe way to buy domain names" [level=6] [ref=e86]
+          - paragraph [ref=e87]: No matter what kind of domain you want to buy or lease, we make the transfer simple and safe.
+          - button "Here's how it works" [ref=e88] [cursor=pointer]:
+            - generic: Here's how it works
+    - separator [ref=e89]
+    - generic [ref=e90]:
+      - generic [ref=e92]:
+        - paragraph [ref=e93]: Powered By
+        - img "A GoDaddy-Branded Afternic Logo" [ref=e94]
+      - generic [ref=e95]:
+        - button "Do not share my personal information" [ref=e96] [cursor=pointer]:
+          - generic: Do not share my personal information
+        - text: "|"
+        - button "Privacy Settings" [ref=e97] [cursor=pointer]:
+          - generic: Privacy Settings
+  - contentinfo
+  - alert "privacyAlert" [ref=e99]:
+    - button "Close banner" [ref=e101] [cursor=pointer]:
+      - generic: ✕
+    - generic [ref=e102]:
+      - strong [ref=e104]: We serve cookies.
+      - text: We use cookies and similar technologies to offer a customized browsing experience, measure and improve performance of our website, provide customer support, and deliver personalized advertising. To manage your cookie and privacy preferences, please click "Manage". For more information about our use of cookies and similar technology, please see our
+      - link "Privacy Policy" [ref=e105] [cursor=pointer]:
+        - /url: https://www.secureserver.net/legal-agreement?id=privacy&plid=497036&prog_id=AfterNIC
+        - generic [ref=e106]: Privacy Policy
+    - button "Manage" [ref=e108] [cursor=pointer]:
+      - generic: Manage
+  - alert [ref=e109]

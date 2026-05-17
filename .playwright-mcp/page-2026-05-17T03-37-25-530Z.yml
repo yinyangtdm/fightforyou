@@ -1,0 +1,627 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#primary"
+    - banner:
+      - generic [ref=e4]:
+        - generic [ref=e8]:
+          - link "Call Us (816) 221-2288" [ref=e9] [cursor=pointer]:
+            - /url: tel:8162212288
+            - generic [ref=e10]: Call Us
+            - generic [ref=e11]: 
+            - generic [ref=e12]: (816) 221-2288
+          - text: 
+        - navigation [ref=e13]:
+          - generic [ref=e14]:
+            - link "Popham Injury Law Logo" [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img "Popham Injury Law Logo" [ref=e17]
+            - button "Toggle navigation" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]: 
+            - generic:  
+            - text:  
+    - main [ref=e21]:
+      - generic [ref=e26]:
+        - heading [level=5]
+        - paragraph [ref=e27]
+        - heading "Kansas City Personal Injury Lawyers" [level=5] [ref=e28]
+        - heading "You Deserve an Injury Advocate" [level=1] [ref=e29]
+        - paragraph [ref=e30]:
+          - link "Do I have A Case?" [ref=e31] [cursor=pointer]:
+            - /url: /contact/
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - heading "60 +" [level=2] [ref=e35]
+            - paragraph [ref=e36]: Years of Experience (1918)
+          - generic [ref=e37]:
+            - heading "$299 M+" [level=2] [ref=e38]
+            - paragraph [ref=e39]: Recovered for Clients
+          - generic [ref=e40]:
+            - heading "60 %" [level=2] [ref=e41]
+            - paragraph [ref=e42]: Free Consultation
+      - article [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e49]:
+            - heading "As Featured In" [level=5] [ref=e52]
+            - generic [ref=e55]:
+              - img "prefix__kcm" [ref=e57]
+              - img "image-6" [ref=e59]
+              - img "svgexport-1-28-1" [ref=e61]
+              - img "good-morning-america-seeklogo-1" [ref=e63]
+          - generic [ref=e67]:
+            - heading "Kansas City Personal Injury Lawyers" [level=5] [ref=e68]
+            - heading "Personal injury law, for public good." [level=2] [ref=e69]
+            - paragraph [ref=e70]: We are a Kansas City personal injury law firm with a focus on cases with social impact. Most of the clients we work with are individual plaintiffs who have experienced a significant violation of their civil rights. They've faced police brutality, sexual assault, medical malpractice, a vehicle accident, or the wrongful death of a loved one, and it changed their lives forever. Maybe you relate. Call us for a free consultation to discover how we help people like you face the future with the settlement you need—and the recognition you deserve.
+            - paragraph [ref=e71]
+            - paragraph [ref=e73]:
+              - iframe [ref=e74]:
+                - generic [active]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - complementary "Video":
+                                      - generic [ref=f378e2] [cursor=pointer]:
+                                        - figure [ref=f378e3]:
+                                          - img [ref=f378e6]
+                                        - generic:
+                                          - generic:
+                                            - img
+          - generic [ref=e76]:
+            - heading "Verdicts & Settlements" [level=2] [ref=e79]
+            - generic [ref=e84]:
+              - generic [ref=e86]:
+                - paragraph [ref=e87]: $1,250,000
+                - paragraph [ref=e88]: Motorcycle Crash
+                - separator [ref=e89]
+                - paragraph [ref=e91]: Attorney Tom Porto
+              - generic [ref=e93]:
+                - paragraph [ref=e94]: $9,178,000
+                - paragraph [ref=e95]: Mild Traumatic Brain Injury
+                - separator [ref=e96]
+                - paragraph [ref=e98]: Attorney Paul D. Anderson
+              - generic [ref=e100]:
+                - paragraph [ref=e101]: $3,000,000
+                - paragraph [ref=e102]: Injury
+                - separator [ref=e103]
+                - paragraph [ref=e105]: Attorney Paul D. Anderson
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: $1,000,000
+                - paragraph [ref=e109]: Premise Case
+                - separator [ref=e110]
+                - paragraph [ref=e112]: Attorney Tom Porto
+              - generic [ref=e114]:
+                - paragraph [ref=e115]: $400,000
+                - paragraph [ref=e116]: Bike Crash
+                - separator [ref=e117]
+                - paragraph [ref=e119]: Attorneys Mark Schloegel and Paul D. Anderson
+              - generic [ref=e121]:
+                - paragraph [ref=e122]: $9,000,000
+                - paragraph [ref=e123]: Car Crash
+                - separator [ref=e124]
+                - paragraph [ref=e126]: Attorney Dirk Vandever
+              - generic [ref=e128]:
+                - paragraph [ref=e129]: $10,000,000
+                - paragraph [ref=e130]: Police Shooting
+                - separator [ref=e131]
+                - paragraph [ref=e133]: Attorney Tom Porto and Bert Braud
+              - generic [ref=e135]:
+                - paragraph [ref=e136]: $57,000,000
+                - paragraph [ref=e137]: Employment Discrimination
+                - separator [ref=e138]
+                - paragraph [ref=e140]: Attorney Dennis Egan
+              - generic [ref=e142]:
+                - paragraph [ref=e143]: $1,800,000
+                - paragraph [ref=e144]: Employment Discrimination
+                - separator [ref=e145]
+                - paragraph [ref=e147]: Attorney Cooper Mach
+            - paragraph [ref=e150]:
+              - link "View More Results" [ref=e151] [cursor=pointer]:
+                - /url: /results/
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - heading "Why Popham" [level=5] [ref=e157]
+              - heading "We can do this... together." [level=2] [ref=e158]
+              - paragraph [ref=e159]: Popham Injury Law began in 1918 when a Kentucky lawyer came to Kansas City to start his own practice. His personal injury law firm became known for its legal excellence and plaintiff advocacy. Our values and our historic reputation in the Kansas City area gives your case four distinct advantages.
+              - link "Learn More About Us" [ref=e160] [cursor=pointer]:
+                - /url: /about/
+            - paragraph [ref=e163]:
+              - img "Child Kissing Mother on Cheek During Family Breakfast" [ref=e164]
+          - generic [ref=e166]:
+            - generic [ref=e168]:
+              - heading "Expect more from your injury lawyer." [level=2] [ref=e169]
+              - paragraph [ref=e170]: The 7th Amendment guarantees your right to a trial by jury. A trial is your access to the civil justice system and allows you to hold wrongdoers accountable when they harm people, either intentionally or through negligence. If such lawbreakers are not held accountable, it erodes your safety and the safety of our community.
+              - paragraph [ref=e171]: At Popham Injury Law of Kansas City, our personal injury attorneys are completely dedicated to protecting the rights of individuals and holding lawbreakers accountable. Whether you have suffered a serious injury or have been wrongfully terminated, we can help. In addition to our work representing individuals in Kansas and Missouri, we provide mediation services for our fellow attorneys.
+              - paragraph [ref=e172]
+            - generic [ref=e177]:
+              - generic [ref=e179] [cursor=pointer]:
+                - img [ref=e181]
+                - paragraph [ref=e190]:
+                  - link "Auto Accidents" [ref=e191]:
+                    - /url: https://www.pophamlaw.com/kansas-city-auto-accidents/
+                - paragraph
+              - generic [ref=e193] [cursor=pointer]:
+                - img [ref=e195]
+                - paragraph [ref=e197]:
+                  - link "Truck Accidents" [ref=e198]:
+                    - /url: https://www.pophamlaw.com/kansas-city-truck-accident-attorney/
+                - paragraph
+              - generic [ref=e200] [cursor=pointer]:
+                - img [ref=e202]
+                - paragraph [ref=e206]:
+                  - link "Wrongful Death" [ref=e207]:
+                    - /url: https://www.pophamlaw.com/kansas-city-wrongful-death-attorney/
+                - paragraph
+              - generic [ref=e209] [cursor=pointer]:
+                - img [ref=e211]
+                - paragraph [ref=e214]:
+                  - link "Traumatic Brain Injuries" [ref=e215]:
+                    - /url: https://www.pophamlaw.com/kansas-city-traumatic-brain-injury-attorneys/
+                - paragraph
+              - generic [ref=e217] [cursor=pointer]:
+                - img [ref=e219]
+                - paragraph [ref=e222]:
+                  - link "Bicycle Accidents" [ref=e223]:
+                    - /url: https://www.pophamlaw.com/kansas-city-bicycle-accidents-lawyer/
+                - paragraph
+              - generic [ref=e225] [cursor=pointer]:
+                - img [ref=e227]
+                - paragraph [ref=e233]:
+                  - link "Civil Rights Litigation" [ref=e234]:
+                    - /url: https://www.pophamlaw.com/practice-areas/civil-rights-litigation-in-kansas-city/
+                - paragraph
+              - generic [ref=e236] [cursor=pointer]:
+                - img [ref=e238]
+                - paragraph [ref=e240]:
+                  - link "Insurance Disputes" [ref=e241]:
+                    - /url: https://www.pophamlaw.com/kansas-city-insurance-dispute-attorneys/
+                - paragraph
+              - generic [ref=e243] [cursor=pointer]:
+                - img [ref=e245]
+                - paragraph [ref=e248]:
+                  - link "Employment Law" [ref=e249]:
+                    - /url: https://www.pophamlaw.com/employment-law/
+                - paragraph
+            - paragraph [ref=e252]:
+              - link "View More Practice Areas" [ref=e253] [cursor=pointer]:
+                - /url: /practice-areas/
+          - generic [ref=e255]:
+            - heading "HONORS & AWARDS" [level=5] [ref=e258]
+            - generic [ref=e261]:
+              - generic [ref=e262]:
+                - img "The National To 40 Under 40 Trial Lawyers Badge"
+              - generic [ref=e263]:
+                - img "Million Dollar Associates Forum Badge"
+              - generic [ref=e264]:
+                - img "icon-award"
+              - generic [ref=e265]:
+                - img "lon-o-hocker-award"
+              - generic [ref=e266]:
+                - paragraph
+                - generic [ref=e267]:
+                  - link "Cooper Mach" [ref=e268] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/missouri/kansas-city/lawyer/cooper-mach/00168834-3885-47f2-beeb-4d638d79e34f.html?npcmp=rsb:badge:sl_badge:00168834-3885-47f2-beeb-4d638d79e34f:main&utm_source=00168834-3885-47f2-beeb-4d638d79e34f&utm_campaign=v2-rsbadge-blue&utm_content=profile
+                  - generic [ref=e269]:
+                    - text: Rated by Super Lawyers
+                    - paragraph [ref=e270]: loading ...
+                - paragraph
+              - generic [ref=e271]:
+                - paragraph
+                - generic [ref=e272]:
+                  - link "Tom Porto" [ref=e273] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/missouri/kansas-city/lawyer/tom-porto/e937a8e2-6466-4cc1-b5d0-f9fd3985deb8.html?npcmp=slb:badge:sl_badge:e937a8e2-6466-4cc1-b5d0-f9fd3985deb8:miles&utm_source=e937a8e2-6466-4cc1-b5d0-f9fd3985deb8&utm_campaign=v2-slbadge-anniversary-5&utm_content=profile
+                  - generic [ref=e274]:
+                    - text: Rated by Super Lawyers
+                    - paragraph [ref=e275]: loading ...
+                - paragraph
+              - generic [ref=e276]:
+                - paragraph
+                - generic [ref=e277]:
+                  - link "Scott W. Mach" [ref=e278] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/missouri/kansas-city/lawyer/scott-w-mach/d696a52b-ef7a-49f6-8878-4880cc06e1a5.html?npcmp=slb:badge:sl_badge:d696a52b-ef7a-49f6-8878-4880cc06e1a5:miles&utm_source=d696a52b-ef7a-49f6-8878-4880cc06e1a5&utm_campaign=v2-slbadge-anniversary-10&utm_content=profile
+                  - generic [ref=e279]:
+                    - text: Rated by Super Lawyers
+                    - paragraph [ref=e280]: loading ...
+                - paragraph
+              - generic [ref=e281]:
+                - paragraph
+                - generic [ref=e282]:
+                  - link "Wm. Dirk Vandever" [ref=e283] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/missouri/kansas-city/lawyer/wm-dirk-vandever/105ff82a-505f-455e-9610-b4ee2d6343e3.html?npcmp=slb:badge:sl_badge:105ff82a-505f-455e-9610-b4ee2d6343e3:miles&utm_source=105ff82a-505f-455e-9610-b4ee2d6343e3&utm_campaign=v2-slbadge-anniversary-20&utm_content=profile
+                  - generic [ref=e284]:
+                    - text: Rated by Super Lawyers
+                    - paragraph [ref=e285]: loading ...
+                - paragraph
+              - generic [ref=e286]:
+                - paragraph
+                - generic [ref=e287]:
+                  - link "Dennis E. Egan" [ref=e288] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/missouri/kansas-city/lawyer/dennis-e-egan/0df78ffe-8466-463a-9635-67827e387862.html?npcmp=slb:badge:sl_badge:0df78ffe-8466-463a-9635-67827e387862:miles&utm_source=0df78ffe-8466-463a-9635-67827e387862&utm_campaign=v2-slbadge-anniversary-20&utm_content=profile
+                  - generic [ref=e289]:
+                    - text: Rated by Super Lawyers
+                    - paragraph [ref=e290]: loading ...
+                - paragraph
+              - generic [ref=e291]:
+                - paragraph
+                - generic [ref=e292]:
+                  - link "Dennis E. Egan" [ref=e293] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/missouri/kansas-city/lawyer/dennis-e-egan/0df78ffe-8466-463a-9635-67827e387862.html?npcmp=slb:badge:sl_badge:0df78ffe-8466-463a-9635-67827e387862:toplist&utm_source=0df78ffe-8466-463a-9635-67827e387862&utm_campaign=v2-slbadge-top-50&utm_content=profile
+                  - generic [ref=e294]:
+                    - text: Rated by Super Lawyers
+                    - paragraph [ref=e295]: loading ...
+                - paragraph
+              - generic [ref=e296]:
+                - paragraph
+                - generic [ref=e297]:
+                  - link "Dennis E. Egan" [ref=e298] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/missouri/kansas-city/lawyer/dennis-e-egan/0df78ffe-8466-463a-9635-67827e387862.html?npcmp=slb:badge:sl_badge:0df78ffe-8466-463a-9635-67827e387862:toplist&utm_source=0df78ffe-8466-463a-9635-67827e387862&utm_campaign=v2-slbadge-top-100&utm_content=profile
+                  - generic [ref=e299]:
+                    - text: Rated by Super Lawyers
+                    - paragraph [ref=e300]: loading ...
+                - paragraph
+          - generic [ref=e303]:
+            - generic [ref=e305]:
+              - heading "Find the right injury lawyer to tell your story." [level=2] [ref=e306]
+              - paragraph [ref=e308]: We are a collective of civil rights and personal injury lawyers with different legal practice specialties and experiences. We often represent people whose rights have been violated by systems bigger than they are—usually a corporation or government institution.
+              - link "Get a Free Consultation" [ref=e309] [cursor=pointer]:
+                - /url: /contact/
+            - generic [ref=e312]:
+              - generic [ref=e314]:
+                - generic [ref=e318] [cursor=pointer]:
+                  - paragraph [ref=e319]:
+                    - link "Wm. Dirk Vandever" [ref=e320]:
+                      - /url: https://www.pophamlaw.com/attorneys/wm-dirk-vandever/
+                  - paragraph [ref=e321]: Injury & Medical Malpractice Lawyer
+                - generic [ref=e325] [cursor=pointer]:
+                  - paragraph [ref=e326]:
+                    - link [ref=e327]:
+                      - /url: https://www.pophamlaw.com/attorneys/scott-w-mach/
+                      - text: Scott W. Mach
+                  - paragraph [ref=e328]: Of Counsel
+                - generic [ref=e332] [cursor=pointer]:
+                  - paragraph [ref=e333]:
+                    - link [ref=e334]:
+                      - /url: https://www.pophamlaw.com/attorneys/dennis-e-egan/
+                      - text: Dennis E. Egan
+                  - paragraph [ref=e335]: Employment Lawyer
+                - generic [ref=e339] [cursor=pointer]:
+                  - paragraph [ref=e340]:
+                    - link [ref=e341]:
+                      - /url: https://www.pophamlaw.com/attorneys/bert-s-braud/
+                      - text: Bert S. Braud
+                  - paragraph [ref=e342]: Of Counsel
+                - generic [ref=e346] [cursor=pointer]:
+                  - paragraph [ref=e347]:
+                    - link [ref=e348]:
+                      - /url: https://www.pophamlaw.com/attorneys/mark-schloegel/
+                      - text: Mark Schloegel
+                  - paragraph [ref=e349]: Injury & Sexual Assault Lawyer
+                - generic [ref=e353] [cursor=pointer]:
+                  - paragraph [ref=e354]:
+                    - link [ref=e355]:
+                      - /url: https://www.pophamlaw.com/attorneys/tom-porto/
+                      - text: Tom Porto
+                  - paragraph [ref=e356]: Injury & Civil Rights Lawyer
+                - generic [ref=e360] [cursor=pointer]:
+                  - paragraph [ref=e361]:
+                    - link [ref=e362]:
+                      - /url: https://www.pophamlaw.com/attorneys/cooper-mach/
+                      - text: Cooper Mach
+                  - paragraph [ref=e363]: Injury & Employment Lawyer
+                - generic [ref=e367] [cursor=pointer]:
+                  - paragraph [ref=e368]:
+                    - link [ref=e369]:
+                      - /url: https://www.pophamlaw.com/attorneys/paul-d-anderson/
+                      - text: Paul Anderson
+                  - paragraph [ref=e370]: Injury & Class Action Lawyer
+              - button "Previous" [ref=e371] [cursor=pointer]: 
+              - button "Next" [ref=e372] [cursor=pointer]: 
+          - generic [ref=e374]:
+            - generic [ref=e376]:
+              - heading "WHAT OUR CLIENTS SAY" [level=5] [ref=e377]
+              - heading "Client Reviews" [level=2] [ref=e378]
+            - generic [ref=e382]:
+              - generic [ref=e384]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]:
+                    - text: Working with Popham Injury Law was AMAZING! I was able to work with Paul Anderson on my case, and he was excellent. With quick and effective communication skills, he had my best interests at heart and regularly checked in. I have since referred him to friends and family members. Getting...
+                    - generic [ref=e388] [cursor=pointer]: Read More
+                  - separator [ref=e390]
+                  - generic [ref=e393]:
+                    - paragraph [ref=e394]: K. W.
+                    - generic [ref=e395]: 
+                - generic [ref=e397]:
+                  - generic [ref=e398]: We experienced a horrible tragedy, and Tom Porto at Popham Injury Law was so kind and guided us through it all. He took the time to explain things we didn't understand, truly empathized with us, and showed great compassion.
+                  - separator [ref=e400]
+                  - generic [ref=e403]:
+                    - paragraph [ref=e404]: R. M.
+                    - generic [ref=e405]: 
+                - generic [ref=e407]:
+                  - generic [ref=e408]:
+                    - text: I just have to say, I love Popham Injury Law! The best law firm in the Kansas City area I’ve ever had the pleasure of working with. Everyone was so polite, caring, and supportive. Everyone listened and was sympathetic, compassionate, and kind. Cooper, thank you so much for everything you...
+                    - generic [ref=e409] [cursor=pointer]: Read More
+                  - separator [ref=e411]
+                  - generic [ref=e414]:
+                    - paragraph [ref=e415]: G. J.
+                    - generic [ref=e416]: 
+                - generic [ref=e418]:
+                  - generic [ref=e419]: Mark Schloegel was fantastic to work with—professional, responsive, and genuinely cared about my case. I felt confident and well-represented every step of the way. Highly recommend!
+                  - separator [ref=e421]
+                  - generic [ref=e424]:
+                    - paragraph [ref=e425]: L. S.
+                    - generic [ref=e426]: 
+                - generic [ref=e428]:
+                  - generic [ref=e429]: Popham's attorneys were diligent, professional, compassionate, and honest throughout the process of my case. I strongly recommend Paul and Popham's team to anyone needing a civil attorney because they deliver real, honest results.
+                  - separator [ref=e431]
+                  - generic [ref=e434]:
+                    - paragraph [ref=e435]: T. R.
+                    - generic [ref=e436]: 
+                - generic [ref=e438]:
+                  - generic [ref=e439]: I had a great experience working with Paul Anderson. From the start, he was professional, compassionate, and very knowledgeable about personal injury law. He explained the entire process, kept me updated regularly, and always made time to answer my questions.
+                  - separator [ref=e441]
+                  - generic [ref=e444]:
+                    - paragraph [ref=e445]: J. G.
+                    - generic [ref=e446]: 
+                - generic [ref=e448]:
+                  - generic [ref=e449]: Paul is hands down the most professional, upfront, honest, and hardworking legal expert I’ve ever encountered. From the very first consultation, Paul earned our full trust and has upheld it without fail throughout the entire process.
+                  - separator [ref=e451]
+                  - generic [ref=e454]:
+                    - paragraph [ref=e455]: S. B.
+                    - generic [ref=e456]: 
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - text: I’ve been lucky enough to be working with Tom Porto and Brandy Cook! Going through this situation—especially legally—has been extremely exhausting and emotional, but they have both been amazing. They are both very kind, compassionate, and caring. Tom and Brandy both seem to love what they do and take it...
+                    - generic [ref=e460] [cursor=pointer]: Read More
+                  - separator [ref=e462]
+                  - generic [ref=e465]:
+                    - paragraph [ref=e466]: H. B.
+                    - generic [ref=e467]: 
+                - generic [ref=e469]:
+                  - generic [ref=e470]: Working with Popham Law and Tom Porto was an exceptional experience! From the very beginning, Tom brought a level of attention to detail and professionalism that immediately put me at ease. He took the time to understand every aspect of my case and made sure no detail was overlooked.
+                  - separator [ref=e472]
+                  - generic [ref=e475]:
+                    - paragraph [ref=e476]: M. S.
+                    - generic [ref=e477]: 
+                - generic [ref=e479]:
+                  - generic [ref=e480]: I do deserve an advocate. Mark has been the best I could ask for—a truly wise man with integrity that can’t be questioned. Won’t be going anywhere else. Keep doing what you’re doing, Mark Schloegel.
+                  - separator [ref=e482]
+                  - generic [ref=e485]:
+                    - paragraph [ref=e486]: J. Y.
+                    - generic [ref=e487]: 
+                - generic [ref=e489]:
+                  - generic [ref=e490]:
+                    - text: I was fortunate to have Tom Porto represent me in my case. He was the support I needed to get through it, as I was extremely concerned about the outcome. He’s a very kind, honest person and will work very hard to get the job done. I could not have...
+                    - generic [ref=e491] [cursor=pointer]: Read More
+                  - separator [ref=e493]
+                  - generic [ref=e496]:
+                    - paragraph [ref=e497]: C. M.
+                    - generic [ref=e498]: 
+                - generic [ref=e500]:
+                  - generic [ref=e501]: We feel so blessed to have had Paul Anderson as our lawyer and are so grateful for everything he advocated for us. Our situation was a complex combination of deception, forgery, broken promises, and out-and-out lies. Paul thoroughly listened to every detail regarding our rather unique case.
+                  - separator [ref=e503]
+                  - generic [ref=e506]:
+                    - paragraph [ref=e507]: L. B.
+                    - generic [ref=e508]: 
+                - generic [ref=e510]:
+                  - generic [ref=e511]: Everyone deserves someone in their corner—and for me, that’s been Mark. He’s exceeded every expectation with his unwavering integrity and sound judgment. I couldn’t ask for a better advocate. I won’t be turning to anyone else. Keep up the great work, Mark Schloegel.
+                  - separator [ref=e513]
+                  - generic [ref=e516]:
+                    - paragraph [ref=e517]: T. O.
+                    - generic [ref=e518]: 
+                - generic [ref=e520]:
+                  - generic [ref=e521]:
+                    - text: I had a great experience with Popham Law. We were rear-ended, and I was a bit naive about the process, not having been involved in a serious collision until my 40s. Mark Schloegel was able to settle our medical claim quickly and effectively, and I couldn't be more pleased. He...
+                    - generic [ref=e522] [cursor=pointer]: Read More
+                  - separator [ref=e524]
+                  - generic [ref=e527]:
+                    - paragraph [ref=e528]: B. M.
+                    - generic [ref=e529]: 
+                - generic [ref=e531]:
+                  - generic [ref=e532]: Mark was very quick to respond and super helpful throughout everything! Highly recommend.
+                  - separator [ref=e534]
+                  - generic [ref=e537]:
+                    - paragraph [ref=e538]: A. V.
+                    - generic [ref=e539]: 
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - text: Mark Schloegel has been amazing to work with. He was always on top of keeping me informed throughout my entire case (in my case, years). He was very professional but also made me feel comfortable talking to him, and he was very flexible with communication—whether it was text, call, or...
+                    - generic [ref=e543] [cursor=pointer]: Read More
+                  - separator [ref=e545]
+                  - generic [ref=e548]:
+                    - paragraph [ref=e549]: J. D.
+                    - generic [ref=e550]: 
+                - generic [ref=e552]:
+                  - generic [ref=e553]: Paul Anderson is absolutely phenomenal! He’s such a blessing to our family, handling our personal injury case. Paul always went above and beyond to achieve a satisfactory result. Thanks again, Paul!
+                  - separator [ref=e555]
+                  - generic [ref=e558]:
+                    - paragraph [ref=e559]: S. B.
+                    - generic [ref=e560]: 
+                - generic [ref=e562]:
+                  - generic [ref=e563]: Popham has been wonderful. They are there when I need them, in a timely fashion, and I can trust them to work in my best interest. Would definitely recommend!
+                  - separator [ref=e565]
+                  - generic [ref=e568]:
+                    - paragraph [ref=e569]: S. E.
+                    - generic [ref=e570]: 
+                - generic [ref=e572]:
+                  - generic [ref=e573]: If you want the job done right, call Scott! He and his staff handled a workers’ comp case for me. His entire staff was confident, considerate, friendly, and efficient. Scott did a wonderful job fighting for me, and he won! His assistant Brandy is amazing!
+                  - separator [ref=e575]
+                  - generic [ref=e578]:
+                    - paragraph [ref=e579]: L. L.
+                    - generic [ref=e580]: 
+                - generic [ref=e582]:
+                  - generic [ref=e583]: I’m very pleased with the outcome of my accident case. They are stern with requests from insurance companies, not allowing them to get away with cheating their clients. I’ll recommend them to anyone who needs help.
+                  - separator [ref=e585]
+                  - generic [ref=e588]:
+                    - paragraph [ref=e589]: C. C.
+                    - generic [ref=e590]: 
+              - button "Previous" [ref=e591] [cursor=pointer]: 
+              - button "Next" [ref=e592] [cursor=pointer]: 
+            - generic [ref=e594]:
+              - paragraph [ref=e595]
+              - paragraph [ref=e596]:
+                - link "View More Testimonials" [ref=e597] [cursor=pointer]:
+                  - /url: /testimonials/
+          - generic [ref=e600]:
+            - generic [ref=e602]:
+              - heading "Be our priority, feel confident, and don’t pay until we win." [level=2] [ref=e603]
+              - paragraph [ref=e604]: We believe that you can expect more from your lawyer. If you need help because of a personal injury or a violation of your civil rights, we want to be the ones to help you win the settlement you deserve.
+            - generic [ref=e608]:
+              - generic [ref=e610]:
+                - group "Name (Required)" [ref=e611]:
+                  - generic [ref=e612]:
+                    - text: Name
+                    - generic [ref=e613]: (Required)
+                  - generic [ref=e615]:
+                    - textbox "First" [ref=e616]:
+                      - /placeholder: Full Name
+                    - generic [ref=e617]: First
+                - generic [ref=e618]:
+                  - generic [ref=e619]: Phone
+                  - textbox "Phone" [ref=e621]
+                - generic [ref=e622]:
+                  - generic [ref=e623]:
+                    - text: Email
+                    - generic [ref=e624]: (Required)
+                  - textbox "Email (Required)" [ref=e626]:
+                    - /placeholder: Email
+                - generic [ref=e627]:
+                  - generic [ref=e628]:
+                    - text: Comments
+                    - generic [ref=e629]: (Required)
+                  - generic [ref=e630]:
+                    - textbox "Comments (Required)" [ref=e631]:
+                      - /placeholder: Tell Us About Your Case
+                    - generic [ref=e632]: 0 of 600 max characters
+              - button "Get A Free Consultation" [ref=e634] [cursor=pointer]:
+                - generic [ref=e635]: Get A Free Consultation
+          - generic [ref=e637]:
+            - generic [ref=e640]:
+              - heading "Our Blog" [level=2] [ref=e642]
+              - paragraph [ref=e644]:
+                - link "View All Blog Posts" [ref=e645] [cursor=pointer]:
+                  - /url: /blog/
+            - generic [ref=e650]:
+              - generic [ref=e652] [cursor=pointer]:
+                - paragraph [ref=e654]: Popham Law Firm Attorney Cooper Mach Featured in The Missouri Trial Attorney
+                - paragraph [ref=e655]: We are proud to be featured in the Spring 2026 issue of The Missouri Trial Attorney, which features a profile of our own Kansas City...
+                - link "View Post" [ref=e657]:
+                  - /url: https://www.pophamlaw.com/blog/popham-law-firm-attorney-cooper-mach-featured-in-the-missouri-trial-attorney/
+              - generic [ref=e659] [cursor=pointer]:
+                - paragraph [ref=e661]: What Does Liability Mean in Insurance? Understanding Legal Responsibility in Kansas and Missouri
+                - paragraph [ref=e662]: Liability is the legal determination that makes one party (and their insurance carrier) pay for another's damages. It's not the same as blame or fault. ...
+                - link "View Post" [ref=e664]:
+                  - /url: https://www.pophamlaw.com/blog/what-does-liability-mean-in-insurance-kansas-missouri/
+              - generic [ref=e666] [cursor=pointer]:
+                - paragraph [ref=e668]: Determining If Your Accident Qualifies as a Legal Personal Injury Claim
+                - paragraph [ref=e669]: Accidents can make life feel fragile. They shake your confidence and remind you how quickly things can change. But not every accident qualifies for a...
+                - link "View Post" [ref=e671]:
+                  - /url: https://www.pophamlaw.com/blog/does-my-accident-qualify-as-a-personal-injury-claim/
+          - generic [ref=e675]:
+            - heading "Frequently Asked Questions" [level=2] [ref=e676]
+            - generic [ref=e677]:
+              - 'heading " Q: How much does it cost to hire Popham Injury Law?" [level=4] [ref=e678] [cursor=pointer]'
+              - 'heading " Q: How long do I have to file a personal injury or civil rights lawsuit in Missouri or Kansas?" [level=4] [ref=e679] [cursor=pointer]'
+              - 'heading " Q: What should I do if I''ve experienced police misconduct or excessive force?" [level=4] [ref=e680] [cursor=pointer]'
+              - 'heading " Q: How do I know if I have a case?" [level=4] [ref=e681] [cursor=pointer]'
+              - 'heading " Q: Will I have to go to trial?" [level=4] [ref=e682] [cursor=pointer]'
+              - 'heading " Q: What compensation can I recover in a personal injury case?" [level=4] [ref=e683] [cursor=pointer]'
+          - generic [ref=e686]:
+            - generic [ref=e688]:
+              - heading "Reach out today for a free consultation!" [level=5] [ref=e689]
+              - heading "Get the settlement you need... and the recognition you deserve." [level=2] [ref=e690]
+              - paragraph [ref=e691]:
+                - strong [ref=e692]: Do I have a case?
+              - paragraph [ref=e693]: It's easy to find out. And if you do, you won't pay until we win.
+              - link "Get a free consultation" [ref=e694] [cursor=pointer]:
+                - /url: /contact/
+            - paragraph [ref=e697]:
+              - img "Young Woman in Hijab Speaking" [ref=e698]
+    - contentinfo [ref=e699]:
+      - generic [ref=e702]:
+        - img "Popham Injury Law Logo" [ref=e705]
+        - generic [ref=e707]:
+          - paragraph [ref=e709]:
+            - link "712 Broadway Blvd. Suite 100, Kansas City, MO 64105" [ref=e710] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/Fh3AYEzApkMMbqKZA
+              - text: 712 Broadway Blvd. Suite 100,
+              - text: Kansas City, MO 64105
+          - link "Get a free consultation" [ref=e711] [cursor=pointer]:
+            - /url: /contact/
+          - link "(816) 221-2288" [ref=e712] [cursor=pointer]:
+            - /url: tel:8162212288
+            - generic [ref=e713]: 
+            - text: (816) 221-2288
+      - generic [ref=e715]:
+        - generic [ref=e716]:
+          - separator [ref=e718]
+          - generic [ref=e719]:
+            - generic [ref=e720]:
+              - link "Practice Areas" [ref=e721] [cursor=pointer]:
+                - /url: /practice-areas/
+              - generic [ref=e722]: "|"
+              - link "About Us" [ref=e723] [cursor=pointer]:
+                - /url: /about/
+              - generic [ref=e724]: "|"
+              - link "Attorneys" [ref=e725] [cursor=pointer]:
+                - /url: /attorneys/
+              - generic [ref=e726]: "|"
+              - link "Blog" [ref=e727] [cursor=pointer]:
+                - /url: /blog/
+              - generic [ref=e728]: "|"
+              - link "Contact" [ref=e729] [cursor=pointer]:
+                - /url: /contact/
+            - generic [ref=e730]:
+              - text: © 2026 Popham Injury Law
+              - generic [ref=e731]: "|"
+              - link "Privacy Policy" [ref=e732] [cursor=pointer]:
+                - /url: /privacy-policy/
+              - generic [ref=e733]: "|"
+              - link "Terms & Conditions" [ref=e734] [cursor=pointer]:
+                - /url: /terms-conditions/
+              - generic [ref=e735]: "|"
+              - link "Sitemap" [ref=e736] [cursor=pointer]:
+                - /url: /sitemap/
+          - generic [ref=e742]:
+            - link "LinkedIn" [ref=e744] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/popham-law-firm/
+              - generic [ref=e745]: 
+            - link "Facebook" [ref=e747] [cursor=pointer]:
+              - /url: https://www.facebook.com/pophamlaw
+              - generic [ref=e748]: 
+            - link "Twitter" [ref=e750] [cursor=pointer]:
+              - /url: https://x.com/pophamlaw
+              - generic [ref=e751]: 
+            - link "Instagram" [ref=e753] [cursor=pointer]:
+              - /url: https://www.instagram.com/pophamlaw/
+              - generic [ref=e754]: 
+        - separator [ref=e755]
+        - paragraph [ref=e756]: The use of the internet or the forms on this website for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this site or its forms.
+  - text:  
+  - text:     
+  - generic [ref=e760]:
+    - button "Close Intaker Chat Widget" [ref=e761] [cursor=pointer]
+    - button "Toggle position" [ref=e762] [cursor=pointer]
+    - generic [ref=e766]:
+      - generic [ref=e768]:
+        - text: Hi
+        - img "👋🏼" [ref=e769]
+        - text: Welcome to Popham Law. How can we help?
+      - img "Intaker widget Avatar" [ref=e771]
+      - button "Accidents & Injuries" [ref=e772] [cursor=pointer]:
+        - paragraph [ref=e773]: Accidents & Injuries
+      - button "Employment Law" [ref=e774] [cursor=pointer]:
+        - paragraph [ref=e775]: Employment Law
+      - button "Another Issue" [ref=e776] [cursor=pointer]:
+        - paragraph [ref=e777]: Another Issue
+    - generic [ref=e778]:
+      - generic [ref=e779]: Powered by
+      - link "Powered by Intaker" [ref=e780] [cursor=pointer]:
+        - /url: https://intaker.com
+        - generic: Intaker
+  - button "Call us" [ref=e782] [cursor=pointer]:
+    - generic [ref=e784]: Call us

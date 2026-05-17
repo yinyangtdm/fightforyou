@@ -1,0 +1,314 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - link "Koskoff" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Koskoff" [ref=e13]
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: 
+              - button "Open Search" [ref=e17] [cursor=pointer]: Search
+            - button "Español" [ref=e19] [cursor=pointer]
+            - link "203.309.2406" [ref=e22] [cursor=pointer]:
+              - /url: tel:+12033092406
+        - generic [ref=e24]:
+          - generic [ref=e28]:
+            - navigation [ref=e30]:
+              - list [ref=e31]:
+                - listitem [ref=e32]:
+                  - link "About Us" [ref=e33] [cursor=pointer]:
+                    - /url: /about-us/
+                - listitem [ref=e34]:
+                  - link "Results" [ref=e35] [cursor=pointer]:
+                    - /url: /results/
+                - listitem [ref=e36]:
+                  - link "Lawyers & Staff" [ref=e37] [cursor=pointer]:
+                    - /url: /lawyers-staff/
+                - listitem [ref=e38]:
+                  - link "News" [ref=e39] [cursor=pointer]:
+                    - /url: /in-the-news/
+                - listitem [ref=e40]:
+                  - link "Practice Areas" [ref=e41] [cursor=pointer]:
+                    - /url: /practice-areas/
+            - text: a Menu
+          - button "Contact Us" [ref=e44] [cursor=pointer]
+        - text: M 3 3 3 a M
+    - generic [ref=e45]:
+      - main [ref=e46]:
+        - article [ref=e47]:
+          - generic [ref=e50]:
+            - generic [ref=e54]:
+              - heading "The unthinkable has happened. We understand. We care. And we know what to do." [level=1] [ref=e57]:
+                - text: The unthinkable has happened. We understand.
+                - link "We care." [ref=e58]
+                - text: And we know what to do.
+              - generic [ref=e60]: The attorneys at Koskoff Koskoff & Bieder fight for justice for those who have suffered serious injuries or losses from negligence, medical malpractice, and other causes. We have a reputation for unparalleled legal representation and caring, responsive client service. You will never be just another case file at Koskoff.
+            - generic [ref=e64]:
+              - generic [ref=e66]:
+                - heading "Why Koskoff?" [level=2] [ref=e69]
+                - generic [ref=e72]: A law firm with a track record of success representing injured clients.
+              - generic [ref=e73]:
+                - generic [ref=e74]:
+                  - generic [ref=e76]:
+                    - link "more than" [ref=e77]:
+                      - text: more
+                      - text: than
+                    - text: 50%
+                  - generic [ref=e80]: Of the top 20 verdicts in Connecticut history
+                - generic [ref=e81]:
+                  - generic [ref=e83]:
+                    - superscript [ref=e84]: $
+                    - text: "41.7"
+                  - generic [ref=e86]: million
+                  - generic [ref=e89]: Largest non-medical malpractice personal injury verdict in Connecticut history
+                - generic [ref=e90]:
+                  - generic [ref=e92]:
+                    - superscript [ref=e93]: $
+                    - text: "58.6"
+                  - generic [ref=e95]: million
+                  - generic [ref=e98]: Largest medical malpractice verdict in Connecticut history
+                - generic [ref=e99]:
+                  - generic [ref=e101]:
+                    - superscript [ref=e102]: "#"
+                    - text: "1"
+                  - generic [ref=e104]: verdict
+                  - generic [ref=e107]: In Connecticut in 5 of the last 8 years
+              - generic [ref=e109]:
+                - button "See All Results" [ref=e111] [cursor=pointer]
+                - generic [ref=e113]: A firm comprised of attorneys recognized by peers for their knowledge, experience and legal acumen.
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - generic [ref=e117]: "366"
+                  - generic [ref=e120]: Combined years of experience of our Partners
+                - generic [ref=e121]:
+                  - generic [ref=e123]: 80+
+                  - generic [ref=e126]: Years working to bring justice to those who entrust us
+                - generic [ref=e127]:
+                  - generic [ref=e129]: "8"
+                  - generic [ref=e132]: Attorneys listed as Super Lawyers
+                - generic [ref=e133]:
+                  - generic [ref=e135]: 100%
+                  - generic [ref=e138]: Partners listed as Best Lawyers
+              - button "Meet The Team" [ref=e142] [cursor=pointer]
+            - generic [ref=e145]:
+              - heading "About Us" [level=2] [ref=e148]
+              - heading "Looking for lawyers that understand what you’re going through and want to do all we can to help you?" [level=3] [ref=e152]
+              - generic [ref=e154]: Our origin is as a family firm. We welcome our clients with arms wide open and treat each one as a member of our extended family. That’s been our legacy from the start and is still the very essence of who are.
+              - button "Our Story" [ref=e156] [cursor=pointer]
+            - generic [ref=e160]:
+              - generic [ref=e162]: “I strongly believe I never would’ve been able to feel comfortable during such a challenging time for me, if not for you. It’s 100% due to how you genuinely and compassionately handled me and everything regarding the case. Koskoff Koskoff & Bieder really sets itself apart because it’s immediately obvious you genuinely care about your clients.”
+              - generic [ref=e164]: "-S.B., CLIENT"
+            - generic [ref=e165]:
+              - heading "Koskoff In The News" [level=2] [ref=e170]
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - paragraph [ref=e176]: In The News
+                  - generic [ref=e177]:
+                    - generic:
+                      - img "Historic Slave Photos Received at International African American Museum After Landmark Victory Against Harvard"
+                  - paragraph [ref=e180]: March 11, 2026
+                  - paragraph [ref=e183]:
+                    - strong [ref=e184]: Historic Slave Photos Received at International African American Museum After Landmark Victory Against Harvard
+                  - paragraph [ref=e187]: Koskoff Attorneys joined a homecoming announcement honoring The 1850 Daguerreotypes at IAMM. Believed to be the earliest known photographs of enslaved Americans, these images include those of Renty and his daughter Delia. We’re proud to have represented Tamara Lanier, descendant of Renty, in her legal fight to have them rehomed.
+                  - paragraph [ref=e190]:
+                    - link "READ MORE" [ref=e191] [cursor=pointer]:
+                      - /url: https://apnews.com/article/enslaved-photos-harvard-charleston-museum-2554039e786cbc0d09801b73f6557983
+                      - text: READ MORE
+                      - generic [ref=e192]: 
+                - generic [ref=e193]:
+                  - paragraph [ref=e196]: In The News
+                  - generic [ref=e197]:
+                    - generic:
+                      - img "Modern medical device tracks patient data in hospital"
+                  - paragraph [ref=e200]: January 27, 2026
+                  - paragraph [ref=e203]:
+                    - strong [ref=e204]: CT Mother Says Negligence Caused Baby’s Brain Injury
+                  - generic [ref=e206]: A Connecticut woman has filed a lawsuit alleging that negligent care at a state hospital led to her newborn’s permanent brain injury. The claim accuses medical staff of errors during delivery that resulted in lifelong harm to the child.
+                  - link "Read More" [ref=e209] [cursor=pointer]:
+                    - /url: https://www.courant.com/2026/01/27/ct-mother-files-lawsuit-alleging-that-hospitals-negligence-led-to-babys-permanent-brain-injury/
+                    - text: Read More
+                    - generic [ref=e210]: 
+                - generic [ref=e211]:
+                  - paragraph [ref=e214]: In The News
+                  - generic [ref=e215]:
+                    - generic:
+                      - img "CT family awarded million in medical case"
+                  - paragraph [ref=e218]: Friday | July 11, 2025
+                  - paragraph [ref=e221]:
+                    - strong [ref=e222]: CT family awarded $20 million in medical case
+                  - generic [ref=e224]: The family of a Connecticut man who bled to death following elective surgery has been awarded $20 million by a jury, according to attorney and partner Kelly Fitzpatrick, of Koskoff Koskoff & Bieder. Fitzpatrick said the hope is the verdict “represents a catalyst for change,” so the situation doesn’t happen again.
+                  - link "Read More" [ref=e227] [cursor=pointer]:
+                    - /url: https://www.courant.com/2025/07/11/ct-family-awarded-20-million-in-medical-case-their-loved-one-bled-to-death-after-elective-surgery/
+                    - text: Read More
+                    - generic [ref=e228]: 
+              - button "Read More" [ref=e232] [cursor=pointer]
+            - generic [ref=e233]:
+              - heading "Practice Areas" [level=2] [ref=e238]
+              - generic [ref=e240]:
+                - link "Medical Malpractice" [ref=e242] [cursor=pointer]:
+                  - /url: /medical-malpractice/
+                  - paragraph [ref=e247]:
+                    - text: Medical
+                    - text: Malpractice
+                - link "Personal Injury" [ref=e249] [cursor=pointer]:
+                  - /url: /personal-injury/
+                  - paragraph [ref=e254]:
+                    - text: Personal
+                    - text: Injury
+                - link "Sexual Abuse" [ref=e256] [cursor=pointer]:
+                  - /url: /sexual-abuse/
+                  - paragraph [ref=e261]:
+                    - text: Sexual
+                    - text: Abuse
+              - generic [ref=e262]:
+                - link "Birth Injury" [ref=e264] [cursor=pointer]:
+                  - /url: /birth-injury/
+                  - paragraph [ref=e269]:
+                    - text: Birth
+                    - text: Injury
+                - link "Defective & Harmful Products" [ref=e271] [cursor=pointer]:
+                  - /url: /defective-and-harmful-products/
+                  - paragraph [ref=e276]: Defective & Harmful Products
+                - link "Civil Rights" [ref=e278] [cursor=pointer]:
+                  - /url: /civil-rights/
+                  - paragraph [ref=e283]:
+                    - text: Civil
+                    - text: Rights
+              - generic [ref=e284]:
+                - link "Trucking Accidents" [ref=e286] [cursor=pointer]:
+                  - /url: /truck-accidents/
+                  - paragraph [ref=e291]:
+                    - text: Trucking
+                    - text: Accidents
+                - link "Premises Liability" [ref=e293] [cursor=pointer]:
+                  - /url: /premises-liability/
+                  - paragraph [ref=e298]:
+                    - text: Premises
+                    - text: Liability
+                - link "Other Practice Areas" [ref=e300] [cursor=pointer]:
+                  - /url: /other-practice-areas/
+                  - paragraph [ref=e305]:
+                    - text: Other
+                    - text: Practice Areas
+      - contentinfo [ref=e306]:
+        - generic [ref=e307]:
+          - generic [ref=e310]:
+            - heading "Contact Us" [level=2] [ref=e313]:
+              - strong [ref=e314]: Contact Us
+            - paragraph [ref=e318]: Every story is unique. How can we help you with yours?
+            - generic [ref=e320]:
+              - paragraph [ref=e321]
+              - text: Loading Form...
+              - paragraph
+          - generic [ref=e329]:
+            - generic [ref=e333]:
+              - generic:
+                - img "Recognized By Best lawyers | Koskoff Koskoff & Bieder PC | 2026"
+            - generic [ref=e337]:
+              - generic:
+                - img "Best Law Firms Ranked By Best Lawyers | Stamford | Medical Malpractice Law - Plaintiffs - Tier 1 | 2026"
+            - generic [ref=e341]:
+              - generic:
+                - img "Best Law Firms Ranked By Best Lawyers | Stamford | Appellate Practice Tier 1 | 2026"
+            - generic [ref=e345]:
+              - generic:
+                - img "Best Law Firms Ranked By Best Lawyers | Stamford | Product Liability Litigation - Plaintiffs Tier 1 | 2026"
+            - generic [ref=e349]:
+              - generic:
+                - img "Best Law Firms Ranked By Best Lawyers | Stamford | Personal Injury Litigation - Plaintiffs Tier 1 | 2026"
+            - generic [ref=e353]:
+              - link "Super Lawyers":
+                - /url: https://www.superlawyers.com/for-lawyers/publication-information-connecticut/selection-details/
+                - img "Super Lawyers"
+            - generic [ref=e357]:
+              - link "TOPVOICE.COM | TOP 10 | SETTLEMENTS | WRONGFUL DEATH | UNITED STATES | 2022":
+                - /url: https://law.usnews.com/law-firms
+                - img "TOPVOICE.COM | TOP 10 | SETTLEMENTS | WRONGFUL DEATH | UNITED STATES | 2022"
+            - generic [ref=e361]:
+              - link "TOPVOICE.COM | TOP 10 | SETTLEMENTS | PERSONAL INJURY | UNITED STATES | 2022":
+                - /url: https://law.usnews.com/law-firms
+                - img "TOPVOICE.COM | TOP 10 | SETTLEMENTS | PERSONAL INJURY | UNITED STATES | 2022"
+            - generic [ref=e365]:
+              - link "TOPVERDICT.COM | NUMBER 1 | JURY VERDICT | UNITED STATES | 2022":
+                - /url: https://law.usnews.com/law-firms
+                - img "TOPVERDICT.COM | NUMBER 1 | JURY VERDICT | UNITED STATES | 2022"
+            - generic [ref=e369]:
+              - link "TOPVOICE.COM | TOP 10 | SETTLEMENTS | PERSONAL INJURY | UNITED STATES | 2022":
+                - /url: https://law.usnews.com/law-firms
+                - img "TOPVOICE.COM | TOP 10 | SETTLEMENTS | PERSONAL INJURY | UNITED STATES | 2022"
+            - generic [ref=e373]:
+              - link "7 | The Inner Circle of Advocates":
+                - /url: https://www.innercircle.org/history
+                - img "7 | The Inner Circle of Advocates"
+          - generic [ref=e375]:
+            - generic [ref=e376]:
+              - generic [ref=e379]:
+                - heading "Bridgeport Office" [level=3] [ref=e380]
+                - generic [ref=e381]:
+                  - generic [ref=e382]:
+                    - text: 350 Fairfield Avenue
+                    - text: Suite 501
+                    - text: Bridgeport, CT 06604
+                  - paragraph [ref=e383]:
+                    - text: "Phone:"
+                    - link "203-309-2406" [ref=e385] [cursor=pointer]:
+                      - /url: tel:+12033092406
+              - button "Bridgeport Office" [ref=e387] [cursor=pointer]
+            - generic [ref=e388]:
+              - link "Koskoff" [ref=e390] [cursor=pointer]:
+                - /url: /
+                - img "Koskoff" [ref=e392]
+              - list [ref=e393]:
+                - listitem [ref=e394]:
+                  - link " Follow on Facebook, opens in a new window" [ref=e395] [cursor=pointer]:
+                    - /url: http://www.facebook.com/profile.php?id=179876965411598
+                    - text: 
+                    - generic: Follow on Facebook, opens in a new window
+                - listitem [ref=e396]:
+                  - link " Follow on X, opens in a new window" [ref=e397] [cursor=pointer]:
+                    - /url: https://twitter.com/KoskoffBieder
+                    - text: 
+                    - generic: Follow on X, opens in a new window
+                - listitem [ref=e398]:
+                  - link " Follow on LinkedIn, opens in a new window" [ref=e399] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/company/396932
+                    - text: 
+                    - generic: Follow on LinkedIn, opens in a new window
+            - generic [ref=e400]:
+              - generic [ref=e403]:
+                - heading "New Haven" [level=3] [ref=e404]
+                - paragraph [ref=e406]:
+                  - generic [ref=e407]:
+                    - text: 367 Orange Street
+                    - text: New Haven, CT 06511
+                  - text: "Phone:"
+                  - link "203-309-2406" [ref=e409] [cursor=pointer]:
+                    - /url: tel:+12033092406
+              - button "New Haven Office" [ref=e411] [cursor=pointer]
+              - text:   
+          - generic [ref=e417]:
+            - paragraph [ref=e419]:
+              - text: © 2026
+              - link "Koskoff Koskoff & Bieder PC" [ref=e420] [cursor=pointer]:
+                - /url: https://lawyers.findlaw.com/connecticut/bridgeport/koskoff-koskoff--bieder-pc-MTkyNjQzM18x/
+              - text: • All Rights Reserved
+            - paragraph [ref=e422]:
+              - link "Disclaimer" [ref=e423] [cursor=pointer]:
+                - /url: https://www.koskoff.com/disclaimer/
+              - text: "|"
+              - link "Site Map" [ref=e424] [cursor=pointer]:
+                - /url: https://www.koskoff.com/site-map/
+              - text: "|"
+              - link "Privacy Policy" [ref=e425] [cursor=pointer]:
+                - /url: https://www.koskoff.com/privacy/
+              - text: "|"
+              - link "Business Development Solutions" [ref=e426] [cursor=pointer]:
+                - /url: https://www.findlaw.com/lawyer-marketing/
+              - text: by
+              - link "FindLaw" [ref=e427] [cursor=pointer]:
+                - /url: https://www.findlaw.com/
+  - text: "2"

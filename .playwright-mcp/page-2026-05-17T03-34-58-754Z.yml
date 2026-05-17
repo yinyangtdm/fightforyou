@@ -1,0 +1,201 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner:
+      - generic [ref=e7]:
+        - link "Cade Law Group" [ref=e12] [cursor=pointer]:
+          - /url: https://cade-law.com
+          - img "Cade Law Group" [ref=e13]
+        - navigation [ref=e19]:
+          - list [ref=e20]:
+            - listitem [ref=e21]:
+              - generic [ref=e23]:
+                - text: Practice Areas
+                - generic [ref=e25] [cursor=pointer]: 
+            - listitem [ref=e26]:
+              - link "Success Stories" [ref=e27] [cursor=pointer]:
+                - /url: https://cade-law.com/success-stories/
+            - listitem [ref=e28]:
+              - link "News" [ref=e29] [cursor=pointer]:
+                - /url: https://cade-law.com/news/
+            - listitem [ref=e30]:
+              - link "Our Team" [ref=e31] [cursor=pointer]:
+                - /url: https://cade-law.com/about/
+            - listitem [ref=e32]:
+              - link "Contact" [ref=e33] [cursor=pointer]:
+                - /url: https://cade-law.com/contact/
+            - listitem [ref=e34]:
+              - link "Client Login" [ref=e35] [cursor=pointer]:
+                - /url: http://app.clio.com/
+    - main [ref=e36]:
+      - article [ref=e41]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - img [ref=e48]
+            - generic [ref=e52]:
+              - heading "Experienced Attorneys. Trusted Counsel." [level=1] [ref=e55]:
+                - text: Experienced Attorneys.
+                - text: Trusted Counsel.
+              - paragraph [ref=e58]: Cade Law Group gives each case a high level of individualized attention that clients will not receive at a larger firm. Our results speak for themselves.
+              - link "Read Success Stories" [ref=e62] [cursor=pointer]:
+                - /url: https://cade-law.com/success-stories/
+                - generic [ref=e64]: Read Success Stories
+          - generic [ref=e69]:
+            - heading "Client-Centered Service" [level=6] [ref=e72]
+            - heading "You are the Focus" [level=2] [ref=e75]
+            - generic [ref=e77]: Since its inception in 2013, Cade Law Group has practiced as an entirely remote law firm, allowing for a meaningful, client-centered approach to our cases. A remote law firm also operates to lessen overall costs and strives to provide accessible channels of communication.
+          - generic [ref=e83]:
+            - img [ref=e86]
+            - generic [ref=e90]:
+              - heading "Practice Areas" [level=2] [ref=e93]
+              - paragraph [ref=e96]: Our knowledgeable staff assists small businesses, families, and individuals in a variety of practice areas.
+          - generic [ref=e97]:
+            - img [ref=e100]
+            - generic [ref=e104]:
+              - heading "Fighting for You" [level=6] [ref=e107]
+              - heading "Championing Your Rights" [level=2] [ref=e110]
+              - generic [ref=e112]: Cade Law Group will not only fight to get you justice, but we will also champion your rights along the way. We assist those who have experienced discrimination or mistreatment by law enforcement, employers, landlords, and government agencies. We work with businesses, families, and individuals to resolve a myriad of disputes fairly. When you need to stand up to bullies in the government, at work, or in the marketplace, we are in your corner.
+          - generic [ref=e115]:
+            - heading "Our Team" [level=2] [ref=e122]
+            - generic [ref=e124]:
+              - generic [ref=e126]:
+                - paragraph [ref=e127]: Cade Law Group offers knowledgeable attorneys and staff who are not only thinking about winning your case but also taking steps to ensure that your long-term goals are considered and achieved.
+                - paragraph [ref=e128]: Attorney Nate Cade’s unmatched reputation and years of experience include representing clients in the circuit and federal courts for the Eastern and Western Districts of Wisconsin and the Seventh Circuit Court of Appeals. In addition, Cade Law Group is familiar with local customs and has nurtured relationships with local judges to the benefit of our clients.
+              - link "Meet Our Attorneys" [ref=e132] [cursor=pointer]:
+                - /url: https://cade-law.com/about/
+                - generic [ref=e134]: Meet Our Attorneys
+          - generic [ref=e138]:
+            - heading "News & Updates" [level=2] [ref=e141]
+            - list [ref=e144]:
+              - generic [ref=e147]:
+                - list [ref=e150]:
+                  - listitem [ref=e151]:
+                    - generic [ref=e153]: 
+                    - generic [ref=e154]: In the News
+                - heading "Family of loved one, Jalen Proft, killed in Washington County jail files suit against Sheriff and County" [level=4] [ref=e157]
+                - link "Read More" [ref=e161] [cursor=pointer]:
+                  - /url: https://cade-law.com/family-of-loved-one-jalen-proft-killed-in-washington-county-jail-files-suit-against-sheriff-and-county/
+                  - generic [ref=e163]: Read More
+              - generic [ref=e166]:
+                - list [ref=e169]:
+                  - listitem [ref=e170]:
+                    - generic [ref=e172]: 
+                    - generic [ref=e173]: In the News
+                - heading "WI DOC Tablet Program Class Action" [level=4] [ref=e176]
+                - link "Read More" [ref=e180] [cursor=pointer]:
+                  - /url: https://cade-law.com/wi-doc-tablet-program-class-action/
+                  - generic [ref=e182]: Read More
+              - generic [ref=e185]:
+                - list [ref=e188]:
+                  - listitem [ref=e189]:
+                    - generic [ref=e191]: 
+                    - generic [ref=e192]: In the News
+                - heading "Cade Law Group Settles Case for Utah Mattress Company Against Giannis Antetokounmpo" [level=4] [ref=e195]
+                - link "Read More" [ref=e199] [cursor=pointer]:
+                  - /url: https://cade-law.com/wp-content/uploads/2024/04/Cade-Law-Antetokounmpo-Case.pdf
+                  - generic [ref=e201]: Read More
+            - generic [ref=e203]:
+              - link "More News Articles" [ref=e207] [cursor=pointer]:
+                - /url: https://cade-law.com/news/
+                - generic [ref=e209]: More News Articles
+              - link "Success Stories" [ref=e213] [cursor=pointer]:
+                - /url: https://cade-law.com/success-stories/
+                - generic [ref=e215]: Success Stories
+          - generic [ref=e220]:
+            - heading "Proudly Wisconsin-based" [level=6] [ref=e223]
+            - heading "Representing Clients in" [level=2] [ref=e226]
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=3]
+    - contentinfo [ref=e227]:
+      - generic [ref=e233]:
+        - generic [ref=e235]:
+          - heading "Get in touch" [level=6] [ref=e238]
+          - heading "Contact Us" [level=2] [ref=e241]
+          - paragraph [ref=e244]: With an unmatched reputation and years of experience, our knowledgable attorneys and staff are here to serve. Reach out to us today and start your journey towards justice.
+        - generic [ref=e246]:
+          - text: 
+          - link "Contact Us Online" [ref=e250] [cursor=pointer]:
+            - /url: /contact/
+            - generic [ref=e251]:
+              - generic [ref=e253]: 
+              - generic [ref=e254]: Contact Us Online
+          - link "Call (414) 255-3802" [ref=e258] [cursor=pointer]:
+            - /url: tel:4142553802
+            - generic [ref=e259]:
+              - generic [ref=e261]: 
+              - generic [ref=e262]: Call (414) 255-3802
+      - generic [ref=e264]:
+        - generic [ref=e266]:
+          - img "Cade Law Group" [ref=e269]
+          - paragraph [ref=e272]: Assisting small businesses, families, and individuals with legal needs, including litigation, civil rights allegations, employment matters, legal malpractice, general counsel services, and more.
+          - list [ref=e275]:
+            - listitem [ref=e276]:
+              - link "Facebook-f" [ref=e277] [cursor=pointer]:
+                - /url: http://www.facebook.com/CadeLawGroup/
+                - generic [ref=e278]: Facebook-f
+                - generic [ref=e279]: 
+            - listitem [ref=e280]:
+              - link "Twitter" [ref=e281] [cursor=pointer]:
+                - /url: https://twitter.com/CadeLawGroup
+                - generic [ref=e282]: Twitter
+                - generic [ref=e283]: 
+            - listitem [ref=e284]:
+              - link "Linkedin" [ref=e285] [cursor=pointer]:
+                - /url: http://www.linkedin.com/company/3619558/
+                - generic [ref=e286]: Linkedin
+                - generic [ref=e287]: 
+            - listitem [ref=e288]:
+              - link "Envelope" [ref=e289] [cursor=pointer]:
+                - /url: mailto:admin@cade-law.com
+                - generic [ref=e290]: Envelope
+                - generic [ref=e291]: 
+        - generic [ref=e293]:
+          - heading "Menu" [level=2] [ref=e296]
+          - list [ref=e299]:
+            - listitem [ref=e300]:
+              - link "Home" [ref=e301] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e302]: Home
+            - listitem [ref=e303]:
+              - link "Our Team" [ref=e304] [cursor=pointer]:
+                - /url: /about/
+                - generic [ref=e305]: Our Team
+            - listitem [ref=e306]:
+              - link "Success Stories" [ref=e307] [cursor=pointer]:
+                - /url: /success-stories/
+                - generic [ref=e308]: Success Stories
+            - listitem [ref=e309]:
+              - link "Contact" [ref=e310] [cursor=pointer]:
+                - /url: /contact/
+                - generic [ref=e311]: Contact
+        - generic [ref=e313]:
+          - heading "Contact" [level=2] [ref=e316]
+          - paragraph [ref=e319]:
+            - text: P.O. Box 170887
+            - text: Milwaukee, WI 53217
+          - paragraph [ref=e322]:
+            - text: "Tel:"
+            - link "(414) 255-3802" [ref=e323] [cursor=pointer]:
+              - /url: tel:4142553802
+            - text: "Fax: (414) 255-3804"
+            - text: "Email:"
+            - link "admin@cade-law.com" [ref=e324] [cursor=pointer]:
+              - /url: mailto:admin@cade-law.com
+        - generic [ref=e326]:
+          - heading "Client Login" [level=2] [ref=e329]
+          - paragraph [ref=e332]: "If you have a customer account with us, please use the button below to access your account:"
+          - link "Client Login" [ref=e336] [cursor=pointer]:
+            - /url: http://app.clio.com/
+            - generic [ref=e338]: Client Login
+      - contentinfo [ref=e339]:
+        - generic [ref=e340]:
+          - heading "Copyright © 2026 Cade Law Group | All Rights Reserved" [level=3] [ref=e345]
+          - heading "Website by LimeGlow Design" [level=3] [ref=e350]:
+            - link "Website by" [ref=e351] [cursor=pointer]:
+              - /url: https://www.limeglowdesign.com
+            - link "LimeGlow Design" [ref=e352] [cursor=pointer]:
+              - /url: https://www.limeglowdesign.com
+  - generic [ref=e353]: tablet

@@ -1,0 +1,5 @@
+[     599ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.laaclu.org/justice-lab:0
+[     686ms] TypeError: Cannot set properties of null (setting 'onclick')
+    at u (https://www.laaclu.org/app/themes/aclu-parent/dist/assets/js/common-VS1UTsVg.js?ver=6.9.4:1:110)
+    at d (https://www.laaclu.org/app/themes/aclu-parent/dist/assets/js/common-VS1UTsVg.js?ver=6.9.4:1:604)
+    at https://www.laaclu.org/app/themes/aclu-parent/dist/assets/js/common-VS1UTsVg.js?ver=6.9.4:1:608

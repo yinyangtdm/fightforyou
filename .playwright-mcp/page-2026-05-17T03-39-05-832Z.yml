@@ -1,0 +1,586 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - button "Skip to Content" [ref=e4] [cursor=pointer]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Main Menu" [ref=e8] [cursor=pointer]
+          - link "Stroud, Flechas & Dalton" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "Stroud, Flechas & Dalton" [ref=e10]
+          - link [ref=e11]:
+            - /url: tel:6623716580
+        - generic:
+          - generic:
+            - navigation: "> > > > > > > > > > >"
+            - generic [ref=e12]:
+              - list [ref=e13]:
+                - listitem [ref=e14]:
+                  - link "Search our site" [ref=e15] [cursor=pointer]:
+                    - /url: /site-search/
+                - listitem [ref=e16]:
+                  - button "Close" [ref=e17] [cursor=pointer]:
+                    - generic [ref=e18]: Close
+              - navigation [ref=e19]:
+                - menu "Navigation" [ref=e20]:
+                  - listitem [ref=e21]:
+                    - menuitem "Our Team" [ref=e22] [cursor=pointer]
+                    - button "Open child menu of Our Team" [ref=e23] [cursor=pointer]
+                  - listitem [ref=e24]:
+                    - menuitem "Personal Injury" [ref=e25] [cursor=pointer]
+                    - button "Open child menu of Personal Injury" [ref=e26] [cursor=pointer]
+                  - listitem [ref=e27]:
+                    - menuitem "Civil Rights" [ref=e28] [cursor=pointer]
+                    - button "Open child menu of Civil Rights" [ref=e29] [cursor=pointer]
+                  - listitem [ref=e30]:
+                    - menuitem "Criminal Law" [ref=e31] [cursor=pointer]
+                    - button "Open child menu of Criminal Law" [ref=e32] [cursor=pointer]
+                  - listitem [ref=e33]:
+                    - menuitem "Video Library" [ref=e34] [cursor=pointer]
+                    - button "Open child menu of Video Library" [ref=e35] [cursor=pointer]
+                  - listitem [ref=e36]:
+                    - menuitem "Other Practice Areas" [ref=e37] [cursor=pointer]
+                    - button "Open child menu of Other Practice Areas" [ref=e38] [cursor=pointer]
+                  - listitem [ref=e39]:
+                    - menuitem "Areas We Serve" [ref=e40] [cursor=pointer]
+                    - button "Open child menu of Areas We Serve" [ref=e41] [cursor=pointer]
+                  - listitem [ref=e42]:
+                    - menuitem "Case Results" [ref=e43] [cursor=pointer]
+                  - listitem [ref=e44]:
+                    - menuitem "Reviews" [ref=e45] [cursor=pointer]
+                  - listitem [ref=e46]:
+                    - menuitem "Pay Online" [ref=e47] [cursor=pointer]
+              - list [ref=e49]:
+                - listitem [ref=e50]:
+                  - link "Contact Us" [ref=e51] [cursor=pointer]:
+                    - /url: /contact-us/
+                - listitem [ref=e52]:
+                  - link "Call Us Today!" [ref=e53]:
+                    - /url: tel:6623716580
+              - generic [ref=e54]:
+                - strong [ref=e56]: Follow Us
+                - list [ref=e57]:
+                  - listitem [ref=e58]:
+                    - link "Facebook" [ref=e59] [cursor=pointer]:
+                      - /url: https://www.facebook.com/Mississippi.Personal.Injury.Attorneys
+                  - listitem [ref=e60]:
+                    - link "Twitter" [ref=e61] [cursor=pointer]:
+                      - /url: https://twitter.com/StroudLawFirm
+                  - listitem [ref=e62]:
+                    - link "LinkedIn" [ref=e63] [cursor=pointer]:
+                      - /url: http://www.linkedin.com/company/5007747
+                  - listitem [ref=e64]:
+                    - link "YouTube" [ref=e65] [cursor=pointer]:
+                      - /url: https://www.youtube.com/@philipstroud4777/featured
+  - main [ref=e66]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - strong [ref=e70]: HERE FOR YOU WHEN YOU NEED IT MOST.
+        - emphasis [ref=e71]: Recovered Over $100 Million for Clients Over the Past 25 Years
+      - link "Reach Out To Us" [ref=e74] [cursor=pointer]:
+        - /url: /contact-us/
+      - link [ref=e75] [cursor=pointer]:
+        - /url: https://g.page/r/Cedp2KanYZ42EBM/review
+    - generic [ref=e77]:
+      - generic [ref=e79]:
+        - heading "A Reputation Built on Results" [level=4] [ref=e80]
+        - heading "Our Verdicts and Settlements" [level=5] [ref=e81]
+      - list [ref=e83]:
+        - listitem [ref=e84]:
+          - generic [ref=e85]:
+            - strong [ref=e86]: $23,600,000
+            - emphasis [ref=e87]: Medical Malpractice
+        - listitem [ref=e88]:
+          - generic [ref=e89]:
+            - strong [ref=e90]: $11,000,000
+            - emphasis [ref=e91]: Sexual Assault
+        - listitem [ref=e92]:
+          - generic [ref=e93]:
+            - strong [ref=e94]: $2,429,214
+            - emphasis [ref=e95]: Trucking Accident
+        - listitem [ref=e96]:
+          - generic [ref=e97]:
+            - strong [ref=e98]: $1,750,000
+            - emphasis [ref=e99]: Excessive Force - Wrongful Death
+        - listitem [ref=e100]:
+          - generic [ref=e101]:
+            - strong [ref=e102]: $1,150,000.00
+            - emphasis [ref=e103]: Trip and Fall
+        - listitem [ref=e104]:
+          - generic [ref=e105]:
+            - strong [ref=e106]: $850,000.00
+            - emphasis [ref=e107]: Premises Liability Case
+      - link "View More Case Results" [ref=e111] [cursor=pointer]:
+        - /url: /case-results/
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - heading "Mississippi Trial Attorneys" [level=1] [ref=e118]
+        - heading "Here When You Need Us Most" [level=2] [ref=e119]
+        - paragraph [ref=e120]: At Stroud, Flechas & Dalton, we recognize that by the time you contact one of our lawyers, you are almost certainly in crisis. You could be struggling to recover from a serious injury caused by someone else’s negligence, or you may have been charged with a criminal offense that has left you desperately scrambling to save your reputation and your future. During such a low point in your life, every single minute is critical, and you should not wait to get legal advice.
+        - paragraph [ref=e121]:
+          - text: Our team makes it our mission to provide small-firm dedication while delivering large-firm results. That means the nimble size of our team allows us to dedicate ourselves fully to every single person we represent. At the same time, we have the skills, resources, and experience to deliver the same competitive results as larger law firms. Having recovered millions for our clients,
+          - link "our track record" [ref=e122] [cursor=pointer]:
+            - /url: /case-results/
+          - text: speaks for itself.
+        - list [ref=e123]:
+          - listitem [ref=e124]: Serving Mississippi and Memphis Metro Area for Over 25 Years
+          - listitem [ref=e125]: Recovered Over $100 Million for Clients
+          - listitem [ref=e126]: Over 200 5-Star Google Reviews
+          - listitem [ref=e127]: Reputation of Success, Prepared For Trial
+      - button "Continue Reading More" [ref=e129] [cursor=pointer]:
+        - generic [ref=e130]:
+          - text: Continue Reading
+          - img "More" [ref=e131]
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - heading "Voices From Our Community" [level=4] [ref=e137]
+          - heading "Our Client Reviews" [level=5] [ref=e138]
+        - list [ref=e140]:
+          - listitem [ref=e141]:
+            - blockquote [ref=e143]:
+              - list "5 Star Rating" [ref=e144]:
+                - listitem [ref=e145]
+                - listitem [ref=e146]
+                - listitem [ref=e147]
+                - listitem [ref=e148]
+                - listitem [ref=e149]
+              - generic [ref=e150]: “My daughter and I had the pleasure of working with Matt Dalton and was thoroughly impressed by his professionalism, attention to detail, and genuine care for my daughter.”
+              - generic [ref=e151]: "- Tymara D."
+          - listitem [ref=e152]:
+            - blockquote [ref=e154]:
+              - list "5 Star Rating" [ref=e155]:
+                - listitem [ref=e156]
+                - listitem [ref=e157]
+                - listitem [ref=e158]
+                - listitem [ref=e159]
+                - listitem [ref=e160]
+              - generic [ref=e161]: “Stroud Law Firm is truly outstanding. They are highly professional, maintain excellent communication, and are always client-oriented. Throughout my experience, they kept me informed and made sure I understood every step of the process.”
+              - generic [ref=e162]: "- Julia D."
+          - listitem [ref=e163]:
+            - blockquote [ref=e165]:
+              - list "5 Star Rating" [ref=e166]:
+                - listitem [ref=e167]
+                - listitem [ref=e168]
+                - listitem [ref=e169]
+                - listitem [ref=e170]
+                - listitem [ref=e171]
+              - generic [ref=e172]: “The lawyers at Stroud, Flechas & Dalton represented my case with ease and great professionalism. I appreciated their integrity and would highly recommend this firm.”
+              - generic [ref=e173]: "- Suzanne R."
+          - listitem [ref=e174]:
+            - blockquote [ref=e176]:
+              - list "5 Star Rating" [ref=e177]:
+                - listitem [ref=e178]
+                - listitem [ref=e179]
+                - listitem [ref=e180]
+                - listitem [ref=e181]
+                - listitem [ref=e182]
+              - generic [ref=e183]:
+                - text: “
+                - paragraph [ref=e184]: Wesley Hisaw has been my attorney, handling my divorce and custody issues since he was newly practicing. He's an exceptional attorney who has given valuable advice over the years. I would highly recommend him!
+                - text: ”
+              - generic [ref=e185]: "- Cindy H."
+          - listitem [ref=e186]:
+            - blockquote [ref=e188]:
+              - list "5 Star Rating" [ref=e189]:
+                - listitem [ref=e190]
+                - listitem [ref=e191]
+                - listitem [ref=e192]
+                - listitem [ref=e193]
+                - listitem [ref=e194]
+              - generic [ref=e195]:
+                - text: “
+                - paragraph [ref=e196]: Great people and great service. Very professional and courteous as well. Mr. Hisaw is a great guy. I’ve known him since high school and you can’t go wrong with choosing this firm for all your legal needs.
+                - text: ”
+              - generic [ref=e197]: "- Jason D."
+          - listitem [ref=e198]:
+            - blockquote [ref=e200]:
+              - list "5 Star Rating" [ref=e201]:
+                - listitem [ref=e202]
+                - listitem [ref=e203]
+                - listitem [ref=e204]
+                - listitem [ref=e205]
+                - listitem [ref=e206]
+              - generic [ref=e207]:
+                - text: “
+                - paragraph [ref=e208]: Called with a late, last minute issue. Worked with Mr. Hisaw who was wonderful in his response and thoroughness. Would recommend him to anyone who needs legal advice or service.
+                - text: ”
+              - generic [ref=e209]: "- Alicia t."
+          - listitem [ref=e210]:
+            - blockquote [ref=e212]:
+              - list "5 Star Rating" [ref=e213]:
+                - listitem [ref=e214]
+                - listitem [ref=e215]
+                - listitem [ref=e216]
+                - listitem [ref=e217]
+                - listitem [ref=e218]
+              - generic [ref=e219]:
+                - text: “
+                - paragraph [ref=e220]: Wesley Hisaw is an outstanding attorney, but also a genuinely good guy. He's someone you want on your side.
+                - text: ”
+              - generic [ref=e221]: "- Heather Y."
+          - listitem [ref=e222]:
+            - blockquote [ref=e224]:
+              - list "5 Star Rating" [ref=e225]:
+                - listitem [ref=e226]
+                - listitem [ref=e227]
+                - listitem [ref=e228]
+                - listitem [ref=e229]
+                - listitem [ref=e230]
+              - generic [ref=e231]:
+                - text: “
+                - strong [ref=e232]: Mr. Hisaw has been nothing but professional and is incredibly knowledgeable.
+                - text: ”
+              - generic [ref=e233]: "- Christa D."
+          - listitem [ref=e234]:
+            - blockquote [ref=e236]:
+              - list "5 Star Rating" [ref=e237]:
+                - listitem [ref=e238]
+                - listitem [ref=e239]
+                - listitem [ref=e240]
+                - listitem [ref=e241]
+                - listitem [ref=e242]
+              - generic [ref=e243]:
+                - text: “
+                - paragraph [ref=e244]: Wesley Hisaw has represented me with my post divorce modification as well as a faultless MVA case. Divorce is never easy, but mine was exceptionally complicated and sensitive in nature. I was let down by my previous attorney and my trust in legal representation was broken. After my first consult with him, I walked out of his office with confidence in my case. I felt I was exactly where I needed to be and genuinely trusted he would help me, which he did! He is worth every penny and highly recommend! He has ALWAYS been there when I needed his legal guidance and support, extremely responsive and his assurance has never failed me!
+                - text: ”
+              - generic [ref=e245]: "- Keron S."
+          - listitem [ref=e246]:
+            - blockquote [ref=e248]:
+              - list "5 Star Rating" [ref=e249]:
+                - listitem [ref=e250]
+                - listitem [ref=e251]
+                - listitem [ref=e252]
+                - listitem [ref=e253]
+                - listitem [ref=e254]
+              - generic [ref=e255]:
+                - text: “
+                - paragraph [ref=e256]: If it wasn't for Wesley Hisaw, I don't know what I would do. Just know I love you man, and I'm very grateful to have met you.
+                - text: ”
+              - generic [ref=e257]: "- Ahasuerus S."
+        - link "Read More Reviews" [ref=e261] [cursor=pointer]:
+          - /url: /reviews/
+      - generic [ref=e262]:
+        - list [ref=e264]:
+          - listitem [ref=e265]:
+            - link "Philip A. Stroud Photo Philip A. Stroud Attorney" [ref=e266] [cursor=pointer]:
+              - /url: /our-team/philip-a-stroud/
+              - img "Philip A. Stroud Photo" [ref=e268]
+              - generic [ref=e270]:
+                - strong [ref=e271]: Philip A. Stroud
+                - emphasis [ref=e272]: Attorney
+          - listitem [ref=e273]:
+            - link "Brandon Flechas Photo Brandon Flechas Attorney" [ref=e274] [cursor=pointer]:
+              - /url: /our-team/brandon-flechas/
+              - img "Brandon Flechas Photo" [ref=e276]
+              - generic [ref=e278]:
+                - strong [ref=e279]: Brandon Flechas
+                - emphasis [ref=e280]: Attorney
+          - listitem [ref=e281]:
+            - link "Matthew G. Dalton Photo Matthew G. Dalton Attorney" [ref=e282] [cursor=pointer]:
+              - /url: /our-team/matthew-g-dalton/
+              - img "Matthew G. Dalton Photo" [ref=e284]
+              - generic [ref=e286]:
+                - strong [ref=e287]: Matthew G. Dalton
+                - emphasis [ref=e288]: Attorney
+        - link "Meet Our Team" [ref=e292] [cursor=pointer]:
+          - /url: /our-team/
+    - generic [ref=e296]:
+      - heading "Our Areas of Practice" [level=4] [ref=e299]
+      - list [ref=e300]:
+        - listitem [ref=e301] [cursor=pointer]:
+          - link "Personal Injury" [ref=e302]:
+            - /url: /personal-injury/
+            - strong [ref=e303]: Personal Injury
+        - listitem [ref=e304] [cursor=pointer]:
+          - link "Civil Rights" [ref=e305]:
+            - /url: /civil-rights/
+            - strong [ref=e306]: Civil Rights
+        - listitem [ref=e307] [cursor=pointer]:
+          - link "Criminal Defense" [ref=e308]:
+            - /url: /criminal-law/
+            - strong [ref=e309]: Criminal Defense
+      - link "Give Us A Call" [ref=e312]:
+        - /url: tel:(662) 371-6580
+    - generic [ref=e316]:
+      - generic [ref=e317]:
+        - 'heading "Personal Injury: Legal Guidance and Advocacy for Injury Victims" [level=2] [ref=e318]'
+        - paragraph [ref=e319]: If you have been injured through the negligence of another person or entity, the consequences go beyond harm to your physical health. You are also likely dealing with impacts to your finances, emotional well-being, and personal relationships.
+        - paragraph [ref=e320]: At Stroud, Flechas & Dalton, we believe you should not have to shoulder the burden of medical expenses, lost income, and other losses stemming from injuries that weren’t your fault. We can work to hold the responsible parties accountable. Whatever the nature or complexity of your personal injury case, we can help you recover just compensation and get your life back on track.
+      - button "Continue Reading More" [ref=e322] [cursor=pointer]:
+        - generic [ref=e323]:
+          - text: Continue Reading
+          - img "More" [ref=e324]
+    - generic [ref=e326]:
+      - heading "Where Results Meet Recognition" [level=4] [ref=e329]
+      - list [ref=e331]:
+        - listitem:
+          - generic:
+            - link "Google Reviews":
+              - /url: https://g.page/r/Cedp2KanYZ42EBM/review
+              - img "Google Reviews"
+        - listitem:
+          - generic:
+            - link "Top 10 Personal Injury Firm":
+              - /url: https://www.attorneyandpractice.com/
+              - img "Top 10 Personal Injury Firm"
+        - listitem:
+          - generic:
+            - link "Avvo":
+              - /url: https://www.avvo.com/attorneys/38672-ms-philip-stroud-1952037.html
+              - img "Avvo"
+        - listitem:
+          - generic:
+            - link "Avvo Brandon":
+              - /url: https://profiles.superlawyers.com/mississippi/southaven/lawyer/brandon-l-flechas/debda2e1-5d2f-4f57-a7cc-6d52adb0f141.html
+              - img "Avvo Brandon"
+        - listitem:
+          - generic:
+            - link "American Association Justice":
+              - /url: https://www.justice.org/
+              - img "American Association Justice"
+        - listitem:
+          - generic:
+            - link "Top 40 Trial Lawyers":
+              - /url: https://thenationaltriallawyers.org/
+              - img "Top 40 Trial Lawyers"
+        - listitem:
+          - generic:
+            - link "Lead Counsel":
+              - /url: https://www.lawinfo.com/lawfirm/mississippi/southaven/stroud-flechas-and-dalton/c6e8d205-ef25-4053-a936-c7449bb4fda5.html
+              - img "Lead Counsel"
+        - listitem:
+          - generic:
+            - link "National Trial Lawyers":
+              - /url: https://thenationaltriallawyers.org/
+              - img "National Trial Lawyers"
+        - listitem:
+          - generic:
+            - link "NACDA":
+              - /url: https://www.national-academy.net/attorney-members/brandon-l-flechas
+              - img "NACDA"
+        - listitem:
+          - generic:
+            - link "AV Preeminent":
+              - /url: https://www.lawyers.com/southaven/mississippi/philip-stroud-32389-a/
+              - img "AV Preeminent"
+        - listitem:
+          - generic:
+            - link "MAJ":
+              - /url: https://www.msaj.org/
+              - img "MAJ"
+      - link "Give Us A Call" [ref=e334]:
+        - /url: tel:(662) 371-6580
+    - generic [ref=e336]:
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - 'heading "Civil Rights: An Advocate in Your Corner" [level=2] [ref=e341]'
+          - paragraph [ref=e342]: When your civil rights have been violated, you need an advocate in your corner who can fearlessly face governmental entities. Stroud, Flechas & Dalton believes in your rights and is prepared to work hard on your behalf to protect those rights.
+          - paragraph [ref=e343]:
+            - text: We believe you should never be subject to
+            - link "wrongful or unlawful arrest" [ref=e344] [cursor=pointer]:
+              - /url: /civil-rights/wrongful-or-unlawful-arrest-cases-in-mississippi/
+            - text: ","
+            - link "wrongful or unlawful searches and seizures" [ref=e345] [cursor=pointer]:
+              - /url: /civil-rights/mississippi-wrongful-search-seizure/
+            - text: ","
+            - link "sexual abuse by a jailor or police officer" [ref=e346] [cursor=pointer]:
+              - /url: /civil-rights/sexual-abuse-by-jailors-or-police/
+            - text: ","
+            - link "police TASER abuse" [ref=e347] [cursor=pointer]:
+              - /url: /civil-rights/mississippi-taser-abuse/
+            - text: ", excessive force on the part of"
+            - link "law enforcement" [ref=e348] [cursor=pointer]:
+              - /url: /civil-rights/police-excessive-force-cases-in-mississippi/
+            - text: or
+            - link "prison or jail personnel" [ref=e349] [cursor=pointer]:
+              - /url: /civil-rights/mississippi-jailor-excessive-force-cases/
+            - text: ","
+            - link "police misconduct" [ref=e350] [cursor=pointer]:
+              - /url: /civil-rights/police-misconduct/
+            - text: ","
+            - link "unlawful police shootings" [ref=e351] [cursor=pointer]:
+              - /url: /civil-rights/mississippi-police-shooting-cases/
+            - text: ","
+            - link "abuse of power by law enforcement" [ref=e352] [cursor=pointer]:
+              - /url: /civil-rights/law-enforcement-abuse-of-power/
+            - text: ", and even"
+            - link "dog bites from K9 dogs" [ref=e353] [cursor=pointer]:
+              - /url: /civil-rights/mississippi-police-k9-dog-bite-cases/
+            - text: . While civil rights lawsuits can be complex, we have the skills and experience necessary to effectively handle these cases. In many instances, you must file a claim with the governmental entity prior to filing a lawsuit. We are extremely familiar with all the laws surrounding civil rights violations and can provide seasoned guidance throughout the process.
+          - paragraph [ref=e354]:
+            - strong [ref=e355]: If you cannot come to us, we’ll come to you via video teleconferencing. Call (662) 371-6580 or
+            - link "contact us online" [ref=e356] [cursor=pointer]:
+              - /url: /contact-us/
+              - strong [ref=e357]: contact us online
+            - strong [ref=e358]: to schedule a free virtual consultation today.
+        - button "Continue Reading More" [ref=e360] [cursor=pointer]:
+          - generic [ref=e361]:
+            - text: Continue Reading
+            - img "More" [ref=e362]
+      - generic [ref=e364]:
+        - generic [ref=e366]:
+          - heading "Learn More About Your Team" [level=4] [ref=e367]
+          - heading "Meet Philip, Brandon, & Matt" [level=5] [ref=e368]
+        - list [ref=e370]:
+          - listitem [ref=e371]:
+            - button "Attorney Philip Stroud | Stroud, Flechas & Dalton" [ref=e372] [cursor=pointer]:
+              - figure [ref=e373]
+              - strong [ref=e376]: Attorney Philip Stroud | Stroud, Flechas & Dalton
+          - listitem [ref=e377]:
+            - button "Attorney Brandon L. Flechas | Stroud, Flechas & Dalton" [ref=e378] [cursor=pointer]:
+              - figure [ref=e379]
+              - strong [ref=e382]: Attorney Brandon L. Flechas | Stroud, Flechas & Dalton
+          - listitem [ref=e383]:
+            - button "Attorney Matthew G. Dalton | Stroud, Flechas & Dalton" [ref=e384] [cursor=pointer]:
+              - figure [ref=e385]
+              - strong [ref=e388]: Attorney Matthew G. Dalton | Stroud, Flechas & Dalton
+        - link "Give Us A Call" [ref=e392]:
+          - /url: tel:(662) 371-6580
+    - generic [ref=e395]:
+      - generic [ref=e397]:
+        - generic [ref=e398]:
+          - strong [ref=e399]: HERE FOR YOU WHEN YOU NEED IT MOST
+          - paragraph [ref=e400]: At Stroud, Flechas & Dalton our deep belief that you deserve experienced, skilled representation backs every single legal move we make on your behalf. While we have strong beliefs in the criminal justice system, we also believe you—and every other person charged with a criminal offense—are innocent until proven guilty. Many of our clients have related to our attorneys that they feel no one is listening to them after they have been charged with a crime. We want to make sure you have a voice during this difficult time, and our goal is to ensure your voice is heard. If we feel you are not getting the justice you deserve in a lower court ruling, we will never hesitate to go to court and argue on your behalf. Contact Stroud, Flechas & Dalton today for knowledgeable, highly-experienced legal representation.
+        - link "Give Us A Call" [ref=e403]:
+          - /url: tel:(662) 371-6580
+      - generic [ref=e405]:
+        - generic [ref=e407]:
+          - heading "Contact Us" [level=4] [ref=e408]
+          - heading "We’re Ready to Help" [level=5] [ref=e409]
+        - group [ref=e410]:
+          - list [ref=e411]:
+            - listitem [ref=e412]:
+              - generic [ref=e413]:
+                - generic [ref=e414]: First Name
+                - textbox "First Name" [ref=e415]
+            - listitem [ref=e416]:
+              - generic [ref=e417]:
+                - generic [ref=e418]: Last Name
+                - textbox "Last Name" [ref=e419]
+            - listitem [ref=e420]:
+              - generic [ref=e421]:
+                - generic [ref=e422]: Phone
+                - textbox "Phone" [ref=e423]
+            - listitem [ref=e424]:
+              - generic [ref=e425]:
+                - generic [ref=e426]: Email
+                - textbox "Email" [ref=e427]
+            - listitem [ref=e428]:
+              - generic [ref=e429]:
+                - generic [ref=e430]: Are you a new client?
+                - combobox "Are you a new client?" [ref=e431]:
+                  - option [selected]
+                  - option "Yes, I am a potential new client"
+                  - option "No, I'm a current existing client"
+                  - option "I'm neither."
+            - listitem [ref=e432]:
+              - generic [ref=e433]:
+                - generic [ref=e434]: How can we help you?
+                - textbox "How can we help you?" [ref=e435]
+            - listitem [ref=e436]:
+              - generic [ref=e437]:
+                - text: By submitting, you agree to receive text messages from Stroud, Flechas & Dalton at the number provided, including those related to your inquiry, follow-ups, and review requests, via automated technology. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency may vary. Reply STOP to cancel or HELP for assistance.
+                - link "Acceptable Use Policy" [ref=e438] [cursor=pointer]:
+                  - /url: https://www.scorpion.co/acceptable-use-policy/
+          - button "Send Message" [ref=e440] [cursor=pointer]
+  - contentinfo [ref=e441]:
+    - generic [ref=e443]:
+      - generic [ref=e444]:
+        - link "Stroud, Flechas & Dalton" [ref=e445] [cursor=pointer]:
+          - /url: /
+          - img "Stroud, Flechas & Dalton" [ref=e446]
+        - generic [ref=e447]:
+          - generic [ref=e448]:
+            - text: LARGE FIRM RESULTS,
+            - text: SMALL FIRM DEDICATION
+          - link "662-371-6580" [ref=e449]:
+            - /url: tel:6623716580
+      - generic [ref=e450]:
+        - generic [ref=e451]:
+          - strong [ref=e453]: Locations
+          - list [ref=e454]:
+            - listitem [ref=e455]:
+              - strong [ref=e456]: Southaven Office
+              - generic [ref=e457]:
+                - text: 5779 Getwell Rd.
+                - text: Building C1
+                - text: Southaven, MS 38672-6350
+              - link "Map & Directions" [ref=e458] [cursor=pointer]:
+                - /url: http://maps.google.com/maps?f=q&hl=en&z=15&q=5779%20Getwell%20Rd.,Southaven,MS,38672-6350
+            - listitem [ref=e459]:
+              - strong [ref=e460]: Water Valley Office
+              - generic [ref=e461]:
+                - text: 26 S. Main St.
+                - text: Water Valley, MS 38965
+              - link "Map & Directions" [ref=e462] [cursor=pointer]:
+                - /url: http://maps.google.com/maps?f=q&hl=en&z=15&q=26%20S.%20Main%20St.,Water%20Valley,MS,38965
+        - navigation [ref=e463]:
+          - strong [ref=e465]: Links
+          - list [ref=e466]:
+            - listitem [ref=e467]:
+              - link "Our Team" [ref=e468] [cursor=pointer]:
+                - /url: /our-team/
+            - listitem [ref=e469]:
+              - link "Personal Injury" [ref=e470] [cursor=pointer]:
+                - /url: /personal-injury/
+            - listitem [ref=e471]:
+              - link "Civil Rights" [ref=e472] [cursor=pointer]:
+                - /url: /civil-rights/
+            - listitem [ref=e473]:
+              - link "Criminal Law" [ref=e474] [cursor=pointer]:
+                - /url: /criminal-law/
+            - listitem [ref=e475]:
+              - link "Resources" [ref=e476] [cursor=pointer]:
+                - /url: /resources/
+            - listitem [ref=e477]:
+              - link "Areas We Serve" [ref=e478] [cursor=pointer]:
+                - /url: /areas-we-serve/
+            - listitem [ref=e479]:
+              - link "Case Results" [ref=e480] [cursor=pointer]:
+                - /url: /case-results/
+            - listitem [ref=e481]:
+              - link "Reviews" [ref=e482] [cursor=pointer]:
+                - /url: /reviews/
+            - listitem [ref=e483]:
+              - link "Blog" [ref=e484] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e485]:
+              - link "Pay Online" [ref=e486] [cursor=pointer]:
+                - /url: /pay-online/
+            - listitem [ref=e487]:
+              - link "Contact Us" [ref=e488] [cursor=pointer]:
+                - /url: /contact-us/
+        - generic [ref=e490]:
+          - strong [ref=e492]: Follow Us
+          - list [ref=e493]:
+            - listitem [ref=e494]:
+              - link "Facebook" [ref=e495] [cursor=pointer]:
+                - /url: https://www.facebook.com/Mississippi.Personal.Injury.Attorneys
+            - listitem [ref=e496]:
+              - link "Twitter" [ref=e497] [cursor=pointer]:
+                - /url: https://twitter.com/StroudLawFirm
+            - listitem [ref=e498]:
+              - link "LinkedIn" [ref=e499] [cursor=pointer]:
+                - /url: http://www.linkedin.com/company/5007747
+            - listitem [ref=e500]:
+              - link "YouTube" [ref=e501] [cursor=pointer]:
+                - /url: https://www.youtube.com/@philipstroud4777/featured
+    - generic [ref=e503]:
+      - generic [ref=e504]:
+        - paragraph [ref=e505]: The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
+        - paragraph [ref=e506]: © 2026 All Rights Reserved.
+        - navigation [ref=e507]:
+          - menu "Footer Navigation" [ref=e508]:
+            - menuitem "Site Map" [ref=e509]:
+              - link "Site Map" [ref=e510] [cursor=pointer]:
+                - /url: /site-map/
+            - menuitem "Privacy Policy" [ref=e511]:
+              - link "Privacy Policy" [ref=e512] [cursor=pointer]:
+                - /url: /privacy-policy/
+            - menuitem "Site Search" [ref=e513]:
+              - link "Site Search" [ref=e514] [cursor=pointer]:
+                - /url: /site-search/
+      - link "Internet Marketing Experts" [ref=e516] [cursor=pointer]:
+        - /url: https://www.scorpion.co/law-firms
+        - img "Internet Marketing Experts" [ref=e517]

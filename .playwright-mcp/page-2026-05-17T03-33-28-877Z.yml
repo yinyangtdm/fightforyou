@@ -1,0 +1,1601 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - text:               
+    - generic [ref=e9]:
+      - link "Strom Law Firm Columbia SC" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - img "Strom Law Firm Columbia SC" [ref=e15]
+      - generic [ref=e20]:
+        - generic [ref=e25] [cursor=pointer]:
+          - button "MENU" [ref=e26]
+          - text: 
+        - text:            
+      - link "Get A Free Consultation Now!" [ref=e32] [cursor=pointer]:
+        - /url: /free-case-consultation/
+        - generic [ref=e33]:
+          - generic [ref=e35]: 
+          - generic [ref=e36]: Get A Free Consultation Now!
+      - link "Call us now" [ref=e42] [cursor=pointer]:
+        - /url: tel:(803)%20252-4800
+        - generic [ref=e43]:
+          - generic [ref=e45]: 
+          - generic [ref=e46]: Call us now
+  - generic [ref=e47]:
+    - generic [ref=e49]:
+      - generic [ref=e51]:
+        - heading "Award-winning attorneys who care" [level=1] [ref=e54]
+        - heading "We are a group of award-winning attorneys who care, fight & win for you" [level=1] [ref=e57]
+      - generic [ref=e59]:
+        - heading "Get your free consultation now" [level=1] [ref=e62]
+        - link "free consultation" [ref=e66] [cursor=pointer]:
+          - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjM2NzQ0IiwidG9nZ2xlIjpmYWxzZX0%3D"
+          - generic [ref=e68]: free consultation
+        - link "our services" [ref=e72] [cursor=pointer]:
+          - /url: /strom-law-firm-llc-practice-areas/
+          - generic [ref=e74]: our services
+    - generic [ref=e86]:
+      - figure [ref=e89]:
+        - img [ref=e91]
+      - figure [ref=e95]:
+        - img [ref=e97]
+      - figure [ref=e101]:
+        - img [ref=e103]
+      - figure [ref=e107]:
+        - img [ref=e109]
+      - figure [ref=e113]:
+        - img [ref=e115]
+      - figure [ref=e119]:
+        - img [ref=e121]
+      - figure [ref=e125]:
+        - img [ref=e127]
+      - figure [ref=e131]:
+        - img [ref=e133]
+      - figure [ref=e137]:
+        - img [ref=e139]
+      - figure [ref=e143]:
+        - img [ref=e145]
+      - figure [ref=e149]:
+        - img [ref=e151]
+      - figure [ref=e155]:
+        - img "Fits News Logo" [ref=e157]
+      - figure [ref=e161]:
+        - img "Depo Provera Causing Brain Tumors" [ref=e163]
+      - figure [ref=e167]:
+        - img "ABC Columbia logo" [ref=e169]
+      - figure [ref=e173]:
+        - img "ABC arizona logo" [ref=e175]
+      - figure [ref=e179]:
+        - img "wistvcom logo" [ref=e181]
+      - figure [ref=e185]:
+        - img "news 7 logo" [ref=e187]
+      - figure [ref=e191]:
+        - img "News logo" [ref=e193]
+      - figure [ref=e197]:
+        - img "The State news logo" [ref=e199]
+      - figure [ref=e203]:
+        - img "Fox logo" [ref=e205]
+      - figure [ref=e209]:
+        - img "WYFF logo" [ref=e211]
+      - figure [ref=e215]:
+        - img [ref=e217]
+      - figure [ref=e221]:
+        - img [ref=e223]
+      - figure [ref=e227]:
+        - img [ref=e229]
+      - figure [ref=e233]:
+        - img [ref=e235]
+      - figure [ref=e239]:
+        - img [ref=e241]
+      - figure [ref=e245]:
+        - img [ref=e247]
+      - figure [ref=e251]:
+        - img [ref=e253]
+      - figure [ref=e257]:
+        - img [ref=e259]
+      - figure [ref=e263]:
+        - img [ref=e265]
+      - figure [ref=e269]:
+        - img [ref=e271]
+      - figure [ref=e275]:
+        - img [ref=e277]
+      - figure [ref=e281]:
+        - img [ref=e283]
+      - figure [ref=e287]:
+        - img [ref=e289]
+      - figure [ref=e293]:
+        - img [ref=e295]
+      - figure [ref=e299]:
+        - img [ref=e301]
+      - figure [ref=e305]:
+        - img [ref=e307]
+      - figure [ref=e311]:
+        - img [ref=e313]
+      - figure [ref=e317]:
+        - img [ref=e319]
+      - figure [ref=e323]:
+        - img [ref=e325]
+      - figure [ref=e329]:
+        - img [ref=e331]
+      - figure [ref=e335]:
+        - img [ref=e337]
+    - generic [ref=e340]:
+      - iframe [ref=e345]:
+        - generic [active] [ref=f327e1]:
+          - generic "YouTube Video Player" [ref=f327e3]
+          - generic [ref=f327e5]:
+            - generic:
+              - generic:
+                - button "Play video" [ref=f327e10] [cursor=pointer]:
+                  - generic [ref=f327e13]:
+                    - img
+                - button "Hide player controls" [ref=f327e14] [cursor=pointer]
+                - generic [ref=f327e16]:
+                  - generic [ref=f327e21]:
+                    - generic [ref=f327e22]:
+                      - link "What will I experience when hiring Strom Law Firm? | Strom Law Firm, LLC" [ref=f327e23] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=iW4tG8lSS18
+                      - link "Strom Law Firm, L.L.C." [ref=f327e24] [cursor=pointer]:
+                        - /url: /channel/UC12PZrlls7-ENCvmRRWe2oQ
+                        - generic [ref=f327e25]: Strom Law Firm, L.L.C.
+                    - generic [ref=f327e26]:
+                      - button "thumbnail-image" [ref=f327e27] [cursor=pointer]:
+                        - img "thumbnail-image" [ref=f327e28]
+                      - generic [ref=f327e30]:
+                        - generic: Strom Law Firm, L.L.C.
+                        - generic: 225 subscribers
+                  - generic [ref=f327e31]:
+                    - button "Share" [ref=f327e34] [cursor=pointer]:
+                      - generic [ref=f327e38]:
+                        - img
+                    - link "Watch on YouTube" [ref=f327e45] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=iW4tG8lSS18
+                      - generic [ref=f327e48]:
+                        - text: Watch on
+                        - img [ref=f327e50]:
+                          - generic [ref=f327e52]:
+                            - img
+      - generic [ref=e348]: The personal injury, civil rights, and criminal defense attorneys at Strom Law Firm, L.L.C. in Columbia, South Carolina have devoted their professional lives to serving the people and families of our state. Our firm’s purpose is simple — to help people. We remain true to this purpose regardless of whether our client has suffered a serious personal injury as the result of another’s negligence, or they have been arrested and charged with a serious criminal offense.
+    - generic [ref=e350]:
+      - generic [ref=e352]:
+        - generic [ref=e359]:
+          - generic [ref=e360]: Class Settlement
+          - generic [ref=e361]:
+            - generic [ref=e362]: $
+            - generic [ref=e363]: "0"
+        - generic [ref=e371]:
+          - generic [ref=e372]: Medical Malpractice
+          - generic [ref=e373]:
+            - generic [ref=e374]: $
+            - generic [ref=e375]: "0"
+      - generic [ref=e378]:
+        - generic [ref=e385]:
+          - generic [ref=e386]: Tractor Trailor Accident
+          - generic [ref=e387]:
+            - generic [ref=e388]: $
+            - generic [ref=e389]: "0"
+        - generic [ref=e397]:
+          - generic [ref=e398]: Qui Tam/False ClaimS Act
+          - generic [ref=e399]:
+            - generic [ref=e400]: $
+            - generic [ref=e401]: "0"
+      - generic [ref=e404]:
+        - heading "Proven Results" [level=2] [ref=e407]
+        - generic [ref=e413]: These case results should not be understood as a promise of any particular result in a future case. However, we will do everything we can to ensure you receive the full compensation you deserve.
+        - link "View Results" [ref=e417] [cursor=pointer]:
+          - /url: /results/
+          - generic [ref=e419]: View Results
+    - generic [ref=e421]:
+      - 'heading "Strom Law Firm: Personal Injury, Civil Rights & Criminal Defense" [level=1] [ref=e428]'
+      - generic [ref=e435]:
+        - generic [ref=e436]:
+          - text: years combined
+          - text: legal experience
+        - generic [ref=e437]:
+          - generic [ref=e439]: "0"
+          - generic [ref=e440]: +
+      - generic [ref=e443]:
+        - generic [ref=e444]:
+          - text: awards &
+          - text: accredetations
+        - generic [ref=e445]:
+          - generic [ref=e447]: "0"
+          - generic [ref=e448]: +
+      - generic [ref=e451]:
+        - generic [ref=e452]:
+          - text: Founded
+          - text: in
+        - generic [ref=e455]: "0"
+      - generic [ref=e459]:
+        - generic [ref=e460]:
+          - text: years
+          - text: in business
+        - generic [ref=e463]: "0"
+    - generic [ref=e466]:
+      - heading "Columbia, SC Law Firm" [level=1] [ref=e469]
+      - heading "Winning Case Results & Maximum Client Compensation" [level=2] [ref=e472]
+    - generic [ref=e477]:
+      - heading "Practice Areas" [level=2] [ref=e484]
+      - paragraph [ref=e491]: We provide legal services for a wide variety of practices areas, from seemingly simple cases to more complex litigation. No matter what you’re facing, we’re here to advocate and litigate on your behalf. Below is a list of our most popular practice areas.
+      - generic [ref=e493]:
+        - generic [ref=e498]:
+          - figure [ref=e499]:
+            - link "Columbia Car Accident Lawyer" [ref=e500] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-car-accident-lawyers/
+              - img "Columbia Car Accident Lawyer" [ref=e501]
+          - heading "automotive accidents" [level=6] [ref=e503]:
+            - link "automotive accidents" [ref=e504] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-car-accident-lawyers/
+        - generic [ref=e509]:
+          - figure [ref=e510]:
+            - link "personal injury lawyer columbia sc" [ref=e511] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-personal-injury-lawyers/
+              - img "personal injury lawyer columbia sc" [ref=e512]
+          - heading "personal injury" [level=6] [ref=e514]:
+            - link "personal injury" [ref=e515] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-personal-injury-lawyers/
+        - generic [ref=e520]:
+          - figure [ref=e521]:
+            - link "criminal defense attorney columbia sc" [ref=e522] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-criminal-defense-attorney/
+              - img "criminal defense attorney columbia sc" [ref=e523]
+          - heading "criminal defense" [level=6] [ref=e525]:
+            - link "criminal defense" [ref=e526] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-criminal-defense-attorney/
+        - generic [ref=e531]:
+          - figure [ref=e532]:
+            - link "Class Action Legal Cases Columbia SC" [ref=e533] [cursor=pointer]:
+              - /url: /class-action-lawsuits/
+              - img "Class Action Legal Cases Columbia SC" [ref=e534]
+          - heading "class action" [level=6] [ref=e536]:
+            - link "class action" [ref=e537] [cursor=pointer]:
+              - /url: /class-action-lawsuits/
+        - generic [ref=e542]:
+          - figure [ref=e543]:
+            - link "Columbia Alcohol Law Attorney" [ref=e544] [cursor=pointer]:
+              - /url: /abl-license-defense/
+              - img "Columbia Alcohol Law Attorney" [ref=e545]
+          - heading "Alcohol & Beverage License" [level=6] [ref=e547]:
+            - link "Alcohol & Beverage License" [ref=e548] [cursor=pointer]:
+              - /url: /abl-license-defense/
+        - generic [ref=e553]:
+          - figure [ref=e554]:
+            - link "Columbia SC professional license attorney" [ref=e555] [cursor=pointer]:
+              - /url: /professional-license-defense/
+              - img "Columbia SC professional license attorney" [ref=e556]
+          - heading "Professional License Defense" [level=6] [ref=e558]:
+            - link "Professional License Defense" [ref=e559] [cursor=pointer]:
+              - /url: /professional-license-defense/
+      - generic [ref=e561]:
+        - generic [ref=e566]:
+          - figure [ref=e567]:
+            - link "dui attorney columbia sc" [ref=e568] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-dui-lawyer/
+              - img "dui attorney columbia sc" [ref=e569]
+          - heading "DUI Defense" [level=6] [ref=e571]:
+            - link "DUI Defense" [ref=e572] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-dui-lawyer/
+        - generic [ref=e577]:
+          - figure [ref=e578]:
+            - link "nursing home abuse attorney columbia sc" [ref=e579] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-nursing-home-abuse-lawyers/
+              - img "nursing home abuse attorney columbia sc" [ref=e580]
+          - heading "nursing home abuse" [level=6] [ref=e582]:
+            - link "nursing home abuse" [ref=e583] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-nursing-home-abuse-lawyers/
+        - generic [ref=e588]:
+          - figure [ref=e589]:
+            - link "social security disability columbia sc" [ref=e590] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-social-security-disability-lawyers/
+              - img "social security disability columbia sc" [ref=e591]
+          - heading "social security disability" [level=6] [ref=e593]:
+            - link "social security disability" [ref=e594] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-social-security-disability-lawyers/
+        - generic [ref=e599]:
+          - figure [ref=e600]:
+            - link "workers compensation lawyer columbia sc" [ref=e601] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-workers-comp-lawyer/
+              - img "workers compensation lawyer columbia sc" [ref=e602]
+          - heading "Workers compensation" [level=6] [ref=e604]:
+            - link "Workers compensation" [ref=e605] [cursor=pointer]:
+              - /url: https://stromlaw.com/columbia-workers-comp-lawyer/
+        - generic [ref=e610]:
+          - figure [ref=e611]:
+            - link "Employment Law in Columbia" [ref=e612] [cursor=pointer]:
+              - /url: /employment-lawyers/
+              - img "Employment Law in Columbia" [ref=e613]
+          - heading "Employment Law" [level=6] [ref=e615]:
+            - link "Employment Law" [ref=e616] [cursor=pointer]:
+              - /url: /employment-lawyers/
+        - generic [ref=e621]:
+          - figure [ref=e622]:
+            - link "columbia law tax help" [ref=e623] [cursor=pointer]:
+              - /url: /tax-relief/
+              - img "columbia law tax help" [ref=e624]
+          - heading "Tax Representation" [level=6] [ref=e626]:
+            - link "Tax Representation" [ref=e627] [cursor=pointer]:
+              - /url: /tax-relief/
+      - generic [ref=e629]:
+        - generic [ref=e634]:
+          - figure [ref=e635]:
+            - link "business litigation lawyer in Columbia SC" [ref=e636] [cursor=pointer]:
+              - /url: /business-litigation/
+              - img "business litigation lawyer in Columbia SC" [ref=e637]
+          - heading "Business Litigation" [level=6] [ref=e639]:
+            - link "Business Litigation" [ref=e640] [cursor=pointer]:
+              - /url: /business-litigation/
+              - text: Business
+              - text: Litigation
+        - generic [ref=e645]:
+          - figure [ref=e646]:
+            - link "Wills and Estates lawyer" [ref=e647] [cursor=pointer]:
+              - /url: /probate-and-estate/
+              - img "Wills and Estates lawyer" [ref=e648]
+          - heading "Wills & Estates" [level=6] [ref=e650]:
+            - link "Wills & Estates" [ref=e651] [cursor=pointer]:
+              - /url: /probate-and-estate/
+              - text: Wills &
+              - text: Estates
+        - generic [ref=e656]:
+          - figure [ref=e657]:
+            - link "Columbia SC Election Law" [ref=e658] [cursor=pointer]:
+              - /url: /election-law/
+              - img "Columbia SC Election Law" [ref=e659]
+          - heading "Election Law" [level=6] [ref=e661]:
+            - link "Election Law" [ref=e662] [cursor=pointer]:
+              - /url: /election-law/
+              - text: Election
+              - text: Law
+        - generic [ref=e667]:
+          - figure [ref=e668]:
+            - link "Toxic Torts Lawyer" [ref=e669] [cursor=pointer]:
+              - /url: /toxic-tort/
+              - img "Toxic Torts Lawyer" [ref=e670]
+          - heading "Toxic Torts" [level=6] [ref=e672]:
+            - link "Toxic Torts" [ref=e673] [cursor=pointer]:
+              - /url: /toxic-tort/
+              - text: Toxic
+              - text: Torts
+        - generic [ref=e678]:
+          - figure [ref=e679]:
+            - link "Whistleblower and Qui Tam lawyer" [ref=e680] [cursor=pointer]:
+              - /url: /whistleblower-qui-tam/
+              - img "Whistleblower and Qui Tam lawyer" [ref=e681]
+          - heading "Whistleblower & Qui Tam" [level=6] [ref=e683]:
+            - link "Whistleblower & Qui Tam" [ref=e684] [cursor=pointer]:
+              - /url: /whistleblower-qui-tam/
+      - generic [ref=e690]:
+        - paragraph [ref=e693]: click on any icon for more information
+        - link "Search all practice areas" [ref=e697] [cursor=pointer]:
+          - /url: /strom-law-firm-llc-practice-areas/
+          - generic [ref=e699]: Search all practice areas
+    - generic [ref=e701]:
+      - heading "What Our Clients Say" [level=2] [ref=e704]
+      - generic [ref=e713]:
+        - button "Previous" [ref=e714] [cursor=pointer]:
+          - img [ref=e715]
+        - generic [ref=e718]:
+          - generic [ref=e721]:
+            - generic [ref=e726]: A Winning Team at Strom Law Firm!
+            - generic [ref=e728]: John Alphin was great. We basically worked together for 22 months. Bakari Sellers was also on the team and together those 2 guys were fabulous. Won the case and I’m still a client of Strom law firm. Thank you and awesome law firm.
+            - generic [ref=e733]: Steve T.
+            - img [ref=e737]:
+              - generic [ref=e738]:
+                - generic [ref=e740]: 
+                - generic [ref=e742]: 
+              - generic [ref=e743]:
+                - generic [ref=e745]: 
+                - generic [ref=e747]: 
+              - generic [ref=e748]:
+                - generic [ref=e750]: 
+                - generic [ref=e752]: 
+              - generic [ref=e753]:
+                - generic [ref=e755]: 
+                - generic [ref=e757]: 
+              - generic [ref=e758]:
+                - generic [ref=e760]: 
+                - generic [ref=e762]: 
+            - img [ref=e765]
+          - generic [ref=e768]:
+            - generic [ref=e773]: Excellence in Action for Workman's Comp Case!
+            - generic [ref=e775]:
+              - text: Strom Law Firm was really great and professional. I had a great experience with Mario as my attorney and his paralegal, Brian. These two are amazing, they worked very hard on my husband’s workman’s comp case and we were very pleased with the services and results
+              - img [ref=e776]
+              - text: . Brian was so prompt at returning phone calls and getting things ready for the case. I strongly recommend this firm for any of your legal matters. If I had to use you guys again, I would be happy to do so.
+            - generic [ref=e781]: Mary W.
+            - img [ref=e785]:
+              - generic [ref=e786]:
+                - generic [ref=e788]: 
+                - generic [ref=e790]: 
+              - generic [ref=e791]:
+                - generic [ref=e793]: 
+                - generic [ref=e795]: 
+              - generic [ref=e796]:
+                - generic [ref=e798]: 
+                - generic [ref=e800]: 
+              - generic [ref=e801]:
+                - generic [ref=e803]: 
+                - generic [ref=e805]: 
+              - generic [ref=e806]:
+                - generic [ref=e808]: 
+                - generic [ref=e810]: 
+            - img [ref=e813]
+          - generic [ref=e816]:
+            - generic [ref=e821]: Mastering Complex Legal Issues with Care and Compassion
+            - generic [ref=e823]: Mario Pacella at Strom Law Firm LLC in Brunswick, Georgia, is a masterful, no-nonsense lawyer. His caring and compassionate approach, along with prompt responsiveness, sets him apart. Mario and the firm exhibit exceptional professionalism and attention to detail, emphasizing genuine care for every client.
+            - generic [ref=e828]: L. Gilder
+            - img [ref=e832]:
+              - generic [ref=e833]:
+                - generic [ref=e835]: 
+                - generic [ref=e837]: 
+              - generic [ref=e838]:
+                - generic [ref=e840]: 
+                - generic [ref=e842]: 
+              - generic [ref=e843]:
+                - generic [ref=e845]: 
+                - generic [ref=e847]: 
+              - generic [ref=e848]:
+                - generic [ref=e850]: 
+                - generic [ref=e852]: 
+              - generic [ref=e853]:
+                - generic [ref=e855]: 
+                - generic [ref=e857]: 
+            - img [ref=e860]
+          - generic [ref=e863]:
+            - generic [ref=e868]: They truly care
+            - generic [ref=e870]: Mrs Vallery, who answered the phone took more care and attention to detail than any other law office, that I have called, in 2 years+. She diligently took notes to give to the lawyers and cared about my situation and let me actually tell everything without cutting me short. Out of over 100 law offices, this is rare treatment. Care. Consideration. That means more than anything going through this…
+            - generic [ref=e875]: Anonymous
+            - img "Rated 5 out of 5" [ref=e879]:
+              - generic [ref=e880]:
+                - generic [ref=e882]: 
+                - generic [ref=e884]: 
+              - generic [ref=e885]:
+                - generic [ref=e887]: 
+                - generic [ref=e889]: 
+              - generic [ref=e890]:
+                - generic [ref=e892]: 
+                - generic [ref=e894]: 
+              - generic [ref=e895]:
+                - generic [ref=e897]: 
+                - generic [ref=e899]: 
+              - generic [ref=e900]:
+                - generic [ref=e902]: 
+                - generic [ref=e904]: 
+            - img "google logo" [ref=e907]
+          - generic [ref=e910]:
+            - generic [ref=e915]: Professional Representation, Satisfying Legal Outcome!
+            - generic [ref=e917]: My wife and I retained Bakari Sellers to represent our son in a case in Richland County. We found Mr. Sellers, his assistant Stephanie, and the rest of the staff at Strom, extremely courteous and professional. We really appreciated Mr. Sellers’ straightforward and honest approach. We believe this is a very competent law firm, and are satisfied with the legal outcome they achieved. We would highly recommend them!
+            - generic [ref=e922]: Bryan B.
+            - img "Rated 5 out of 5" [ref=e926]:
+              - generic [ref=e927]:
+                - generic [ref=e929]: 
+                - generic [ref=e931]: 
+              - generic [ref=e932]:
+                - generic [ref=e934]: 
+                - generic [ref=e936]: 
+              - generic [ref=e937]:
+                - generic [ref=e939]: 
+                - generic [ref=e941]: 
+              - generic [ref=e942]:
+                - generic [ref=e944]: 
+                - generic [ref=e946]: 
+              - generic [ref=e947]:
+                - generic [ref=e949]: 
+                - generic [ref=e951]: 
+            - img "google logo" [ref=e954]
+          - generic [ref=e957]:
+            - generic [ref=e962]: Exceptional Legal Team After Our Car Accident!
+            - generic [ref=e964]: We retained Atty Jessica Fickling to help us after a terrible car accident. She and her paralegal Mallory were wonderful! Professional, skilled, savvy – we couldn’t have asked for a better legal team. Many thanks!!
+            - generic [ref=e969]: Jocelyn C.
+            - img "Rated 5 out of 5" [ref=e973]:
+              - generic [ref=e974]:
+                - generic [ref=e976]: 
+                - generic [ref=e978]: 
+              - generic [ref=e979]:
+                - generic [ref=e981]: 
+                - generic [ref=e983]: 
+              - generic [ref=e984]:
+                - generic [ref=e986]: 
+                - generic [ref=e988]: 
+              - generic [ref=e989]:
+                - generic [ref=e991]: 
+                - generic [ref=e993]: 
+              - generic [ref=e994]:
+                - generic [ref=e996]: 
+                - generic [ref=e998]: 
+            - img "google logo" [ref=e1001]
+          - generic [ref=e1004]:
+            - generic [ref=e1009]: Strom Law Firm's Consistent Excellence
+            - generic [ref=e1011]: I have been a client with The Strom Law Firm for thirty years and have been incredibly blessed to have the assurance that they will do everything possible to provide excellent service to my needs. Ally Benevento is exceptional and represents the firm in a professional manner.
+            - generic [ref=e1016]: Timothy O.
+            - img [ref=e1020]:
+              - generic [ref=e1021]:
+                - generic [ref=e1023]: 
+                - generic [ref=e1025]: 
+              - generic [ref=e1026]:
+                - generic [ref=e1028]: 
+                - generic [ref=e1030]: 
+              - generic [ref=e1031]:
+                - generic [ref=e1033]: 
+                - generic [ref=e1035]: 
+              - generic [ref=e1036]:
+                - generic [ref=e1038]: 
+                - generic [ref=e1040]: 
+              - generic [ref=e1041]:
+                - generic [ref=e1043]: 
+                - generic [ref=e1045]: 
+            - img [ref=e1048]
+          - generic [ref=e1051]:
+            - generic [ref=e1056]: From Self-Representation to Victory in SSDI Case!
+            - generic [ref=e1058]: My experience with Mario and his staff was outstanding. When everyone said to give up my case with SSDI and after being poorly represented and losing. I had to file my own appeals and represent myself. I literally called every attorney in the book. Then I called Mario cold – I expected one more no! Well, this gentleman took my case and won. He knows the law and cares a lot. I am proud to call him my friend. If you need a professional to help you, call these guys.
+            - generic [ref=e1063]: Robert L.
+            - img [ref=e1067]:
+              - generic [ref=e1068]:
+                - generic [ref=e1070]: 
+                - generic [ref=e1072]: 
+              - generic [ref=e1073]:
+                - generic [ref=e1075]: 
+                - generic [ref=e1077]: 
+              - generic [ref=e1078]:
+                - generic [ref=e1080]: 
+                - generic [ref=e1082]: 
+              - generic [ref=e1083]:
+                - generic [ref=e1085]: 
+                - generic [ref=e1087]: 
+              - generic [ref=e1088]:
+                - generic [ref=e1090]: 
+                - generic [ref=e1092]: 
+            - img [ref=e1095]
+          - generic [ref=e1098]:
+            - generic [ref=e1103]: A Pleasure to Work With, Outstanding Case Outcome!
+            - generic [ref=e1105]: Thanks Olivia, It was a pleasure working with you. You were well prepared and presented our case in a very professional manner. I could not have ask for a better outcome. Working with everyone at the Strom Law Firm has always been a pleasure and I will be happy to recommend your Law Firm to anyone.
+            - generic [ref=e1110]: Nancy G.
+            - img [ref=e1114]:
+              - generic [ref=e1115]:
+                - generic [ref=e1117]: 
+                - generic [ref=e1119]: 
+              - generic [ref=e1120]:
+                - generic [ref=e1122]: 
+                - generic [ref=e1124]: 
+              - generic [ref=e1125]:
+                - generic [ref=e1127]: 
+                - generic [ref=e1129]: 
+              - generic [ref=e1130]:
+                - generic [ref=e1132]: 
+                - generic [ref=e1134]: 
+              - generic [ref=e1135]:
+                - generic [ref=e1137]: 
+                - generic [ref=e1139]: 
+            - img [ref=e1142]
+          - generic [ref=e1145]:
+            - generic [ref=e1150]: A Lifesaver in the Courtroom, Ensuring Freedom with A1 Professionalism
+            - generic [ref=e1152]: Needed a lifesaver. I had gotten myself into a bad situation and the possibility of going to prison. Through the diligence and hard work done by attorney Alley B., I was able to walk out of that courtroom a free man. No tricks just hard down attorney work. She was an A1 professional and knew every inch of the Law pertaining to my case. For that, I am forever grateful.
+            - generic [ref=e1157]: Anonymous
+            - img [ref=e1161]:
+              - generic [ref=e1162]:
+                - generic [ref=e1164]: 
+                - generic [ref=e1166]: 
+              - generic [ref=e1167]:
+                - generic [ref=e1169]: 
+                - generic [ref=e1171]: 
+              - generic [ref=e1172]:
+                - generic [ref=e1174]: 
+                - generic [ref=e1176]: 
+              - generic [ref=e1177]:
+                - generic [ref=e1179]: 
+                - generic [ref=e1181]: 
+              - generic [ref=e1182]:
+                - generic [ref=e1184]: 
+                - generic [ref=e1186]: 
+            - img [ref=e1189]
+          - generic [ref=e1192]:
+            - generic [ref=e1197]: A Winning Team at Strom Law Firm!
+            - generic [ref=e1199]: John Alphin was great. We basically worked together for 22 months. Bakari Sellers was also on the team and together those 2 guys were fabulous. Won the case and I’m still a client of Strom law firm. Thank you and awesome law firm.
+            - generic [ref=e1204]: Steve T.
+            - img [ref=e1208]:
+              - generic [ref=e1209]:
+                - generic [ref=e1211]: 
+                - generic [ref=e1213]: 
+              - generic [ref=e1214]:
+                - generic [ref=e1216]: 
+                - generic [ref=e1218]: 
+              - generic [ref=e1219]:
+                - generic [ref=e1221]: 
+                - generic [ref=e1223]: 
+              - generic [ref=e1224]:
+                - generic [ref=e1226]: 
+                - generic [ref=e1228]: 
+              - generic [ref=e1229]:
+                - generic [ref=e1231]: 
+                - generic [ref=e1233]: 
+            - img [ref=e1236]
+          - generic [ref=e1239]:
+            - generic [ref=e1244]: Excellence in Action for Workman's Comp Case!
+            - generic [ref=e1246]:
+              - text: Strom Law Firm was really great and professional. I had a great experience with Mario as my attorney and his paralegal, Brian. These two are amazing, they worked very hard on my husband’s workman’s comp case and we were very pleased with the services and results
+              - img [ref=e1247]
+              - text: . Brian was so prompt at returning phone calls and getting things ready for the case. I strongly recommend this firm for any of your legal matters. If I had to use you guys again, I would be happy to do so.
+            - generic [ref=e1252]: Mary W.
+            - img [ref=e1256]:
+              - generic [ref=e1257]:
+                - generic [ref=e1259]: 
+                - generic [ref=e1261]: 
+              - generic [ref=e1262]:
+                - generic [ref=e1264]: 
+                - generic [ref=e1266]: 
+              - generic [ref=e1267]:
+                - generic [ref=e1269]: 
+                - generic [ref=e1271]: 
+              - generic [ref=e1272]:
+                - generic [ref=e1274]: 
+                - generic [ref=e1276]: 
+              - generic [ref=e1277]:
+                - generic [ref=e1279]: 
+                - generic [ref=e1281]: 
+            - img [ref=e1284]
+          - generic [ref=e1287]:
+            - generic [ref=e1292]: Mastering Complex Legal Issues with Care and Compassion
+            - generic [ref=e1294]: Mario Pacella at Strom Law Firm LLC in Brunswick, Georgia, is a masterful, no-nonsense lawyer. His caring and compassionate approach, along with prompt responsiveness, sets him apart. Mario and the firm exhibit exceptional professionalism and attention to detail, emphasizing genuine care for every client.
+            - generic [ref=e1299]: L. Gilder
+            - img [ref=e1303]:
+              - generic [ref=e1304]:
+                - generic [ref=e1306]: 
+                - generic [ref=e1308]: 
+              - generic [ref=e1309]:
+                - generic [ref=e1311]: 
+                - generic [ref=e1313]: 
+              - generic [ref=e1314]:
+                - generic [ref=e1316]: 
+                - generic [ref=e1318]: 
+              - generic [ref=e1319]:
+                - generic [ref=e1321]: 
+                - generic [ref=e1323]: 
+              - generic [ref=e1324]:
+                - generic [ref=e1326]: 
+                - generic [ref=e1328]: 
+            - img [ref=e1331]
+          - generic [ref=e1334]:
+            - generic [ref=e1339]: They truly care
+            - generic [ref=e1341]: Mrs Vallery, who answered the phone took more care and attention to detail than any other law office, that I have called, in 2 years+. She diligently took notes to give to the lawyers and cared about my situation and let me actually tell everything without cutting me short. Out of over 100 law offices, this is rare treatment. Care. Consideration. That means more than anything going through this…
+            - generic [ref=e1346]: Anonymous
+            - img [ref=e1350]:
+              - generic [ref=e1351]:
+                - generic [ref=e1353]: 
+                - generic [ref=e1355]: 
+              - generic [ref=e1356]:
+                - generic [ref=e1358]: 
+                - generic [ref=e1360]: 
+              - generic [ref=e1361]:
+                - generic [ref=e1363]: 
+                - generic [ref=e1365]: 
+              - generic [ref=e1366]:
+                - generic [ref=e1368]: 
+                - generic [ref=e1370]: 
+              - generic [ref=e1371]:
+                - generic [ref=e1373]: 
+                - generic [ref=e1375]: 
+            - img [ref=e1378]
+          - generic [ref=e1381]:
+            - generic [ref=e1386]: Professional Representation, Satisfying Legal Outcome!
+            - generic [ref=e1388]: My wife and I retained Bakari Sellers to represent our son in a case in Richland County. We found Mr. Sellers, his assistant Stephanie, and the rest of the staff at Strom, extremely courteous and professional. We really appreciated Mr. Sellers’ straightforward and honest approach. We believe this is a very competent law firm, and are satisfied with the legal outcome they achieved. We would highly recommend them!
+            - generic [ref=e1393]: Bryan B.
+            - img [ref=e1397]:
+              - generic [ref=e1398]:
+                - generic [ref=e1400]: 
+                - generic [ref=e1402]: 
+              - generic [ref=e1403]:
+                - generic [ref=e1405]: 
+                - generic [ref=e1407]: 
+              - generic [ref=e1408]:
+                - generic [ref=e1410]: 
+                - generic [ref=e1412]: 
+              - generic [ref=e1413]:
+                - generic [ref=e1415]: 
+                - generic [ref=e1417]: 
+              - generic [ref=e1418]:
+                - generic [ref=e1420]: 
+                - generic [ref=e1422]: 
+            - img [ref=e1425]
+          - generic [ref=e1428]:
+            - generic [ref=e1433]: Exceptional Legal Team After Our Car Accident!
+            - generic [ref=e1435]: We retained Atty Jessica Fickling to help us after a terrible car accident. She and her paralegal Mallory were wonderful! Professional, skilled, savvy – we couldn’t have asked for a better legal team. Many thanks!!
+            - generic [ref=e1440]: Jocelyn C.
+            - img [ref=e1444]:
+              - generic [ref=e1445]:
+                - generic [ref=e1447]: 
+                - generic [ref=e1449]: 
+              - generic [ref=e1450]:
+                - generic [ref=e1452]: 
+                - generic [ref=e1454]: 
+              - generic [ref=e1455]:
+                - generic [ref=e1457]: 
+                - generic [ref=e1459]: 
+              - generic [ref=e1460]:
+                - generic [ref=e1462]: 
+                - generic [ref=e1464]: 
+              - generic [ref=e1465]:
+                - generic [ref=e1467]: 
+                - generic [ref=e1469]: 
+            - img [ref=e1472]
+          - generic [ref=e1475]:
+            - generic [ref=e1480]: Strom Law Firm's Consistent Excellence
+            - generic [ref=e1482]: I have been a client with The Strom Law Firm for thirty years and have been incredibly blessed to have the assurance that they will do everything possible to provide excellent service to my needs. Ally Benevento is exceptional and represents the firm in a professional manner.
+            - generic [ref=e1487]: Timothy O.
+            - img [ref=e1491]:
+              - generic [ref=e1492]:
+                - generic [ref=e1494]: 
+                - generic [ref=e1496]: 
+              - generic [ref=e1497]:
+                - generic [ref=e1499]: 
+                - generic [ref=e1501]: 
+              - generic [ref=e1502]:
+                - generic [ref=e1504]: 
+                - generic [ref=e1506]: 
+              - generic [ref=e1507]:
+                - generic [ref=e1509]: 
+                - generic [ref=e1511]: 
+              - generic [ref=e1512]:
+                - generic [ref=e1514]: 
+                - generic [ref=e1516]: 
+            - img [ref=e1519]
+          - generic [ref=e1522]:
+            - generic [ref=e1527]: From Self-Representation to Victory in SSDI Case!
+            - generic [ref=e1529]: My experience with Mario and his staff was outstanding. When everyone said to give up my case with SSDI and after being poorly represented and losing. I had to file my own appeals and represent myself. I literally called every attorney in the book. Then I called Mario cold – I expected one more no! Well, this gentleman took my case and won. He knows the law and cares a lot. I am proud to call him my friend. If you need a professional to help you, call these guys.
+            - generic [ref=e1534]: Robert L.
+            - img [ref=e1538]:
+              - generic [ref=e1539]:
+                - generic [ref=e1541]: 
+                - generic [ref=e1543]: 
+              - generic [ref=e1544]:
+                - generic [ref=e1546]: 
+                - generic [ref=e1548]: 
+              - generic [ref=e1549]:
+                - generic [ref=e1551]: 
+                - generic [ref=e1553]: 
+              - generic [ref=e1554]:
+                - generic [ref=e1556]: 
+                - generic [ref=e1558]: 
+              - generic [ref=e1559]:
+                - generic [ref=e1561]: 
+                - generic [ref=e1563]: 
+            - img [ref=e1566]
+          - generic [ref=e1569]:
+            - generic [ref=e1574]: A Pleasure to Work With, Outstanding Case Outcome!
+            - generic [ref=e1576]: Thanks Olivia, It was a pleasure working with you. You were well prepared and presented our case in a very professional manner. I could not have ask for a better outcome. Working with everyone at the Strom Law Firm has always been a pleasure and I will be happy to recommend your Law Firm to anyone.
+            - generic [ref=e1581]: Nancy G.
+            - img [ref=e1585]:
+              - generic [ref=e1586]:
+                - generic [ref=e1588]: 
+                - generic [ref=e1590]: 
+              - generic [ref=e1591]:
+                - generic [ref=e1593]: 
+                - generic [ref=e1595]: 
+              - generic [ref=e1596]:
+                - generic [ref=e1598]: 
+                - generic [ref=e1600]: 
+              - generic [ref=e1601]:
+                - generic [ref=e1603]: 
+                - generic [ref=e1605]: 
+              - generic [ref=e1606]:
+                - generic [ref=e1608]: 
+                - generic [ref=e1610]: 
+            - img [ref=e1613]
+          - generic [ref=e1616]:
+            - generic [ref=e1621]: A Lifesaver in the Courtroom, Ensuring Freedom with A1 Professionalism
+            - generic [ref=e1623]: Needed a lifesaver. I had gotten myself into a bad situation and the possibility of going to prison. Through the diligence and hard work done by attorney Alley B., I was able to walk out of that courtroom a free man. No tricks just hard down attorney work. She was an A1 professional and knew every inch of the Law pertaining to my case. For that, I am forever grateful.
+            - generic [ref=e1628]: Anonymous
+            - img [ref=e1632]:
+              - generic [ref=e1633]:
+                - generic [ref=e1635]: 
+                - generic [ref=e1637]: 
+              - generic [ref=e1638]:
+                - generic [ref=e1640]: 
+                - generic [ref=e1642]: 
+              - generic [ref=e1643]:
+                - generic [ref=e1645]: 
+                - generic [ref=e1647]: 
+              - generic [ref=e1648]:
+                - generic [ref=e1650]: 
+                - generic [ref=e1652]: 
+              - generic [ref=e1653]:
+                - generic [ref=e1655]: 
+                - generic [ref=e1657]: 
+            - img [ref=e1660]
+          - generic [ref=e1663]:
+            - generic [ref=e1668]: A Winning Team at Strom Law Firm!
+            - generic [ref=e1670]: John Alphin was great. We basically worked together for 22 months. Bakari Sellers was also on the team and together those 2 guys were fabulous. Won the case and I’m still a client of Strom law firm. Thank you and awesome law firm.
+            - generic [ref=e1675]: Steve T.
+            - img [ref=e1679]:
+              - generic [ref=e1680]:
+                - generic [ref=e1682]: 
+                - generic [ref=e1684]: 
+              - generic [ref=e1685]:
+                - generic [ref=e1687]: 
+                - generic [ref=e1689]: 
+              - generic [ref=e1690]:
+                - generic [ref=e1692]: 
+                - generic [ref=e1694]: 
+              - generic [ref=e1695]:
+                - generic [ref=e1697]: 
+                - generic [ref=e1699]: 
+              - generic [ref=e1700]:
+                - generic [ref=e1702]: 
+                - generic [ref=e1704]: 
+            - img [ref=e1707]
+          - generic [ref=e1710]:
+            - generic [ref=e1715]: Excellence in Action for Workman's Comp Case!
+            - generic [ref=e1717]:
+              - text: Strom Law Firm was really great and professional. I had a great experience with Mario as my attorney and his paralegal, Brian. These two are amazing, they worked very hard on my husband’s workman’s comp case and we were very pleased with the services and results
+              - img [ref=e1718]
+              - text: . Brian was so prompt at returning phone calls and getting things ready for the case. I strongly recommend this firm for any of your legal matters. If I had to use you guys again, I would be happy to do so.
+            - generic [ref=e1723]: Mary W.
+            - img [ref=e1727]:
+              - generic [ref=e1728]:
+                - generic [ref=e1730]: 
+                - generic [ref=e1732]: 
+              - generic [ref=e1733]:
+                - generic [ref=e1735]: 
+                - generic [ref=e1737]: 
+              - generic [ref=e1738]:
+                - generic [ref=e1740]: 
+                - generic [ref=e1742]: 
+              - generic [ref=e1743]:
+                - generic [ref=e1745]: 
+                - generic [ref=e1747]: 
+              - generic [ref=e1748]:
+                - generic [ref=e1750]: 
+                - generic [ref=e1752]: 
+            - img [ref=e1755]
+          - generic [ref=e1758]:
+            - generic [ref=e1763]: Mastering Complex Legal Issues with Care and Compassion
+            - generic [ref=e1765]: Mario Pacella at Strom Law Firm LLC in Brunswick, Georgia, is a masterful, no-nonsense lawyer. His caring and compassionate approach, along with prompt responsiveness, sets him apart. Mario and the firm exhibit exceptional professionalism and attention to detail, emphasizing genuine care for every client.
+            - generic [ref=e1770]: L. Gilder
+            - img [ref=e1774]:
+              - generic [ref=e1775]:
+                - generic [ref=e1777]: 
+                - generic [ref=e1779]: 
+              - generic [ref=e1780]:
+                - generic [ref=e1782]: 
+                - generic [ref=e1784]: 
+              - generic [ref=e1785]:
+                - generic [ref=e1787]: 
+                - generic [ref=e1789]: 
+              - generic [ref=e1790]:
+                - generic [ref=e1792]: 
+                - generic [ref=e1794]: 
+              - generic [ref=e1795]:
+                - generic [ref=e1797]: 
+                - generic [ref=e1799]: 
+            - img [ref=e1802]
+        - button "Next" [ref=e1803] [cursor=pointer]:
+          - img [ref=e1804]
+    - generic [ref=e1807]:
+      - heading "How this works" [level=2] [ref=e1810]
+      - iframe [ref=e1819]:
+        - generic [active] [ref=f328e1]:
+          - generic "YouTube Video Player" [ref=f328e3]
+          - generic [ref=f328e5]:
+            - generic:
+              - generic:
+                - button "Play video" [ref=f328e10] [cursor=pointer]
+                - button "Hide player controls" [ref=f328e12] [cursor=pointer]
+                - generic [ref=f328e14]:
+                  - generic [ref=f328e19]:
+                    - generic [ref=f328e20]:
+                      - link "What is the process like when hiring Strom Law Firm? | Strom Law Firm?" [ref=f328e21] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=jKMJgYyb2No
+                      - link "Strom Law Firm, L.L.C." [ref=f328e22] [cursor=pointer]:
+                        - /url: /channel/UC12PZrlls7-ENCvmRRWe2oQ
+                        - generic [ref=f328e23]: Strom Law Firm, L.L.C.
+                    - generic [ref=f328e24]:
+                      - button [ref=f328e25] [cursor=pointer]
+                      - generic [ref=f328e27]:
+                        - generic: Strom Law Firm, L.L.C.
+                        - generic: 225 subscribers
+                  - generic [ref=f328e28]:
+                    - button "Share" [ref=f328e31] [cursor=pointer]:
+                      - generic [ref=f328e35]:
+                        - img
+                    - link "Watch on YouTube" [ref=f328e42] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=jKMJgYyb2No
+                      - generic [ref=f328e45]:
+                        - text: Watch on
+                        - img [ref=f328e47]:
+                          - generic [ref=f328e49]:
+                            - img
+      - generic [ref=e1826]:
+        - generic [ref=e1827]:
+          - generic [ref=e1830]:
+            - heading "Step 1 - Welcome" [level=5] [ref=e1831]
+            - generic [ref=e1832]: In this step, you'll experience a warm welcome as you enter the Strom Law Firm.
+          - generic [ref=e1835]: "1"
+        - generic [ref=e1836]:
+          - generic [ref=e1839]:
+            - heading "Step 2 - Initial Meeting" [level=5] [ref=e1840]
+            - generic [ref=e1841]: You'll meet with professionals. They will go through the facts of your case, explain the entire process.
+          - generic [ref=e1844]: "2"
+        - generic [ref=e1845]:
+          - generic [ref=e1848]:
+            - heading "Step 3 - Preparations" [level=5] [ref=e1849]
+            - generic [ref=e1850]: We builds your case by interviewing witnesses, conducting legal research, drafting pleadings, and hiring experts.
+          - generic [ref=e1853]: "3"
+        - generic [ref=e1854]:
+          - generic [ref=e1857]:
+            - heading "Step 4 - Trial" [level=5] [ref=e1858]
+            - generic [ref=e1859]: You'll learn that the firm is trial-ready. They've been preparing since day one and will guide you through the process.
+          - generic [ref=e1862]: "4"
+        - generic [ref=e1863]:
+          - generic [ref=e1866]:
+            - heading "Step 5 - Resolution" [level=5] [ref=e1867]
+            - generic [ref=e1868]: Your case concludes with the firm hoping for a positive outcome. They assure enduring friendships and a commitment to being there for you, regardless of future legal needs.
+          - generic [ref=e1871]: "5"
+    - generic [ref=e1873]:
+      - heading "News mentions & awards" [level=2] [ref=e1876]
+      - img "News mentions awards" [ref=e1879]
+    - generic [ref=e1881]:
+      - generic [ref=e1883]:
+        - generic [ref=e1887]:
+          - heading "Strom Law Firm Locations" [level=2] [ref=e1890]
+          - paragraph [ref=e1897]: We’re pleased to represent clients all across South Carolina, whether it’s the Midlands or the Pee Dee, the Upstate or the Lowcountry – and all points in between. We’re also licensed to practice law in Georgia and New York.
+        - generic [ref=e1899]:
+          - list [ref=e1904]:
+            - listitem [ref=e1905]:
+              - link "Columbia" [ref=e1906] [cursor=pointer]:
+                - /url: /lawyers-in-columbia-sc/
+                - generic [ref=e1907]: Columbia
+            - listitem [ref=e1908]:
+              - generic [ref=e1909]: Charleston
+            - listitem [ref=e1910]:
+              - link "Lexington" [ref=e1911] [cursor=pointer]:
+                - /url: /lawyers-in-lexington-sc/
+                - generic [ref=e1912]: Lexington
+            - listitem [ref=e1913]:
+              - link "Orangeburg" [ref=e1914] [cursor=pointer]:
+                - /url: /lawyers-in-orangeburg-sc/
+                - generic [ref=e1915]: Orangeburg
+            - listitem [ref=e1916]:
+              - link "Camden" [ref=e1917] [cursor=pointer]:
+                - /url: /lawyers-in-camden-sc/
+                - generic [ref=e1918]: Camden
+            - listitem [ref=e1919]:
+              - link "Winnsboro" [ref=e1920] [cursor=pointer]:
+                - /url: /lawyers-in-winnsboro-sc/
+                - generic [ref=e1921]: Winnsboro
+            - listitem [ref=e1922]:
+              - link "Sumter" [ref=e1923] [cursor=pointer]:
+                - /url: /lawyers-in-sumter-sc/
+                - generic [ref=e1924]: Sumter
+          - list [ref=e1929]:
+            - listitem [ref=e1930]:
+              - generic [ref=e1931]: Spartanburg
+            - listitem [ref=e1932]:
+              - generic [ref=e1933]: Greenville
+            - listitem [ref=e1934]:
+              - link "Newberry" [ref=e1935] [cursor=pointer]:
+                - /url: /lawyers-in-newberry-sc/
+                - generic [ref=e1936]: Newberry
+            - listitem [ref=e1937]:
+              - link "St Matthews" [ref=e1938] [cursor=pointer]:
+                - /url: /lawyers-in-st-matthews-sc/
+                - generic [ref=e1939]: St Matthews
+            - listitem [ref=e1940]:
+              - link "Bamberg" [ref=e1941] [cursor=pointer]:
+                - /url: /lawyers-in-bamberg-sc/
+                - generic [ref=e1942]: Bamberg
+            - listitem [ref=e1943]:
+              - link "Bishopville" [ref=e1944] [cursor=pointer]:
+                - /url: /lawyers-in-bishopville-sc/
+                - generic [ref=e1945]: Bishopville
+            - listitem [ref=e1946]:
+              - link "Brunswick, GA" [ref=e1947] [cursor=pointer]:
+                - /url: /lawyers-in-brunswick-ga/
+                - generic [ref=e1948]: Brunswick, GA
+      - img "Strom Law Firm Legal Practice Locations" [ref=e1953]
+    - generic [ref=e1958]:
+      - generic [ref=e1962]:
+        - heading "The STROM LAW TEAM" [level=2] [ref=e1965]
+        - heading "Meet Our Attorneys" [level=2] [ref=e1968]
+        - paragraph [ref=e1975]:
+          - text: Our team of attorneys have devoted their professional lives to serving individuals and families throughout South Carolina and Georgia. Not only do we have decades of combined experience in the courtroom, we also have a passion for the law, and we will work tirelessly on you or your loved one’s behalf to achieve the best possible outcome.
+          - link "Contact us" [ref=e1976] [cursor=pointer]:
+            - /url: /contact-us/
+          - text: today for your free consultation.
+      - generic [ref=e1978]:
+        - generic [ref=e1980]:
+          - link "Pete Strom Strom Law Firm" [ref=e1983] [cursor=pointer]:
+            - /url: /joseph-preston-pete-strom-jr/
+            - img "Pete Strom Strom Law Firm" [ref=e1984]
+          - heading "Joseph Preston “Pete” Strom, Jr." [level=6] [ref=e1987]:
+            - link "Joseph Preston “Pete” Strom, Jr." [ref=e1988] [cursor=pointer]:
+              - /url: /joseph-preston-pete-strom-jr/
+          - list [ref=e1991]:
+            - listitem [ref=e1992]:
+              - link "view profile" [ref=e1993] [cursor=pointer]:
+                - /url: /joseph-preston-pete-strom-jr/
+                - generic [ref=e1994]: view profile
+        - generic [ref=e1996]:
+          - link "Columbia Personal Injury Lawyer" [ref=e1999] [cursor=pointer]:
+            - /url: /mario-a-pacella/
+            - img "Columbia Personal Injury Lawyer" [ref=e2000]
+          - heading "Mario A. Pacella" [level=6] [ref=e2003]:
+            - link "Mario A. Pacella" [ref=e2004] [cursor=pointer]:
+              - /url: /mario-a-pacella/
+          - list [ref=e2007]:
+            - listitem [ref=e2008]:
+              - link "view profile" [ref=e2009] [cursor=pointer]:
+                - /url: /mario-a-pacella/
+                - generic [ref=e2010]: view profile
+        - generic [ref=e2012]:
+          - link "Columbia Criminal Defense Lawyer" [ref=e2015] [cursor=pointer]:
+            - /url: /john-r-alphin/
+            - img "Columbia Criminal Defense Lawyer" [ref=e2016]
+          - heading "John R. Alphin" [level=6] [ref=e2019]:
+            - link "John R. Alphin" [ref=e2020] [cursor=pointer]:
+              - /url: /john-r-alphin/
+          - list [ref=e2023]:
+            - listitem [ref=e2024]:
+              - link "view profile" [ref=e2025] [cursor=pointer]:
+                - /url: /john-r-alphin/
+                - generic [ref=e2026]: view profile
+        - generic [ref=e2028]:
+          - link "Amy Willbanks" [ref=e2031] [cursor=pointer]:
+            - /url: /amy-e-willbanks/
+            - img "Amy Willbanks" [ref=e2032]
+          - heading "Amy E. Willbanks" [level=6] [ref=e2035]:
+            - link "Amy E. Willbanks" [ref=e2036] [cursor=pointer]:
+              - /url: /amy-e-willbanks/
+          - list [ref=e2039]:
+            - listitem [ref=e2040]:
+              - link "view profile" [ref=e2041] [cursor=pointer]:
+                - /url: /amy-e-willbanks/
+                - generic [ref=e2042]: view profile
+      - generic [ref=e2044]:
+        - generic [ref=e2046]:
+          - link "Columbia SC Personal Injury Lawyer" [ref=e2049] [cursor=pointer]:
+            - /url: /bakari-sellers/
+            - img "Columbia SC Personal Injury Lawyer" [ref=e2050]
+          - heading "Bakari Sellers" [level=6] [ref=e2053]:
+            - link "Bakari Sellers" [ref=e2054] [cursor=pointer]:
+              - /url: /bakari-sellers/
+          - list [ref=e2057]:
+            - listitem [ref=e2058]:
+              - link "view profile" [ref=e2059] [cursor=pointer]:
+                - /url: /bakari-sellers/
+                - generic [ref=e2060]: view profile
+        - generic [ref=e2062]:
+          - link "SL D t Strom Law Firm" [ref=e2065] [cursor=pointer]:
+            - /url: /alexandra-benevento/
+            - img "SL D t Strom Law Firm" [ref=e2066]
+          - heading "Alexandra Benevento" [level=6] [ref=e2069]:
+            - link "Alexandra Benevento" [ref=e2070] [cursor=pointer]:
+              - /url: /alexandra-benevento/
+          - list [ref=e2073]:
+            - listitem [ref=e2074]:
+              - link "view profile" [ref=e2075] [cursor=pointer]:
+                - /url: /alexandra-benevento/
+                - generic [ref=e2076]: view profile
+        - generic [ref=e2078]:
+          - link "Female team member" [ref=e2081] [cursor=pointer]:
+            - /url: /matthew-robins/
+            - img "Female team member" [ref=e2082]
+          - heading "Kennedy Eziekiel" [level=6] [ref=e2085]:
+            - link "Kennedy Eziekiel" [ref=e2086] [cursor=pointer]:
+              - /url: /matthew-robins/
+    - generic [ref=e2089]:
+      - heading "Current Insights & Articles" [level=2] [ref=e2092]
+      - link "View All Articles" [ref=e2096] [cursor=pointer]:
+        - /url: /blog/
+        - generic [ref=e2098]: View All Articles
+      - generic [ref=e2103]:
+        - button "Previous" [ref=e2104] [cursor=pointer]:
+          - img [ref=e2105]
+        - generic [ref=e2108]:
+          - generic [ref=e2110] [cursor=pointer]:
+            - generic [ref=e2112]:
+              - heading [level=4] [ref=e2115]:
+                - link [ref=e2116]:
+                  - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+                  - generic [ref=e2117]: Football Helmets Do Not Protect Against Side Impact Concussions
+              - link [ref=e2125]:
+                - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+                - generic [ref=e2126]: Read More
+            - link [ref=e2127]:
+              - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+          - generic [ref=e2129] [cursor=pointer]:
+            - generic [ref=e2131]:
+              - heading [level=4] [ref=e2134]:
+                - link [ref=e2135]:
+                  - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+                  - generic [ref=e2136]: Train Accident Kills 2 Teens in Kentucky
+              - link [ref=e2144]:
+                - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+                - generic [ref=e2145]: Read More
+            - link [ref=e2146]:
+              - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+          - generic [ref=e2148] [cursor=pointer]:
+            - generic [ref=e2150]:
+              - heading "Kidney From Living Donor Accidentally Thrown Away" [level=4] [ref=e2153]:
+                - link "Kidney From Living Donor Accidentally Thrown Away" [ref=e2154]:
+                  - /url: https://stromlaw.com/kidney-from-living-donor-accidentally-thrown-away/
+                  - generic [ref=e2155]: Kidney From Living Donor Accidentally Thrown Away
+              - link "Read More" [ref=e2163]:
+                - /url: https://stromlaw.com/kidney-from-living-donor-accidentally-thrown-away/
+                - generic [ref=e2164]: Read More
+            - link [ref=e2165]:
+              - /url: https://stromlaw.com/kidney-from-living-donor-accidentally-thrown-away/
+          - generic [ref=e2167] [cursor=pointer]:
+            - generic [ref=e2169]:
+              - 'heading "Lawyers in Walterboro SC: Strom Law Firm - Free Consultations" [level=4] [ref=e2172]':
+                - 'link "Lawyers in Walterboro SC: Strom Law Firm - Free Consultations" [ref=e2173]':
+                  - /url: https://stromlaw.com/lawyers-in-walterboro/
+                  - generic [ref=e2174]: "Lawyers in Walterboro SC: Strom Law Firm - Free Consultations"
+              - link "Read More" [ref=e2182]:
+                - /url: https://stromlaw.com/lawyers-in-walterboro/
+                - generic [ref=e2183]: Read More
+            - link [ref=e2184]:
+              - /url: https://stromlaw.com/lawyers-in-walterboro/
+          - generic [ref=e2186] [cursor=pointer]:
+            - generic [ref=e2188]:
+              - heading [level=4] [ref=e2191]:
+                - link [ref=e2192]:
+                  - /url: https://stromlaw.com/woman-gets-fired-after-donating-kidney-to-her-boss/
+                  - generic [ref=e2193]: Woman Fired after Donating Kidney To Boss, Files Discrimination Lawsuit
+              - link [ref=e2201]:
+                - /url: https://stromlaw.com/woman-gets-fired-after-donating-kidney-to-her-boss/
+                - generic [ref=e2202]: Read More
+            - link [ref=e2203]:
+              - /url: https://stromlaw.com/woman-gets-fired-after-donating-kidney-to-her-boss/
+          - generic [ref=e2205] [cursor=pointer]:
+            - generic [ref=e2207]:
+              - heading [level=4] [ref=e2210]:
+                - link [ref=e2211]:
+                  - /url: https://stromlaw.com/accidente-de-construccion-deja-a-un-obrero-muerto/
+                  - generic [ref=e2212]: Accidente De Construcción Deja A Un Obrero Muerto
+              - link [ref=e2220]:
+                - /url: https://stromlaw.com/accidente-de-construccion-deja-a-un-obrero-muerto/
+                - generic [ref=e2221]: Read More
+            - link [ref=e2222]:
+              - /url: https://stromlaw.com/accidente-de-construccion-deja-a-un-obrero-muerto/
+          - generic [ref=e2224] [cursor=pointer]:
+            - generic [ref=e2226]:
+              - heading [level=4] [ref=e2229]:
+                - link [ref=e2230]:
+                  - /url: https://stromlaw.com/concussions-effect-regardless-location/
+                  - generic [ref=e2231]: Concussions Have the Same Effect Regardless of Location
+              - link [ref=e2239]:
+                - /url: https://stromlaw.com/concussions-effect-regardless-location/
+                - generic [ref=e2240]: Read More
+            - link [ref=e2241]:
+              - /url: https://stromlaw.com/concussions-effect-regardless-location/
+          - generic [ref=e2243] [cursor=pointer]:
+            - generic [ref=e2245]:
+              - heading [level=4] [ref=e2248]:
+                - link [ref=e2249]:
+                  - /url: https://stromlaw.com/famous-cases-of-medical-malpractice-2/
+                  - generic [ref=e2250]: "Medical Malpractice Cases: Famous Examples"
+              - link [ref=e2258]:
+                - /url: https://stromlaw.com/famous-cases-of-medical-malpractice-2/
+                - generic [ref=e2259]: Read More
+            - link [ref=e2260]:
+              - /url: https://stromlaw.com/famous-cases-of-medical-malpractice-2/
+          - generic [ref=e2262] [cursor=pointer]:
+            - generic [ref=e2264]:
+              - heading [level=4] [ref=e2267]:
+                - link [ref=e2268]:
+                  - /url: https://stromlaw.com/law-requirements-for-straightening/
+                  - generic [ref=e2269]: Law Requirements for Straightening
+              - link [ref=e2277]:
+                - /url: https://stromlaw.com/law-requirements-for-straightening/
+                - generic [ref=e2278]: Read More
+            - link [ref=e2279]:
+              - /url: https://stromlaw.com/law-requirements-for-straightening/
+          - generic [ref=e2281] [cursor=pointer]:
+            - generic [ref=e2283]:
+              - heading [level=4] [ref=e2286]:
+                - link [ref=e2287]:
+                  - /url: https://stromlaw.com/making-your-own-informed-healthcare-decisions/
+                  - generic [ref=e2288]: Making Your Own Informed Healthcare Decisions
+              - link [ref=e2296]:
+                - /url: https://stromlaw.com/making-your-own-informed-healthcare-decisions/
+                - generic [ref=e2297]: Read More
+            - link [ref=e2298]:
+              - /url: https://stromlaw.com/making-your-own-informed-healthcare-decisions/
+          - generic [ref=e2300] [cursor=pointer]:
+            - generic [ref=e2302]:
+              - heading [level=4] [ref=e2305]:
+                - link [ref=e2306]:
+                  - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+                  - generic [ref=e2307]: Football Helmets Do Not Protect Against Side Impact Concussions
+              - link [ref=e2315]:
+                - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+                - generic [ref=e2316]: Read More
+            - link [ref=e2317]:
+              - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+          - generic [ref=e2319] [cursor=pointer]:
+            - generic [ref=e2321]:
+              - heading [level=4] [ref=e2324]:
+                - link [ref=e2325]:
+                  - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+                  - generic [ref=e2326]: Train Accident Kills 2 Teens in Kentucky
+              - link [ref=e2334]:
+                - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+                - generic [ref=e2335]: Read More
+            - link [ref=e2336]:
+              - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+          - generic [ref=e2338] [cursor=pointer]:
+            - generic [ref=e2340]:
+              - heading [level=4] [ref=e2343]:
+                - link [ref=e2344]:
+                  - /url: https://stromlaw.com/kidney-from-living-donor-accidentally-thrown-away/
+                  - generic [ref=e2345]: Kidney From Living Donor Accidentally Thrown Away
+              - link [ref=e2353]:
+                - /url: https://stromlaw.com/kidney-from-living-donor-accidentally-thrown-away/
+                - generic [ref=e2354]: Read More
+            - link [ref=e2355]:
+              - /url: https://stromlaw.com/kidney-from-living-donor-accidentally-thrown-away/
+          - generic [ref=e2357] [cursor=pointer]:
+            - generic [ref=e2359]:
+              - heading [level=4] [ref=e2362]:
+                - link [ref=e2363]:
+                  - /url: https://stromlaw.com/lawyers-in-walterboro/
+                  - generic [ref=e2364]: "Lawyers in Walterboro SC: Strom Law Firm - Free Consultations"
+              - link [ref=e2372]:
+                - /url: https://stromlaw.com/lawyers-in-walterboro/
+                - generic [ref=e2373]: Read More
+            - link [ref=e2374]:
+              - /url: https://stromlaw.com/lawyers-in-walterboro/
+          - generic [ref=e2376] [cursor=pointer]:
+            - generic [ref=e2378]:
+              - heading [level=4] [ref=e2381]:
+                - link [ref=e2382]:
+                  - /url: https://stromlaw.com/woman-gets-fired-after-donating-kidney-to-her-boss/
+                  - generic [ref=e2383]: Woman Fired after Donating Kidney To Boss, Files Discrimination Lawsuit
+              - link [ref=e2391]:
+                - /url: https://stromlaw.com/woman-gets-fired-after-donating-kidney-to-her-boss/
+                - generic [ref=e2392]: Read More
+            - link [ref=e2393]:
+              - /url: https://stromlaw.com/woman-gets-fired-after-donating-kidney-to-her-boss/
+          - generic [ref=e2395] [cursor=pointer]:
+            - generic [ref=e2397]:
+              - heading [level=4] [ref=e2400]:
+                - link [ref=e2401]:
+                  - /url: https://stromlaw.com/accidente-de-construccion-deja-a-un-obrero-muerto/
+                  - generic [ref=e2402]: Accidente De Construcción Deja A Un Obrero Muerto
+              - link [ref=e2410]:
+                - /url: https://stromlaw.com/accidente-de-construccion-deja-a-un-obrero-muerto/
+                - generic [ref=e2411]: Read More
+            - link [ref=e2412]:
+              - /url: https://stromlaw.com/accidente-de-construccion-deja-a-un-obrero-muerto/
+          - generic [ref=e2414] [cursor=pointer]:
+            - generic [ref=e2416]:
+              - heading [level=4] [ref=e2419]:
+                - link [ref=e2420]:
+                  - /url: https://stromlaw.com/concussions-effect-regardless-location/
+                  - generic [ref=e2421]: Concussions Have the Same Effect Regardless of Location
+              - link [ref=e2429]:
+                - /url: https://stromlaw.com/concussions-effect-regardless-location/
+                - generic [ref=e2430]: Read More
+            - link [ref=e2431]:
+              - /url: https://stromlaw.com/concussions-effect-regardless-location/
+          - generic [ref=e2433] [cursor=pointer]:
+            - generic [ref=e2435]:
+              - heading [level=4] [ref=e2438]:
+                - link [ref=e2439]:
+                  - /url: https://stromlaw.com/famous-cases-of-medical-malpractice-2/
+                  - generic [ref=e2440]: "Medical Malpractice Cases: Famous Examples"
+              - link [ref=e2448]:
+                - /url: https://stromlaw.com/famous-cases-of-medical-malpractice-2/
+                - generic [ref=e2449]: Read More
+            - link [ref=e2450]:
+              - /url: https://stromlaw.com/famous-cases-of-medical-malpractice-2/
+          - generic [ref=e2452] [cursor=pointer]:
+            - generic [ref=e2454]:
+              - heading [level=4] [ref=e2457]:
+                - link [ref=e2458]:
+                  - /url: https://stromlaw.com/law-requirements-for-straightening/
+                  - generic [ref=e2459]: Law Requirements for Straightening
+              - link [ref=e2467]:
+                - /url: https://stromlaw.com/law-requirements-for-straightening/
+                - generic [ref=e2468]: Read More
+            - link [ref=e2469]:
+              - /url: https://stromlaw.com/law-requirements-for-straightening/
+          - generic [ref=e2471] [cursor=pointer]:
+            - generic [ref=e2473]:
+              - heading [level=4] [ref=e2476]:
+                - link [ref=e2477]:
+                  - /url: https://stromlaw.com/making-your-own-informed-healthcare-decisions/
+                  - generic [ref=e2478]: Making Your Own Informed Healthcare Decisions
+              - link [ref=e2486]:
+                - /url: https://stromlaw.com/making-your-own-informed-healthcare-decisions/
+                - generic [ref=e2487]: Read More
+            - link [ref=e2488]:
+              - /url: https://stromlaw.com/making-your-own-informed-healthcare-decisions/
+          - generic [ref=e2490] [cursor=pointer]:
+            - generic [ref=e2492]:
+              - heading [level=4] [ref=e2495]:
+                - link [ref=e2496]:
+                  - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+                  - generic [ref=e2497]: Football Helmets Do Not Protect Against Side Impact Concussions
+              - link [ref=e2505]:
+                - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+                - generic [ref=e2506]: Read More
+            - link [ref=e2507]:
+              - /url: https://stromlaw.com/football-helmets-protect-side-impact-concussions/
+          - generic [ref=e2509] [cursor=pointer]:
+            - generic [ref=e2511]:
+              - heading [level=4] [ref=e2514]:
+                - link [ref=e2515]:
+                  - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+                  - generic [ref=e2516]: Train Accident Kills 2 Teens in Kentucky
+              - link [ref=e2524]:
+                - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+                - generic [ref=e2525]: Read More
+            - link [ref=e2526]:
+              - /url: https://stromlaw.com/train-accident-kills-2-teens-in-kentucky/
+        - button "Next" [ref=e2527] [cursor=pointer]:
+          - img [ref=e2528]
+    - generic [ref=e2536]:
+      - generic [ref=e2538]:
+        - heading "Columbia Personal injury and criminal defense lawyers" [level=2] [ref=e2541]
+        - heading "Fighting for You or Your Loved One" [level=2] [ref=e2544]
+      - paragraph [ref=e2553]: A serious accident or injury – or serious criminal charges – can have a devastating impact on your life or the life of a loved one. Whether we’re focused on personal injury or criminal defense, our attorneys have a reputation for taking on even the most complex cases – and winning. How can we help you?
+    - generic [ref=e2555]:
+      - img "Barrister Hall Logo" [ref=e2566]
+      - generic [ref=e2568]:
+        - paragraph [ref=e2571]: Co-located with Strom Law, Barrister Hall is Columbia’s first and only coworking legal community.
+        - link "LEARN MORE" [ref=e2575] [cursor=pointer]:
+          - /url: https://barrister-hall.com
+          - generic [ref=e2577]: LEARN MORE
+  - contentinfo [ref=e2578]:
+    - generic [ref=e2582]:
+      - heading "Contact Us For A Free Case Evaluation Now" [level=2] [ref=e2586]
+      - generic [ref=e2589]: No matter what your legal needs are from personal injury to class action lawsuits, we are here to help. We are award-winning and so far raised $2,000,000,000 for our clients. Fill the form below for a free case evaluation where we will guide you through the legal process. There’s absolutely no obligations on your part, and there’s no fee if we don’t win. Enter your information below now.
+      - generic [ref=e2594]:
+        - list [ref=e2596]:
+          - listitem [ref=e2597]:
+            - generic [ref=e2598]:
+              - text: First Name, Last Name
+              - generic [ref=e2599]: "*"
+            - textbox "First Name, Last Name*" [ref=e2601]:
+              - /placeholder: FIRST, LAST NAME
+          - listitem [ref=e2602]:
+            - generic [ref=e2603]:
+              - text: Email
+              - generic [ref=e2604]: "*"
+            - textbox "Email*" [ref=e2606]:
+              - /placeholder: EMAIL
+          - listitem [ref=e2607]:
+            - generic [ref=e2608]:
+              - text: Phone
+              - generic [ref=e2609]: "*"
+            - textbox "Phone*" [ref=e2611]:
+              - /placeholder: PHONE
+          - listitem [ref=e2612]:
+            - generic [ref=e2613]:
+              - text: Type of consultation
+              - generic [ref=e2614]: "*"
+            - textbox "Type of consultation*" [ref=e2616]:
+              - /placeholder: TYPE OF CONSULTATION / MORE DETAILS
+        - button "Submit now >" [ref=e2618] [cursor=pointer]
+      - generic [ref=e2621]: No obligations & no credit card required
+      - heading "*A consultation fee applies for professional licensing matters" [level=4] [ref=e2624]
+    - generic [ref=e2628]:
+      - link "Strom Law Firm Columbia SC" [ref=e2635] [cursor=pointer]:
+        - /url: /
+        - img "Strom Law Firm Columbia SC" [ref=e2636]
+      - search [ref=e2639]:
+        - generic [ref=e2641]:
+          - generic [ref=e2642]: Search
+          - searchbox "Search" [ref=e2643]
+          - button "Search" [ref=e2644] [cursor=pointer]:
+            - generic [ref=e2645]: 
+      - generic [ref=e2647]:
+        - generic [ref=e2649]:
+          - paragraph [ref=e2652]: Columbia Office
+          - list [ref=e2659]:
+            - listitem [ref=e2660]:
+              - link "Strom Law Firm, L.L.C. 6923 N Trenholm Rd Columbia, SC 29206" [ref=e2661] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/6923+N+Trenholm+Rd,+Columbia,+SC+29206/@34.0614136,-80.9597205,17z/data=!3m1!4b1!4m5!3m4!1s0x88f8af16f79ff7c5:0x6947c0aa78fb2dd2!8m2!3d34.0614136!4d-80.9575318
+                - generic [ref=e2662]:
+                  - text: Strom Law Firm, L.L.C.
+                  - text: 6923 N Trenholm Rd
+                  - text: Columbia, SC 29206
+          - list [ref=e2665]:
+            - listitem [ref=e2666]:
+              - link "(803) 252-4800 (Phone)" [ref=e2667] [cursor=pointer]:
+                - /url: tel:8032524800
+                - generic [ref=e2669]: 
+                - generic [ref=e2670]: (803) 252-4800 (Phone)
+            - listitem [ref=e2671]:
+              - link "(877) 787-6652 (Toll-Free)" [ref=e2672] [cursor=pointer]:
+                - /url: tel:8777876652
+                - generic [ref=e2674]: 
+                - generic [ref=e2675]: (877) 787-6652 (Toll-Free)
+            - listitem [ref=e2676]:
+              - link "(803) 252-4801 (Fax)" [ref=e2677] [cursor=pointer]:
+                - /url: tel:8032524801
+                - generic [ref=e2679]: 
+                - generic [ref=e2680]: (803) 252-4801 (Fax)
+        - generic [ref=e2682]:
+          - paragraph [ref=e2685]: Spartanburg Office
+          - generic [ref=e2691]:
+            - paragraph [ref=e2692]:
+              - link "STROM LAW FIRM, L.L.C" [ref=e2693] [cursor=pointer]:
+                - /url: https://www.google.com/maps/dir/34.0137603,-81.0202526/storm+law+firm+spartanburg+sc/@34.4796934,-82.1663567,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88577570a2914991:0x203c53b5f1aad1f0!2m2!1d-81.9340114!2d34.951349?entry=ttu
+            - paragraph [ref=e2694]: 175 Magnolia St Suite 106, Spartanburg, SC 29306
+          - list [ref=e2697]:
+            - listitem [ref=e2698]:
+              - link "(803) 252-4800 (Phone)" [ref=e2699] [cursor=pointer]:
+                - /url: tel:8032524800
+                - generic [ref=e2701]: 
+                - generic [ref=e2702]: (803) 252-4800 (Phone)
+            - listitem [ref=e2703]:
+              - link "(877) 787-6652 (Toll-Free)" [ref=e2704] [cursor=pointer]:
+                - /url: tel:8777876652
+                - generic [ref=e2706]: 
+                - generic [ref=e2707]: (877) 787-6652 (Toll-Free)
+            - listitem [ref=e2708]:
+              - link "(803) 252-4801 (Fax)" [ref=e2709] [cursor=pointer]:
+                - /url: tel:8032524801
+                - generic [ref=e2711]: 
+                - generic [ref=e2712]: (803) 252-4801 (Fax)
+        - generic [ref=e2714]:
+          - paragraph [ref=e2717]: Walterboro officE
+          - generic [ref=e2723]:
+            - paragraph [ref=e2724]:
+              - link "STROM LAW FIRM, L.L.C" [ref=e2725] [cursor=pointer]:
+                - /url: https://www.google.com/maps/dir//strom+law+firm+walterboro/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x88feaf5556c92315:0x7064b5e4a05cd43e?sa=X&ved=2ahUKEwiPwLfPzJGCAxVHg2oFHes9AHUQ9Rd6BAhUEAA&ved=2ahUKEwiPwLfPzJGCAxVHg2oFHes9AHUQ9Rd6BAhjEAU
+            - paragraph [ref=e2726]: 519 E Washington St,
+            - paragraph [ref=e2727]: Walterboro, SC 29488
+          - list [ref=e2730]:
+            - listitem [ref=e2731]:
+              - link "(803) 252-4800 (Phone)" [ref=e2732] [cursor=pointer]:
+                - /url: tel:8032524800
+                - generic [ref=e2734]: 
+                - generic [ref=e2735]: (803) 252-4800 (Phone)
+            - listitem [ref=e2736]:
+              - link "(877) 787-6652 (Toll-Free)" [ref=e2737] [cursor=pointer]:
+                - /url: tel:8777876652
+                - generic [ref=e2739]: 
+                - generic [ref=e2740]: (877) 787-6652 (Toll-Free)
+            - listitem [ref=e2741]:
+              - link "(803) 252-4801 (Fax)" [ref=e2742] [cursor=pointer]:
+                - /url: tel:8032524801
+                - generic [ref=e2744]: 
+                - generic [ref=e2745]: (803) 252-4801 (Fax)
+        - generic [ref=e2747]:
+          - paragraph [ref=e2750]: Georgia Office
+          - list [ref=e2757]:
+            - listitem [ref=e2758]:
+              - link "Mario Pacella 247 Edwards Plaza, Suite 1 St. Simons Island, GA 31522" [ref=e2759] [cursor=pointer]:
+                - /url: https://www.google.com/maps/dir//1612+Newcastle+St+%23201,+Brunswick,+GA+31520/@31.1512089,-81.4980036,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x88e4d817bb4f97c1:0x595cd57a652970e0!2m2!1d-81.4958149!2d31.1512089!3e0
+                - generic [ref=e2760]:
+                  - text: Mario Pacella
+                  - text: 247 Edwards Plaza, Suite 1
+                  - text: St. Simons Island, GA 31522
+          - list [ref=e2763]:
+            - listitem [ref=e2764]:
+              - link "(912) 264-6465 (Phone)" [ref=e2765] [cursor=pointer]:
+                - /url: tel:9122646465
+                - generic [ref=e2767]: 
+                - generic [ref=e2768]: (912) 264-6465 (Phone)
+            - listitem [ref=e2769]:
+              - link "(877) 787-6652 (Toll-Free)" [ref=e2770] [cursor=pointer]:
+                - /url: tel:8777876652
+                - generic [ref=e2772]: 
+                - generic [ref=e2773]: (877) 787-6652 (Toll-Free)
+            - listitem [ref=e2774]:
+              - link "(912) 264-2470 (Fax)" [ref=e2775] [cursor=pointer]:
+                - /url: tel:9122642470
+                - generic [ref=e2777]: 
+                - generic [ref=e2778]: (912) 264-2470 (Fax)
+      - generic [ref=e2782]:
+        - paragraph [ref=e2785]: office hours
+        - list [ref=e2788]:
+          - listitem [ref=e2789]:
+            - generic [ref=e2790]: "Mon-Thurs: 8:30am-5:30pm"
+          - listitem [ref=e2791]:
+            - generic [ref=e2792]: "Fri: 8:30am-5:00pm"
+        - list [ref=e2795]:
+          - listitem [ref=e2796]:
+            - link "Facebook-f" [ref=e2797] [cursor=pointer]:
+              - /url: https://www.facebook.com/stromlawfirm/
+              - generic [ref=e2798]: Facebook-f
+              - generic [ref=e2799]: 
+          - listitem [ref=e2800]:
+            - link "Linkedin-in" [ref=e2801] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/strom-law-firm-l-l-c-
+              - generic [ref=e2802]: Linkedin-in
+              - generic [ref=e2803]: 
+          - listitem [ref=e2804]:
+            - link "Instagram" [ref=e2805] [cursor=pointer]:
+              - /url: https://www.instagram.com/stromlaw/
+              - generic [ref=e2806]: Instagram
+              - generic [ref=e2807]: 
+          - listitem [ref=e2808]:
+            - link "Twitter" [ref=e2809] [cursor=pointer]:
+              - /url: https://twitter.com/stromlaw
+              - generic [ref=e2810]: Twitter
+              - generic [ref=e2811]: 
+          - listitem [ref=e2812]:
+            - link "Youtube" [ref=e2813] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC12PZrlls7-ENCvmRRWe2oQ
+              - generic [ref=e2814]: Youtube
+              - generic [ref=e2815]: 
+        - paragraph [ref=e2818]: Quick Links
+        - list [ref=e2821]:
+          - listitem [ref=e2822]:
+            - link "Legal services" [ref=e2823] [cursor=pointer]:
+              - /url: /strom-law-firm-llc-practice-areas/
+              - generic [ref=e2824]: Legal services
+          - listitem [ref=e2825]:
+            - link "About Our Firm" [ref=e2826] [cursor=pointer]:
+              - /url: /about/
+              - generic [ref=e2827]: About Our Firm
+          - listitem [ref=e2828]:
+            - link "Attorneys" [ref=e2829] [cursor=pointer]:
+              - /url: /attorneys/
+              - generic [ref=e2830]: Attorneys
+          - listitem [ref=e2831]:
+            - link "Barrister Hall" [ref=e2832] [cursor=pointer]:
+              - /url: https://barrister-hall.com/
+              - generic [ref=e2833]: Barrister Hall
+          - listitem [ref=e2834]:
+            - link "Blog" [ref=e2835] [cursor=pointer]:
+              - /url: /blog/
+              - generic [ref=e2836]: Blog
+          - listitem [ref=e2837]:
+            - link "Contact Us" [ref=e2838] [cursor=pointer]:
+              - /url: /contact-us/
+              - generic [ref=e2839]: Contact Us
+        - generic [ref=e2841]: Centrally located in Columbia, South Carolina, the attorneys at the Strom Law Firm, L.L.C. represent clients in a variety of civil and criminal matters. We handle cases throughout South Carolina including Columbia, Lexington, Florence, Camden, Aiken, Charleston, Orangeburg, Irmo, Gilbert, Red Bank, Blythewood, Gaston, West Columbia, Chapin, Rock Hill, Saluda, Lancaster, Sumter, Spartanburg, Newberry, North Augusta, Batesburg-Leesville, as well as cases in Richland County, Lexington County, Fairfield County, Kershaw County, York County, Newberry County, Calhoun County, and Sumter County. The information you obtain at this site is not, nor is it intended to be, legal advice. You should consult an attorney for advice regarding your individual situation. We invite you to contact us and welcome your calls, letters and electronic mail. Contacting us does not create an attorney-client relationship. Please do not send any confidential information to us until such time as an attorney-client relationship has been established.
+      - generic [ref=e2845]:
+        - list [ref=e2848]:
+          - listitem [ref=e2849]:
+            - link "Disclaimer" [ref=e2850] [cursor=pointer]:
+              - /url: /disclaimer/
+              - generic [ref=e2851]: Disclaimer
+          - listitem [ref=e2852]:
+            - link "Privacy Policy" [ref=e2853] [cursor=pointer]:
+              - /url: /privacy-policy/
+              - generic [ref=e2854]: Privacy Policy
+          - listitem [ref=e2855]:
+            - link "Sitemap" [ref=e2856] [cursor=pointer]:
+              - /url: https://stromlaw.com/sitemap/
+              - generic [ref=e2857]: Sitemap
+        - paragraph [ref=e2860]: © 2024 Strom Law Firm, L.L.C. All Rights Reserved.
+  - generic [ref=e2861]: tablet
+  - generic [ref=e2865]:
+    - button "Unmute video" [ref=e2866] [cursor=pointer]
+    - button "Unmute video" [ref=e2867] [cursor=pointer]
+    - button "Close Intaker Chat Widget" [ref=e2869] [cursor=pointer]
+    - button "Toggle position" [ref=e2870] [cursor=pointer]
+    - generic [ref=e2875]:
+      - generic [ref=e2876]:
+        - text: Hi
+        - img "👋🏼" [ref=e2877]
+        - text: Welcome to Strom Law Firm. What kind of matter can we assist you with?
+      - button "Accidents & Injuries" [ref=e2878] [cursor=pointer]:
+        - paragraph [ref=e2879]: Accidents & Injuries
+      - button "Criminal Defense" [ref=e2880] [cursor=pointer]:
+        - paragraph [ref=e2881]: Criminal Defense
+      - button "Employment Law" [ref=e2882] [cursor=pointer]:
+        - paragraph [ref=e2883]: Employment Law
+      - button "Civil Rights" [ref=e2884] [cursor=pointer]:
+        - paragraph [ref=e2885]: Civil Rights
+      - button "Professional Licensing" [ref=e2886] [cursor=pointer]:
+        - paragraph [ref=e2887]: Professional Licensing
+      - button "Tax Law" [ref=e2888] [cursor=pointer]:
+        - paragraph [ref=e2889]: Tax Law
+      - button "Alcoholic Beverage Licensing" [ref=e2890] [cursor=pointer]:
+        - paragraph [ref=e2891]: Alcoholic Beverage Licensing
+      - button "Another issue" [ref=e2892] [cursor=pointer]:
+        - paragraph [ref=e2893]: Another issue
+    - generic [ref=e2894]:
+      - generic [ref=e2895]: Powered by
+      - link "Powered by Intaker" [ref=e2896] [cursor=pointer]:
+        - /url: https://intaker.com
+        - generic: Intaker
+  - button "Call us" [ref=e2898] [cursor=pointer]:
+    - generic [ref=e2900]: Call us

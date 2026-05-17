@@ -1,0 +1,5 @@
+[     399ms] [LOG] PixelYourSite Free version 11.2.0.5 @ https://www.stormsdworak.com/:52
+[     428ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.stormsdworak.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    4320ms] [WARNING] The resource https://www.stormsdworak.com/wp-content/themes/twentytwentyone-child/template-parts/animations.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.stormsdworak.com/:0
+[    5690ms] [LOG] tms hit @ https://www.stormsdworak.com/:155
+[   20952ms] [WARNING] The resource https://www.stormsdworak.com/wp-content/themes/twentytwentyone-child/template-parts/animations.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.stormsdworak.com/:0

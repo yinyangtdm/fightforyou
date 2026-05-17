@@ -1,0 +1,248 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e6]:
+      - generic [ref=e8]:
+        - link "www.chaloupkalaw.net" [ref=e10] [cursor=pointer]:
+          - /url: https://chaloupkalaw.net
+          - img "www.chaloupkalaw.net" [ref=e11]
+        - navigation [ref=e13]:
+          - list [ref=e14]:
+            - listitem [ref=e15]:
+              - link "About Us" [ref=e16] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/about-us/
+              - list:
+                - listitem:
+                  - link "Maren Lynn Chaloupka":
+                    - /url: https://chaloupkalaw.net/maren-lynn-chaloupka/
+                - listitem:
+                  - link "Riley Platt":
+                    - /url: https://chaloupkalaw.net/riley-pratt/
+                - listitem:
+                  - link "Where Our Work Takes Us":
+                    - /url: https://chaloupkalaw.net/maps-of-areas-covered/
+                - listitem:
+                  - link "No AI Research/Writing":
+                    - /url: https://chaloupkalaw.net/no-ai-research-writing/
+            - listitem [ref=e17]:
+              - link "Our Network" [ref=e18] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/our-network/
+            - listitem [ref=e19]:
+              - link "Practice Areas" [ref=e20] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/practice-areas/
+              - list:
+                - listitem:
+                  - link "Mental Illness/PTSD":
+                    - /url: https://chaloupkalaw.net/mental-illness/
+                - listitem:
+                  - link "Auto Crashes":
+                    - /url: https://chaloupkalaw.net/auto-accidents/
+                - listitem:
+                  - link "Trucking Crashes":
+                    - /url: https://chaloupkalaw.net/trucking-accident/
+                - listitem:
+                  - link "Civil Rights":
+                    - /url: https://chaloupkalaw.net/civil-rights/
+                - listitem:
+                  - link "Medical Negligence":
+                    - /url: https://chaloupkalaw.net/medical-negligence/
+                - listitem:
+                  - link "Personal Injury ":
+                    - /url: https://chaloupkalaw.net/personal-injury/
+                    - text: Personal Injury
+                    - generic:
+                      - generic: 
+                  - list:
+                    - listitem:
+                      - link "Slip and Fall":
+                        - /url: https://chaloupkalaw.net/slip-and-fall/
+                    - listitem:
+                      - link "Product Liability":
+                        - /url: https://chaloupkalaw.net/product-liability/
+                    - listitem:
+                      - link "Premises Liability":
+                        - /url: https://chaloupkalaw.net/slip-and-fall-3/
+                - listitem:
+                  - link "Criminal Law":
+                    - /url: https://chaloupkalaw.net/criminal-law/
+                - listitem:
+                  - link "Appeals":
+                    - /url: https://chaloupkalaw.net/appeals/
+            - listitem [ref=e21]:
+              - link "The Bob Chaloupka Trial Skills Seminar" [ref=e22] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/the-bob-chaloupka-trial-skills-seminar/
+              - list:
+                - listitem:
+                  - link "About Bob Chaloupka":
+                    - /url: https://chaloupkalaw.net/bob-chaloupka/
+            - listitem [ref=e23]:
+              - link "Results" [ref=e24] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/results/
+            - listitem [ref=e25]:
+              - link "Blog" [ref=e26] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/blog/
+            - listitem [ref=e27]:
+              - link "Contact Us" [ref=e28] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/contact-us/
+          - list
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e49]:
+          - heading "REPUTATION. RESPECT. RESULTS." [level=2] [ref=e56]
+          - link "Learn More" [ref=e57] [cursor=pointer]:
+            - /url: https://chaloupkalaw.net/?page_id=334
+            - generic [ref=e58]: Learn More
+        - generic [ref=e65]:
+          - heading "We Would Love To Talk To You" [level=2] [ref=e70]
+          - link "Contact Us " [ref=e81] [cursor=pointer]:
+            - /url: https://chaloupkalaw.net/?page_id=71
+            - generic [ref=e82]: Contact Us
+            - generic [ref=e83]: 
+        - generic [ref=e106]:
+          - heading "Chaloupka Law" [level=2] [ref=e109]
+          - paragraph [ref=e112]: Chaloupka Law founder Maren Lynn Chaloupka has built a reputation on her willingness and ability to take on – and win – extraordinarily challenging cases, no matter how complex the legal barriers involved might seem.
+          - paragraph [ref=e115]: Maren’s experience and skill as a trial lawyer, along with her compassion for her clients and her commitment to doing what’s right, has made her one of the most recognized, respected, and successful litigation attorneys in the Midwest.
+          - paragraph [ref=e118]: Based in the Nebraska Panhandle, Maren is a voice and an advocate for clients across 34 Nebraska counties and nine states whose lives have been irrevocably changed due to negligence or abuse by another person, government, corporation, or other difficult adversary. She has tried 70 cases in state and federal courts. At the same time, Maren has handled 82 civil and criminal appeals in state and federal appellate courts – all in just 25 years of law practice.
+        - generic [ref=e127]:
+          - heading "Practice Areas" [level=2] [ref=e130]
+          - generic [ref=e134]:
+            - generic [ref=e138]:
+              - heading "Personal Injury" [level=2] [ref=e142]:
+                - link "Personal Injury" [ref=e143] [cursor=pointer]:
+                  - /url: https://chaloupkalaw.net/?page_id=167
+              - link [ref=e144] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=167
+            - generic [ref=e148]:
+              - heading "Civil Rights" [level=2] [ref=e152]
+              - link [ref=e153] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=190
+            - generic [ref=e157]:
+              - heading "Criminal Law" [level=2] [ref=e161]
+              - link [ref=e162] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=197
+            - generic [ref=e166]:
+              - heading "Appeals" [level=2] [ref=e170]
+              - link [ref=e171] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=204
+        - generic [ref=e184]:
+          - generic [ref=e187]:
+            - heading "The “Beatrice 6” Civil Rights Victory" [level=2] [ref=e190]
+            - generic [ref=e192]:
+              - paragraph [ref=e193]: Maren was co-lead counsel for six wrongfully-convicted men and women, known at the “Beatrice 6.” What started as a cold case investigation of a 1985 rape and murder ultimately led to the imprisonment of six innocent people in Gage County.
+              - paragraph [ref=e194]: They spent a combined 76 years behind bars until DNA proved their innocence. The same DNA testing proved that the crime was committed by a single perpetrator unrelated to any of the Beatrice 6.
+              - paragraph [ref=e195]: Along with her co-counsel, Maren’s steadfast and strategic litigation work over the course of a decade led to a jury awarding $28.1 million in damages to the six plaintiffs in the civil lawsuit.
+            - link "ARTICLE HERE" [ref=e196] [cursor=pointer]:
+              - /url: https://www.newyorker.com/magazine/2017/06/19/remembering-the-murder-you-didnt-commit
+              - generic [ref=e197]: ARTICLE HERE
+          - link [ref=e205] [cursor=pointer]:
+            - /url: https://www.newyorker.com/magazine/2017/06/19/remembering-the-murder-you-didnt-commit
+        - blockquote [ref=e228]:
+          - generic [ref=e229]:
+            - paragraph [ref=e230]: “She asked me whether I had learned to like big cities. ‘I’d always be miserable in a city. I’d die of lonesomeness. I like to be where I know every stack and tree, and where all the ground is friendly. I want to live and die here.”
+            - generic [ref=e232]: Willa Cather, My Antonia
+        - generic [ref=e254]:
+          - generic [ref=e256]:
+            - heading "Our Team" [level=2] [ref=e257]
+            - paragraph [ref=e258]:
+              - text: Chaloupka Law is deeply rooted in the Scottsbluff community, with a history and family dynamic as unique and interesting as the Panhandle itself. Together, Maren and Riley have built a level of
+              - link "trial" [ref=e259] [cursor=pointer]:
+                - /url: https://profiles.superlawyers.com/nebraska/scottsbluff/lawfirm/chaloupka-law-llc/08294657-4053-437f-9f23-5763bbdedab3.html
+              - text: and litigation experience typically found in large metropolitan firms.
+          - generic [ref=e263]:
+            - generic [ref=e266]:
+              - link [ref=e271] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=672
+              - link "Maren Lynn Chaloupka - Attorney " [ref=e274] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=672
+                - generic [ref=e275]: Maren Lynn Chaloupka - Attorney
+                - generic [ref=e276]: 
+            - generic [ref=e279]:
+              - link [ref=e284] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=689
+              - link "Riley Platt - Paralegal " [ref=e287] [cursor=pointer]:
+                - /url: https://chaloupkalaw.net/?page_id=689
+                - generic [ref=e288]: Riley Platt - Paralegal
+                - generic [ref=e289]: 
+        - generic [ref=e290]:
+          - img [ref=e296]
+          - generic [ref=e308]:
+            - heading "We Would Love To Talk To You" [level=2] [ref=e311]
+            - link "Send Us A Message" [ref=e312] [cursor=pointer]:
+              - /url: https://chaloupkalaw.net/?page_id=71
+              - generic [ref=e313]: Send Us A Message
+      - generic [ref=e316]:
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - paragraph [ref=e322]:
+              - text: Chaloupka Law LLC, P.O. Box 1724, 1906 Broadway, Scottsbluff, NE 69363
+              - text: "Phone: 308-270-5091 Fax: 308-270-5105"
+            - link "Privacy Policy" [ref=e325] [cursor=pointer]:
+              - /url: https://chaloupkalaw.net/?page_id=782
+            - generic [ref=e328]:
+              - link [ref=e329] [cursor=pointer]:
+                - /url: https://www.facebook.com/ChaloupkaLawLLC/
+              - link [ref=e330] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/maren-lynn-chaloupka-739ba4202/
+          - paragraph [ref=e336]:
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - text: We can help. Call Chaloupka Law at 308-270-5091, email
+                - strong [ref=e340]:
+                  - link "rp@chaloupkalaw.net" [ref=e341] [cursor=pointer]:
+                    - /url: mailto:rp@chaloupkalaw.net
+                - text: or fill out our confidential
+                - strong [ref=e342]:
+                  - link "contact form" [ref=e343] [cursor=pointer]:
+                    - /url: https://chaloupkalaw.net/?page_id=71
+              - text: .
+        - generic [ref=e346]:
+          - paragraph [ref=e348]: © 2026 www.chaloupkalaw.net.
+          - list [ref=e350]:
+            - listitem [ref=e351]:
+              - link "" [ref=e352] [cursor=pointer]:
+                - /url: https://www.facebook.com/ChaloupkaLawLLC/
+                - generic [ref=e353]: 
+            - listitem [ref=e354]:
+              - link "" [ref=e355] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/maren-lynn-chaloupka-739ba4202/
+                - generic [ref=e356]: 
+    - generic [ref=e357] [cursor=pointer]:
+      - generic [ref=e358]: 
+      - generic [ref=e359]: 
+  - generic [ref=e361]:
+    - generic:    
+  - link:
+    - /url: "#"
+  - generic [ref=e366]:
+    - generic [ref=e367]:
+      - link:
+        - /url: https://chaloupkalaw.net
+    - generic [ref=e368]:
+      - link "Right Menu Button":
+        - /url: "#"
+        - generic [ref=e369] [cursor=pointer]: 
+        - text: 
+  - generic [ref=e370]:
+    - link "Right Menu Button":
+      - /url: "#"
+      - text: 
+    - menubar "Main navigation for mobile devices" [ref=e373]:
+      - menuitem "About Us " [ref=e374] [cursor=pointer]:
+        - text: About Us
+        - generic [ref=e375]:
+          - generic [ref=e376]: 
+          - text: 
+      - menuitem "Our Network" [ref=e377] [cursor=pointer]
+      - menuitem "Practice Areas " [ref=e378] [cursor=pointer]:
+        - text: Practice Areas
+        - generic [ref=e379]:
+          - generic [ref=e380]: 
+          - text: 
+      - text:  
+      - menuitem "The Bob Chaloupka Trial Skills Seminar " [ref=e381] [cursor=pointer]:
+        - text: The Bob Chaloupka Trial Skills Seminar
+        - generic [ref=e382]:
+          - generic [ref=e383]: 
+          - text: 
+      - menuitem "Results" [ref=e384] [cursor=pointer]
+      - menuitem "Blog" [ref=e385] [cursor=pointer]
+      - menuitem "Contact Us" [ref=e386] [cursor=pointer]

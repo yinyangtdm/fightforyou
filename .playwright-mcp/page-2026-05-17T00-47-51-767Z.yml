@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner:
+      - generic:
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e9] [cursor=pointer]:
+              - /url: /
+              - img "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e11]
+            - generic [ref=e12]:
+              - button "Contact Us" [ref=e14] [cursor=pointer]
+              - generic [ref=e17]:
+                - navigation [ref=e19]:
+                  - list [ref=e20]:
+                    - listitem [ref=e21]:
+                      - link "Home" [ref=e22] [cursor=pointer]:
+                        - /url: /
+                    - listitem [ref=e23]:
+                      - link "About" [ref=e24] [cursor=pointer]:
+                        - /url: /about/
+                    - listitem [ref=e25]:
+                      - link "Attorneys 3" [ref=e26] [cursor=pointer]:
+                        - /url: /attorney/
+                    - listitem [ref=e27]:
+                      - generic [ref=e28]: Practice Areas 3
+                    - listitem [ref=e29]:
+                      - link "News" [ref=e30] [cursor=pointer]:
+                        - /url: /news/
+                    - listitem [ref=e31]:
+                      - link "Blog" [ref=e32] [cursor=pointer]:
+                        - /url: /blog/
+                    - listitem [ref=e33]:
+                      - link "Contact" [ref=e34] [cursor=pointer]:
+                        - /url: /contact/
+                - text: aMenu
+          - text: 3 3 aMenu
+        - text: 3 3 a
+    - generic [ref=e35]:
+      - main [ref=e36]:
+        - generic [ref=e38]:
+          - paragraph [ref=e44]: We Fight Against Injustice – Wherever It May Arise
+          - navigation "Breadcrumb" [ref=e49]:
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - link "Home" [ref=e52] [cursor=pointer]:
+                  - /url: https://www.sshhzlaw.com
+              - listitem [ref=e53]: »
+              - listitem [ref=e54]: Attorney
+          - generic [ref=e56]:
+            - generic [ref=e58]:
+              - heading "Learn More About Our Team of Advocates" [level=1] [ref=e59]
+              - paragraph [ref=e60]: Since our foundation in 1990, Schonbrun Seplow Harris Hoffman & Zeldes, LLP has grown into a team of more than 10 experienced trial lawyers. We are committed to obtaining justice for people who have been harmed in Los Angeles and throughout California.
+              - paragraph [ref=e61]: While working vigorously to fulfill our commitment to justice, we never forget who we are working for — you. We will provide you with respectful and caring attention from our attorneys and staff of legal professionals.
+              - paragraph [ref=e62]: You can learn more about the background and experience of our attorneys at the links below.
+              - paragraph [ref=e63]:
+                - strong [ref=e64]:
+                  - link "Benjamin Schonbrun" [ref=e65] [cursor=pointer]:
+                    - /url: /attorney/schonbrun-benjamin/
+              - paragraph [ref=e66]:
+                - strong [ref=e67]:
+                  - link "Michael D. Seplow" [ref=e68] [cursor=pointer]:
+                    - /url: /attorney/seplow-michael-d/
+              - paragraph [ref=e69]:
+                - strong [ref=e70]:
+                  - link "Wilmer J. Harris" [ref=e71] [cursor=pointer]:
+                    - /url: /attorney/harris-wilmer-j/
+              - paragraph [ref=e72]:
+                - strong [ref=e73]:
+                  - link "Paul L. Hoffman" [ref=e74] [cursor=pointer]:
+                    - /url: /attorney/hoffman-paul-l/
+              - paragraph [ref=e75]:
+                - strong [ref=e76]:
+                  - link "Helen I. Zeldes" [ref=e77] [cursor=pointer]:
+                    - /url: /attorney/zeldes-helen-i/
+              - paragraph [ref=e78]:
+                - strong [ref=e79]:
+                  - link "Erwin Chemerinsky" [ref=e80] [cursor=pointer]:
+                    - /url: /attorney/chemerinsky-erwin/
+              - paragraph [ref=e81]:
+                - strong [ref=e82]:
+                  - link "Catherine E. Sweetser" [ref=e83] [cursor=pointer]:
+                    - /url: /attorney/sweetser-catherine-e/
+              - paragraph [ref=e84]:
+                - strong [ref=e85]:
+                  - link "John C. Washington" [ref=e86] [cursor=pointer]:
+                    - /url: /attorney/washington-john-c/
+              - paragraph [ref=e87]:
+                - strong [ref=e88]:
+                  - link "Joshua A. Fields" [ref=e89] [cursor=pointer]:
+                    - /url: /attorney/fields-joshua-a/
+              - paragraph [ref=e90]:
+                - strong [ref=e91]:
+                  - link "Amanda Johnson" [ref=e92] [cursor=pointer]:
+                    - /url: /attorney/johnson-amanda/
+              - paragraph [ref=e93]:
+                - strong [ref=e94]:
+                  - link "Emily Barbour" [ref=e95] [cursor=pointer]:
+                    - /url: /attorney/barbour-emily/
+              - paragraph [ref=e96]:
+                - strong [ref=e97]:
+                  - link "Aidan C. McGlaze" [ref=e98] [cursor=pointer]:
+                    - /url: /attorney/mcglaze-aidan-c/
+              - paragraph [ref=e99]:
+                - strong [ref=e100]:
+                  - link "Summer N. Wright" [ref=e101] [cursor=pointer]:
+                    - /url: /attorney/wright-summer/
+              - heading "Contact Us for a Free Initial Consultation" [level=2] [ref=e102]
+              - paragraph [ref=e103]:
+                - text: Call us at
+                - link "310-396-0731" [ref=e105] [cursor=pointer]:
+                  - /url: tel:+1-310-396-0731
+                - text: or
+                - link "send us an e-mail" [ref=e106] [cursor=pointer]:
+                  - /url: /contact/
+                - text: . Because we handle most employment law, civil rights law and personal injury law cases on a contingency fee basis, ensuring we believe in you and your case.
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - heading "Practice Areas" [level=2] [ref=e110]
+                - list [ref=e112]:
+                  - listitem [ref=e113]:
+                    - text: 
+                    - link "Appellate" [ref=e114] [cursor=pointer]:
+                      - /url: /appellate/
+                  - listitem [ref=e115]:
+                    - text: 
+                    - link "Civil Rights" [ref=e116] [cursor=pointer]:
+                      - /url: /civil-rights-law/
+                    - link "Open Submenu":
+                      - /url: "#"
+                    - text: 
+                  - listitem [ref=e117]:
+                    - text: 
+                    - link "Class Actions" [ref=e118] [cursor=pointer]:
+                      - /url: /class-actions/
+                    - link "Open Submenu":
+                      - /url: "#"
+                    - text:  
+                  - listitem [ref=e119]:
+                    - text: 
+                    - link "Employment" [ref=e120] [cursor=pointer]:
+                      - /url: /employment-law/
+                    - link "Open Submenu":
+                      - /url: "#"
+                    - text:               
+                  - listitem [ref=e121]:
+                    - text: 
+                    - link "Human Rights" [ref=e122] [cursor=pointer]:
+                      - /url: /international-human-rights/
+                  - listitem [ref=e123]:
+                    - text: 
+                    - link "Personal Injury" [ref=e124] [cursor=pointer]:
+                      - /url: /personal-injury/
+                  - listitem [ref=e125]:
+                    - text: 
+                    - link "Police Misconduct" [ref=e126] [cursor=pointer]:
+                      - /url: /police-misconduct/
+                    - link "Open Submenu":
+                      - /url: "#"
+                    - text:  
+              - separator [ref=e128]
+              - heading "Recent Blog Posts" [level=2] [ref=e130]
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - text: 
+                  - link "How to appeal a lost employment case in California" [ref=e134] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/04/how-to-appeal-a-lost-employment-case-in-california/
+                - listitem [ref=e135]:
+                  - text: 
+                  - link "When does a nurse’s “working lunch” become a legal issue?" [ref=e136] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/03/when-does-a-nurses-working-lunch-become-a-legal-issue/
+                - listitem [ref=e137]:
+                  - text: 
+                  - link "What rights do pregnant employees have under California law?" [ref=e138] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/02/what-rights-do-pregnant-employees-have-under-california-law/
+                - listitem [ref=e139]:
+                  - text: 
+                  - link "What evidence do you need in a class action alleging price-fixing?" [ref=e140] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/02/what-evidence-do-you-need-in-a-class-action-alleging-price-fixing/
+                - listitem [ref=e141]:
+                  - text: 
+                  - link "Understanding workplace retaliation and your rights in California" [ref=e142] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/01/understanding-workplace-retaliation-and-your-rights-in-california/
+      - contentinfo [ref=e143]:
+        - generic [ref=e144]:
+          - generic [ref=e147]:
+            - 'heading "We Will Make A Difference For You: Contact Us" [level=2] [ref=e150]'
+            - form [ref=e155]:
+              - generic [ref=e159]:
+                - generic [ref=e162]: Fields marked with an * are required
+                - generic [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic:
+                      - generic [ref=e169]:
+                        - generic [ref=e171]:
+                          - generic [ref=e173]: Name *
+                          - textbox "Name *" [ref=e175]
+                        - generic:
+                          - generic:
+                            - alert
+                      - generic [ref=e179]:
+                        - generic [ref=e181]:
+                          - generic [ref=e183]: Email *
+                          - textbox "Email *" [ref=e185]
+                        - generic:
+                          - generic:
+                            - alert
+                      - generic [ref=e189]:
+                        - generic [ref=e191]:
+                          - generic [ref=e193]: Phone *
+                          - textbox "Phone *" [ref=e195]
+                        - generic:
+                          - generic:
+                            - alert
+                  - generic [ref=e200]:
+                    - generic [ref=e202]:
+                      - generic [ref=e203]: Practice Areas
+                      - combobox "Practice Areas" [ref=e205]:
+                        - option [selected]
+                        - option "Employment Law"
+                        - option "Appellate"
+                        - option "Civil Rights"
+                        - option "Class Actions"
+                        - option "Human Rights"
+                        - option "Police Misconduct"
+                    - generic:
+                      - generic:
+                        - alert
+                  - generic [ref=e210]:
+                    - generic [ref=e212]:
+                      - generic [ref=e214]: Message *
+                      - textbox "Message *" [ref=e216]
+                    - generic:
+                      - generic:
+                        - alert
+                  - generic [ref=e217]:
+                    - generic:
+                      - generic [ref=e221]:
+                        - generic [ref=e224]:
+                          - link "Disclaimer" [ref=e226] [cursor=pointer]:
+                            - /url: /disclaimer/
+                          - generic [ref=e228]:
+                            - text: "Disclaimer: The use of the internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form. By submitting this form you accept the"
+                            - link [ref=e229] [cursor=pointer]:
+                              - /url: https://www.internetbrands.com/ibterms
+                              - text: Terms of Use
+                            - text: and
+                            - link [ref=e230] [cursor=pointer]:
+                              - /url: https://www.internetbrands.com/privacy/privacy-highlights
+                              - text: Privacy Policy
+                            - text: .
+                        - generic:
+                          - generic:
+                            - alert
+                      - generic [ref=e234]:
+                        - generic [ref=e236]:
+                          - generic [ref=e238]: I Have Read The Disclaimer *
+                          - generic [ref=e239]:
+                            - checkbox "I Have Read The Disclaimer *"
+                        - generic:
+                          - generic:
+                            - alert
+                      - generic [ref=e243]:
+                        - button "Evaluate My Case" [ref=e247]
+                        - generic:
+                          - generic:
+                            - alert
+                - generic:
+                  - generic:
+                    - alert
+          - generic [ref=e248]:
+            - heading "Contact the firm" [level=2] [ref=e253]:
+              - strong [ref=e254]: Contact the firm
+            - generic [ref=e255]:
+              - generic [ref=e258] [cursor=pointer]:
+                - link "Pasadena Map" [ref=e260]:
+                  - /url: /south-pasadena-employment-law-office/
+                  - img "Pasadena Map" [ref=e262]
+                - generic [ref=e263]:
+                  - heading "S. Pasadena Office" [level=3] [ref=e264]:
+                    - link "S. Pasadena Office" [ref=e265]:
+                      - /url: /south-pasadena-employment-law-office/
+                  - generic [ref=e266]:
+                    - paragraph [ref=e267]:
+                      - text: "Phone:"
+                      - strong [ref=e268]:
+                        - link "626-441-4129" [ref=e270]:
+                          - /url: tel:+1-626-441-4129
+                      - text: "Fax:"
+                      - strong [ref=e271]: 626-283-5770
+                      - generic [ref=e272]:
+                        - text: 715 Fremont Avenue
+                        - text: Suite A
+                        - text: S. Pasadena, CA 91030
+                    - paragraph [ref=e273]:
+                      - link "S. Pasadena Office" [ref=e274]:
+                        - /url: /south-pasadena-employment-law-office/
+              - generic [ref=e277] [cursor=pointer]:
+                - link "Culver City Map" [ref=e279]:
+                  - /url: /culver-city-employment-law-office/
+                  - img "Culver City Map" [ref=e281]
+                - generic [ref=e282]:
+                  - heading "Culver City Office" [level=3] [ref=e283]:
+                    - link "Culver City Office" [ref=e284]:
+                      - /url: /culver-city-employment-law-office/
+                  - generic [ref=e285]:
+                    - paragraph [ref=e286]:
+                      - text: "Phone:"
+                      - strong [ref=e287]:
+                        - link "310-396-0731" [ref=e289]:
+                          - /url: tel:+1-310-396-0731
+                      - text: "Fax:"
+                      - strong [ref=e290]: 310-399-7040
+                      - generic [ref=e291]:
+                        - text: "9415 Culver Blvd. #115"
+                        - text: Culver City, CA 90232
+                    - paragraph [ref=e292]:
+                      - link "Culver City Office" [ref=e293]:
+                        - /url: /culver-city-employment-law-office/
+              - generic [ref=e296] [cursor=pointer]:
+                - link "Hermosa Beach Map" [ref=e298]:
+                  - /url: /hermosa-beach-law-office/
+                  - img "Hermosa Beach Map" [ref=e300]
+                - generic [ref=e301]:
+                  - heading "Hermosa Beach Office" [level=3] [ref=e302]:
+                    - link "Hermosa Beach Office" [ref=e303]:
+                      - /url: /hermosa-beach-law-office/
+                  - paragraph [ref=e305]:
+                    - text: "Phone:"
+                    - strong [ref=e306]:
+                      - link "424-297-0114" [ref=e308]:
+                        - /url: tel:+1-424-297-0114
+                    - text: "Fax:"
+                    - strong [ref=e309]: 310-399-7040
+                    - generic [ref=e310]:
+                      - text: 200 Pier Ave
+                      - text: Suite 226
+                      - text: Hermosa Beach, CA 90254
+                    - link "Hermosa Beach Office" [ref=e311]:
+                      - /url: /hermosa-beach-law-office/
+              - generic [ref=e314] [cursor=pointer]:
+                - link "San Diego Map" [ref=e316]:
+                  - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+                  - img "San Diego Map" [ref=e318]
+                - generic [ref=e319]:
+                  - heading "San Diego Office" [level=3] [ref=e320]:
+                    - link "San Diego Office" [ref=e321]:
+                      - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+                  - paragraph [ref=e323]:
+                    - text: "Phone:"
+                    - strong [ref=e324]:
+                      - link "619-400-4990" [ref=e326]:
+                        - /url: tel:+1-619-400-4990
+                    - text: "Fax:"
+                    - strong [ref=e327]: 310-399-7040
+                    - generic [ref=e328]:
+                      - text: 501 W. Broadway
+                      - text: Suite 800
+                      - text: San Diego, CA 92101
+                    - link "San Diego Office" [ref=e329]:
+                      - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+          - paragraph [ref=e335]: Reach out to one of our experienced attorneys today
+          - generic [ref=e337]:
+            - img "California Employment Lawyers Association | Cela" [ref=e341]
+            - img "The State Bar Of California | July 29th 1927" [ref=e345]
+            - img "Lacba | Los Angeles County Bar Association" [ref=e349]
+            - img "Nela | National Employment Lawyers Association" [ref=e353]
+            - img "Consumer Attorneys Of California" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - button "Review Us" [ref=e362] [cursor=pointer]
+              - list [ref=e364]:
+                - listitem [ref=e365]:
+                  - link " Follow on Facebook, opens in a new window" [ref=e366] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sshhzlaw/
+                    - text: 
+                    - generic: Follow on Facebook, opens in a new window
+            - text: 
+            - generic [ref=e370]:
+              - paragraph [ref=e371]
+              - generic [ref=e372]:
+                - paragraph [ref=e374]:
+                  - text: © 2026
+                  - link "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e375] [cursor=pointer]:
+                    - /url: https://lawyers.findlaw.com/california/culver-city/schonbrun-seplow-harris-hoffman--zeldes-llp-MTA2MDA4NF8x/
+                  - text: • All Rights Reserved
+                - paragraph [ref=e377]:
+                  - link "Disclaimer" [ref=e378] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/disclaimer/
+                  - text: "|"
+                  - link "Site Map" [ref=e379] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/site-map/
+                  - text: "|"
+                  - link "Privacy Policy" [ref=e380] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/privacy/
+                  - text: "|"
+                  - link "Business Development Solutions" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.findlaw.com/lawyer-marketing/
+                  - text: by
+                  - link "FindLaw" [ref=e382] [cursor=pointer]:
+                    - /url: https://www.findlaw.com/
+  - button "Back To Top"
+  - generic [ref=e383]:
+    - button "╳" [ref=e385]
+    - generic [ref=e386]:
+      - generic:
+        - img

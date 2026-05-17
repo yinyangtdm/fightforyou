@@ -1,0 +1,28 @@
+[    1283ms] [WARNING] [Vue warn]: Extraneous non-emits event listeners (inputValue, errorFixed) were passed to component but could not be automatically inherited because component renders fragment or text root nodes. If the listener is intended to be a component custom event listener only, declare it using the "emits" option. 
+  at <FormInput ref_for=true ref="email" form-attrs= {label: Email, type: email, validate: , required: true, errMessage: Email address}  ... > 
+  at <SpringBoardMinimalForm prefix-for-id="signup-home" springboard-info= {id: 10971, affiliate_id: AR, marketSource: Object} button-text="Sign Up"  ... > 
+  at <App> @ https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/commonlast-CX0CSB9c.js:5
+[    1284ms] [WARNING] [Vue warn]: Extraneous non-emits event listeners (inputValue, errorFixed) were passed to component but could not be automatically inherited because component renders fragment or text root nodes. If the listener is intended to be a component custom event listener only, declare it using the "emits" option. 
+  at <FormInput ref_for=true ref="zip" form-attrs= {label: ZIP code, type: text, validate: , required: true, errMessage: Zipcode (5 digits)}  ... > 
+  at <SpringBoardMinimalForm prefix-for-id="signup-home" springboard-info= {id: 10971, affiliate_id: AR, marketSource: Object} button-text="Sign Up"  ... > 
+  at <App> @ https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/commonlast-CX0CSB9c.js:5
+[    1284ms] [WARNING] [Vue warn]: Extraneous non-emits event listeners (inputValue, errorFixed) were passed to component but could not be automatically inherited because component renders fragment or text root nodes. If the listener is intended to be a component custom event listener only, declare it using the "emits" option. 
+  at <FormInput ref_for=true ref="suffix" form-attrs= {label: Leave this field blank, type: text, validate: , required: false, hidden: true}  ... > 
+  at <SpringBoardMinimalForm prefix-for-id="signup-home" springboard-info= {id: 10971, affiliate_id: AR, marketSource: Object} button-text="Sign Up"  ... > 
+  at <App> @ https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/commonlast-CX0CSB9c.js:5
+[    1287ms] [WARNING] [Vue warn]: Extraneous non-emits event listeners (inputValue, errorFixed) were passed to component but could not be automatically inherited because component renders fragment or text root nodes. If the listener is intended to be a component custom event listener only, declare it using the "emits" option. 
+  at <FormInput ref_for=true ref="email" form-attrs= {label: Email, type: email, validate: , required: true, errMessage: Email address}  ... > 
+  at <SpringBoardMinimalForm prefix-for-id="signup-6a061156e34e6" springboard-info= {id: 10971, affiliate_id: AR, marketSource: Object} button-text="Sign Up"  ... > 
+  at <App> @ https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/commonlast-CX0CSB9c.js:5
+[    1288ms] [WARNING] [Vue warn]: Extraneous non-emits event listeners (inputValue, errorFixed) were passed to component but could not be automatically inherited because component renders fragment or text root nodes. If the listener is intended to be a component custom event listener only, declare it using the "emits" option. 
+  at <FormInput ref_for=true ref="zip" form-attrs= {label: ZIP code, type: text, validate: , required: true, errMessage: Zipcode (5 digits)}  ... > 
+  at <SpringBoardMinimalForm prefix-for-id="signup-6a061156e34e6" springboard-info= {id: 10971, affiliate_id: AR, marketSource: Object} button-text="Sign Up"  ... > 
+  at <App> @ https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/commonlast-CX0CSB9c.js:5
+[    1288ms] [WARNING] [Vue warn]: Extraneous non-emits event listeners (inputValue, errorFixed) were passed to component but could not be automatically inherited because component renders fragment or text root nodes. If the listener is intended to be a component custom event listener only, declare it using the "emits" option. 
+  at <FormInput ref_for=true ref="suffix" form-attrs= {label: Leave this field blank, type: text, validate: , required: false, hidden: true}  ... > 
+  at <SpringBoardMinimalForm prefix-for-id="signup-6a061156e34e6" springboard-info= {id: 10971, affiliate_id: AR, marketSource: Object} button-text="Sign Up"  ... > 
+  at <App> @ https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/commonlast-CX0CSB9c.js:5
+[    1304ms] TypeError: Cannot set properties of null (setting 'onclick')
+    at u (https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/common-VS1UTsVg.js?ver=6.9.4:1:110)
+    at d (https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/common-VS1UTsVg.js?ver=6.9.4:1:604)
+    at https://www.acluarkansas.org/app/themes/aclu-parent/dist/assets/js/common-VS1UTsVg.js?ver=6.9.4:1:608

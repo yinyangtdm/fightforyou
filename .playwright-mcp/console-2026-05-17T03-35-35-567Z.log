@@ -1,0 +1,17 @@
+[     518ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://defenselawindiana.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[     636ms] [WARNING] jQuery.Deferred exception: WOW is not defined ReferenceError: WOW is not defined
+    at HTMLDocument.<anonymous> (https://defenselawindiana.com/wp-content/themes/featured/js/custom.js?ver=6.9.4:575:1)
+    at e (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[     639ms] [WARNING] jQuery.Deferred exception: jQuery(...).owlCarousel is not a function TypeError: jQuery(...).owlCarousel is not a function
+    at HTMLDocument.<anonymous> (https://defenselawindiana.com/wp-content/themes/featured/js/custom.js?ver=6.9.4:348:31)
+    at e (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[     639ms] ReferenceError: WOW is not defined
+    at HTMLDocument.<anonymous> (https://defenselawindiana.com/wp-content/themes/featured/js/custom.js?ver=6.9.4:575:1)
+    at e (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)
+[     639ms] TypeError: jQuery(...).owlCarousel is not a function
+    at HTMLDocument.<anonymous> (https://defenselawindiana.com/wp-content/themes/featured/js/custom.js?ver=6.9.4:348:31)
+    at e (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://defenselawindiana.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)

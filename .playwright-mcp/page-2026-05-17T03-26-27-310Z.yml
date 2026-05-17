@@ -1,0 +1,202 @@
+- generic [ref=e2]:
+  - banner:
+    - generic [ref=e3]:
+      - link "Skip to Content" [ref=e4] [cursor=pointer]:
+        - /url: "#page"
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "LinkedIn" [ref=e10] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/sykes-mcallister-law-offices-pllc/
+            - img [ref=e11]
+          - link "YouTube" [ref=e13] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UC2BaCltAAS-X4B_jkLIwqAw
+            - img [ref=e14]
+          - link "Facebook" [ref=e16] [cursor=pointer]:
+            - /url: https://www.facebook.com/sykes.mcallister.law
+            - img [ref=e17]
+        - generic [ref=e19]:
+          - link "Sykes McAllister Law Offices" [ref=e22] [cursor=pointer]:
+            - /url: /
+            - img "Sykes McAllister Law Offices" [ref=e23]
+          - navigation [ref=e26]:
+            - link "Home" [ref=e28] [cursor=pointer]:
+              - /url: /
+            - link "About Us" [ref=e30] [cursor=pointer]:
+              - /url: /about-us
+            - link "Practice Areas" [ref=e32] [cursor=pointer]:
+              - /url: /practice-areas
+            - button "Media" [ref=e34] [cursor=pointer]:
+              - generic [ref=e35]: Media
+            - link "Blog" [ref=e37] [cursor=pointer]:
+              - /url: https://blog.sykesmcallisterlaw.com
+        - link "CONTACT US" [ref=e40] [cursor=pointer]:
+          - /url: /contact-sykes-mcallister
+  - main [ref=e41]:
+    - article [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e51]:
+          - heading "Advocates for Justice." [level=1] [ref=e56]
+          - generic:
+            - img
+        - generic:
+          - img
+          - img
+      - generic [ref=e62]:
+        - generic [ref=e65]:
+          - heading "Who we are" [level=1] [ref=e68]
+          - generic:
+            - img
+          - generic:
+            - img
+        - generic [ref=e73]:
+          - paragraph [ref=e74]: We are a Salt Lake City law firm focusing in civil litigation. We are trial attorneys who specialize in civil rights violations, police misconduct, personal injury, automobile accidents, medical malpractice and wrongful death suits.
+          - paragraph [ref=e75]: Attorneys Bob Sykes and Alyson McAllister are both members of the American Association for Justice (AAJ) and Utah Association for Justice (UAJ) and both have decades worth of experience litigating and taking cases to trial.
+          - paragraph [ref=e76]: Our attorneys are licensed to practice in Utah.
+        - img "Robert Sykes Attorney Utah Civil Rights Personal Injury Medical Malpractice Lawyer" [ref=e85]
+        - link "About us" [ref=e100] [cursor=pointer]:
+          - /url: /about-us
+      - generic [ref=e106]:
+        - separator [ref=e110]
+        - img "Alyson McAllister, Peter Sorensen and clients suing the state of Utah Robert Sykes Attorney Utah Civil Rights Personal Injury Medical Malpractice Lawyer" [ref=e119]
+        - generic [ref=e123]:
+          - heading "In the News" [level=1] [ref=e126]
+          - generic:
+            - img
+        - paragraph [ref=e132]: Attorneys Bob Sykes and Alyson McAllister are regularly asked to comment on civil rights issues in Utah. As a firm, we also make a point to get our clients’ stories out there and in the press. Explore some of our recent media coverage.
+        - link "Media Coverage" [ref=e137] [cursor=pointer]:
+          - /url: /bob-sykes-alyson-mcallister-news-stories
+      - generic [ref=e143]:
+        - separator [ref=e147]
+        - heading "Areas of Practice" [level=2] [ref=e153]
+        - paragraph [ref=e159]:
+          - text: We practice in several areas, but the three most common types of cases we handle are Civil Rights, Medical Malpractice, Premises Liability and Personal Injury. Explore these case types by clicking “learn more” below or look at all the types of cases we handle
+          - link "here" [ref=e160] [cursor=pointer]:
+            - /url: /practice-areas
+          - text: .
+      - generic [ref=e165]:
+        - list [ref=e166]:
+          - listitem [ref=e167]:
+            - img "police officer looks at scene of incident. Police brutality. Police Misconduct. Civil Rights Utah Lawyer" [ref=e170]
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - heading "Civil Rights" [level=2] [ref=e173]
+                - paragraph [ref=e175]: Was my bad experience with law enforcement a violation of my constitutionally protected rights?
+              - link "Learn more about Civil Rights lawsuits" [ref=e178] [cursor=pointer]:
+                - /url: /utah-civil-rights-attorney
+          - listitem [ref=e179]:
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - heading "Medical Malpractice" [level=2] [ref=e184]
+                - paragraph [ref=e186]: I had a bad result from a doctor. How do I know if it’s medical malpractice, and when should I call a lawyer?
+              - link "find out more about medical malpractice lawsuits" [ref=e189] [cursor=pointer]:
+                - /url: /medical-malpractice-lawyer-in-utah
+          - listitem [ref=e190]:
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - heading "Personal Injury" [level=2] [ref=e195]
+                - paragraph [ref=e197]: What is a personal injury lawsuit, do I have one, and can I sue to help pay my medical bills?
+              - link "Discover more about personal injury lawsuits in Utah" [ref=e200] [cursor=pointer]:
+                - /url: /personal-injury-lawyer-utah
+        - link "Contact us for a free consultation" [ref=e202] [cursor=pointer]:
+          - /url: /contact-consultation-sykes-mcallister
+  - contentinfo [ref=e203]:
+    - generic [ref=e209]:
+      - img "Sykes McAllister Law Offices Logo. Salt Lake City Attorney specializing in Medical Malpractice, Civil Rights, Police Misconduct, Police Brutality and Personal Injury" [ref=e217]
+      - generic [ref=e223]:
+        - paragraph [ref=e224]:
+          - strong [ref=e225]: Sykes McAllister Law Offices, PLLC
+          - text: 311 S. State Street, Ste. 240
+          - text: Salt Lake City, UT 84111
+        - paragraph [ref=e226]:
+          - strong [ref=e227]: "Phone:"
+          - text: (801) 533-0222
+          - strong [ref=e228]: "Fax:"
+          - text: (801) 533-8081
+      - navigation [ref=e234]:
+        - link "LinkedIn" [ref=e235] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/sykes-mcallister-law-offices-pllc/
+          - img [ref=e237]
+        - link "YouTube" [ref=e240] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UC2BaCltAAS-X4B_jkLIwqAw
+          - img [ref=e242]
+        - link "Facebook" [ref=e245] [cursor=pointer]:
+          - /url: https://www.facebook.com/sykes.mcallister.law
+          - img [ref=e247]
+      - link "Contact us" [ref=e254] [cursor=pointer]:
+        - /url: /contact-consultation-sykes-mcallister
+      - paragraph [ref=e260]:
+        - strong [ref=e261]: Site Map
+      - paragraph [ref=e267]:
+        - strong [ref=e268]: Areas of Practice
+      - paragraph [ref=e274]:
+        - link "Medical Malpractice" [ref=e275] [cursor=pointer]:
+          - /url: /medical-malpractice-lawyer-in-utah
+        - link "Civil Rights Police" [ref=e277] [cursor=pointer]:
+          - /url: /utah-civil-rights-attorney
+        - link "Police Misconduct" [ref=e278] [cursor=pointer]:
+          - /url: /utah-civil-rights-attorney
+        - link "Personal Injury" [ref=e279] [cursor=pointer]:
+          - /url: /personal-injury-lawyer-utah
+        - link "Slip & Fall" [ref=e280] [cursor=pointer]:
+          - /url: /slip-and-fall-accident-attorney-utah
+        - link "Car Accidents" [ref=e281] [cursor=pointer]:
+          - /url: /car-accident-attorney-utah
+        - link "Wrongful Death" [ref=e282] [cursor=pointer]:
+          - /url: /what-is-wrongful-death-utah-lawyer
+        - link "Product Liability" [ref=e284] [cursor=pointer]:
+          - /url: /product-liability-defective-injured-lawyer-utah
+      - paragraph [ref=e290]:
+        - link "Home" [ref=e291] [cursor=pointer]:
+          - /url: /home
+        - link "Our Attorneys" [ref=e292] [cursor=pointer]:
+          - /url: /about-us
+        - link "Areas of Practice" [ref=e293] [cursor=pointer]:
+          - /url: /practice-areas
+        - link "News Coverage" [ref=e294] [cursor=pointer]:
+          - /url: /bob-sykes-alyson-mcallister-news-stories
+        - link "Press Releases" [ref=e295] [cursor=pointer]:
+          - /url: /press-releases
+        - link "Blog" [ref=e296] [cursor=pointer]:
+          - /url: https://blog.sykesmcallisterlaw.com
+        - link "Contact Us" [ref=e297] [cursor=pointer]:
+          - /url: /contact-consultation-sykes-mcallister
+      - paragraph [ref=e303]:
+        - strong [ref=e304]: Join our mailing list!
+      - paragraph [ref=e310]: Keep up to date on news stories about us, our success stories, and get helpful information about the law that affects you.
+      - generic [ref=e316]:
+        - generic [ref=e317]:
+          - group "Name" [ref=e318]:
+            - generic [ref=e322]: Name
+            - generic [ref=e323]:
+              - generic [ref=e326]:
+                - text: First Name
+                - generic [ref=e327]: (required)
+              - textbox "First Name (required)" [ref=e328]
+            - generic [ref=e329]:
+              - generic [ref=e332]:
+                - text: Last Name
+                - generic [ref=e333]: (required)
+              - textbox "Last Name (required)" [ref=e334]
+          - generic [ref=e335]:
+            - generic [ref=e338] [cursor=pointer]:
+              - generic [ref=e339]: Email
+              - generic [ref=e340]: (required)
+            - textbox "Email (required)" [ref=e341]:
+              - /placeholder: ""
+          - group "Agree to receive communications (required)" [ref=e342]:
+            - generic [ref=e345]:
+              - generic [ref=e346]: Agree to receive communications
+              - generic [ref=e347]: (required)
+            - generic [ref=e349] [cursor=pointer]:
+              - checkbox "I agree to receive emails from Sykes McAllister" [ref=e350]
+              - generic [ref=e351]: I agree to receive emails from Sykes McAllister
+          - generic:
+            - textbox
+        - button "Submit" [ref=e353] [cursor=pointer]
+      - paragraph [ref=e359]:
+        - emphasis [ref=e360]:
+          - text: ©2023 Sykes McAllister Law Offices, PLLC
+          - text: Website created by
+        - link "The Charrette" [ref=e361] [cursor=pointer]:
+          - /url: https://www.kathleensykes.com
+          - emphasis [ref=e363]: The Charrette

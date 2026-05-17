@@ -1,0 +1,496 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e6]:
+        - paragraph [ref=e7]:
+          - text: Legendary Trial Lawyer Gerry Spence, Founder of The Spence Law Firm, Dies at 96 --
+          - link "Read more" [ref=e8] [cursor=pointer]:
+            - /url: /firm-news/gerry-spence-founder-of-the-spence-law-firm-dies-at-96
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link " Call 888-513-6292" [ref=e11]:
+              - /url: tel:888-513-6292
+              - generic [ref=e12]: 
+              - text: Call 888-513-6292
+          - listitem [ref=e13]:
+            - link "Contact" [ref=e14] [cursor=pointer]:
+              - /url: https://www.spencelawyers.com/contact-us
+      - generic [ref=e17]:
+        - link "The Spence Law Firm" [ref=e18] [cursor=pointer]:
+          - /url: https://www.spencelawyers.com/
+          - img "The Spence Law Firm" [ref=e19]
+        - navigation [ref=e21]:
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "Our Firm" [ref=e24] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/our-firm
+            - listitem [ref=e25]:
+              - link "Our Attorneys" [ref=e26] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/attorneys
+            - listitem [ref=e27]:
+              - link "Practice Areas" [ref=e28] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/practice-areas
+            - listitem [ref=e29]:
+              - link "Top Results" [ref=e30] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/top-results
+            - listitem [ref=e31]:
+              - link "News & Insights" [ref=e32] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/firm-news
+        - text: Menu
+    - heading "We only do one thing. Fight for people. And we do it well." [level=1] [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e44]:
+        - link [ref=e51] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e52]
+        - generic [ref=e56]:
+          - heading "Wyoming Trial Attorneys Serving Clients Nationwide" [level=2] [ref=e57]
+          - generic [ref=e58]:
+            - paragraph [ref=e60]:
+              - text: Built on the legacy of our founder,
+              - link "Gerry Spence" [ref=e61] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/attorneys/gerry-l-spence
+              - text: ", our trial team is committed to fighting for you and your loved ones. We understand the difficulties with navigating the legal process – it’s overwhelming. Our trial team will handle every part of your case and allow you to focus on treatment and healing."
+            - paragraph [ref=e63]: At The Spence Law Firm, we expect to win every case we accept. We do everything in our power to make this a reality, drawing on our extensive resources, in-depth knowledge of the legal system, and decades of combined trial experience.
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "Watch Our Firm Video" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e68]
+                - text: Watch Our Firm Video
+            - listitem [ref=e70]:
+              - link "Send us a message " [ref=e72] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/contact-us/
+                - text: Send us a message
+                - generic [ref=e73]: 
+      - generic [ref=e77]:
+        - heading "We expect to win every case" [level=2] [ref=e79]
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - paragraph [ref=e83]:
+              - strong [ref=e84]: Our personal injury lawyers are ready to win for you
+            - paragraph [ref=e85]:
+              - text: Our team has earned over a
+              - link "billion dollars in verdicts and settlements" [ref=e86] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/personal-injury-lawsuit-results
+              - text: across the country. We take on big corporations, insurance companies, and the government. When you are hurt or suffering from catastrophic injury or loss -- or when the stakes are just too high for most lawyers -- we are here for you.
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link " Call 888-513-6292" [ref=e90]:
+                - /url: tel:888-513-6292
+                - generic [ref=e91]: 
+                - text: Call 888-513-6292
+            - listitem [ref=e92]:
+              - link "Send us a message " [ref=e94] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/contact-us
+                - text: Send us a message
+                - generic [ref=e95]: 
+      - generic [ref=e99]:
+        - link [ref=e106] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e107]
+        - generic [ref=e111]:
+          - heading "Fighting for the people" [level=2] [ref=e112]:
+            - text: Fighting for
+            - text: the people
+          - generic [ref=e113]:
+            - paragraph [ref=e115]: The Spence Law Firm’s founding member—Gerry Spence—recently hosted a TEDx Talk focused on Fighting for the People. Gerry shares the story of how he came to realize that standing up for ordinary people—and the justice they deserve—was more important than anything. He details his transition from defending rich, powerful corporations to
+            - paragraph [ref=e117]: fighting on behalf of normal, everyday individuals who, through no fault of their own, have had their lives and their futures forever altered. Gerry discusses the pivotal moment that led him to change the trajectory of his career, a move that would ultimately lead him to becoming known as “the people’s lawyer.”
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link "Meet Gerry Spence " [ref=e121] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/attorneys/gerry-l-spence
+                - text: Meet Gerry Spence
+                - generic [ref=e122]: 
+            - listitem [ref=e123]:
+              - link "Send us a message " [ref=e125] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/contact-us
+                - text: Send us a message
+                - generic [ref=e126]: 
+      - generic [ref=e130]:
+        - img "The attorneys at The Spence Law Firm" [ref=e133]
+        - generic [ref=e137]:
+          - generic [ref=e140]:
+            - generic [ref=e144]:
+              - heading [level=2] [ref=e145]: They are the best trained and the best firm for understanding the needs of people whose lives have been taken apart by an event of great consequence.”
+              - generic [ref=e146]: —Marilyn M.
+            - generic [ref=e150]:
+              - heading "I had a great experience working with the Spence law firm and the great people who work there.”" [level=2] [ref=e151]
+              - generic [ref=e152]: —Shelby H.
+            - generic [ref=e156]:
+              - heading [level=2] [ref=e157]: Excellent firm for all types of personal injury and complex cases.”
+              - generic [ref=e158]: —Todd B.
+            - generic [ref=e162]:
+              - heading [level=2] [ref=e163]: The Spence Law Firm is well equipped to handle complex personal injury matters.”
+              - generic [ref=e164]: —Jason M.
+            - generic [ref=e168]:
+              - heading [level=2] [ref=e169]: I couldn't be happier with my experience at The Spence Law Firm. They truly care about you as a person, not just your case.”
+              - generic [ref=e170]: —Amber L.
+            - generic [ref=e174]:
+              - heading [level=2] [ref=e175]: They are straight shooters who have earned respect and admiration--even of their opponents--with hard work and scrupulous honesty.”
+              - generic [ref=e176]: —Bernard C.
+            - generic [ref=e180]:
+              - heading [level=2] [ref=e181]: They are the best trained and the best firm for understanding the needs of people whose lives have been taken apart by an event of great consequence.”
+              - generic [ref=e182]: —Marilyn M.
+            - generic [ref=e186]:
+              - heading [level=2] [ref=e187]: I had a great experience working with the Spence law firm and the great people who work there.”
+              - generic [ref=e188]: —Shelby H.
+            - generic [ref=e192]:
+              - heading [level=2] [ref=e193]: Excellent firm for all types of personal injury and complex cases.”
+              - generic [ref=e194]: —Todd B.
+            - generic [ref=e198]:
+              - heading [level=2] [ref=e199]: The Spence Law Firm is well equipped to handle complex personal injury matters.”
+              - generic [ref=e200]: —Jason M.
+            - generic [ref=e204]:
+              - heading [level=2] [ref=e205]: I couldn't be happier with my experience at The Spence Law Firm. They truly care about you as a person, not just your case.”
+              - generic [ref=e206]: —Amber L.
+            - generic [ref=e210]:
+              - heading [level=2] [ref=e211]: They are straight shooters who have earned respect and admiration--even of their opponents--with hard work and scrupulous honesty.”
+              - generic [ref=e212]: —Bernard C.
+            - generic [ref=e216]:
+              - heading [level=2] [ref=e217]: They are the best trained and the best firm for understanding the needs of people whose lives have been taken apart by an event of great consequence.”
+              - generic [ref=e218]: —Marilyn M.
+          - generic [ref=e220]:
+            - link "Previous testimonial" [ref=e221] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e223]
+              - img [ref=e226]
+            - link "Next testimonial" [ref=e228] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e230]
+              - img [ref=e234]
+      - generic [ref=e238]:
+        - heading "More than $1 billion in verdicts & settlements" [level=2] [ref=e240]:
+          - text: More than $1 billion
+          - text: in verdicts & settlements
+        - generic [ref=e244]:
+          - generic [ref=e247]:
+            - generic [ref=e252]:
+              - heading [level=3] [ref=e253]: $8M
+              - strong [ref=e254]: Settlement
+            - generic [ref=e259]:
+              - heading [level=3] [ref=e260]: $7.5M
+              - strong [ref=e261]: Settlement
+              - paragraph [ref=e262]: Personal Injury
+            - generic [ref=e267]:
+              - heading [level=3] [ref=e268]: $7M
+              - strong [ref=e269]: Settlement
+              - paragraph [ref=e270]: Wrongful Death
+            - generic [ref=e275]:
+              - heading "$100M+" [level=3] [ref=e276]
+              - strong [ref=e277]: Settlement
+              - paragraph [ref=e278]: Burn Injury
+            - generic [ref=e283]:
+              - heading "$52M" [level=3] [ref=e284]
+              - strong [ref=e285]: Settlement
+              - paragraph [ref=e286]: Business Litigation
+            - generic [ref=e291]:
+              - heading "$52M" [level=3] [ref=e292]
+              - strong [ref=e293]: Verdict
+              - paragraph [ref=e294]: Business Litigation
+            - generic [ref=e299]:
+              - heading [level=3] [ref=e300]: $47M
+              - strong [ref=e301]: Settlement
+              - paragraph [ref=e302]: Industrial and Work Accident
+            - generic [ref=e307]:
+              - heading [level=3] [ref=e308]: $36M
+              - strong [ref=e309]: Settlement
+              - paragraph [ref=e310]: Civil Rights
+            - generic [ref=e315]:
+              - heading [level=3] [ref=e316]: $33.5M
+              - strong [ref=e317]: Verdict
+              - paragraph [ref=e318]: Business Litigation
+            - generic [ref=e323]:
+              - heading [level=3] [ref=e324]: $35.2M
+              - strong [ref=e325]: Verdict
+              - paragraph [ref=e326]: Business Litigation
+            - generic [ref=e331]:
+              - heading [level=3] [ref=e332]: $28M
+              - strong [ref=e333]: Verdict
+              - paragraph [ref=e334]: Carbon Monoxide Poisoning
+            - generic [ref=e339]:
+              - heading [level=3] [ref=e340]: $26.5M
+              - strong [ref=e341]: Verdict
+              - paragraph [ref=e342]: Other Cases
+            - generic [ref=e347]:
+              - heading [level=3] [ref=e348]: $22M
+              - strong [ref=e349]: Settlement
+              - paragraph [ref=e350]: Other Cases
+            - generic [ref=e355]:
+              - heading [level=3] [ref=e356]: $20M
+              - strong [ref=e357]: Verdict
+              - paragraph [ref=e358]: Medical Malpractice
+            - generic [ref=e363]:
+              - heading [level=3] [ref=e364]: $18M
+              - strong [ref=e365]: Settlement
+              - paragraph [ref=e366]: Other Cases
+            - generic [ref=e371]:
+              - heading [level=3] [ref=e372]: $15M
+              - strong [ref=e373]: Settlement
+              - paragraph [ref=e374]: Personal Injury
+            - generic [ref=e379]:
+              - heading [level=3] [ref=e380]: $13.6M
+              - strong [ref=e381]: Verdict
+              - paragraph [ref=e382]: Motor Vehicle Accident
+            - generic [ref=e387]:
+              - heading [level=3] [ref=e388]: $13M
+              - strong [ref=e389]: Settlement
+              - paragraph [ref=e390]: Medical Malpractice
+            - generic [ref=e395]:
+              - heading [level=3] [ref=e396]: $12M
+              - strong [ref=e397]: Settlement
+              - paragraph [ref=e398]: Explosion Accident
+            - generic [ref=e403]:
+              - heading [level=3] [ref=e404]: $10.5M
+              - strong [ref=e405]: Verdict
+              - paragraph [ref=e406]: Other Cases
+            - generic [ref=e411]:
+              - heading [level=3] [ref=e412]: $10.2M
+              - strong [ref=e413]: Verdict
+              - paragraph [ref=e414]: Motor Vehicle Accident
+            - generic [ref=e419]:
+              - heading [level=3] [ref=e420]: $10M
+              - strong [ref=e421]: Verdict
+              - paragraph [ref=e422]: Wrongful Death
+            - generic [ref=e427]:
+              - heading [level=3] [ref=e428]: $10M
+              - strong [ref=e429]: Verdict
+              - paragraph [ref=e430]: Wrongful Death
+            - generic [ref=e435]:
+              - heading [level=3] [ref=e436]: $9M
+              - strong [ref=e437]: Verdict
+              - paragraph [ref=e438]: Wrongful Death
+            - generic [ref=e443]:
+              - heading [level=3] [ref=e444]: $8M
+              - strong [ref=e445]: Settlement
+            - generic [ref=e450]:
+              - heading [level=3] [ref=e451]: $7.5M
+              - strong [ref=e452]: Settlement
+              - paragraph [ref=e453]: Personal Injury
+            - generic [ref=e458]:
+              - heading [level=3] [ref=e459]: $7M
+              - strong [ref=e460]: Settlement
+              - paragraph [ref=e461]: Wrongful Death
+            - generic [ref=e466]:
+              - heading [level=3] [ref=e467]: $100M+
+              - strong [ref=e468]: Settlement
+              - paragraph [ref=e469]: Burn Injury
+            - generic [ref=e474]:
+              - heading [level=3] [ref=e475]: $52M
+              - strong [ref=e476]: Settlement
+              - paragraph [ref=e477]: Business Litigation
+            - generic [ref=e482]:
+              - heading [level=3] [ref=e483]: $52M
+              - strong [ref=e484]: Verdict
+              - paragraph [ref=e485]: Business Litigation
+            - generic [ref=e490]:
+              - heading [level=3] [ref=e491]: $47M
+              - strong [ref=e492]: Settlement
+              - paragraph [ref=e493]: Industrial and Work Accident
+            - generic [ref=e498]:
+              - heading [level=3] [ref=e499]: $36M
+              - strong [ref=e500]: Settlement
+              - paragraph [ref=e501]: Civil Rights
+            - generic [ref=e506]:
+              - heading [level=3] [ref=e507]: $33.5M
+              - strong [ref=e508]: Verdict
+              - paragraph [ref=e509]: Business Litigation
+            - generic [ref=e514]:
+              - heading [level=3] [ref=e515]: $35.2M
+              - strong [ref=e516]: Verdict
+              - paragraph [ref=e517]: Business Litigation
+            - generic [ref=e522]:
+              - heading [level=3] [ref=e523]: $28M
+              - strong [ref=e524]: Verdict
+              - paragraph [ref=e525]: Carbon Monoxide Poisoning
+            - generic [ref=e530]:
+              - heading [level=3] [ref=e531]: $26.5M
+              - strong [ref=e532]: Verdict
+              - paragraph [ref=e533]: Other Cases
+            - generic [ref=e538]:
+              - heading [level=3] [ref=e539]: $22M
+              - strong [ref=e540]: Settlement
+              - paragraph [ref=e541]: Other Cases
+            - generic [ref=e546]:
+              - heading [level=3] [ref=e547]: $20M
+              - strong [ref=e548]: Verdict
+              - paragraph [ref=e549]: Medical Malpractice
+            - generic [ref=e554]:
+              - heading [level=3] [ref=e555]: $18M
+              - strong [ref=e556]: Settlement
+              - paragraph [ref=e557]: Other Cases
+            - generic [ref=e562]:
+              - heading [level=3] [ref=e563]: $15M
+              - strong [ref=e564]: Settlement
+              - paragraph [ref=e565]: Personal Injury
+            - generic [ref=e570]:
+              - heading [level=3] [ref=e571]: $13.6M
+              - strong [ref=e572]: Verdict
+              - paragraph [ref=e573]: Motor Vehicle Accident
+            - generic [ref=e578]:
+              - heading [level=3] [ref=e579]: $13M
+              - strong [ref=e580]: Settlement
+              - paragraph [ref=e581]: Medical Malpractice
+            - generic [ref=e586]:
+              - heading [level=3] [ref=e587]: $12M
+              - strong [ref=e588]: Settlement
+              - paragraph [ref=e589]: Explosion Accident
+            - generic [ref=e594]:
+              - heading [level=3] [ref=e595]: $10.5M
+              - strong [ref=e596]: Verdict
+              - paragraph [ref=e597]: Other Cases
+            - generic [ref=e602]:
+              - heading [level=3] [ref=e603]: $10.2M
+              - strong [ref=e604]: Verdict
+              - paragraph [ref=e605]: Motor Vehicle Accident
+            - generic [ref=e610]:
+              - heading [level=3] [ref=e611]: $10M
+              - strong [ref=e612]: Verdict
+              - paragraph [ref=e613]: Wrongful Death
+            - generic [ref=e618]:
+              - heading [level=3] [ref=e619]: $10M
+              - strong [ref=e620]: Verdict
+              - paragraph [ref=e621]: Wrongful Death
+            - generic [ref=e626]:
+              - heading [level=3] [ref=e627]: $9M
+              - strong [ref=e628]: Verdict
+              - paragraph [ref=e629]: Wrongful Death
+            - generic [ref=e634]:
+              - heading [level=3] [ref=e635]: $8M
+              - strong [ref=e636]: Settlement
+            - generic [ref=e641]:
+              - heading [level=3] [ref=e642]: $7.5M
+              - strong [ref=e643]: Settlement
+              - paragraph [ref=e644]: Personal Injury
+            - generic [ref=e649]:
+              - heading [level=3] [ref=e650]: $7M
+              - strong [ref=e651]: Settlement
+              - paragraph [ref=e652]: Wrongful Death
+          - generic [ref=e653]:
+            - generic [ref=e654]:
+              - link "Previous Testimonial" [ref=e655] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e657]
+                - img [ref=e660]
+              - link "Next Testimonial" [ref=e662] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e664]
+                - img [ref=e668]
+            - link "See more case results" [ref=e671] [cursor=pointer]:
+              - /url: https://www.spencelawyers.com/top-results/
+              - text: See more case results
+              - img [ref=e672]
+      - generic [ref=e678]:
+        - img "Schedule a free consultation with The Spence Law Firm, LLC" [ref=e681]
+        - generic [ref=e683]:
+          - heading "Meet with us." [level=2] [ref=e684]
+          - paragraph [ref=e687]:
+            - text: If you are struggling with a serious injury, or are fighting against seemingly impossible odds against big corporations, insurance companies or the government, call us to speak with
+            - link "our team of trial lawyers" [ref=e688] [cursor=pointer]:
+              - /url: https://www.spencelawyers.com/attorneys
+            - text: who will fight for you. We take no fee unless we earn it by winning your case.
+          - list [ref=e689]:
+            - listitem [ref=e690]:
+              - link " Call 888-513-6292" [ref=e692]:
+                - /url: tel:888-513-6292
+                - generic [ref=e693]: 
+                - text: Call 888-513-6292
+            - listitem [ref=e694]:
+              - link "Send us a message " [ref=e696] [cursor=pointer]:
+                - /url: https://www.spencelawyers.com/contact-us
+                - text: Send us a message
+                - generic [ref=e697]: 
+      - generic [ref=e701]:
+        - img "Photo of Home" [ref=e703]
+        - generic [ref=e704]:
+          - heading "“Lawyers should be chosen because they can demonstrate a history rich in human traits, the ability to care, the courage to fight, the will to win, a concern for the human condition, a passion for justice and simple uncompromising honesty. These are the traits of the lawyer.”" [level=2] [ref=e705]
+          - paragraph [ref=e706]: –Gerry Spence
+    - contentinfo [ref=e707]:
+      - generic [ref=e708]:
+        - generic [ref=e710]:
+          - link "The Spence Law Firm home page" [ref=e712] [cursor=pointer]:
+            - /url: https://www.spencelawyers.com/
+          - generic [ref=e713]:
+            - heading "Call us" [level=5] [ref=e714]
+            - generic [ref=e715]:
+              - link "888-513-6292" [ref=e716] [cursor=pointer]:
+                - /url: tel:888-513-6292
+              - text: "WY Local:"
+              - link "307-733-7290" [ref=e717] [cursor=pointer]:
+                - /url: tel:307-733-7290
+              - text: "NM Local:"
+              - link "505-832-6363" [ref=e718] [cursor=pointer]:
+                - /url: tel:505-832-6363
+          - generic [ref=e719]:
+            - heading "Wyoming Offices" [level=5] [ref=e720]
+            - generic [ref=e721]:
+              - text: 15 S Jackson St
+              - text: Jackson, WY 83001
+              - link "Get directions" [ref=e722] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/The+Spence+Law+Firm,+LLC/@43.4793494,-110.7688344,17z/data=!3m1!4b1!4m5!3m4!1s0x53531a67d35fb579:0x4619c16149cdb044!8m2!3d43.4793497!4d-110.7665543
+                - text: Get directions
+                - img [ref=e723]
+            - generic [ref=e726]:
+              - text: 26 N Tyler Ave, P.O. Box 606
+              - text: Pinedale, WY 82941
+              - link "Get directions" [ref=e727] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/26+N+Tyler+Ave,+Pinedale,+WY+82941/@42.8670961,-109.864204,17z/data=!3m1!4b1!4m6!3m5!1s0x875796a96a4294a9:0xaf8b404e9de0a8ce!8m2!3d42.8670961!4d-109.8616291!16s%2Fg%2F11bw4dwbtn?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D
+                - text: Get directions
+                - img [ref=e728]
+            - generic [ref=e731]:
+              - text: 306 S David St
+              - text: Casper, WY 82601
+              - link "Get directions" [ref=e732] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/232+E+2nd+St,+Casper,+WY+82601/@42.8489948,-106.3248898,17z/data=!3m1!4b1!4m5!3m4!1s0x8760bc98a10010ab:0x7243325b5ad3f9e1!8m2!3d42.8489948!4d-106.3226958
+                - text: Get directions
+                - img [ref=e733]
+          - generic [ref=e736]:
+            - heading "New Mexico Office" [level=5] [ref=e737]
+            - generic [ref=e738]:
+              - text: 1600 Mountain Rd NW
+              - text: Albuquerque, NM 87104
+              - link "Get directions" [ref=e739] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/1600+Mountain+Rd+NW,+Albuquerque,+NM+87104/@35.0966721,-106.6661189,17z/data=!3m1!4b1!4m5!3m4!1s0x87220ccd64fa1915:0x8270a7f382d2b90d!8m2!3d35.0966721!4d-106.6639249
+                - text: Get directions
+                - img [ref=e740]
+        - generic [ref=e743]:
+          - paragraph [ref=e744]:
+            - text: Copyright © 2026 The Spence Law Firm, LLC ·
+            - link "Disclaimer" [ref=e745] [cursor=pointer]:
+              - /url: https://www.spencelawyers.com/disclaimer
+            - text: · Site by
+            - link "Hype Legal" [ref=e746] [cursor=pointer]:
+              - /url: https://www.hypelegal.com/
+          - list [ref=e748]:
+            - listitem [ref=e749]:
+              - link "Connect with the Spence Law Firm on Facebook" [ref=e750] [cursor=pointer]:
+                - /url: https://www.facebook.com/spencelawfirm
+                - img [ref=e751]
+            - listitem [ref=e753]:
+              - link "Connect with the Spence Law Firm on LinkedIn" [ref=e754] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/the-spence-law-firm-llc
+                - img [ref=e755]
+            - listitem [ref=e757]:
+              - link "Connect with the Spence Law Firm on Twitter" [ref=e758] [cursor=pointer]:
+                - /url: https://twitter.com/TheSpenceFirm
+                - img [ref=e759]
+  - dialog "Spence Law Firm - About Us":
+    - generic [ref=e769]:
+      - generic [ref=e770]:
+        - generic:
+          - 'button "Play Video: Spence Law Firm - About Us"'
+        - img "The Spence Law Firm" [ref=e772]
+      - 'button "Play Video: Spence Law Firm - About Us" [ref=e774] [cursor=pointer]':
+        - img [ref=e777]
+    - button "Close" [ref=e779] [cursor=pointer]:
+      - img "Click to close video" [ref=e780]
+  - dialog "Fighting for the People – Gerry-Spence – TEDxJacksonHole":
+    - generic [ref=e789]:
+      - generic [ref=e790]:
+        - generic:
+          - 'button "Play Video: Fighting for the People – Gerry-Spence – TEDxJacksonHole"'
+        - img "TEDx Jackson Hole" [ref=e792]
+      - 'button "Play Video: Fighting for the People – Gerry-Spence – TEDxJacksonHole" [ref=e794] [cursor=pointer]':
+        - img [ref=e797]
+    - button "Close" [ref=e799] [cursor=pointer]:
+      - img "Click to close video" [ref=e800]

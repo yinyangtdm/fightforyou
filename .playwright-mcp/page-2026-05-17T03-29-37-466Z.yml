@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - button "Skip to Content" [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic "Main Menu" [ref=e8] [cursor=pointer]
+          - link "Johnson, Webbert & Beard, LLP" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "Johnson, Webbert & Beard, LLP" [ref=e10]
+          - link [ref=e11]:
+            - /url: tel:2076186682
+        - navigation [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - generic "Close the Menu" [ref=e15] [cursor=pointer]:
+                - generic [ref=e16]: Close
+            - listitem [ref=e17]:
+              - generic [ref=e19]:
+                - generic [ref=e20]: Search
+                - searchbox "Search" [ref=e21]
+                - button "Search Our Site" [ref=e22] [cursor=pointer]
+          - navigation [ref=e24]:
+            - menu "Mobile Navigation" [ref=e25]:
+              - listitem [ref=e26]:
+                - menuitem "About Us" [ref=e27] [cursor=pointer]
+                - generic "Open child menu of About Us" [ref=e28] [cursor=pointer]
+              - listitem [ref=e29]:
+                - menuitem "Practice Areas" [ref=e30] [cursor=pointer]
+                - generic "Open child menu of Practice Areas" [ref=e31] [cursor=pointer]
+              - listitem [ref=e32]:
+                - menuitem "Testimonials" [ref=e33] [cursor=pointer]
+              - listitem [ref=e34]:
+                - menuitem "News" [ref=e35] [cursor=pointer]
+                - generic "Open child menu of News" [ref=e36] [cursor=pointer]
+              - listitem [ref=e37]:
+                - menuitem "Contact" [ref=e38] [cursor=pointer]
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "Contact Us" [ref=e44] [cursor=pointer]:
+                - /url: /contact/
+                - generic [ref=e45]: Contact Us
+            - listitem [ref=e46]:
+              - link "Call Us Today!" [ref=e47]:
+                - /url: tel:2076186682
+                - generic [ref=e48]: Call Us Today!
+          - generic [ref=e49]:
+            - strong [ref=e51]: Follow Us
+            - list [ref=e52]:
+              - listitem [ref=e53]:
+                - link "Facebook" [ref=e54] [cursor=pointer]:
+                  - /url: https://www.facebook.com/JohnsonandWebbert
+              - listitem [ref=e55]:
+                - link "LinkedIn" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/johnson-webbert/
+  - main [ref=e57]:
+    - generic [ref=e60]:
+      - generic [ref=e62]:
+        - strong [ref=e63]: A Maine Civil Rights Firm with National Reach
+        - emphasis [ref=e64]: Standing up for Workers’ Rights and Civil Rights in Maine and Across the Nation
+      - link "Contact Us" [ref=e67] [cursor=pointer]:
+        - /url: /contact/
+        - generic [ref=e68]: Contact Us
+    - generic [ref=e71]:
+      - generic [ref=e76]:
+        - heading "Maine Workers' & Civil Rights Attorneys" [level=1] [ref=e77]
+        - heading "Serving Clients Statewide from Offices in Portland and Topsham" [level=2] [ref=e78]
+        - paragraph [ref=e79]:
+          - link "Johnson, Webbert & Beard, LLP" [ref=e80] [cursor=pointer]:
+            - /url: /about-us/
+          - text: is the leading workers’ and
+          - link "civil rights" [ref=e81] [cursor=pointer]:
+            - /url: /practice-areas/civil-rights/
+          - text: law firm in Northern New England. For over 30 years, we’ve been winning precedent-setting
+          - link "discrimination and harassment" [ref=e82] [cursor=pointer]:
+            - /url: /practice-areas/discrimination-harassment/
+          - text: cases, while also bringing to justice police and other government officials who abuse their power. We take on complex and challenging cases and class actions, including workplace violations of state and federal
+          - link "employment" [ref=e83] [cursor=pointer]:
+            - /url: /practice-areas/workers-rights/
+          - text: and labor laws, professional licensing, malpractice, and other lawsuits.
+        - paragraph [ref=e84]: We are known for being unafraid of goliaths and never giving up. Our Firm has earned a unique reputation for being highly effective with both judges and juries because of our mastery of employment and civil rights laws, expertise in legal research and writing, creative problem-solving and settlement skills, and commanding presence and know-how in the courtroom.
+        - img "Johnson & Webbert, LLP Best Lawyers 2024" [ref=e86]
+        - paragraph [ref=e87]:
+          - strong [ref=e88]: Need advice and guidance about your legal issue? Contact Johnson, Webbert & Beard, LLP
+          - link "online" [ref=e89] [cursor=pointer]:
+            - /url: /contact/
+            - strong [ref=e90]: online
+          - strong [ref=e92]
+          - strong [ref=e93]: or at
+          - link "(207) 618-6682" [ref=e94]:
+            - /url: tel:(207) 618-6682
+            - strong [ref=e95]: (207) 618-6682
+          - strong [ref=e96]: to schedule a call with an intake specialist today.
+      - generic [ref=e98]:
+        - heading "Cases We Handle" [level=4] [ref=e102]
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - link "Discrimination & Harassment" [ref=e106] [cursor=pointer]:
+              - /url: /practice-areas/discrimination-harassment/
+              - strong [ref=e107]: Discrimination & Harassment
+          - listitem [ref=e108]:
+            - link "Civil Rights" [ref=e109] [cursor=pointer]:
+              - /url: /practice-areas/civil-rights/
+              - strong [ref=e110]: Civil Rights
+          - listitem [ref=e111]:
+            - link "Workers’ Rights" [ref=e112] [cursor=pointer]:
+              - /url: /practice-areas/workers-rights/
+              - strong [ref=e113]: Workers’ Rights
+          - listitem [ref=e114]:
+            - link "Unpaid Wages & Overtime" [ref=e115] [cursor=pointer]:
+              - /url: /practice-areas/unpaid-wages-overtime/
+              - strong [ref=e116]: Unpaid Wages & Overtime
+          - listitem [ref=e117]:
+            - link "Professional Licensing & Malpractice" [ref=e118] [cursor=pointer]:
+              - /url: /practice-areas/professional-licensing-malpractice/
+              - strong [ref=e119]: Professional Licensing & Malpractice
+          - listitem [ref=e120]:
+            - link "Class Actions" [ref=e121] [cursor=pointer]:
+              - /url: /practice-areas/class-actions/
+              - strong [ref=e122]: Class Actions
+          - listitem [ref=e123]:
+            - link "Labor Unions" [ref=e124] [cursor=pointer]:
+              - /url: /practice-areas/labor-unions/
+              - strong [ref=e125]: Labor Unions
+          - listitem [ref=e126]:
+            - link "Accidents & Injuries" [ref=e127] [cursor=pointer]:
+              - /url: /practice-areas/accidents-injuries/
+              - strong [ref=e128]: Accidents & Injuries
+          - listitem [ref=e129]:
+            - link "Aviation" [ref=e130] [cursor=pointer]:
+              - /url: /practice-areas/aviation/
+              - strong [ref=e131]: Aviation
+        - link "View All" [ref=e134] [cursor=pointer]:
+          - /url: /practice-areas/
+          - generic [ref=e135]: View All
+    - generic [ref=e137]:
+      - heading "Meet Our Team" [level=4] [ref=e141]
+      - list [ref=e143]:
+        - listitem [ref=e144]:
+          - link "Phillip E. Johnson Photo Phillip E. Johnson Chair, Legal Ethics & Professional Responsibility" [ref=e145] [cursor=pointer]:
+            - /url: /about-us/phillip-e-johnson/
+            - img "Phillip E. Johnson Photo" [ref=e147]
+            - generic [ref=e148]:
+              - strong [ref=e149]: Phillip E. Johnson
+              - generic [ref=e150]: Chair, Legal Ethics & Professional Responsibility
+        - listitem [ref=e151]:
+          - link "David G. Webbert Photo David G. Webbert Managing Partner" [ref=e152] [cursor=pointer]:
+            - /url: /about-us/david-g-webbert/
+            - img "David G. Webbert Photo" [ref=e154]
+            - generic [ref=e155]:
+              - strong [ref=e156]: David G. Webbert
+              - generic [ref=e157]: Managing Partner
+        - listitem [ref=e158]:
+          - link "Braden A. Beard Photo Braden A. Beard Partner" [ref=e159] [cursor=pointer]:
+            - /url: /about-us/braden-a-beard/
+            - img "Braden A. Beard Photo" [ref=e161]
+            - generic [ref=e162]:
+              - strong [ref=e163]: Braden A. Beard
+              - generic [ref=e164]: Partner
+        - listitem [ref=e165]:
+          - link "Ryan M. Schmitz Photo Ryan M. Schmitz Attorney" [ref=e166] [cursor=pointer]:
+            - /url: /about-us/ryan-m-schmitz/
+            - img "Ryan M. Schmitz Photo" [ref=e168]
+            - generic [ref=e169]:
+              - strong [ref=e170]: Ryan M. Schmitz
+              - generic [ref=e171]: Attorney
+        - listitem [ref=e172]:
+          - link "Olivia Blom Photo Olivia Blom Attorney" [ref=e173] [cursor=pointer]:
+            - /url: /about-us/olivia-blom/
+            - img "Olivia Blom Photo" [ref=e175]
+            - generic [ref=e176]:
+              - strong [ref=e177]: Olivia Blom
+              - generic [ref=e178]: Attorney
+        - listitem [ref=e179]:
+          - link "Kassie Fotiadis Photo Kassie Fotiadis Attorney" [ref=e180] [cursor=pointer]:
+            - /url: /about-us/kassie-fotiadis/
+            - img "Kassie Fotiadis Photo" [ref=e182]
+            - generic [ref=e183]:
+              - strong [ref=e184]: Kassie Fotiadis
+              - generic [ref=e185]: Attorney
+        - listitem [ref=e186]:
+          - link "Allan K. Townsend Photo Allan K. Townsend Attorney" [ref=e187] [cursor=pointer]:
+            - /url: /about-us/allan-k-townsend/
+            - img "Allan K. Townsend Photo" [ref=e189]
+            - generic [ref=e190]:
+              - strong [ref=e191]: Allan K. Townsend
+              - generic [ref=e192]: Attorney
+        - listitem [ref=e193]:
+          - link "Patricia Bryant Photo Patricia Bryant Paralegal" [ref=e194] [cursor=pointer]:
+            - /url: /about-us/patricia-bryant/
+            - img "Patricia Bryant Photo" [ref=e196]
+            - generic [ref=e197]:
+              - strong [ref=e198]: Patricia Bryant
+              - generic [ref=e199]: Paralegal
+    - generic [ref=e201]:
+      - heading "What Sets Us Apart from the Rest?" [level=4] [ref=e206]
+      - list [ref=e207]:
+        - listitem [ref=e208]:
+          - generic [ref=e209]:
+            - strong [ref=e211]: Dedicated to Our Clients
+            - generic [ref=e212]: We are professionals who are passionate about fighting for justice for those who have been wronged.
+        - listitem [ref=e213]:
+          - generic [ref=e214]:
+            - strong [ref=e216]: Collaborative Approach
+            - generic [ref=e217]: We have a number of attorneys with diverse backgrounds, allowing us to collaborate for your best outcome.
+        - listitem [ref=e218]:
+          - generic [ref=e219]:
+            - strong [ref=e221]: Offering Virtual Consultations
+            - generic [ref=e222]: With virtual consultations, it's easier than ever to get started.
+        - listitem [ref=e223]:
+          - generic [ref=e224]:
+            - strong [ref=e226]: Practicing Throughout the Northeast
+            - generic [ref=e227]: Our team is admitted to practice throughout the Northeast including Maine, Pennsylvania, New Jersey, Maryland and DC.
+    - generic [ref=e229]:
+      - heading "Work with a Leading Workers’ & Civil Rights Law Firm in Northern New England" [level=2] [ref=e234]:
+        - text: Work with a Leading Workers’ & Civil Rights
+        - text: Law Firm in Northern New England
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - paragraph [ref=e237]: Our attorneys have been hailed as leaders in their fields, ranging from employment and labor law to professional liability, government overreach and other Section 1983 cases, class actions, and more.
+          - paragraph [ref=e238]:
+            - text: Our team puts their proven trial skills on your side; our lawyers have achieved
+            - strong [ref=e239]: precedent-setting jury verdicts, court rulings, and class action results
+            - text: . Attorneys
+            - link "Phillip Johnson" [ref=e240] [cursor=pointer]:
+              - /url: /about-us/phillip-e-johnson/
+            - text: and
+            - link "David Webbert" [ref=e241] [cursor=pointer]:
+              - /url: /about-us/david-g-webbert/
+            - text: have been named in
+            - strong [ref=e242]: The Best Lawyers in America©
+            - text: ", one of the legal profession’s oldest and most respected peer-reviewed publications. Attorney Webbert has also been recognized five times as one of the"
+            - strong [ref=e243]: Top 100
+            - emphasis [ref=e244]:
+              - strong [ref=e245]: Super Lawyers
+            - strong [ref=e246]: in New England
+            - text: .
+          - paragraph [ref=e247]: Our team’s qualifications include Mr. Johnson’s regular service as a consultant to other law firms on ethics matters, as an expert witness in state and federal court on legal malpractice matters, and Mr. Webbert’s awards from the Maine Civil Liberties Union and the Disability Rights Center of Maine. Mr. Webbert is also an elected member of the American Law Institute, a group of leading judges, legal scholars, and lawyers, founded to promote clarity and reform in judge-made law and recognized as one of the most prestigious American legal associations.
+        - generic [ref=e248]:
+          - paragraph [ref=e249]: If you need a lawyer to prosecute claims for violations of (1) employment rights, such as discrimination based on unlawful factors such as age, sex, sexual orientation (which includes gender identity and expression), physical or mental disability, religion, race, color, ancestry, or national origin; wrongful termination; hostile work environment or harassment; whistleblower retaliation; or wage theft; or (2) civil rights, such as police misconduct or brutality, abuse of process, prisoners’ rights violations, or false arrest, violations of consumer rights, free speech violations, or other misconduct by government officials, we can help.
+          - paragraph [ref=e250]: Our team has handled all types of employment and civil rights claims, including highly complicated class actions. We also represent labor unions and their members, those in the aviation industry, professionals in the medical and legal fields regarding licensing and employment issues, and those who have suffered serious personal injuries or lost loved ones in wrongful death accidents.
+          - paragraph [ref=e251]: We understand the stress, financial strain, and emotional impact on you, your family, your career, and your reputation in these legal disputes. Your first step in these cases is to seek the advice of a knowledgeable attorney about where you stand and the best path for favorably resolving your situation. Our team offers highly respected legal guidance and proven advocacy in these matters.
+          - paragraph [ref=e252]:
+            - strong [ref=e253]: Call us at
+            - link "(207) 618-6682" [ref=e254]:
+              - /url: tel:(207) 618-6682
+              - strong [ref=e255]: (207) 618-6682
+            - strong [ref=e256]: to schedule a consultation today.
+    - generic [ref=e258]:
+      - heading "Client Testimonials" [level=4] [ref=e262]
+      - list [ref=e265]:
+        - listitem [ref=e266]:
+          - blockquote [ref=e267]:
+            - generic [ref=e268]: I can honestly attest that David Webbert and this law firm are the TEAM you need to tip the scales of justice on your side.
+            - generic [ref=e270]: "- Mossad G."
+        - listitem [ref=e271]:
+          - blockquote [ref=e272]:
+            - generic [ref=e273]: I am very greatly appreciative for them totally believing in me at my worst time in my life, and I am so every grateful the legal case is finally over.
+            - generic [ref=e275]: "- Pamela C."
+        - listitem [ref=e276]:
+          - blockquote [ref=e277]:
+            - generic [ref=e278]: Mr. Webbert keeps you in the loop and explains in terms you can understand. He is a top flight lawyer, certainly worthy of the highest possible rating.
+            - generic [ref=e280]: "- Former Client"
+        - listitem [ref=e281]:
+          - blockquote [ref=e282]:
+            - generic [ref=e283]: He was responsive to my legal needs, concerned about my situation and offered appropriate and successful avenues of action.
+            - generic [ref=e285]: "- M. M."
+      - link "View All" [ref=e289] [cursor=pointer]:
+        - /url: /testimonials/
+        - generic [ref=e290]: View All
+    - generic [ref=e292]:
+      - generic [ref=e294]:
+        - heading "News" [level=4] [ref=e298]
+        - link "View all news" [ref=e301] [cursor=pointer]:
+          - /url: /news/
+          - generic [ref=e302]: View all news
+      - generic [ref=e306]:
+        - generic [ref=e309]:
+          - heading "Contact Us Today" [level=4] [ref=e310]
+          - paragraph [ref=e311]: At Johnson, Webbert & Beard, LLP, we're always ready to take your calls! Give us a call or fill out the form below to contact one of our team members.
+        - generic [ref=e312]:
+          - group [ref=e313]:
+            - list [ref=e314]:
+              - listitem [ref=e315]:
+                - generic [ref=e316]:
+                  - generic [ref=e317]: First Name
+                  - textbox "First Name" [ref=e318]
+              - listitem [ref=e319]:
+                - generic [ref=e320]:
+                  - generic [ref=e321]: Last Name
+                  - textbox "Last Name" [ref=e322]
+              - listitem [ref=e323]:
+                - generic [ref=e324]:
+                  - generic [ref=e325]: Phone
+                  - textbox "Phone" [ref=e326]
+              - listitem [ref=e327]:
+                - generic [ref=e328]:
+                  - generic [ref=e329]: Email
+                  - textbox "Email" [ref=e330]
+              - listitem [ref=e331]:
+                - generic [ref=e332]:
+                  - generic [ref=e333]: Are you a new client?
+                  - combobox "Are you a new client?" [ref=e334]:
+                    - option [selected]
+                    - option "Yes, I am a potential new client"
+                    - option "No, I'm a current existing client"
+                    - option "I'm neither."
+              - listitem [ref=e335]:
+                - generic [ref=e336]:
+                  - generic [ref=e337]: Name all adverse, opposing, or unfriendly persons involved in your legal issue
+                  - textbox "Name all adverse, opposing, or unfriendly persons involved in your legal issue" [ref=e338]
+              - listitem [ref=e339]:
+                - generic [ref=e340]:
+                  - generic [ref=e341]: Name all friendly or favorable persons involved in your legal issue
+                  - textbox "Name all friendly or favorable persons involved in your legal issue" [ref=e342]
+              - listitem [ref=e343]:
+                - generic [ref=e344]:
+                  - generic [ref=e345]: How can we help you?
+                  - textbox "How can we help you?" [ref=e346]
+              - listitem [ref=e347]:
+                - generic [ref=e349]:
+                  - text: By submitting, you agree to receive text messages from Johnson, Webbert & Beard, LLP at the number provided, including those related to your inquiry, follow-ups, and review requests, via automated technology. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency may vary. Reply STOP to cancel or HELP for assistance.
+                  - link "Acceptable Use Policy" [ref=e350] [cursor=pointer]:
+                    - /url: https://www.scorpion.co/acceptable-use-policy/
+              - listitem [ref=e351]:
+                - generic [ref=e352]: Submitting this information does not establish an attorney-client relationship or representation. All submissions are confidential and will not be shared with any entities outside our firm.
+          - button "Send Message" [ref=e354] [cursor=pointer]:
+            - generic [ref=e355]: Send Message
+  - contentinfo [ref=e357]:
+    - generic [ref=e359]:
+      - generic [ref=e360]:
+        - generic [ref=e361]:
+          - link "Johnson, Webbert & Beard, LLP" [ref=e362] [cursor=pointer]:
+            - /url: /
+            - img "Johnson, Webbert & Beard, LLP" [ref=e363]
+          - generic [ref=e364]:
+            - generic [ref=e365]: Contact
+            - link "207-618-6682" [ref=e366]:
+              - /url: tel:2076186682
+        - navigation [ref=e368]:
+          - strong [ref=e370]: Links
+          - list [ref=e372]:
+            - listitem [ref=e373]:
+              - link "About Us" [ref=e374] [cursor=pointer]:
+                - /url: /about-us/
+            - listitem [ref=e375]:
+              - link "Practice Areas" [ref=e376] [cursor=pointer]:
+                - /url: /practice-areas/
+            - listitem [ref=e377]:
+              - link "Testimonials" [ref=e378] [cursor=pointer]:
+                - /url: /testimonials/
+            - listitem [ref=e379]:
+              - link "News" [ref=e380] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e381]:
+              - link "Contact" [ref=e382] [cursor=pointer]:
+                - /url: /contact/
+      - generic [ref=e383]:
+        - generic [ref=e384]:
+          - strong [ref=e386]: Locations
+          - list [ref=e387]:
+            - listitem [ref=e388]:
+              - strong [ref=e389]: Portland
+              - generic [ref=e390]:
+                - text: 103 Exchange St.
+                - text: Portland, ME 04101
+              - link "Map & Directions" [ref=e391] [cursor=pointer]:
+                - /url: http://maps.google.com/maps?f=q&hl=en&z=15&q=103%20Exchange%20St.,Portland,ME,04101
+            - listitem [ref=e392]:
+              - strong [ref=e393]: Topsham
+              - generic [ref=e394]:
+                - text: 1 Bowdoin Mill Island
+                - text: Ste. 300
+                - text: Topsham, ME 04086
+              - link "Map & Directions" [ref=e395] [cursor=pointer]:
+                - /url: http://maps.google.com/maps?f=q&hl=en&z=15&q=1%20Bowdoin%20Mill%20Island,Topsham,ME,04086
+        - generic [ref=e397]:
+          - strong [ref=e399]: Follow Us
+          - list [ref=e400]:
+            - listitem [ref=e401]:
+              - link "Facebook" [ref=e402] [cursor=pointer]:
+                - /url: https://www.facebook.com/JohnsonandWebbert
+            - listitem [ref=e403]:
+              - link "LinkedIn" [ref=e404] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/johnson-webbert/
+    - generic [ref=e406]:
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - text: The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.
+          - text: This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
+        - paragraph [ref=e409]: © 2026 All Rights Reserved.
+        - navigation [ref=e410]:
+          - menu "Footer Navigation" [ref=e411]:
+            - menuitem "Site Map" [ref=e412]:
+              - link "Site Map" [ref=e413] [cursor=pointer]:
+                - /url: /site-map/
+            - menuitem "Privacy Policy" [ref=e414]:
+              - link "Privacy Policy" [ref=e415] [cursor=pointer]:
+                - /url: /privacy-policy/
+            - menuitem "Site Search" [ref=e416]:
+              - link "Site Search" [ref=e417] [cursor=pointer]:
+                - /url: /site-search/
+      - link "Internet Marketing Experts" [ref=e419] [cursor=pointer]:
+        - /url: https://www.scorpion.co/law-firms/
+        - img "Internet Marketing Experts" [ref=e420]

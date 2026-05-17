@@ -1,0 +1,211 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - paragraph [ref=e6]: Fighting Police Misconduct
+      - link "Law Offices of Dale K. Galipo" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Law Offices of Dale K. Galipo" [ref=e8]
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: Get The Justice You Deserve
+        - paragraph [ref=e11]:
+          - link "818-347-3333" [ref=e12] [cursor=pointer]:
+            - /url: tel:+18183473333
+    - navigation [ref=e13]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/
+        - listitem [ref=e17]:
+          - generic [ref=e18]: Our Team
+          - generic:
+            - list:
+              - listitem:
+                - link "Dale K. Galipo":
+                  - /url: https://www.galipolaw.com/dale-k-galipo/
+              - listitem:
+                - link "Eric Valenzuela":
+                  - /url: https://www.galipolaw.com/eric-valenzuela/
+              - listitem:
+                - link "Renée Valentine Masongsong":
+                  - /url: https://www.galipolaw.com/renee-v-masongsong/
+              - listitem:
+                - link "Hang D. Le":
+                  - /url: https://www.galipolaw.com/hang-d-le/
+              - listitem:
+                - link "Marcel F. Sincich":
+                  - /url: https://www.galipolaw.com/marcel-f-sincich/
+              - listitem:
+                - link "Brendan Johnson":
+                  - /url: https://www.galipolaw.com/brendan-johnson/
+              - listitem:
+                - link "Alejandro Monguia":
+                  - /url: https://www.galipolaw.com/alejandro-monguia/
+              - listitem:
+                - link "Benjamin S. Levine":
+                  - /url: https://www.galipolaw.com/benjamin-s-levine/
+              - listitem:
+                - link "Cooper Alison-Mayne":
+                  - /url: https://www.galipolaw.com/cooper-alison-mayne/
+              - listitem:
+                - link "Leslie De Leon":
+                  - /url: https://www.galipolaw.com/leslie-de-leon/
+              - listitem:
+                - link "Santiago G. Laurel":
+                  - /url: https://www.galipolaw.com/santiago-g-laurel/
+              - listitem:
+                - link "Darci Gilbert":
+                  - /url: https://www.galipolaw.com/darci-gilbert/
+              - listitem:
+                - link "Sunne K. Sanders":
+                  - /url: https://www.galipolaw.com/sunne-k-sanders/
+        - listitem [ref=e19]:
+          - link "Practice Areas" [ref=e20] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/practice-areas/
+          - list:
+            - listitem:
+              - link "Asphyxia & Restraint":
+                - /url: https://www.galipolaw.com/asphyxia-restraint/
+            - listitem:
+              - link "Excessive Force":
+                - /url: https://www.galipolaw.com/excessive-restraint/
+            - listitem:
+              - link "Denial of Medical Care":
+                - /url: https://www.galipolaw.com/denial-of-medical-care/
+            - listitem:
+              - link "In-Custody Death":
+                - /url: https://www.galipolaw.com/in-custody-death/
+            - listitem:
+              - link "Officer-Involved Shootings":
+                - /url: https://www.galipolaw.com/officer-involved-shootings/
+            - listitem:
+              - link "Police Misconduct":
+                - /url: https://www.galipolaw.com/police-misconduct/
+            - listitem:
+              - link "Sexual Assault":
+                - /url: https://www.galipolaw.com/sexual-assault/
+            - listitem:
+              - link "Wrongful Conviction":
+                - /url: https://www.galipolaw.com/police-misconduct-wrongful-conviction/
+        - listitem [ref=e21]:
+          - link "Success Record" [ref=e22] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/winning-record/
+        - listitem [ref=e23]:
+          - link "Reviews" [ref=e24] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/testimonials/
+        - listitem [ref=e25]:
+          - generic [ref=e26]: News & Media
+          - list:
+            - listitem:
+              - link "News":
+                - /url: https://www.galipolaw.com/news/
+            - listitem:
+              - link "Media":
+                - /url: https://www.galipolaw.com/media/
+            - listitem:
+              - link "Blog":
+                - /url: https://www.galipolaw.com/blog/
+        - listitem [ref=e27]:
+          - link "Contact" [ref=e28] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/contact-us/
+      - generic [ref=e30] [cursor=pointer]:
+        - img "Search Icon" [ref=e31]
+        - img "Search Icon" [ref=e32]
+  - article [ref=e37]:
+    - generic [ref=e38]:
+      - link "Home" [ref=e39] [cursor=pointer]:
+        - /url: https://www.galipolaw.com
+      - text: / Contact Us
+    - heading "What Happened?" [level=1] [ref=e40]
+    - paragraph [ref=e41]: It is very important that you ask an attorney about the statute of limitations in your state. In California, in order to preserve your state law claims you must serve the municipality with a Govt. Tort Claim within six months of the incident.
+    - paragraph [ref=e42]: In order to evaluate your case and determine if the Law Offices of Dale K. Galipo will be able to assist you, it is important for us to get as much information as we can about the incident. If you or a loved one was the victim of excessive force by the police resulting in death or serious bodily injury, please fill out the following information and we will get back to you.
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: First Name
+          - textbox "First Name" [ref=e49]
+        - generic [ref=e50]:
+          - generic [ref=e51]: Last Name
+          - textbox "Last Name" [ref=e52]
+        - generic [ref=e53]:
+          - generic [ref=e54]: Email (required)
+          - textbox "Email (required)" [ref=e55]
+        - generic [ref=e56]:
+          - generic [ref=e57]: Phone
+          - textbox "Phone" [ref=e58]
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]: Date of the Incident
+          - textbox "Date of the Incident" [ref=e62]
+        - generic [ref=e63]:
+          - generic [ref=e64]: Time of the Incident (in Pacific Time)
+          - textbox "Time of the Incident (in Pacific Time)" [ref=e65]
+      - generic [ref=e67]:
+        - generic [ref=e68]: What type of Case is this
+        - combobox "What type of Case is this" [ref=e69]:
+          - option "-pick one-" [selected]
+          - option "Officer-Involved Shooting"
+          - option "Asphyxia"
+          - option "Wrongful Arrest/Conviction"
+          - option "Excessive Force"
+          - option "Custodial Death"
+          - option "Denial of Medical Care"
+          - option "Police Shooting"
+          - option "Police Shooting Resulting in Death"
+          - option "Request Dale Galipo to speak at your event"
+          - option "Other"
+          - option "Unsure"
+      - generic [ref=e71]:
+        - generic [ref=e72]: Location of Incident
+        - textbox "Location of Incident" [ref=e73]
+      - generic [ref=e75]:
+        - generic [ref=e76]: Describe the Incident (required)
+        - textbox "Describe the Incident (required)" [ref=e77]
+      - generic [ref=e79]:
+        - generic [ref=e80]: Describe your Injuries (required)
+        - textbox "Describe your Injuries (required)" [ref=e81]
+      - generic [ref=e83]:
+        - generic [ref=e84]: Disclaimer & Privacy Policy (required)
+        - generic [ref=e85]:
+          - checkbox "Disclaimer & Privacy Policy (required)" [ref=e86]
+          - text: I have read and understand the
+          - link "disclaimer" [ref=e87] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/disclaimer/
+          - text: and
+          - link "privacy policy" [ref=e88] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/privacy-policy/
+      - paragraph [ref=e90]: By submitting this form I acknowledge that contacting this law firm through this website does not create an attorney-client relationship, and any information I send is not protected by attorney-client privilege.
+      - generic [ref=e91]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: protected by reCAPTCHA
+          - generic [ref=e97]:
+            - link "Privacy" [ref=e98] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/privacy/
+            - text: "-"
+            - link "Terms" [ref=e99] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/terms/
+        - button "Send Message" [ref=e100] [cursor=pointer]
+  - contentinfo [ref=e101]:
+    - link "Law Offices of Dale K. Galipo" [ref=e105] [cursor=pointer]:
+      - /url: /
+      - img "Law Offices of Dale K. Galipo" [ref=e106]
+    - generic [ref=e108]:
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - link "Site Map" [ref=e111] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/site-map/
+        - listitem [ref=e112]:
+          - link "Disclaimer" [ref=e113] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/disclaimer/
+        - listitem [ref=e114]:
+          - link "Contact Us" [ref=e115] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/contact-us/
+      - generic [ref=e116]:
+        - paragraph [ref=e117]:
+          - text: "Address: 21800 Burbank Blvd., Suite 310, Woodland Hills, CA 91367 | Phone:"
+          - link "818-347-3333" [ref=e118] [cursor=pointer]:
+            - /url: tel:+18183473333
+        - paragraph [ref=e119]: "IMPORTANT NOTICE: The information on this website is for informational purposes only. This website should not be taken as legal advice. Prior results do not guarantee a similar outcome. This information should not be taken as the formation of an attorney-client relationship. For more details, read the full disclaimer."
+        - paragraph [ref=e120]: © 2024 - 2026 Law Offices of Dale K. Galipo
+      - link "Everest Legal Marketing" [ref=e121] [cursor=pointer]:
+        - /url: https://www.everestlegalmarketing.com/
+        - img "Everest Legal Marketing" [ref=e122]

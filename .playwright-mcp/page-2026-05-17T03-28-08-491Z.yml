@@ -1,0 +1,37 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - heading "FERGUSON DURHAM, PLLC" [level=1] [ref=e6]:
+        - link "FERGUSON DURHAM, PLLC" [ref=e7] [cursor=pointer]:
+          - /url: /
+      - navigation [ref=e10]:
+        - link "Home" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - link "Our Team" [ref=e14] [cursor=pointer]:
+          - /url: /our-team
+        - link "Cases of Interest" [ref=e16] [cursor=pointer]:
+          - /url: /cases
+        - link "Rates and Fees" [ref=e18] [cursor=pointer]:
+          - /url: /rates-and-fees
+        - link "Contact" [ref=e20] [cursor=pointer]:
+          - /url: /contact
+  - generic [ref=e21]:
+    - figure [ref=e23]:
+      - img "squarespacelakelady.jpg" [ref=e24]
+    - generic [ref=e25]:
+      - paragraph [ref=e26]: Attorneys Fighting for Your Rights
+      - paragraph [ref=e27]:
+        - strong [ref=e28]: It's What We Do
+      - paragraph [ref=e29]
+  - main [ref=e30]:
+    - generic [ref=e34]:
+      - heading "We fight for the legal rights of all Idahoans." [level=1] [ref=e38]
+      - generic [ref=e45]:
+        - paragraph [ref=e46]: Protecting your rights. That’s what we do.
+        - paragraph [ref=e47]: After joining forces to fight for the right of same-sex couples to marry in Idaho, Deborah Ferguson and Craig Durham realized that they shared a commitment to balancing the scales of justice. They founded the law firm of Ferguson Durham to advance that mission.
+        - paragraph [ref=e48]: Ferguson Durham is a boutique civil and criminal litigation firm. If your civil rights have been violated, you’ve suffered discrimination, or you find yourself in the frightening position of having been accused of a crime, put Ferguson Durham’s extensive litigation experience to work for you.
+  - contentinfo [ref=e52]:
+    - paragraph [ref=e60]:
+      - text: Powered by
+      - link "Squarespace" [ref=e61] [cursor=pointer]:
+        - /url: http://www.squarespace.com?channel=word_of_mouth&subchannel=customer&source=footer&campaign=4fd1028ee4b02be53c65dfb3

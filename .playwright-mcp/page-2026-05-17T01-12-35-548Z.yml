@@ -1,0 +1,357 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner:
+      - generic:
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e9] [cursor=pointer]:
+              - /url: /
+              - img "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e11]
+            - generic [ref=e12]:
+              - button "Contact Us" [ref=e14] [cursor=pointer]
+              - generic [ref=e17]:
+                - navigation [ref=e19]:
+                  - list [ref=e20]:
+                    - listitem [ref=e21]:
+                      - link "Home" [ref=e22] [cursor=pointer]:
+                        - /url: /
+                    - listitem [ref=e23]:
+                      - link "About" [ref=e24] [cursor=pointer]:
+                        - /url: /about/
+                    - listitem [ref=e25]:
+                      - link "Attorneys 3" [ref=e26] [cursor=pointer]:
+                        - /url: /attorney/
+                    - listitem [ref=e27]:
+                      - generic [ref=e28]: Practice Areas 3
+                    - listitem [ref=e29]:
+                      - link "News" [ref=e30] [cursor=pointer]:
+                        - /url: /news/
+                    - listitem [ref=e31]:
+                      - link "Blog" [ref=e32] [cursor=pointer]:
+                        - /url: /blog/
+                    - listitem [ref=e33]:
+                      - link "Contact" [ref=e34] [cursor=pointer]:
+                        - /url: /contact/
+                - text: aMenu
+          - text: 3 3 aMenu
+        - text: 3 3 a
+    - generic [ref=e35]:
+      - main [ref=e36]:
+        - generic [ref=e38]:
+          - paragraph [ref=e44]: We Fight Against Injustice – Wherever It May Arise
+          - navigation "Breadcrumb" [ref=e49]:
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - link "Home" [ref=e52] [cursor=pointer]:
+                  - /url: https://www.sshhzlaw.com
+              - listitem [ref=e53]: »
+              - listitem [ref=e54]: News
+          - generic [ref=e63]:
+            - generic [ref=e65]:
+              - heading "SSHHZ News" [level=1] [ref=e66]
+              - paragraph [ref=e67]: Check back for more updates and information about SSHHZ in the news.
+              - paragraph [ref=e68]
+              - heading "Demand for Chocolate Causes More Illegal Deforestation Than People Realize." [level=2] [ref=e69]
+              - paragraph [ref=e70]:
+                - text: “The Cocoa supply chain, much like a high-end bar of chocolate, is complex, opaque and a little nutty. Farmers, mainly in West Africa, sell their crop to local intermediaries, who in turn sell to exporters.
+                - link "Read More" [ref=e71] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2023/06/Cocoa-Deforestation.pdf
+              - heading "Nestle Still Can’t Defeat Child, Slave Labor Claims, Judge Told" [level=2] [ref=e72]
+              - paragraph [ref=e73]:
+                - text: “This is Nestlé USA, Inc.’s fifth bite at the apple — repeating the same arguments that this court already rejected. For all the reasons its prior pleading challenges failed, this attempt fails too,” the proposed class said.
+                - link "Read More" [ref=e74] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2022/10/Nestle-Article-Law360-10_20_22DEL.pdf
+              - heading "Recent Victory In Human Rights Case" [level=2] [ref=e75]
+              - paragraph [ref=e76]: 9/6/22 – Today the Eleventh Circuit Court of Appeals held that families suing Chiquita Brands International for supporting the paramilitaries who murdered their loved ones in Columbia could continue toward their trials.
+              - paragraph [ref=e77]: In a unanimous, 104 page opinion the Eleventh Circuit reversed a district court’s 2019 decision, which had held that the families had no admissible evidence that the paramilitary organization Chiquita has admitted to funding was responsible for the death of their loved ones. The Court of Appeals held that much of the evidence the Plaintiffs had relied on could be admitted against Chiquita in a trial, rejecting Chiquita’s many legal arguments to the contrary. The Court also held that a reasonable jury could find against Chiquita as to whether the paramilitary organization it funded killed plaintiffs’ loved ones.
+              - paragraph [ref=e78]: The ruling is a significant victory for the families in the appeal and potentially for the thousands of other families also involved in the litigation, in which the appellants were bellwether plaintiffs. More, the appeal clarified the evidentiary standard for victims of mass atrocities and murders in this case and beyond.
+              - paragraph [ref=e79]: SSHHZ’s Paul Hoffman argued on behalf of the families before the Eleventh Circuit with he and John Washington briefing the case along with co-counsel, including Earthrights International, Cohen Milstein Sellers & Toll PLLC; and Judith Brown Chomsky, Anthony DiCaprio, and Arturo Carrillo.
+              - paragraph [ref=e80]:
+                - link "Read more about the case" [ref=e81] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2022/09/Opinion.pdf
+                - text: .
+              - heading "Suit against Organic Valley calls separating cows from calves inhumane" [level=2] [ref=e82]:
+                - link "Suit against Organic Valley calls separating cows from calves inhumane" [ref=e83] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2022/07/Organic-Valley-Takes-Calves-From-Cows-False-Ad-Suit-Says-Law360.pdf
+              - paragraph [ref=e84]:
+                - text: By
+                - link "Tim Carman" [ref=e85] [cursor=pointer]:
+                  - /url: https://urldefense.com/v3/__https:/www.washingtonpost.com/people/tim-carman/__;!!GFN0sa3rsbfR8OLyAw!ZaQZfTLHvLA_ilJO2gXgAR6OunYZxOr86eUy8p24cvbTHpbudNy4O-kjzr9jrj09tAeuo7F6pWR4N-sbWH7Pjc022Sr_0A%24
+              - paragraph [ref=e86]: July 19, 2022 at 2:49 p.m. EDT
+              - paragraph [ref=e87]: Organic Valley’s labeling is the subject of a lawsuit over animal welfare. (Lisa M. Bolton/The Washington Post)
+              - paragraph [ref=e88]:
+                - text: On one panel of Organic Valley’s whole milk carton, the dairy cooperative says its “commitment to the highest organic standards and animal care practices helps make all our food delicious and nutritious.” Rotate the carton 90 degrees, and another panel tells consumers that Organic Valley believes “the best organic milk begins with . . . taking care of our cows,” relying on “humane” and “holistic health” practices.
+                - link "Read More" [ref=e89] [cursor=pointer]:
+                  - /url: /news/suit-against-organic-valley-calls-separating-cows-from-calves-inhumane/
+              - heading "SSHHZ & Colleagues’ Lawsuit Leads to Release of Long-Sealed Testimony in Roman Polanski Case" [level=2] [ref=e90]
+              - paragraph [ref=e91]:
+                - text: "July 18, 2022: Today several media outlets released testimony from the criminal trial of Roman Polanski in which the prosecutor in the case extensively discussed alleged misconduct in the case, including by the judge, whom the prosecutor sought to disqualify. The transcripts had remained sealed from public review for twelve years despite numerous prior attempts and motions to unseal them."
+                - link "Read More" [ref=e92] [cursor=pointer]:
+                  - /url: /news/sshhz-colleagues-lawsuit-leads-to-release-of-long-sealed-testimony-in-roman-polanski-case/
+              - heading "Wednesday, April 20, 2022 No. 21–499. Carlos Vega v. Terence B. Tekoh. Certiorari to the C. A. 9th Circuit." [level=2] [ref=e93]:
+                - text: Wednesday, April 20, 2022
+                - text: No. 21–499. Carlos Vega v. Terence B. Tekoh. Certiorari to the C. A. 9th Circuit.
+              - paragraph [ref=e94]: "For petitioner: Roman Martinez, Washington, D. C.; and Vivek Suri, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+              - paragraph [ref=e95]:
+                - text: "For respondent: Paul L. Hoffman, Hermosa Beach, Cal. (70 minutes for argument.)"
+                - link "https://www.supremecourt.gov/oral_arguments/audio/2021/21-499" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.supremecourt.gov/oral_arguments/audio/2021/21-499
+              - heading "Nestle Can’t Ditch Child Slave Labor Labeling Suit" [level=2] [ref=e97]
+              - paragraph [ref=e98]:
+                - text: Law360 (March 29, 2022, 9:19 PM EDT) — A California federal judge on Monday refused to toss a proposed class action accusing Nestlé USA of deceptively marketing its chocolate products as sustainably sourced despite getting cocoa from farms reliant on child slave labor.
+                - link "Read More" [ref=e99] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2022/03/Nestle-Cant-Ditch-Child-Slave-Labor-Labeling-Suit-Law360.pdf
+              - heading "United States District Court Southern District Of California" [level=2] [ref=e100]
+              - paragraph [ref=e101]:
+                - text: Pending before the Court in this putative consumer class action alleging deceptive product labeling is Defendant’s motion to dismiss for failure to state a claim.
+                - link "Read More" [ref=e102] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2022/03/J-Lorenz-Order-denying-Nestle-MTD2.pdf
+              - heading "CAOC’s 2021 Street Fighter of the Year Award" [level=2] [ref=e103]
+              - paragraph [ref=e104]:
+                - text: Attorney Mike Seplow been named a finalist for the California Attorneys of California’s (CAOC) 2021 Street Fighter of the Year award. This is one of the highest honors awarded by CAOC, and the recipients are small-firm attorneys who have advanced justice for plaintiffs through their work on a case that was finalized in the past year.
+                - link "Read more" [ref=e105] [cursor=pointer]:
+                  - /url: https://caoc-convention.com/awards
+                - text: .
+              - heading "2021 “California Lawyer Attorneys of the Year”" [level=2] [ref=e106]
+              - paragraph [ref=e107]: Congratulations to attorney Mike Seplow, who has received the California Lawyer Attorney of the Year (CLAY) award by the Daily Journal. The CLAY awards honor a select few attorneys for achievements in the legal profession that have greatly impacted public policy, the law, or a particular practice area.
+              - heading "Court Allows Lawsuit Alleging False Advertisement Of Sustainable Cocoa To Proceed" [level=2] [ref=e108]
+              - paragraph [ref=e109]:
+                - link "Class action" [ref=e110] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2021/05/Order_Denying_Starbucks_MTD.pdf
+                - text: alleges it misleads consumers with claims of sustainably sourced cocoa despite knowledge of child and slave labor.
+              - paragraph [ref=e111]:
+                - text: San Diego, Calif. (May 6, 2021) – In a significant victory for consumers, the U.S. District Court in the Central District of California denied a company’s attempts to dismiss plaintiff’s claims, allowing a nationwide class action to move forward. The lawsuit alleges that one of the world’s largest companies profiteers off misleading claims that its cocoa is “sustainably sourced,” while knowingly purchasing cocoa from a system that relies on forced child and slave labor in West Africa.
+                - link "Read more." [ref=e112] [cursor=pointer]:
+                  - /url: /news/court-allows-lawsuit-against-starbucks-alleging-false-advertisement-of-ethical-cocoa-to-proceed/
+              - heading "Tekoh V. County of Los Angeles" [level=2] [ref=e113]
+              - paragraph [ref=e114]: In an appeal brought by SSHHZ and the Offices of John Burton, the Ninth Circuit held for the first time that police officers who cause statements they elicit without the necessary Miranda warnings to be used to criminally prosecute the speaker violate the Fifth Amendment and the officers are liable for damages under civil rights law, regardless of whether they engaged in any other kinds of coercion.
+              - paragraph [ref=e115]: The case involves a plaintiff who was given no Miranda warnings, and asked to sign a false confession. After he did so, he was prosecuted, and ultimately acquitted. He sued the officers for violating his Fifth Amendment rights. The district court found that he could not pursue a claim based on the officers’ failure to Mirandize him unless they engaged in other coercion, and the Ninth Circuit reversed the district court, holding for the first time that these lawsuits are available throughout those states in the Ninth Circuit.
+              - paragraph [ref=e116]:
+                - text: See the Ninth Circuit’s opinion
+                - link "here" [ref=e117] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2021/01/TekohOpn.pdf
+                - text: ", and the oral argument in the case"
+                - link "here." [ref=e118] [cursor=pointer]:
+                  - /url: https://youtu.be/rvb041AKzpQ
+              - heading "SSHHZ’s Paul Hoffman, Renowned Human Rights And Civil Rights Litigator, Argued Nestle USA v. Doe I And Cargill v." [level=2] [ref=e119]
+              - paragraph [ref=e120]:
+                - text: "Doe I – consolidated cases alleging big chocolate knowingly profits from aiding and abetting child slave labor in West Africa – at the Supreme Court. Listen here:"
+                - link "https://www.c-span.org/video/?477430-1/alien-tort-statute-consolidated-arguments" [ref=e121] [cursor=pointer]:
+                  - /url: https://www.c-span.org/video/?477430-1/alien-tort-statute-consolidated-arguments
+              - heading "SSHHZ Files Its Supreme Court Briefs In Doe v. Nestle And Cargill." [level=2] [ref=e122]
+              - paragraph [ref=e123]:
+                - text: SSHHZ filed briefs in its cases in the U.S. Supreme Court against
+                - link "Nestle" [ref=e124] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2020/10/Nestle-Revised-Final-Type-A.pdf
+                - text: and
+                - link "Cargill" [ref=e125] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2020/10/Cargill-Type-A-Final.pdf
+                - text: under the Alien Tort Statute. The agricultural giants argue that corporations cannot be liable for aiding and abetting child slavery – only human beings can – even though international law has forbidden slavery since the 19th century. They also argue that they could not be liable for aiding and abetting the enslavement of foreign children. SSHHZ disagrees, and seeks to hold them accountable on behalf of a class of former child slaves trafficked into the Ivory Coast and who have been pursuing justice against the companies since 2005.
+              - paragraph [ref=e126]: SSHHZ partner Paul Hoffman will argue the case before the Court on December 1. The briefs were written with Terrence Collingsworth of International Rights Advocates, and Catherine Sweetser of UCLA School of Law, co-counsel on the case, and with the UCI and UCLA School of Law clinics.
+              - paragraph [ref=e127]:
+                - text: You can find the
+                - link "Nestle brief here" [ref=e128] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2020/10/Nestle-Revised-Final-Type-A.pdf
+                - text: ", and the"
+                - link "Cargill brief here" [ref=e129] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2020/10/Cargill-Type-A-Final.pdf
+                - text: .
+              - heading "SSHHZ Law Files Petition For Restraining Order – Alleges Unlawful Use of Force By Sheriff’s Department At Protests" [level=2] [ref=e130]
+              - paragraph [ref=e131]:
+                - text: LEILA MILLER, Calif., Sept. 21, 2020 – Plaintiffs in a class-action lawsuit are seeking a temporary restraining order and injunction to limit the Los Angeles County Sheriff’s Department’s use of nonlethal force at protests, claiming it has employed rubber bullets, tear gas and other chemical agents indiscriminately against peaceful protestors, journalists and legal observers in violation of the Constitution.
+                - link "Read more." [ref=e132] [cursor=pointer]:
+                  - /url: /news/sshhz-law-files-petition-for-restraining-order-alleges-unlawful-use-of-force-by-sheriffs-department-at-protests/
+              - heading "Federal Lawsuit Claims Yahoo Management’s Secret Pact With China Supported Torture, Imprisonment of Pro-Democracy Activists" [level=2] [ref=e133]
+              - paragraph [ref=e134]:
+                - text: "SAN JOSE, Calif., Sept. 2, 2020 – Attorneys for renowned Chinese activist Ning Xianhua have filed a federal lawsuit alleging that Yahoo Inc. founder Jerry Yang and CEO Terry Semel provided Mr. Ning’s Yahoo emails to Chinese authorities in a joint effort to silence pro-democracy dissidents in China and to aid Mr. Ning’s capture, imprisonment, and torture by Chinese government officials. Yahoo’s successor companies, Oath Holdings, a division of Verizon Communications Inc. (NYSE:"
+                - link "VZ" [ref=e135] [cursor=pointer]:
+                  - /url: https://www.prnewswire.com/news-releases/federal-lawsuit-claims-yahoo-managements-secret-pact-with-china-supported-torture-imprisonment-of-pro-democracy-activists-301123104.html#financial-modal
+                - text: ") and Altaba Inc. (NASDAQ:"
+                - link "AABA" [ref=e136] [cursor=pointer]:
+                  - /url: https://www.prnewswire.com/news-releases/federal-lawsuit-claims-yahoo-managements-secret-pact-with-china-supported-torture-imprisonment-of-pro-democracy-activists-301123104.html#financial-modal
+                - text: ) are also named as defendants in the case.
+                - link "Read more." [ref=e137] [cursor=pointer]:
+                  - /url: /news/federal-lawsuit-claims-yahoo-managements-secret-pact-with-china-supported-torture-imprisonment-of-pro-democracy-activists/
+              - heading "United States District Court Northern District Of California San Jose Division" [level=2] [ref=e138]
+              - paragraph [ref=e139]:
+                - text: Plaintiff NING XIANHUA
+                - strong [ref=e140]: (Mr. Ning),
+                - text: "by and through his undersigned attorneys, complains and alleges the following:"
+              - paragraph [ref=e141]:
+                - strong [ref=e143]: INTRODUCTION
+              - list [ref=e144]:
+                - listitem [ref=e145]: In May of 1989, hundreds of thousands of Chinese students and workers gathered at Beijing’s Tiananmen Square to protest peacefully in favor of democracy and improved conditions for China’s working class. On June 4, 1989, China’s communist regime ordered the Chinese military to remove the protesters from Tiananmen Square and to execute or arrest those who refused. The military violently removed the protesters, killing thousands of them in the process by firing on them with assault rifles and running over them with armored vehicles.
+              - paragraph [ref=e146]:
+                - link "Read more" [ref=e147] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2020/09/United-States-District-Court-Northern-District-Of-California-San-Jose-Division.pdf
+              - heading "B.B. v. County of LA" [level=2] [ref=e148]
+              - paragraph [ref=e149]:
+                - strong [ref=e150]: "Important Victory for Victims’ Rights in California Supreme Court:"
+                - text: Today in a unanimous ruling the California Supreme Court, in the case of B.B. v. County of Los Angeles, held a L.A. County Sheriff’s Deputy could not avoid full responsibility for a man’s death caused by his intentional use of force by pointing to the victim’s contributory negligence.
+              - paragraph [ref=e151]: In 2015, a jury determined that a deputy had acted intentionally in using force which killed Darren Burley, an African-American father of five, and awarded the family $8,000,000 in damages. The Court of Appeal substantially reduced the award finding that it should be offset due to the negligent conduct of Mr. Burley. The California Supreme Court reversed and reinstated the entire verdict.
+              - paragraph [ref=e152]:
+                - link "Read more" [ref=e153] [cursor=pointer]:
+                  - /url: /wp-content/uploads/sites/1302542/2020/08/SSHHZ_BBvLA_County_AUG20.pdf
+              - heading "Black Lives Matters" [level=2] [ref=e154]
+              - paragraph [ref=e155]: SSHHZ lawyers join other LA civil rights lawyers in Protecting the Rights of Protestors.
+              - paragraph [ref=e156]: Paul Hoffman, Michael Seplow, Aidan McGlaze and John Washington are part of a team of LA civil rights lawyers in suing the LAPD for violating the rights of peaceful protestors during mass protests after the murder of George Floyd by Minneapolis police officers. The lawsuit seeks to prohibit the LAPD, among other things, from firing projectiles into crowds and from detaining protestors for hours in unventilated buses in tight handcuffs without any law enforcement justification.
+              - heading "Chocolate Slave Labor Cases" [level=2] [ref=e157]
+              - paragraph [ref=e158]: In a significant victory for plaintiffs, the U.S. District Court in Southern California denied Nestlé USA, Inc.’s anti-SLAPP motion, allowing a nationwide class action to move forward, alleging Nestle profiteers off misleading claims that its cocoa is “sustainably sourced,” while knowingly purchasing cocoa from a supply chain that relies on forced child and slave labor, and environmental degradation in West Africa.
+            - heading "Recent Blog Posts" [level=2] [ref=e161]
+      - contentinfo [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e166]:
+            - 'heading "We Will Make A Difference For You: Contact Us" [level=2] [ref=e169]'
+            - generic [ref=e172]: Loading Form...
+          - generic [ref=e173]:
+            - heading "Contact the firm" [level=2] [ref=e178]:
+              - strong [ref=e179]: Contact the firm
+            - generic [ref=e180]:
+              - generic [ref=e183] [cursor=pointer]:
+                - generic:
+                  - link "Pasadena Map":
+                    - /url: /south-pasadena-employment-law-office/
+                    - generic:
+                      - img "Pasadena Map"
+                - generic [ref=e184]:
+                  - heading "S. Pasadena Office" [level=3] [ref=e185]:
+                    - link "S. Pasadena Office" [ref=e186]:
+                      - /url: /south-pasadena-employment-law-office/
+                  - generic [ref=e187]:
+                    - paragraph [ref=e188]:
+                      - text: "Phone:"
+                      - strong [ref=e189]:
+                        - link "626-441-4129" [ref=e191]:
+                          - /url: tel:+1-626-441-4129
+                      - text: "Fax:"
+                      - strong [ref=e192]: 626-283-5770
+                      - generic [ref=e193]:
+                        - text: 715 Fremont Avenue
+                        - text: Suite A
+                        - text: S. Pasadena, CA 91030
+                    - paragraph [ref=e194]:
+                      - link "S. Pasadena Office" [ref=e195]:
+                        - /url: /south-pasadena-employment-law-office/
+              - generic [ref=e198] [cursor=pointer]:
+                - generic:
+                  - link "Culver City Map":
+                    - /url: /culver-city-employment-law-office/
+                    - generic:
+                      - img "Culver City Map"
+                - generic [ref=e199]:
+                  - heading "Culver City Office" [level=3] [ref=e200]:
+                    - link "Culver City Office" [ref=e201]:
+                      - /url: /culver-city-employment-law-office/
+                  - generic [ref=e202]:
+                    - paragraph [ref=e203]:
+                      - text: "Phone:"
+                      - strong [ref=e204]:
+                        - link "310-396-0731" [ref=e206]:
+                          - /url: tel:+1-310-396-0731
+                      - text: "Fax:"
+                      - strong [ref=e207]: 310-399-7040
+                      - generic [ref=e208]:
+                        - text: "9415 Culver Blvd. #115"
+                        - text: Culver City, CA 90232
+                    - paragraph [ref=e209]:
+                      - link "Culver City Office" [ref=e210]:
+                        - /url: /culver-city-employment-law-office/
+              - generic [ref=e213] [cursor=pointer]:
+                - generic:
+                  - link "Hermosa Beach Map":
+                    - /url: /hermosa-beach-law-office/
+                    - generic:
+                      - img "Hermosa Beach Map"
+                - generic [ref=e214]:
+                  - heading "Hermosa Beach Office" [level=3] [ref=e215]:
+                    - link "Hermosa Beach Office" [ref=e216]:
+                      - /url: /hermosa-beach-law-office/
+                  - paragraph [ref=e218]:
+                    - text: "Phone:"
+                    - strong [ref=e219]:
+                      - link "424-297-0114" [ref=e221]:
+                        - /url: tel:+1-424-297-0114
+                    - text: "Fax:"
+                    - strong [ref=e222]: 310-399-7040
+                    - generic [ref=e223]:
+                      - text: 200 Pier Ave
+                      - text: Suite 226
+                      - text: Hermosa Beach, CA 90254
+                    - link "Hermosa Beach Office" [ref=e224]:
+                      - /url: /hermosa-beach-law-office/
+              - generic [ref=e227] [cursor=pointer]:
+                - generic:
+                  - link "San Diego Map":
+                    - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+                    - generic:
+                      - img "San Diego Map"
+                - generic [ref=e228]:
+                  - heading "San Diego Office" [level=3] [ref=e229]:
+                    - link "San Diego Office" [ref=e230]:
+                      - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+                  - paragraph [ref=e232]:
+                    - text: "Phone:"
+                    - strong [ref=e233]:
+                      - link "619-400-4990" [ref=e235]:
+                        - /url: tel:+1-619-400-4990
+                    - text: "Fax:"
+                    - strong [ref=e236]: 310-399-7040
+                    - generic [ref=e237]:
+                      - text: 501 W. Broadway
+                      - text: Suite 800
+                      - text: San Diego, CA 92101
+                    - link "San Diego Office" [ref=e238]:
+                      - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+          - paragraph [ref=e244]: Reach out to one of our experienced attorneys today
+          - generic [ref=e246]:
+            - generic [ref=e248]:
+              - generic:
+                - img "California Employment Lawyers Association | Cela"
+            - generic [ref=e250]:
+              - generic:
+                - img "The State Bar Of California | July 29th 1927"
+            - generic [ref=e252]:
+              - generic:
+                - img "Lacba | Los Angeles County Bar Association"
+            - generic [ref=e254]:
+              - generic:
+                - img "Nela | National Employment Lawyers Association"
+            - generic [ref=e256]:
+              - generic:
+                - img "Consumer Attorneys Of California"
+          - generic [ref=e257]:
+            - generic [ref=e258]:
+              - button "Review Us" [ref=e261] [cursor=pointer]
+              - list [ref=e263]:
+                - listitem [ref=e264]:
+                  - link " Follow on Facebook, opens in a new window" [ref=e265] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sshhzlaw/
+                    - text: 
+                    - generic: Follow on Facebook, opens in a new window
+            - text: 
+            - generic [ref=e269]:
+              - paragraph [ref=e270]
+              - generic [ref=e271]:
+                - paragraph [ref=e273]:
+                  - text: © 2026
+                  - link "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e274] [cursor=pointer]:
+                    - /url: https://lawyers.findlaw.com/california/culver-city/schonbrun-seplow-harris-hoffman--zeldes-llp-MTA2MDA4NF8x/
+                  - text: • All Rights Reserved
+                - paragraph [ref=e276]:
+                  - link "Disclaimer" [ref=e277] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/disclaimer/
+                  - text: "|"
+                  - link "Site Map" [ref=e278] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/site-map/
+                  - text: "|"
+                  - link "Privacy Policy" [ref=e279] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/privacy/
+                  - text: "|"
+                  - link "Business Development Solutions" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.findlaw.com/lawyer-marketing/
+                  - text: by
+                  - link "FindLaw" [ref=e281] [cursor=pointer]:
+                    - /url: https://www.findlaw.com/
+  - text: "2"

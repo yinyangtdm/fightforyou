@@ -1,0 +1,713 @@
+- generic [active] [ref=e1]:
+  - text:            
+  - button "Accessibility Widget, click to open" [ref=e3] [cursor=pointer]:
+    - generic [ref=e4]: 
+  - link "Skip to content" [ref=e5] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Shaheen & Gordon Attorneys At Law New Hampshire logo" [ref=e11] [cursor=pointer]:
+        - /url: https://www.shaheengordon.com
+        - img "Shaheen & Gordon Attorneys At Law New Hampshire logo" [ref=e12]
+      - generic [ref=e13]:
+        - generic [ref=e16]: Call us now
+        - link "603-614-5560" [ref=e20] [cursor=pointer]:
+          - /url: tel:+16036145560
+      - link [ref=e25] [cursor=pointer]:
+        - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjI0NSIsInRvZ2dsZSI6ZmFsc2V9"
+        - img [ref=e28]
+    - text:    
+  - generic [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "We're Here" [level=1] [ref=e36]
+        - paragraph [ref=e39]: To be the difference
+      - generic [ref=e40]:
+        - link "Get in touch" [ref=e44] [cursor=pointer]:
+          - /url: https://www.shaheengordon.com/contact-us/
+          - generic [ref=e46]: Get in touch
+        - generic [ref=e48]: full-service legal advocacy
+        - generic [ref=e49]:
+          - paragraph [ref=e53]: For You
+          - paragraph [ref=e57]: For Your Family
+          - paragraph [ref=e61]: For Your Business
+    - generic [ref=e63]:
+      - img "mike on teal wall" [ref=e68]
+      - generic [ref=e69]:
+        - paragraph [ref=e72]: We’re Here For All Your Legal Needs
+        - paragraph [ref=e79]: Providing creative, compassionate legal solutions across New England and beyond.
+        - generic [ref=e81]:
+          - paragraph [ref=e82]: When you need a lawyer, finding the right one can make all the difference. Since 1981, our focus has been providing personalized attention for each client, backed by extensive experience and resources.
+          - paragraph [ref=e83]: Among our team of 65+ attorneys and talented legal staff is the support you need…for current and future legal challenges. Let us provide peace of mind for your life.
+        - link "Get in touch" [ref=e87] [cursor=pointer]:
+          - /url: https://www.shaheengordon.com/contact-us/
+          - generic [ref=e89]: Get in touch
+    - paragraph [ref=e98]: It's Different Here
+    - generic [ref=e100]:
+      - list [ref=e103]:
+        - listitem [ref=e104]:
+          - img [ref=e106]
+          - generic [ref=e108]: Connected to Our Community
+        - listitem [ref=e109]:
+          - img [ref=e111]
+          - generic [ref=e113]: Fearless Legal Advocacy
+      - list [ref=e116]:
+        - listitem [ref=e117]:
+          - img [ref=e119]
+          - generic [ref=e121]: Unique Legal Experience
+        - listitem [ref=e122]:
+          - img [ref=e124]
+          - generic [ref=e126]: Client-Centered Approach
+      - list [ref=e129]:
+        - listitem [ref=e130]:
+          - img [ref=e132]
+          - generic [ref=e134]: Committed to Your Peace of Mind
+        - listitem [ref=e135]:
+          - img [ref=e137]
+          - generic [ref=e139]: A Record of Achievement
+    - generic [ref=e147]:
+      - generic [ref=e150]: Our Practice Areas
+      - paragraph [ref=e153]: When You Need to Win, We Won’t Stop Fighting for You
+      - img "095a2e5dddd3f9c5c8cbb113320c47db svg" [ref=e156]
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - generic [ref=e168]: Filter Cities by State(s)
+          - generic [ref=e173]:
+            - text: 
+            - combobox [ref=e174]:
+              - option "All States" [selected]
+              - option "Hawai'i"
+              - option "Maine"
+              - option "Massachusetts"
+              - option "New Hampshire"
+        - generic [ref=e179]:
+          - tablist [ref=e180]:
+            - tab "Concord" [expanded] [ref=e181] [cursor=pointer]:
+              - generic [ref=e183]: Concord
+            - tab "Dover" [ref=e184] [cursor=pointer]:
+              - generic [ref=e186]: Dover
+            - tab "Manchester" [ref=e187] [cursor=pointer]:
+              - generic [ref=e189]: Manchester
+            - tab "Nashua" [ref=e190] [cursor=pointer]:
+              - generic [ref=e192]: Nashua
+            - tab "Peterborough" [ref=e193] [cursor=pointer]:
+              - generic [ref=e195]: Peterborough
+            - tab "Portland" [ref=e196] [cursor=pointer]:
+              - generic [ref=e198]: Portland
+            - tab "Cape Cod" [ref=e199] [cursor=pointer]:
+              - generic [ref=e201]: Cape Cod
+            - tab "Keene" [ref=e202] [cursor=pointer]:
+              - generic [ref=e204]: Keene
+            - tab "Lebanon" [ref=e205] [cursor=pointer]:
+              - generic [ref=e207]: Lebanon
+            - tab "Honolulu" [ref=e208] [cursor=pointer]:
+              - generic [ref=e210]: Honolulu
+          - tabpanel [ref=e212]:
+            - generic [ref=e214]:
+              - link "Personal Injury" [ref=e215] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/personal-injury-lawyer/
+                - generic [ref=e217]: Personal Injury
+              - link "Workers' Compensation" [ref=e218] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-workers-compensation-lawyer/
+                - generic [ref=e220]: Workers' Compensation
+              - link "Criminal Law" [ref=e221] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/criminal-defense-lawyer/
+                - generic [ref=e223]: Criminal Law
+              - link "DUI/DWI" [ref=e224] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/dwi-lawyer/
+                - generic [ref=e226]: DUI/DWI
+              - link "Business Law" [ref=e227] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-corporate-business-lawyer/
+                - generic [ref=e229]: Business Law
+              - link "Real Estate" [ref=e230] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-real-estate-lawyer/
+                - generic [ref=e232]: Real Estate
+              - link "Trust, Estates, & Guardianships" [ref=e233] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-estate-planning-lawyer/
+                - generic [ref=e235]: Trust, Estates, & Guardianships
+              - link "Family Law" [ref=e236] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-divorce-lawyer/
+                - generic [ref=e238]: Family Law
+              - link "Immigration" [ref=e239] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-immigration-lawyer/
+                - generic [ref=e241]: Immigration
+              - link "Litigation" [ref=e242] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-litigation-lawyer/
+                - generic [ref=e244]: Litigation
+              - link "Car Accident" [ref=e245] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/car-accident-lawyer/
+                - generic [ref=e247]: Car Accident
+              - link "Truck Accident" [ref=e248] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/truck-accident-lawyer/
+                - generic [ref=e250]: Truck Accident
+              - link "Motorcycle Accident" [ref=e251] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/motorcycle-accident-lawyer/
+                - generic [ref=e253]: Motorcycle Accident
+              - link "Catastrophic Injury" [ref=e254] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/catastrophic-injury-lawyer/
+                - generic [ref=e256]: Catastrophic Injury
+              - link "Construction Accident" [ref=e257] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/construction-accident-lawyer/
+                - generic [ref=e259]: Construction Accident
+              - link "Federal Crimes" [ref=e260] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/federal-crimes-lawyer/
+                - generic [ref=e262]: Federal Crimes
+              - link "Premises Liability" [ref=e263] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/premises-liability-lawyer/
+                - generic [ref=e265]: Premises Liability
+              - link "Birth Injury" [ref=e266] [cursor=pointer]:
+                - /url: /new-hampshire-birth-injury-attorney/
+                - generic [ref=e268]: Birth Injury
+              - link "Slip And Fall" [ref=e269] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-slip-and-fall-lawyer/
+                - generic [ref=e271]: Slip And Fall
+              - link "White Collar Crime" [ref=e272] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-slip-and-fall-lawyer/
+                - generic [ref=e274]: White Collar Crime
+              - link "Wrongful Death" [ref=e275] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-wrongful-death-lawyer/
+                - generic [ref=e277]: Wrongful Death
+              - link "Violent Crimes" [ref=e278] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-violent-crimes-lawyer/
+                - generic [ref=e280]: Violent Crimes
+              - link "Sexual Offenses" [ref=e281] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/sex-offenses-lawyer/
+                - generic [ref=e283]: Sexual Offenses
+              - link "Theft Crime" [ref=e284] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-theft-crimes-lawyer/
+                - generic [ref=e286]: Theft Crime
+              - link "Drug Crime" [ref=e287] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/concord/drug-crimes-lawyer/
+                - generic [ref=e289]: Drug Crime
+              - link "Juvenile Defense" [ref=e290] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-juvenile-crimes-lawyer/
+                - generic [ref=e292]: Juvenile Defense
+              - link "Criminal Appeals" [ref=e293] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-criminal-appeals-lawyer/
+                - generic [ref=e295]: Criminal Appeals
+              - link "Divorce" [ref=e296] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-divorce-lawyer/
+                - generic [ref=e298]: Divorce
+              - link "Alimony" [ref=e299] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-alimony-lawyer/
+                - generic [ref=e301]: Alimony
+              - link "Child Custody" [ref=e302] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-child-custody-lawyer/
+                - generic [ref=e304]: Child Custody
+              - link "Child Support" [ref=e305] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-child-support-lawyer/
+                - generic [ref=e307]: Child Support
+              - link "Prenuptial Agreement" [ref=e308] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-prenuptial-agreement-lawyer/
+                - generic [ref=e310]: Prenuptial Agreement
+              - link "Domestic Violence" [ref=e311] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-domestic-violence-lawyer/
+                - generic [ref=e313]: Domestic Violence
+              - link "Property Division" [ref=e314] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-divorce-lawyer/property-division/
+                - generic [ref=e316]: Property Division
+              - link "Employment Law" [ref=e317] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-employment-lawyer/
+                - generic [ref=e319]: Employment Law
+              - link "Defective products" [ref=e320] [cursor=pointer]:
+                - /url: https://www.shaheengordon.com/new-hampshire-product-liability-lawyer/
+                - generic [ref=e322]: Defective products
+      - link "EXPLORE ALL" [ref=e326] [cursor=pointer]:
+        - /url: https://www.shaheengordon.com/practice-areas/
+        - generic [ref=e328]: EXPLORE ALL
+    - generic [ref=e332]:
+      - paragraph [ref=e335]:
+        - text: Real Results
+        - text: for Real People
+      - paragraph [ref=e338]:
+        - text: When You Need to Win,
+        - text: We Won’t Stop Fighting for You
+      - img "cb5bc4bad4c8620aa2ba8b122f2df661 svg" [ref=e341]
+      - paragraph [ref=e344]: The attorneys at Shaheen & Gordon, P.A. will approach your case with a resolve to help you reach solutions that matter. We’ll work with you to develop a personalized strategy that charts a path toward the possibility of achieving the best possible outcomes for your legal matter.
+    - generic [ref=e346]:
+      - generic [ref=e349]:
+        - generic [ref=e351]:
+          - group "3 / 3" [ref=e352]:
+            - generic [ref=e356]:
+              - generic [ref=e361]: Case Dismissed
+              - generic [ref=e362]:
+                - generic [ref=e365]:
+                  - paragraph [ref=e366]: Represented clients in a six-figure real estate dispute. Case was dismissed after aggressive discovery and pre-trial motions.
+                  - text: ...
+                - link "Read More" [ref=e371] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/case-results/six-figure-real-estate-dispute-2/
+                  - generic [ref=e373]: Read More
+          - group "1 / 3" [ref=e374]:
+            - generic [ref=e378]:
+              - generic [ref=e383]: $22 Million Marital Estate Settlement
+              - generic [ref=e384]:
+                - paragraph [ref=e388]: Negotiated a favorable settlement in a $22 million marital estate. Due to the unexpected longevity of wife’s parents, the prenuptial...
+                - link "Read More" [ref=e393] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/case-results/22-million-marital-estate-settlement/
+                  - generic [ref=e395]: Read More
+          - group "2 / 3" [ref=e396]:
+            - generic [ref=e400]:
+              - generic [ref=e405]: $12 Million Marital Estate Settlement
+              - generic [ref=e406]:
+                - generic [ref=e409]:
+                  - paragraph [ref=e410]: Negotiated a favorable settlement in a $12 million marital estate
+                  - text: ...
+                - link "Read More" [ref=e415] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/case-results/12-million-marital-estate-settlement/
+                  - generic [ref=e417]: Read More
+          - group "3 / 3" [ref=e418]:
+            - generic [ref=e422]:
+              - generic [ref=e427]: Case Dismissed
+              - generic [ref=e428]:
+                - generic [ref=e431]:
+                  - paragraph [ref=e432]: Represented clients in a six-figure real estate dispute. Case was dismissed after aggressive discovery and pre-trial motions.
+                  - text: ...
+                - link "Read More" [ref=e437] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/case-results/six-figure-real-estate-dispute-2/
+                  - generic [ref=e439]: Read More
+          - group "1 / 3" [ref=e440]:
+            - generic [ref=e444]:
+              - generic [ref=e449]: $22 Million Marital Estate Settlement
+              - generic [ref=e450]:
+                - paragraph [ref=e454]: Negotiated a favorable settlement in a $22 million marital estate. Due to the unexpected longevity of wife’s parents, the prenuptial...
+                - link "Read More" [ref=e459] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/case-results/22-million-marital-estate-settlement/
+                  - generic [ref=e461]: Read More
+        - generic [ref=e462]:
+          - button "Go to slide 1" [ref=e463] [cursor=pointer]
+          - button "Go to slide 2" [ref=e464] [cursor=pointer]
+          - button "Go to slide 3" [ref=e465] [cursor=pointer]
+      - link "View All Case Results" [ref=e469] [cursor=pointer]:
+        - /url: https://www.shaheengordon.com/case-results/
+        - generic [ref=e471]: View All Case Results
+    - generic [ref=e474]:
+      - generic [ref=e477]:
+        - text: Our Clients Come First.
+        - text: Always.
+      - generic [ref=e479]: Hear From Clients Like You
+    - generic [ref=e487]:
+      - generic [ref=e488]:
+        - generic [ref=e490]:
+          - generic [ref=e491]:
+            - img "Rafaela Aguiar" [ref=e492]
+            - generic [ref=e493]:
+              - link "Rafaela Aguiar" [ref=e494] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/106662104452705971813/reviews
+              - generic [ref=e495]: 16 days ago
+          - generic [ref=e498]: We had Brian and Emma help us with two separate cases over the past year, and both were successful. They were always willing to listen to our concerns and answer any questions, and they made themselves available whenever we needed guidance through what was honestly a very stressful time.I’m really grateful we had them representing us and would absolutely recommend their team to anyone looking for reliable, efficient, and straightforward legal support.
+          - img [ref=e499]
+        - generic [ref=e502]:
+          - generic [ref=e503]:
+            - img "Greg Bushey" [ref=e504]
+            - generic [ref=e505]:
+              - link "Greg Bushey" [ref=e506] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/101258204151288480395/reviews
+              - generic [ref=e507]: 21 days ago
+          - generic [ref=e510]: Lauren Breda and Heather were absolutely amazing. Lauren handled my case with precision, professionalism, and real care. She treated me like a human being and made me feel at ease during the most stressful time of my life. Heather kept everything organized and made sure nothing fell through the cracks.Lauren exceeded my expectations in every way and got me the best possible outcome. I’m so grateful I chose her. She truly saved my life.I highly recommend Lauren and Heather to anyone who needs a lawyer who will fight hard for them.
+          - img [ref=e511]
+        - generic [ref=e514]:
+          - generic [ref=e515]:
+            - img "Pat King" [ref=e516]
+            - generic [ref=e517]:
+              - link "Pat King" [ref=e518] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/106166213248388330415/reviews
+              - generic [ref=e519]: a month ago
+          - generic [ref=e522]: Emma Sisti and Brian Quirk provided me with a stellar defense. The deck was stacked heavily in the states favor. They sought to take my freedom and break apart our family. I had no reasonable alternative other than to find the best legal team in the state for my defense. These two were just that. It was a complex case and they were able to concentrate on the important facts and convey them to the jury in a way that was digestible to the common person. Their performance at the trial was even better than I could have hoped for. If you’ve seen the movie “A Few Good Men”, picture that, but better. If you are searching for a top notch legal defense, look no further.
+          - img [ref=e523]
+        - generic [ref=e526]:
+          - generic [ref=e527]:
+            - img "Patrick B." [ref=e528]
+            - generic [ref=e529]:
+              - link "Patrick B." [ref=e530] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/102997993492263109248/reviews
+              - generic [ref=e531]: a month ago
+          - generic [ref=e534]: Brian Quirk was honestly such a pleasure to work with. He’s confident in his field and will always be honest and up front with you as to what he can or can’t do. It’s refreshing to have an attorney who’s honest, and isn’t just trying to get you to give them money even when they believe it’s a no win situation. I highly recommend Shaheen & Gordon. I really appreciate everything you helped me out with Brian. Thank you for your honesty and integrity. They’re such rare qualities in people these days and seeing it in people such as yourself, even if only in very rare instances helps to restore some of my faith in humanity!
+          - img [ref=e535]
+        - generic [ref=e538]:
+          - generic [ref=e539]:
+            - img "Christine Carbone" [ref=e540]
+            - generic [ref=e541]:
+              - link "Christine Carbone" [ref=e542] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/111947200677538011308/reviews
+              - generic [ref=e543]: 2 months ago
+          - generic [ref=e546]: I worked with Attorney Benjamin Siracusa Hillman while serving as the executor of my father’s estate, and I’m very grateful for his guidance. I had no prior experience with the estate process, but he explained everything clearly and kept me well informed at every step. The situation was complex and even involved court proceedings and a challenging estate inventory, yet he handled it with professionalism and expertise. His communication, patience, and steady support made a difficult process much more manageable. I highly recommend Attorney Hillman and his firm to anyone needing help with estate matters.
+          - img [ref=e547]
+        - generic [ref=e550]:
+          - generic [ref=e551]:
+            - img "Saurav Paudyal" [ref=e552]
+            - generic [ref=e553]:
+              - link "Saurav Paudyal" [ref=e554] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/118091690416024588807/reviews
+              - generic [ref=e555]: 2 months ago
+          - generic [ref=e558]: Joe and Heather were absolutely excellent to work with. From the very beginning, they were professional, responsive, and incredibly supportive during a very stressful time.They handled everything with care and expertise and worked hard to achieve the best possible outcome for me. I truly felt like I was in good hands throughout the entire process.I can confidently say that I highly recommend Joe and the team at Shaheen & Gordon to anyone in need of strong, compassionate and stress reducing legal representation.
+          - img [ref=e559]
+        - generic [ref=e562]:
+          - generic [ref=e563]:
+            - img "Michael Dagon" [ref=e564]
+            - generic [ref=e565]:
+              - link "Michael Dagon" [ref=e566] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/112765227747427760180/reviews
+              - generic [ref=e567]: 3 months ago
+          - generic [ref=e570]: Working with Emma Sisti and her Legal Assistant, Elizabeth Berliner, was a game-changer! Emma is a brilliant strategist who approaches every detail with thoughtfulness and precision. It’s rare to find someone so deeply knowledgeable who also leads with such empathy. In Ancient Rome, they spoke of Cura as a legal ideal—the rare blend of meticulous care and a sense of duty. Emma embodies this perfectly!
+          - img [ref=e571]
+        - generic [ref=e574]:
+          - generic [ref=e575]:
+            - img "Chris Cromwell" [ref=e576]
+            - generic [ref=e577]:
+              - link "Chris Cromwell" [ref=e578] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/114838204189030503305/reviews
+              - generic [ref=e579]: 4 months ago
+          - generic [ref=e582]: I reached out to Lauren at Shaheen & Gordon back in May, and from the very beginning she handled my case with a high level of professionalism, clarity, and care. She was extremely communicative throughout the entire process, always keeping me informed and making sure I understood each step along the way. Lauren coordinated everything seamlessly and ensured that nothing fell through the cracks, which gave me a great deal of confidence and peace of mind. Most importantly, she achieved the exact outcome we were working toward, and she did so efficiently and thoughtfully. Her responsiveness and attention to detail truly set her apart. I am very grateful for her work and would highly recommend her to anyone seeking knowledgeable and dependable legal representation.Heather was also an absolute pleasure to work with throughout the entire process. She was consistently responsive, always answered my emails promptly, and made herself available whenever I had questions or needed clarification. Her professionalism and reliability never wavered, and she played a key role in ensuring communication remained smooth and efficient. It was clear she genuinely cared about helping and supporting clients. Heather is an incredible asset to the firm, and her dedication did not go unnoticed.
+          - img [ref=e583]
+        - generic [ref=e586]:
+          - generic [ref=e587]:
+            - img "Caleb" [ref=e588]
+            - generic [ref=e589]:
+              - link "Caleb" [ref=e590] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/111504086307620697180/reviews
+              - generic [ref=e591]: 5 months ago
+          - generic [ref=e594]: Joe Cherniske is probably the best lawyer in all of New Hampshire. His performance, and the results he’s able to get, are beyond expectation to say the least. I give him the highest recommendation possible.
+          - img [ref=e595]
+        - generic [ref=e598]:
+          - generic [ref=e599]:
+            - img "ERIC FORSING" [ref=e600]
+            - generic [ref=e601]:
+              - link "ERIC FORSING" [ref=e602] [cursor=pointer]:
+                - /url: https://www.google.com/maps/contrib/101029951335772407246/reviews
+              - generic [ref=e603]: 6 months ago
+          - generic [ref=e606]: Earlier this year I found myself needing legal assistance. I have to say that right from my initial consultation and throughout the entire process that Jim and Katherine were amazing.I unfortunately had another time that I needed legal assistance from a DIFFERENT ATTORNEY OFFICE. And the two experiences were night and day. I did not even get to meet my first attorney until my court date. But I got to meet Jim and Katherine within days of my initial phone call. They made me feel very comfortable right from the beginning they both reassured me that this was not the end of my life. Even though at the time it felt like it.I was updated by them throughout the whole process. Which also was a huge difference from my other experience WITH A DIFFERENT ATTORNEY OFFICE. I would highly recommend Jim and Katherine to anyone needing legal help.
+          - img [ref=e607]
+      - generic:
+        - img [ref=e610] [cursor=pointer]
+        - img [ref=e613] [cursor=pointer]
+    - link "View all Testimonials" [ref=e620] [cursor=pointer]:
+      - /url: https://www.shaheengordon.com/testimonials/
+      - generic [ref=e622]: View all Testimonials
+    - generic [ref=e623]:
+      - generic [ref=e625]:
+        - paragraph [ref=e628]: Meet Our Attorneys
+        - generic [ref=e631]: Results-Driven. Client-Focused.
+      - generic [ref=e632]:
+        - generic [ref=e633]:
+          - img "d michael noonan" [ref=e636]
+          - img "james d rosenberg" [ref=e639]
+          - img "ronabramson web" [ref=e642]
+          - img "sean t o'connell" [ref=e645]
+          - img "alexander e spadinger" [ref=e648]
+          - img "lauren breda" [ref=e651]
+          - img "benjamin siracusa hillman" [ref=e654]
+          - img "tracey goyette cote" [ref=e657]
+        - link "Get to Know Us" [ref=e662] [cursor=pointer]:
+          - /url: https://www.shaheengordon.com/attorneys/
+          - generic [ref=e664]: Get to Know Us
+    - paragraph [ref=e670]: Explore Our Blogs
+    - generic [ref=e671]:
+      - generic [ref=e673]:
+        - list [ref=e674]:
+          - generic [ref=e675]:
+            - group [ref=e676]:
+              - generic [ref=e678]:
+                - generic [ref=e681]: April 6, 2026
+                - generic [ref=e684]: What is considered nursing home abuse?
+                - link [ref=e688] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/blog/2026/04/what-is-considered-nursing-home-abuse/
+                  - text: VIEW ARTICLE
+            - group "1 / 6" [ref=e689]:
+              - generic [ref=e691]:
+                - generic [ref=e694]: April 30, 2026
+                - generic [ref=e697]: How long does it take for a dog bite settlement?
+                - link "VIEW ARTICLE" [ref=e701] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/resources/faq/how-long-does-it-take-for-a-dog-bite-settlement/
+            - group "2 / 6" [ref=e702]:
+              - generic [ref=e704]:
+                - generic [ref=e707]: April 30, 2026
+                - generic [ref=e710]: What is a will vs. a trust?
+                - link "VIEW ARTICLE" [ref=e714] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/blog/2026/04/what-is-a-will-vs-a-trust/
+            - group "3 / 6" [ref=e715]:
+              - generic [ref=e717]:
+                - generic [ref=e720]: April 28, 2026
+                - generic [ref=e723]: Are 1099 employees covered by workers’ comp?
+                - link "VIEW ARTICLE" [ref=e727] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/blog/2026/04/are-1099-employees-covered-by-workers-comp/
+            - group "4 / 6" [ref=e728]:
+              - generic [ref=e730]:
+                - generic [ref=e733]: April 22, 2026
+                - generic [ref=e736]: Representing Victims of the Wedding Venue Collapse in Tamworth
+                - link "VIEW ARTICLE" [ref=e740] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/blog/2026/04/representing-victims-of-the-wedding-venue-collapse-in-tamworth/
+            - group "5 / 6" [ref=e741]:
+              - generic [ref=e743]:
+                - generic [ref=e746]: April 9, 2026
+                - generic [ref=e749]: When should I hire a personal injury lawyer in Hawaii?
+                - link "VIEW ARTICLE" [ref=e753] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/blog/2026/04/when-should-i-hire-a-personal-injury-lawyer/
+            - group "6 / 6" [ref=e754]:
+              - generic [ref=e756]:
+                - generic [ref=e759]: April 6, 2026
+                - generic [ref=e762]: What is considered nursing home abuse?
+                - link "VIEW ARTICLE" [ref=e766] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/blog/2026/04/what-is-considered-nursing-home-abuse/
+            - group "1 / 6" [ref=e767]:
+              - generic [ref=e769]:
+                - generic [ref=e772]: April 30, 2026
+                - generic [ref=e775]: How long does it take for a dog bite settlement?
+                - link "VIEW ARTICLE" [ref=e779] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/resources/faq/how-long-does-it-take-for-a-dog-bite-settlement/
+        - button "Previous slide"
+        - button "Next slide"
+        - generic [ref=e780]:
+          - button "Go to slide 1" [ref=e781] [cursor=pointer]
+          - button "Go to slide 2" [ref=e782] [cursor=pointer]
+          - button "Go to slide 3" [ref=e783] [cursor=pointer]
+          - button "Go to slide 4" [ref=e784] [cursor=pointer]
+          - button "Go to slide 5" [ref=e785] [cursor=pointer]
+          - button "Go to slide 6" [ref=e786] [cursor=pointer]
+      - link "Explore All" [ref=e790] [cursor=pointer]:
+        - /url: https://www.shaheengordon.com/blog/
+        - generic [ref=e792]: Explore All
+    - generic [ref=e799]:
+      - generic [ref=e800]:
+        - generic [ref=e803]:
+          - text: Need Help?
+          - text: We're Here for You.
+        - paragraph [ref=e806]: We can’t change what happened, but we will do everything in our power to get you the justice you deserve. Our experienced legal team will go to the mat to make things right for you, supported by the resources they need to succeed.
+        - paragraph [ref=e809]: Take Your Next Step
+        - generic [ref=e811]:
+          - strong [ref=e812]: Call us at
+          - strong [ref=e813]:
+            - link "603-614-5560" [ref=e815] [cursor=pointer]:
+              - /url: tel:+16036145560
+      - generic [ref=e817]:
+        - generic [ref=e820]: Request a Legal Consultation
+        - generic [ref=e824]:
+          - generic:
+            - paragraph
+          - generic [ref=e825]:
+            - generic [ref=e827]:
+              - group "Name (Required)" [ref=e828]:
+                - generic [ref=e829]:
+                  - text: Name
+                  - generic [ref=e830]: (Required)
+                - generic [ref=e832]:
+                  - textbox "First" [ref=e833]:
+                    - /placeholder: Full Name*
+                  - generic [ref=e834]: First
+              - generic [ref=e835]:
+                - generic [ref=e836]:
+                  - text: Email
+                  - generic [ref=e837]: (Required)
+                - textbox "Email (Required)" [ref=e839]:
+                  - /placeholder: Email Address*
+              - generic [ref=e840]:
+                - generic [ref=e841]:
+                  - text: Phone
+                  - generic [ref=e842]: (Required)
+                - textbox "Phone (Required)" [ref=e844]:
+                  - /placeholder: Phone Number*
+              - generic [ref=e845]:
+                - generic [ref=e846]:
+                  - text: location
+                  - generic [ref=e847]: (Required)
+                - textbox "location (Required)" [ref=e849]:
+                  - /placeholder: City/State of Case/Matter*
+              - group "Are You a New Client?" [ref=e850]:
+                - generic [ref=e851]: Are You a New Client?
+                - generic [ref=e853]:
+                  - generic [ref=e854]:
+                    - radio "Yes" [checked] [ref=e855]
+                    - generic [ref=e856]: "Yes"
+                  - generic [ref=e857]:
+                    - radio "No" [ref=e858]
+                    - generic [ref=e859]: "No"
+              - generic [ref=e860]:
+                - generic [ref=e861]: Tell us what happened*
+                - textbox "Tell us what happened*" [ref=e863]
+              - generic [ref=e864]:
+                - generic [ref=e865]: CAPTCHA
+                - iframe [ref=e869]:
+                  - generic [ref=f432e2]:
+                    - generic [ref=f432e3]:
+                      - checkbox "I'm not a robot" [ref=f432e7]
+                      - generic [ref=f432e11]: I'm not a robot
+                    - generic [ref=f432e15]: reCAPTCHA
+              - emphasis [ref=e871]:
+                - text: By submitting this form, you agree to our Terms & acknowledge our
+                - link "Privacy Policy" [ref=e872] [cursor=pointer]:
+                  - /url: https://www.shaheengordon.com/privacy-policy/
+                - text: .
+            - button "Submit Form" [ref=e874] [cursor=pointer]
+  - contentinfo [ref=e875]:
+    - generic [ref=e878]:
+      - generic [ref=e879]:
+        - generic [ref=e880]:
+          - generic:
+            - generic:
+              - link "logo shaheen gordon color logotype v120524":
+                - /url: https://www.shaheengordon.com
+                - img "logo shaheen gordon color logotype v120524"
+        - generic [ref=e884]: It's different here
+      - generic [ref=e885]:
+        - img "footer office map 5 12 25" [ref=e889]
+        - generic [ref=e890]:
+          - generic [ref=e892]: Concord, NH
+          - list [ref=e895]:
+            - listitem [ref=e896]:
+              - link "(603) 225-7262" [ref=e897] [cursor=pointer]:
+                - /url: tel:(603)%20225-7262
+                - generic [ref=e898]: (603) 225-7262
+          - list [ref=e901]:
+            - listitem [ref=e902]:
+              - link "Map & Directions" [ref=e903] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/wR45pZenVR6oKaaT7
+                - img [ref=e905]
+                - generic [ref=e907]: Map & Directions
+          - generic [ref=e913]: Dover, NH
+          - list [ref=e916]:
+            - listitem [ref=e917]:
+              - link "(603) 749-5000" [ref=e918] [cursor=pointer]:
+                - /url: tel:(603)%20749-5000
+                - generic [ref=e919]: (603) 749-5000
+          - list [ref=e922]:
+            - listitem [ref=e923]:
+              - link "Map & Directions" [ref=e924] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/2f1RsNfF9WNbGpE4A
+                - img [ref=e926]
+                - generic [ref=e928]: Map & Directions
+          - generic [ref=e934]: Keene, NH
+          - list [ref=e937]:
+            - listitem [ref=e938]:
+              - link "(603) 614-5560" [ref=e939] [cursor=pointer]:
+                - /url: tel:+16036145560
+                - generic [ref=e940]: (603) 614-5560
+          - list [ref=e943]:
+            - listitem [ref=e944]:
+              - link "Map & Directions" [ref=e945] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/7v1a5hc1RyShLdCX7
+                - img [ref=e947]
+                - generic [ref=e949]: Map & Directions
+        - generic [ref=e950]:
+          - generic [ref=e952]: Lebanon, NH
+          - list [ref=e955]:
+            - listitem [ref=e956]:
+              - link "(603) 614-5560" [ref=e957] [cursor=pointer]:
+                - /url: tel:+16036145560
+                - generic [ref=e958]: (603) 614-5560
+          - list [ref=e961]:
+            - listitem [ref=e962]:
+              - link "Map & Directions" [ref=e963] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Schuster+Buttrey+%26+Wing/@43.6450351,-72.2562253,17z/data=!3m1!4b1!4m6!3m5!1s0x4cb4b456a76b5f6f:0x141e9e024cc0de68!8m2!3d43.6450351!4d-72.2536504!16s%2Fg%2F1tj890ps?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D
+                - img [ref=e965]
+                - generic [ref=e967]: Map & Directions
+          - generic [ref=e973]: Manchester, NH
+          - list [ref=e976]:
+            - listitem [ref=e977]:
+              - link "(603) 669-8080" [ref=e978] [cursor=pointer]:
+                - /url: tel:(603)%20669-8080
+                - generic [ref=e979]: (603) 669-8080
+          - list [ref=e982]:
+            - listitem [ref=e983]:
+              - link "Map & Directions" [ref=e984] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/nCWLnMybN4BGn28r5
+                - img [ref=e986]
+                - generic [ref=e988]: Map & Directions
+          - generic [ref=e994]: Nashua, NH
+          - list [ref=e997]:
+            - listitem [ref=e998]:
+              - link "(603) 546-0004" [ref=e999] [cursor=pointer]:
+                - /url: tel:(603)%20546-0004
+                - generic [ref=e1000]: (603) 546-0004
+          - list [ref=e1003]:
+            - listitem [ref=e1004]:
+              - link "Map & Directions" [ref=e1005] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/R4TXxNUeR4MCWVidA
+                - img [ref=e1007]
+                - generic [ref=e1009]: Map & Directions
+        - generic [ref=e1010]:
+          - generic [ref=e1012]: Peterborough, NH
+          - list [ref=e1015]:
+            - listitem [ref=e1016]:
+              - link "(603) 924-4999" [ref=e1017] [cursor=pointer]:
+                - /url: tel:(603)%20924-4999
+                - generic [ref=e1018]: (603) 924-4999
+          - list [ref=e1021]:
+            - listitem [ref=e1022]:
+              - link "Map & Directions" [ref=e1023] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/FrUpGTuyuAtPCrmK9
+                - img [ref=e1025]
+                - generic [ref=e1027]: Map & Directions
+          - generic [ref=e1033]: Cape Cod, MA
+          - list [ref=e1036]:
+            - listitem [ref=e1037]:
+              - link "(508) 681-1235" [ref=e1038] [cursor=pointer]:
+                - /url: tel:(508)%20681-1235
+                - generic [ref=e1039]: (508) 681-1235
+          - list [ref=e1042]:
+            - listitem [ref=e1043]:
+              - link "Map & Directions" [ref=e1044] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/HdLufYRcnH38M48F6
+                - img [ref=e1046]
+                - generic [ref=e1048]: Map & Directions
+        - generic [ref=e1049]:
+          - generic [ref=e1051]: Portland, ME
+          - list [ref=e1054]:
+            - listitem [ref=e1055]:
+              - link "(207) 282-1527" [ref=e1056] [cursor=pointer]:
+                - /url: tel:(207)%20282-1527
+                - generic [ref=e1057]: (207) 282-1527
+          - list [ref=e1060]:
+            - listitem [ref=e1061]:
+              - link "Map & Directions" [ref=e1062] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/psEb1SAML3DYLX9E9
+                - img [ref=e1064]
+                - generic [ref=e1066]: Map & Directions
+          - generic [ref=e1072]: Honolulu, HI
+          - list [ref=e1075]:
+            - listitem [ref=e1076]:
+              - link "(808) 730-1875" [ref=e1077] [cursor=pointer]:
+                - /url: tel:(808)%20730-1875
+                - generic [ref=e1078]: (808) 730-1875
+          - list [ref=e1081]:
+            - listitem [ref=e1082]:
+              - link "Map & Directions" [ref=e1083] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/K3EeaHo21u4TYaR46
+                - img [ref=e1085]
+                - generic [ref=e1087]: Map & Directions
+      - list [ref=e1092]:
+        - listitem [ref=e1093]:
+          - link "Facebook" [ref=e1094] [cursor=pointer]:
+            - /url: https://web.facebook.com/ShaheenGordon/?_rdc=1&_rdr#
+            - generic [ref=e1095]: Facebook
+            - img [ref=e1096]
+        - listitem [ref=e1098]:
+          - link "Tiktok" [ref=e1099] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@shaheengordon
+            - generic [ref=e1100]: Tiktok
+            - img [ref=e1101]
+        - listitem [ref=e1103]:
+          - link "Instagram" [ref=e1104] [cursor=pointer]:
+            - /url: https://www.instagram.com/shaheengordon/
+            - generic [ref=e1105]: Instagram
+            - img [ref=e1106]
+        - listitem [ref=e1108]:
+          - link "Linkedin" [ref=e1109] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/shaheen-&-gordon-p-a-
+            - generic [ref=e1110]: Linkedin
+            - img [ref=e1111]
+        - listitem [ref=e1113]:
+          - link "Youtube" [ref=e1114] [cursor=pointer]:
+            - /url: https://www.youtube.com/@shaheengordon1981
+            - generic [ref=e1115]: Youtube
+            - img [ref=e1116]
+      - paragraph [ref=e1121]: The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
+      - paragraph [ref=e1125]:
+        - text: © 2026 All Rights Reserved.
+        - link "View Sitemap" [ref=e1127] [cursor=pointer]:
+          - /url: /site-map
+        - text: "|"
+        - link "Privacy Policy" [ref=e1129] [cursor=pointer]:
+          - /url: /privacy-policy/
+  - generic [ref=e1130]: mobile
+  - generic [ref=e1133]:
+    - generic:
+      - iframe

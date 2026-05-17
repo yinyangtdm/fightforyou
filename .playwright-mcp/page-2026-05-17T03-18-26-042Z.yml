@@ -1,0 +1,534 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation "Main navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "The Orlow Firm" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "The Orlow Firm" [ref=e7]
+        - generic [ref=e8]:
+          - link "Call (646) 647-3398" [ref=e9] [cursor=pointer]:
+            - /url: tel:+16466473398
+            - img [ref=e10]
+          - button "Open menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e17]:
+      - heading "Defending the rights of the injured in New York City since 1981." [level=1] [ref=e18]
+      - paragraph [ref=e19]: "Featured on:"
+      - generic [ref=e20]:
+        - img "Super Lawyers" [ref=e22]
+        - img "FindLaw" [ref=e24]
+        - img "Lawyers.com" [ref=e26]
+        - img "Justia" [ref=e28]
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Get a FREE case evaluation today.
+        - img [ref=e31]
+      - form "Free case evaluation form" [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: First Name *
+            - textbox "First Name *" [ref=e38]:
+              - /placeholder: First Name
+          - generic [ref=e39]:
+            - generic [ref=e40]: Last Name *
+            - textbox "Last Name *" [ref=e41]:
+              - /placeholder: Last Name
+          - generic [ref=e42]:
+            - generic [ref=e43]: Phone Number *
+            - textbox "Phone Number *" [ref=e44]:
+              - /placeholder: Phone Number
+          - generic [ref=e45]:
+            - generic [ref=e46]: E-mail
+            - textbox "E-mail" [ref=e47]
+        - generic [ref=e48]:
+          - generic [ref=e49]: Please describe what happened
+          - textbox "Please describe what happened" [ref=e50]
+        - paragraph [ref=e51]: By submitting my phone number, I authorize The Orlow Firm and its service providers to contact me via calls or texts, including by autodialer or prerecorded message. Consent is not required to receive legal services. Msg & data rates may apply. Msg frequency varies. Reply STOP to opt out.
+        - paragraph [ref=e52]:
+          - text: By submitting this form, you agree to our
+          - link "Terms & Conditions" [ref=e53] [cursor=pointer]:
+            - /url: /terms-conditions
+          - text: and
+          - link "Privacy Policy" [ref=e54] [cursor=pointer]:
+            - /url: /privacy-policy
+          - text: .
+        - button "Start your claim" [ref=e55] [cursor=pointer]
+        - paragraph [ref=e56]: Results may vary depending on the facts and circumstances of your case. ©2026 The Orlow Firm. All rights reserved.
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - heading "How It Works" [level=2] [ref=e59]
+        - paragraph [ref=e60]: Focus on your recovery. We’ll take care of the rest.
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - img "Free Case Evaluation" [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]: "1"
+            - generic [ref=e68]: Step One
+          - heading "Free Case Evaluation" [level=3] [ref=e69]
+          - paragraph [ref=e70]: Tell us what happened with a free, no-obligation evaluation completed online, via phone or text.
+        - generic [ref=e71]:
+          - img "Meet your legal team" [ref=e74]
+          - generic [ref=e75]:
+            - generic [ref=e76]: "2"
+            - generic [ref=e77]: Step Two
+          - heading "Meet your legal team" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Once your case is qualified, you’ll be matched with a dedicated lawyer and team working for you. They’ll keep you updated and answer any questions you have.
+        - generic [ref=e80]:
+          - img "We fight for you" [ref=e83]
+          - generic [ref=e84]:
+            - generic [ref=e85]: "3"
+            - generic [ref=e86]: Step Three
+          - heading "We fight for you" [level=3] [ref=e87]
+          - paragraph [ref=e88]: Your legal team will build your case, negotiate with the insurance company, and fight for the best possible results.
+      - link "Start your claim" [ref=e89] [cursor=pointer]:
+        - /url: "#pa-hero"
+        - img [ref=e90]
+        - generic [ref=e92]: Start your claim
+    - generic [ref=e95]:
+      - img [ref=e96]
+      - generic [ref=e101]:
+        - img [ref=e102]
+        - img [ref=e104]
+        - img [ref=e106]
+        - img [ref=e108]
+        - img [ref=e110]
+      - generic [ref=e112]: We are rated 4.9 Stars on Google!
+    - region "Practice area categories" [ref=e113]:
+      - generic [ref=e115]:
+        - link "Personal Injury icon Personal Injury" [ref=e116] [cursor=pointer]:
+          - /url: /
+          - img "Personal Injury icon" [ref=e118]
+          - generic [ref=e119]: Personal Injury
+        - link "Construction Accidents icon Construction Accidents" [ref=e120] [cursor=pointer]:
+          - /url: /queens-construction-accident-lawyer
+          - img "Construction Accidents icon" [ref=e122]
+          - generic [ref=e123]: Construction Accidents
+        - link "Premises Liability icon Premises Liability" [ref=e124] [cursor=pointer]:
+          - /url: /queens-premises-liability-lawyer
+          - img "Premises Liability icon" [ref=e126]
+          - generic [ref=e127]: Premises Liability
+        - link "Car Accidents icon Car Accidents" [ref=e128] [cursor=pointer]:
+          - /url: /queens-car-accident-lawyer
+          - img "Car Accidents icon" [ref=e130]
+          - generic [ref=e131]: Car Accidents
+    - region "Practice area categories continued" [ref=e132]:
+      - generic [ref=e134]:
+        - link "Lead Poisoning icon Lead Poisoning" [ref=e135] [cursor=pointer]:
+          - /url: /queens-lead-poisoning-lawyer
+          - img "Lead Poisoning icon" [ref=e137]
+          - generic [ref=e138]: Lead Poisoning
+        - link "Workers Compensation icon Workers Compensation" [ref=e139] [cursor=pointer]:
+          - /url: /queens-workers-compensation-lawyer
+          - img "Workers Compensation icon" [ref=e141]
+          - generic [ref=e142]: Workers Compensation
+        - link "Sexual Abuse icon Sexual Abuse" [ref=e143] [cursor=pointer]:
+          - /url: /queens-sexual-abuse-lawyer
+          - img "Sexual Abuse icon" [ref=e145]
+          - generic [ref=e146]: Sexual Abuse
+        - link "Police Misconduct icon Police Misconduct" [ref=e147] [cursor=pointer]:
+          - /url: /queens-police-misconduct-lawyer
+          - img "Police Misconduct icon" [ref=e149]
+          - generic [ref=e150]: Police Misconduct
+      - img [ref=e152]
+    - region "Practice areas" [ref=e154]:
+      - article [ref=e156]:
+        - heading "Queens Personal Injury Lawyers Serving the Injured Since 1981" [level=2] [ref=e157]
+        - paragraph [ref=e158]: When you or a loved one has been seriously injured due to someone else's negligence, the attorney you choose matters. The Orlow Firm has been a trusted name in Queens personal injury law for over four decades, representing injured New Yorkers across all five boroughs. From our offices in Queens, Brooklyn, the Bronx, and Manhattan, we handle every aspect of your claim so you can focus on recovery — not paperwork, insurance adjusters, or medical bills.
+        - paragraph [ref=e159]: Our firm is led by attorneys whose commitment to the Queens community extends well beyond the courtroom. Adam Orlow served as President of the Queens County Bar Association in 2022–2023, and Steven Orlow — a Cornell Law graduate and former NYC Council Member-At-Large — served as QCBA President in 2008–2009. That level of civic leadership reflects the same dedication we bring to each client's case. All three of our attorneys are active members of the New York State Bar Association, the New York State Trial Lawyers Association, the Brandeis Association, and the Queens County Bar Association. We understand the neighborhoods, the courts, the insurance companies, and the challenges that injured people in Queens face every day — because this is where we've built our careers and our reputation.
+        - paragraph [ref=e160]: "As experienced Queens personal injury lawyers, we represent clients hurt in car accidents, construction accidents, slip and falls, lead poisoning cases, workers' compensation claims, police misconduct, nursing home abuse, and sexual abuse. No matter how complex the case, our approach remains the same: thorough advocacy, honest communication, and a commitment to pursuing the best possible outcome for every client."
+        - paragraph [ref=e161]: If you're searching for a personal injury lawyer in Queens who will take the time to understand your situation and fight to pursue the compensation you may be owed, we're here. Consultations are free, and you pay nothing unless we win your case.
+    - region "Meet our team" [ref=e162]:
+      - img [ref=e164]
+      - heading "Meet Our Team" [level=2] [ref=e167]
+    - region "Attorneys" [ref=e168]:
+      - generic [ref=e170]:
+        - link "Brian Seth Orlow Brian Seth Orlow Managing Partner" [ref=e171] [cursor=pointer]:
+          - /url: /team/brian-orlow
+          - img "Brian Seth Orlow" [ref=e173]
+          - heading "Brian Seth Orlow" [level=3] [ref=e174]
+          - paragraph [ref=e175]: Managing Partner
+        - link "Adam Orlow Adam Orlow Senior Trial Partner" [ref=e176] [cursor=pointer]:
+          - /url: /team/adam-orlow
+          - img "Adam Orlow" [ref=e178]
+          - heading "Adam Orlow" [level=3] [ref=e179]
+          - paragraph [ref=e180]: Senior Trial Partner
+        - link "Steven Orlow Steven Orlow Founding Partner" [ref=e181] [cursor=pointer]:
+          - /url: /team/steven-orlow
+          - img "Steven Orlow" [ref=e183]
+          - heading "Steven Orlow" [level=3] [ref=e184]
+          - paragraph [ref=e185]: Founding Partner
+  - generic [ref=e187]:
+    - generic [ref=e188]:
+      - heading "The Orlow Firm’s Results" [level=2] [ref=e189]
+      - paragraph [ref=e190]: Notable settlements and verdicts for our clients
+    - generic [ref=e191]:
+      - button "Previous result" [ref=e192] [cursor=pointer]:
+        - img [ref=e193]
+      - generic [ref=e196]:
+        - paragraph [ref=e197]: $5,000,000
+        - heading "Infant Lead Poisoning - Foster Home" [level=3] [ref=e198]
+        - paragraph [ref=e199]: Infant placed in foster home with lead paint developed extremely elevated blood lead levels causing neurological problems.
+        - generic [ref=e200]: Lead Poisoning
+        - link "Read Full Story →" [ref=e202] [cursor=pointer]:
+          - /url: /success-stories/lead-poisoning-foster-care-child
+      - button "Next result" [ref=e203] [cursor=pointer]:
+        - img [ref=e204]
+    - generic [ref=e207]: 1 of 14
+    - paragraph [ref=e208]: Prior results do not guarantee a similar outcome.
+  - generic [ref=e210]:
+    - heading "Find out what your Accident is worth" [level=2] [ref=e211]
+    - paragraph [ref=e212]: Let us know more about your case below.
+    - generic [ref=e215]: 14%
+    - generic [ref=e216]:
+      - generic [ref=e217]:
+        - generic [ref=e218]: What kind of accident?
+        - combobox "What kind of accident?" [ref=e219]:
+          - option "Select an option" [selected]
+          - option "Motor Vehicle Accident"
+          - option "Workplace Injury"
+          - option "Premises or Property Accident"
+          - option "Wrongful Death"
+          - option "Catastrophic Injury"
+          - option "Other"
+      - button "Next" [ref=e221] [cursor=pointer]
+  - generic [ref=e223]:
+    - generic [ref=e225]:
+      - heading "Customer reviews on Google" [level=2] [ref=e226]
+      - generic [ref=e227]:
+        - generic "4.9 out of 5 stars" [ref=e228]:
+          - img [ref=e229]
+          - img [ref=e231]
+          - img [ref=e233]
+          - img [ref=e235]
+          - img [ref=e237]
+        - generic [ref=e239]: 4.9 rating of 58 reviews
+    - generic [ref=e240]:
+      - button "Previous reviews" [ref=e241] [cursor=pointer]:
+        - img [ref=e242]
+      - button "Next reviews" [ref=e244] [cursor=pointer]:
+        - img [ref=e245]
+      - generic [ref=e248]:
+        - article [ref=e250]:
+          - img "Payton Hutchinson" [ref=e252]
+          - paragraph [ref=e253]: Payton Hutchinson
+          - paragraph [ref=e254]: a month ago
+          - generic "5 out of 5 stars" [ref=e256]:
+            - img [ref=e257]
+            - img [ref=e259]
+            - img [ref=e261]
+            - img [ref=e263]
+            - img [ref=e265]
+          - paragraph [ref=e267]: All my homies love brian and adam! 10/10 recommend for an amazing turnout on your case
+          - img [ref=e269]
+        - article [ref=e275]:
+          - img "Andrew Gantman" [ref=e277]
+          - paragraph [ref=e278]: Andrew Gantman
+          - paragraph [ref=e279]: 3 months ago
+          - generic "5 out of 5 stars" [ref=e281]:
+            - img [ref=e282]
+            - img [ref=e284]
+            - img [ref=e286]
+            - img [ref=e288]
+            - img [ref=e290]
+          - paragraph [ref=e292]: Brian and his team made The whole process very easy This is the only law firm I will use
+          - img [ref=e294]
+        - article [ref=e300]:
+          - img "Aiaja Blackwell" [ref=e302]
+          - paragraph [ref=e303]: Aiaja Blackwell
+          - paragraph [ref=e304]: 3 months ago
+          - generic "5 out of 5 stars" [ref=e306]:
+            - img [ref=e307]
+            - img [ref=e309]
+            - img [ref=e311]
+            - img [ref=e313]
+            - img [ref=e315]
+          - paragraph [ref=e317]: This Law Firm is 10/10! The staff and most of all the attorney Brian Orlow was very nice, sweet and amazing to work with. They answered all of my questions and handled me with respect and care! If you’re looking for a la…
+          - button "See more" [ref=e318] [cursor=pointer]
+          - img [ref=e320]
+        - article [ref=e326]:
+          - img "Maegan Ratliff (maedwellness)" [ref=e328]
+          - paragraph [ref=e329]: Maegan Ratliff (maedwellness)
+          - paragraph [ref=e330]: a year ago
+          - generic "5 out of 5 stars" [ref=e332]:
+            - img [ref=e333]
+            - img [ref=e335]
+            - img [ref=e337]
+            - img [ref=e339]
+            - img [ref=e341]
+          - paragraph [ref=e343]: This firm is top! Everyone is professional, and they actually care. It is a rare combination, but The Orlow Firm has managed to achieve it. They made all the potentially difficult moments easy, and they were always direc…
+          - button "See more" [ref=e344] [cursor=pointer]
+          - img [ref=e346]
+        - article [ref=e352]:
+          - img "Michael Foster" [ref=e354]
+          - paragraph [ref=e355]: Michael Foster
+          - paragraph [ref=e356]: a year ago
+          - generic "5 out of 5 stars" [ref=e358]:
+            - img [ref=e359]
+            - img [ref=e361]
+            - img [ref=e363]
+            - img [ref=e365]
+            - img [ref=e367]
+          - paragraph [ref=e369]: They provided me with excellent service.
+          - img [ref=e371]
+        - article [ref=e377]:
+          - img "Christa" [ref=e379]
+          - paragraph [ref=e380]: Christa
+          - paragraph [ref=e381]: 2 years ago
+          - generic "5 out of 5 stars" [ref=e383]:
+            - img [ref=e384]
+            - img [ref=e386]
+            - img [ref=e388]
+            - img [ref=e390]
+            - img [ref=e392]
+          - paragraph [ref=e394]: Brian was very helpful when my partner and I got into an accident. He not only guided us through the legal proceedings of the case, but he assisted in referring me to a convenient physical therapist in my area. Accidents…
+          - button "See more" [ref=e395] [cursor=pointer]
+          - img [ref=e397]
+        - article [ref=e403]:
+          - img "Miguel Alava" [ref=e405]
+          - paragraph [ref=e406]: Miguel Alava
+          - paragraph [ref=e407]: 2 years ago
+          - generic "5 out of 5 stars" [ref=e409]:
+            - img [ref=e410]
+            - img [ref=e412]
+            - img [ref=e414]
+            - img [ref=e416]
+            - img [ref=e418]
+          - paragraph [ref=e420]: The Orlow Firm is the Greatest, most professional law firm in all of New York City and the World. Brian really cares about his clients. He still sends me Birthday Cards yearly after my first case which was 10 years ago…
+          - button "See more" [ref=e421] [cursor=pointer]
+          - img [ref=e423]
+        - article [ref=e429]:
+          - img "Kamal Ali" [ref=e431]
+          - paragraph [ref=e432]: Kamal Ali
+          - paragraph [ref=e433]: 2 years ago
+          - generic "5 out of 5 stars" [ref=e435]:
+            - img [ref=e436]
+            - img [ref=e438]
+            - img [ref=e440]
+            - img [ref=e442]
+            - img [ref=e444]
+          - paragraph [ref=e446]: Great job. Appreciate your help. Thanks...
+          - img [ref=e448]
+        - article [ref=e454]:
+          - img "matt spiller" [ref=e456]
+          - paragraph [ref=e457]: matt spiller
+          - paragraph [ref=e458]: 2 years ago
+          - generic "5 out of 5 stars" [ref=e460]:
+            - img [ref=e461]
+            - img [ref=e463]
+            - img [ref=e465]
+            - img [ref=e467]
+            - img [ref=e469]
+          - paragraph [ref=e471]: Very Professional office , reached a very nice settlement in a short period of time , kept me in the loop during the process. Would highly recommend .
+          - img [ref=e473]
+        - article [ref=e479]:
+          - img "Mirely Nunez" [ref=e481]
+          - paragraph [ref=e482]: Mirely Nunez
+          - paragraph [ref=e483]: 2 years ago
+          - generic "5 out of 5 stars" [ref=e485]:
+            - img [ref=e486]
+            - img [ref=e488]
+            - img [ref=e490]
+            - img [ref=e492]
+            - img [ref=e494]
+          - paragraph [ref=e496]: "\"The process was so easy and the outcome awesome!\""
+          - img [ref=e498]
+        - article [ref=e504]:
+          - img "Amira Givens" [ref=e506]
+          - paragraph [ref=e507]: Amira Givens
+          - paragraph [ref=e508]: 2 years ago
+          - generic "5 out of 5 stars" [ref=e510]:
+            - img [ref=e511]
+            - img [ref=e513]
+            - img [ref=e515]
+            - img [ref=e517]
+            - img [ref=e519]
+          - paragraph [ref=e521]: This law firm took the time to help me When no one else would . I’m so grateful to them . I recommend them to everyone.
+          - img [ref=e523]
+        - article [ref=e529]:
+          - img "Nichelle B" [ref=e531]
+          - paragraph [ref=e532]: Nichelle B
+          - paragraph [ref=e533]: 3 years ago
+          - generic "5 out of 5 stars" [ref=e535]:
+            - img [ref=e536]
+            - img [ref=e538]
+            - img [ref=e540]
+            - img [ref=e542]
+            - img [ref=e544]
+          - paragraph [ref=e546]: Brain was amazing from the start. The process was so easy and the outcome awesome! I had two cases at one time and he handled both. You will be happy to use this office. Professional and curious through and through.
+          - img [ref=e548]
+        - article [ref=e554]:
+          - img "Tanisha Stewart" [ref=e556]
+          - paragraph [ref=e557]: Tanisha Stewart
+          - paragraph [ref=e558]: 3 years ago
+          - generic "5 out of 5 stars" [ref=e560]:
+            - img [ref=e561]
+            - img [ref=e563]
+            - img [ref=e565]
+            - img [ref=e567]
+            - img [ref=e569]
+          - paragraph [ref=e571]: So far The Orlow Firm had been the best. On top of everything thing. Thank you for working with me.
+          - img [ref=e573]
+        - article [ref=e579]:
+          - img "DiAnitap. M" [ref=e581]
+          - paragraph [ref=e582]: DiAnitap. M
+          - paragraph [ref=e583]: 3 years ago
+          - generic "5 out of 5 stars" [ref=e585]:
+            - img [ref=e586]
+            - img [ref=e588]
+            - img [ref=e590]
+            - img [ref=e592]
+            - img [ref=e594]
+          - paragraph [ref=e596]: Muy excelentes abogados
+          - img [ref=e598]
+        - article [ref=e604]:
+          - img "John Hage" [ref=e606]
+          - paragraph [ref=e607]: John Hage
+          - paragraph [ref=e608]: 5 years ago
+          - generic "5 out of 5 stars" [ref=e610]:
+            - img [ref=e611]
+            - img [ref=e613]
+            - img [ref=e615]
+            - img [ref=e617]
+            - img [ref=e619]
+          - paragraph [ref=e621]: Yes I was very impressed with the professionalism and the quality of work done by the Orlow law firm. Especially thanks to Brian and his brother for all the hard work.
+          - img [ref=e623]
+        - article [ref=e629]:
+          - img "David Wilson" [ref=e631]
+          - paragraph [ref=e632]: David Wilson
+          - paragraph [ref=e633]: 8 years ago
+          - generic "5 out of 5 stars" [ref=e635]:
+            - img [ref=e636]
+            - img [ref=e638]
+            - img [ref=e640]
+            - img [ref=e642]
+            - img [ref=e644]
+          - paragraph [ref=e646]: I was involved in an accident that left me injured. I wasn't sure what I needed to do so I started Googling around and ended up finding The Orlow Firm. I couldn't be happier with my decision to work with Brian and everyo…
+          - button "See more" [ref=e647] [cursor=pointer]
+          - img [ref=e649]
+  - region "Client Testimonials" [ref=e654]:
+    - generic [ref=e655]:
+      - generic [ref=e656]:
+        - heading "Client Testimonials" [level=3] [ref=e657]
+        - heading "The Orlow Firm’s Results Speak for Themselves." [level=2] [ref=e658]
+        - paragraph [ref=e659]:
+          - emphasis [ref=e660]: Prior results do not guarantee a similar outcome.
+      - generic [ref=e663]:
+        - generic [ref=e664]:
+          - generic [ref=e665]:
+            - img [ref=e666]
+            - img [ref=e668]
+            - img [ref=e670]
+            - img [ref=e672]
+            - img [ref=e674]
+          - paragraph [ref=e676]: “I truly thank you gentlemen for doing an excellent job in representing my case. I was falsely arrested and you fought for my rights and won. I recommend The Orlow Firm to anyone who needs legal representation.”
+          - paragraph [ref=e677]: — J.T.
+        - generic [ref=e678]:
+          - button "Previous testimonial" [ref=e679] [cursor=pointer]:
+            - img [ref=e680]
+          - button "Next testimonial" [ref=e682] [cursor=pointer]:
+            - img [ref=e683]
+  - region "Memberships & Accolades" [ref=e685]:
+    - generic [ref=e686]:
+      - heading "Memberships & Accolades" [level=3] [ref=e687]
+      - heading "The Orlow Firm’s Accolades" [level=2] [ref=e688]
+      - paragraph [ref=e689]: Founded in 1981, The Orlow Firm has earned many top-level honors for its excellence, compassion, and legal excellence. These recognitions reflect our unwavering commitment to achieving justice, delivering results, and providing compassionate, personalized representation to injury victims in Queens and throughout New York City.
+      - generic [ref=e691]:
+        - button "Previous badges" [ref=e692] [cursor=pointer]:
+          - img [ref=e693]
+        - generic [ref=e695]:
+          - img "Lawyers.com" [ref=e697]
+          - img "Super Lawyers" [ref=e699]
+          - img "Justia" [ref=e701]
+          - img "Martindale-Hubbell AV Rated" [ref=e703]
+        - button "Next badges" [ref=e704] [cursor=pointer]:
+          - img [ref=e705]
+  - region "Office locations" [ref=e707]:
+    - generic [ref=e708]:
+      - heading "Our Locations" [level=2] [ref=e709]
+      - paragraph [ref=e710]: We offer free initial consultations and operate four offices across New York City for your convenience. We can go to you if you cannot come to us.
+      - generic [ref=e711]:
+        - generic [ref=e712]:
+          - heading "Queens Office (Main)" [level=3] [ref=e713]
+          - paragraph [ref=e714]:
+            - text: 71-18 Main St
+            - text: Kew Gardens Hills, NY 11367
+            - link "Map" [ref=e715] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/AzweQvFtYxLJods39
+          - link "(646) 647-3398" [ref=e716] [cursor=pointer]:
+            - /url: tel:6466473398
+          - paragraph [ref=e717]: "Fax: 718-544-6485"
+        - generic [ref=e718]:
+          - heading "Manhattan Office" [level=3] [ref=e719]
+          - paragraph [ref=e720]: (By appointment only)
+          - paragraph [ref=e721]:
+            - text: 405 Lexington Ave, 26th Floor
+            - text: New York, NY 10174
+            - link "Map" [ref=e722] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/jWvU4UrpRd252Uc36
+          - link "(646) 647-3398" [ref=e723] [cursor=pointer]:
+            - /url: tel:6466473398
+          - paragraph [ref=e724]: "Fax: 718-544-6485"
+        - generic [ref=e725]:
+          - heading "Brooklyn Office" [level=3] [ref=e726]
+          - paragraph [ref=e727]: (By appointment only)
+          - paragraph [ref=e728]:
+            - text: 32 Court Street
+            - text: Brooklyn, NY 11201
+            - link "Map" [ref=e729] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/FsQen9iSVmiEoESg7
+          - link "(646) 647-3398" [ref=e730] [cursor=pointer]:
+            - /url: tel:6466473398
+          - paragraph [ref=e731]: "Fax: 718-544-6485"
+        - generic [ref=e732]:
+          - heading "Bronx Office" [level=3] [ref=e733]
+          - paragraph [ref=e734]: (By appointment only)
+          - paragraph [ref=e735]:
+            - text: 903 Sheridan Avenue, 2nd Floor
+            - text: Bronx, NY 10453
+            - link "Map" [ref=e736] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/3HEfhVGnYC17omot9
+          - link "(646) 647-3398" [ref=e737] [cursor=pointer]:
+            - /url: tel:6466473398
+          - paragraph [ref=e738]: "Fax: 718-544-6485"
+    - img "Office locations map" [ref=e740]
+  - region "Free consultation" [ref=e741]:
+    - generic [ref=e742]:
+      - heading "We can help you! Request a free consultation." [level=2] [ref=e743]
+      - link "Contact Us Today" [ref=e744] [cursor=pointer]:
+        - /url: /contact
+  - region "Disclaimer" [ref=e745]:
+    - generic [ref=e746]:
+      - paragraph [ref=e747]:
+        - strong [ref=e748]: Attorney Advertising Disclaimer
+        - strong [ref=e749]: "Notice:"
+        - text: The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship. Prior results do not guarantee a similar outcome. The Orlow Firm works on a contingent fee basis. A contingent basis means that our attorneys do not charge by consultation but will take a percentage on the amount recovered. This amount is usually one third of the net recovery after disbursement. This means that the cost of hiring The Orlow Firm varies based on the amount recovered.
+      - paragraph [ref=e750]:
+        - text: © 2026 by The Orlow Firm. All Rights Reserved.
+        - link "Privacy Policy" [ref=e751] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: .
+        - link "Terms & Conditions" [ref=e752] [cursor=pointer]:
+          - /url: /terms-conditions
+        - text: .
+        - link "Sitemap" [ref=e753] [cursor=pointer]:
+          - /url: /sitemap
+        - text: .
+      - generic [ref=e754]:
+        - link "Follow us on X (Twitter)" [ref=e755] [cursor=pointer]:
+          - /url: https://twitter.com/OrlowFirm
+          - img [ref=e756]
+        - link "Follow us on Facebook" [ref=e759] [cursor=pointer]:
+          - /url: https://www.facebook.com/OrlowFirm
+          - img [ref=e760]
+        - link "Watch us on YouTube" [ref=e762] [cursor=pointer]:
+          - /url: https://www.youtube.com/@theorlowfirm8105/
+          - img [ref=e763]
+        - link "Connect with us on LinkedIn" [ref=e765] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/the-orlow-firm/
+          - img [ref=e766]
+        - link "Read our Google Reviews" [ref=e768] [cursor=pointer]:
+          - /url: https://www.google.com/maps?cid=11660018106373238054
+          - img [ref=e769]
+  - alert [ref=e771]

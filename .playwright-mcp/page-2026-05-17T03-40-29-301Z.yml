@@ -1,0 +1,74 @@
+- generic [ref=e2]:
+  - banner:
+    - generic [ref=e3]:
+      - link "Skip to Content" [ref=e4] [cursor=pointer]:
+        - /url: "#page"
+      - generic [ref=e8]:
+        - link "Carls Law, PLLC" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "Carls Law, PLLC" [ref=e12]
+        - navigation [ref=e15]:
+          - link "Montana Law" [ref=e17] [cursor=pointer]:
+            - /url: /
+          - link "Practice Areas" [ref=e19] [cursor=pointer]:
+            - /url: /practiceareas
+          - link "In the News" [ref=e21] [cursor=pointer]:
+            - /url: /media
+          - link "Contact" [ref=e23] [cursor=pointer]:
+            - /url: /contact
+  - main [ref=e24]:
+    - article [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e36]:
+          - heading "Fighting for you. Fighting for justice." [level=2] [ref=e39]:
+            - strong [ref=e40]: Fighting for you. Fighting for justice.
+          - paragraph [ref=e41]
+          - paragraph [ref=e44]: Serious injury • Wrongful death • Civil Rights
+        - generic:
+          - img
+      - generic [ref=e50]:
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Hillary P. Carls is a Bozeman trial attorney and the founder of Carls Law, PLLC, a Montana litigation firm dedicated to representing individuals and families in their most critical legal battles. With two decades of experience in Montana state and federal courts, Hillary has built a reputation as one of Montana’s most tenacious advocates — known for meticulous preparation, aggressive courtroom strategy, and a proven track record of results for her clients.
+          - paragraph [ref=e57]:
+            - text: Hillary focuses her practice on high-stakes civil litigation throughout Montana, serving as a serious injury attorney, wrongful death lawyer, and civil rights advocate for clients facing life-altering circumstances. She represents individuals in cases involving
+            - link "catastrophic personal injuries, wrongful death, traumatic brain injuries and concussions, police misconduct and civil rights violations, wrongful incarceration, gender discrimination, motor vehicle collisions, premises liability, and insurance disputes" [ref=e58] [cursor=pointer]:
+              - /url: /practiceareas
+            - text: . She is a fierce advocate who takes cases to trial when that is what it takes to secure justice for her clients.
+          - paragraph [ref=e59]:
+            - text: Hillary’s commitment to justice is exemplified by her work as a wrongful conviction attorney in
+            - emphasis [ref=e60]: Raugust v. Sanders County
+            - text: ", in which she represented Richard Raugust, a man who spent eighteen years wrongfully imprisoned for a homicide he did not commit after a deputy sheriff withheld exculpatory evidence critical to his defense. Hillary to ultimately obtain a $5 million settlement against Sanders County and the responsible officer for the violation of her client’s constitutional rights. The case stands as one of the largest wrongful incarceration settlements in Montana history."
+          - paragraph [ref=e61]: Hillary Carls is admitted to practice before the Montana Supreme Court, the United States District Court for the District of Montana, and the United States Court of Appeals for the Ninth Circuit. Before founding her Bozeman law firm, she honed her litigation skills as a partner at several prominent Montana firms, including Angel, Coil & Bartlett; Dodd, Blackford & Carls, P.C.; and Blackford Carls, P.C. Early in her career, she served as a judicial law clerk to the Honorable Chief Judge Robert Coats of the Alaska Court of Appeals — an experience that gave her invaluable insight into judicial decision-making and appellate strategy.
+          - paragraph [ref=e62]: Hillary earned her Juris Doctor and a Certificate in Environmental and Natural Resources Law from the Northwestern School of Law at Lewis & Clark College in Portland, Oregon, in 2005. During law school, she served as an Associate Editor of Environmental Law, the law school’s prestigious law review, and was honored with the Cornelius Honor Society Award. She holds a B.A. in Business from Montana State University in Bozeman (2001), where she was a four-year varsity golfer for the Bobcats and earned all-conference honors in the Big Sky Conference.
+          - paragraph [ref=e63]: Hillary is an active leader in Montana’s legal community. She currently serves as President of the Montana Trial Lawyers Association and as a State Delegate to the American Association for Justice. She is a member of the Montana Bar Association, the Gallatin County Bar Association, the Montana Trial Lawyers Association, and the American Association for Justice.
+          - paragraph [ref=e64]: Hillary currently serves on the boards of directors of the Montana Trial Lawyers Association, Bridger Bowl, and the Bridger Bowl Foundation, and on the board of alumni for Lewis & Clark Law School. She has previously served on the boards of the Montana Ballet Company, Keystone Conservation, and Bridger Care, Inc.
+          - paragraph [ref=e65]: When she is not advocating for her clients in Montana courtrooms, Hillary enjoys skiing Bridger Bowl, hiking the trails of southwest Montana, and floating the Yellowstone River with her husband and son.
+          - paragraph [ref=e66]: If you are looking for an experienced Bozeman personal injury lawyer, a wrongful death attorney, or a civil rights advocate in Montana, Hillary P. Carls is ready to fight for you and to fight for justice. Contact Carls Law, PLLC today to discuss your case.
+        - img "Hillary P. Carls, Bozeman Montana trial attorney and founder of Carls Law, PLLC" [ref=e74]
+        - img "Montana Trial Lawyers Association logo — Hillary Carls, President" [ref=e83]
+        - img "American Association for Justice member badge — Hillary P. Carls, State Delegate" [ref=e92]
+        - generic [ref=e98]:
+          - paragraph [ref=e99]:
+            - strong [ref=e101]: Client Reviews
+          - paragraph [ref=e102]:
+            - text: “Hillary Carls has been extremely generous with her knowledge and time. This has meant a lot to us. When you find yourself in unknown territory and in need of an attorney, it can be pretty scary. Hillary graciously assisted and pointed us in the right direction. We will always be grateful for her willingness to talk with us on several occasions “pro-bono”. She is a very caring person who wants to help do the right thing. She has ideals and moral standards that go beyond just getting clients and beating opponents. She actually wants to help resolve situations in a reasonable and healthy way. She is smart and knows what she is doing. I highly respect Hillary Carls and would recommend her as an attorney”. —
+            - strong [ref=e103]: S.O.
+          - paragraph [ref=e104]:
+            - text: “I was thoroughly impressed with [Hillary]. From even before I hired [her], [she was] completely upfront and helpful about the merits of my particular case. Throughout the process it became abundantly clear how indispensable their services were. The positive outcome of my case wouldn’t of been possible without their (Hillary’s) professionalism and meticulous attention to detail. I would recommend their services to friends and family without hesitation.” —
+            - strong [ref=e105]: D.C.
+          - paragraph [ref=e106]
+  - contentinfo [ref=e107]:
+    - generic [ref=e113]:
+      - paragraph [ref=e119]:
+        - emphasis [ref=e120]: "DISCLAIMER: The information contained on this website is solely for the purpose of providing general information about Carls Law, PLLC. This website is not designed to give you legal advice and does not create an attorney-client relationship. Nothing on this or associated pages, documents, comments, answers, emails, or other communications should be taken as legal advice. If you believe you have a legal problem, you should consult an attorney at Carls Law, PLLC, for a thorough evaluation of your situation and legal advice that is specific to your case."
+      - generic [ref=e125]:
+        - paragraph [ref=e126]:
+          - strong [ref=e127]: Ready to discuss your case?
+        - paragraph [ref=e128]: Contact Bozeman trial attorney Hillary Carls for a confidential consultation.
+        - paragraph [ref=e129]:
+          - strong [ref=e130]: 406.577.2145
+          - text: "|"
+          - link "hillary@carlslaw.com" [ref=e131] [cursor=pointer]:
+            - /url: mailto:hillary@carlslaw.com
+            - strong [ref=e132]: hillary@carlslaw.com
+        - paragraph [ref=e133]: 27 North Church Avenue, Bozeman, Montana

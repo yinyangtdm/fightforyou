@@ -1,0 +1,518 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - paragraph [ref=e6]: Fighting Police Misconduct
+      - link "Law Offices of Dale K. Galipo" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Law Offices of Dale K. Galipo" [ref=e8]
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: Get The Justice You Deserve
+        - paragraph [ref=e11]:
+          - link "818-347-3333" [ref=e12] [cursor=pointer]:
+            - /url: tel:+18183473333
+    - navigation [ref=e13]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/
+        - listitem [ref=e17]:
+          - generic [ref=e18]: Our Team
+          - generic:
+            - list:
+              - listitem:
+                - link "Dale K. Galipo":
+                  - /url: https://www.galipolaw.com/dale-k-galipo/
+              - listitem:
+                - link "Eric Valenzuela":
+                  - /url: https://www.galipolaw.com/eric-valenzuela/
+              - listitem:
+                - link "Renée Valentine Masongsong":
+                  - /url: https://www.galipolaw.com/renee-v-masongsong/
+              - listitem:
+                - link "Hang D. Le":
+                  - /url: https://www.galipolaw.com/hang-d-le/
+              - listitem:
+                - link "Marcel F. Sincich":
+                  - /url: https://www.galipolaw.com/marcel-f-sincich/
+              - listitem:
+                - link "Brendan Johnson":
+                  - /url: https://www.galipolaw.com/brendan-johnson/
+              - listitem:
+                - link "Alejandro Monguia":
+                  - /url: https://www.galipolaw.com/alejandro-monguia/
+              - listitem:
+                - link "Benjamin S. Levine":
+                  - /url: https://www.galipolaw.com/benjamin-s-levine/
+              - listitem:
+                - link "Cooper Alison-Mayne":
+                  - /url: https://www.galipolaw.com/cooper-alison-mayne/
+              - listitem:
+                - link "Leslie De Leon":
+                  - /url: https://www.galipolaw.com/leslie-de-leon/
+              - listitem:
+                - link "Santiago G. Laurel":
+                  - /url: https://www.galipolaw.com/santiago-g-laurel/
+              - listitem:
+                - link "Darci Gilbert":
+                  - /url: https://www.galipolaw.com/darci-gilbert/
+              - listitem:
+                - link "Sunne K. Sanders":
+                  - /url: https://www.galipolaw.com/sunne-k-sanders/
+        - listitem [ref=e19]:
+          - link "Practice Areas" [ref=e20] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/practice-areas/
+          - list:
+            - listitem:
+              - link "Asphyxia & Restraint":
+                - /url: https://www.galipolaw.com/asphyxia-restraint/
+            - listitem:
+              - link "Excessive Force":
+                - /url: https://www.galipolaw.com/excessive-restraint/
+            - listitem:
+              - link "Denial of Medical Care":
+                - /url: https://www.galipolaw.com/denial-of-medical-care/
+            - listitem:
+              - link "In-Custody Death":
+                - /url: https://www.galipolaw.com/in-custody-death/
+            - listitem:
+              - link "Officer-Involved Shootings":
+                - /url: https://www.galipolaw.com/officer-involved-shootings/
+            - listitem:
+              - link "Police Misconduct":
+                - /url: https://www.galipolaw.com/police-misconduct/
+            - listitem:
+              - link "Sexual Assault":
+                - /url: https://www.galipolaw.com/sexual-assault/
+            - listitem:
+              - link "Wrongful Conviction":
+                - /url: https://www.galipolaw.com/police-misconduct-wrongful-conviction/
+        - listitem [ref=e21]:
+          - link "Success Record" [ref=e22] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/winning-record/
+        - listitem [ref=e23]:
+          - link "Reviews" [ref=e24] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/testimonials/
+        - listitem [ref=e25]:
+          - generic [ref=e26]: News & Media
+          - list:
+            - listitem:
+              - link "News":
+                - /url: https://www.galipolaw.com/news/
+            - listitem:
+              - link "Media":
+                - /url: https://www.galipolaw.com/media/
+            - listitem:
+              - link "Blog":
+                - /url: https://www.galipolaw.com/blog/
+        - listitem [ref=e27]:
+          - link "Contact" [ref=e28] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/contact-us/
+      - generic [ref=e30] [cursor=pointer]:
+        - img "Search Icon" [ref=e31]
+        - img "Search Icon" [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - group "1 / 6":
+        - generic:
+          - generic:
+            - generic:
+              - text: Policing
+              - generic: The Police
+      - group "2 / 6" [ref=e35]:
+        - generic [ref=e39]:
+          - generic [ref=e40]: Successfully Recovered
+          - text: Over $500 Million
+          - generic [ref=e41]: For Victims
+      - group "3 / 6":
+        - generic:
+          - generic:
+            - generic: Integrity
+            - generic: Compassion
+            - generic: Results
+      - group "4 / 6":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Prevailed In Over
+              - text: 100 Jury Trials
+      - group "5 / 6":
+        - generic:
+          - generic:
+            - generic:
+              - text: Policing
+              - generic: The Police
+      - group "6 / 6":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Successfully Recovered
+              - text: Over $500 Million
+              - generic: For Victims
+    - generic [ref=e42]: Your browser does not support the video tag.
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - paragraph [ref=e47]: In The News
+      - paragraph [ref=e48]: "Verdict: Jury Returns $30.5 Million verdict"
+      - paragraph [ref=e49]: In Kern County Police Shooting Case, March 21, 2025
+      - generic [ref=e50]:
+        - img "Los Angeles Times Article" [ref=e51]
+        - link "Read Article" [ref=e52] [cursor=pointer]:
+          - /url: https://www.latimes.com/california/story/2025-03-21/family-of-kern-county-man-slain-by-deputy-awarded-30-5-million
+    - generic [ref=e53]:
+      - paragraph [ref=e54]: Recent Results
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - img "Logo" [ref=e57]
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: "Updated: $23.8 Million"
+            - paragraph [ref=e60]: Federal Jury Returns Verdict in Los Angeles Police Department Officer Involved Shooting Case, August 25, 2023
+        - listitem [ref=e61]:
+          - img "Logo" [ref=e62]
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: "Updated: $30.5 Million"
+            - paragraph [ref=e65]: Federal Jury Returns Verdict in Kern County Sheriff’s Officer Involved Shooting Death Case, March 21, 2025
+      - generic [ref=e66]:
+        - generic [ref=e68]:
+          - group "1 / 13" [ref=e69]:
+            - generic [ref=e70]:
+              - img "Logo" [ref=e71]
+              - generic [ref=e72]:
+                - generic [ref=e73]: $5.5 Million
+                - text: 2017 Jury verdict - excessive tasing - unarmed
+          - group "2 / 13" [ref=e74]:
+            - generic [ref=e75]:
+              - img "Logo" [ref=e76]
+              - generic [ref=e77]:
+                - generic [ref=e78]: $6.5 Million
+                - text: 2017 Jury verdict - excessive force/police shooting - unarmed
+          - group "3 / 13" [ref=e79]:
+            - generic [ref=e80]:
+              - img "Logo" [ref=e81]
+              - generic [ref=e82]:
+                - generic [ref=e83]: $17 Million
+                - text: 2021 Jury verdict - excessive force/police shooting - unarmed
+          - group "4 / 13" [ref=e84]:
+            - generic [ref=e85]:
+              - img "Logo" [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e88]: $4.5 Million
+                - text: 2020 Jury verdict - excessive force/police shooting - man armed with scissors
+          - group "5 / 13" [ref=e89]:
+            - generic [ref=e90]:
+              - img "Logo" [ref=e91]
+              - generic [ref=e92]:
+                - generic [ref=e93]: $10 Million
+                - text: 2023 Jury verdict - Riverside County Deputy Involved Shooting
+          - group "6 / 13" [ref=e94]:
+            - generic [ref=e95]:
+              - img "Logo" [ref=e96]
+              - generic [ref=e97]:
+                - generic [ref=e98]: $3 Million
+                - text: 2019 Jury verdict - excessive force/punches - unarmed
+          - group "7 / 13" [ref=e99]:
+            - generic [ref=e100]:
+              - img "Logo" [ref=e101]
+              - generic [ref=e102]:
+                - generic [ref=e103]: $3.4 Million
+                - text: 2019 Jury verdict - excessive force/police shooting - unarmed
+          - group "8 / 13" [ref=e104]:
+            - generic [ref=e105]:
+              - img "Logo" [ref=e106]
+              - generic [ref=e107]:
+                - generic [ref=e108]: $4.75 Million
+                - text: 2019 Jury verdict - excessive force/police shooting - man armed with pipe
+          - group "9 / 13" [ref=e109]:
+            - generic [ref=e110]:
+              - img "Logo" [ref=e111]
+              - generic [ref=e112]:
+                - generic [ref=e113]: $33.4 Million
+                - text: 2018 Jury verdict - excessive force/police shooting - unarmed
+          - group "10 / 13" [ref=e114]:
+            - generic [ref=e115]:
+              - img "Logo" [ref=e116]
+              - generic [ref=e117]:
+                - generic [ref=e118]: $5.5 Million
+                - text: 2017 Jury verdict - excessive tasing - unarmed
+          - group "11 / 13" [ref=e119]:
+            - generic [ref=e120]:
+              - img "Logo" [ref=e121]
+              - generic [ref=e122]:
+                - generic [ref=e123]: $6.5 Million
+                - text: 2017 Jury verdict - excessive force/police shooting - unarmed
+          - group "12 / 13" [ref=e124]:
+            - generic [ref=e125]:
+              - img "Logo" [ref=e126]
+              - generic [ref=e127]:
+                - generic [ref=e128]: $17 Million
+                - text: 2021 Jury verdict - excessive force/police shooting - unarmed
+          - group "13 / 13" [ref=e129]:
+            - generic [ref=e130]:
+              - img "Logo" [ref=e131]
+              - generic [ref=e132]:
+                - generic [ref=e133]: $4.5 Million
+                - text: 2020 Jury verdict - excessive force/police shooting - man armed with scissors
+        - generic [ref=e134]:
+          - button "Previous slide" [ref=e135]
+          - button "Next slide" [ref=e136]
+      - link "View More Verdicts & Settlements" [ref=e138] [cursor=pointer]:
+        - /url: https://www.galipolaw.com/winning-record/
+  - generic [ref=e140]:
+    - paragraph [ref=e141]: Practice Areas
+    - paragraph [ref=e142]: Our law firm has a strong focus on Southern California, with particular expertise in tackling cases in Los Angeles, Riverside, San Diego, Santa Ana, and Long Beach. We also have extensive experience in Ventura, Orange, and San Bernardino counties. Our intimate knowledge of these communities enables us to provide personalized and effective legal services tailored to the unique needs of our clients.
+    - list [ref=e143]:
+      - listitem [ref=e144]:
+        - link "Officer-Involved Police Shootings Officer-Involved Police Shootings If you were unarmed but still shot by police in Los Angeles or anywhere else, you may be entitled to compensation for your injuries." [ref=e145] [cursor=pointer]:
+          - /url: https://www.galipolaw.com/officer-involved-shootings/
+          - paragraph [ref=e146]:
+            - text: Officer-Involved
+            - text: Police Shootings
+          - generic [ref=e147]:
+            - paragraph [ref=e148]:
+              - text: Officer-Involved
+              - text: Police Shootings
+            - paragraph [ref=e149]: If you were unarmed but still shot by police in Los Angeles or anywhere else, you may be entitled to compensation for your injuries.
+      - listitem [ref=e150]:
+        - link "Police Misconduct Police Misconduct At The Law Offices of Dale K. Galipo, we firmly believe that no one, including law enforcement, is above the law. We are committed to holding those responsible for misconduct accountable and to ensuring that victims and their families receive the justice they so rightfully deserve." [ref=e151] [cursor=pointer]:
+          - /url: https://www.galipolaw.com/police-misconduct/
+          - paragraph [ref=e152]:
+            - text: Police
+            - text: Misconduct
+          - generic [ref=e153]:
+            - paragraph [ref=e154]:
+              - text: Police
+              - text: Misconduct
+            - paragraph [ref=e155]: At The Law Offices of Dale K. Galipo, we firmly believe that no one, including law enforcement, is above the law. We are committed to holding those responsible for misconduct accountable and to ensuring that victims and their families receive the justice they so rightfully deserve.
+      - listitem [ref=e156]:
+        - link "In-Custody Death In-Custody Death Attorneys at Law Offices of Dale K. Galipo have successfully represented the victims of custodial abuse and deaths/suicides and have helped the families of the victims find out the truth as to what really happened to their loved ones." [ref=e157] [cursor=pointer]:
+          - /url: https://www.galipolaw.com/in-custody-death/
+          - paragraph [ref=e158]:
+            - text: In-Custody
+            - text: Death
+          - generic [ref=e159]:
+            - paragraph [ref=e160]:
+              - text: In-Custody
+              - text: Death
+            - paragraph [ref=e161]: Attorneys at Law Offices of Dale K. Galipo have successfully represented the victims of custodial abuse and deaths/suicides and have helped the families of the victims find out the truth as to what really happened to their loved ones.
+      - listitem [ref=e162]:
+        - link "Excessive Force Excessive Force The result of being restrained in this manner usually consists of a restriction of one’s movement or compression of a person’s ribs and diaphragm, making it hard for the person to expand their chest and breathe." [ref=e163] [cursor=pointer]:
+          - /url: https://www.galipolaw.com/excessive-restraint/
+          - paragraph [ref=e164]: Excessive Force
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Excessive Force
+            - paragraph [ref=e167]: The result of being restrained in this manner usually consists of a restriction of one’s movement or compression of a person’s ribs and diaphragm, making it hard for the person to expand their chest and breathe.
+      - listitem [ref=e168]:
+        - link "Wrongful Conviction Wrongful Conviction When our criminal justice system fails to seek the truth and sends innocent people to jail/prison, it denies the fundamental rights of the innocent people now wrongfully convicted." [ref=e169] [cursor=pointer]:
+          - /url: https://www.galipolaw.com/police-misconduct-wrongful-conviction/
+          - paragraph [ref=e170]:
+            - text: Wrongful
+            - text: Conviction
+          - generic [ref=e171]:
+            - paragraph [ref=e172]:
+              - text: Wrongful
+              - text: Conviction
+            - paragraph [ref=e173]: When our criminal justice system fails to seek the truth and sends innocent people to jail/prison, it denies the fundamental rights of the innocent people now wrongfully convicted.
+      - listitem [ref=e174]:
+        - link "Sexual Assault Sexual Assault When people think about police abuse, they often think of officer-involved shootings and excessive force—but the fact is that sexual assault is another issue affecting those who are imprisoned or detained." [ref=e175] [cursor=pointer]:
+          - /url: /sexual-assault/
+          - paragraph [ref=e176]:
+            - text: Sexual
+            - text: Assault
+          - generic [ref=e177]:
+            - paragraph [ref=e178]:
+              - text: Sexual
+              - text: Assault
+            - paragraph [ref=e179]: When people think about police abuse, they often think of officer-involved shootings and excessive force—but the fact is that sexual assault is another issue affecting those who are imprisoned or detained.
+      - listitem [ref=e180]:
+        - link "Denial of Medical Care Denial of Medical Care Whether someone is a convicted prisoner or temporarily being detained, they have rights under the U.S. Constitution. Failing to meet a prisoner’s basic needs, which include medical care, may mean that the facility has fallen short of their legal obligations and acted negligently." [ref=e181] [cursor=pointer]:
+          - /url: /denial-of-medical-care/
+          - paragraph [ref=e182]:
+            - text: Denial of Medical
+            - text: Care
+          - generic [ref=e183]:
+            - paragraph [ref=e184]:
+              - text: Denial of Medical
+              - text: Care
+            - paragraph [ref=e185]: Whether someone is a convicted prisoner or temporarily being detained, they have rights under the U.S. Constitution. Failing to meet a prisoner’s basic needs, which include medical care, may mean that the facility has fallen short of their legal obligations and acted negligently.
+      - listitem [ref=e186]:
+        - link "Asphyxia and Restraint Lawyer Asphyxia and Restraint Lawyer The death of George Floyd brought national attention to the devastating consequences of lethal restraint techniques used during arrests. But similar tragedies have occurred in our own backyard—from South Los Angeles to Skid Row, Hollywood, and East LA." [ref=e187] [cursor=pointer]:
+          - /url: /denial-of-medical-care/
+          - paragraph [ref=e188]:
+            - text: Asphyxia and Restraint
+            - text: Lawyer
+          - generic [ref=e189]:
+            - paragraph [ref=e190]:
+              - text: Asphyxia and Restraint
+              - text: Lawyer
+            - paragraph [ref=e191]: The death of George Floyd brought national attention to the devastating consequences of lethal restraint techniques used during arrests. But similar tragedies have occurred in our own backyard—from South Los Angeles to Skid Row, Hollywood, and East LA.
+    - link "View More Practice Areas" [ref=e193] [cursor=pointer]:
+      - /url: https://www.galipolaw.com/practice-areas/
+  - generic [ref=e196]:
+    - list [ref=e197]:
+      - listitem [ref=e198]: Integrity
+      - listitem [ref=e199]: Compassion
+      - listitem [ref=e200]: Results
+    - paragraph [ref=e201]: Client Stories
+    - generic [ref=e202]:
+      - generic [ref=e204]:
+        - group "1 / 8" [ref=e205]:
+          - generic [ref=e206]:
+            - img "stars" [ref=e207]
+            - generic [ref=e208]: Dale and renee are great attorneys! Great people! Helped us alot!
+            - generic [ref=e209]: Jasmin Ranero
+        - group "2 / 8" [ref=e210]:
+          - generic [ref=e211]:
+            - img "stars" [ref=e212]
+            - generic [ref=e213]: Incredible trial record focused on civil rights, easy to speak with, and a true gentle giant in court who gets his point across to the jury.
+            - generic [ref=e214]: Darren Chaker
+        - group "3 / 8" [ref=e215]:
+          - generic [ref=e216]:
+            - img "stars" [ref=e217]
+            - generic [ref=e218]: Sin duda mi familia y yo no pudimos caer en las mejores manos. La peor experiencia vivida en nuestras vidas, e ... Read More
+            - generic [ref=e219]: Sonia A.
+        - group "4 / 8" [ref=e220]:
+          - generic [ref=e221]:
+            - img "stars" [ref=e222]
+            - generic [ref=e223]: He is a great attorney, smart, hard working, caring everything you can ask for.
+            - generic [ref=e224]: Soleman Casillas
+        - group "5 / 8" [ref=e225]:
+          - generic [ref=e226]:
+            - img "stars" [ref=e227]
+            - generic [ref=e228]: Great civil rights attorney’s office. Great trial track record!!!!
+            - generic [ref=e229]: Thomas Kim
+        - group "6 / 8" [ref=e230]:
+          - generic [ref=e231]:
+            - img "stars" [ref=e232]
+            - generic [ref=e233]: Attorney Dale Galipo is one of THE BEST attorneys in the business!!!
+            - generic [ref=e234]: E Martine
+        - group "7 / 8" [ref=e235]:
+          - generic [ref=e236]:
+            - img "stars" [ref=e237]
+            - generic [ref=e238]: Dale and renee are great attorneys! Great people! Helped us alot!
+            - generic [ref=e239]: Jasmin Ranero
+        - group "8 / 8" [ref=e240]:
+          - generic [ref=e241]:
+            - img "stars" [ref=e242]
+            - generic [ref=e243]: Incredible trial record focused on civil rights, easy to speak with, and a true gentle giant in court who gets his point across to the jury.
+            - generic [ref=e244]: Darren Chaker
+      - generic [ref=e245]:
+        - button "Previous slide" [ref=e246]
+        - button "Next slide" [ref=e247]
+    - link "View More Testimonials" [ref=e249] [cursor=pointer]:
+      - /url: https://www.galipolaw.com/testimonials/
+    - generic [ref=e250]:
+      - paragraph [ref=e251]: "Write a Review:"
+      - link "Google" [ref=e252] [cursor=pointer]:
+        - /url: https://www.google.com/search?q=galipo+law&sca_esv=41a53a54b5bc3fc7&sca_upv=1&sxsrf=ADLYWII_F5n_eSp15YPg4YbG1sAGxsgkhw%3A1723678640478&ei=sD-9Zr32HLe9kPIPmKrW6AM&ved=0ahUKEwi9jsqo0_WHAxW3HkQIHRiVFT0Q4dUDCA8&uact=5&oq=galipo+law&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmdhbGlwbyBsYXcyCxAuGIAEGMcBGK8BMgYQABgWGB4yCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMhoQLhiABBjHARivARiXBRjcBBjeBBjgBNgBAUjrCVCuCFiuCHADeACQAQCYAWmgAWmqAQMwLjG4AQPIAQD4AQL4AQGYAgGgAnSYAwCIBgG6BgYIARABGBSSBwMwLjGgB-EG&sclient=gws-wiz-serp#lrd=0x80c29ea2ae052453:0xc2402b7965255c01,1,,,,
+        - img "Google" [ref=e253]
+      - link "Yelp" [ref=e254] [cursor=pointer]:
+        - /url: https://www.yelp.com/biz/galipo-dale-law-offices-of-woodland-hills?osq=Dale+galipo&override_cta=Request+a+consultation
+        - img "Yelp" [ref=e255]
+  - generic [ref=e257]:
+    - generic [ref=e258]:
+      - img "Dale Galipo"
+    - generic [ref=e259]:
+      - paragraph [ref=e260]: Raising the Legal Standard
+      - paragraph [ref=e261]: "Impressive Outcomes:"
+      - list [ref=e262]:
+        - listitem [ref=e263]: Secured over $500 MILLION in verdicts and settlements for clients.
+        - listitem [ref=e264]: Prevailed In over 100 Jury Trials.
+        - listitem [ref=e265]: Authored twenty published opinions in the 9th Circuit Court of Appeals.
+      - paragraph [ref=e266]: "Industry Recognition:"
+      - list [ref=e267]:
+        - listitem [ref=e268]: Daily Journal’s CLAY Award 2024
+        - listitem [ref=e269]: UC Davis School of Law MLK Honoree for Social and Political Justice for the Disadvantaged
+        - listitem [ref=e270]: Daily Journal’s Top Plaintiff’s Lawyer for 2023 and 2024
+        - listitem [ref=e271]: Federal Bar Association Defender of the Constitution Award
+        - listitem [ref=e272]: CAALA 2020 Trial Lawyer of the year!
+        - listitem [ref=e273]: CAOC 2020 Consumer Attorney of the Year!
+        - listitem [ref=e274]: Top100Lawyers.com - Attorney of the Year 2023
+        - listitem [ref=e275]: Top100Lawyers.com - Civil Rights Attorney of the Year 2024
+      - paragraph [ref=e276]: "Peer Recognition:"
+      - list [ref=e277]:
+        - listitem [ref=e278]: Member of the Inner Circle of Advocates
+        - listitem [ref=e279]: Southern California Super Lawyers list 10+ years.
+        - listitem [ref=e280]: Proud Fellow of the American College of Trial Lawyers.
+  - list [ref=e284]:
+    - listitem [ref=e285]:
+      - img "American College of Trial Lawyers" [ref=e286]
+    - listitem [ref=e287]:
+      - img "Avvo Rating 10.0 Top Attorney" [ref=e288]
+    - listitem [ref=e289]:
+      - img "The Inner Circle of Advocates" [ref=e290]
+    - listitem [ref=e291]:
+      - img "Rated By Super Lawyers Dele K. Galipo Superlawyers.com" [ref=e292]
+    - listitem [ref=e293]:
+      - img "Top 100 Lawyers" [ref=e294]
+    - listitem [ref=e295]:
+      - img [ref=e296]
+  - generic [ref=e298]:
+    - generic [ref=e299]:
+      - paragraph [ref=e300]: Dale is available to be a Guest Speaker
+      - paragraph [ref=e301]: by Zoom or in person, in the Los Angeles area.
+    - link "Request Engagement" [ref=e302] [cursor=pointer]:
+      - /url: https://www.galipolaw.com/contact-us/
+  - generic [ref=e304]:
+    - paragraph [ref=e305]: Watch a Closing Argument Resulting in $33.5 Million Verdict
+    - paragraph [ref=e306]: Watch Dale K. Galipo delivering the closing and rebuttal arguments in Archibald v. County of San Bernardino (2018).
+    - list [ref=e307]:
+      - listitem [ref=e308]:
+        - img "Rebuttal Argument Video" [ref=e310]
+      - listitem [ref=e311]:
+        - img "Rebuttal Argument Video" [ref=e313]
+    - link "View More Videos" [ref=e315] [cursor=pointer]:
+      - /url: https://www.youtube.com/channel/UCwfme-V-eUQAHzx_-OfwauA
+  - article [ref=e319]:
+    - heading "California Police Misconduct Law Firm" [level=1] [ref=e320]
+    - generic [ref=e321]:
+      - img "Office Interior" [ref=e323]
+      - generic [ref=e324]:
+        - paragraph [ref=e325]:
+          - text: If you believe your civil rights have been violated due to police misconduct and officer-involved shootings throughout all of California, including cities such as
+          - link "Los Angeles" [ref=e326] [cursor=pointer]:
+            - /url: /police-misconduct/
+          - text: ","
+          - link "Riverside" [ref=e327] [cursor=pointer]:
+            - /url: /police-misconduct/riverside/
+          - text: ","
+          - link "San Diego" [ref=e328] [cursor=pointer]:
+            - /url: /police-misconduct/san-diego/
+          - text: ", Santa Ana, Long Beach, San Francisco, Oakland, Sacramento or counties like"
+          - link "Ventura" [ref=e329] [cursor=pointer]:
+            - /url: /police-misconduct/ventura-county/
+          - text: ","
+          - link "Orange County" [ref=e330] [cursor=pointer]:
+            - /url: /police-misconduct/orange-county/
+          - text: ", and"
+          - link "San Bernardino" [ref=e331] [cursor=pointer]:
+            - /url: /police-misconduct/san-bernardino/
+          - text: ", it’s crucial to have a dedicated attorney to challenge the police. Our California police misconduct law firm handles all civil rights claims on a contingency basis, so there’s no need to worry about upfront costs. Simply provide us with information about your incident, and we’ll assess your case."
+        - paragraph [ref=e332]:
+          - text: We’re also open to referral relationships with other law firms, as we believe in collaboration and ensuring everyone gets top-quality legal representation.
+          - strong [ref=e333]: Contact the Law Offices of Dale K. Galipo today, and let’s work together for justice.
+    - link "Contact Us" [ref=e335] [cursor=pointer]:
+      - /url: /contact-us
+  - contentinfo [ref=e336]:
+    - link "Law Offices of Dale K. Galipo" [ref=e340] [cursor=pointer]:
+      - /url: /
+      - img "Law Offices of Dale K. Galipo" [ref=e341]
+    - generic [ref=e343]:
+      - list [ref=e344]:
+        - listitem [ref=e345]:
+          - link "Site Map" [ref=e346] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/site-map/
+        - listitem [ref=e347]:
+          - link "Disclaimer" [ref=e348] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/disclaimer/
+        - listitem [ref=e349]:
+          - link "Contact Us" [ref=e350] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/contact-us/
+      - generic [ref=e351]:
+        - paragraph [ref=e352]:
+          - text: "Address: 21800 Burbank Blvd., Suite 310, Woodland Hills, CA 91367 | Phone:"
+          - link "818-347-3333" [ref=e353] [cursor=pointer]:
+            - /url: tel:+18183473333
+        - paragraph [ref=e354]: "IMPORTANT NOTICE: The information on this website is for informational purposes only. This website should not be taken as legal advice. Prior results do not guarantee a similar outcome. This information should not be taken as the formation of an attorney-client relationship. For more details, read the full disclaimer."
+        - paragraph [ref=e355]: © 2024 - 2026 Law Offices of Dale K. Galipo
+      - link "Everest Legal Marketing" [ref=e356] [cursor=pointer]:
+        - /url: https://www.everestlegalmarketing.com/
+        - img "Everest Legal Marketing" [ref=e357]

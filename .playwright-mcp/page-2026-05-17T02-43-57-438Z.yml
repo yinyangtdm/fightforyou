@@ -1,0 +1,502 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - text: "MAUI TRAGEDY: For over 40 years, Davis Levin Livingston has represented our friends and neighbors on all the islands and they will be there for you in this hour of tragedy."
+      - link "Click here for more information." [ref=e6] [cursor=pointer]:
+        - /url: /maui-fire-disaster/
+    - generic [ref=e8]:
+      - button "Skip to Content" [ref=e9]
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic "Main Menu" [ref=e13] [cursor=pointer]
+          - link "Davis Levin Livingston" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - img "Davis Levin Livingston" [ref=e15]
+          - link [ref=e16]:
+            - /url: tel:8087400633
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - generic "Close the Menu" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]: Close
+            - listitem [ref=e22]:
+              - generic [ref=e24]:
+                - generic [ref=e25]: Search
+                - searchbox "Search" [ref=e26]
+                - button "Search Our Site" [ref=e27] [cursor=pointer]
+          - navigation [ref=e29]:
+            - menu "Mobile Navigation" [ref=e30]:
+              - listitem [ref=e31]:
+                - menuitem "Home" [ref=e32] [cursor=pointer]
+              - listitem [ref=e33]:
+                - menuitem "Reviews" [ref=e34] [cursor=pointer]
+              - listitem [ref=e35]:
+                - menuitem "Our Team" [ref=e36] [cursor=pointer]
+                - generic "Open child menu of Our Team" [ref=e37] [cursor=pointer]
+              - listitem [ref=e38]:
+                - menuitem "Charitable Foundation" [ref=e39] [cursor=pointer]
+              - listitem [ref=e40]:
+                - menuitem "Personal Injury Cases" [ref=e41] [cursor=pointer]
+                - generic "Open child menu of Personal Injury Cases" [ref=e42] [cursor=pointer]
+              - listitem [ref=e43]:
+                - menuitem "Other Practice Areas" [ref=e44] [cursor=pointer]
+                - generic "Open child menu of Other Practice Areas" [ref=e45] [cursor=pointer]
+              - listitem [ref=e46]:
+                - menuitem "Maui Fire Disaster" [ref=e47] [cursor=pointer]
+              - listitem [ref=e48]:
+                - menuitem "Legal Resources" [ref=e49] [cursor=pointer]
+              - listitem [ref=e50]:
+                - menuitem "Blog" [ref=e51] [cursor=pointer]
+                - generic "Open child menu of Blog" [ref=e52] [cursor=pointer]
+              - listitem [ref=e53]:
+                - menuitem "Videos" [ref=e54] [cursor=pointer]
+                - generic "Open child menu of Videos" [ref=e55] [cursor=pointer]
+              - listitem [ref=e56]:
+                - menuitem "Contact Us" [ref=e57] [cursor=pointer]
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "Contact Us" [ref=e63] [cursor=pointer]:
+                - /url: /contact-us/
+                - generic [ref=e64]: Contact Us
+            - listitem [ref=e65]:
+              - link "Call Us Today!" [ref=e66]:
+                - /url: tel:8087400633
+                - generic [ref=e67]: Call Us Today!
+          - generic [ref=e68]:
+            - strong [ref=e70]: Follow Us
+            - list [ref=e71]:
+              - listitem [ref=e72]:
+                - link "Facebook" [ref=e73] [cursor=pointer]:
+                  - /url: https://www.facebook.com/DavisLevinLivingston/
+              - listitem [ref=e74]:
+                - link "Twitter" [ref=e75] [cursor=pointer]:
+                  - /url: https://x.com/DavisLevinLaw
+              - listitem [ref=e76]:
+                - link "Google Business Profile" [ref=e77] [cursor=pointer]:
+                  - /url: https://www.google.com/maps?cid=8269072209185709106
+              - listitem [ref=e78]:
+                - link "Instagram" [ref=e79] [cursor=pointer]:
+                  - /url: https://www.instagram.com/davislevinlivingston/
+  - main [ref=e80]:
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - strong [ref=e85]:
+          - text: HAWAI'I'S ATTORNEYS
+          - generic [ref=e86]: FOR HAWAI'I'S PEOPLE
+        - emphasis [ref=e87]: DAVIS LEVIN LIVINGSTON IS ONE OF HAWAI’I’S OLDEST, MOST SUCCESSFUL PLAINTIFFS’ FIRMS. FOR OVER 40 YEARS, WE HAVE REPRESENTED OUR FRIENDS AND NEIGHBORS ON ALL THE ISLANDS AND WE WILL BE THERE FOR YOU IN THIS HOUR OF TRAGEDY.
+      - list [ref=e89]:
+        - listitem [ref=e90]:
+          - link "maui fire disaster information" [ref=e91] [cursor=pointer]:
+            - /url: /maui-fire-disaster/
+            - generic [ref=e92]: maui fire disaster information
+        - listitem [ref=e93]:
+          - link "contact our firm" [ref=e94] [cursor=pointer]:
+            - /url: /contact-us/
+            - generic [ref=e95]: contact our firm
+    - generic [ref=e97]:
+      - heading "Four Decades of Record Breaking Victories" [level=4] [ref=e101]
+      - list [ref=e103]:
+        - listitem [ref=e104]:
+          - generic [ref=e105]:
+            - strong [ref=e106]: $104,000,000
+            - emphasis [ref=e107]: Child Sex Abuse
+            - paragraph [ref=e108]: We're proud to have secured a landmark $104 million settlement for victims of abuse against Kamehameha School. This ground-breaking case marks a significant victory for the victims, with the school agreeing to settle.
+        - listitem [ref=e109]:
+          - generic [ref=e110]:
+            - strong [ref=e111]: $29,400,000
+            - emphasis [ref=e112]: Medical Malpractice
+            - paragraph [ref=e113]: Physicians at Tripler Army Medical Center failed to order a crucial test that would have detected a twisted gut in a 1-month-old baby, resulting in the loss of 95% of the baby's small intestine and leading to lifelong disability.
+        - listitem [ref=e114]:
+          - generic [ref=e115]:
+            - strong [ref=e116]: $26,000,000
+            - emphasis [ref=e117]: Catastrophic Injury
+            - paragraph [ref=e118]: Davis Levin Livingston secured a landmark $26 million settlement on behalf of a client, who was permanently disabled in the devastating 2019 Likelike Highway crash.
+        - listitem [ref=e119]:
+          - generic [ref=e120]:
+            - strong [ref=e121]: $15,400,000
+            - emphasis [ref=e122]: Wrongful Death
+            - paragraph [ref=e123]: The state has agreed to a $15.4 million settlement in a civil lawsuit filed by the families of two hikers who fell to their deaths on a Kauai hiking trail in 2006.
+        - listitem [ref=e124]:
+          - generic [ref=e125]:
+            - strong [ref=e126]: $15,000,000
+            - emphasis [ref=e127]: Vacuum/Forceps Injury
+            - paragraph [ref=e128]: The hospital improperly attempted to deliver a post-date baby using a traumatic second-stage vacuum extraction. This extraction and the delay in delivery resulted in permanent brain damage to the baby.
+        - listitem [ref=e129]:
+          - generic [ref=e130]:
+            - strong [ref=e131]: $9,975,000
+            - emphasis [ref=e132]: Brain Injury
+            - paragraph [ref=e133]: The hospital's failure to monitor an infant's rising bilirubin levels led to bilirubin encephalopathy and kernicterus, resulting in severe and permanent brain damage. A settlement of $9,975,000 was obtained.
+      - link "View Results" [ref=e138] [cursor=pointer]:
+        - /url: /results/
+        - generic [ref=e139]: View Results
+    - generic [ref=e144]:
+      - heading "Hawaii Personal Injury Lawyers" [level=1] [ref=e145]
+      - heading "Honolulu's Highly-Rated Litigation Firm" [level=2] [ref=e146]
+      - paragraph [ref=e147]:
+        - text: If you were involved in an accident, lost a loved one due to the negligence of someone else, or need assistance with a complex legal matter, contact Davis Levin Livingston. Based in downtown Honolulu, Davis Levin Livingston comprises experienced and highly skilled trial lawyers who are well-versed in a wide variety of litigation matters, including
+        - link "birth injury" [ref=e148] [cursor=pointer]:
+          - /url: /birth-injuries/
+        - text: ","
+        - link "medical malpractice" [ref=e149] [cursor=pointer]:
+          - /url: /medical-malpractice/
+        - text: ","
+        - link "auto accidents" [ref=e150] [cursor=pointer]:
+          - /url: /personal-injury/car-accidents/
+        - text: ","
+        - link "class actions" [ref=e151] [cursor=pointer]:
+          - /url: /other-practice-areas/class-actions/
+        - text: ","
+        - link "consumer rights" [ref=e152] [cursor=pointer]:
+          - /url: /other-practice-areas/consumer-rights/
+        - text: ", and"
+        - link "health care fraud" [ref=e153] [cursor=pointer]:
+          - /url: /other-practice-areas/health-care/fraud/
+        - text: .
+      - paragraph [ref=e154]:
+        - text: For more than 40 years, the Hawaii personal injury attorneys at Davis Levin Livingston have been fighting for the rights of individuals and families across all the Hawaiian Islands. Our firm has a proven history of record-breaking results, including the
+        - strong [ref=e155]: largest single compensatory personal injury judgment in Hawaii
+        - text: —a settlement of $80 million against Kamehameha School.
+      - paragraph [ref=e156]: Our firm also achieved the highest malpractice judgment in the United States against a military hospital, the highest sexual harassment settlement in Hawaii, and the highest Medicare and Medicaid fraud settlements in the state. With both a medical director and an advanced practice nurse on staff, our firm understands what it takes to handle tough cases—and win.
+    - list [ref=e160]:
+      - listitem [ref=e161]:
+        - img "Inner Circle 7" [ref=e163]
+      - listitem [ref=e164]:
+        - img "Best Law Firms 1" [ref=e166]
+      - listitem [ref=e167]:
+        - img "Best Law Firms 2" [ref=e169]
+      - listitem [ref=e170]:
+        - img "500 Law Dragon" [ref=e172]
+      - listitem [ref=e173]:
+        - img "Best Lawyers 2026" [ref=e175]
+      - listitem [ref=e176]:
+        - img "Super Lawyers" [ref=e178]
+      - listitem [ref=e179]:
+        - img "Best Lawyers Year 2022" [ref=e181]
+      - listitem [ref=e182]:
+        - img "International Academy" [ref=e184]
+      - listitem [ref=e185]:
+        - img "Honolulu Mag" [ref=e187]
+      - listitem [ref=e188]:
+        - img "National Law Journal" [ref=e190]
+      - listitem [ref=e191]:
+        - img "American College Trial Lawyers" [ref=e193]
+      - listitem [ref=e194]:
+        - img "AV Preeminent" [ref=e196]
+      - listitem [ref=e197]:
+        - img "American Assoc for Justice" [ref=e199]
+    - generic [ref=e203]:
+      - heading "Why Davis Levin Livingston?" [level=4] [ref=e208]
+      - list [ref=e209]:
+        - listitem [ref=e210]:
+          - strong [ref=e213]: Available by phone 24/7 & ready to help.
+        - listitem [ref=e214]:
+          - strong [ref=e217]: Secured tens of millions of dollars on behalf of our clients.
+        - listitem [ref=e218]:
+          - strong [ref=e221]: Highest malpractice judgment in U.S. history against a military hospital.
+        - listitem [ref=e222]:
+          - strong [ref=e225]: Includes an experienced medical team including a nursing staff to answer your questions.
+        - listitem [ref=e226]:
+          - strong [ref=e229]: Mark Davis and Mike Livingston have been recognized as some of the best lawyers in Hawaii.
+        - listitem [ref=e230]:
+          - strong [ref=e233]: Resources available to advance your expenses; no cost or fees unless Davis Levin Livingston wins your case.
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - heading "Featured On" [level=3] [ref=e238]
+        - paragraph [ref=e239]: Davis Levin Livingston is one of the leading personal injury and medical malpractice firms in the United States. While our Hawaii attorneys handle a broad range of legal matters, we primarily focus on complex injury cases, including those involving birth injuries and medical negligence. Our attorneys have appeared on national news networks—including ABC News, Good Morning America, and Justice in America by CBS—and have been featured in prestigious publications for their extensive skill and significant results.
+        - paragraph [ref=e240]:
+          - text: Additionally,
+          - link "our attorneys" [ref=e241] [cursor=pointer]:
+            - /url: /our-team/
+          - text: have earned recognition from their peers, having been selected for inclusion in
+          - emphasis [ref=e242]: The Best Lawyers in America©
+          - text: by Best Lawyers
+          - emphasis [ref=e243]: ®
+          - text: and the Hawaii Super Lawyers® list. They have also been named among the top 100 Plaintiffs’ Lawyers in the United States. Most of all, however, they are incredibly proud of the opportunity to represent those in need and have a positive impact on their lives forever.
+        - paragraph [ref=e244]:
+          - link "More Features" [ref=e245] [cursor=pointer]:
+            - /url: /videos/
+      - generic [ref=e246]:
+        - heading "“Justice In America” Featuring Mark Davis" [level=4] [ref=e247]:
+          - strong [ref=e248]: “Justice In America” Featuring Mark Davis
+        - generic [ref=e249]:
+          - iframe [ref=e251]:
+            
+          - iframe [ref=e253]:
+            
+    - list [ref=e257]:
+      - listitem [ref=e258]:
+        - img "Newsweek" [ref=e260]
+      - listitem [ref=e261]:
+        - img "ABC News" [ref=e263]
+      - listitem [ref=e264]:
+        - img "Lawyers Weekly" [ref=e266]
+      - listitem [ref=e267]:
+        - img "Good Morning America" [ref=e269]
+      - listitem [ref=e270]:
+        - img "Lawyers USA" [ref=e272]
+      - listitem [ref=e273]:
+        - img "Hawii's Elite" [ref=e275]
+      - listitem [ref=e276]:
+        - img "CBS Justice" [ref=e278]
+    - generic [ref=e282]:
+      - generic [ref=e285]:
+        - heading "practice areas" [level=4] [ref=e286]
+        - heading "we have the skills & Resources To Help You Navigate This Process" [level=5] [ref=e287]
+      - generic [ref=e288]:
+        - list [ref=e289]:
+          - listitem [ref=e290]:
+            - link "Medical Malpractice" [ref=e291] [cursor=pointer]:
+              - /url: /medical-malpractice/
+              - strong [ref=e292]: Medical Malpractice
+          - listitem [ref=e293]:
+            - link "Birth Injuries" [ref=e294] [cursor=pointer]:
+              - /url: /birth-injuries/
+              - strong [ref=e295]: Birth Injuries
+          - listitem [ref=e296]:
+            - link "Car Accidents" [ref=e297] [cursor=pointer]:
+              - /url: /personal-injury/car-accidents/
+              - strong [ref=e298]: Car Accidents
+          - listitem [ref=e299]:
+            - link "Wrongful Death" [ref=e300] [cursor=pointer]:
+              - /url: /personal-injury/wrongful-death/
+              - strong [ref=e301]: Wrongful Death
+          - listitem [ref=e302]:
+            - link "Nursing Home Abuse" [ref=e303] [cursor=pointer]:
+              - /url: /personal-injury/nursing-home-abuse/
+              - strong [ref=e304]: Nursing Home Abuse
+          - listitem [ref=e305]:
+            - link "Child Sex Abuse" [ref=e306] [cursor=pointer]:
+              - /url: /personal-injury/sexual-abuse-victims/child-sex-abuse/
+              - strong [ref=e307]: Child Sex Abuse
+          - listitem [ref=e308]:
+            - link "Other Practice Areas" [ref=e309] [cursor=pointer]:
+              - /url: /other-practice-areas/
+              - strong [ref=e310]: Other Practice Areas
+        - link "View More" [ref=e313] [cursor=pointer]:
+          - /url: /personal-injury/
+          - generic [ref=e314]: View More
+    - generic [ref=e316]:
+      - heading "Award-Winning Attorneys" [level=3] [ref=e318]
+      - list [ref=e319]:
+        - listitem [ref=e320]:
+          - link "Mark S. Davis Photo Mark S. Davis Founding Partner" [ref=e321] [cursor=pointer]:
+            - /url: /our-team/mark-s-davis/
+            - img "Mark S. Davis Photo" [ref=e323]
+            - generic [ref=e324]:
+              - strong [ref=e325]: Mark S. Davis
+              - generic [ref=e326]: Founding Partner
+        - listitem [ref=e327]:
+          - link "Michael K. Livingston Photo Michael K. Livingston Attorney" [ref=e328] [cursor=pointer]:
+            - /url: /our-team/michael-k-livingston/
+            - img "Michael K. Livingston Photo" [ref=e330]
+            - generic [ref=e331]:
+              - strong [ref=e332]: Michael K. Livingston
+              - generic [ref=e333]: Attorney
+        - listitem [ref=e334]:
+          - link "Loretta A. Sheehan Photo Loretta A. Sheehan Attorney" [ref=e335] [cursor=pointer]:
+            - /url: /our-team/loretta-a-sheehan/
+            - img "Loretta A. Sheehan Photo" [ref=e337]
+            - generic [ref=e338]:
+              - strong [ref=e339]: Loretta A. Sheehan
+              - generic [ref=e340]: Attorney
+        - listitem [ref=e341]:
+          - link "Kirsten Fisher APRN Photo Kirsten Fisher APRN Medical Director" [ref=e342] [cursor=pointer]:
+            - /url: /our-team/kirsten-fisher-aprn/
+            - img "Kirsten Fisher APRN Photo" [ref=e344]
+            - generic [ref=e345]:
+              - strong [ref=e346]: Kirsten Fisher APRN
+              - generic [ref=e347]: Medical Director
+        - listitem [ref=e348]:
+          - link "Blaine Rogers Photo Blaine Rogers Attorney" [ref=e349] [cursor=pointer]:
+            - /url: /our-team/blaine-rogers/
+            - img "Blaine Rogers Photo" [ref=e351]
+            - generic [ref=e352]:
+              - strong [ref=e353]: Blaine Rogers
+              - generic [ref=e354]: Attorney
+        - listitem [ref=e355]:
+          - link "Chase H. Livingston Photo Chase H. Livingston Attorney" [ref=e356] [cursor=pointer]:
+            - /url: /our-team/chase-h-livingston/
+            - img "Chase H. Livingston Photo" [ref=e358]
+            - generic [ref=e359]:
+              - strong [ref=e360]: Chase H. Livingston
+              - generic [ref=e361]: Attorney
+        - listitem [ref=e362]:
+          - link "Aimee Lum Photo Aimee Lum Attorney" [ref=e363] [cursor=pointer]:
+            - /url: /our-team/aimee-lum/
+            - img "Aimee Lum Photo" [ref=e365]
+            - generic [ref=e366]:
+              - strong [ref=e367]: Aimee Lum
+              - generic [ref=e368]: Attorney
+        - listitem [ref=e369]:
+          - link "Hannah Matsunaga Photo Hannah Matsunaga Attorney" [ref=e370] [cursor=pointer]:
+            - /url: /our-team/hannah-matsunaga/
+            - img "Hannah Matsunaga Photo" [ref=e372]
+            - generic [ref=e373]:
+              - strong [ref=e374]: Hannah Matsunaga
+              - generic [ref=e375]: Attorney
+        - listitem [ref=e376]:
+          - link "Lynne Agbalog Photo Lynne Agbalog Chief Operating Officer" [ref=e377] [cursor=pointer]:
+            - /url: /our-team/lynne-agbalog/
+            - img "Lynne Agbalog Photo" [ref=e379]
+            - generic [ref=e380]:
+              - strong [ref=e381]: Lynne Agbalog
+              - generic [ref=e382]: Chief Operating Officer
+        - listitem [ref=e383]:
+          - link "Heather Salenger Photo Heather Salenger Intake Coordinator" [ref=e384] [cursor=pointer]:
+            - /url: /our-team/heather-salenger/
+            - img "Heather Salenger Photo" [ref=e386]
+            - generic [ref=e387]:
+              - strong [ref=e388]: Heather Salenger
+              - generic [ref=e389]: Intake Coordinator
+    - generic [ref=e391]:
+      - generic [ref=e392]:
+        - generic [ref=e394]:
+          - heading "The Davis Levin Livingston Difference" [level=3] [ref=e395]
+          - paragraph [ref=e396]: When you are severely injured and facing an uphill legal battle, you need an attorney who has the skill, resources, and experience to fight for you. At Davis Levin Livingston, our Hawaii personal injury lawyers have more than four decades of legal experience and have recovered hundreds of millions of dollars for our clients. We employ a client-focused, results-driven approach aimed at achieving the best possible outcome for your case. We are always available; contact our Honolulu office today to get started with a free initial consultation.
+        - link "Our Videos" [ref=e399] [cursor=pointer]:
+          - /url: /videos/
+          - generic [ref=e400]: Our Videos
+      - list [ref=e401]:
+        - listitem [ref=e402]:
+          - generic "Click to play video" [ref=e404] [cursor=pointer]
+    - generic [ref=e406]:
+      - generic [ref=e409]:
+        - heading "Dedicated Legal Counsel You Can Count On" [level=4] [ref=e410]
+        - heading "Helping Families throughout hawaii for over 40 years" [level=5] [ref=e411]
+      - list [ref=e414]:
+        - listitem [ref=e415]:
+          - blockquote [ref=e416]:
+            - strong [ref=e417]: "\"Professional, KIND, and understanding\""
+            - generic [ref=e418]: They are most professional, KIND, and understanding. Thank you Matt Winter for all your help.
+            - generic [ref=e420]: "- Clare T."
+        - listitem [ref=e421]:
+          - blockquote [ref=e422]:
+            - strong [ref=e423]: "\"We wouldn't have chosen any other team!\""
+            - generic [ref=e424]: Mathew Winter and the whole staff of Davis Levin Livingston guided us every step of the way and made sure we understood everything that was going on. They were always so welcoming and compassionate. Communication was never a problem and emails were answered super fast, especially when we had so many questions. They
+            - generic [ref=e426]: "- Maariel"
+        - listitem [ref=e427]:
+          - blockquote [ref=e428]:
+            - strong [ref=e429]: "\"The absolute best firm in Hawaii. Compassion and professionalism at its best!\""
+            - generic [ref=e430]: Truly a wonderful experience with everyone at the firm. I can't thank you enough for helping provide closure for my family and me during this process. The absolute best firm in Hawaii. Compassion and professionalism at its best!
+            - generic [ref=e432]: "- Daniel"
+        - listitem [ref=e433]:
+          - blockquote [ref=e434]:
+            - strong [ref=e435]: "\"After doing extensive research I knew that Davis Levin Livingston was the firm for me due to the success they have had in cases like mine.\""
+            - generic [ref=e436]: After doing extensive research I knew that Davis Levin Livingston was the firm for me due to the success they have had in cases like mine. What surprised me was their personal touch. In the 3
+            - generic [ref=e438]: "- Anthony"
+      - link "View more reviews" [ref=e442] [cursor=pointer]:
+        - /url: /reviews/
+        - generic [ref=e443]: View more reviews
+    - generic [ref=e448]:
+      - heading "Contact Davis Levin Livingston Today!" [level=4] [ref=e452]
+      - generic [ref=e453]:
+        - group [ref=e454]:
+          - list [ref=e455]:
+            - listitem [ref=e456]:
+              - generic [ref=e457]:
+                - generic [ref=e458]: First Name
+                - textbox "First Name" [ref=e459]
+            - listitem [ref=e460]:
+              - generic [ref=e461]:
+                - generic [ref=e462]: Last Name
+                - textbox "Last Name" [ref=e463]
+            - listitem [ref=e464]:
+              - generic [ref=e465]:
+                - generic [ref=e466]: Phone
+                - textbox "Phone" [ref=e467]
+            - listitem [ref=e468]:
+              - generic [ref=e469]:
+                - generic [ref=e470]: Email
+                - textbox "Email" [ref=e471]
+            - listitem [ref=e472]:
+              - generic [ref=e473]:
+                - generic [ref=e474]: Are you a new client?
+                - combobox "Are you a new client?" [ref=e475]:
+                  - option [selected]
+                  - option "Yes, I am a potential new client"
+                  - option "No, I'm a current existing client"
+                  - option "I'm neither."
+            - listitem [ref=e476]:
+              - generic [ref=e477]:
+                - generic [ref=e478]: How can we help you?
+                - textbox "How can we help you?" [ref=e479]
+            - listitem [ref=e480]:
+              - generic [ref=e482]:
+                - text: By submitting, you agree to receive text messages from Davis Levin Livingston at the number provided, including those related to your inquiry, follow-ups, and review requests, via automated technology. Consent is not a condition of purchase. Msg & data rates may apply. Msg frequency may vary. Reply STOP to cancel or HELP for assistance.
+                - link "Acceptable Use Policy" [ref=e483] [cursor=pointer]:
+                  - /url: https://www.scorpion.co/acceptable-use-policy/
+        - button "Send Message" [ref=e485] [cursor=pointer]:
+          - generic [ref=e486]: Send Message
+  - contentinfo [ref=e492]:
+    - generic [ref=e494]:
+      - navigation [ref=e496]:
+        - list [ref=e498]:
+          - listitem [ref=e499]:
+            - link "Home" [ref=e500] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e501]:
+            - link "Historic Davis Levin Livingston Place" [ref=e502] [cursor=pointer]:
+              - /url: /our-firm/historic-davis-levin-livingston-place/
+          - listitem [ref=e503]:
+            - link "Personal Injury Cases" [ref=e504] [cursor=pointer]:
+              - /url: /personal-injury/
+          - listitem [ref=e505]:
+            - link "Other Practice Areas" [ref=e506] [cursor=pointer]:
+              - /url: /other-practice-areas/
+          - listitem [ref=e507]:
+            - link "Maui Fire Disaster" [ref=e508] [cursor=pointer]:
+              - /url: /maui-fire-disaster/
+          - listitem [ref=e509]:
+            - link "Contact Us" [ref=e510] [cursor=pointer]:
+              - /url: /contact-us/
+      - generic [ref=e511]:
+        - link "Davis Levin Livingston" [ref=e514] [cursor=pointer]:
+          - /url: /
+          - img "Davis Levin Livingston" [ref=e515]
+        - generic [ref=e517]:
+          - strong [ref=e519]: Topa Financial Center
+          - generic [ref=e520]:
+            - text: 745 Fort Street Ste 1550
+            - text: Honolulu, HI 96813
+          - link "Map & Directions [+]" [ref=e521] [cursor=pointer]:
+            - /url: http://maps.google.com/maps?f=q&hl=en&z=15&q=745%20Fort%20Street,Honolulu,HI,96813
+        - generic [ref=e522]:
+          - generic [ref=e523]:
+            - generic [ref=e524]: Request Your Consultation
+            - link "(808) 740-0633" [ref=e525]:
+              - /url: tel:8087400633
+          - generic [ref=e526]:
+            - strong [ref=e528]: Follow Us
+            - list [ref=e529]:
+              - listitem [ref=e530]:
+                - link "Facebook" [ref=e531] [cursor=pointer]:
+                  - /url: https://www.facebook.com/DavisLevinLivingston/
+              - listitem [ref=e532]:
+                - link "Twitter" [ref=e533] [cursor=pointer]:
+                  - /url: https://x.com/DavisLevinLaw
+              - listitem [ref=e534]:
+                - link "Google Business Profile" [ref=e535] [cursor=pointer]:
+                  - /url: https://www.google.com/maps?cid=8269072209185709106
+              - listitem [ref=e536]:
+                - link "Instagram" [ref=e537] [cursor=pointer]:
+                  - /url: https://www.instagram.com/davislevinlivingston/
+    - generic [ref=e539]:
+      - generic [ref=e540]:
+        - generic [ref=e541]:
+          - text: The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.
+          - text: This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
+        - paragraph [ref=e542]: © 2026 All Rights Reserved.
+        - navigation [ref=e543]:
+          - menu "Footer Navigation" [ref=e544]:
+            - menuitem "Site Map" [ref=e545]:
+              - link "Site Map" [ref=e546] [cursor=pointer]:
+                - /url: /site-map/
+            - menuitem "Privacy Policy" [ref=e547]:
+              - link "Privacy Policy" [ref=e548] [cursor=pointer]:
+                - /url: /privacy-policy/
+            - menuitem "Site Search" [ref=e549]:
+              - link "Site Search" [ref=e550] [cursor=pointer]:
+                - /url: /site-search/
+      - link "Internet Marketing Experts" [ref=e552] [cursor=pointer]:
+        - /url: https://www.scorpion.co/law-firms/
+        - img "Internet Marketing Experts" [ref=e553]

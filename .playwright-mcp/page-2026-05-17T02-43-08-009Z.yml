@@ -1,0 +1,545 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - paragraph [ref=e3]: By using our website, you consent to the use of cookies and tracking technologies as outlined in our privacy policy.
+    - paragraph [ref=e4]:
+      - button "Accept" [ref=e5] [cursor=pointer]
+      - button "X" [ref=e6] [cursor=pointer]
+  - link "Dupixent Litigation" [ref=e9] [cursor=pointer]:
+    - /url: https://www.cochranfirm.com/litigation/dupixent/
+    - generic [ref=e10]: Dupixent Litigation
+  - banner [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - link [ref=e15] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/
+        - generic [ref=e16]:
+          - link "Call Now!" [ref=e17] [cursor=pointer]:
+            - /url: tel:1-800-The-Firm
+            - img [ref=e19]
+            - generic [ref=e21]: Call Now!
+          - button "Menu" [ref=e22] [cursor=pointer]:
+            - img [ref=e24]
+            - generic [ref=e28]: Menu
+      - generic:
+        - dialog:
+          - generic:
+            - link:
+              - /url: http://
+            - button:
+              - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Practice Areas
+              - generic:
+                - link:
+                  - /url: https://www.cochranfirm.com/personal-injury-attorney/
+                  - generic: Personal Injury
+                - link:
+                  - /url: https://www.cochranfirm.com/truck-accident-attorneys/
+                  - generic: Truck Accidents
+                - link:
+                  - /url: /auto-accident-attorneys/
+                  - generic: Auto Accidents
+                - link:
+                  - /url: /wrongful-death/
+                  - generic: Wrongful Death
+                - link:
+                  - /url: /medical-malpractice/
+                  - generic: Medical Malpractice
+                - link:
+                  - /url: /civil-rights-police-abuse/
+                  - generic: Civil Rights
+                - link:
+                  - /url: https://www.cochranfirm.com/practice-areas/
+                  - generic: View All Practice Areas
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Office Locations
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Resources
+            - generic:
+              - generic:
+                - generic:
+                  - generic: The Cochran Firm
+          - generic:
+            - link:
+              - /url: tel:1-800-The-Firm
+              - generic:
+                - img
+              - generic: 1-800-The Firm
+            - button:
+              - generic:
+                - img
+              - generic: Free Consultation
+  - generic [ref=e29]:
+    - generic [ref=e33]:
+      - heading "The Cochran Firm" [level=1] [ref=e34]
+      - link "Our call center staff is available 24/7 to hear your case. Get started today with your free consultation." [ref=e35] [cursor=pointer]:
+        - /url: https://www.cochranfirm.com/contact-us/
+        - text: Our call center staff is available 24/7 to hear your case.
+        - generic [ref=e36]: Get started today
+        - text: with your free consultation.
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - heading "28" [level=3] [ref=e39]
+          - generic [ref=e40]: Office Locations
+        - generic [ref=e42]:
+          - heading "$30B +" [level=3] [ref=e43]
+          - generic [ref=e44]: Recovered
+        - generic [ref=e45]:
+          - heading "Free" [level=3] [ref=e46]
+          - generic [ref=e47]: Consultation
+    - generic [ref=e56]:
+      - img "img-The Cochran Firm Awards and Recognitions" [ref=e58]
+      - img [ref=e60]
+      - img [ref=e62]
+      - img [ref=e64]
+      - img [ref=e66]
+      - img [ref=e68]
+      - img [ref=e70]
+      - img [ref=e72]
+      - img [ref=e74]
+      - img [ref=e76]
+      - img [ref=e78]
+      - img [ref=e80]
+      - img [ref=e82]
+      - img [ref=e84]
+      - img [ref=e86]
+      - img [ref=e88]
+      - img [ref=e90]
+      - img [ref=e92]
+      - img [ref=e94]
+      - img [ref=e96]
+      - img [ref=e98]
+      - img [ref=e100]
+      - img [ref=e102]
+    - generic [ref=e104]:
+      - heading "Practicing Law The Cochran Way" [level=2] [ref=e105]:
+        - text: Practicing Law
+        - generic [ref=e106]: The Cochran Way
+      - paragraph [ref=e107]:
+        - generic [ref=e108]: The Cochran Firm
+        - text: is one of the nation’s largest personal injury, truck accident, and medical malpractice national law firms with some of the most aggressive and accomplished trial attorneys.
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - img [ref=e115]
+            - generic [ref=e117]: Serving clients for more than 25 years
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - generic [ref=e122]: No Fees If No Recovery
+          - generic [ref=e123]:
+            - img [ref=e125]
+            - generic [ref=e127]: 28 Office Locations
+          - generic [ref=e128]:
+            - img [ref=e130]
+            - generic [ref=e132]: Initial Consultation Is Always Free
+          - generic [ref=e133]:
+            - img [ref=e135]
+            - generic [ref=e137]: Your Local Attorneys With National Resources
+          - generic [ref=e138]:
+            - img [ref=e140]
+            - generic [ref=e142]: Over $30B In Verdicts & Settlements
+        - link "Get a Free Consultation" [ref=e143] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/litigation/depo-provera/
+    - generic [ref=e145]:
+      - heading "We Proudly Serve 28 Locations Across the United States" [level=2] [ref=e146]:
+        - text: We Proudly Serve
+        - generic [ref=e147]: 28 Locations
+        - text: Across the United States
+      - paragraph [ref=e148]:
+        - generic [ref=e149]: The Cochran Firm
+        - text: is one of the nation’s largest personal injury, truck accident, and medical malpractice national law firms with some of the most aggressive and accomplished trial attorneys.
+      - generic [ref=e150]:
+        - group "Offices Map" [ref=e153]:
+          - generic [ref=e154]: Offices Map
+          - generic [ref=e156]:
+            - region "Map" [ref=e157]
+            - generic [ref=e158]:
+              - generic [ref=e190]:
+                - generic:
+                  - generic:
+                    - button [ref=e192] [cursor=pointer]:
+                      - img [ref=e193]
+                    - button [ref=e194] [cursor=pointer]:
+                      - img [ref=e195]
+                    - button [ref=e196] [cursor=pointer]:
+                      - img [ref=e197]
+                    - button [ref=e198] [cursor=pointer]:
+                      - img [ref=e199]
+                    - button [ref=e200] [cursor=pointer]:
+                      - img [ref=e201]
+                    - button [ref=e202] [cursor=pointer]:
+                      - img [ref=e203]
+                    - button [ref=e204] [cursor=pointer]:
+                      - img [ref=e205]
+                    - button [ref=e206] [cursor=pointer]:
+                      - img [ref=e207]
+                    - button [ref=e208] [cursor=pointer]:
+                      - img [ref=e209]
+                    - button [ref=e210] [cursor=pointer]:
+                      - img [ref=e211]
+                    - button [ref=e212] [cursor=pointer]:
+                      - img [ref=e213]
+                    - button [ref=e214] [cursor=pointer]:
+                      - img [ref=e215]
+                    - button [ref=e216] [cursor=pointer]:
+                      - img [ref=e217]
+                    - button [ref=e218] [cursor=pointer]:
+                      - img [ref=e219]
+                    - button [ref=e220] [cursor=pointer]:
+                      - img [ref=e221]
+                    - button [ref=e222] [cursor=pointer]:
+                      - img [ref=e223]
+                    - button [ref=e224] [cursor=pointer]:
+                      - img [ref=e225]
+                    - button [ref=e226] [cursor=pointer]:
+                      - img [ref=e227]
+                    - button [ref=e228] [cursor=pointer]:
+                      - img [ref=e229]
+                    - button [ref=e230] [cursor=pointer]:
+                      - img [ref=e231]
+                    - button [ref=e232] [cursor=pointer]:
+                      - img [ref=e233]
+                    - button [ref=e234] [cursor=pointer]:
+                      - img [ref=e235]
+                    - button [ref=e236] [cursor=pointer]:
+                      - img [ref=e237]
+                    - button [ref=e238] [cursor=pointer]:
+                      - img [ref=e239]
+                    - button [ref=e240] [cursor=pointer]:
+                      - img [ref=e241]
+                    - button [ref=e242] [cursor=pointer]:
+                      - img [ref=e243]
+                    - button [ref=e244] [cursor=pointer]:
+                      - img [ref=e245]
+              - iframe [ref=e246]:
+                
+        - link "Get a Free Consultation" [ref=e248] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/litigation/depo-provera/
+    - generic [ref=e257]:
+      - heading "Award Winning Services" [level=2] [ref=e258]:
+        - generic [ref=e259]: Award
+        - text: Winning Services
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - link "Trucking Accident Attorneys" [ref=e262] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/truck-accident-attorneys/
+            - heading "Trucking Accident Attorneys" [level=3] [ref=e263]:
+              - generic [ref=e264]: Trucking Accident Attorneys
+            - img [ref=e266]
+          - link "READ MORE" [ref=e268] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/truck-accident-attorneys/
+            - generic [ref=e269]:
+              - generic [ref=e270]: READ MORE
+              - img [ref=e272]
+        - generic [ref=e274]:
+          - link "Personal Injury" [ref=e275] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/personal-injury-attorney/
+            - heading "Personal Injury" [level=3] [ref=e276]:
+              - generic [ref=e277]: Personal Injury
+            - img [ref=e279]
+          - link "READ MORE" [ref=e281] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/personal-injury-attorney/
+            - generic [ref=e282]:
+              - generic [ref=e283]: READ MORE
+              - img [ref=e285]
+        - generic [ref=e287]:
+          - link "Wrongful Death" [ref=e288] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/wrongful-death/
+            - heading "Wrongful Death" [level=3] [ref=e289]:
+              - generic [ref=e290]: Wrongful Death
+            - img [ref=e292]
+          - link "READ MORE" [ref=e294] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/wrongful-death/
+            - generic [ref=e295]:
+              - generic [ref=e296]: READ MORE
+              - img [ref=e298]
+        - generic [ref=e300]:
+          - link "Medical Malpractice" [ref=e301] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/medical-malpractice/
+            - heading "Medical Malpractice" [level=3] [ref=e302]:
+              - generic [ref=e303]: Medical Malpractice
+            - img [ref=e305]
+          - link "READ MORE" [ref=e307] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/medical-malpractice/
+            - generic [ref=e308]:
+              - generic [ref=e309]: READ MORE
+              - img [ref=e311]
+        - generic [ref=e313]:
+          - link "Civil Rights / Police Abuse" [ref=e314] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/civil-rights-police-abuse/
+            - heading "Civil Rights / Police Abuse" [level=3] [ref=e315]:
+              - generic [ref=e316]: Civil Rights / Police Abuse
+            - img [ref=e318]
+          - link "READ MORE" [ref=e320] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/civil-rights-police-abuse/
+            - generic [ref=e321]:
+              - generic [ref=e322]: READ MORE
+              - img [ref=e324]
+        - generic [ref=e326]:
+          - link "Auto and Truck Accidents" [ref=e327] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/auto-accident-attorneys/
+            - heading "Auto and Truck Accidents" [level=3] [ref=e328]:
+              - generic [ref=e329]: Auto and Truck Accidents
+            - img [ref=e331]
+          - link "READ MORE" [ref=e333] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/auto-accident-attorneys/
+            - generic [ref=e334]:
+              - generic [ref=e335]: READ MORE
+              - img [ref=e337]
+    - generic [ref=e346]:
+      - 'heading "Current Litigation: Passenger Jet Crash in Washington D.C. Airspace" [level=2] [ref=e347]':
+        - text: "Current Litigation:"
+        - link "Passenger Jet Crash in Washington D.C. Airspace" [ref=e348] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/results-verdicts/
+      - paragraph [ref=e349]: On January 29, 2025, a catastrophic mid-air collision occurred over the Potomac River near Washington, D.C., involving American Eagle Flight 5342 (operated by PSA Airlines) and a U.S. Army Sikorsky UH-60L Black Hawk helicopter.
+      - link "Learn More" [ref=e350] [cursor=pointer]:
+        - /url: https://www.cochranfirm.com/litigation/passenger-jet-and-army-helicopter-crash/
+    - generic [ref=e360]:
+      - heading "Practice Area Brochures" [level=2] [ref=e361]:
+        - text: Practice Area
+        - generic [ref=e362]: Brochures
+      - paragraph [ref=e363]: The Cochran Firm has experience litigating cases in many different practice areas from auto collisions to complex commercial trucking and medical malpractice cases. Click to learn more about the results The Cochran Firm has attained for clients and our experience in these different practice areas.
+      - link "View Brochures" [ref=e364] [cursor=pointer]:
+        - /url: https://www.cochranfirm.com/brochure/practice-areas/
+    - generic [ref=e372]:
+      - 'heading "Current Litigation: Depo-Provera" [level=2] [ref=e373]':
+        - text: "Current Litigation:"
+        - link "Depo-Provera" [ref=e374] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/results-verdicts/
+      - paragraph [ref=e375]: Depo-Provera, the prominent contraceptive injection, has been linked to a heightened risk of developing brain tumors. Users of Depo-Provera are suing Pfizer for failing to warn users of this risk.
+      - link "Learn More" [ref=e376] [cursor=pointer]:
+        - /url: https://www.cochranfirm.com/litigation/depo-provera/
+    - generic [ref=e386]:
+      - 'heading "Current Litigation: Hair Relaxer" [level=2] [ref=e387]':
+        - text: "Current Litigation:"
+        - link "Hair Relaxer" [ref=e388] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/results-verdicts/
+      - paragraph [ref=e389]: Frequent exposure to these chemicals contributes to increased cancer risks. If you or a loved one have used chemical hair relaxer products and were later diagnosed with uterine cancer or endometrial cancer, you may be eligible to pursue compensation.
+      - link "Learn More" [ref=e390] [cursor=pointer]:
+        - /url: https://www.cochranfirm.com/litigation/hair-relaxer/
+    - generic [ref=e392]:
+      - generic [ref=e396]:
+        - img "img- The Cochran Firm Johnnie Cochran's Signature" [ref=e397]
+        - generic [ref=e398]:
+          - text: Founding Partner
+          - text: Johnnie L. Cochran, Jr.
+          - text: 1937 - 2005
+      - generic [ref=e401]:
+        - heading "About The Cochran Firm" [level=2] [ref=e402]
+        - paragraph [ref=e403]: Founded over 50 years ago, The Cochran Firm is one of the nation's premier personal injury, truck accident, and medical malpractice law firms, with regional offices throughout the United States. Johnnie L. Cochran, Jr., one of its founding partners, has been recognized as an outstanding trial lawyer, civil libertarian, and philanthropist worldwide. He was esteemed as a leading authority on both the civil and criminal justice systems, establishing himself as an international leader in the legal profession.
+        - link "More About Johnnie Cochran" [ref=e404] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/johnnie-cochran/
+    - generic [ref=e407]:
+      - generic [ref=e410]:
+        - img "img- The Cochran Firm Johnnie Cochran's Signature" [ref=e411]
+        - generic [ref=e412]:
+          - text: Founding Partner
+          - text: Johnnie L. Cochran, Jr.
+          - text: 1937 - 2005
+      - generic [ref=e417]:
+        - heading "Over $30 Billion in Verdicts & Settlements" [level=2] [ref=e418]:
+          - text: Over $30 Billion in
+          - link "Verdicts & Settlements" [ref=e419] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/results-verdicts/
+        - paragraph [ref=e420]:
+          - text: At
+          - generic [ref=e422]: The Cochran Firm
+          - text: ", our personal injury attorneys and trial lawyers are dedicated to providing the highest quality legal representation for injured people and their loved ones. Our successes and results have been recognized nationally by legal publications and professional legal associations."
+        - generic [ref=e423]:
+          - link "$1.6 Billion Verdict Consumer Fraud" [ref=e424] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/case-results/1-6-billion-jury-verdict/
+            - img [ref=e426]
+            - generic [ref=e428]:
+              - paragraph [ref=e429]:
+                - text: $1.6 Billion Verdict
+                - generic [ref=e430]: Consumer Fraud
+              - img [ref=e432]
+          - link "$700 Million Settlement Environmental" [ref=e434] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/case-results/700-million-jury-verdict/
+            - img [ref=e436]
+            - generic [ref=e438]:
+              - paragraph [ref=e439]:
+                - text: $700 Million Settlement
+                - generic [ref=e440]: Environmental
+              - img [ref=e442]
+        - generic [ref=e444]:
+          - link "$381 Million Verdict Injury & Property Damage" [ref=e445] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/case-results/381-million-jury-verdict/
+            - img [ref=e447]
+            - generic [ref=e449]:
+              - paragraph [ref=e450]:
+                - text: $381 Million Verdict
+                - generic [ref=e451]: Injury & Property Damage
+              - img [ref=e453]
+          - link "$240 million verdict Commercial" [ref=e455] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/case-results/240-million-jury-verdict/
+            - img [ref=e457]
+            - generic [ref=e459]:
+              - paragraph [ref=e460]:
+                - text: $240 million verdict
+                - generic [ref=e461]: Commercial
+              - img [ref=e463]
+        - link "View All Verdicts" [ref=e465] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/results-verdicts/
+    - generic [ref=e467]:
+      - link "The Cochran Firm News" [ref=e469] [cursor=pointer]:
+        - /url: https://www.cochranfirm.com/news/
+        - heading "The Cochran Firm News" [level=2] [ref=e470]
+      - generic [ref=e471]:
+        - link "The Cochran Firm – New York Represents Brooklyn Man Brutally Beaten During Wrongful NYPD Arrest May 6, 2026" [ref=e473] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/the-cochran-firm-new-york-represents-brooklyn-man-brutally-beaten-during-wrongful-nypd-arrest/
+          - img [ref=e476]
+          - generic [ref=e478]:
+            - heading "The Cochran Firm – New York Represents Brooklyn Man Brutally Beaten During Wrongful NYPD Arrest" [level=6] [ref=e479]:
+              - generic [ref=e480]: The Cochran Firm – New York Represents Brooklyn Man Brutally Beaten During Wrongful NYPD Arrest
+            - generic [ref=e482]: May 6, 2026
+        - link "Karen Evans wins $18 million verdict for Maryland woman whose leg was amputated after delays in treatment April 9, 2026" [ref=e484] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/karen-evans-wins-18-million-verdict-for-maryland-woman-whose-leg-was-amputated-after-delays-in-treatment/
+          - img [ref=e487]
+          - generic [ref=e489]:
+            - heading "Karen Evans wins $18 million verdict for Maryland woman whose leg was amputated after delays in treatment" [level=6] [ref=e490]:
+              - generic [ref=e491]: Karen Evans wins $18 million verdict for Maryland woman whose leg was amputated after delays in treatment
+            - generic [ref=e493]: April 9, 2026
+        - link "Cochran Firm Attorneys Announce Lawsuit Alongside Family of a 22-Year-Old who was Shot and Killed at a Memphis Gun Violence Prevention Group Meeting March 4, 2026" [ref=e495] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/cochran-firm-attorneys-announce-lawsuit-alongside-family-of-a-22-year-old-who-as-shot-and-killed-at-a-memphis-gun-violence-prevention-group-meeting/
+          - img [ref=e498]
+          - generic [ref=e500]:
+            - heading "Cochran Firm Attorneys Announce Lawsuit Alongside Family of a 22-Year-Old who was Shot and Killed at a Memphis Gun Violence Prevention Group Meeting" [level=6] [ref=e501]:
+              - generic [ref=e502]: Cochran Firm Attorneys Announce Lawsuit Alongside Family of a 22-Year-Old who was Shot and Killed at a Memphis Gun Violence Prevention Group Meeting
+            - generic [ref=e504]: March 4, 2026
+        - generic [ref=e506]:
+          - generic [ref=e507]: "1"
+          - link "2" [ref=e508] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/page/2/
+          - link "3" [ref=e509] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/page/3/
+          - generic [ref=e510]: …
+          - link "25" [ref=e511] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/page/25/
+          - link "→" [ref=e512] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/page/2/
+      - link "READ MORE NEWS" [ref=e514] [cursor=pointer]:
+        - /url: /news/
+        - paragraph [ref=e515]: READ MORE NEWS
+        - img [ref=e517]
+  - generic [ref=e520]:
+    - generic [ref=e522]:
+      - generic [ref=e523]:
+        - link "img- The Cochran Firm Logo Gray Gold and White" [ref=e524] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/
+          - img "img- The Cochran Firm Logo Gray Gold and White" [ref=e525]
+        - link "Contact us today for your free consultation" [ref=e527] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/contact-us/
+        - generic [ref=e528]:
+          - generic [ref=e529]: Follow us
+          - generic [ref=e530]:
+            - link "Visit our Facebook" [ref=e531] [cursor=pointer]:
+              - /url: https://www.facebook.com/CochranFirm/
+              - img "Visit our Facebook" [ref=e532]
+            - link "Visit our Instagram" [ref=e534] [cursor=pointer]:
+              - /url: https://www.instagram.com/thecochranfirm/
+              - img "Visit our Instagram" [ref=e535]
+            - link "Visit our LinkedIn" [ref=e537] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/the-cochran-firm/
+              - img "Visit our LinkedIn" [ref=e538]
+            - link "Visit our YouTube channel" [ref=e540] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/TheCochranFirm
+              - img "Visit our YouTube channel" [ref=e541]
+      - generic [ref=e543]:
+        - generic [ref=e544]: PRACTICE AREAS
+        - link "Auto and Truck Accidents" [ref=e545] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/practice-areas/auto-accident-attorneys/
+        - link "Wrongful Death" [ref=e546] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/practice-areas/wrongful-death/
+        - link "Medical Negligence" [ref=e547] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/practice-areas/medical-malpractice/
+        - link "Product Liability" [ref=e548] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/practice-areas/defective-products-product-liability/
+        - link "Police Misconduct" [ref=e549] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/practice-areas/civil-rights-police-abuse/
+        - link "View More Practice Areas" [ref=e550] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/practice-areas/
+          - generic [ref=e552]: View More Practice Areas
+      - generic [ref=e553]:
+        - generic [ref=e554]: OTHER LINKS
+        - link "Our Attorneys" [ref=e555] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/our-attorneys/
+        - link "Office Locations" [ref=e556] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/location/
+        - link "Results" [ref=e557] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/results-verdicts/
+        - link "Privacy Policy" [ref=e558] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/privacy-policy/
+        - link "FAQ" [ref=e559] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/faq/
+        - link "Careers" [ref=e560] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/careers/
+      - generic [ref=e561]:
+        - generic [ref=e562]: CONTACT
+        - generic [ref=e563]:
+          - img "Phone Icon" [ref=e565]
+          - link "1-800-THE-FIRM" [ref=e567] [cursor=pointer]:
+            - /url: tel:1-800-843-3476
+        - generic [ref=e568]:
+          - img [ref=e570]
+          - link "Free Consultation" [ref=e572] [cursor=pointer]:
+            - /url: https://www.cochranfirm.com/contact-us/
+        - link "Envelope Icon CONTACT US" [ref=e573] [cursor=pointer]:
+          - /url: https://www.cochranfirm.com/contact-us/
+          - img "Envelope Icon" [ref=e575]
+          - generic [ref=e577]: CONTACT US
+    - link "Envelope Icon SUBSCRIBE TO OUR EMAIL LIST" [ref=e578] [cursor=pointer]:
+      - /url: http://
+      - img "Envelope Icon" [ref=e580]
+      - generic [ref=e582]: SUBSCRIBE TO OUR EMAIL LIST
+    - generic [ref=e583]:
+      - text: © Copyright
+      - generic [ref=e584]: "2026"
+      - text: The Cochran Firm.
+  - text:     
+  - img:
+    - generic:
+      - generic "linkedin"
+      - generic "facebook"
+      - generic "pinterest"
+      - generic "youtube"
+      - generic "rss"
+      - generic "twitter"
+      - generic "instagram"
+      - generic "facebook-blank"
+      - generic "rss-blank"
+      - generic "linkedin-blank"
+      - generic "pinterest"
+      - generic "youtube"
+      - generic "twitter"
+      - generic "instagram"
+  - iframe [ref=e586]:
+    - generic [active] [ref=f37e1]:
+      - generic:
+        - generic:
+          - generic:
+            - generic [ref=f37e2]:
+              - generic [ref=f37e5]: "1"
+              - generic "Need help? Chat with us now!" [ref=f37e6] [cursor=pointer]
+              - generic [ref=f37e8]: Online Agent
+            - generic [ref=f37e11]:
+              - generic "Close Chat" [ref=f37e12]:
+                - button "Close Chat" [ref=f37e13] [cursor=pointer]:
+                  - img [ref=f37e14]
+              - generic [ref=f37e20]:
+                - generic [ref=f37e22]: Hello. Welcome to The Cochran Firm! I am a Live Person here to help.
+                - generic [ref=f37e23]:
+                  - generic [ref=f37e26] [cursor=pointer]: Free Consultation
+                  - generic [ref=f37e29] [cursor=pointer]: I have a question
+                  - generic [ref=f37e32] [cursor=pointer]: Other
+  - iframe [ref=e589]:
+    - generic [ref=f38e6]:
+      - text: protected by
+      - strong [ref=f38e7]: reCAPTCHA

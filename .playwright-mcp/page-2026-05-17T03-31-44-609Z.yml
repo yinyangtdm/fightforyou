@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - link "Skip Navigation" [ref=e2] [cursor=pointer]:
+    - /url: "#main-wrapper"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Salvi, Schostok & Pritchard P.C." [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Salvi, Schostok & Pritchard P.C." [ref=e9]
+        - generic [ref=e11]:
+          - link "312-372-1227" [ref=e12] [cursor=pointer]:
+            - /url: tel:3123721227
+            - generic [ref=e13]: 312-372-1227
+          - navigation "Language Switcher" [ref=e15]:
+            - list [ref=e16]:
+              - listitem [ref=e17]:
+                - link "Switch to Español" [ref=e18] [cursor=pointer]:
+                  - /url: https://www.salvilaw.com/es/
+                  - text: En Español
+          - generic [ref=e19]:
+            - search:
+              - textbox "Search" [ref=e20]
+            - generic [ref=e21]:
+              - img [ref=e22]
+              - img [ref=e24]
+          - button "Toggle navigation" [ref=e28]
+    - main [ref=e32]:
+      - article [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]: back-to-back
+              - heading "Top Firm in Chicago Lawyer’s Settlement Report 2024 and 2025" [level=1] [ref=e40]:
+                - text: Top Firm in
+                - emphasis [ref=e41]: Chicago Lawyer’s
+                - text: Settlement Report
+                - text: "2024"
+                - strong [ref=e42]: and
+                - text: "2025"
+              - link "Start Your Free Consultation" [ref=e44] [cursor=pointer]:
+                - /url: /contact-us/
+            - img "Salvi Law Attorneys" [ref=e46]
+          - link "Play Button Watch Our Story All-Attorney-video-thumbnail" [ref=e50] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e51]:
+              - img "Play Button" [ref=e52]
+              - generic [ref=e53]: Watch Our Story
+            - img "All-Attorney-video-thumbnail" [ref=e54]

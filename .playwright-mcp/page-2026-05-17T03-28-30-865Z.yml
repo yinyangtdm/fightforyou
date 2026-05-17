@@ -1,0 +1,651 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Collins & Collins, P.C." [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "Collins & Collins, P.C." [ref=e10]
+      - generic [ref=e12]:
+        - generic:
+          - navigation:
+            - button "hamburger-icon" [ref=e13] [cursor=pointer]:
+              - generic [ref=e14]: 
+            - generic [ref=e15]:
+              - list [ref=e16]:
+                - listitem [ref=e17]:
+                  - link "Practice Areas " [ref=e18] [cursor=pointer]:
+                    - /url: "#"
+                    - text: Practice Areas
+                    - generic [ref=e19]: 
+                - listitem [ref=e20]:
+                  - link "Our Attorneys " [ref=e21] [cursor=pointer]:
+                    - /url: https://www.collinsattorneys.com/our-attorneys/
+                    - text: Our Attorneys
+                    - generic [ref=e22]: 
+                - listitem [ref=e23]:
+                  - link "Resources " [ref=e24] [cursor=pointer]:
+                    - /url: "#"
+                    - text: Resources
+                    - generic [ref=e25]: 
+                - listitem [ref=e26]:
+                  - link "Contact Us" [ref=e27] [cursor=pointer]:
+                    - /url: https://www.collinsattorneys.com/contact-us/
+                - text: 
+              - generic [ref=e28]:
+                - link "Collins & Collins, P.C." [ref=e29] [cursor=pointer]:
+                  - /url: https://www.collinsattorneys.com
+                  - img "Collins & Collins, P.C." [ref=e30]
+                - button "X" [ref=e31] [cursor=pointer]
+      - generic [ref=e33]:
+        - link "(505) 578-2805" [ref=e35] [cursor=pointer]:
+          - /url: tel:1-505-578-2805
+          - generic [ref=e36]:
+            - generic [ref=e38]: 
+            - generic [ref=e39]: (505) 578-2805
+        - img [ref=e44] [cursor=pointer]
+    - text: 
+  - generic [ref=e47]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e53]: Impact Litigation for New Mexico’s Most Vulnerable
+        - heading "Collins & Collins Attorneys" [level=1] [ref=e55]
+      - generic [ref=e56]:
+        - paragraph [ref=e58]: At Collins & Collins, P.C., we represent people harmed by systemic abuse and neglect in New Mexico. Our work holds institutions accountable when they fail the people in their care, whether in prisons and jails, hospitals and rehab facilities, nursing homes, child services, or other public systems and private contractors.
+        - link "Request A No Obligation Case Review" [ref=e60] [cursor=pointer]:
+          - /url: "#case-review"
+          - generic [ref=e62]: Request A No Obligation Case Review
+    - generic [ref=e64]:
+      - generic [ref=e68]:
+        - generic [ref=e71]: 
+        - generic [ref=e72]:
+          - paragraph [ref=e73]: Do You Have A Case? Find Out Now!
+          - link "No-Obligation Case Review" [ref=e76] [cursor=pointer]:
+            - /url: "#case-review"
+            - text: No-Obligation Case Review
+            - img [ref=e77]
+      - img "collins-attorneys" [ref=e81]
+    - generic [ref=e83]:
+      - img "civil rights attorneys near new mexico" [ref=e86]
+      - generic [ref=e87]:
+        - generic [ref=e89]: About Us
+        - heading [level=2] [ref=e91]
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: We pursue every available path to justice, including civil rights, constitutional claims, personal injury, and discrimination law, so our clients are fully protected. By combining individual cases with systemic discovery, we uncover patterns of neglect, trace them to financial decisions, and force reforms that extend beyond one case.
+          - paragraph [ref=e102]: "Many of these cases reveal the same truth: profit placed over people. Cost-cutting and neglect lead to avoidable injuries, infections, and wrongful deaths. Our litigation not only seeks compensation for clients but also reforms policies, staffing, and budgets so the same harm does not happen again."
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - generic [ref=e107]: 
+            - generic [ref=e108]: Focused Approach on High-Impact Cases
+          - listitem [ref=e109]:
+            - generic [ref=e111]: 
+            - generic [ref=e112]: Commitment to Meaningful Change
+    - generic [ref=e114]:
+      - generic [ref=e116]: Practice Areas
+      - heading [level=2] [ref=e118]
+      - paragraph [ref=e128]: We represent incarcerated people denied medical or mental health care, patients harmed by system institutional abuse and neglect, elders neglected in nursing homes, children harmed in youth detention or child services, and individuals injured by unconstitutional policing.
+      - generic [ref=e129]:
+        - generic [ref=e131]:
+          - img "civil-rights" [ref=e133]
+          - generic [ref=e134]:
+            - heading "Institutionalized Civil Rights Violations" [level=3] [ref=e136]:
+              - link "Institutionalized Civil Rights Violations" [ref=e137] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/civil-rights-lawyers/
+            - paragraph [ref=e139]: Our firm fights against systemic injustices within institutions that violate fundamental civil rights. We hold government entities, correctional facilities, and private organizations accountable for policies and practices that discriminate, oppress, or deny individuals equal protection under the law.
+        - generic [ref=e141]:
+          - img "injuries-to-children" [ref=e143]
+          - generic [ref=e144]:
+            - heading "Institutionalized Abuse of Children" [level=3] [ref=e146]:
+              - link "Institutionalized Abuse of Children" [ref=e147] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/child-abuse-lawyer/
+            - paragraph [ref=e149]: We advocate for children who have suffered abuse or neglect in state-run or private institutions. As New Mexico child abuse lawyers, our mission is to expose failures in child welfare systems, schools, and care facilities, seeking justice and lasting reform for society’s most vulnerable members.
+        - generic [ref=e151]:
+          - img "injuries-to-elderly" [ref=e153]
+          - generic [ref=e154]:
+            - heading "Institutionalized Abuse against the Elderly" [level=3] [ref=e156]:
+              - link "Institutionalized Abuse against the Elderly" [ref=e157] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/nursing-home-abuse-neglect/
+            - paragraph [ref=e159]: Elderly individuals in nursing homes or care institutions deserve dignity and safety. As New Mexico elderly abuse lawyers, we pursue legal action against facilities that engage in physical, emotional, or financial abuse, ensuring accountability for the systemic neglect and exploitation of older adults.
+        - generic [ref=e161]:
+          - img "medical-malpractice" [ref=e163]
+          - generic [ref=e164]:
+            - heading "Institutionalized Medical Neglect" [level=3] [ref=e166]:
+              - link "Institutionalized Medical Neglect" [ref=e167] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/medical-negligence/
+            - paragraph [ref=e169]:
+              - text: Our team of New Mexico Medical Negligence Lawyers represents victims of medical neglect in prisons, hospitals, nursing homes, and
+              - link "mental health" [ref=e170] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/mental-health-lawyers/
+              - text: facilities. We fight systemic indifference to preventable suffering, seeking justice and the right to humane medical care.
+        - generic [ref=e172]:
+          - img "excessive force used by police" [ref=e174]
+          - generic [ref=e175]:
+            - heading "Police Civil Rights Violations" [level=3] [ref=e177]:
+              - link "Police Civil Rights Violations" [ref=e178] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/police-civil-rights-violations-lawyers/
+            - paragraph [ref=e180]: Collins & Collins, P.C. represents individuals and families harmed by the most serious forms of police misconduct. These cases are complex, resource-intensive, and emotionally devastating.
+        - generic [ref=e182]:
+          - img "personal-injury" [ref=e184]
+          - generic [ref=e185]:
+            - heading "Personal Injury" [level=3] [ref=e187]:
+              - link "Personal Injury" [ref=e188] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/personal-injury/
+            - paragraph [ref=e190]: We represent victims harmed by negligence or misconduct, fighting for fair compensation and justice after accidents, unsafe conditions, or wrongful acts.
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - generic [ref=e196]: Why Choose Us
+          - heading [level=2] [ref=e198]
+        - generic [ref=e205]:
+          - paragraph [ref=e208]: We focus on systemic abuse; the corporations, investors and executives who made the deliberate decision to cut corners, maximize profits, and gamble with human lives.
+          - link "Get in Touch" [ref=e211] [cursor=pointer]:
+            - /url: "#case-review"
+            - generic [ref=e213]: Get in Touch
+      - generic [ref=e214]:
+        - img "working man" [ref=e217]
+        - generic [ref=e218]:
+          - link "Impactful Legal Advocacy We focus on high-impact cases that create real change, ensuring that every client receives personalized, dedicated attention." [ref=e222] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e223]:
+              - generic [ref=e226]: 
+              - generic [ref=e227]:
+                - heading "Impactful Legal Advocacy" [level=3] [ref=e228]
+                - paragraph [ref=e229]: We focus on high-impact cases that create real change, ensuring that every client receives personalized, dedicated attention.
+          - link "Justice Beyond Wins Our mission is not just to win cases but to deliver lasting justice and accountability, fighting for what’s right, not just profitable." [ref=e233] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e234]:
+              - generic [ref=e237]: 
+              - generic [ref=e238]:
+                - heading "Justice Beyond Wins" [level=3] [ref=e239]
+                - paragraph [ref=e240]: Our mission is not just to win cases but to deliver lasting justice and accountability, fighting for what’s right, not just profitable.
+          - link "Specializing in Complex Cases We handle cases others won’t, from private equity-run healthcare to vulnerable child and elder abuse, with deep expertise and commitment." [ref=e244] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e245]:
+              - generic [ref=e248]: 
+              - generic [ref=e249]:
+                - heading "Specializing in Complex Cases" [level=3] [ref=e250]
+                - paragraph [ref=e251]: We handle cases others won’t, from private equity-run healthcare to vulnerable child and elder abuse, with deep expertise and commitment.
+          - link "Fighting for the Overlooked We take on the toughest battles in overlooked areas, protecting those most at risk from systemic injustice and corporate negligence." [ref=e255] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e256]:
+              - generic [ref=e259]: 
+              - generic [ref=e260]:
+                - heading "Fighting for the Overlooked" [level=3] [ref=e261]
+                - paragraph [ref=e262]: We take on the toughest battles in overlooked areas, protecting those most at risk from systemic injustice and corporate negligence.
+    - generic [ref=e264]:
+      - generic [ref=e265]:
+        - generic [ref=e266]:
+          - generic [ref=e268]: How Does It Work
+          - heading [level=2] [ref=e270]
+        - link "Request A No Obligation Case Review" [ref=e279] [cursor=pointer]:
+          - /url: "#case-review"
+          - generic [ref=e281]: Request A No Obligation Case Review
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - heading "Consultation and Case Evaluation" [level=3] [ref=e288]
+              - paragraph [ref=e289]: We start by thoroughly understanding your situation.
+            - generic [ref=e291]: "01"
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - heading "Strategic Planning and Advocacy" [level=3] [ref=e296]
+              - paragraph [ref=e297]: Once we take on your case, we develop a tailored legal strategy.
+            - generic [ref=e299]: "02"
+          - generic [ref=e302]:
+            - generic [ref=e303]:
+              - heading "Pursuing Justice and Compensation" [level=3] [ref=e304]
+              - paragraph [ref=e305]: We fight relentlessly to secure the justice and compensation you deserve.
+            - generic [ref=e307]: "03"
+        - img "law court" [ref=e310]
+    - generic [ref=e312]:
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - generic [ref=e316]: Our Team
+          - heading [level=2] [ref=e318]
+        - generic [ref=e325]:
+          - paragraph [ref=e328]: Dedicated professionals providing trusted legal guidance and personalized support.
+          - link "All Members" [ref=e331] [cursor=pointer]:
+            - /url: https://www.collinsattorneys.com/our-attorneys/
+            - generic [ref=e333]: All Members
+      - generic [ref=e334]:
+        - generic [ref=e338]:
+          - img "government-institution-abuse-attorney" [ref=e341]
+          - generic [ref=e343]:
+            - heading "Parrish Collins" [level=3] [ref=e344]:
+              - link "Parrish Collins" [ref=e345] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/our-attorneys/parrish-collins/
+            - generic [ref=e346]: Civil Rights, Wrongful Death, Personal Injury
+        - generic [ref=e350]:
+          - img "Alysan Boothe Collins - Personal Injury Attorney" [ref=e353]
+          - generic [ref=e355]:
+            - heading "Alysan Boothe Collins" [level=3] [ref=e356]:
+              - link "Alysan Boothe Collins" [ref=e357] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/our-attorneys/alysan-boothe-collins/
+            - generic [ref=e358]: Wrongful Death, Personal Injury, and Guardian Ad Litem
+        - generic [ref=e362]:
+          - img "Legal-help-for -nstitutional-abuse-NM" [ref=e365]
+          - generic [ref=e367]:
+            - heading "Rebekah Wright" [level=3] [ref=e368]:
+              - link "Rebekah Wright" [ref=e369] [cursor=pointer]:
+                - /url: https://www.collinsattorneys.com/our-attorneys/rebekah-wright/
+            - generic [ref=e370]: Personal Injury, Medical Malpractice, Nursing Home Abuse
+    - generic [ref=e372]:
+      - generic [ref=e373]:
+        - generic [ref=e376]:
+          - generic [ref=e379]: 
+          - generic [ref=e380]:
+            - generic [ref=e381]: Commitment to Justice
+            - paragraph [ref=e382]: We focus on cases that create meaningful change, ensuring clients receive the justice they deserve.
+        - generic [ref=e385]:
+          - generic [ref=e388]: 
+          - generic [ref=e389]:
+            - generic [ref=e390]: Expertise in Complex Cases
+            - paragraph [ref=e391]: Our experience in handling challenging cases ensures effective, knowledgeable representation.
+        - generic [ref=e394]:
+          - generic [ref=e397]: 
+          - generic [ref=e398]:
+            - generic [ref=e399]: Personalized Approach
+            - paragraph [ref=e400]: We provide tailored legal strategies with a compassionate, client-first approach.
+      - generic [ref=e401]:
+        - generic [ref=e402]:
+          - generic [ref=e404]: Blogs
+          - heading [level=2] [ref=e406]
+        - link "View All Posts" [ref=e415] [cursor=pointer]:
+          - /url: https://www.collinsattorneys.com/blog/
+          - generic [ref=e417]: View All Posts
+      - generic [ref=e421]:
+        - generic [ref=e423]:
+          - link "Who Owns New Mexico’s ICE Detention Facilities and Why It Matters for Lawsuits" [ref=e425] [cursor=pointer]:
+            - /url: https://www.collinsattorneys.com/new-mexico-ice-detention-civil-rights-lawsuits/
+            - img "Who Owns New Mexico’s ICE Detention Facilities and Why It Matters for Lawsuits" [ref=e426]
+          - heading "Who Owns New Mexico’s ICE Detention Facilities and Why It Matters for Lawsuits" [level=2] [ref=e428]:
+            - link "Who Owns New Mexico’s ICE Detention Facilities and Why It Matters for Lawsuits" [ref=e429] [cursor=pointer]:
+              - /url: https://www.collinsattorneys.com/new-mexico-ice-detention-civil-rights-lawsuits/
+        - generic [ref=e431]:
+          - link "Nursing Home Wrongful Death Lawsuit" [ref=e433] [cursor=pointer]:
+            - /url: https://www.collinsattorneys.com/nursing-home-wrongful-death-lawsuit/
+            - img "Nursing Home Wrongful Death Lawsuit" [ref=e434]
+          - heading "Nursing Home Wrongful Death Lawsuit" [level=2] [ref=e436]:
+            - link "Nursing Home Wrongful Death Lawsuit" [ref=e437] [cursor=pointer]:
+              - /url: https://www.collinsattorneys.com/nursing-home-wrongful-death-lawsuit/
+        - generic [ref=e439]:
+          - 'link "How to Sue a Hospital in New Mexico: A Step-by-Step Legal Guide" [ref=e441] [cursor=pointer]':
+            - /url: https://www.collinsattorneys.com/how-to-sue-a-hospital-for-medical-negligence/
+            - 'img "How to Sue a Hospital in New Mexico: A Step-by-Step Legal Guide" [ref=e442]'
+          - 'heading "How to Sue a Hospital in New Mexico: A Step-by-Step Legal Guide" [level=2] [ref=e444]':
+            - 'link "How to Sue a Hospital in New Mexico: A Step-by-Step Legal Guide" [ref=e445] [cursor=pointer]':
+              - /url: https://www.collinsattorneys.com/how-to-sue-a-hospital-for-medical-negligence/
+    - generic [ref=e452]:
+      - generic [ref=e453]:
+        - heading [level=2] [ref=e455]
+        - paragraph [ref=e467]: If you or a loved one has been harmed by negligence, medical malpractice, or injustice in New Mexico, Collins & Collins, P.C. is here to fight for the compensation you deserve. Your first conversation is always free and confidential.
+        - generic [ref=e468]:
+          - list [ref=e470]:
+            - listitem [ref=e471]:
+              - generic [ref=e473]: 
+              - generic [ref=e474]: No Fee Unless We Win
+          - list [ref=e476]:
+            - listitem [ref=e477]:
+              - generic [ref=e479]: 
+              - generic [ref=e480]: 24/7 Availability
+          - list [ref=e482]:
+            - listitem [ref=e483]:
+              - generic [ref=e485]: 
+              - generic [ref=e486]: Experienced Attorneys
+        - iframe [ref=e489]:
+          
+      - generic [ref=e491]:
+        - paragraph [ref=e493]
+        - paragraph [ref=e503]: Get a confidential, no-obligation case evaluation from an experienced New Mexico systemic abuse & neglect lawyer.
+        - list [ref=e505]:
+          - listitem [ref=e506]:
+            - link "(505) 578-2805" [ref=e507] [cursor=pointer]:
+              - /url: tel:+15055782805
+              - generic [ref=e509]: 
+              - generic [ref=e510]: (505) 578-2805
+        - paragraph [ref=e512]: Or fill out the form
+        - generic [ref=e515]:
+          - generic [ref=e516]:
+            - paragraph
+            - paragraph [ref=e517]: "\"*\" indicates required fields"
+          - generic [ref=e518]:
+            - generic [ref=e520]:
+              - generic [ref=e521]:
+                - generic [ref=e522]:
+                  - text: Your Full Name
+                  - generic [ref=e523]: "*"
+                - textbox "Your Full Name*" [ref=e525]:
+                  - /placeholder: Enter your full name*
+              - generic [ref=e526]:
+                - generic [ref=e527]:
+                  - text: Your Email
+                  - generic [ref=e528]: "*"
+                - textbox "Your Email*" [ref=e530]:
+                  - /placeholder: Enter your email*
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - text: Phone Number
+                  - generic [ref=e533]: "*"
+                - textbox "Phone Number*" [ref=e535]:
+                  - /placeholder: Enter your phone number*
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - text: State of Incident Leading to Your Case
+                  - generic [ref=e538]: "*"
+                - combobox "State of Incident Leading to Your Case*" [ref=e540]:
+                  - option "State of Incident Leading to Your Case" [selected]
+                  - option "Alabama"
+                  - option "Alaska"
+                  - option "American Samoa"
+                  - option "Arizona"
+                  - option "Arkansas"
+                  - option "California"
+                  - option "Colorado"
+                  - option "Connecticut"
+                  - option "Delaware"
+                  - option "District of Columbia"
+                  - option "Florida"
+                  - option "Georgia"
+                  - option "Guam"
+                  - option "Hawaii"
+                  - option "Idaho"
+                  - option "Illinois"
+                  - option "Indiana"
+                  - option "Iowa"
+                  - option "Kansas"
+                  - option "Kentucky"
+                  - option "Louisiana"
+                  - option "Maine"
+                  - option "Maryland"
+                  - option "Massachusetts"
+                  - option "Michigan"
+                  - option "Minnesota"
+                  - option "Mississippi"
+                  - option "Missouri"
+                  - option "Montana"
+                  - option "Nebraska"
+                  - option "Nevada"
+                  - option "New Hampshire"
+                  - option "New Jersey"
+                  - option "New Mexico"
+                  - option "New York"
+                  - option "North Carolina"
+                  - option "North Dakota"
+                  - option "Northern Mariana Islands"
+                  - option "Ohio"
+                  - option "Oklahoma"
+                  - option "Oregon"
+                  - option "Pennsylvania"
+                  - option "Puerto Rico"
+                  - option "Rhode Island"
+                  - option "South Carolina"
+                  - option "South Dakota"
+                  - option "Tennessee"
+                  - option "Texas"
+                  - option "Utah"
+                  - option "U.S. Virgin Islands"
+                  - option "Vermont"
+                  - option "Virginia"
+                  - option "Washington"
+                  - option "West Virginia"
+                  - option "Wisconsin"
+                  - option "Wyoming"
+                  - option "Armed Forces Americas"
+                  - option "Armed Forces Europe"
+                  - option "Armed Forces Pacific"
+              - generic [ref=e541]:
+                - generic [ref=e542]:
+                  - text: Briefly Describe Your Case
+                  - generic [ref=e543]: "*"
+                - textbox "Briefly Describe Your Case*" [ref=e545]:
+                  - /placeholder: Brief Description of Your Legal Issues*
+            - button "Request A No Obligation Case Review" [ref=e547] [cursor=pointer]
+  - generic [ref=e551]:
+    - generic [ref=e552]:
+      - generic [ref=e553]:
+        - link "Collins & Collins, P.C." [ref=e555] [cursor=pointer]:
+          - /url: /
+          - img "Collins & Collins, P.C." [ref=e556]
+        - generic [ref=e557]: Contact us today to discuss your case and how we can make a difference together.
+        - list [ref=e561]:
+          - listitem [ref=e562]:
+            - link "Linked In" [ref=e563] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/collins-&-collins-p.c.
+              - generic [ref=e564]: 
+          - listitem [ref=e565]:
+            - link "Facebook" [ref=e566] [cursor=pointer]:
+              - /url: https://www.facebook.com/CollinsAttorneys/
+              - generic [ref=e567]: 
+          - listitem [ref=e568]:
+            - link "Justia" [ref=e569] [cursor=pointer]:
+              - /url: https://lawyers.justia.com/firm/collins-collins-p-c-21429
+              - generic [ref=e570]: 
+          - listitem [ref=e571]:
+            - link "Zoom Info" [ref=e572] [cursor=pointer]:
+              - /url: https://www.zoominfo.com/c/collins--collins-pc/44996068
+              - generic [ref=e573]: 
+      - generic [ref=e574]:
+        - generic [ref=e576]: Quick Links
+        - list [ref=e578]:
+          - listitem [ref=e579]:
+            - link "Home" [ref=e580] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e581]: Home
+          - listitem [ref=e582]:
+            - link "Practice Areas" [ref=e583] [cursor=pointer]:
+              - /url: https://www.collinsattorneys.com/
+              - generic [ref=e584]: Practice Areas
+          - listitem [ref=e585]:
+            - link "Results" [ref=e586] [cursor=pointer]:
+              - /url: https://www.collinsattorneys.com/results/
+              - generic [ref=e587]: Results
+          - listitem [ref=e588]:
+            - link "Blogs" [ref=e589] [cursor=pointer]:
+              - /url: https://www.collinsattorneys.com/blog/
+              - generic [ref=e590]: Blogs
+          - listitem [ref=e591]:
+            - link "Civil Rights Cases" [ref=e592] [cursor=pointer]:
+              - /url: https://www.collinsattorneys.com/civil-rights-cases/
+              - generic [ref=e593]: Civil Rights Cases
+          - listitem [ref=e594]:
+            - link "Contact" [ref=e595] [cursor=pointer]:
+              - /url: https://www.collinsattorneys.com/contact-us/
+              - generic [ref=e596]: Contact
+      - generic [ref=e597]:
+        - generic [ref=e599]: Legal
+        - list [ref=e601]:
+          - listitem [ref=e602]:
+            - link "Privacy Policy" [ref=e603] [cursor=pointer]:
+              - /url: /privacy-policy/
+              - generic [ref=e604]: Privacy Policy
+          - listitem [ref=e605]:
+            - link "Disclaimer" [ref=e606] [cursor=pointer]:
+              - /url: /disclaimer/
+              - generic [ref=e607]: Disclaimer
+          - listitem [ref=e608]:
+            - link "Sitemap" [ref=e609] [cursor=pointer]:
+              - /url: /sitemap/
+              - generic [ref=e610]: Sitemap
+      - generic [ref=e611]:
+        - generic [ref=e613]: Contact Information
+        - 'link "Call: (505) 578-2805" [ref=e616] [cursor=pointer]':
+          - /url: tel:1-505-578-2805
+          - generic [ref=e617]:
+            - img [ref=e620]
+            - paragraph [ref=e623]:
+              - strong [ref=e624]: "Call:"
+              - text: (505) 578-2805
+        - 'link "Address: 407 7th St NW Albuquerque, NM 87102" [ref=e627] [cursor=pointer]':
+          - /url: https://maps.app.goo.gl/KEhQ9nev4oDzmFc17
+          - generic [ref=e628]:
+            - img [ref=e631]
+            - paragraph [ref=e635]:
+              - strong [ref=e636]: "Address:"
+              - text: 407 7th St NW Albuquerque, NM 87102
+        - generic [ref=e639]:
+          - img [ref=e642]
+          - paragraph [ref=e646]:
+            - strong [ref=e647]: Available 24/7 Online
+    - generic [ref=e648]:
+      - paragraph [ref=e650]: Copyright © 2026 – Collins & Collins P.C. All Rights Reserved.
+      - paragraph [ref=e652]: Past results do not guarantee any future outcome, and every case is different.
+  - text: ✕
+  - button "Open Accessibility Panel" [ref=e654] [cursor=pointer]:
+    - img "Open Accessibility Panel" [ref=e656]
+  - generic [ref=e658]: tablet
+  - dialog [ref=e660]:
+    - generic [ref=e661]:
+      - button [disabled] [ref=e662]
+      - group [ref=e663]:
+        - generic [ref=e664]: Voice recognition
+        - textbox [disabled] [ref=e665]
+        - textbox [disabled] [ref=e666]:
+          - /placeholder: Wait...
+      - button [ref=e668] [cursor=pointer]
+      - button [ref=e669] [cursor=pointer]
+    - generic [ref=e671]:
+      - generic [ref=e672]:
+        - paragraph [ref=e673]:
+          - img [ref=e675]
+          - strong [ref=e676]: Help
+          - text: –Display a list of available voice commands
+        - generic [ref=e677]:
+          - button [ref=e678] [cursor=pointer]: Help
+          - button [ref=e679] [cursor=pointer]: Help me
+          - button [ref=e680] [cursor=pointer]: Show commands
+      - generic [ref=e681]:
+        - paragraph [ref=e682]:
+          - img [ref=e684]
+          - strong [ref=e685]: Hide help
+          - text: –Hide a list of available voice commands
+        - generic [ref=e686]:
+          - button [ref=e687] [cursor=pointer]: Hide help
+          - button [ref=e688] [cursor=pointer]: Hide commands
+          - button [ref=e689] [cursor=pointer]: Hide commands list
+      - generic [ref=e690]:
+        - paragraph [ref=e691]:
+          - img [ref=e693]
+          - strong [ref=e694]: Scroll down
+          - text: –Scroll page down 200 px
+        - generic [ref=e695]:
+          - button [ref=e696] [cursor=pointer]: Scroll down
+          - button [ref=e697] [cursor=pointer]: Down
+          - button [ref=e698] [cursor=pointer]: Page Down
+      - generic [ref=e699]:
+        - paragraph [ref=e700]:
+          - img [ref=e702]
+          - strong [ref=e703]: Scroll up
+          - text: –Scroll page down 200 px
+        - generic [ref=e704]:
+          - button [ref=e705] [cursor=pointer]: Scroll up
+          - button [ref=e706] [cursor=pointer]: Up
+          - button [ref=e707] [cursor=pointer]: Page Up
+      - generic [ref=e708]:
+        - paragraph [ref=e709]:
+          - img [ref=e711]
+          - strong [ref=e712]: Go to top
+          - text: –Scroll page to top
+        - generic [ref=e713]:
+          - button [ref=e714] [cursor=pointer]: Go to top
+          - button [ref=e715] [cursor=pointer]: Top
+          - button [ref=e716] [cursor=pointer]: Page Top
+      - generic [ref=e717]:
+        - paragraph [ref=e718]:
+          - img [ref=e720]
+          - strong [ref=e721]: Go to bottom
+          - text: –Scroll page to bottom
+        - generic [ref=e722]:
+          - button [ref=e723] [cursor=pointer]: Go to bottom
+          - button [ref=e724] [cursor=pointer]: Bottom
+          - button [ref=e725] [cursor=pointer]: Page Bottom
+      - generic [ref=e726]:
+        - paragraph [ref=e727]:
+          - img [ref=e729]
+          - strong [ref=e730]: Tab
+          - text: –Move to next interactive element
+        - generic [ref=e731]:
+          - button [ref=e732] [cursor=pointer]: Tab
+          - button [ref=e733] [cursor=pointer]: Next
+          - button [ref=e734] [cursor=pointer]: Next Tab
+      - generic [ref=e735]:
+        - paragraph [ref=e736]:
+          - img [ref=e738]
+          - strong [ref=e739]: Tab back
+          - text: –Move to previous interactive element
+        - generic [ref=e740]:
+          - button [ref=e741] [cursor=pointer]: Tab back
+          - button [ref=e742] [cursor=pointer]: Previous
+          - button [ref=e743] [cursor=pointer]: Previous Tab
+      - generic [ref=e744]:
+        - paragraph [ref=e745]:
+          - img [ref=e747]
+          - strong [ref=e748]: Show numbers
+          - text: –Show numbers for interactive elements
+        - generic [ref=e749]:
+          - button [ref=e750] [cursor=pointer]: Show numbers
+          - button [ref=e751] [cursor=pointer]: Display numbers
+          - button [ref=e752] [cursor=pointer]: Enable numbers
+      - generic [ref=e753]:
+        - paragraph [ref=e754]:
+          - img [ref=e756]
+          - strong [ref=e757]: Number ...
+          - text: –Click on element number...
+        - generic [ref=e758]:
+          - button [ref=e759] [cursor=pointer]: Click zero
+          - button [ref=e760] [cursor=pointer]: Press six
+          - button [ref=e761] [cursor=pointer]: Open four
+      - generic [ref=e762]:
+        - paragraph [ref=e763]:
+          - img [ref=e765]
+          - strong [ref=e766]: Hide numbers
+          - text: –Hide numbers for interactive elements
+        - generic [ref=e767]:
+          - button [ref=e768] [cursor=pointer]: Hide numbers
+          - button [ref=e769] [cursor=pointer]: Disable numbers
+          - button [ref=e770] [cursor=pointer]: Remove numbers
+      - generic [ref=e771]:
+        - paragraph [ref=e772]:
+          - img [ref=e774]
+          - strong [ref=e775]: Clear input
+          - text: –Clear selected text field
+        - generic [ref=e776]:
+          - button [ref=e777] [cursor=pointer]: Clear input
+          - button [ref=e778] [cursor=pointer]: Clear
+          - button [ref=e779] [cursor=pointer]: Remove
+      - generic [ref=e780]:
+        - paragraph [ref=e781]:
+          - img [ref=e783]
+          - strong [ref=e784]: Enter
+          - text: –Click on the selected element
+        - generic [ref=e785]:
+          - button [ref=e786] [cursor=pointer]: Enter
+          - button [ref=e787] [cursor=pointer]: Submit
+          - button [ref=e788] [cursor=pointer]: Ok
+      - generic [ref=e789]:
+        - paragraph [ref=e790]:
+          - img [ref=e792]
+          - strong [ref=e793]: Reload
+          - text: –Reload page
+        - generic [ref=e794]:
+          - button [ref=e795] [cursor=pointer]: Reload
+          - button [ref=e796] [cursor=pointer]: Refresh
+          - button [ref=e797] [cursor=pointer]: Update
+      - generic [ref=e798]:
+        - paragraph [ref=e799]:
+          - img [ref=e801]
+          - strong [ref=e802]: Stop
+          - text: –Stop speech recognition
+        - generic [ref=e803]:
+          - button [ref=e804] [cursor=pointer]: Stop
+          - button [ref=e805] [cursor=pointer]: Cancel
+          - button [ref=e806] [cursor=pointer]: Stop listening
+      - generic [ref=e807]:
+        - paragraph [ref=e808]:
+          - img [ref=e810]
+          - strong [ref=e811]: Exit
+          - text: –Disable voice navigation mode
+        - generic [ref=e812]:
+          - button [ref=e813] [cursor=pointer]: Exit
+          - button [ref=e814] [cursor=pointer]: Quit
+          - button [ref=e815] [cursor=pointer]: Close

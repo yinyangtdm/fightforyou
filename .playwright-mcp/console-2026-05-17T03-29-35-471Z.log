@@ -1,0 +1,2 @@
+[    2199ms] TypeError: Cannot read properties of undefined (reading 'filter')
+    at Object.getState (https://sc-connect.scorpion.co/assets/index-CPdwP2SF.js:21:8643)

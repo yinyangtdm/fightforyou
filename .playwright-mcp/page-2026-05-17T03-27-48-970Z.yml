@@ -1,0 +1,434 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - 'link "PHONE: 402-500-2837" [ref=e9] [cursor=pointer]':
+          - /url: tel:402-500-2837
+      - listitem [ref=e10]:
+        - 'link "TOLL FREE: 866-970-8708" [ref=e11] [cursor=pointer]':
+          - /url: tel:866-970-8708
+      - listitem [ref=e12]:
+        - link "" [ref=e13] [cursor=pointer]:
+          - /url: https://www.facebook.com/FriedmanLawOfficesPCLLO/
+          - generic [ref=e14]: 
+      - listitem [ref=e15]:
+        - link "" [ref=e16] [cursor=pointer]:
+          - /url: https://twitter.com/FriedmanLawNE
+          - generic [ref=e17]: 
+      - listitem [ref=e18]:
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/friedman-law-offices/about/
+          - generic [ref=e20]: 
+      - listitem [ref=e21]:
+        - link "" [ref=e22] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCY39SPwuHHxX66-OmlDHDfw
+          - generic [ref=e23]: 
+      - listitem [ref=e24]:
+        - text: "|"
+        - link "3800 Normal Blvd, Ste 200, Lincoln, NE 68506" [ref=e25] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Friedman+Law+Offices/@40.7928085,-96.6679678,17z/data=!3m1!4b1!4m5!3m4!1s0x8796be766809bb27:0x30f3f05400ce1f7b!8m2!3d40.7928085!4d-96.6657791
+    - banner [ref=e26]:
+      - generic [ref=e27]:
+        - link "Car Accident Lawyers in Lincoln, Nebraska" [ref=e29] [cursor=pointer]:
+          - /url: https://www.friedmanlaw.com/
+          - img "Car Accident Lawyers in Lincoln, Nebraska" [ref=e30]
+        - generic [ref=e31]:
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "Home" [ref=e35] [cursor=pointer]:
+                  - /url: https://www.friedmanlaw.com/
+              - listitem [ref=e36]:
+                - link "Firm Overview 3" [ref=e37] [cursor=pointer]:
+                  - /url: https://www.friedmanlaw.com/firm-overview
+              - listitem [ref=e38]:
+                - link "Attorneys" [ref=e39] [cursor=pointer]:
+                  - /url: https://www.friedmanlaw.com/attorneys
+              - listitem [ref=e40]:
+                - link "Practice Areas 3" [ref=e41] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e42]:
+                - link "Blog" [ref=e43] [cursor=pointer]:
+                  - /url: https://www.friedmanlaw.com/blog
+              - listitem [ref=e44]:
+                - link "Contact" [ref=e45] [cursor=pointer]:
+                  - /url: https://www.friedmanlaw.com/contact
+          - text: a    
+    - generic [ref=e46]:
+      - article [ref=e48]:
+        - generic [ref=e51]:
+          - generic [ref=e63]:
+            - heading "Top Car Accident Lawyers in Nebraska" [level=1] [ref=e67]
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: Friedman Law Offices has been proudly advocating for the rights of injury victims since 1962, making us one of the oldest and largest Nebraska law firms dedicated exclusively to personal injury cases.
+              - paragraph [ref=e71]: We handle cases involving car accident victims, those involved in truck accidents and motorcycle accidents, workers compensation claims, and more. Our experienced trial lawyers have become known throughout the state for providing high for quality, personalized legal representation as well as taking on cases that other attorneys have rejected.
+          - generic [ref=e72]:
+            - heading "Quick Nebraska Crash Checklist" [level=2] [ref=e77]
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - paragraph [ref=e82]: "01"
+                - paragraph [ref=e85]: Call 911 and get medical care.
+              - generic [ref=e87]:
+                - paragraph [ref=e90]: "02"
+                - paragraph [ref=e93]: Photograph vehicles, the scene, and any injuries.
+              - generic [ref=e95]:
+                - paragraph [ref=e98]: "03"
+                - paragraph [ref=e101]: Exchange vehicle, insurance, and contact information with the other driver.
+              - generic [ref=e103]:
+                - paragraph [ref=e106]: "04"
+                - paragraph [ref=e109]: Get contact information from witnesses and note cameras/businesses nearby.
+              - generic [ref=e111]:
+                - paragraph [ref=e114]: "05"
+                - paragraph [ref=e117]: Don’t give a recorded statement to insurance adjusters.
+              - generic [ref=e119]:
+                - paragraph [ref=e122]: "06"
+                - paragraph [ref=e125]:
+                  - link "Contact us" [ref=e126] [cursor=pointer]:
+                    - /url: https://www.friedmanlaw.com/contact
+                  - text: —we’ll preserve necessary evidence and start fighting for your rights.
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading "Cases We Handle" [level=2] [ref=e133]:
+                - text: Cases
+                - text: We Handle
+              - link "Injury Cases We Handle 5" [ref=e135] [cursor=pointer]:
+                - /url: ""
+            - generic [ref=e138]:
+              - paragraph [ref=e139]: We regularly handle wrecks from I-80/I-180 corridors, O Street, Cornhusker Hwy/US-6, and 27th Street, plus construction zone crashes statewide. We’re also familiar with common locations around the city for premises liability incidents, workplace injuries, and nursing home neglect.
+              - paragraph [ref=e140]: "Friedman Law Offices represents injured Nebraskans in a wide range of cases, including:"
+          - generic [ref=e142]:
+            - generic [ref=e143] [cursor=pointer]:
+              - heading "Motor Vehicle Crashes" [level=3] [ref=e146]
+              - paragraph [ref=e148]: Car, semi-truck, motorcycle, pedestrian, and bicycle collisions
+            - generic [ref=e149] [cursor=pointer]:
+              - heading "Catastrophic Injuries" [level=3] [ref=e152]
+              - paragraph [ref=e154]: Traumatic brain injuries, spinal cord injuries, multiple broken bones, amputations, and burns
+            - generic [ref=e155] [cursor=pointer]:
+              - heading "Wrongful Death" [level=3] [ref=e158]
+              - paragraph [ref=e160]: When a fatal accident is the cause of another party’s negligence
+            - generic [ref=e161] [cursor=pointer]:
+              - heading "Premises Liability" [level=3] [ref=e164]
+              - paragraph [ref=e166]: Slip-and-fall accidents, unsafe property conditions, and negligent security incidents
+            - generic [ref=e167] [cursor=pointer]:
+              - heading "Work Injuries & Construction Accidents" [level=3] [ref=e170]
+              - paragraph [ref=e172]: Third-party claims and Nebraska workers’ compensation
+          - generic [ref=e173]:
+            - generic [ref=e175]:
+              - heading "Why You Need A Personal Injury Lawyer" [level=2] [ref=e178]
+              - paragraph [ref=e181]: "After a serious injury, insurance companies move fast to protect their bottom line. Our job is to protect yours. An experienced Nebraska personal injury lawyer can:"
+            - generic [ref=e182]:
+              - generic [ref=e185]:
+                - paragraph [ref=e186]:
+                  - strong [ref=e187]: Preserve evidence early
+                - paragraph [ref=e188]: (scene photos, vehicles, black-box data, surveillance, witness statements)
+              - generic [ref=e191]:
+                - paragraph [ref=e192]:
+                  - strong [ref=e193]: Handle the insurers
+                - paragraph [ref=e194]: so you don’t get pressured into a low offer or harmful recorded statement
+              - generic [ref=e197]:
+                - paragraph [ref=e198]:
+                  - strong [ref=e199]: Calculate full damages
+                - paragraph [ref=e200]: (medical bills, future care, lost income/earning capacity, pain and suffering)
+            - generic [ref=e201]:
+              - generic [ref=e204]:
+                - paragraph [ref=e205]:
+                  - strong [ref=e206]: Coordinate benefits
+                - paragraph [ref=e207]: (health insurance, MedPay, workers’ comp) to reduce liens and maximize your net compensation
+              - generic [ref=e210]:
+                - paragraph [ref=e211]:
+                  - strong [ref=e212]: Identify all liable parties
+                - paragraph [ref=e213]: (drivers, employers, contractors, product manufacturers, property owners)
+              - generic [ref=e216]:
+                - paragraph [ref=e217]:
+                  - strong [ref=e218]: File on time
+                - paragraph [ref=e219]: and in the right court—Nebraska has strict deadlines that can bar a claim if you wait
+            - generic [ref=e224]:
+              - paragraph [ref=e225]:
+                - strong [ref=e226]: Take the case to trial
+              - paragraph [ref=e227]: when the other side won’t deal fairly
+            - generic [ref=e232]:
+              - paragraph [ref=e233]:
+                - text: If necessary, we retrieve your
+                - link "Lincoln Police Department" [ref=e234] [cursor=pointer]:
+                  - /url: https://www.lincoln.ne.gov/City/Departments/Police
+                - text: crash report and NDOT Investigator’s Crash Report, and file in the
+                - link "Lancaster County District Court" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.lancaster.ne.gov/216/District-Court
+                - text: when appropriate.
+              - paragraph [ref=e236]:
+                - text: You focus on healing. We build the case.
+                - link "Contact us today" [ref=e237] [cursor=pointer]:
+                  - /url: https://www.friedmanlaw.com/contact
+                - text: for a free consultation.
+          - generic [ref=e238]:
+            - generic [ref=e240]:
+              - heading "Meet Our Personal Injury Attorneys" [level=2] [ref=e243]
+              - paragraph [ref=e246]: Meet the Attorneys at Friedman Law Offices. Since 1962, Herbert J. Friedman and his staff of experienced personal injury attorneys have helped Nebraska residents during difficult times. Whether it’s navigating personal injury claims or workers compensation cases, Friedman Law Offices in Lincoln, NE is here for YOU.
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - link "Herbert J. Friedman" [ref=e250] [cursor=pointer]:
+                  - /url: /attorneys/herbert-friedman
+                  - img "Herbert J. Friedman" [ref=e252]
+                - heading "Herbert J. Friedman" [level=3] [ref=e255] [cursor=pointer]:
+                  - text: Herbert J.
+                  - text: Friedman
+                - paragraph [ref=e258]:
+                  - emphasis [ref=e259]:
+                    - strong [ref=e260]: Emeritus
+              - generic [ref=e261]:
+                - link "Daniel H. Friedman" [ref=e263] [cursor=pointer]:
+                  - /url: /attorneys/daniel-friedman
+                  - img "Daniel H. Friedman" [ref=e265]
+                - heading "Daniel H. Friedman" [level=3] [ref=e268] [cursor=pointer]:
+                  - text: Daniel H.
+                  - text: Friedman
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - link "Robert R. Moodie" [ref=e272] [cursor=pointer]:
+                  - /url: /attorneys/robert-r-moodie
+                  - img "Robert R. Moodie" [ref=e274]
+                - heading "Robert R. Moodie" [level=3] [ref=e277] [cursor=pointer]:
+                  - text: Robert R.
+                  - text: Moodie
+              - generic [ref=e278]:
+                - link "Gregory R. Coffey" [ref=e280] [cursor=pointer]:
+                  - /url: /attorneys/gregory-coffey
+                  - img "Gregory R. Coffey" [ref=e282]
+                - heading "Gregory R. Coffey" [level=3] [ref=e285] [cursor=pointer]:
+                  - text: Gregory R.
+                  - text: Coffey
+              - generic [ref=e286]:
+                - link "Stephen A. Sael" [ref=e288] [cursor=pointer]:
+                  - /url: /attorneys/stephen-a-sael
+                  - img "Stephen A. Sael" [ref=e290]
+                - heading "Stephen A. Sael" [level=3] [ref=e293] [cursor=pointer]:
+                  - text: Stephen A.
+                  - text: Sael
+          - generic [ref=e296]:
+            - heading "Personal Injury FAQs" [level=2] [ref=e299]
+            - generic [ref=e300]:
+              - generic [ref=e301]:
+                - heading "How do your fees work? " [level=5] [ref=e302] [cursor=pointer]
+                - paragraph [ref=e304]: We work on a contingency fee—you pay no attorney’s fee unless we recover money for you. We advance the costs of investigating and litigating your case and are reimbursed from the recovery.
+              - heading "Do I need a lawyer if the insurance company already made an offer? " [level=5] [ref=e306] [cursor=pointer]
+              - heading "What if I might be partially at fault? " [level=5] [ref=e308] [cursor=pointer]
+              - heading "How long do I have to file a claim in Nebraska? " [level=5] [ref=e310] [cursor=pointer]
+              - heading "How long will my case take? " [level=5] [ref=e312] [cursor=pointer]
+              - heading "Should I talk to the other driver’s insurance? " [level=5] [ref=e314] [cursor=pointer]
+              - heading "Who pays my medical bills while my case is pending? " [level=5] [ref=e316] [cursor=pointer]
+              - heading "What is my case worth? " [level=5] [ref=e318] [cursor=pointer]
+          - generic [ref=e321]:
+            - heading "Client Testimonials" [level=2] [ref=e324] [cursor=pointer]
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic:
+                  - generic [ref=e331]:
+                    - heading "James D." [level=3] [ref=e332]
+                    - paragraph [ref=e334]:
+                      - text: I am one of a group of six young people who, in 1985 were falsely charged and convicted of murdering a woman none of us had ever met. I was forced to give a false confession and spent years in prison for a crime I did not commit. Thanks to Herb Friedman and his staff at Friedman Law Offices, I, along with five others, successfully sued Gage County Nebrasaka. There were three trials, and numerous appeals, but after almost nine…
+                      - link "Read more “James D.”" [ref=e335] [cursor=pointer]:
+                        - /url: https://www.friedmanlaw.com/blog/testimonial/james-d
+                        - text: Read more
+                        - generic [ref=e336]: “James D.”
+                  - generic [ref=e338]:
+                    - heading [level=3] [ref=e339]: Colleen L.
+                    - paragraph [ref=e341]:
+                      - text: In October 2017 our world had shattered with the loss of our 13 year old daughter from a distracted driver. We didn’t know the first place to start or that we even really needed an attorney for anything. We had looked around when we were told to go to Friedman Law because they were “the best attorneys for wrongful death lawsuits”. It was apparent at the very start that Dan Friedman was fully engaged into our case and cared deeply…
+                      - link [ref=e342] [cursor=pointer]:
+                        - /url: https://www.friedmanlaw.com/blog/testimonial/colleen-l
+                        - text: Read more
+                        - generic [ref=e343]: “Colleen L.”
+                  - generic [ref=e345]:
+                    - heading [level=3] [ref=e346]: Linda B.
+                    - paragraph [ref=e348]:
+                      - text: I am grateful to you and to the law firm of Friedman Law Offices. I came to you upon referral from someone I trusted. I came with reservation. You took the time to work with my hesitation and to educate me on a process that was foreign and bewildering to me. I was unaware of all that would need to be considered in settling a personal injury car accident. I thought only of my pain and suffering, not of subrogation,…
+                      - link [ref=e349] [cursor=pointer]:
+                        - /url: https://www.friedmanlaw.com/blog/testimonial/linda-b-2
+                        - text: Read more
+                        - generic [ref=e350]: “Linda B.”
+                  - generic [ref=e352]:
+                    - heading [level=3] [ref=e353]: Brad B.
+                    - paragraph [ref=e355]:
+                      - text: I was in an accident and Dan visited me in the hospital and took my case. Dan worked tirelessly and effortlessly on my case. He listens and is very good communicating with me through phone and email. Dan gives very good advice and will tell you to follow it and to trust him. Dan is very good at explaining and updating on what is happening with the case. If you got questions, Dan will respond right away. Dan is a…
+                      - link [ref=e356] [cursor=pointer]:
+                        - /url: https://www.friedmanlaw.com/blog/testimonial/brad-b-2
+                        - text: Read more
+                        - generic [ref=e357]: “Brad B.”
+              - generic [ref=e358]:
+                - generic [ref=e359]:
+                  - link [ref=e361] [cursor=pointer]:
+                    - /url: ""
+                  - link [ref=e363] [cursor=pointer]:
+                    - /url: ""
+                  - link [ref=e365] [cursor=pointer]:
+                    - /url: ""
+                  - link [ref=e367] [cursor=pointer]:
+                    - /url: ""
+                - link "Next Slide" [ref=e368] [cursor=pointer]:
+                  - /url: /next-slide
+                  - generic [ref=e369]: Next Slide
+      - contentinfo [ref=e370]:
+        - generic [ref=e371]:
+          - generic [ref=e373]:
+            - heading "Do You Have A Case?" [level=2] [ref=e377]
+            - link "Get Your Free Initial Consultation" [ref=e380] [cursor=pointer]:
+              - /url: https://www.friedmanlaw.com/do-you-have-a-case
+          - generic [ref=e381]:
+            - toolbar [ref=e387]:
+              - button [ref=e388] [cursor=pointer]:
+                - img [ref=e389]
+              - listbox [ref=e392]:
+                - link [ref=e395] [cursor=pointer]:
+                  - /url: https://www.injuryboard.org/
+                  - img [ref=e396]
+                - link [ref=e399] [cursor=pointer]:
+                  - /url: https://www.nebraskatrial.com/
+                  - img [ref=e400]
+                - img [ref=e403]
+                - option [ref=e404]:
+                  - link [ref=e406] [cursor=pointer]:
+                    - /url: https://www.martindale.com/
+                    - img [ref=e407]
+                - option "Multi-Million Dollar Advocates Forum logo featuring a balance scale symbolizing legal excellence." [ref=e408]:
+                  - link "Multi-Million Dollar Advocates Forum logo featuring a balance scale symbolizing legal excellence." [ref=e410] [cursor=pointer]:
+                    - /url: https://www.milliondollaradvocates.com/
+                    - img "Multi-Million Dollar Advocates Forum logo featuring a balance scale symbolizing legal excellence." [ref=e411]
+                - option "Rated by Super Lawyers logo, signifying top recognition for legal excellence and professional achievement." [ref=e412]:
+                  - link "Rated by Super Lawyers logo, signifying top recognition for legal excellence and professional achievement." [ref=e414] [cursor=pointer]:
+                    - /url: https://profiles.superlawyers.com/nebraska/lincoln/lawfirm/friedman-law-offices-pc-llo/d27b3e4b-7f04-4982-b3a3-a5a02cfb03c9.html
+                    - img "Rated by Super Lawyers logo, signifying top recognition for legal excellence and professional achievement." [ref=e415]
+                - option "American Board of Trial Advocates logo with crest featuring a lion and eagle symbolizing justice and advocacy." [ref=e416]:
+                  - link "American Board of Trial Advocates logo with crest featuring a lion and eagle symbolizing justice and advocacy." [ref=e418] [cursor=pointer]:
+                    - /url: https://www.abota.org/
+                    - img "American Board of Trial Advocates logo with crest featuring a lion and eagle symbolizing justice and advocacy." [ref=e419]
+                - option [ref=e420]:
+                  - link [ref=e422] [cursor=pointer]:
+                    - /url: https://www.justice.org/
+                    - img [ref=e423]
+                - option [ref=e424]:
+                  - link [ref=e426] [cursor=pointer]:
+                    - /url: https://www.injuryboard.org/
+                    - img [ref=e427]
+                - option [ref=e428]:
+                  - link [ref=e430] [cursor=pointer]:
+                    - /url: https://www.nebraskatrial.com/
+                    - img [ref=e431]
+                - option [ref=e432]:
+                  - img [ref=e434]
+                - link [ref=e437] [cursor=pointer]:
+                  - /url: https://www.martindale.com/
+                  - img [ref=e438]
+                - link [ref=e441] [cursor=pointer]:
+                  - /url: https://www.milliondollaradvocates.com/
+                  - img [ref=e442]
+                - link [ref=e445] [cursor=pointer]:
+                  - /url: https://profiles.superlawyers.com/nebraska/lincoln/lawfirm/friedman-law-offices-pc-llo/d27b3e4b-7f04-4982-b3a3-a5a02cfb03c9.html
+                  - img [ref=e446]
+              - button [ref=e447] [cursor=pointer]:
+                - img [ref=e448]
+            - generic [ref=e450]:
+              - generic [ref=e451]:
+                - generic [ref=e453]:
+                  - heading "Office Location" [level=3] [ref=e454]
+                  - paragraph [ref=e455]:
+                    - text: 3800 Normal Boulevard
+                    - text: Suite 200
+                    - text: Lincoln, NE 68506
+                - list [ref=e456]:
+                  - listitem [ref=e457]:
+                    - link "" [ref=e458] [cursor=pointer]:
+                      - /url: https://www.facebook.com/FriedmanLawOfficesPCLLO/
+                  - listitem [ref=e459]:
+                    - link "" [ref=e460] [cursor=pointer]:
+                      - /url: https://twitter.com/FriedmanLawNE
+                  - listitem [ref=e461]:
+                    - link "" [ref=e462] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/friedman-law-offices/about/
+                  - listitem [ref=e463]:
+                    - link "" [ref=e464] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCY39SPwuHHxX66-OmlDHDfw
+              - generic [ref=e467]:
+                - heading "Contact Info" [level=3] [ref=e468]
+                - paragraph [ref=e469]:
+                  - text: "Toll Free:"
+                  - link "866-970-8708" [ref=e470] [cursor=pointer]:
+                    - /url: Tel:866-970-8708
+                  - text: "Phone:"
+                  - link "402-500-2837" [ref=e471] [cursor=pointer]:
+                    - /url: Tel:402-500-2837
+                  - text: "Fax: 402-476-8364"
+              - link "Map" [ref=e474] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Friedman+Law+Offices/@40.7928085,-96.6679678,17z/data=!3m1!4b1!4m5!3m4!1s0x8796be766809bb27:0x30f3f05400ce1f7b!8m2!3d40.7928085!4d-96.6657791
+                - img "Map" [ref=e476]
+          - generic [ref=e481]:
+            - generic [ref=e482]:
+              - link "Cookie Preferences" [ref=e483] [cursor=pointer]:
+                - /url: "#"
+              - text: "|"
+              - link "Privacy Policy" [ref=e484] [cursor=pointer]:
+                - /url: https://privacy.cptn.co/privacy-policy/45c67aae-be1a-4e7e-848a-0c11059bb120
+              - text: "|"
+              - link "Subject Rights Request" [ref=e485] [cursor=pointer]:
+                - /url: https://dsar.cptn.co/dsar/2010199d-da9b-4998-bd8b-119085576450
+              - text: "|"
+              - link "Sitemap" [ref=e486] [cursor=pointer]:
+                - /url: /sitemap
+            - paragraph [ref=e487]
+            - paragraph [ref=e488]:
+              - text: © 2026 by Friedman Law Offices. All rights reserved.
+              - link "Law Firm Marketing by cj Advertising" [ref=e489] [cursor=pointer]:
+                - /url: https://www.cjadvertising.com/
+  - generic [ref=e491]:
+    - button "Unmute video" [ref=e492] [cursor=pointer]
+    - button "Unmute video" [ref=e493] [cursor=pointer]
+    - button "Close Intaker Chat Widget" [ref=e495] [cursor=pointer]
+    - button "Toggle position" [ref=e496] [cursor=pointer]
+    - generic [ref=e498]:
+      - generic [ref=e501]:
+        - generic [ref=e502]: Hi 👋🏼 Welcome to Friedman Law Offices. What kind of matter can we assist you with?
+        - button "Car Accident" [ref=e503] [cursor=pointer]:
+          - paragraph [ref=e504]: Car Accident
+        - button "Truck Accident" [ref=e505] [cursor=pointer]:
+          - paragraph [ref=e506]: Truck Accident
+        - button "Motorcycle Accident" [ref=e507] [cursor=pointer]:
+          - paragraph [ref=e508]: Motorcycle Accident
+        - button "Pedestrian Accident" [ref=e509] [cursor=pointer]:
+          - paragraph [ref=e510]: Pedestrian Accident
+        - button "Workers' Compensation" [ref=e511] [cursor=pointer]:
+          - paragraph [ref=e512]: Workers' Compensation
+        - button "Medical Malpractice" [ref=e513] [cursor=pointer]:
+          - paragraph [ref=e514]: Medical Malpractice
+        - button "Wrongful Death" [ref=e515] [cursor=pointer]:
+          - paragraph [ref=e516]: Wrongful Death
+        - button "Nursing Home Injuries" [ref=e517] [cursor=pointer]:
+          - paragraph [ref=e518]: Nursing Home Injuries
+        - button "Dangerous Drugs & Products" [ref=e519] [cursor=pointer]:
+          - paragraph [ref=e520]: Dangerous Drugs & Products
+        - button "Bike Accident" [ref=e521] [cursor=pointer]:
+          - paragraph [ref=e522]: Bike Accident
+        - button "Other Injuries" [ref=e523] [cursor=pointer]:
+          - paragraph [ref=e524]: Other Injuries
+      - generic [ref=e525] [cursor=pointer]: Scroll
+    - generic [ref=e530]:
+      - generic [ref=e531]: Powered by
+      - link "Powered by Intaker" [ref=e532] [cursor=pointer]:
+        - /url: https://intaker.com
+        - generic: Intaker
+  - button "Call us" [ref=e534] [cursor=pointer]:
+    - generic [ref=e536]: Call us
+  - generic [ref=e537]:
+    - img [ref=e540] [cursor=pointer]
+    - generic [ref=e542]:
+      - generic [ref=e543]:
+        - heading "Consent Banner" [level=1] [ref=e544]
+        - paragraph [ref=e545]: We utilize cookies to tailor content and advertisements, offer social media functionalities, and analyze traffic on our website. Additionally, we share details regarding your site usage with our social media, advertising, and analytics associates. They may integrate this information with other data you have supplied to them or that they have gathered from your utilization of their services.
+      - generic [ref=e546]:
+        - generic [ref=e547] [cursor=pointer]: Allow
+        - generic [ref=e548] [cursor=pointer]: Reject
+        - generic [ref=e549] [cursor=pointer]: Cookie Settings
+    - generic [ref=e550]:
+      - link "Transparency Page" [ref=e551] [cursor=pointer]:
+        - /url: https://friedmanlaw.cookietransparency.com
+      - generic [ref=e552]:
+        - paragraph [ref=e553]: Compliance by
+        - img "captain compliance logo" [ref=e554]

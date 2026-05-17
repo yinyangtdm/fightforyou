@@ -1,0 +1,30 @@
+- generic [active] [ref=e1]:
+  - link "Skip Navigation" [ref=e2] [cursor=pointer]:
+    - /url: "#main-wrapper"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e7]:
+        - link "Lyons & Associates, P.C." [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Lyons & Associates, P.C." [ref=e9]
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]: Let Us Help You
+            - link "Tap to call button" [ref=e14] [cursor=pointer]:
+              - /url: tel:19088296959
+              - text: 908-829-6959
+          - link "Schedule a Free Consultation" [ref=e16] [cursor=pointer]:
+            - /url: https://www.lyonspc.com/contact-us/
+        - button "Toggle navigation" [ref=e17]:
+          - img [ref=e19]
+    - main [ref=e21]:
+      - article [ref=e22]:
+        - generic [ref=e28]:
+          - heading "Relentless Legal Advocacy Backed by Proven Results. Strategic. Skilled. Uncompromising in Our Pursuit of Justice." [level=1] [ref=e29]
+          - paragraph [ref=e31]: At Lyons & Associates, P.C., we bring together elite legal talent and a track record of results to guide clients through complex legal challenges. Whether navigating family law, criminal defense, estate matters, or civil litigation, our attorneys offer strategic insight, trial-tested experience, and unwavering commitment. Headquartered in New Jersey with global reach, we deliver clarity, control, and powerful advocacy when it matters most.
+          - link "Schedule a Free Consultation" [ref=e33] [cursor=pointer]:
+            - /url: /contact-us/
+            - text: Schedule a Free Consultation
+        - generic [ref=e37]:
+          - heading "Experienced. Compassionate. Results-Driven." [level=2] [ref=e38]
+          - paragraph [ref=e39]: With a deep understanding of the legal system and a client-focused approach, our team is dedicated to securing the best possible outcomes for our clients. We know that legal issues can be overwhelming, which is why we take the time to listen, strategize, and advocate tirelessly on your behalf.

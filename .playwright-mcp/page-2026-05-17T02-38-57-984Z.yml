@@ -1,0 +1,189 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Ben Crump Logo" [ref=e11] [cursor=pointer]:
+              - /url: https://bencrump.com
+              - img "Ben Crump Logo" [ref=e13]
+            - text: 
+          - generic [ref=e14]:
+            - paragraph [ref=e15]:
+              - link "Espanol" [ref=e16] [cursor=pointer]:
+                - /url: https://bencrump.com/es/
+              - link "Media Requests" [ref=e17] [cursor=pointer]:
+                - /url: https://bencrump.com/media-requests/
+            - generic [ref=e18]:
+              - generic [ref=e19]: Free Consultations / No Fees Until We Win
+              - img [ref=e21]: 
+              - link "800-959-1444" [ref=e23] [cursor=pointer]:
+                - /url: tel:800-959-1444
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - link "About" [ref=e31] [cursor=pointer]:
+              - /url: https://bencrump.com/about/
+          - listitem [ref=e32]:
+            - link "Advocacy" [ref=e33] [cursor=pointer]:
+              - /url: https://action.bencrump.com/
+          - listitem [ref=e34]:
+            - link "National Practice Areas" [ref=e35] [cursor=pointer]:
+              - /url: https://bencrump.com/practice-areas/
+          - listitem [ref=e36]:
+            - link "Areas We Serve" [ref=e37] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e38]:
+            - link "Press Center" [ref=e39] [cursor=pointer]:
+              - /url: https://bencrump.com/press/
+          - listitem [ref=e40]:
+            - link "Resources" [ref=e41] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e42]:
+            - link "Media" [ref=e43] [cursor=pointer]:
+              - /url: /media/
+          - listitem [ref=e44]:
+            - link "Contact" [ref=e45] [cursor=pointer]:
+              - /url: https://bencrump.com/contact/
+          - listitem [ref=e46]:
+            - link "" [ref=e47] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e48]: 
+    - region "Slider" [ref=e53]:
+      - generic [ref=e57]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - note [ref=e108]: Slide 1
+            - generic [ref=e111]:
+              - generic [ref=e117]:
+                - paragraph [ref=e123]: Nationally Recognized
+                - heading "\"I believe in justice for all, and especially for those without a voice who need our help most of all.\"" [level=2] [ref=e125]:
+                  - text: "\"I believe in justice for all,"
+                  - text: and especially for those without a voice
+                  - text: who need our help most of all."
+              - generic [ref=e137]:
+                - paragraph [ref=e141]: Founding Attorney
+                - paragraph [ref=e147]:
+                  - link "No Fees Until We Win Call for a Free Consultation" [ref=e148] [cursor=pointer]:
+                    - /url: tel:8006835111
+                    - text: No Fees Until We Win
+                    - text: Call for a Free Consultation
+          - generic [ref=e149]:
+            - note [ref=e150]: Black Farmers
+            - generic [ref=e157]:
+              - link "SETTLEMENT" [ref=e160] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e162]: SETTLEMENT
+              - heading "Black Farmers Settlement" [level=2] [ref=e164]
+              - paragraph [ref=e168]: Ben Crump praised the $2.2B USDA payments to Black and minority farmers, advocating for systemic discrimination reforms.
+              - link "Read More" [ref=e171] [cursor=pointer]:
+                - /url: /press/civil-rights-attorney-ben-crump-applauds-2-billion-usda-payments-to-black-and-minority-farmers-calls-for-continued-advocacy/
+                - generic [ref=e173]: Read More
+          - generic [ref=e176]:
+            - note [ref=e177]: Tyre Nichols
+            - generic [ref=e184]:
+              - link "LAWSUIT" [ref=e187] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e189]: LAWSUIT
+              - heading "Tyre Nichols Lawsuit" [level=2] [ref=e191]
+              - paragraph [ref=e195]: A $550M lawsuit was filed for Tyre Nichols' estate, with Ben Crump representing his family.
+              - link "Read More" [ref=e198] [cursor=pointer]:
+                - /url: /results/
+                - generic [ref=e200]: Read More
+          - generic [ref=e203]:
+            - note [ref=e204]: Duane Washington
+            - generic [ref=e211]:
+              - link "SETTLEMENT" [ref=e214] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e216]: SETTLEMENT
+              - heading "Duane Washington Verdict" [level=2] [ref=e218]
+              - paragraph [ref=e222]: Duane Washington received a $411M verdict for police misconduct, represented by Ben Crump.
+              - link "Read More" [ref=e225] [cursor=pointer]:
+                - /url: /results/
+                - generic [ref=e227]: Read More
+          - generic [ref=e230]:
+            - note [ref=e231]: Tyre Sampson
+            - generic [ref=e238]:
+              - link "VERDICT" [ref=e241] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e243]: VERDICT
+              - heading "Tyre Sampson Verdict" [level=2] [ref=e245]
+              - paragraph [ref=e249]: Tyre Sampson’s family was awarded $310M after his amusement park fall, represented by Ben Crump.
+              - link "Read More" [ref=e252] [cursor=pointer]:
+                - /url: /results/
+                - generic [ref=e254]: Read More
+          - generic [ref=e257]:
+            - note [ref=e258]: Malcom X
+            - generic [ref=e265]:
+              - link "LAWSUIT" [ref=e268] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e270]: LAWSUIT
+              - heading "Malcom X Estate files $100M Lawsuit" [level=2] [ref=e272]
+              - paragraph [ref=e276]: Malcolm X’s estate sued the U.S. government and agencies for conspiracy and injustice.
+              - link "Read More" [ref=e279] [cursor=pointer]:
+                - /url: /press/national-civil-rights-attorney-ben-crump-files-lawsuit-against-the-doj-fbi-cia-and-nypd-on-behalf-of-malcolm-x/
+                - generic [ref=e281]: Read More
+          - generic [ref=e284]:
+            - note [ref=e285]: Botham Jean
+            - generic [ref=e292]:
+              - link "VERDICT" [ref=e295] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e297]: VERDICT
+              - heading "Botham Jean Verdict" [level=2] [ref=e299]
+              - paragraph [ref=e303]: The Botham Jean family won a $98.65M verdict, addressing racial bias and police accountability.
+              - link "Read More" [ref=e306] [cursor=pointer]:
+                - /url: /press/family-of-botham-jean-and-their-legal-team-react-to-98-65-million-settlement-verdict/
+                - generic [ref=e308]: Read More
+          - generic [ref=e311]:
+            - note [ref=e312]: Randy Cox
+            - generic [ref=e319]:
+              - link "SETTLEMENT" [ref=e322] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e324]: SETTLEMENT
+              - heading "Randy Cox Settlement" [level=2] [ref=e326]
+              - paragraph [ref=e330]: Randy Cox secured a record $45M settlement after being paralyzed by New Haven police.
+              - link "Read More" [ref=e333] [cursor=pointer]:
+                - /url: /press/attorney-ben-crump-achieves-historic-45-million-civil-police-brutality-settlement-for-randy-cox/
+                - generic [ref=e335]: Read More
+          - generic [ref=e338]:
+            - note [ref=e339]: George Floyd
+            - generic [ref=e346]:
+              - link "SETTLEMENT" [ref=e349] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e351]: SETTLEMENT
+              - heading "George Floyd Settlement" [level=2] [ref=e353]:
+                - link "George Floyd Settlement" [ref=e354] [cursor=pointer]:
+                  - /url: /cr/george-floyd/
+              - paragraph [ref=e358]: George Floyd’s family was awarded $27M in 2021, with Ben Crump leading their legal team.
+              - link "Read More" [ref=e361] [cursor=pointer]:
+                - /url: /results/
+                - generic [ref=e363]: Read More
+          - generic [ref=e366]:
+            - note [ref=e367]: Breonna Taylor
+            - generic [ref=e374]:
+              - link "SETTLEMENT" [ref=e377] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e379]: SETTLEMENT
+              - heading "Breonna Taylor Settlement" [level=2] [ref=e381]
+              - paragraph [ref=e385]: Breonna Taylor’s family received a $12M settlement after her wrongful death during a no-knock raid.
+              - link "Read More" [ref=e388] [cursor=pointer]:
+                - /url: /civil-rights-lawyer/the-breonna-taylor-settlement/
+                - generic [ref=e390]: Read More
+          - generic [ref=e393]:
+            - note [ref=e394]: Andre Hill
+            - generic [ref=e401]:
+              - link "SETTLEMENT" [ref=e404] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e406]: SETTLEMENT
+              - heading "Andre Hill settlement" [level=2] [ref=e408]
+              - paragraph [ref=e412]: Andre Hill’s family received $10M, Ohio’s most significant settlement for police misconduct.
+              - link "Read More" [ref=e415] [cursor=pointer]:
+                - /url: /results/
+                - generic [ref=e417]: Read More
+        - button "previous arrow" [ref=e420] [cursor=pointer]:
+          - img "previous arrow" [ref=e421]
+        - button "next arrow" [ref=e422] [cursor=pointer]:
+          - img "next arrow" [ref=e423]
+    - generic [ref=e426]:
+      - paragraph [ref=e427]: Available 24/7
+      - heading "How Can We Help?" [level=2] [ref=e428]
+  - text: 

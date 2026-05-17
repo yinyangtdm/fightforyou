@@ -1,0 +1,3 @@
+[     811ms] [LOG] JQMIGRATE: Migrate is installed, version 3.5.2 @ https://static.cdn-website.com/mnlt/production/6455/_dm/s/rt/dist/scripts/d-js-runtime-flex-package.min.js:7
+[    1532ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://www.rcmslaw.com/:0
+[    4870ms] [LOG] ServiceWorker registration successful with scope:  https://www.rcmslaw.com/ @ https://www.rcmslaw.com/:195

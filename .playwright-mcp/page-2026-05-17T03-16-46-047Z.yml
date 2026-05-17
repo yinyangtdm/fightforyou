@@ -1,0 +1,503 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e9]:
+        - figure [ref=e13]:
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://www.washingtonlawcenter.com/
+        - generic [ref=e19]:
+          - paragraph [ref=e25]: You Pay Nothing Until We Win
+          - link "FREE CONSULTATION" [ref=e30] [cursor=pointer]:
+            - /url: https://www.washingtonlawcenter.com/injury-law-office/
+            - generic [ref=e31]: FREE CONSULTATION
+          - generic [ref=e34]:
+            - link "Site Map" [ref=e36] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/sitemap_index.xml
+              - generic [ref=e37]:
+                - img [ref=e40]
+                - text: Site Map
+            - link "WLC Client Portal" [ref=e43] [cursor=pointer]:
+              - /url: https://files.washingtonlawcenter.com/file-upload/
+              - generic [ref=e44]:
+                - img [ref=e47]
+                - text: WLC Client Portal
+      - generic [ref=e51]:       
+  - complementary [ref=e56]:
+    - generic [ref=e57]:
+      - list [ref=e59]:
+        - listitem [ref=e60]:
+          - link "About dropdown" [ref=e61] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e63]: About
+            - generic "dropdown" [ref=e64]:
+              - generic [ref=e65]: 
+        - listitem [ref=e66]:
+          - link "Attorneys dropdown" [ref=e67] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e69]: Attorneys
+            - generic "dropdown" [ref=e70]:
+              - generic [ref=e71]: 
+        - listitem [ref=e72]:
+          - link "Practice Areas dropdown" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e75]: Practice Areas
+            - generic "dropdown" [ref=e76]:
+              - generic [ref=e77]: 
+        - listitem [ref=e78]:
+          - link "Resources dropdown" [ref=e79] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e81]: Resources
+            - generic "dropdown" [ref=e82]:
+              - generic [ref=e83]: 
+        - listitem [ref=e84]:
+          - link "Results dropdown" [ref=e85] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e87]: Results
+            - generic "dropdown" [ref=e88]:
+              - generic [ref=e89]: 
+        - listitem [ref=e90]:
+          - link "Locations dropdown" [ref=e91] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e93]: Locations
+            - generic "dropdown" [ref=e94]:
+              - generic [ref=e95]: 
+        - listitem [ref=e96]:
+          - link "Site Map" [ref=e97] [cursor=pointer]:
+            - /url: https://www.washingtonlawcenter.com/sitemap_index.xml
+            - generic [ref=e99]: Site Map
+        - listitem [ref=e100]:
+          - link "WLC Client Portal" [ref=e101] [cursor=pointer]:
+            - /url: https://files.washingtonlawcenter.com/file-upload/
+            - generic [ref=e103]: WLC Client Portal
+        - listitem [ref=e104]:
+          - link "Contact Us" [ref=e105] [cursor=pointer]:
+            - /url: https://www.washingtonlawcenter.com/injury-law-office/
+            - generic [ref=e107]: Contact Us
+        - listitem [ref=e108]:
+          - link "253-476-2653" [ref=e109] [cursor=pointer]:
+            - /url: tel:253-476-2653
+            - generic [ref=e111]: 253-476-2653
+      - generic [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]: 
+        - generic [ref=e116]: Search
+  - link "Skip to content" [ref=e117] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e119]:
+    - main [ref=e120]:
+      - generic [ref=e126]:
+        - generic [ref=e135]:
+          - heading "Washington Injury Attorneys" [level=1] [ref=e138]
+          - paragraph [ref=e142]: injury attorneys fighting for your peace of mind
+        - generic [ref=e146]:
+          - paragraph [ref=e149]:
+            - text: Get a Free Case Consultation
+            - text: With an Attorney
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - generic [ref=e154]: Name *
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - textbox "Name * First" [ref=e157]:
+                      - /placeholder: First Name
+                    - generic [ref=e158]: First
+                  - generic [ref=e159]:
+                    - textbox "Last" [ref=e160]:
+                      - /placeholder: Last Name
+                    - generic [ref=e161]: Last
+              - generic [ref=e162]:
+                - generic [ref=e163]: Phone
+                - textbox "Phone" [ref=e164]:
+                  - /placeholder: Phone Number
+              - generic [ref=e165]:
+                - generic [ref=e166]: Email *
+                - textbox "Email *" [ref=e167]:
+                  - /placeholder: Email Address
+              - generic [ref=e168]:
+                - generic [ref=e169]: How Were You Injured? *
+                - combobox "How Were You Injured? *" [ref=e170]:
+                  - option "How Were You Injured?" [disabled] [selected]
+                  - option "Auto Accident"
+                  - option "Sexual Abuse"
+                  - option "Work Injury (L&I)"
+                  - option "Birth Injury"
+                  - option "Personal Injury"
+                  - option "Other"
+              - generic [ref=e171]:
+                - generic [ref=e172]: When Did The Injury Occur? *
+                - combobox "When Did The Injury Occur? *" [ref=e173]:
+                  - option "When Did The Injury Occur?" [disabled] [selected]
+                  - option "Less Than One Week"
+                  - option "Less Than One Year"
+                  - option "Over 1 Year"
+                  - option "Other"
+              - generic [ref=e174]:
+                - generic [ref=e175]: Case Description *
+                - textbox "Case Description *" [ref=e176]:
+                  - /placeholder: Briefly Describe Your Case
+              - generic [ref=e177]:
+                - generic [ref=e178]: Accessibility Accommodation
+                - list [ref=e179]:
+                  - listitem [ref=e180]:
+                    - checkbox "Accessibility Accommodation" [ref=e181]
+                    - text: Accessibility Accommodation
+            - generic [ref=e182]:
+              - iframe [ref=e186]:
+                - generic [ref=f207e2]:
+                  - generic [ref=f207e3]:
+                    - checkbox "I'm not a robot" [ref=f207e7]
+                    - generic [ref=f207e11]: I'm not a robot
+                    - generic [ref=f207e13]:
+                      - text: reCAPTCHA is changing its terms of service.
+                      - link "Take action." [ref=f207e14] [cursor=pointer]:
+                        - /url: https://google.com/recaptcha/admin/migrate
+                  - generic [ref=f207e18]: reCAPTCHA
+              - textbox [ref=e187]
+            - button "SUBMIT" [ref=e189] [cursor=pointer]
+        - paragraph [ref=e199]: We Fight. You Win.
+        - generic [ref=e200]:
+          - generic [ref=e203]:
+            - paragraph [ref=e206]: We believe everyone should have access to fair and qualified legal assistance.
+            - paragraph [ref=e210]: Our large legal team, including personal injury attorneys and workers’ compensation attorneys, work hard to provide the best resources to our clients so they feel supported every step of the way until a fair settlement or a positive resolution in their case is found.
+            - link "SPEAK WITH AN ATTORNEY" [ref=e212] [cursor=pointer]:
+              - /url: tel:253-476-2653
+              - generic [ref=e213]: SPEAK WITH AN ATTORNEY
+          - generic [ref=e216]:
+            - paragraph [ref=e219]:
+              - link "Personal Injury" [ref=e220] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/personal-injury-attorney/
+            - paragraph [ref=e223]:
+              - link "Work Injury (L&I)" [ref=e224] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/labor-and-industries-lawyers
+            - paragraph [ref=e227]:
+              - link "Car Accident Injury" [ref=e228] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/car-accident-injury-attorney/
+            - paragraph [ref=e231]:
+              - link "Sexual Abuse" [ref=e232] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/child-sexual-abuse-lawyers
+            - paragraph [ref=e236]: Se habla Español
+        - generic [ref=e240]:
+          - iframe [ref=e245]:
+            - generic [active] [ref=f206e1]:
+              - generic "YouTube Video Player" [ref=f206e3]
+              - generic [ref=f206e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f206e10] [cursor=pointer]:
+                      - generic [ref=f206e13]:
+                        - img
+                    - button "Hide player controls" [ref=f206e14] [cursor=pointer]
+                    - generic [ref=f206e16]:
+                      - generic [ref=f206e21]:
+                        - generic [ref=f206e22]:
+                          - link "There's Only One Washington Law Center - Industry-Leading Law Firm in Washington" [ref=f206e23] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=NcLXiSEddX0
+                          - link "Washington Law Center - Injury Attorneys" [ref=f206e24] [cursor=pointer]:
+                            - /url: /channel/UCryjbsvy721g1qNC580rQVA
+                            - generic [ref=f206e25]: Washington Law Center - Injury Attorneys
+                        - generic [ref=f206e26]:
+                          - button [ref=f206e27] [cursor=pointer]
+                          - generic [ref=f206e29]:
+                            - generic: Washington Law Center - Injury Attorneys
+                            - generic: 579 subscribers
+                      - generic [ref=f206e30]:
+                        - button "Share" [ref=f206e33] [cursor=pointer]:
+                          - generic [ref=f206e37]:
+                            - img
+                        - link "Watch on YouTube" [ref=f206e44] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=NcLXiSEddX0
+                          - generic [ref=f206e47]:
+                            - text: Watch on
+                            - img [ref=f206e49]:
+                              - generic [ref=f206e51]:
+                                - img
+          - 'heading "Video Transcript: There''s Only One Washington Law Center" [level=4] [ref=e249] [cursor=pointer]'
+        - generic [ref=e251]:
+          - generic [ref=e254]:
+            - heading "Local Injury Lawyers" [level=2] [ref=e257]
+            - paragraph [ref=e261]: We are part of the community we serve. With real, local Washington attorneys, Washington Law Center is a leading injury law firm focused on results for our clients.
+            - paragraph [ref=e265]:
+              - link "Personal Injury Case Results" [ref=e266] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/personal-injury-case-results/
+            - paragraph [ref=e269]:
+              - link "Work Injury (L&I) Case Results" [ref=e270] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/work-injury-case-results/
+          - generic [ref=e275]:
+            - generic [ref=e277]:
+              - link "Spencer-Parr-Washington-Law-Center-PartnerWorkers-Compensation-Injury-Attorney" [ref=e279] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/spencer-parr/
+                - img "Spencer-Parr-Washington-Law-Center-PartnerWorkers-Compensation-Injury-Attorney" [ref=e280]
+              - generic [ref=e281]:
+                - heading "Spencer Parr" [level=2] [ref=e282]:
+                  - link "Spencer Parr" [ref=e283] [cursor=pointer]:
+                    - /url: https://www.washingtonlawcenter.com/spencer-parr/
+                - generic [ref=e284]: Partner, Labor & Industries / Personal Injury Attorney
+            - generic [ref=e286]:
+              - link "Personal Injury Attorney - Ashton Dennis - Tacoma, WA - Washington Law Center" [ref=e288] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/ashton-dennis/
+                - img "Personal Injury Attorney - Ashton Dennis - Tacoma, WA - Washington Law Center" [ref=e289]
+              - generic [ref=e290]:
+                - heading "Ashton Dennis" [level=2] [ref=e291]:
+                  - link "Ashton Dennis" [ref=e292] [cursor=pointer]:
+                    - /url: https://www.washingtonlawcenter.com/ashton-dennis/
+                - generic [ref=e293]: Partner, Personal Injury Attorney
+        - generic [ref=e298]:
+          - heading "Current Cases of Interest" [level=2] [ref=e301]
+          - generic [ref=e304]:
+            - list "Pagination" [ref=e305]:
+              - listitem [ref=e306]:
+                - link "Pagination Item 1" [ref=e307]:
+                  - /url: "#1685744864598-d7794ed4-157b"
+              - listitem [ref=e308]:
+                - link "Pagination Item 2" [ref=e309] [cursor=pointer]:
+                  - /url: "#1685744864633-8655ef1f-66fd"
+            - generic [ref=e315]:
+              - generic [ref=e318]:
+                - link "Alki Middle School voyeurism case - Vancouver Public Schools employee, James D. Mattson arrested" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/james-d-mattson-vancouver-public-schools-employee-voyeurism-case/
+                  - img "Alki Middle School voyeurism case - Vancouver Public Schools employee, James D. Mattson arrested" [ref=e322]
+                - generic [ref=e323]:
+                  - heading "James D. Mattson – Vancouver School District Employee Voyeurism Case" [level=2] [ref=e324]:
+                    - link "James D. Mattson – Vancouver School District Employee Voyeurism Case" [ref=e325] [cursor=pointer]:
+                      - /url: https://www.washingtonlawcenter.com/james-d-mattson-vancouver-public-schools-employee-voyeurism-case/
+                  - paragraph [ref=e327]: James D. Mattson
+              - generic [ref=e330]:
+                - link "LDS-church-member-former-junior-high-school-wrestling-coach-charged-sexual-abuse-children" [ref=e333] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/david-oconnor-curtis-junior-high-sex-abuse-case/
+                  - img "LDS-church-member-former-junior-high-school-wrestling-coach-charged-sexual-abuse-children" [ref=e334]
+                - generic [ref=e335]:
+                  - heading "David O’Connor – LDS Church Member & Curtis Junior High Sex Abuse Case" [level=2] [ref=e336]:
+                    - link "David O’Connor – LDS Church Member & Curtis Junior High Sex Abuse Case" [ref=e337] [cursor=pointer]:
+                      - /url: https://www.washingtonlawcenter.com/david-oconnor-curtis-junior-high-sex-abuse-case/
+                  - paragraph [ref=e339]: David O’Connor
+              - generic [ref=e342]:
+                - link "Olympic Medical Center Sexual Abuse Case - Dr. Josiah Hill emergency room doctor accused of rape" [ref=e345] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/dr-josiah-david-hill-sex-assault-case-olympic-medical-center/
+                  - img "Olympic Medical Center Sexual Abuse Case - Dr. Josiah Hill emergency room doctor accused of rape" [ref=e346]
+                - generic [ref=e347]:
+                  - heading "Dr. Josiah David Hill Sexual Assault Case – Olympic Medical Center" [level=2] [ref=e348]:
+                    - link "Dr. Josiah David Hill Sexual Assault Case – Olympic Medical Center" [ref=e349] [cursor=pointer]:
+                      - /url: https://www.washingtonlawcenter.com/dr-josiah-david-hill-sex-assault-case-olympic-medical-center/
+                  - paragraph [ref=e351]: Dr. Josiah David Hill
+        - generic [ref=e358]:
+          - paragraph [ref=e361]: Available 24/7 across the state of Washington.
+          - paragraph [ref=e365]: Don’t hesitate to get to the legal support you deserve. Call us today!
+          - link "SEE ALL LOCATIONS" [ref=e368] [cursor=pointer]:
+            - /url: https://www.washingtonlawcenter.com/injury-law-office/
+            - generic [ref=e369]: SEE ALL LOCATIONS
+        - generic [ref=e377]:
+          - generic [ref=e382]:
+            - generic [ref=e383]: Use the left and right arrow keys to access the carousel navigation buttons
+            - generic [ref=e385]:
+              - figure [ref=e388]:
+                - img "Certified-Top-Attorneys-of-North-America-Washington-Law-Center" [ref=e389]
+              - figure [ref=e392]:
+                - img "Super-Lawyers-2020-Washington-Law-Center" [ref=e393]
+              - figure [ref=e396]:
+                - img "WSAJ-Eagle-Member-Washington-Law-Center" [ref=e397]
+              - figure [ref=e400]:
+                - img "best-personal-injury-lawyers-in-tacoma-washington-expertise-washington-law-center" [ref=e401]
+              - figure [ref=e404]:
+                - img "Washington-State-Bar-Association-Washington-Law-Center" [ref=e405]
+              - figure [ref=e408]:
+                - img "top-100-National-Trial-Lawyers-Washington-Law-Center" [ref=e409]
+              - figure [ref=e412]:
+                - img "washington-workers-compensation-attorney-spencer-parr-Top-100-lawyers" [ref=e413]
+              - figure [ref=e416]:
+                - img "Certified-Top-Attorneys-of-North-America-Washington-Law-Center" [ref=e417]
+              - figure [ref=e420]:
+                - img "Super-Lawyers-2020-Washington-Law-Center" [ref=e421]
+              - figure [ref=e424]:
+                - img "WSAJ-Eagle-Member-Washington-Law-Center" [ref=e425]
+              - figure [ref=e428]:
+                - img "best-personal-injury-lawyers-in-tacoma-washington-expertise-washington-law-center" [ref=e429]
+              - figure [ref=e432]:
+                - img "Washington-State-Bar-Association-Washington-Law-Center" [ref=e433]
+              - figure [ref=e436]:
+                - img "top-100-National-Trial-Lawyers-Washington-Law-Center" [ref=e437]
+              - figure [ref=e440]:
+                - img "washington-workers-compensation-attorney-spencer-parr-Top-100-lawyers" [ref=e441]
+              - figure [ref=e444]:
+                - img "Certified-Top-Attorneys-of-North-America-Washington-Law-Center" [ref=e445]
+          - paragraph [ref=e452]: OVER $100 MILLION AWARDED TO OUR CLIENTS BY VERDICT, SETTLEMENT, INJURY PENSION OR JUDGMENT
+        - generic [ref=e456]:
+          - heading "Why Choose Washington Law Center?" [level=3] [ref=e459]
+          - link "LEARN MORE" [ref=e462] [cursor=pointer]:
+            - /url: https://www.washingtonlawcenter.com/why-choose-washington-law-center/
+            - generic [ref=e463]: LEARN MORE
+    - contentinfo [ref=e464]:
+      - generic [ref=e468]:
+        - heading "Washington Law Center" [level=2] [ref=e475]
+        - generic [ref=e476]:
+          - generic [ref=e479]:
+            - paragraph [ref=e482]: Attorneys
+            - generic [ref=e484]:
+              - link "Spencer Parr" [ref=e489] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/spencer-parr/
+              - link "Ashton Dennis" [ref=e494] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/ashton-dennis/
+              - link "Scott Goodrich" [ref=e499] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/scott-goodrich/
+              - link "Alden Byrd" [ref=e504] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/Alden-Byrd/
+              - link "Daniel Swinford" [ref=e509] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/daniel-swinford/
+              - link "James McLean" [ref=e514] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/james-mclean/
+              - link "Jonathan Burr" [ref=e519] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/jonathan-burr/
+              - link "Sara Sheikh" [ref=e524] [cursor=pointer]:
+                - /url: https://www.washingtonlawcenter.com/sara-sheikh/
+          - generic [ref=e527]:
+            - paragraph [ref=e530]: Practice Areas
+            - generic [ref=e532]:
+              - paragraph [ref=e533]:
+                - link "Sexual Abuse" [ref=e534] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/child-sexual-abuse-lawyers/
+              - paragraph [ref=e535]:
+                - link "Student Sexual Abuse" [ref=e536] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/student-sexual-abuse-attorneys/
+              - paragraph [ref=e537]:
+                - link "Voyeurism" [ref=e538] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/voyeurism-abuse-attorneys/
+              - paragraph [ref=e539]:
+                - link "Car Accident Injury" [ref=e540] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/car-accident-injury-attorney/
+              - paragraph [ref=e541]:
+                - link "Motorcycle Accident Injury" [ref=e542] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/motorcycle-accident-injury-attorneys/
+              - paragraph [ref=e543]:
+                - link "Personal Injury" [ref=e544] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/personal-injury-attorney/
+              - paragraph [ref=e545]:
+                - link "Wrongful Death" [ref=e546] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/wrongful-death-attorney/
+              - paragraph [ref=e547]:
+                - link "Spinal Cord Injury" [ref=e548] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/spinal-cord-injury/
+              - paragraph [ref=e549]:
+                - link "Birth Injury" [ref=e550] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/birth-injury/
+          - generic [ref=e553]:
+            - paragraph [ref=e556]: Work Injury
+            - generic [ref=e558]:
+              - paragraph [ref=e559]:
+                - link "Labor & Industries (L&I)" [ref=e560] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/labor-and-industries-lawyers/
+              - paragraph [ref=e561]:
+                - link "Workplace Knee Injury" [ref=e562] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/workplace-knee-injury/
+              - paragraph [ref=e563]:
+                - link "Claim Resolution Settlement Agreements (CRSA)" [ref=e564] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/claim-resolution-settlement-agreements-need-to-know/
+            - paragraph [ref=e567]: Blogs
+            - generic [ref=e569]:
+              - paragraph [ref=e570]:
+                - link "Someone Made An AI-Generated Video of Me… What Can I Do?" [ref=e571] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/ai-generated-video-what-can-i-do/
+              - paragraph [ref=e572]:
+                - link "Can You Sue Someone for Making a Deepfake Video of You in Washington?" [ref=e573] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/deepfake-video-lawsuit/
+              - paragraph [ref=e574]:
+                - link "Do I Need A Lawyer After A Motorcycle Accident?" [ref=e575] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/lawyer-after-motorcycle-accident/
+              - paragraph [ref=e576]:
+                - link "WA Supreme Court Expands Childhood Sexual Abuse Protections’ Compensation" [ref=e577] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/wa-supreme-court-expands-childhood-sexual-abuse-protections/
+              - paragraph [ref=e578]:
+                - link "2025 – 2026 Washington State Cost of Living Adjustment (COLA) & Maximum and Minimum Time-Loss Rate for Workers’ Compensation" [ref=e579] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/2025-cola-maximum-and-minimum-time-loss-rates-li-cost-of-living-adjustment/
+              - paragraph [ref=e580]:
+                - link "What is the Statute of Limitations for Childhood Sexual Abuse in Washington?" [ref=e581] [cursor=pointer]:
+                  - /url: https://www.washingtonlawcenter.com/statute-of-limitations-for-childhood-sexual-abuse-2/
+        - paragraph [ref=e588]: Locations
+        - generic [ref=e589]:
+          - paragraph [ref=e595]:
+            - link "King County" [ref=e596] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/tukwila-injury-law-office/
+              - strong [ref=e597]: King County
+            - link "651 Strander Blvd. Suite 215 Tukwila, WA 98188" [ref=e598] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Washington+Law+Center/@47.4550776,-122.2449338,15z/data=!4m2!3m1!1s0x0:0x2ce335adc6663c44?sa=X&ved=2ahUKEwiu8PvZzanoAhXHsZ4KHXgDA7UQ_BIwCnoECBAQCA
+              - text: 651 Strander Blvd.
+              - text: Suite 215
+              - text: Tukwila, WA 98188
+            - link "206-596-7888" [ref=e599] [cursor=pointer]:
+              - /url: tel:206-596-7888
+          - paragraph [ref=e605]:
+            - link "Pierce County" [ref=e606] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/tacoma-injury-law-office/
+              - strong [ref=e607]: Pierce County
+            - link "15 S Oregon Ave. Suite 210 Tacoma, WA 98409" [ref=e608] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Washington+Law+Center/@47.223867,-122.465788,15z/data=!4m2!3m1!1s0x0:0x320dd6fcb47c4baf?sa=X&ved=2ahUKEwiDzZ3ozanoAhXSvp4KHQPVA7YQ_BIwFHoECAwQCA
+              - text: 15 S Oregon Ave.
+              - text: Suite 210
+              - text: Tacoma, WA 98409
+            - link "253-476-2653" [ref=e609] [cursor=pointer]:
+              - /url: tel:253-476-2653
+          - paragraph [ref=e615]:
+            - link "Clark County" [ref=e616] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/vancouver-injury-law-office/
+              - strong [ref=e617]: Clark County
+            - link "4400 NE 77th Ave. Suite 275 Vancouver, WA 98662" [ref=e618] [cursor=pointer]:
+              - /url: https://www.google.com/maps?cid=7986946066683056640&_ga=2.1826545.1735801614.1617032228-1870090991.1611157705
+              - text: 4400 NE 77th Ave.
+              - text: Suite 275
+              - text: Vancouver, WA 98662
+            - link "360-392-5443" [ref=e619] [cursor=pointer]:
+              - /url: tel:360-392-5443
+          - paragraph [ref=e625]:
+            - link "Thurston County" [ref=e626] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/olympia-injury-law-office/
+              - strong [ref=e627]: Thurston County
+            - link "400 Union Ave SE Suite 200 Olympia, WA 98501" [ref=e628] [cursor=pointer]:
+              - /url: https://www.google.com/maps?cid=17721822646582000088&_ga=2.126181453.1326452338.1621272823-192517025.1547137568
+              - text: 400 Union Ave SE
+              - text: Suite 200
+              - text: Olympia, WA 98501
+            - link "360-284-1543" [ref=e629] [cursor=pointer]:
+              - /url: tel:+13602841543
+        - generic [ref=e630]:
+          - paragraph [ref=e636]:
+            - link "Snohomish County" [ref=e637] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/bothell-injury-law-office/
+              - strong [ref=e638]: Snohomish County
+            - link "22722 29th Dr. SE, Suite 100 Bothell, WA 98021" [ref=e639] [cursor=pointer]:
+              - /url: https://g.page/r/CZzoHbQwW_UYEAE?gm
+              - text: 22722 29th Dr. SE,
+              - text: Suite 100
+              - text: Bothell, WA 98021
+            - link "425-578-5572" [ref=e640] [cursor=pointer]:
+              - /url: tel:+14255785572
+          - paragraph [ref=e646]:
+            - link "Kitsap County" [ref=e647] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/bainbridge-island-injury-law-office/
+              - strong [ref=e648]: Kitsap County
+            - link "755 Winslow Way E, Suite 305 Bainbridge Island, WA 98110" [ref=e649] [cursor=pointer]:
+              - /url: https://goo.gl/maps/nJk3XrkvDo31KAnZ7
+              - text: 755 Winslow Way E,
+              - text: Suite 305
+              - text: Bainbridge Island, WA 98110
+            - link "206-565-0115" [ref=e650] [cursor=pointer]:
+              - /url: tel:+12065650115
+          - paragraph [ref=e656]:
+            - link "Whatcom County" [ref=e657] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/bellingham-injury-law-office/
+              - strong [ref=e658]: Whatcom County
+            - link "2219 Rimland Dr. Suite 301 Bellingham, WA 98226" [ref=e659] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/e8mAYmfhNaSX6D9b6
+              - text: 2219 Rimland Dr.
+              - text: Suite 301
+              - text: Bellingham, WA 98226
+            - link "360-284-1893" [ref=e660] [cursor=pointer]:
+              - /url: tel:+13602841893
+          - paragraph [ref=e666]:
+            - link "Pierce County" [ref=e667] [cursor=pointer]:
+              - /url: https://www.washingtonlawcenter.com/puyallup-injury-law-office/
+              - strong [ref=e668]: Pierce County
+            - link "1409 2nd St SE Puyallup, WA 98372" [ref=e669] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/yJat6oVFAxft72d56
+              - text: 1409 2nd St SE
+              - text: Puyallup, WA 98372
+            - link "206-260-2315" [ref=e670] [cursor=pointer]:
+              - /url: tel:+2062602315
+    - generic [ref=e674]: © Washington Law Center 2026 - All Rights Reserved | Disclaimers and Terms of Service

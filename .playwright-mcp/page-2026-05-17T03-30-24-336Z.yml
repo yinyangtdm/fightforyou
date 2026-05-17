@@ -1,0 +1,371 @@
+- generic [active] [ref=e1]:
+  - complementary "Skip to content":
+    - link "Skip to content" [ref=e2] [cursor=pointer]:
+      - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Haddad and Sherwin Homepage" [ref=e7] [cursor=pointer]:
+        - /url: https://www.haddadandsherwin.com/
+        - img "Haddad and Sherwin Homepage" [ref=e8]
+      - generic [ref=e9]:
+        - navigation "Header Contact Navigation" [ref=e10]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link " Contact Us" [ref=e14] [cursor=pointer]:
+                - /url: https://www.haddadandsherwin.com/contact-us/
+                - generic [ref=e15]: 
+                - text: Contact Us
+        - text:                        
+        - button "Open Mobile Navigation Menu" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: 
+          - generic [ref=e19]: MENU
+    - generic [ref=e22]:
+      - heading "California Civil Rights Attorneys in Oakland & San Francisco Bay Area" [level=1] [ref=e23]:
+        - generic [ref=e24]: California Civil Rights Attorneys
+        - text: in Oakland & San Francisco Bay Area
+      - paragraph [ref=e25]: We represent people in catastrophic injury and death cases involving Civil Rights, Police Shootings and Misconduct, Jail Suicide and Death, and general Wrongful Death.
+      - paragraph [ref=e26]:
+        - button "Contact Us for a Case Evaluation" [ref=e27] [cursor=pointer]
+  - generic [ref=e28]:
+    - main [ref=e31]:
+      - article [ref=e32]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - heading "Our Practice Areas" [level=2] [ref=e36]
+            - paragraph [ref=e37]: At Haddad & Sherwin LLP, our dedicated team of civil rights attorneys have years of experience representing people fighting for justice in cases where their rights were violated.
+          - generic [ref=e38]:
+            - link "Learn More About Civil Rights" [ref=e39] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/civil-rights/
+              - heading "Civil Rights" [level=3] [ref=e40]
+              - paragraph [ref=e41]: Haddad & Sherwin LLP specializes in civil rights cases where police or jail misconduct caused death or catastrophic physical injuries.
+              - generic [ref=e42]:
+                - text: Learn More
+                - generic [ref=e43]: 
+            - link "Learn More About Wrongful Death" [ref=e44] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/wrongful-death/
+              - heading "Wrongful Death" [level=3] [ref=e45]
+              - paragraph [ref=e46]: Our firm specializes in helping clients navigate the complex legal steps related to wrongful death claims that are critical to preserving their rights when a loved one dies.
+              - generic [ref=e47]:
+                - text: Learn More
+                - generic [ref=e48]: 
+            - link "Learn More About Restraint Asphyxia" [ref=e49] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/restraint-asphyxia-attorneys/
+              - heading "Restraint Asphyxia" [level=3] [ref=e50]
+              - paragraph [ref=e51]: Our experience, creativity, and aggressive representation in restrain asphyxia cases has allowed us to obtain justice for many families who have lost loved ones.
+              - generic [ref=e52]:
+                - text: Learn More
+                - generic [ref=e53]: 
+            - link "Learn More About Police Shootings" [ref=e54] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/police-shooting-attorneys/
+              - heading "Police Shootings" [level=3] [ref=e55]
+              - paragraph [ref=e56]: If you or a loved one have experienced an unjust police shooting, our team of experienced lawyers may be able to help you.
+              - generic [ref=e57]:
+                - text: Learn More
+                - generic [ref=e58]: 
+            - link "Learn More About Catastrophic Injury" [ref=e59] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/catastrophic-injury/
+              - heading "Catastrophic Injury" [level=3] [ref=e60]
+              - paragraph [ref=e61]: At Haddad & Sherwin LLP, we understand that proper compensation in a catastrophic physical injury case is crucial to ensuring your quality of life now and in the future.
+              - generic [ref=e62]:
+                - text: Learn More
+                - generic [ref=e63]: 
+            - link "Learn More About Jail Death or Jail Suicide" [ref=e64] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/jail-death-attorneys/
+              - heading "Jail Death or Jail Suicide" [level=3] [ref=e65]
+              - paragraph [ref=e66]: Our firm holds those in charge of our jails accountable for meeting their constitutional duty to provide for inmates’ medical needs and ensure safe jail conditions.
+              - generic [ref=e67]:
+                - text: Learn More
+                - generic [ref=e68]: 
+        - generic [ref=e73]:
+          - heading "Representing People Fighting for Justice" [level=2] [ref=e74]
+          - paragraph [ref=e75]:
+            - text: The partners at Haddad & Sherwin LLP are experienced Civil Rights – Trial Lawyers, and national leaders among
+            - link "civil rights attorneys" [ref=e76] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/civil-rights/
+            - text: . They represent people in cases involving
+            - link "wrongful death" [ref=e77] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/wrongful-death/
+            - text: and serious injury, police and jail misconduct,
+            - link "police shootings" [ref=e78] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/police-shooting-attorneys/
+            - text: and killings,
+            - link "jail suicide" [ref=e79] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/jail-death-attorneys/
+            - text: and
+            - link "jail death" [ref=e80] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/jail-death-attorneys/
+            - text: ", and restraint/positional"
+            - link "asphyxia by police" [ref=e81] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com//restraint-asphyxia-attorneys/
+            - text: .
+          - paragraph [ref=e82]:
+            - text: Highly rated by their peers, Haddad & Sherwin LLP has won numerous large jury verdicts and settlements for their seriously injured clients. Take a look at their
+            - link "results" [ref=e83] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/results/
+            - text: ","
+            - link "reforms" [ref=e84] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/reforms/
+            - text: ", and"
+            - link "attorney profiles" [ref=e85] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/our-team/
+            - text: for more information.
+          - paragraph [ref=e86]:
+            - button "Contact Us" [ref=e87] [cursor=pointer]
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - heading "Civil Rights Case Results" [level=2] [ref=e91]
+            - paragraph [ref=e92]: Notable results and crucial settlements in Haddad & Sherwin’s work in cases of restraint asphyxia, police shootings, and more.
+            - paragraph [ref=e93]:
+              - button "View All Results" [ref=e94] [cursor=pointer]
+          - region "carousel" [ref=e95]:
+            - link " Previous Testimonial" [ref=e96] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e97]: 
+              - generic [ref=e98]: Previous Testimonial
+            - generic [ref=e100]:
+              - group "slide 1" [ref=e101]:
+                - link "Read More about $12.75 Million for Distraught Inmate’s Slow-Motion Suicide" [ref=e103] [cursor=pointer]:
+                  - /url: https://www.haddadandsherwin.com/2023/08/21/12-million-for-distraught-inmates-slow-motion-suicide/
+                  - heading "$12.75 Million for Distraught Inmate’s Slow-Motion Suicide" [level=3] [ref=e104]
+                  - text: In the largest settlement ever against Wellpath, a national for-profit correctional care company, Haddad & Sherwin LLP won a $12.75 million settlement for Katherine Johnson,...
+                  - generic [ref=e105]:
+                    - text: Read More
+                    - generic [ref=e106]: 
+              - group "slide 2" [ref=e107]:
+                - link "Read More about $12 Million for Combat Veteran’s Wrongful Death in Police Shooting" [ref=e109] [cursor=pointer]:
+                  - /url: https://www.haddadandsherwin.com/2024/04/24/12-million-for-combat-veterans-wrongful-death-in-police-shooting/
+                  - heading "$12 Million for Combat Veteran’s Wrongful Death in Police Shooting" [level=3] [ref=e110]
+                  - text: On February 4th, 2020, Shasta County Sheriff’s Sergeant Jose Gonzalez shot and killed Thomas Barbosa, a 41-year-old combat veteran with severe PTSD. Barbosa was experiencing...
+                  - generic [ref=e111]:
+                    - text: Read More
+                    - generic [ref=e112]: 
+              - group [ref=e113]:
+                - link [ref=e115] [cursor=pointer]:
+                  - /url: https://www.haddadandsherwin.com/2019/12/30/11-5-million-for-inmate-rendered-quadriplegic/
+                  - heading [level=3] [ref=e116]: $11.5 Million for Inmate Rendered Quadriplegic
+                  - text: In a groundbreaking case against Stanislaus County and its private, for-profit jail medical provider, Haddad & Sherwin LLP obtained an $11.5 million settlement for a...
+                  - generic [ref=e117]:
+                    - text: Read More
+                    - generic [ref=e118]: 
+              - group [ref=e119]:
+                - link [ref=e121] [cursor=pointer]:
+                  - /url: https://www.haddadandsherwin.com/2023/12/15/11-million-settlement-for-the-mario-gonzalez-case/
+                  - heading [level=3] [ref=e122]: $11 Million Settlement for the Mario Gonzalez Case
+                  - text: OAKLAND, CA (December 15, 2023) — Civil rights law firm Haddad & Sherwin LLP announced today that it has won an $11 million settlement for...
+                  - generic [ref=e123]:
+                    - text: Read More
+                    - generic [ref=e124]: 
+              - group [ref=e125]:
+                - link [ref=e127] [cursor=pointer]:
+                  - /url: https://www.haddadandsherwin.com/2015/05/07/8-3-million-for-jail-death-largest-wrongful-death-civil-rights-settlement-in-california-state-history/
+                  - heading [level=3] [ref=e128]: $8.3 Million for Jail Death — Largest Wrongful Death Civil Rights Settlement in California State History
+                  - text: After over four years of litigation and finishing the first week of a 10 week trial, Alameda County and Corizon Health, Inc., a national for-profit...
+                  - generic [ref=e129]:
+                    - text: Read More
+                    - generic [ref=e130]: 
+              - group [ref=e131]:
+                - link [ref=e133] [cursor=pointer]:
+                  - /url: https://www.haddadandsherwin.com/2020/10/27/7-3-million-settlement-for-police-choke-hold-killing/
+                  - heading [level=3] [ref=e134]: $7.3 Million Settlement for Police Choke Hold Killing
+                  - text: This local case involved Pittsburg police officers’ use of a carotid hold and choke hold, and other highly injurious force, on video, while Beto Martinez...
+                  - generic [ref=e135]:
+                    - text: Read More
+                    - generic [ref=e136]: 
+              - group [ref=e137]:
+                - link [ref=e139] [cursor=pointer]:
+                  - /url: https://www.haddadandsherwin.com/2023/06/23/7-million-for-sacramento-freeway-shooting/
+                  - heading [level=3] [ref=e140]: $7 Million for Sacramento Freeway Shooting
+                  - text: Justice has prevailed in another case of an unjustified police shooting. Civil rights firm Haddad & Sherwin LLP have won a settlement of $7 million...
+                  - generic [ref=e141]:
+                    - text: Read More
+                    - generic [ref=e142]: 
+            - link " Next Testimonial" [ref=e143] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e144]: 
+              - generic [ref=e145]: Next Testimonial
+        - generic [ref=e147]:
+          - paragraph [ref=e148]
+          - heading "Our Team of Civil Rights Attorneys" [level=2] [ref=e149]
+          - paragraph [ref=e150]: You want a committed and passionate attorney for your civil rights case. But you also need an experienced attorney with a track record of success. Our team has both and stands ready to represent you to obtain justice.
+          - paragraph [ref=e151]:
+            - button "Meet the Team" [ref=e152] [cursor=pointer]
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - heading "Dedicated to Preserving the Civil Rights of Californians" [level=2] [ref=e156]
+            - paragraph [ref=e157]:
+              - text: These testimonials from our clients reflect our dedication to preserving the rights of individuals and families who have been impacted by government and
+              - link "law enforcement misconduct" [ref=e158] [cursor=pointer]:
+                - /url: https://www.haddadandsherwin.com/police-misconduct-attorneys/
+              - text: .
+            - paragraph [ref=e159]:
+              - button "View All Testimonials" [ref=e160] [cursor=pointer]
+          - region "carousel" [ref=e161]:
+            - link " Previous Testimonial" [ref=e162] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e163]: 
+              - generic [ref=e164]: Previous Testimonial
+            - generic [ref=e166]:
+              - group "slide 1" [ref=e167]:
+                - generic [ref=e169]:
+                  - paragraph [ref=e170]: “When I met with Haddad Sherwin I was skeptical about the world and needed help and that’s exactly what everybody with this team of highly competent professionals did for me. They served me justice and changed my life.”
+                  - paragraph [ref=e171]: Carl Edwards
+              - group [ref=e172]:
+                - generic [ref=e174]:
+                  - paragraph [ref=e175]: “Julia & Michael stood up for me when no one else would – smart, fearless, relentless & funny.”
+                  - paragraph [ref=e176]: Karl Debro
+              - group [ref=e177]:
+                - generic [ref=e179]:
+                  - paragraph [ref=e180]: “Haddad & Sherwin are amazing, really thorough, well prepared, caring, intelligent, and relentless.”
+                  - paragraph [ref=e181]: Marcus
+              - group [ref=e182]:
+                - generic [ref=e184]:
+                  - paragraph [ref=e185]: “Haddad & Sherwin are professionals as well as friends. They were there for me and my family every step of the way. Even after we won our case, they still continue to check on us and see if we need help with anything. I trust these people to the fullest. If you’re wondering who you should choose as lawyers, you should choose Haddad & Sherwin. They will get you justice.”
+                  - paragraph [ref=e186]: Tina Anglin
+              - group [ref=e187]:
+                - generic [ref=e189]:
+                  - paragraph [ref=e190]: “I did my research for a lawyer, and their history was incredible! Super nice to work with, they give lawyers a great name!”
+                  - paragraph [ref=e191]: Bob
+            - link " Next Testimonial" [ref=e192] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e193]: 
+              - generic [ref=e194]: Next Testimonial
+        - generic [ref=e198]:
+          - heading "Contact Us for a Free Consultation" [level=2] [ref=e199]
+          - paragraph [ref=e200]:
+            - text: If you may have a case involving
+            - strong [ref=e201]: wrongful death
+            - text: or
+            - strong [ref=e202]: catastrophic physical injuries
+            - text: ", contact us today by filling out the form below to get a free consultation with an experienced, Oakland-based police civil rights lawyer. We handle cases throughout Northern and Central California."
+          - paragraph [ref=e203]:
+            - text: In order to maximize our time and resources for our current wrongful death and catastrophic injury clients, unfortunately, we cannot respond to inquiries about matters we do not handle.
+            - strong [ref=e204]: We handle only wrongful death and catastrophic permanent injury cases arising from law enforcement or jail misconduct. Thank you for your interest in our work.
+          - generic [ref=e206]:
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - text: Name
+                  - generic [ref=e212]: (Required)
+                - textbox "Name (Required)" [ref=e214]
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - text: Email
+                  - generic [ref=e218]: (Required)
+                - textbox "Email (Required)" [ref=e220]
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - text: Phone
+                  - generic [ref=e224]: (Required)
+                - textbox "Phone (Required)" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - text: Please describe the nature of your case
+                  - generic [ref=e230]: (Required)
+                - textbox "Please describe the nature of your case (Required)" [ref=e232]
+                - generic [ref=e233]: "Please note: if your situation involves law enforcement-related death or catastrophic physical injuries and we may be able to help you, we will respond within 24 hours."
+            - button "Submit" [ref=e235] [cursor=pointer]
+    - contentinfo [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - link "Haddad and Sherwin Homepage" [ref=e241] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/
+              - img "Haddad and Sherwin Homepage" [ref=e242]
+            - paragraph [ref=e244]:
+              - strong [ref=e245]: Haddad & Sherwin LLP
+              - text: 505 17th Street
+              - text: Oakland, California 94612
+              - link "(510) 452-5500" [ref=e246] [cursor=pointer]:
+                - /url: tel:+15104525500
+            - generic [ref=e247]:
+              - link "Facebook link" [ref=e248] [cursor=pointer]:
+                - /url: https://www.facebook.com/HaddadandSherwinLLP/
+                - img [ref=e249]
+              - link "LinkedIn link" [ref=e251] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/haddad-&-sherwin
+                - img [ref=e252]
+          - generic [ref=e254]:
+            - heading "Practice Areas" [level=2] [ref=e255]
+            - navigation "Pratice Areas Navigation" [ref=e256]:
+              - list [ref=e258]:
+                - listitem [ref=e259]:
+                  - link "Civil Rights" [ref=e260] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/civil-rights-attorneys/
+                - listitem [ref=e261]:
+                  - link "Wrongful Death" [ref=e262] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/wrongful-death/
+                - listitem [ref=e263]:
+                  - link "Police Brutality" [ref=e264] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/police-brutality-lawyers/
+                - listitem [ref=e265]:
+                  - link "Catastrophic Injury" [ref=e266] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/catastrophic-injury-attorney/
+                - listitem [ref=e267]:
+                  - link "Excessive Force" [ref=e268] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/excessive-force-attorneys/
+                - listitem [ref=e269]:
+                  - link "Police Shootings" [ref=e270] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/police-shooting-attorneys/
+                - listitem [ref=e271]:
+                  - link "Police Misconduct" [ref=e272] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/police-misconduct-attorneys/
+                - listitem [ref=e273]:
+                  - link "Restraint Asphyxia" [ref=e274] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/restraint-asphyxia-attorneys/
+                - listitem [ref=e275]:
+                  - link "Jail Death & Suicide" [ref=e276] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/jail-death-attorneys/
+                - listitem [ref=e277]:
+                  - link "Excited Delirium" [ref=e278] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/excited-delirium/
+                - listitem [ref=e279]:
+                  - link "Law Enforcement Officer Civil Rights Attorneys" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/when-leo-needs-great-civil-rights-lawyer/
+          - generic [ref=e281]:
+            - heading "Useful Links" [level=2] [ref=e282]
+            - navigation "Footer Navigation" [ref=e283]:
+              - list [ref=e285]:
+                - listitem [ref=e286]:
+                  - link "About Us" [ref=e287] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/our-team/
+                - listitem [ref=e288]:
+                  - link "Blog" [ref=e289] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/blog/
+                - listitem [ref=e290]:
+                  - link "Cities Served" [ref=e291] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/california-cities-served/
+                - listitem [ref=e292]:
+                  - link "Testimonials" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/client-testimonials/
+                - listitem [ref=e294]:
+                  - link "Walls of Justice" [ref=e295] [cursor=pointer]:
+                    - /url: https://www.wallsofjustice.com/
+                - listitem [ref=e296]:
+                  - link "Contact Us" [ref=e297] [cursor=pointer]:
+                    - /url: https://www.haddadandsherwin.com/contact-us/
+        - generic [ref=e298]:
+          - generic:
+            - img "Member of Super Lawyers"
+          - generic:
+            - img "Peer Rates for Highest Level of Professional Excellence by Martindale Hubbell AV Rating"
+          - generic:
+            - img "Member of the Million Dollar Advocates"
+          - generic:
+            - img "Top 100 Trail Lawyers"
+          - generic:
+            - img "Top Attorneys in Northern California in 2020"
+        - generic [ref=e299]:
+          - paragraph [ref=e300]:
+            - text: Law Firm Website Design and Development by
+            - link "Mannix Marketing, Inc." [ref=e301] [cursor=pointer]:
+              - /url: https://www.mannixmarketing.com/
+          - paragraph [ref=e302]:
+            - text: Having trouble using this site?
+            - link "Accessibility" [ref=e303] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/accessibility-statement/
+            - text: is our goal. Please
+            - link "contact us" [ref=e304] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/contact-us/
+            - text: with site improvements.
+            - link "View Sitemap" [ref=e305] [cursor=pointer]:
+              - /url: https://www.haddadandsherwin.com/sitemap/

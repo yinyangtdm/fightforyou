@@ -1,0 +1,914 @@
+- generic [active] [ref=e1]:
+  - link "Move to Top":
+    - /url: "#header"
+  - banner:
+    - generic [ref=e6]:
+      - link "Toggle mobile menu" [ref=e7] [cursor=pointer]:
+        - /url: "#"
+        - text: 
+      - navigation [ref=e8]:
+        - list:
+          - listitem [ref=e9]:
+            - link "Home" [ref=e10] [cursor=pointer]:
+              - /url: https://defenselawindiana.com
+          - listitem [ref=e11]:
+            - link "Make a Payment" [ref=e12] [cursor=pointer]:
+              - /url: https://defenselawindiana.com/payment/
+          - listitem [ref=e13]:
+            - link "Areas of Law" [ref=e14] [cursor=pointer]:
+              - /url: https://defenselawindiana.com/#multifeature
+          - listitem [ref=e16]:
+            - link "Contact Us" [ref=e17] [cursor=pointer]:
+              - /url: https://defenselawindiana.com/#contact
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - heading "Lawyer Josiah Swinney Criminal Attorney, Forfeiture Lawyer, Appeals & Personal Injury, Indianapolis, Indiana LLC" [level=1] [ref=e24]:
+        - text: Lawyer Josiah Swinney
+        - generic [ref=e25]:
+          - text: Criminal Attorney, Forfeiture Lawyer, Appeals &
+          - text: Personal Injury, Indianapolis, Indiana LLC
+      - heading [level=2] [ref=e27]:
+        - generic [ref=e28]:
+          - text: Call me directly at 317-753-7134‬
+          - text: for a free consultation.
+          - text: When facing high-stakes legal battles in Indiana, Attorney Josiah Swinney stands out as the litigator of choice. If your are seeking exceptional legal representation, Josiah delivers expertise in jury trials, court trials, suppression hearings, appeals, complex forfeiture disputes, expungement and personal injury cases involving death or serious bodily injury.
+          - text: Josiah provides focused litigation strategy, unparalleled dedication, meticulous preparation, and a relentless commitment to securing favorable outcomes in Indiana’s most challenging legal battles.
+          - text: If you are in need of a serious litigator for a criminal defense matter, criminal appeal, forfeiture case, or personal injury claim, call Josiah Swinney to discuss your case. Josiah Swinney practices in the entire state of Indiana, including Marion County, Hamilton County, Hendricks County, Boone County, Monroe County, Madison County, Johnson County, Hancock County, Shelby County, Greenfield, Bloomington, Noblesville, Carmel, and Fishers.
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - link "Indiana Criminal Attorney In Indianapolis" [ref=e31] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/
+          - generic [ref=e33]: 
+          - heading "Indiana Criminal Attorney in Indianapolis" [level=3] [ref=e34]
+          - paragraph
+      - listitem [ref=e35]:
+        - link "Constitutional Rights & Suppression Lawyer In Indiana" [ref=e36] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indiana-suppression-law-attorneyconstitutional-rights-litigation/
+          - generic [ref=e38]: 
+          - heading "Constitutional Rights & Suppression Lawyer in Indiana" [level=3] [ref=e39]
+          - paragraph
+      - listitem [ref=e40]:
+        - link "Criminal Appeals Lawyer Indianapolis, Indiana & Federal Court" [ref=e41] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/criminal-appellate-attorney-in-indianapolis-indiana-josiah-swinney-federal-appeals-state-court-appeals/
+          - generic [ref=e43]: 
+          - heading "Criminal Appeals Lawyer Indianapolis, Indiana & Federal Court" [level=3] [ref=e44]
+          - paragraph
+  - generic [ref=e46]:
+    - img "No ALT text found" [ref=e48]
+    - generic [ref=e49]:
+      - paragraph:
+        - img "Awards for Indianapolis Criminal Defense Attorney and Personal Injury Lawyer Josiah Swinney" [ref=e50]
+    - img "Josiah Swinney Criminal Defense Attorney, Forfeiture Lawyer, Appeals Attorney & Personal Injury Lawyer in Indianapolis & Indiana" [ref=e52]
+    - generic [ref=e54]:
+      - text: With over 60 years of combined litigation experience, Josiah Swinney’s team of attorneys guides individuals through complex litigation. Across state and federal courts, Mr. Swinney leads the Personal Injury, Federal Civil Forfeiture, and White Collar Defense Practice. Josiah’s office handles criminal defense litigation, civil defense litigation, appeals, and catastrophic personal injury cases involving death or severe bodily injury. Josiah was recognized by
+      - link "Super Lawyers" [ref=e55] [cursor=pointer]:
+        - /url: https://profiles.superlawyers.com/indiana/indianapolis/lawyer/josiah-swinney/22ef344c-8143-4cce-945f-a89dd7b905d5.html
+      - text: ® in 2022, 2023, 2024, 2025, and 2026. Josiah has been recognized as a Top 100 Trial Attorney by the
+      - link "National Trial Lawyers Association" [ref=e56] [cursor=pointer]:
+        - /url: https://thenationaltriallawyers.org/members/josiah-swinney/
+      - text: . Josiah’s oral arguments and written advocacy have received a
+      - link "commendation from the Chief Judge of the Indiana Court of Appeals" [ref=e57] [cursor=pointer]:
+        - /url: https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=VWenICGM4m3Ai5d0qsvpC3WI_W8_gYLR0dGy4JVPUfNPds1sUpqeC4iplOWe_Xnj0
+      - text: . Josiah has also been named a Top Attorney Rising Star in Indiana by Indianapolis Monthly.
+      - paragraph
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - link "Better Business Bureau":
+            - /url: https://www.bbb.org/us/in/indianapolis/profile/attorneys-lawyers/josiah-swinney-criminal-attorney-forfeiture-lawyer-appeals-personal-injury-indianapolis-in-0382-90066854
+            - img "Better Business Bureau" [ref=e60] [cursor=pointer]
+        - text: In the Indiana Supreme Court, Mr. Swinney
+        - link "successfully litigated" [ref=e61] [cursor=pointer]:
+          - /url: https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=JAPWAZtIb-NUDgPvQtjvaeFfP_aYG4FedL_F62zD18u1efhZYhCSq1GUii_PRq0L0
+        - text: the conviction of a police officer, Thomas Jackson, who had been accused of raping a woman with an intellectual disability.
+        - emphasis [ref=e62]: See Jackson v. State
+        - text: ", 145 N.E.3d 783 (Ind. 2020) ("
+        - link "affirming in relevant part" [ref=e63] [cursor=pointer]:
+          - /url: https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=Rpz6jfZHAfDgW0c9UGlufGNO-tqhAfebblxSoTiOF13CxIYP1ru5EbDGqRz88gE20
+        - emphasis [ref=e64]: Jackson v. State
+        - text: ", 19A-CR-796 (Ind. Ct. App. Dec. 31, 2019)). Swinney"
+        - link "successfully defended" [ref=e65] [cursor=pointer]:
+          - /url: https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=eu6KD8yu2oG38mIXler3DbnjvqHljPoiO_cp8xdR-K_MhSeB9urEiBFePiZondy90
+        - text: "the Putnam County Prosecutor in the dismissal of the following claims: trespass, malicious prosecution, abuse of process, invasion of privacy, false arrest, false imprisonment, improper confinement, emotional distress, and defamation."
+        - emphasis [ref=e66]: Buchanan v. State
+        - text: ", 122 N.E.3d 969, 971 (Ind. Ct. App. 2019). Mr. Swinney also successfully litigated a criminal matter in which a trained boxer was alleged to have intentionally"
+        - link "beaten a two-year-old child to death" [ref=e67] [cursor=pointer]:
+          - /url: https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=DRNIyqZrDkapd7xXZ6uWv1xXYWdyDWFr7ph4nWFLakl01Pzf-gCHFPDQ7gRGK4Gt0
+        - text: .
+        - emphasis [ref=e68]: Vanryn v. State
+        - text: ", 155 N.E.3d 1254 (Ind. Ct. App. 2020). Other"
+        - link "high-profile cases" [ref=e69] [cursor=pointer]:
+          - /url: https://www.wrtv.com/news/local-news/crime/17-year-old-sentenced-to-15-years-in-prison-for-fatally-shooting-intruder-on-family-property
+        - text: include a case where a man was accused of
+        - link "murdering" [ref=e70] [cursor=pointer]:
+          - /url: https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=gSZFY-TV6NtsThmVXbQfNTEEn1pVZShs4XWYqRTjfH3i6ftxSm-_P46HGwh-RozX0
+        - text: an Indianapolis woman and shooting another man, as well as a
+        - link "triple murder" [ref=e71] [cursor=pointer]:
+          - /url: https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=tHOgkP5WMPoOMi1qZH4pMlXNlB-sFrpZ_I5HiCzSLlRqEmG-UHNnf6t5fTkCBCCW0
+        - text: in which a teenager was accused of killing three of his friends.
+        - emphasis [ref=e72]: Woodcock v. State
+        - text: ", 163 N.E.3d 863 (Ind. Ct. App. 2021);"
+        - emphasis [ref=e73]: Pinkston v. State
+        - text: ", 20A-CR-2216 (Ind. Ct. App. 2021). Click the following link to read more about"
+        - link "Josiah Swinney's wins in the Indiana Court of Appeals" [ref=e74] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinneys-wins-in-the-indiana-court-of-appeals/
+        - text: .
+        - paragraph
+        - generic [ref=e75]:
+          - text: A graduate with honors from Indiana University Robert H. McKinney School of Law, Josiah launched his career working under Solicitor General Thomas M. Fisher. During this time, Josiah wrote briefs for multiple cases litigated before the Supreme Court of the United States (including matters that advanced to oral argument) and advised the Indiana Attorney General on strategic multi-state litigation. His exceptional performance led to his appointment as Deputy Attorney General, where he served with distinction.
+          - paragraph
+          - generic [ref=e76]:
+            - text: Josiah’s practice area spans successful complex regulatory investigations of insurance companies to securing safety for the target of a terrorist organization. Swinney has secured six-figure judgments for clients and protected businesses facing allegations of securities fraud. Josiah also secured an outright dismissal of a murder charge. Josiah Swinney has a track record of fighting for his clients and achieving outstanding results.*
+            - paragraph
+            - img "Karen Collins Criminal Defense Attorney, Forfeiture Lawyer, Appeals Attorney & Personal Injury Lawyer in Indianapolis & central Indiana" [ref=e78]
+            - generic [ref=e80]:
+              - text: In 1993, Karen Laine Collins began her career in criminal law in Indianapolis, Indiana representing clients in both State and Federal Court. Over the last 30+ years as a dedicated criminal defense attorney, she has taken countless trials to verdict and freed clients from long periods of incarceration. Karen rose through the ranks at the Marion County Prosecutor’s Office, spending years prosecuting major felonies and heinous sex crimes, honing her deep understanding of the criminal justice system. This prosecutorial experience sharpened her trial skills before she transitioned to elite defense work, where she now fiercely advocates for the accused.
+              - text: As a seasoned criminal defense lawyer, she has represented private clients in high-stakes criminal jury trials and complex civil matters. She now focuses her practice on major felony trial work, Section 1983 civil rights litigation, and vigorously defending clients against unconstitutional government actions. Karen is highly respected for her aggressive courtroom presence, successful trial wins, and expertise in dismissing cases under the Fourth Amendment’s protection from unreasonable searches and seizures — skills built over decades as both a former prosecutor and accomplished criminal attorney. When Karen joined Josiah Swinney in 2025 to restart her full-time criminal defense practice, multiple
+              - link "national news outlets" [ref=e81] [cursor=pointer]:
+                - /url: https://www.imdb.com/news/ni65307829/
+              - link "reported" [ref=e82] [cursor=pointer]:
+                - /url: https://parade.com/entertainment/fans-shocked-by-good-bones-stars-unexpected-career-twist
+              - text: on the
+              - link "two joining forces" [ref=e83] [cursor=pointer]:
+                - /url: https://www.tvinsider.com/1194504/hgtv-good-bones-karen-e-laine-lawyer/
+              - text: ", highlighting her return to protecting constitutional rights in criminal cases. For more on her professional background as a lawyer with over 30 years of experience, view her profile on"
+              - link "LinkedIn" [ref=e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/karen-e-laine-60585b9
+              - text: ", where colleagues praise her trial prowess and prosecutorial insight. You can also find Karen Laine Collins (formerly Karen E. Laine) on"
+              - link "HBO Max" [ref=e85] [cursor=pointer]:
+                - /url: https://www.hbomax.com/shows/good-bones/e791619f-84d1-45dc-985a-29ad06f0b1a2
+              - text: ", where she hosted"
+              - link "Good Bones" [ref=e86] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Good_Bones_(TV_series)
+              - text: for nine seasons. Although she has never stopped litigating, Karen spent her spare time filming the show in the Indianapolis area and donating back to her community. Karen’s performances for audiences of millions further refined her ability to control the courtroom and convey complex arguments to judges and juries across the State of Indiana.
+              - text: She holds a J.D. from the
+              - link "Indiana University Robert H. McKinney School of Law" [ref=e87] [cursor=pointer]:
+                - /url: https://mckinneylaw.iu.edu/news/releases/2022/02/hgtv-designer-karen-e-laine-92-talks-art-law-and-business.html
+              - text: (class of 1992), where she has been recognized as a notable alumna for her extensive work as a prosecutor and criminal defense attorney. Recent coverage of her 2025 career shift back to full-time criminal law further underscores her commitment — see details in articles from
+              - link "EntertainmentNow" [ref=e88] [cursor=pointer]:
+                - /url: https://entertainmentnow.com/hgtv/good-bones-karen-laine-lawyer-indianapolis
+              - text: and other outlets emphasizing her expertise in defending clients charged with crimes.
+              - paragraph
+              - paragraph
+  - heading "Call Lawyer Josiah Swinney for a free consultation. 317-753-7134" [level=2] [ref=e91]:
+    - paragraph [ref=e92]:
+      - text: Call Lawyer Josiah Swinney for a free consultation.
+      - text: 317-753-7134
+  - generic [ref=e94]:
+    - heading "Meet Our Team" [level=2] [ref=e95]
+    - list [ref=e96]:
+      - listitem [ref=e97]:
+        - figure [ref=e98]:
+          - img "Josiah Swinney Top Criminal Attorney in Indianapolis and Hamilton County Indiana" [ref=e99]
+          - generic [ref=e100]:
+            - heading [level=2] [ref=e101]
+            - paragraph [ref=e102]
+          - generic [ref=e104]: Josiah Swinney, Attorney
+      - listitem [ref=e105]:
+        - figure [ref=e106]:
+          - img "Karen Laine Collins Criminal Defense Lawyer in Indianapolis, Carmel and Hendricks County Indiana" [ref=e107]
+          - generic [ref=e108]:
+            - heading [level=2] [ref=e109]
+            - paragraph [ref=e110]
+          - generic [ref=e112]: Karen Collins, Attorney
+      - listitem [ref=e113]:
+        - figure [ref=e114]:
+          - img "No ALT text found" [ref=e115]
+          - generic [ref=e116]:
+            - heading [level=2] [ref=e117]
+            - paragraph [ref=e118]
+          - generic [ref=e120]: Chelsea, Litigation Paralegal
+  - generic [ref=e122]:
+    - heading "What Our Clients Are Saying" [level=2] [ref=e123]
+    - heading [level=3]
+    - list [ref=e124]:
+      - listitem [ref=e125]:
+        - blockquote [ref=e126]:
+          - text: 
+          - paragraph [ref=e127]: ★★★★★ Finding yourself in legal trouble is stressful, and finding the right attorney can feel impossible. Over the past year, I’ve spoken with many attorneys about my criminal case, but none gave me the hope or guidance I needed—until I found Mr. Swinney in Indianapolis. Even though his current caseload prevented him from taking on a new case, he still took the time to listen to my situation, ask thoughtful questions, and provide invaluable advice on how to move forward. That level of care and professionalism is rare, especially when you feel like you’re out of options. If you’re seeking justice and need a skilled criminal defense attorney in Indianapolis, I strongly recommend contacting Mr. Swinney’s office. Good legal representation is worth the cost, and based on my experience, having Mr. Swinney on your side would be an investment in your future.
+        - link "Em" [ref=e128] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e129]:
+        - blockquote [ref=e130]:
+          - text: 
+          - paragraph [ref=e131]: ★★★★★ Outstanding Defense Representation – Highly Recommended! I cannot say enough good things about the legal team at Josiah Swinney Criminal Attorney, Forfeiture Lawyer, Appeals & Personal Injury, Indianapolis, IN. They are without a doubt the best defense attorneys in Hamilton County and the greater Indianapolis area, especially when it comes to complex and high-stakes cases. From the very beginning, their professionalism, integrity, and deep legal knowledge stood out. Communication was clear, timely, and compassionate throughout the entire process. They took the time to truly understand my case, listen to my concerns, and explain every step in a way that made me feel informed and empowered. What really set them apart was their empathy and genuine care. They didn’t treat me like just another case—they treated me like a person, and that made all the difference. Their strategic thinking and courtroom skill were incredibly effective, and the results exceeded my expectations. If you are facing a serious legal challenge in Hamilton County or anywhere in the Indianapolis region, you want this team by your side. Highly recommended—five stars all the way.
+        - link "Alejandro" [ref=e132] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e133]:
+        - blockquote [ref=e134]:
+          - text: 
+          - paragraph [ref=e135]: ★★★★★ One of the best attorneys I have ever worked with, especially with appeals. From the start, Josiah laid out the process of my appeal in a way that we could understand and feel confident and comfortable about. He was incredibly knowledgeable about constitutional rights, the appeals process, and what we could expect from the COA. I would highly recommend Josiah for any of your legal issues, whether you have a misdemeanor or find yourself in major felony court, Josiah has you covered and your absolute best interest in heart.
+        - link "Zachary" [ref=e136] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e137]:
+        - blockquote [ref=e138]:
+          - text: 
+          - paragraph [ref=e139]: ★★★★★ JOSIAH SWINNEY… I want to personally thank Attorney Josiah Swinney for everything he did for me during one of the hardest moments of my life. I was facing a serious charge for something I did not do, and I had an out-of-state warrant that made the whole situation even more overwhelming. Josiah didn’t just treat me like a case — he treated me like a human being. He listened to me, believed in me, and stood by me when it felt like the system already had its mind made up. He walked me through every step and kept me grounded when I felt like everything was falling apart. Because of his hard work and dedication, my entire case was dismissed. Those words changed my life. I’ll never forget how he fought for the truth and helped clear my name. Thank you, Josiah, for giving me a second chance and for standing up for me when I needed it the most. I will always be grateful. JACOB SALATHE…. I want to express my deepest gratitude to Attorney Jacob Salathe. When I was accused of a crime I did not commit and dealing with a complicated out-of-state warrant, I felt hopeless and frustrated. Jacob stepped in and treated my situation with real care and respect. He explained everything clearly and made sure I understood exactly what was happening. He never rushed me, never judged me, and always made sure I knew he was fighting for me. You can tell he truly cares about the people he represents. Thanks to his hard work and commitment, my case was completely dismissed. Hearing those words lifted a weight I had carried for far too long. Jacob helped me finally breathe again. I will always appreciate the time, effort, and dedication he put into my case. Thank you, Jacob, for believing in me and helping me get my life back on track.
+        - link "Terrance" [ref=e140] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e141]:
+        - blockquote [ref=e142]:
+          - text: 
+          - paragraph [ref=e143]: ★★★★★ THANK YOU JOSIAH !!!! I cannot thank Attorney Josiah Sweeney enough for what he did for our family. My husband Terrance was facing a serious charge for a crime he did not commit, and there was even an out-of-state warrant hanging over him. We were scared and felt completely defeated, but Josiah stepped in with calm confidence and true compassion. He took the time to understand every detail, believed in Terrance’s innocence, and guided us through a process that felt impossible on our own. Josiah went above and beyond dealing with the confusion and complications that come with an out-of-state warrant — something most attorneys struggle with. Because of his hard work, attention to detail, and relentless effort, Terrance’s entire case was dismissed. Josiah didn’t just give us legal help — he gave my husband his life back and gave our family peace again. If you want an attorney who will truly fight for you, especially in complicated situations like out-of-state warrants, Josiah Sweeney is absolutely the one you want on your side. We are forever grateful. And to JACOB SALATHE… I am incredibly grateful for Attorney Jacob Salathe and the way he handled my husband Terrance’s case. Terrance was being accused of something he did not do and was facing an out-of-state warrant, which made the entire situation even more stressful and overwhelming. Jacob stepped in with patience, professionalism, and genuine care. He explained everything clearly, took the time to listen, and never made us feel rushed or ignored. He understood how complicated an out-of-state warrant can be and handled every detail with precision and determination. Because of Jacob’s dedication and the effort he put into uncovering the truth, Terrance’s case was completely dismissed. Hearing those words lifted a weight off our entire family. Jacob stood by us when we felt like we had nowhere else to turn, and we will never forget that. If you need an attorney who truly shows up — especially for complex situations involving out-of-state warrants — Jacob Salathe is the one you want fighting for you. Our family will always be thankful for him.
+        - link "Chanda" [ref=e144] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e145]:
+        - blockquote [ref=e146]:
+          - text: 
+          - paragraph [ref=e147]: ★★★★★ He is amazing. I literally trusted this guy with my life and he came through. He cares about the cases he takes on and makes them a priority. I was never in the dark about anything. He was very responsive. I was facing a Felony charge in which I was wrongfully accused. He had my back the whole time. If I would have had any other attorney, I would not have seen my Not Guilty outcome. I had a different attorney before I found Mr. Swinney. Seriously, just call him and see what he can do for you.
+        - link "Lindsey" [ref=e148] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e149]:
+        - blockquote [ref=e150]:
+          - text: 
+          - paragraph [ref=e151]: ⭐️⭐️⭐️⭐️⭐️ I cannot recommend Jacob Salathe enough! He handled my misdemeanor case with exceptional professionalism, knowledge, and care. From start to finish, he made the entire process easy to understand and guided me every step of the way. Jacob’s support and expertise made a stressful situation much more manageable, and I am extremely grateful for his help. A true advocate who goes above and beyond for his clients!
+        - link "Sarah" [ref=e152] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e153]:
+        - blockquote [ref=e154]:
+          - text: 
+          - paragraph [ref=e155]: ★★★★★ Josiah Swinney and his team are fantastic. He helped me greatly when I was facing legal trouble. I had the utmost confidence in him and his team, and never once did I feel he was not doing all he could. His professionalism, timeliness, and compassionate understanding for his clients supercedes any other defense attorney in the Central Indiana area. His accolades and awards he has earned through his work was notably visible in and out of the court room. I would, with no doubt in my mind, recommend Josiah Swinney to anyone in need of top notch legal defense.
+        - link "Ian" [ref=e156] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e157]:
+        - blockquote [ref=e158]:
+          - text: 
+          - paragraph [ref=e159]: ★★★★★ I left a review once and it didn't stick I guess or maybe it did and I didn't see it, none the less, I just wanna say this guy is beyond amazing! I had warrants for me from when I was 18 it was a whole mess that was dragged out till I was 28. I am JUST NOW FINALLY after hiring Josiah walking away with a fine and if I stay out of trouble they will just drop it. If you are in a tight bind or have a simple case like mine that was just over complicated...this is your guy!!!! 1000/10 def recomend!!
+        - link "Harmony" [ref=e160] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e161]:
+        - blockquote [ref=e162]:
+          - text: 
+          - paragraph [ref=e163]: ★★★★★ Karen is absolutely wonderful to work with. She is a caring person who truly wants justice to be served. She helped me with a situation involving my elderly mother and had it taken care of in no time. I cannot say enough good things about her! If you find yourself in a circumstance needing legal help, you won’t regret hiring Karen!
+        - link "Denise" [ref=e164] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e165]:
+        - blockquote [ref=e166]:
+          - text: 
+          - paragraph [ref=e167]: ★★★★★ Josiah is very professional and to the point. The misdemeanor charge that was not a crime until 1996, was granted a diversion. Money well spent. Professional staff that usually respond within 24hours from any form of communication. Will call again if I get stuck on airport property, or accidentally fish in a federal reserve, or violate an ordinance from snoring to loud!
+        - link "Adam" [ref=e168] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e169]:
+        - blockquote [ref=e170]:
+          - text: 
+          - paragraph [ref=e171]: ★★★★★ Mr. Swinney went above and beyond in my opinion to help my family during a very difficult time. During our first consultation I knew he was the one to get the job done and he did not disappoint. He was easy to work with, responsive, and down to earth. I would not hesitate to hire him again or refer him to others.
+        - link "Ruth" [ref=e172] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e173]:
+        - blockquote [ref=e174]:
+          - text: 
+          - paragraph [ref=e175]: ★★★★★ If you need representation in a criminal case or need assistance with an appeal, Josiah is your guy. It’s unfortunate I didn’t find him until after the fact but he still went above and beyond for me. He will be honest and most certainly have your well being in mind! If I could rate 10, I would.
+        - link "Amanda" [ref=e176] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e177]:
+        - blockquote [ref=e178]:
+          - text: 
+          - paragraph [ref=e179]: ★★★★★ I had an excellent experience working with Josiah Swinney. They were professional, responsive, and made sure I understood every step of the process. Their expertise and attention to detail gave me confidence throughout my case. I truly felt like they had my best interests in mind, and the outcome exceeded my expectations. I highly recommend them to anyone in need of legal assistance.
+        - link "Carson" [ref=e180] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e181]:
+        - blockquote [ref=e182]:
+          - text: 
+          - paragraph [ref=e183]: ★★★★★ Mr. Swinney was amazing. He was incredibly thorough, knowledgeable, and dedicated to my case. Thanks to his hard work and expertise, he got not only my case but 4 of my friends cases dismissed as well. Mr. Swinney made the entire process much less stressful, always keeping us informed and confident in the outcome. Highly recommend :)
+        - link "Kaitlin" [ref=e184] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e185]:
+        - blockquote [ref=e186]:
+          - text: 
+          - paragraph [ref=e187]: ★★★★★ I had an excellent experience with Josiah Swinney. He was responsive and was always available to answer any question I had. He achieved a better outcome for my case than I could have ever asked for or imagined, I am very grateful for his hard work. I would highly recommend him to anyone in need of a reliable attorney!
+        - link "Darren" [ref=e188] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e189]:
+        - blockquote [ref=e190]:
+          - text: 
+          - paragraph [ref=e191]: I was so grateful that I came in contact with Karen, from the moment we talked she was very compassionate and listened to me and my situation. She immediately started working on my case. And you can tell she’s a very caring person and wants justice for her clients. If you should find yourself in a legal situation you will not be disappointed with the results.
+        - link "Nicole" [ref=e192] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e193]:
+        - blockquote [ref=e194]:
+          - text: 
+          - paragraph [ref=e195]: ★★★★★ Josiah and his team were wonderful to work with. He was patient, kind, understanding, and most of all knowledgeable about the case. He didn’t make promises he couldn’t keep, It kept me apprised and calm during the whole process. I couldn’t have asked for a better lawyer, and we got the best possible outcome for my situation.
+        - link "Jimi" [ref=e196] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e197]:
+        - blockquote [ref=e198]:
+          - text: 
+          - paragraph [ref=e199]: ★★★★★ Great attorney worth every penny! Couldn’t have asked for better he went above and beyond my expectations. Hopefully i don’t need his services again but if I ever do I’ll surely be a return client.
+        - link "Mike" [ref=e200] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e201]:
+        - blockquote [ref=e202]:
+          - text: 
+          - paragraph [ref=e203]: ★★★★★ Josiah is one of a kind! Does his job, works with you, keeps you up to date on information, and absolutely did a wonderful job with my case! I would recommend him to anyone, and will do so if the opportunity presents itself. Thank You Josiah, you are greatly appreciated!!
+        - link "Katelin" [ref=e204] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e205]:
+        - blockquote [ref=e206]:
+          - text: 
+          - paragraph [ref=e207]: ★★★★★ Josiah Swinney help me with my criminal case and I totally recommend him he is a great attorney
+        - link "Darnell" [ref=e208] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e209]:
+        - blockquote [ref=e210]:
+          - text: 
+          - paragraph [ref=e211]: ★★★★★ Josiah advocates for his clients relentlessly. I am highly confident in his abilities and associated outcomes.
+        - link "Ben" [ref=e212] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e213]:
+        - blockquote [ref=e214]:
+          - text: 
+          - paragraph [ref=e215]: ★★★★★ Josiah is great. Communication throughout the whole process. His fees are very reasonable. Hopefully I don't need him again but I will definitely save his information.
+        - link "Shelly" [ref=e216] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e217]:
+        - blockquote [ref=e218]:
+          - text: 
+          - paragraph [ref=e219]: ★★★★★ He was very knowledgable and helpful with my sons case dismissed . I would highly recommend! Very nice guy to work with!!
+        - link "Darla" [ref=e220] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e221]:
+        - blockquote [ref=e222]:
+          - text: 
+          - paragraph [ref=e223]: ★★★★★ Josiah delivered on his word and followed up to do the right thing. He is a good attorney and does not give up. Highly recommend!
+        - link "Aaron" [ref=e224] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e225]:
+        - blockquote [ref=e226]:
+          - text: 
+          - paragraph [ref=e227]: Josiah Swinney is an excellent attorney. He really cared about my case and fought to get the best results. He goes above and beyond the call of duty to help wherever he can. Josiah knows the law and he knows the courts and I am really happy to have him on my side. I would highly recommend him to anyone who needs legal help.
+        - link "Frank" [ref=e228] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e229]:
+        - blockquote [ref=e230]:
+          - text: 
+          - paragraph [ref=e231]: ★★★★★ My family in Indianapolis recommended Josiah Swinney to me and I have been incredibly satisfied with their work!
+        - link "Jody" [ref=e232] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e233]:
+        - blockquote [ref=e234]:
+          - text: 
+          - paragraph [ref=e235]: ★★★★★ Best around. Works with you and fights for what you deserve. Call Josiah if you need anything! He’s the best!
+        - link "Jeffrey" [ref=e236] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e237]:
+        - blockquote [ref=e238]:
+          - text: 
+          - paragraph [ref=e239]: ★★★★★ Josiah Swinney handled my assault charge in Indiana. Awesome criminal defense attorney in Indianapolis. Case dismissed—couldn’t ask for more!
+        - link "Chaz" [ref=e240] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e241]:
+        - blockquote [ref=e242]:
+          - text: 
+          - paragraph [ref=e243]: ★★★★★ I was looking At 8 Count a felony charges and Josiah Swinney help me where I did not get a charge at all big thanks to him
+        - link "Bradley" [ref=e244] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e245]:
+        - blockquote [ref=e246]:
+          - text: 
+          - paragraph [ref=e247]: ★★★★★ Helped get my buddies case dropped super fast. Told me to call Josiah for all my questions for any future case.
+        - link "Gerik" [ref=e248] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e249]:
+        - blockquote [ref=e250]:
+          - text: 
+          - paragraph [ref=e251]: ★★★★★ Josiah was quick, fast and professional and got my buddies case dismissed super fast!! Highly recommend.
+        - link "Kole" [ref=e252] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e253]:
+        - blockquote [ref=e254]:
+          - text: 
+          - paragraph [ref=e255]: ★★★★★ Buddy highly recommends for all work will use him later on👍
+        - link "Anonymous" [ref=e256] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e257]:
+        - blockquote [ref=e258]:
+          - text: 
+          - paragraph [ref=e259]: ★★★★★ Great guy, helped me get my case dismissed and was confident in that from the beginning
+        - link "Brandon" [ref=e260] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e261]:
+        - blockquote [ref=e262]:
+          - text: 
+          - paragraph [ref=e263]: ★★★★★ Best attorney I’ve ever come across in my 40 years living in the state, shows real care for his clients.
+        - link "G" [ref=e264] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e265]:
+        - blockquote [ref=e266]:
+          - text: 
+          - paragraph [ref=e267]: ★★★★★ Josiah is the best. Incredibly smart and cares about his clients.
+        - link "Max" [ref=e268] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e269]:
+        - blockquote [ref=e270]:
+          - text: 
+          - paragraph [ref=e271]: ★★★★★ Incredible in your corner of the court- the ultimate forfeiture attorney you want on your case.
+        - link "Daniel" [ref=e272] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e273]:
+        - blockquote [ref=e274]:
+          - text: 
+          - paragraph [ref=e275]: ★★★★★ Josiah is an exceptional attorney. Smart, responsive, and effective. Highly recommend for anyone in need of strong legal representation!
+        - link "Maya" [ref=e276] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e277]:
+        - blockquote [ref=e278]:
+          - text: 
+          - paragraph [ref=e279]: ★★★★★ Helped my buddy get his case dismissed, this guy works wonders!
+        - link "Jon" [ref=e280] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e281]:
+        - blockquote [ref=e282]:
+          - text: 
+          - paragraph [ref=e283]: ★★★★★ Attorney Josiah Swinney successfully had my case dismissed.
+        - link "Ivan" [ref=e284] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+      - listitem [ref=e285]:
+        - blockquote [ref=e286]:
+          - text: 
+          - paragraph [ref=e287]: ★★★★★ Helped get my sons case dismissed very fast. Highly recommend!
+        - link "David" [ref=e288] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e289]:
+        - blockquote [ref=e290]:
+          - text: 
+          - paragraph [ref=e291]: ★★★★★ Helped get my friend’s case dismissed easy and fast!
+        - link "Braxton" [ref=e292] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e293]:
+        - blockquote [ref=e294]:
+          - text: 
+          - paragraph [ref=e295]: ★★★★★ The best attorney around! I highly recommend!
+        - link "Gaven" [ref=e296] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e297]:
+        - blockquote [ref=e298]:
+          - text: 
+          - paragraph [ref=e299]: ★★★★★ Great guy always looking for the best route to go.
+        - link "James" [ref=e300] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e301]:
+        - blockquote [ref=e302]:
+          - text: 
+          - paragraph [ref=e303]: ★★★★★ Amazing Lawyer. Would recommend and work with again.
+        - link "Ethan" [ref=e304] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e305]:
+        - blockquote [ref=e306]:
+          - text: 
+          - paragraph [ref=e307]: ★★★★★ I cannot imagine going to another forfeiture lawyer. Great practice.
+        - link "John" [ref=e308] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e309]:
+        - blockquote [ref=e310]:
+          - text: 
+          - paragraph [ref=e311]: ★★★★★ The most reasonable legal fees by far. Very helpful, kind and competent.
+        - link "James" [ref=e312] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e313]:
+        - blockquote [ref=e314]:
+          - text: 
+          - paragraph [ref=e315]: ★★★★★ Best experience I've had with any lawyer in indianapolis
+        - link "Tristan" [ref=e316] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e317]:
+        - blockquote [ref=e318]:
+          - text: 
+          - paragraph [ref=e319]: ★★★★★ Good lawyer, really appreciate his help with my case.
+        - link "Cohen" [ref=e320] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e321]:
+        - blockquote [ref=e322]:
+          - text: 
+          - paragraph [ref=e323]: ★★★★★ This guy really cares about his clients 10/10
+        - link "Skipper" [ref=e324] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e325]:
+        - blockquote [ref=e326]:
+          - text: 
+          - paragraph [ref=e327]: ★★★★★ Got my case dismissed, really nice guy and good lawyer
+        - link "Scott" [ref=e328] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e329]:
+        - blockquote [ref=e330]:
+          - text: 
+          - paragraph [ref=e331]: ★★★★★ Josiah and his team are great!! He help me with my criminal case that was pending 6 years to 2 year diversion with expungement after the terms. His upfront and fight to help his clients is fantastic and I highly recommend him on anything
+        - link "Donovan" [ref=e332] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e333]:
+        - blockquote [ref=e334]:
+          - text: 
+          - paragraph [ref=e335]: ★★★★★ Jake was my son's attorney, we could not have asked for a more qualified and professional person. He fought hard and got us a not guilty verdict. He is trial ready and he's cool and calm. I would highly recommend him and greatly appreciate what he did for us.
+        - link "Brenda" [ref=e336] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e337]:
+        - blockquote [ref=e338]:
+          - text: 
+          - paragraph [ref=e339]: ★★★★★ Amazing work that was done. He works hard for his client. He kept his client well informed and was able to succeed beyond expectation. Bravo
+        - link "Angela" [ref=e340] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e341]:
+        - blockquote [ref=e342]:
+          - text: 
+          - paragraph [ref=e343]: ★★★★★ The best lawyer money can buy
+        - link "Samuel" [ref=e344] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e345]:
+        - blockquote [ref=e346]:
+          - text: 
+          - paragraph [ref=e347]: ★★★★★ Really great place thank you to everyone who helped me
+        - link "Jonah" [ref=e348] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e349]:
+        - blockquote [ref=e350]:
+          - text: 
+          - paragraph [ref=e351]: ★★★★★ Great lawyer, helped a lot.
+        - link "Piper" [ref=e352] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e353]:
+        - blockquote [ref=e354]:
+          - text: 
+          - paragraph [ref=e355]: ★★★★★ Handled my case super well!
+        - link "Anonymous" [ref=e356] [cursor=pointer]:
+          - /url: " https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,17z/data=!4m8!3m7!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!9m1!1b1!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"
+      - listitem [ref=e357]:
+        - blockquote [ref=e358]:
+          - text: 
+          - paragraph [ref=e359]: ★★★★★ Good lawyer if you need one.
+        - link "Shug" [ref=e360] [cursor=pointer]:
+          - /url: https://www.google.com/maps/place/Josiah+Swinney,+Criminal+Attorney,+Appeals+%26+Personal+Injury+Lawyer,+Indianapolis,+IN/@39.7802878,-86.153651,935m/data=!3m2!1e3!4b1!4m6!3m5!1s0x886b51492c3ed1a9:0x5f0b31160d5070ff!8m2!3d39.7802878!4d-86.153651!16s%2Fg%2F11y7r3h23z?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D
+  - generic [ref=e363]:
+    - heading "Areas of Law" [level=2]
+    - heading [level=3]
+    - list [ref=e364]:
+      - listitem [ref=e365]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e366] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/
+          - generic [ref=e368]: 
+        - link "Criminal Attorney Indianapolis" [ref=e369] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/
+          - heading "Criminal Attorney Indianapolis" [level=3] [ref=e370]
+        - paragraph
+      - listitem [ref=e371]:
+        - link "Indiana Suppression Law Attorneyconstitutional Rights Litigation" [ref=e372] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/indiana-suppression-law-attorneyconstitutional-rights-litigation/
+          - generic [ref=e374]: 
+        - link "Indiana Criminal Suppression Lawyer And The 4th Amendment Of The US Constitution" [ref=e375] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/indiana-suppression-law-attorneyconstitutional-rights-litigation/
+          - heading "Indiana Criminal Suppression Lawyer and the 4th Amendment of the US Constitution" [level=3] [ref=e376]
+        - paragraph
+      - listitem [ref=e377]:
+        - link "Josiah Swinney Criminal Attorney In Indianapolis" [ref=e378] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/#Criminal_Suppression_Lawyer_and_Article_1_Section_11_of_the_Indiana_Constitution
+          - generic [ref=e380]: 
+        - link "Criminal Suppression Law And Article 1 Section 11 Of The Indiana Constitution" [ref=e381] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/#Criminal_Suppression_Lawyer_and_Article_1_Section_11_of_the_Indiana_Constitution
+          - heading "Criminal Suppression Law and Article 1 Section 11 of the Indiana Constitution" [level=3] [ref=e382]
+        - paragraph
+      - listitem [ref=e383]:
+        - link "Criminal Appellate Attorney In Indianapolis Indiana Josiah Swinney Federal Appeals State Court Appeals" [ref=e384] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/criminal-appellate-attorney-in-indianapolis-indiana-josiah-swinney-federal-appeals-state-court-appeals/#Indiana_State_Court-Criminal_Appellate_Attorney
+          - generic [ref=e386]: 
+        - link "Indiana State Court Criminal Appeals Attorney" [ref=e387] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/criminal-appellate-attorney-in-indianapolis-indiana-josiah-swinney-federal-appeals-state-court-appeals/#Indiana_State_Court-Criminal_Appellate_Attorney
+          - heading "Indiana State Court Criminal Appeals Attorney" [level=3] [ref=e388]
+        - paragraph
+      - listitem [ref=e389]:
+        - link "Criminal Appellate Attorney In Indianapolis Indiana Josiah Swinney Federal Appeals State Court Appeals" [ref=e390] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/criminal-appellate-attorney-in-indianapolis-indiana-josiah-swinney-federal-appeals-state-court-appeals/#Indiana_Federal_Court-Criminal_Appellate_Lawyer
+          - generic [ref=e392]: 
+        - link "Federal Court Criminal Appeals Lawyer In Indiana" [ref=e393] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/criminal-appellate-attorney-in-indianapolis-indiana-josiah-swinney-federal-appeals-state-court-appeals/#Indiana_Federal_Court-Criminal_Appellate_Lawyer
+          - heading "Federal Court Criminal Appeals Lawyer in Indiana" [level=3] [ref=e394]
+        - paragraph
+      - listitem [ref=e395]:
+        - link "Indianapolis Indiana Premises Liability Injury Attorney" [ref=e396] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indianapolis-indiana-premises-liability-injury-attorney/
+          - generic [ref=e398]: 
+        - link "Indianapolis, Indiana Premises Liability Property Injury Attorney" [ref=e399] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indianapolis-indiana-premises-liability-injury-attorney/
+          - heading "Indianapolis, Indiana Premises Liability Property Injury Attorney" [level=3] [ref=e400]
+        - paragraph
+      - listitem [ref=e401]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e402] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#The_5th_Amendment_to_the_US_Constitution_and_the_Right_to_Remain_Silent
+          - generic [ref=e404]: 
+        - link "The 5th Amendment To The US Constitution And The Right To Remain Silent" [ref=e405] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#The_5th_Amendment_to_the_US_Constitution_and_the_Right_to_Remain_Silent
+          - heading "The 5th Amendment to the US Constitution and the Right to Remain Silent" [level=3] [ref=e406]
+        - paragraph
+      - listitem [ref=e407]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e408] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Jury_Trial_Criminal_Attorney_in_Indianapolis
+          - generic [ref=e410]: 
+        - link "Jury Trial Criminal Attorney In Indianapolis" [ref=e411] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Jury_Trial_Criminal_Attorney_in_Indianapolis
+          - heading "Jury Trial Criminal Attorney in Indianapolis" [level=3] [ref=e412]
+        - paragraph
+      - listitem [ref=e413]:
+        - link "Indiana Expungement Law Explained" [ref=e414] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/student-information/indiana-expungement-law-explained/
+          - generic [ref=e416]: 
+        - link "Decoding The Indiana Expungement Law" [ref=e417] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/student-information/indiana-expungement-law-explained/
+          - heading "Decoding the Indiana Expungement Law" [level=3] [ref=e418]
+        - paragraph
+      - listitem [ref=e419]:
+        - link "Indiana Expungement Law Guide Faq Cheat Sheets" [ref=e420] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/student-information/indiana-expungement-law-guide-faq-cheat-sheets/#Indiana_Expungement_Law_Cheat_Sheet_Pamphlets
+          - generic [ref=e422]: 
+        - link "Indiana Expungement Cheat Sheet" [ref=e423] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/student-information/indiana-expungement-law-guide-faq-cheat-sheets/#Indiana_Expungement_Law_Cheat_Sheet_Pamphlets
+          - heading "Indiana Expungement Cheat Sheet" [level=3] [ref=e424]
+        - paragraph
+      - listitem [ref=e425]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e426] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Criminal_Attorney_Defending_Drug_and_Firearm_Cases
+          - generic [ref=e428]: 
+        - link "Criminal Attorney Defending Drug & Firearm Cases" [ref=e429] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Criminal_Attorney_Defending_Drug_and_Firearm_Cases
+          - heading "Criminal Attorney Defending Drug & Firearm Cases" [level=3] [ref=e430]
+        - paragraph
+      - listitem [ref=e431]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e432] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Murder_and_Homicide_Criminal_Defense_Lawyer
+          - generic [ref=e434]: 
+        - link "Murder & Homicide Legal Defense" [ref=e435] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Murder_and_Homicide_Criminal_Defense_Lawyer
+          - heading "Murder & Homicide Legal Defense" [level=3] [ref=e436]
+        - paragraph
+      - listitem [ref=e437]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e438] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Sex_Crime_Defense_Lawyer_in_Indiana
+          - generic [ref=e440]: 
+        - link "Sex Crimes Defense Lawyer In Indianapolis" [ref=e441] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Sex_Crime_Defense_Lawyer_in_Indiana
+          - heading "Sex Crimes Defense Lawyer in Indianapolis" [level=3] [ref=e442]
+        - paragraph
+      - listitem [ref=e443]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e444] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Domestic_Violence_Defense_Attorney_in_Indianapolis
+          - generic [ref=e446]: 
+        - link "Domestic Violence Defense Attorney" [ref=e447] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Domestic_Violence_Defense_Attorney_in_Indianapolis
+          - heading "Domestic Violence Defense Attorney" [level=3] [ref=e448]
+        - paragraph
+      - listitem [ref=e449]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e450] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Federal_Criminal_Defense_Lawyer_in_Indiana
+          - generic [ref=e452]: 
+        - link "Federal Criminal Defense Lawyer In Indiana" [ref=e453] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Federal_Criminal_Defense_Lawyer_in_Indiana
+          - heading "Federal Criminal Defense Lawyer in Indiana" [level=3] [ref=e454]
+        - paragraph
+      - listitem [ref=e455]:
+        - link "Can I Expunge My Record Myself In Indiana" [ref=e456] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/indiana-expungement-attorney/can-i-expunge-my-record-myself-in-indiana/
+          - generic [ref=e458]: 
+        - link "Do I Need A Lawyer To Expunge My Record In Indiana?" [ref=e459] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/indiana-expungement-attorney/can-i-expunge-my-record-myself-in-indiana/
+          - heading "Do I need a lawyer to Expunge my record in Indiana?" [level=3] [ref=e460]
+        - paragraph
+      - listitem [ref=e461]:
+        - link "Top 10 Criminal Defense Attorneys In Indianapolis In" [ref=e462] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/top-10-criminal-defense-attorneys-in-indianapolis-in/
+          - generic [ref=e464]: 
+        - link "Top 10 Criminal Defense Attorneys In Indianapolis, IN" [ref=e465] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/top-10-criminal-defense-attorneys-in-indianapolis-in/
+          - heading "Top 10 Criminal Defense Attorneys in Indianapolis, IN" [level=3] [ref=e466]
+        - paragraph
+      - listitem [ref=e467]:
+        - link "Marion County Indiana Expungement Attorney Criminal Defense Lawyer Jeff Cardella" [ref=e468] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/marion-county-indiana-expungement-attorney-criminal-defense-lawyer-jeff-cardella/
+          - generic [ref=e470]: 
+        - link "Indianapolis Expungement" [ref=e471] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/marion-county-indiana-expungement-attorney-criminal-defense-lawyer-jeff-cardella/
+          - heading "Indianapolis Expungement" [level=3] [ref=e472]
+        - paragraph
+      - listitem [ref=e473]:
+        - link "Josiah Day Criminal Attorney In Indianapolis" [ref=e474] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Federal_Criminal_Defense_Lawyer_in_Indiana
+          - generic [ref=e476]: 
+        - link "White Collar Criminal Defense Lawyer In Indiana" [ref=e477] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-day-criminal-attorney-in-indianapolis/#Federal_Criminal_Defense_Lawyer_in_Indiana
+          - heading "White Collar Criminal Defense Lawyer in Indiana" [level=3] [ref=e478]
+        - paragraph
+      - listitem [ref=e479]:
+        - link "Indiana Expungement Tips And Tricks" [ref=e480] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/indiana-expungement-attorney/indiana-expungement-tips-and-tricks/
+          - generic [ref=e482]: 
+        - link "Indiana Expungement Law Advice" [ref=e483] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/indiana-expungement-attorney/indiana-expungement-tips-and-tricks/
+          - heading "Indiana Expungement Law Advice" [level=3] [ref=e484]
+        - paragraph
+      - listitem [ref=e485]:
+        - link "Indiana Suppression Law Attorneyconstitutional Rights Litigation" [ref=e486] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indiana-suppression-law-attorneyconstitutional-rights-litigation/
+          - generic [ref=e488]: 
+        - link "Suppression Attorney For Criminal Cases In Indiana" [ref=e489] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indiana-suppression-law-attorneyconstitutional-rights-litigation/
+          - heading "Suppression Attorney for Criminal Cases in Indiana" [level=3] [ref=e490]
+        - paragraph
+      - listitem [ref=e491]:
+        - link "Indiana Expungement Attorney" [ref=e492] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/indiana-expungement-attorney/
+          - generic [ref=e494]: 
+        - link "Indiana Expungement Lawyer" [ref=e495] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/indiana-expungement-attorney/
+          - heading "Indiana Expungement Lawyer" [level=3] [ref=e496]
+        - paragraph
+      - listitem [ref=e497]:
+        - link "Suppression Law Understanding Your Rights" [ref=e498] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/suppression-law-understanding-your-rights/
+          - generic [ref=e500]: 
+        - 'link "Suppression Law: Understanding Your Rights" [ref=e501] [cursor=pointer]':
+          - /url: https://defenselawindiana.com/suppression-law-understanding-your-rights/
+          - 'heading "Suppression Law: Understanding Your Rights" [level=3] [ref=e502]'
+        - paragraph
+      - listitem [ref=e503]:
+        - link "Challenging A Search Or Seizure When Police Have A Warrant" [ref=e504] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/challenging-a-search-or-seizure-when-police-have-a-warrant/
+          - generic [ref=e506]: 
+        - link "Challenging A Search Or Seizure When Police Have A Warrant" [ref=e507] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/challenging-a-search-or-seizure-when-police-have-a-warrant/
+          - heading "Challenging a Search or Seizure When Police Have a Warrant" [level=3] [ref=e508]
+        - paragraph
+      - listitem [ref=e509]:
+        - link "Federal Asset Forfeiture Attorney In Indiana Josiah Swinney Indianapolis Lawyer" [ref=e510] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/federal-asset-forfeiture-attorney-in-indiana-josiah-swinney-indianapolis-lawyer/
+          - generic [ref=e512]: 
+        - link "Federal Asset Forfeiture Attorney In Indiana" [ref=e513] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/federal-asset-forfeiture-attorney-in-indiana-josiah-swinney-indianapolis-lawyer/
+          - heading "Federal Asset Forfeiture Attorney in Indiana" [level=3] [ref=e514]
+        - paragraph
+      - listitem [ref=e515]:
+        - link "Is Spanking Legal In Indiana Laws On Parental Discipline" [ref=e516] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/is-spanking-legal-in-indiana-laws-on-parental-discipline/
+          - generic [ref=e518]: 
+        - link "Is Spanking Legal In Indiana? Parental Discipline Laws And Corporal Punishment" [ref=e519] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/is-spanking-legal-in-indiana-laws-on-parental-discipline/
+          - heading "Is Spanking Legal in Indiana? Parental Discipline Laws and Corporal Punishment" [level=3] [ref=e520]
+        - paragraph
+      - listitem [ref=e521]:
+        - link "Indianapolis Indiana Personal Injury Car Motorcycle And Truck Accident Lawyer" [ref=e522] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-indianapolis-personal-injury-attorney/indianapolis-indiana-personal-injury-car-motorcycle-and-truck-accident-lawyer/
+          - generic [ref=e524]: 
+        - link "Indianapolis, Indiana Personal Injury Car Motorcycle, And Truck Accident Lawyer" [ref=e525] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-indianapolis-personal-injury-attorney/indianapolis-indiana-personal-injury-car-motorcycle-and-truck-accident-lawyer/
+          - heading "Indianapolis, Indiana Personal Injury Car Motorcycle, and Truck Accident Lawyer" [level=3] [ref=e526]
+        - paragraph
+      - listitem [ref=e527]:
+        - link "Josiah Swinney Indianapolis Personal Injury Attorney" [ref=e528] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-indianapolis-personal-injury-attorney/
+          - generic [ref=e530]: 
+        - link "Indianapolis Personal Injury Attorney" [ref=e531] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-indianapolis-personal-injury-attorney/
+          - heading "Indianapolis Personal Injury Attorney" [level=3] [ref=e532]
+        - paragraph
+      - listitem [ref=e533]:
+        - link "Federal Drug Charges Indiana Criminal Defense Attorney Josiah Swinney" [ref=e534] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/federal-drug-charges-indiana-criminal-defense-attorney-josiah-swinney/
+          - generic [ref=e536]: 
+        - link "Federal Drug Charges – Indiana Criminal Defense Attorney" [ref=e537] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/federal-drug-charges-indiana-criminal-defense-attorney-josiah-swinney/
+          - heading "Federal Drug Charges – Indiana Criminal Defense Attorney" [level=3] [ref=e538]
+        - paragraph
+      - listitem [ref=e539]:
+        - link "Indianapolis Indiana Wrongful Death Attorney" [ref=e540] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indianapolis-indiana-wrongful-death-attorney/
+          - generic [ref=e542]: 
+        - link "Indianapolis, Indiana Wrongful Death Attorney Josiah Swinney" [ref=e543] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indianapolis-indiana-wrongful-death-attorney/
+          - heading "Indianapolis, Indiana Wrongful Death Attorney Josiah Swinney" [level=3] [ref=e544]
+        - paragraph
+      - listitem [ref=e545]:
+        - link "Indianapolis Indiana Product Liability Injury Lawyer" [ref=e546] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indianapolis-indiana-product-liability-injury-lawyer/
+          - generic [ref=e548]: 
+        - link "Indianapolis Indiana Product Liability Injury Lawyer" [ref=e549] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indianapolis-indiana-product-liability-injury-lawyer/
+          - heading "Indianapolis Indiana product Liability Injury Lawyer" [level=3] [ref=e550]
+        - paragraph
+      - listitem [ref=e551]:
+        - link "When Should I Hire A Criminal Defense Attorney In Indianapolis Josiah Swinney" [ref=e552] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/when-should-i-hire-a-criminal-defense-attorney-in-indianapolis-josiah-swinney/
+          - generic [ref=e554]: 
+        - link "When Should I Hire A Criminal Defense Attorney In Indianapolis" [ref=e555] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/when-should-i-hire-a-criminal-defense-attorney-in-indianapolis-josiah-swinney/
+          - heading "When Should I Hire a Criminal Defense Attorney in Indianapolis" [level=3] [ref=e556]
+        - paragraph
+      - listitem [ref=e557]:
+        - link "Kidnapping And Criminal Confinement Defense Lawyer In Indianapolis Indiana Josiah Swinney" [ref=e558] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/kidnapping-and-criminal-confinement-defense-lawyer-in-indianapolis-indiana-josiah-swinney/
+          - generic [ref=e560]: 
+        - link "Kidnapping And Criminal Confinement Defense Lawyer In Indianapolis & Indiana" [ref=e561] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/kidnapping-and-criminal-confinement-defense-lawyer-in-indianapolis-indiana-josiah-swinney/
+          - heading "Kidnapping and Criminal Confinement Defense Lawyer in Indianapolis & Indiana" [level=3] [ref=e562]
+        - paragraph
+      - listitem [ref=e563]:
+        - link "Indiana Forfeiture Lawyer Indianapolis Attorney Josiah Swinne" [ref=e564] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indiana-forfeiture-lawyer-indianapolis-attorney-josiah-swinne
+          - generic [ref=e566]: 
+        - link "Indiana State Forfeiture Lawyer | Indianapolis Attorney Josiah Swinney" [ref=e567] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indiana-forfeiture-lawyer-indianapolis-attorney-josiah-swinne
+          - heading "Indiana State Forfeiture Lawyer | Indianapolis Attorney Josiah Swinney" [level=3] [ref=e568]
+        - paragraph
+      - listitem [ref=e569]:
+        - link "How To Recall An Indiana Arrest Warrant" [ref=e570] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/how-to-recall-an-indiana-arrest-warrant/
+          - generic [ref=e572]: 
+        - link "How To Recall An Indiana Arrest Warrant" [ref=e573] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/how-to-recall-an-indiana-arrest-warrant/
+          - heading "How to Recall an Indiana Arrest Warrant" [level=3] [ref=e574]
+        - paragraph
+      - listitem [ref=e575]:
+        - link "Indiana Double Jeopardy Law" [ref=e576] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/indiana-double-jeopardy-law/
+          - generic [ref=e578]: 
+        - link "Indiana Double Jeopardy Law" [ref=e579] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-criminal-attorney-in-indianapolis/indiana-double-jeopardy-law/
+          - heading "Indiana Double Jeopardy Law" [level=3] [ref=e580]
+        - paragraph
+      - listitem [ref=e581]:
+        - link "Josiah Swinney In The News" [ref=e582] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-in-the-news/
+          - generic [ref=e584]: 
+        - link "In The News" [ref=e585] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-in-the-news/
+          - heading "In the News" [level=3] [ref=e586]
+        - paragraph
+      - listitem [ref=e587]:
+        - link "Indiana Expungement" [ref=e588] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indiana-expungement/
+          - generic [ref=e590]: 
+        - link "Indiana Expungement" [ref=e591] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/indiana-expungement/
+          - heading "Indiana Expungement" [level=3] [ref=e592]
+        - paragraph
+      - listitem [ref=e593]:
+        - link "Personal Injury Attorney With Reduced Contingent Fees Josiah Swinney Indiana Lawyer" [ref=e594] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-indianapolis-personal-injury-attorney/personal-injury-attorney-with-reduced-contingent-fees-josiah-swinney-indiana-lawyer/
+          - generic [ref=e596]: 
+        - link "Personal Injury Attorney With Discount Reduced Low Cost Contingent Fees" [ref=e597] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinney-indianapolis-personal-injury-attorney/personal-injury-attorney-with-reduced-contingent-fees-josiah-swinney-indiana-lawyer/
+          - heading "Personal Injury Attorney with Discount Reduced Low Cost Contingent Fees" [level=3] [ref=e598]
+        - paragraph
+      - listitem [ref=e599]:
+        - link "Josiah Swinneys Legal Articles" [ref=e600] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinneys-legal-articles/
+          - generic [ref=e602]: 
+        - link "Josiah Swinney’s Legal Articles" [ref=e603] [cursor=pointer]:
+          - /url: https://defenselawindiana.com/josiah-swinneys-legal-articles/
+          - heading "Josiah Swinney’s Legal Articles" [level=3] [ref=e604]
+        - paragraph
+  - heading "Call Attorney Josiah Swinney for a free consultation. 317-771-9563" [level=2] [ref=e607]:
+    - paragraph [ref=e608]:
+      - text: Call Attorney Josiah Swinney for a free consultation.
+      - text: 317-771-9563
+  - generic [ref=e610]:
+    - heading "Contact My Office" [level=2] [ref=e611]
+    - 'heading "Phone: 317-753-7134 Email: Josiah@DefenseLawIndiana.com Address: 951 North Delaware Street, Indianapolis, Indiana, 46202" [level=3] [ref=e612]':
+      - text: "Phone: 317-753-7134"
+      - text: "Email:"
+      - link "Josiah@DefenseLawIndiana.com" [ref=e613] [cursor=pointer]:
+        - /url: mailto:Josiah@DefenseLawIndiana.com
+      - text: "Address: 951 North Delaware Street, Indianapolis, Indiana, 46202"
+    - generic [ref=e614]:
+      - generic [ref=e616]:
+        - generic [ref=e617]:
+          - heading "Contact Us" [level=2] [ref=e618]
+          - textbox "Name" [ref=e621]
+          - textbox "Email" [ref=e624]
+          - spinbutton [ref=e627]
+          - textbox "Message" [ref=e630]
+          - button "Submit" [ref=e634] [cursor=pointer]
+        - text: 
+      - generic [ref=e635]:
+        - generic:
+          - list:
+            - listitem [ref=e636]:
+              - link "317 753 7134" [ref=e638] [cursor=pointer]:
+                - /url: tel:317-753-7134
+                - generic [ref=e639]: 
+              - link "317-753-7134" [ref=e641] [cursor=pointer]:
+                - /url: tel:317-753-7134
+            - listitem [ref=e642]:
+              - link "Josiah@DefenseLawIndiana.Com" [ref=e644] [cursor=pointer]:
+                - /url: mailto:Josiah@DefenseLawIndiana.com
+                - generic [ref=e645]: 
+              - link "Josiah@DefenseLawIndiana.com" [ref=e647] [cursor=pointer]:
+                - /url: mailto:Josiah@DefenseLawIndiana.com
+        - iframe [ref=e650]: <a href="https://www.gps.ie/sport-gps/">hiking gps</a>
+  - generic [ref=e651]:
+    - heading "* The cases referred to above are factually accurate re-creations of past cases. These factually accurate re-creations are not intended to predict, imply, or guarantee future success. I can not guarantee a particular result in any case. The Indiana Expungement Law Guide" [level=3] [ref=e653]:
+      - generic [ref=e654]:
+        - text: "* The cases referred to above are factually accurate re-creations of past cases. These factually accurate re-creations are not intended to predict, imply, or guarantee future success. I can not guarantee a particular result in any case."
+        - paragraph
+        - link "The Indiana Expungement Law Guide" [ref=e656] [cursor=pointer]:
+          - /url: https://cardellalawoffice.com/services-and-areas-of-practice/indiana-expungement-attorney/
+          - img "The Indiana Expungement Law Guide" [ref=e657]
+    - generic [ref=e658]:
+      - list [ref=e659]
+      - list [ref=e660]
+  - list [ref=e663]:
+    - listitem [ref=e664]: Josiah Swinney, Criminal Attorney & Constitutional Rights Lawyer, Indianapolis, Indiana LLC
+    - listitem:
+      - list

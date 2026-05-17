@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - img [ref=e3]
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation [ref=e8]:
+        - generic [ref=e11]:
+          - link "Site Logo" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img "Site Logo" [ref=e14]
+          - list [ref=e16]:
+            - listitem [ref=e17]:
+              - link "Home" [ref=e18] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e19]:
+              - link "Expertise" [ref=e20] [cursor=pointer]:
+                - /url: /expertise
+            - listitem [ref=e21]:
+              - link "Attorneys" [ref=e22] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e23]:
+              - link "Testimonials" [ref=e24] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=e25]:
+              - link "Our News" [ref=e26] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e27]:
+              - link "Contact" [ref=e28] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e29]:
+              - link "Client Login" [ref=e30] [cursor=pointer]:
+                - /url: https://www.mycase.com/login
+    - list [ref=e34]:
+      - listitem [ref=e35]
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: 
+          - heading "Serious Personal Injury" [level=5] [ref=e47]
+          - link "Visit personal injury law." [ref=e48] [cursor=pointer]:
+            - /url: /expertise
+        - generic [ref=e50]:
+          - generic [ref=e51]: 
+          - heading "Civil Rights" [level=5] [ref=e52]
+          - link "Visit civil rights law." [ref=e53] [cursor=pointer]:
+            - /url: /expertise
+        - generic [ref=e55]:
+          - generic [ref=e56]: 
+          - heading "Wrongful Death" [level=5] [ref=e57]
+          - link "Visit wrongful death." [ref=e58] [cursor=pointer]:
+            - /url: /expertise
+        - generic [ref=e60]:
+          - generic [ref=e61]: 
+          - heading "Employment law" [level=5] [ref=e62]
+          - link "Visit employment law." [ref=e63] [cursor=pointer]:
+            - /url: /expertise
+        - generic [ref=e65]:
+          - generic [ref=e66]: 
+          - heading "Medical Malpractice" [level=5] [ref=e67]
+          - link "Visit medical malpractice." [ref=e68] [cursor=pointer]:
+            - /url: /expertise
+        - generic [ref=e70]:
+          - generic [ref=e71]: 
+          - heading "Worker's Compensation" [level=5] [ref=e72]
+          - link "Visit worker compensation." [ref=e73] [cursor=pointer]:
+            - /url: /expertise
+        - generic [ref=e75]:
+          - generic [ref=e76]: 
+          - heading "DUI/OVI" [level=5] [ref=e77]
+          - link "Visit criminal & traffic law." [ref=e78] [cursor=pointer]:
+            - /url: /expertise
+      - generic:
+        - generic:
+          - generic [ref=e79] [cursor=pointer]: prev
+          - generic [ref=e80] [cursor=pointer]: next
+    - generic [ref=e84]:
+      - heading "Our Roots" [level=2] [ref=e85]
+      - paragraph [ref=e86]:
+        - text: Walton + Brown LLP was founded by childhood friends Sean L. Walton and Chanda L. Brown. Over the years, Sean and Chanda followed parallel paths in their education and careers.
+        - text: Sean and Chanda both have strong service-oriented backgrounds and both found themselves working in personal injury law and civil rights law where they could fight for victims of tragedies and discrimination.
+        - text: In 2014, Sean and Chanda decided to join their individual efforts into a partnership and the idea for Walton + Brown, LLP was formed.
+      - link "Read More" [ref=e87] [cursor=pointer]:
+        - /url: /expertise
+    - generic [ref=e95]:
+      - heading "Our Mission" [level=2] [ref=e96]
+      - paragraph [ref=e97]: At Walton + Brown, LLP, our mission is to deliver exceptional legal representation backed by a proven record of success. We pride ourselves on securing substantial settlements and verdicts for our clients, driven by a deep expertise in litigating serious and catastrophic injury cases, as well as police misconduct and employment discrimination cases. Founded by Chanda and Sean, our firm embodies a fresh, client-focused approach—combining innovative strategies with an aggressive approach to resolving cases—to ensure justice is served.
+      - link "Read More" [ref=e98] [cursor=pointer]:
+        - /url: /expertise
+    - generic [ref=e102]:
+      - heading "Our Record" [level=2] [ref=e103]
+      - paragraph [ref=e104]: With a record of over 500 lawsuits and more than $42 million secured in settlements and verdicts, the attorneys at Walton + Brown deliver proven results for our clients. Our expertise spans a broad range of serious personal injury cases—including auto, trucking, bus, and motorcycle accidents, wrongful death claims, and other incidents where someone’s negligence has caused harm. Our firm is also dedicated to securing justice for individuals affected by police misconduct and employment discrimination.
+      - link "Read More" [ref=e105] [cursor=pointer]:
+        - /url: /expertise
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]: "500"
+        - heading "Over Lawsuits Filed" [level=5] [ref=e115]
+      - generic [ref=e116]:
+        - generic [ref=e117]: $42
+        - heading "Million Recovered" [level=5] [ref=e118]
+      - generic [ref=e119]:
+        - generic [ref=e120]: 2500+
+        - heading "Satisfied Clients" [level=5] [ref=e121]
+    - generic [ref=e123]:
+      - heading "Affiliations Associations" [level=2] [ref=e126]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - img "Client" [ref=e129]
+          - paragraph [ref=e130]: The National Black Lawyers- Top 100
+        - generic [ref=e131]:
+          - img "Client" [ref=e132]
+          - paragraph [ref=e133]: Million Dollar Advocates
+        - generic [ref=e134]:
+          - img "Client" [ref=e135]
+          - paragraph [ref=e136]: The National Trial Lawyers- Top 100
+        - generic [ref=e137]:
+          - img "Client" [ref=e138]
+          - paragraph [ref=e139]: Columbus Bar Association
+        - generic [ref=e140]:
+          - img "Client" [ref=e141]
+          - paragraph [ref=e142]: Central Ohio Association for Justice
+        - generic [ref=e143]:
+          - img "Client" [ref=e144]
+          - paragraph [ref=e145]: National Bar Association
+        - generic [ref=e146]:
+          - img "Client" [ref=e147]
+          - paragraph [ref=e148]: Ohio Association for Justice
+        - generic [ref=e149]:
+          - img "Client" [ref=e150]
+          - paragraph [ref=e151]: The John Mercer Langston Bar Association
+        - generic [ref=e152]:
+          - img "Client" [ref=e153]
+          - paragraph [ref=e154]: American Association for Justice
+        - generic [ref=e155]:
+          - img "Client" [ref=e156]
+          - paragraph [ref=e157]: 2017 - 10 Best Client Satisfaction
+        - generic [ref=e158]:
+          - img "Client" [ref=e159]
+          - paragraph [ref=e160]: 2017 Top Lawyers Under 40
+        - generic [ref=e161]:
+          - img "Client" [ref=e162]
+          - paragraph [ref=e163]: Nation's Premier Top Ten Attorney
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - heading "How Can We Help You?" [level=2] [ref=e168]
+        - paragraph [ref=e169]: Schedule a consultation with Walton + Brown LLP today.
+      - generic [ref=e171]:
+        - textbox "Name" [ref=e173]
+        - textbox "Email" [ref=e175]
+        - textbox "Phone Number" [ref=e177]
+        - textbox "Subject" [ref=e179]
+        - textbox "Your Message" [ref=e181]
+        - iframe [ref=e186]:
+          - generic [ref=f231e2]:
+            - generic [ref=f231e3]:
+              - checkbox "I'm not a robot" [ref=f231e7]
+              - generic [ref=f231e11]: I'm not a robot
+            - generic [ref=f231e15]: reCAPTCHA
+        - button "Send" [ref=e188] [cursor=pointer]
+  - contentinfo [ref=e190]:
+    - generic [ref=e191]:
+      - list [ref=e193]:
+        - listitem [ref=e194]:
+          - link "" [ref=e195] [cursor=pointer]:
+            - /url: https://www.facebook.com/waltonbrownlaw
+            - generic [ref=e196]: 
+        - listitem [ref=e197]:
+          - link "" [ref=e198] [cursor=pointer]:
+            - /url: https://twitter.com/waltonbrownlaw
+            - generic [ref=e199]: 
+        - listitem [ref=e200]:
+          - link "" [ref=e201] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/walton-brown-llp-
+            - generic [ref=e202]: 
+      - list [ref=e205]:
+        - listitem [ref=e206]:
+          - link "home" [ref=e207] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e208]:
+          - link "expertise" [ref=e209] [cursor=pointer]:
+            - /url: /expertise
+        - listitem [ref=e210]:
+          - link "Sean L. Walton" [ref=e211] [cursor=pointer]:
+            - /url: /walton
+        - listitem [ref=e212]:
+          - link "Chanda L. Brown" [ref=e213] [cursor=pointer]:
+            - /url: /brown
+        - listitem [ref=e214]:
+          - link "testimonials" [ref=e215] [cursor=pointer]:
+            - /url: /testimonials
+        - listitem [ref=e216]:
+          - link "our news" [ref=e217] [cursor=pointer]:
+            - /url: /news
+        - listitem [ref=e218]:
+          - link "contact" [ref=e219] [cursor=pointer]:
+            - /url: /contact
+        - listitem [ref=e220]:
+          - link "Client Login" [ref=e221] [cursor=pointer]:
+            - /url: https://www.mycase.com/login
+      - 'link "Telephone: 614.636.3476" [ref=e224] [cursor=pointer]':
+        - /url: tel:6146363476
+      - generic [ref=e225]:
+        - paragraph [ref=e226]: Copyright © 2026 WaltonBrown LLP, All Rights Reserved.
+        - paragraph [ref=e227]:
+          - link "Designed & Hosted by SwiftDesign" [ref=e228] [cursor=pointer]:
+            - /url: https://swiftdesignstudio.com

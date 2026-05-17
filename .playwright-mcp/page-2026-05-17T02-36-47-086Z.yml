@@ -1,0 +1,240 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e7]:
+      - 'link "Homepage: ACLU of Louisiana" [ref=e9] [cursor=pointer]':
+        - /url: /
+        - img [ref=e10]
+      - generic [ref=e13]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - button "Open submenu for About" [ref=e18] [cursor=pointer]: About
+          - listitem [ref=e19]:
+            - button "Open submenu for Our Work" [ref=e20] [cursor=pointer]: Our Work
+          - listitem [ref=e21]:
+            - button "Open submenu for Mobilize" [ref=e22] [cursor=pointer]: Mobilize
+          - listitem [ref=e23]:
+            - button "Open submenu for Issues" [ref=e24] [cursor=pointer]: Issues
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - button "Open submenu for Support" [ref=e29] [cursor=pointer]: Support
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - heading "Leading liberty forward in Louisiana" [level=1] [ref=e34]
+        - generic [ref=e37]:
+          - generic [ref=e38]: All fields are required unless labeled optional.
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - text: Email *
+              - generic [ref=e41]: Required
+            - textbox "Email Required" [ref=e42]
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - text: ZIP code *
+              - generic [ref=e45]: Required
+            - textbox "ZIP code Required" [ref=e46]
+          - button "Sign Up" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: Sign Up
+      - img "homepage hero image" [ref=e50]
+    - generic [ref=e52]:
+      - heading "The Latest" [level=2] [ref=e55]
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e61]:
+              - img [ref=e63]
+              - generic [ref=e65]: Press Release
+            - img "Placeholder image" [ref=e67]
+          - heading "ACLU of Louisiana Statement on Denial of Temporary Restraining Order Against Governor Landry’s Election Suspension" [level=3] [ref=e69]
+          - link "ACLU of Louisiana Statement on Denial of Temporary Restraining Order Against Governor Landry’s Election Suspension" [ref=e70] [cursor=pointer]:
+            - /url: https://www.laaclu.org/press-releases/aclu-of-louisiana-statement-on-denial-of-temporary-restraining-order-against-governor-landrys-election-suspension/
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e78]: Press Release
+            - img "Placeholder image" [ref=e80]
+          - heading "Civil Rights Groups File Emergency Challenge to Louisiana Governor’s Attempt to Suspend Election Already Underway" [level=3] [ref=e82]
+          - link "Civil Rights Groups File Emergency Challenge to Louisiana Governor’s Attempt to Suspend Election Already Underway" [ref=e83] [cursor=pointer]:
+            - /url: https://www.laaclu.org/press-releases/civil-rights-groups-file-emergency-challenge-to-louisiana-governors-attempt-to-suspend-election-already-underway/
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e87]:
+              - img [ref=e89]
+              - generic [ref=e91]: Press Release
+            - img "Placeholder image" [ref=e93]
+          - heading "Supreme Court Strikes Down Louisiana Map and Destroys Key Voting Rights Act Provision" [level=3] [ref=e95]
+          - link "Supreme Court Strikes Down Louisiana Map and Destroys Key Voting Rights Act Provision" [ref=e96] [cursor=pointer]:
+            - /url: https://www.laaclu.org/press-releases/supreme-court-strikes-down-louisiana-map-and-destroys-key-voting-rights-act-provision/
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - generic [ref=e100]:
+              - img [ref=e102]
+              - generic [ref=e104]: Press Release
+            - img "Men incarcerated at Angola prison" [ref=e106]
+          - heading "ACLU of Louisiana Demands Transparency Following Death of Harold Brooks at Angola State Penitentiary" [level=3] [ref=e108]
+          - link "ACLU of Louisiana Demands Transparency Following Death of Harold Brooks at Angola State Penitentiary" [ref=e109] [cursor=pointer]:
+            - /url: https://www.laaclu.org/press-releases/aclu-of-louisiana-demands-transparency-following-death-of-harold-brooks-at-angola-state-penitentiary/
+    - generic [ref=e111]:
+      - heading "Press Releases" [level=2] [ref=e114]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - paragraph [ref=e119]: May 02, 2026
+            - heading "ACLU of Louisiana Statement on Denial of Temporary Restraining Order Against Governor Landry’s Election Suspension" [level=3] [ref=e120]
+          - link "ACLU of Louisiana Statement on Denial of Temporary Restraining Order Against Governor Landry’s Election Suspension" [ref=e121] [cursor=pointer]:
+            - /url: https://www.laaclu.org/press-releases/aclu-of-louisiana-statement-on-denial-of-temporary-restraining-order-against-governor-landrys-election-suspension/
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - paragraph [ref=e124]: May 01, 2026
+            - heading "Civil Rights Groups File Emergency Challenge to Louisiana Governor’s Attempt to Suspend Election Already Underway" [level=3] [ref=e125]
+          - link "Civil Rights Groups File Emergency Challenge to Louisiana Governor’s Attempt to Suspend Election Already Underway" [ref=e126] [cursor=pointer]:
+            - /url: https://www.laaclu.org/press-releases/civil-rights-groups-file-emergency-challenge-to-louisiana-governors-attempt-to-suspend-election-already-underway/
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: Apr 29, 2026
+            - heading "Supreme Court Strikes Down Louisiana Map and Destroys Key Voting Rights Act Provision" [level=3] [ref=e130]
+          - link "Supreme Court Strikes Down Louisiana Map and Destroys Key Voting Rights Act Provision" [ref=e131] [cursor=pointer]:
+            - /url: https://www.laaclu.org/press-releases/supreme-court-strikes-down-louisiana-map-and-destroys-key-voting-rights-act-provision/
+    - generic [ref=e133]:
+      - heading "Issues We're Monitoring" [level=2] [ref=e136]
+      - generic [ref=e138]:
+        - link "Capital Punishment" [ref=e139] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/capital-punishment/
+        - link "Criminal Law Reform" [ref=e140] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/criminal-law-reform/
+        - link "Immigrants' Rights" [ref=e141] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/immigrants-rights/
+        - link "Privacy & Technology" [ref=e142] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/privacy-tech/
+        - link "Voting Rights" [ref=e143] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/voting-rights/
+        - link "Racial Justice" [ref=e144] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/racial-justice/
+        - link "Religious Liberty" [ref=e145] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/religion/
+        - link "View All Issues" [ref=e146] [cursor=pointer]:
+          - /url: https://www.laaclu.org/issues/
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - heading "Immigrant Rights Project" [level=2] [ref=e152]
+        - generic [ref=e153]: The ACLU of Louisiana's Immigrant Rights Project (IRP) aims to work with community partners to document and expose the realities of immigration detention in Louisiana by creating partnerships among directly-impacted people, private in-house counsel and/or law firms, and law school clinics, to harness their talent and resources and provide pro bono relief in the form of parole application assistance, habeas petitions, and Civil Rights and Civil Liberty complaints (“CRCL”).
+        - link "Read our Latest Detention Report" [ref=e155] [cursor=pointer]:
+          - /url: https://www.laaclu.org/campaigns-initiatives/immigrant-rights-project/
+      - img "ACLU of Louisiana Immigrants Rights Project" [ref=e157]
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]: Make an impact
+        - heading "Take Action" [level=2] [ref=e164]
+        - generic [ref=e165]:
+          - paragraph [ref=e166]: Today, years of hard-fought civil liberty protections are under threat.
+          - paragraph [ref=e167]: To influence lawmakers, we need everyone to get involved.
+      - generic [ref=e169]:
+        - generic [ref=e174]:
+          - img "Image of people wearing prison orange jumpsuits" [ref=e177]
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - generic [ref=e181]:
+                - img [ref=e183]
+                - generic [ref=e185]: Petition
+              - heading "Take Action to Stop a Prison Pandemic in Louisiana" [level=3] [ref=e186]
+            - button [ref=e188] [cursor=pointer]: ADD YOUR NAME
+          - link "Take Action to Stop a Prison Pandemic in Louisiana" [ref=e189] [cursor=pointer]:
+            - /url: https://action.aclu.org/petition/la-covid-prisons
+        - generic [ref=e191]:
+          - button [ref=e193]:
+            - generic:
+              - img
+          - paragraph [ref=e194]: Action 1 of 3
+          - button [ref=e196] [cursor=pointer]:
+            - generic:
+              - img
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - heading "Stay Informed" [level=2] [ref=e201]
+        - paragraph [ref=e202]: Sign up to be the first to hear about how to take action.
+        - paragraph [ref=e204]:
+          - text: By completing this form, I agree to receive occasional emails per the terms of the ACLU’s
+          - link "privacy statement." [ref=e205] [cursor=pointer]:
+            - /url: https://www.aclu.org/about/privacy/statement
+      - generic [ref=e208]:
+        - generic [ref=e209]: All fields are required unless labeled optional.
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - text: Email *
+            - generic [ref=e212]: Required
+          - textbox "Email Required" [ref=e213]
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - text: ZIP code *
+            - generic [ref=e216]: Required
+          - textbox "ZIP code Required" [ref=e217]
+        - button "Sign Up" [ref=e218] [cursor=pointer]:
+          - generic [ref=e219]: Sign Up
+    - navigation "Language Switcher" [ref=e220]:
+      - list
+  - contentinfo [ref=e221]:
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - list [ref=e227]:
+          - listitem [ref=e228]:
+            - link "Take Action" [ref=e229] [cursor=pointer]:
+              - /url: https://www.laaclu.org/actions/
+          - listitem [ref=e230]:
+            - link "Donate" [ref=e231] [cursor=pointer]:
+              - /url: https://action.aclu.org/secure/support-aclu-louisiana
+          - listitem [ref=e232]:
+            - link "Press" [ref=e233] [cursor=pointer]:
+              - /url: https://www.laaclu.org/press-releases-page/
+          - listitem [ref=e234]:
+            - link "Report Police Misconduct" [ref=e235] [cursor=pointer]:
+              - /url: https://action.aclu.org/la-misconduct-data-collection
+        - generic [ref=e237]:
+          - generic [ref=e238]: Search
+          - searchbox "Search" [ref=e239]
+          - button "search" [ref=e240] [cursor=pointer]:
+            - generic:
+              - img
+      - generic [ref=e241]:
+        - list [ref=e244]:
+          - listitem [ref=e245]:
+            - link "Follow the ACLU of Louisiana on Facebook" [ref=e246] [cursor=pointer]:
+              - /url: https://www.facebook.com/aclu.louisiana
+              - generic:
+                - img
+          - listitem [ref=e247]:
+            - link "Follow the ACLU of Louisiana on X" [ref=e248] [cursor=pointer]:
+              - /url: https://twitter.com/ACLUofLouisiana
+              - generic:
+                - img
+          - listitem [ref=e249]:
+            - link "Follow the ACLU of Louisiana on YouTube" [ref=e250] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/acluvideos
+              - generic:
+                - img
+          - listitem [ref=e251]:
+            - link "Follow the ACLU of Louisiana on Instagram" [ref=e252] [cursor=pointer]:
+              - /url: https://www.instagram.com/aclu.louisiana/
+              - generic:
+                - img
+          - listitem [ref=e253]:
+            - link "Follow the ACLU of Louisiana on TikTok" [ref=e254] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@acluoflouisiana
+              - generic:
+                - img
+          - listitem [ref=e255]:
+            - link "Follow the ACLU of Louisiana on Threads" [ref=e256] [cursor=pointer]:
+              - /url: https://www.threads.com/@aclu.louisiana
+              - generic:
+                - img
+        - paragraph [ref=e257]: © 2026 ACLU of Louisiana
+        - list [ref=e259]:
+          - listitem [ref=e260]:
+            - link "User Agreement" [ref=e261] [cursor=pointer]:
+              - /url: https://www.laaclu.org/user-agreement/
+          - listitem [ref=e262]:
+            - link "Privacy Statement" [ref=e263] [cursor=pointer]:
+              - /url: https://www.laaclu.org/privacy-statement/
+          - listitem [ref=e264]:
+            - link "Website Accessibility" [ref=e265] [cursor=pointer]:
+              - /url: https://www.laaclu.org/statement-on-website-accessibility/

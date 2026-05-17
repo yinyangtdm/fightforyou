@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic:
+      - generic [ref=e3]:
+        - generic:
+          - link "People's Law Office":
+            - /url: https://peopleslawoffice.com/
+            - img [ref=e4] [cursor=pointer]
+      - generic [ref=e6]:
+        - generic [ref=e7]: Menu
+        - complementary [ref=e8]:
+          - complementary:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "En Español ›" [ref=e12] [cursor=pointer]:
+                  - /url: https://peopleslawoffice.com/quienes-somos/
+          - complementary [ref=e13]:
+            - generic [ref=e14]: "1180 N. Milwaukee Ave., Chicago, IL 60642 Tel.: 773-235-0070 Fax: 773-235-6699"
+  - generic [ref=e15]:
+    - main [ref=e17]:
+      - region "Header Slide" [ref=e19]:
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - link "View Slide Details" [ref=e24] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/puerto-rico/
+              - img "slide1" [ref=e25]
+          - listitem [ref=e26]:
+            - link [ref=e27] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/chicago-police-torture/
+              - img [ref=e28]
+          - listitem [ref=e29]:
+            - link [ref=e30] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/wrongful-conviction/
+              - img [ref=e31]
+          - listitem [ref=e32]:
+            - link [ref=e33] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/representing-social-justice-activists-free-speechdissent/
+              - img [ref=e34]
+          - listitem [ref=e35]:
+            - link [ref=e36] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/panthers/
+              - img [ref=e37]
+          - listitem [ref=e38]:
+            - link [ref=e39] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/police-brutality/
+              - img [ref=e40]
+          - listitem [ref=e41]:
+            - link [ref=e42] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/representing-social-justice-activists-free-speechdissent/
+              - img [ref=e43]
+          - listitem [ref=e44]:
+            - link [ref=e45] [cursor=pointer]:
+              - /url: https://peopleslawoffice.com/issues-and-cases/police-brutality/
+              - img [ref=e46]
+      - generic [ref=e47]:
+        - generic:
+          - generic [ref=e49]:
+            - heading "Fighting Police Brutality" [level=2] [ref=e50]
+            - generic [ref=e51]:
+              - paragraph [ref=e52]:
+                - link "Fighting Police Brutality attorneys":
+                  - /url: https://peopleslawoffice.com/issues-and-cases/police-brutality/
+                  - img "Fighting Police Brutality attorneys" [ref=e53] [cursor=pointer]
+                - text: When police officers have committed misconduct, used excessive force or falsely arrested people, People’s Law Office has been there. Our Chicago-based civil rights lawyers have a proven track record of results, and have obtained over $100 million for our clients……
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - link "View all our issues & cases ›" [ref=e56] [cursor=pointer]:
+                    - /url: https://peopleslawoffice.com/issues-and-cases/
+                - listitem [ref=e57]:
+                  - link "View all our areas of practice ›" [ref=e58] [cursor=pointer]:
+                    - /url: https://peopleslawoffice.com/areas-of-practice-civil-rights-lawyers-criminal-defense/
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - heading "News" [level=2] [ref=e62]
+              - link "view all ›" [ref=e63] [cursor=pointer]:
+                - /url: https://peopleslawoffice.com/news-commentary/
+            - generic [ref=e64]:
+              - link "JUDGE RULES THAT SUPERIOR POLICE OFFICER WHO TASED DOORDASH DRIVER DURING ROUTINE TRAFFIC STOP VIOLATED DRIVER’S CONSTITUTIONAL RIGHTS" [ref=e66] [cursor=pointer]:
+                - /url: https://peopleslawoffice.com/judge-rules-that-superior-police-officer-whotased-doordash-driver-during-routine-trafficstop-violated-drivers-constitutional-rights/
+              - generic [ref=e67]: Posted on February 10, 2026
+            - generic [ref=e68]:
+              - link "Statement on Behalf of Debbie Brockman, WGN Employee Assaulted by Federal Agents" [ref=e70] [cursor=pointer]:
+                - /url: https://peopleslawoffice.com/statement-on-behalf-of-debbie-brockman-wgn-employee-assaulted-by-federal-agents/
+              - generic [ref=e71]: Posted on October 14, 2025
+            - generic [ref=e72]:
+              - link "$6.96 Million Dollar Wrongful Conviction Settlement Approved" [ref=e74] [cursor=pointer]:
+                - /url: https://peopleslawoffice.com/6-96-million-dollar-wrongful-conviction-settlement-approved/
+              - generic [ref=e75]: Posted on May 13, 2025
+    - complementary [ref=e76]:
+      - generic [ref=e77]:
+        - link "About People’s Law Office" [ref=e79] [cursor=pointer]:
+          - /url: https://peopleslawoffice.com/about-civil-rights-lawyers/
+        - paragraph [ref=e80]: Our civil rights lawyers in Chicago have been successfully fighting for the victims of police brutality, wrongful convictions, false arrest and other government abuses for over 40 years. If your constitutional rights have been violated, we can help.
+        - generic [ref=e81]:
+          - paragraph:
+            - text: Win big with
+            - link "nine wins" [ref=e82] [cursor=pointer]:
+              - /url: https://ninewin-uk.co.uk/
+            - text: ", featured on peopleslawoffice.com"
+        - text: …
+        - link "Read More" [ref=e84] [cursor=pointer]:
+          - /url: https://peopleslawoffice.com/about-civil-rights-lawyers/
+      - generic [ref=e85]:
+        - heading "Winning Battles" [level=2] [ref=e86]
+        - link "Victory in Jail Death Case" [ref=e88] [cursor=pointer]:
+          - /url: https://peopleslawoffice.com/victory-in-jail-death-case/
+        - paragraph [ref=e89]: This is a photo of Lyvita Gomes. She was arrested in 2011 for not appearing for jury duty and then resisting arrest. She spent 15 days in Lake County Jail (Illinois), not eating and not drinking.
+        - paragraph [ref=e90]: Correct Care Solutions psychiatrist Hargarmukh Singh diagnosed her as psychotic and incompetent, and internist Rozel Elazegui ignored multiple signs of dehydration, but they did nothing.…
+        - link "JUDGE RULES THAT SUPERIOR POLICE OFFICER WHO TASED DOORDASH DRIVER DURING ROUTINE TRAFFIC STOP VIOLATED DRIVER’S CONSTITUTIONAL RIGHTS" [ref=e93] [cursor=pointer]:
+          - /url: https://peopleslawoffice.com/judge-rules-that-superior-police-officer-whotased-doordash-driver-during-routine-trafficstop-violated-drivers-constitutional-rights/
+  - contentinfo [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - complementary [ref=e97]:
+          - complementary [ref=e98]:
+            - list [ref=e100]:
+              - listitem [ref=e101]:
+                - link "Contact" [ref=e102] [cursor=pointer]:
+                  - /url: https://peopleslawoffice.com/contact-civil-rights-lawyer/
+              - listitem [ref=e103]:
+                - link "Sitemap" [ref=e104] [cursor=pointer]:
+                  - /url: https://peopleslawoffice.com/about-civil-rights-lawyers/sitemap/
+              - listitem [ref=e105]:
+                - link "Site Credits" [ref=e106] [cursor=pointer]:
+                  - /url: https://peopleslawoffice.com/about-civil-rights-lawyers/site-credits/
+        - complementary [ref=e107]:
+          - complementary [ref=e108]:
+            - heading "Follow us on" [level=3] [ref=e109]
+            - generic [ref=e110]:
+              - link [ref=e111] [cursor=pointer]:
+                - /url: https://twitter.com/#!/PeoplesLawChi
+                - img [ref=e112]
+              - link [ref=e113] [cursor=pointer]:
+                - /url: https://www.facebook.com/pages/Peoples-Law-Office/133381420025439
+                - img [ref=e114]
+      - generic [ref=e115]: People's Law Office 1180 N Milwaukee Ave Chicago, IL60642 773-235-0070

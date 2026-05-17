@@ -1,0 +1,786 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e9]:
+    - generic [ref=e13]:
+      - link [ref=e15] [cursor=pointer]:
+        - /url: /
+        - img [ref=e16]
+      - heading [level=5] [ref=e18]: "Website Navigation:"
+      - navigation [ref=e19]:
+        - menubar [ref=e20]:
+          - menuitem [ref=e21]:
+            - link [ref=e22] [cursor=pointer]:
+              - /url: /
+              - generic: Home 
+          - menuitem [ref=e23]:
+            - link [ref=e24] [cursor=pointer]:
+              - /url: /about-us
+              - generic:
+                - text: About Us
+                - generic: 
+            - menuitem [ref=e25]:
+              - link [ref=e26] [cursor=pointer]:
+                - /url: /about-us/attorneys
+                - generic: Attorneys 
+            - menuitem [ref=e27]:
+              - link [ref=e28] [cursor=pointer]:
+                - /url: /about-us/our-fees
+                - generic: Our Fees 
+            - menuitem [ref=e29]:
+              - link [ref=e30] [cursor=pointer]:
+                - /url: /about-us/reviews
+                - generic: Reviews 
+          - menuitem [ref=e31]:
+            - link [ref=e32] [cursor=pointer]:
+              - /url: "#"
+              - generic:
+                - text: Practice Areas
+                - generic: 
+            - menuitem [ref=e33]:
+              - link [ref=e34] [cursor=pointer]:
+                - /url: /appeals
+                - generic: Appeals 
+            - menuitem [ref=e35]:
+              - link [ref=e36] [cursor=pointer]:
+                - /url: /civil
+                - generic: Civil 
+            - menuitem [ref=e37]:
+              - link [ref=e38] [cursor=pointer]:
+                - /url: /crimes
+                - generic: Criminal Defense 
+            - menuitem [ref=e39]:
+              - link [ref=e40] [cursor=pointer]:
+                - /url: /personal-injury
+                - generic: Personal Injury 
+            - menuitem [ref=e41]:
+              - link [ref=e42] [cursor=pointer]:
+                - /url: /crimes/sex-offenses
+                - generic: Sex Offenses 
+            - menuitem [ref=e43]:
+              - link [ref=e44] [cursor=pointer]:
+                - /url: /personal-injury/in-custody-death-and-catastrophic-injury-connecticut
+                - generic: In-Custody Death & Injury 
+          - menuitem [ref=e45]:
+            - link [ref=e46] [cursor=pointer]:
+              - /url: /trials
+              - generic: Trials 
+          - menuitem [ref=e47]:
+            - link [ref=e48] [cursor=pointer]:
+              - /url: /results
+              - generic: Results 
+          - menuitem [ref=e49]:
+            - link [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic:
+                - text: Resources
+                - generic: 
+            - menuitem [ref=e51]:
+              - link [ref=e52] [cursor=pointer]:
+                - /url: /frequently-asked-questions
+                - generic: FAQ 
+            - menuitem [ref=e53]:
+              - link [ref=e54] [cursor=pointer]:
+                - /url: /videos
+                - generic: Videos 
+            - menuitem [ref=e55]:
+              - link [ref=e56] [cursor=pointer]:
+                - /url: /in-the-news
+                - generic: In the News 
+            - menuitem [ref=e57]:
+              - link [ref=e58] [cursor=pointer]:
+                - /url: /blog
+                - generic: Blog 
+          - menuitem [ref=e59]:
+            - link [ref=e60] [cursor=pointer]:
+              - /url: /contact-us
+              - generic: Contact Us 
+      - heading [level=5] [ref=e62]: "Business Information:"
+      - paragraph [ref=e64]:
+        - generic [ref=e65]: Pattis & Paz LLC
+      - paragraph [ref=e67]:
+        - generic [ref=e68]: 171 Orange Street, New Haven, CT 06510
+      - paragraph [ref=e70]:
+        - link [ref=e71] [cursor=pointer]:
+          - /url: tel:(203) 601-7909
+          - text: (203) 601-7909
+      - link [ref=e72] [cursor=pointer]:
+        - /url: /contact-us
+        - text: 
+        - generic [ref=e73]: Contact Us
+      - generic [ref=e76]:
+        - link [ref=e77] [cursor=pointer]:
+          - /url: https://facebook.com/brittanybpaz
+          - generic [ref=e78]: 
+        - link [ref=e79] [cursor=pointer]:
+          - /url: https://youtube.com/channel/UCTDaQDjDkOda5_lzuvvqSxg
+          - generic [ref=e80]: 
+        - link [ref=e81] [cursor=pointer]:
+          - /url: https://linkedin.com/in/norman-pattis-a6542a1
+          - generic [ref=e82]: 
+        - link [ref=e83] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@attorneybrittanypaz
+          - generic [ref=e84]: 
+    - generic [ref=e85]:
+      - generic [ref=e89]:
+        - link "Pattis & Paz logo" [ref=e92] [cursor=pointer]:
+          - /url: /
+          - img "Pattis & Paz logo" [ref=e93]
+        - link "CONTACT US" [ref=e95] [cursor=pointer]:
+          - /url: /contact-us
+          - text: 
+          - generic [ref=e96]: CONTACT US
+      - button "menu" [ref=e97] [cursor=pointer]
+      - text:                         
+      - main [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e108]:
+            - paragraph [ref=e110]: Your Life. Your Rights.
+            - navigation [ref=e118]:
+              - menubar [ref=e119]:
+                - menuitem "Criminal Defense" [ref=e120]:
+                  - link "Criminal Defense" [ref=e121] [cursor=pointer]:
+                    - /url: /crimes
+                    - generic: Criminal Defense 
+                - menuitem "Appeals" [ref=e122]:
+                  - link "Appeals" [ref=e123] [cursor=pointer]:
+                    - /url: /appeals
+                    - generic: Appeals 
+                - menuitem "Civil" [ref=e124]:
+                  - link "Civil" [ref=e125] [cursor=pointer]:
+                    - /url: /civil
+                    - generic: Civil 
+                - menuitem "Trials" [ref=e126]:
+                  - link "Trials" [ref=e127] [cursor=pointer]:
+                    - /url: /trials
+                    - generic: Trials 
+                - menuitem "Personal Injury" [ref=e128]:
+                  - link "Personal Injury" [ref=e129] [cursor=pointer]:
+                    - /url: /personal-injury
+                    - generic: Personal Injury 
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - link "Contact A Lawyer" [ref=e133] [cursor=pointer]:
+                  - /url: /contact-us
+                  - text: 
+                  - generic [ref=e134]: Contact A Lawyer
+                - text: 
+              - paragraph [ref=e137]:
+                - generic [ref=e138]: or call
+                - link "(203) 601-7909" [ref=e141] [cursor=pointer]:
+                  - /url: tel:(203) 601-7909
+          - paragraph [ref=e149]: "Our attorneys have been featured by:"
+          - generic [ref=e200]:
+            - heading "Justice, not Judgment" [level=1] [ref=e202]:
+              - text: Justice,
+              - text: not Judgment
+            - separator [ref=e205]
+            - heading "You deserve to be heard. We'll help you tell the full story." [level=2] [ref=e207]
+            - paragraph [ref=e209]:
+              - generic [ref=e210]: At Pattis & Paz LLC, we believe that every individual's story matters. Our seasoned attorneys understand that one's background, upbringing, and life circumstances are pivotal in comprehending the context behind every case. We are committed to uncovering the full picture of your story and advocating fiercely on your behalf. Whether you're facing criminal charges or embroiled in a high-stakes civil dispute, we will stand by you with relentless determination, ensuring your voice is heard and your rights are protected. At Pattis & Paz LLC, we fight ferociously for justice, compassion, and the best possible outcomes for our clients.
+            - link "Contact A Lawyer" [ref=e211] [cursor=pointer]:
+              - /url: /contact-us
+              - text: 
+              - generic [ref=e212]: Contact A Lawyer
+          - generic [ref=e214]:
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - img [ref=e221]
+                - paragraph [ref=e226]: "\"America's Fiercest Trial Lawyer\""
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - link "Attorney Norm Pattis" [ref=e229] [cursor=pointer]:
+                    - /url: /about-us/attorneys/norm-pattis
+                    - img "Attorney Norm Pattis" [ref=e230]
+                  - link:
+                    - /url: /about-us/attorneys/norm-pattis
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - paragraph [ref=e235]: Partner
+                    - paragraph [ref=e236]: Norm Pattis
+                  - paragraph [ref=e238]: Norm Pattis is a renowned trial attorney with extensive experience in both state and federal courts across the United States. Known for his tenacity and sharp legal acumen, Norm is a frequent expert commentator and a trusted advocate in high-stakes criminal and civil cases.
+                  - link "Read More" [ref=e240] [cursor=pointer]:
+                    - /url: /about-us/attorneys/norm-pattis
+                    - text: 
+                    - generic [ref=e241]: Read More
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - link "Attorney Brittany Paz" [ref=e247] [cursor=pointer]:
+                    - /url: /about-us/attorneys/brittany-paz
+                    - img "Attorney Brittany Paz" [ref=e248]
+                  - link:
+                    - /url: /about-us/attorneys/brittany-paz
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - paragraph [ref=e253]: Partner
+                    - paragraph [ref=e254]: Brittany Paz
+                  - paragraph [ref=e256]: Brittany Paz is passionately committed to protecting her clients' rights with personalized and expert legal service. Recognized by National Trial Lawyers and Super Lawyers for her exceptional advocacy, Brittany has successfully navigated hundreds of criminal cases.
+                  - link "Read More" [ref=e258] [cursor=pointer]:
+                    - /url: /about-us/attorneys/brittany-paz
+                    - text: 
+                    - generic [ref=e259]: Read More
+              - generic [ref=e260]:
+                - img [ref=e263]
+                - paragraph [ref=e268]: "\"Brilliant & Audacious\""
+          - generic [ref=e271]:
+            - generic [ref=e274]:
+              - heading "FeroCious In your defense." [level=3] [ref=e276]
+              - separator [ref=e278]
+              - heading "Private Criminal Defense Attorney in Connecticut" [level=3] [ref=e280]
+            - generic [ref=e282]:
+              - generic [ref=e283]:
+                - generic [ref=e284]:
+                  - link "Criminal Defense icon":
+                    - /url: /crimes
+                    - img "Criminal Defense icon" [ref=e285] [cursor=pointer]
+                - heading "Criminal Defense" [level=5] [ref=e288]
+                - separator [ref=e290]
+                - paragraph [ref=e292]: We understand that everyone deserves a robust defense. Our attorneys are dedicated to uncovering the truth and advocating fiercely to protect your rights.
+                - link "Learn More" [ref=e293] [cursor=pointer]:
+                  - /url: /crimes
+                  - text: 
+                  - generic [ref=e294]: Learn More
+              - generic [ref=e295]:
+                - generic [ref=e296]:
+                  - link "High Conflict Civil Icon":
+                    - /url: /civil
+                    - img "High Conflict Civil Icon" [ref=e297] [cursor=pointer]
+                - heading "High Conflict Civil" [level=5] [ref=e300]
+                - separator [ref=e302]
+                - paragraph [ref=e304]: Navigating civil disputes requires a team that will stand by your side. Determination and expertise will secure the best outcome for your civil matters.
+                - link "Learn More" [ref=e305] [cursor=pointer]:
+                  - /url: /civil
+                  - text: 
+                  - generic [ref=e306]: Learn More
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - link "Appeals Icon":
+                    - /url: /appeals
+                    - img "Appeals Icon" [ref=e309] [cursor=pointer]
+                - heading "Appeals" [level=5] [ref=e312]
+                - separator [ref=e314]
+                - paragraph [ref=e316]: When justice demands a second chance, we’re here to help. Trust us to meticulously review your case, identify errors, and advocate passionately for a reversal.
+                - link "Learn More" [ref=e317] [cursor=pointer]:
+                  - /url: /appeals
+                  - text: 
+                  - generic [ref=e318]: Learn More
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - link "ChessPieces_Icons-06.svg":
+                    - /url: /sentence-modifications
+                    - img [ref=e321] [cursor=pointer]
+                - heading "Post Conviction" [level=5] [ref=e324]
+                - separator [ref=e326]
+                - paragraph [ref=e328]: New laws allow those qualified to seek sentence modifications without state attorney approval. Our experienced team will guide you through the process.
+                - link "Learn More" [ref=e329] [cursor=pointer]:
+                  - /url: /sentence-modifications
+                  - text: 
+                  - generic [ref=e330]: Learn More
+          - generic [ref=e333]:
+            - heading "Criminal Defense Practice Areas" [level=3] [ref=e335]
+            - paragraph [ref=e337]:
+              - generic [ref=e338]: As criminal defense attorneys, Pattis & Paz LLC works to represent those who have been accused of a wide variety of offenses. Explore our common practice areas and learn more about the types of cases we work on every day.
+            - generic [ref=e340] [cursor=pointer]:
+              - generic [ref=e341]:
+                - generic [ref=e344]:
+                  - link "SEX OFFENSES" [ref=e346]:
+                    - /url: /crimes/sex-offenses
+                  - generic [ref=e348]:
+                    - heading "SEX OFFENSES" [level=3] [ref=e349]
+                    - link "Learn More" [ref=e350]:
+                      - /url: /crimes/sex-offenses
+                      - generic [ref=e351]: Learn More
+                - generic [ref=e354]:
+                  - link "DOMESTIC VIOLENCE" [ref=e356]:
+                    - /url: /crimes/domestic-violence
+                  - generic [ref=e358]:
+                    - heading "DOMESTIC VIOLENCE" [level=3] [ref=e359]
+                    - link "Learn More" [ref=e360]:
+                      - /url: /crimes/domestic-violence
+                      - generic [ref=e361]: Learn More
+                - generic [ref=e364]:
+                  - link "DRUG CHARGES" [ref=e366]:
+                    - /url: /crimes/drug-charges
+                  - generic [ref=e368]:
+                    - heading "DRUG CHARGES" [level=3] [ref=e369]
+                    - link "Learn More" [ref=e370]:
+                      - /url: /crimes/drug-charges
+                      - generic [ref=e371]: Learn More
+                - generic [ref=e374]:
+                  - link "DUI / DWI" [ref=e376]:
+                    - /url: /crimes/dui
+                  - generic [ref=e378]:
+                    - heading "DUI / DWI" [level=3] [ref=e379]
+                    - link "Learn More" [ref=e380]:
+                      - /url: /crimes/dui
+                      - generic [ref=e381]: Learn More
+              - generic [ref=e382]:
+                - generic [ref=e385]:
+                  - link "MOTOR VEHICLE OFFENSES" [ref=e387]:
+                    - /url: /crimes/motor-vehicle-offenses
+                  - generic [ref=e389]:
+                    - heading "MOTOR VEHICLE OFFENSES" [level=3] [ref=e390]
+                    - link "Learn More" [ref=e391]:
+                      - /url: /crimes/motor-vehicle-offenses
+                      - generic [ref=e392]: Learn More
+                - generic [ref=e395]:
+                  - link "PROPERTY OFFENSES" [ref=e397]:
+                    - /url: /crimes/property-offenses
+                  - generic [ref=e399]:
+                    - heading "PROPERTY OFFENSES" [level=3] [ref=e400]
+                    - link "Learn More" [ref=e401]:
+                      - /url: /crimes/property-offenses
+                      - generic [ref=e402]: Learn More
+                - generic [ref=e405]:
+                  - link "VIOLENT CRIMES" [ref=e407]:
+                    - /url: /crimes/violent-crimes
+                  - generic [ref=e409]:
+                    - heading "VIOLENT CRIMES" [level=3] [ref=e410]
+                    - link "Learn More" [ref=e411]:
+                      - /url: /crimes/violent-crimes
+                      - generic [ref=e412]: Learn More
+                - generic [ref=e415]:
+                  - link "WHITE COLLAR CRIMES" [ref=e417]:
+                    - /url: /crimes/embezzlement
+                  - generic [ref=e419]:
+                    - heading "WHITE COLLAR CRIMES" [level=3] [ref=e420]
+                    - link "Learn More" [ref=e421]:
+                      - /url: /crimes/embezzlement
+                      - generic [ref=e422]: Learn More
+            - link "View All Practice Areas" [ref=e423] [cursor=pointer]:
+              - /url: /crimes
+              - text: 
+              - generic [ref=e424]: View All Practice Areas
+          - generic [ref=e428]:
+            - heading "Understanding" [level=3] [ref=e429]:
+              - strong [ref=e430]: Understanding
+            - heading "your past," [level=3] [ref=e431]:
+              - strong [ref=e432]: your past,
+            - heading "Fighting for" [level=3] [ref=e433]:
+              - strong [ref=e434]: Fighting for
+            - heading "your Future." [level=3] [ref=e435]:
+              - strong [ref=e436]: your Future.
+          - link "Read Reviews" [ref=e444] [cursor=pointer]:
+            - /url: /about-us/reviews
+            - text: 
+            - generic [ref=e445]: Read Reviews
+          - generic [ref=e448]:
+            - generic [ref=e451]:
+              - heading "reasons to choose us" [level=4] [ref=e453]:
+                - text: reasons to
+                - generic [ref=e454]: choose us
+              - separator [ref=e456]
+              - paragraph [ref=e458]:
+                - generic [ref=e459]: Clients choose Pattis & Paz LLC for our unwavering dedication to understanding the unique circumstances behind each case and our relentless pursuit of justice. With a proven track record of achieving favorable outcomes, our experienced team provides compassionate, personalized service and fierce advocacy in both criminal and civil matters.
+            - generic [ref=e461]:
+              - generic [ref=e462]:
+                - img "High Profile Cases Icon" [ref=e464]
+                - heading "High Profile Cases" [level=4] [ref=e473]
+                - separator [ref=e475]
+                - paragraph [ref=e477]: Our team excels in managing high-stakes cases, ensuring every detail is meticulously handled for the best possible outcome.
+              - generic [ref=e478]:
+                - img [ref=e480]
+                - heading "Unwavering Client Advocacy" [level=4] [ref=e485]
+                - separator [ref=e487]
+                - paragraph [ref=e489]: We are committed to standing by our clients at every step, providing robust and personalized support throughout their legal journey.
+              - generic [ref=e490]:
+                - img [ref=e492]
+                - heading "Pioneering Courtroom Tactics" [level=4] [ref=e498]
+                - separator [ref=e500]
+                - paragraph [ref=e502]: Our innovative and strategic approach to litigation sets us apart, giving our clients a distinct advantage in the courtroom.
+              - generic [ref=e503]:
+                - img [ref=e505]
+                - heading "Exceptional Track Record" [level=4] [ref=e512]
+                - separator [ref=e514]
+                - paragraph [ref=e516]: Our history of successful verdicts and settlements speaks to our expertise and relentless dedication to achieving justice for our clients.
+          - generic [ref=e519]:
+            - heading "Don't Face Your Legal Challenges Alone" [level=4] [ref=e521]
+            - paragraph [ref=e523]:
+              - generic [ref=e524]: Contact Pattis & Paz LLC today for a free consultation. Let our experienced team of relentless advocates fight for your rights and help secure the justice you deserve.
+            - link "Contact A Lawyer" [ref=e525] [cursor=pointer]:
+              - /url: /contact-us
+              - text: 
+              - generic [ref=e526]: Contact A Lawyer
+          - generic [ref=e529]:
+            - heading "IN the news" [level=4] [ref=e534]
+            - generic [ref=e537]:
+              - generic [ref=e539]:
+                - generic [ref=e541]:
+                  - link "Handcuffed person at desk facing police officer’s hands, with case file, notebook, and POLICE sign." [ref=e542] [cursor=pointer]:
+                    - /url: /why-do-people-change-criminal-defense-attorneys-mid-case
+                  - generic [ref=e544]:
+                    - generic [ref=e545]:
+                      - heading "Why Do People Change Criminal Defense Attorneys Mid-Case?" [level=3] [ref=e547]:
+                        - link "Why Do People Change Criminal Defense Attorneys Mid-Case?" [ref=e548] [cursor=pointer]:
+                          - /url: /why-do-people-change-criminal-defense-attorneys-mid-case
+                      - generic [ref=e549]: Learn some of the most common reasons defendants change Criminal Defense Attorneys during an active case and what to consider before making a switch.
+                    - generic [ref=e550]:
+                      - link:
+                        - /url: /why-do-people-change-criminal-defense-attorneys-mid-case
+                - generic [ref=e552]:
+                  - link "Handcuffed person in tan jacket being searched by a police officer beside a red car at night" [ref=e553] [cursor=pointer]:
+                    - /url: /what-is-pre-arrest-representation-in-connecticut
+                  - generic [ref=e555]:
+                    - generic [ref=e556]:
+                      - heading "What Is Pre-Arrest Representation in Connecticut?" [level=3] [ref=e558]:
+                        - link "What Is Pre-Arrest Representation in Connecticut?" [ref=e559] [cursor=pointer]:
+                          - /url: /what-is-pre-arrest-representation-in-connecticut
+                      - generic [ref=e560]: If you believe you are under investigation, speaking with a Criminal Defense Attorney early may make a major difference. Learn how Pre-Arrest Representation works in Connecticut.
+                    - generic [ref=e561]:
+                      - link:
+                        - /url: /what-is-pre-arrest-representation-in-connecticut
+                - generic [ref=e563]:
+                  - link "Close-up of a book page with bold text “Civil Rights” and surrounding black serif text on white paper" [ref=e564] [cursor=pointer]:
+                    - /url: /do-police-have-to-read-you-your-miranda-rights-in-connecticut
+                  - generic [ref=e566]:
+                    - generic [ref=e567]:
+                      - heading "Do Police Have to Read You Your Miranda Rights in Connecticut?" [level=3] [ref=e569]:
+                        - link "Do Police Have to Read You Your Miranda Rights in Connecticut?" [ref=e570] [cursor=pointer]:
+                          - /url: /do-police-have-to-read-you-your-miranda-rights-in-connecticut
+                      - generic [ref=e571]: Many people believe criminal charges are automatically dismissed if Miranda Rights are not read. Learn how Miranda violations actually work in Connecticut Criminal Cases.
+                    - generic [ref=e572]:
+                      - link:
+                        - /url: /do-police-have-to-read-you-your-miranda-rights-in-connecticut
+              - link "Read More" [ref=e573] [cursor=pointer]:
+                - /url: /in-the-news
+                - text: 
+                - generic [ref=e574]: Read More
+          - generic [ref=e577]:
+            - heading "Featured Videos" [level=4] [ref=e579]
+            - generic [ref=e581]:
+              - paragraph [ref=e587]: Norm Pattis comments on the Fotis Dulos case following a day at trial.
+              - paragraph [ref=e593]: Footage of Attorney Norm Pattis and his client Fotis Dulos during trial.
+            - link "More Videos" [ref=e601] [cursor=pointer]:
+              - /url: /videos
+              - text: 
+              - generic [ref=e602]: More Videos
+          - generic [ref=e607]:
+            - generic [ref=e608]:
+              - link "Podcast artwork featuring Norm Pattis, a man in a suit, with a podcast logo." [ref=e610] [cursor=pointer]:
+                - /url: https://podcasts.apple.com/us/podcast/defending-the-indefensible-the-man-behind/id1676849476?i=1000683858157
+                - img "Podcast artwork featuring Norm Pattis, a man in a suit, with a podcast logo." [ref=e611]
+              - paragraph [ref=e613]:
+                - strong [ref=e614]: Listen To An Interview with Attorney Norm Pattis
+              - paragraph [ref=e616]:
+                - strong [ref=e617]: "The Man Behind the Most Controversial Cases:"
+                - generic [ref=e618]: A Candid Conversation with Attorney Norm Pattis
+              - link "Listen To Podcast" [ref=e619] [cursor=pointer]:
+                - /url: /norm-podcast-popup
+                - text: 
+                - generic [ref=e620]: Listen To Podcast
+            - generic [ref=e621]:
+              - iframe [ref=e624]:
+                - generic [active] [ref=f44e1]:
+                  - generic "YouTube Video Player" [ref=f44e3]
+                  - generic [ref=f44e5]:
+                    - generic:
+                      - generic:
+                        - button "Play video" [ref=f44e10] [cursor=pointer]
+                        - button "Hide player controls" [ref=f44e12] [cursor=pointer]
+                        - generic [ref=f44e14]:
+                          - generic [ref=f44e19]:
+                            - generic [ref=f44e20]:
+                              - link "America’s Justice System Is Rigged — Veteran Trial Lawyer Norm Pattis Reveals the Truth" [ref=f44e21] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=N0wA-MrYVn8
+                              - link "Ian Bick" [ref=f44e22] [cursor=pointer]:
+                                - /url: /channel/UCRvVklIft6DMelVW18M0oBw
+                                - generic [ref=f44e23]: Ian Bick
+                            - generic [ref=f44e24]:
+                              - button [ref=f44e25] [cursor=pointer]
+                              - generic [ref=f44e27]:
+                                - generic: Ian Bick
+                                - generic: 503K subscribers
+                          - generic [ref=f44e28]:
+                            - button "Share" [ref=f44e31] [cursor=pointer]:
+                              - generic [ref=f44e35]:
+                                - img
+                            - link "Watch on YouTube" [ref=f44e42] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=N0wA-MrYVn8
+                              - generic [ref=f44e45]:
+                                - text: Watch on
+                                - img [ref=f44e47]:
+                                  - generic [ref=f44e49]:
+                                    - img
+              - paragraph [ref=e626]:
+                - strong [ref=e627]: Watch Norm Pattis on Locked In with Ian Bick
+              - paragraph [ref=e629]: In this conversation, Attorney Norm Pattis opens up about what it truly means to defend the guilty and the innocent.
+              - link "Watch Video" [ref=e630] [cursor=pointer]:
+                - /url: https://www.youtube.com/embed/N0wA-MrYVn8
+                - text: 
+                - generic [ref=e631]: Watch Video
+      - generic [ref=e634]:
+        - generic [ref=e636]:
+          - generic [ref=e637]:
+            - paragraph [ref=e639]:
+              - generic [ref=e640]: Contact Us For A Free Consultation
+            - separator [ref=e642]
+            - paragraph [ref=e644]:
+              - text: For more information or to schedule a free consultation, call us at
+              - link "(203) 601-7909" [ref=e645] [cursor=pointer]:
+                - /url: tel:(203) 601-7909
+              - generic [ref=e646]: or complete the form.
+            - generic [ref=e649]:
+              - generic [ref=e650]:
+                - generic [ref=e651]: "First Name:"
+                - textbox "First Name:" [ref=e652]
+              - generic [ref=e653]:
+                - generic [ref=e654]: "Last Name:"
+                - textbox "Last Name:" [ref=e655]
+              - generic [ref=e656]:
+                - generic [ref=e657]: "Phone:"
+                - textbox "Phone:" [ref=e658]
+              - generic [ref=e659]:
+                - generic [ref=e660]: "Email:"
+                - textbox "Email:" [ref=e661]
+              - generic [ref=e662]:
+                - generic [ref=e663]: Are you a new customer?
+                - combobox "Are you a new customer?" [ref=e664]:
+                  - option "Yes, I am a new customer."
+                  - option "No, I am a current customer."
+                  - option "Neither, I am messaging for something else."
+              - generic [ref=e665]:
+                - generic [ref=e666]: What are your charges?
+                - textbox "What are your charges?" [ref=e667]
+              - generic [ref=e668]:
+                - generic [ref=e669]: Where are your cases pending?
+                - textbox "Where are your cases pending?" [ref=e670]
+              - generic [ref=e671]:
+                - generic [ref=e672]: "Message:"
+                - textbox "Message:" [ref=e673]
+              - button "Send Message" [ref=e675] [cursor=pointer]
+          - generic [ref=e676]:
+            - generic [ref=e679]:
+              - heading "What Happens After I Send My Message?" [level=5] [ref=e681]
+              - generic [ref=e684]:
+                - generic [ref=e686]:
+                  - img [ref=e688]
+                  - paragraph [ref=e691]: Our team will review your information.
+                - generic [ref=e693]:
+                  - img [ref=e695]
+                  - paragraph [ref=e698]: A team member will contact you as soon as possible.
+                - generic [ref=e700]:
+                  - img [ref=e702]
+                  - paragraph [ref=e705]: We will work with you to schedule your consultation.
+            - heading "Contact Information" [level=5] [ref=e707]
+            - generic [ref=e709]:
+              - generic [ref=e710]:
+                - generic "Call Us" [ref=e712]:
+                  - img "Call Us" [ref=e713]
+                - paragraph [ref=e716]: New Haven Office
+                - paragraph [ref=e718]:
+                  - generic [ref=e719]: 171 Orange Street, New Haven, CT 06510
+                - text: 
+                - generic "Call Us" [ref=e721]:
+                  - img "Call Us" [ref=e722]
+                - paragraph [ref=e727]: Phone
+                - paragraph [ref=e729]:
+                  - link "(203) 601-7909" [ref=e730] [cursor=pointer]:
+                    - /url: tel:(203) 204-9978
+                - text: 
+              - generic [ref=e731]:
+                - link [ref=e733] [cursor=pointer]:
+                  - /url: tel:(555) 555-5555
+                  - img [ref=e734]
+                - paragraph [ref=e737]: Shelton Office
+                - paragraph [ref=e739]:
+                  - generic [ref=e740]: 4 Research Dr Suite 402, Shelton, CT 06484
+                - text: 
+                - link "call.svg" [ref=e742] [cursor=pointer]:
+                  - /url: tel:(555) 555-5555
+                  - img [ref=e743]
+                - paragraph [ref=e748]: Phone
+                - paragraph [ref=e750]:
+                  - link "(203) 889-5585" [ref=e751] [cursor=pointer]:
+                    - /url: tel:(203) 889-5585
+                - text: 
+        - generic [ref=e754]:
+          - link "Pattis & Paz Logo" [ref=e756] [cursor=pointer]:
+            - /url: /
+            - img "Pattis & Paz Logo" [ref=e757]
+          - generic [ref=e760]:
+            - link "facebook" [ref=e761] [cursor=pointer]:
+              - /url: https://facebook.com/brittanybpaz
+              - generic [ref=e762]: 
+            - link "youtube" [ref=e763] [cursor=pointer]:
+              - /url: https://youtube.com/channel/UCTDaQDjDkOda5_lzuvvqSxg
+              - generic [ref=e764]: 
+            - link "linkedin" [ref=e765] [cursor=pointer]:
+              - /url: https://linkedin.com/in/norman-pattis-a6542a1
+              - generic [ref=e766]: 
+            - link "tiktok" [ref=e767] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@attorneybrittanypaz
+              - generic [ref=e768]: 
+        - generic [ref=e770]:
+          - generic [ref=e771]:
+            - heading "Our Services" [level=5] [ref=e773]
+            - navigation [ref=e774]:
+              - menubar [ref=e775]:
+                - menuitem "Civil" [ref=e776]:
+                  - link "Civil" [ref=e777] [cursor=pointer]:
+                    - /url: /civil
+                    - generic: Civil 
+                - menuitem "Trials" [ref=e778]:
+                  - link "Trials" [ref=e779] [cursor=pointer]:
+                    - /url: /trials
+                    - generic: Trials 
+                - menuitem "Appeals" [ref=e780]:
+                  - link "Appeals" [ref=e781] [cursor=pointer]:
+                    - /url: /appeals
+                    - generic: Appeals 
+                - menuitem "Sex Offenses" [ref=e782]:
+                  - link "Sex Offenses" [ref=e783] [cursor=pointer]:
+                    - /url: /crimes/sex-offenses
+                    - generic: Sex Offenses 
+                - menuitem "Drug Charges" [ref=e784]:
+                  - link "Drug Charges" [ref=e785] [cursor=pointer]:
+                    - /url: /crimes/drug-charges
+                    - generic: Drug Charges 
+                - menuitem "Personal Injury" [ref=e786]:
+                  - link "Personal Injury" [ref=e787] [cursor=pointer]:
+                    - /url: /personal-injury
+                    - generic: Personal Injury 
+                - menuitem "Criminal Defense" [ref=e788]:
+                  - link "Criminal Defense" [ref=e789] [cursor=pointer]:
+                    - /url: /crimes
+                    - generic: Criminal Defense 
+          - generic [ref=e790]:
+            - heading "Quick Links" [level=5] [ref=e792]
+            - navigation [ref=e793]:
+              - menubar [ref=e794]:
+                - menuitem "FAQ" [ref=e795]:
+                  - link "FAQ" [ref=e796] [cursor=pointer]:
+                    - /url: /frequently-asked-questions
+                    - generic: FAQ 
+                - menuitem "Videos" [ref=e797]:
+                  - link "Videos" [ref=e798] [cursor=pointer]:
+                    - /url: /videos
+                    - generic: Videos 
+                - menuitem "Results" [ref=e799]:
+                  - link "Results" [ref=e800] [cursor=pointer]:
+                    - /url: /results
+                    - generic: Results 
+                - menuitem "About Us" [ref=e801]:
+                  - link "About Us" [ref=e802] [cursor=pointer]:
+                    - /url: /about-us
+                    - generic: About Us 
+                - menuitem "Attorneys" [ref=e803]:
+                  - link "Attorneys" [ref=e804] [cursor=pointer]:
+                    - /url: /about-us/attorneys
+                    - generic: Attorneys 
+                - menuitem "In the News" [ref=e805]:
+                  - link "In the News" [ref=e806] [cursor=pointer]:
+                    - /url: /in-the-news
+                    - generic: In the News 
+          - generic [ref=e807]:
+            - heading "Business Hours" [level=5] [ref=e809]
+            - generic [ref=e811]:
+              - generic [ref=e812]:
+                - term [ref=e813]: Monday
+                - definition [ref=e814]:
+                  - time [ref=e815]: 9:00 am
+                  - text: "-"
+                  - time [ref=e816]: 5:00 pm
+              - generic [ref=e817]:
+                - term [ref=e818]: Tuesday
+                - definition [ref=e819]:
+                  - time [ref=e820]: 9:00 am
+                  - text: "-"
+                  - time [ref=e821]: 5:00 pm
+              - generic [ref=e822]:
+                - term [ref=e823]: Wednesday
+                - definition [ref=e824]:
+                  - time [ref=e825]: 9:00 am
+                  - text: "-"
+                  - time [ref=e826]: 5:00 pm
+              - generic [ref=e827]:
+                - term [ref=e828]: Thursday
+                - definition [ref=e829]:
+                  - time [ref=e830]: 9:00 am
+                  - text: "-"
+                  - time [ref=e831]: 5:00 pm
+              - generic [ref=e832]:
+                - term [ref=e833]: Friday
+                - definition [ref=e834]:
+                  - time [ref=e835]: 9:00 am
+                  - text: "-"
+                  - time [ref=e836]: 5:00 pm
+              - generic [ref=e837]:
+                - term [ref=e838]: Saturday
+                - definition [ref=e839]: Closed
+              - generic [ref=e840]:
+                - term [ref=e841]: Sunday
+                - definition [ref=e842]: Closed
+          - generic [ref=e843]:
+            - heading "Contact Us" [level=5] [ref=e845]
+            - paragraph [ref=e847]:
+              - generic [ref=e848]: Pattis & Paz LLC
+            - generic [ref=e853]:
+              - img [ref=e855]
+              - paragraph [ref=e858]: 171 Orange Street, New Haven, CT 06510
+            - generic [ref=e863]:
+              - img [ref=e865]
+              - paragraph [ref=e868]: (203) 601-7909
+            - generic [ref=e873]:
+              - img [ref=e875]
+              - paragraph [ref=e878]: 4 Research Dr Suite 402, Shelton, CT 06484
+            - generic [ref=e883]:
+              - img [ref=e885]
+              - paragraph [ref=e888]: (203) 601-7909
+            - link "Contact Us" [ref=e889] [cursor=pointer]:
+              - /url: /contact-us
+              - text: 
+              - generic [ref=e890]: Contact Us
+        - generic [ref=e893]:
+          - paragraph [ref=e895]: "Our attorneys have been featured by:"
+          - generic [ref=e898] [cursor=pointer]:
+            - generic "NBC logo" [ref=e903]
+            - generic "Connecticut Public Radio Logo" [ref=e908]
+            - generic "Boston News 25 Logo" [ref=e913]
+            - generic "The O'Reilly Factor logo" [ref=e918]
+            - generic "60 Minutes logo" [ref=e923]
+            - generic "Inside Edition logo" [ref=e928]
+            - generic "Good Morning America Logo" [ref=e933]
+            - generic "The New York Times Logo" [ref=e938]
+            - generic "ABC News Logo" [ref=e943]
+          - paragraph [ref=e945]:
+            - generic [ref=e946]: From our New Haven, Connecticut base Pattis & Paz LLC law firm represents clients charged with felonies or misdemeanors throughout CT including metro areas of New Haven, Milford, Meriden, Middletown, Bridgeport, Hartford, North Stamford, Stamford, Waterbury, East Norwalk, Norwalk, Danbury, New Britain as well as throughout Fairfield County, New Haven County, Middlesex County, Litchfield County, Hartford County, New London County, Windham County, and elsewhere in Connecticut as well as in New York federal courts.
+        - paragraph [ref=e951]: Accepted Payments
+        - generic [ref=e953]:
+          - generic [ref=e956]:
+            - img [ref=e959]
+            - img [ref=e1001]
+            - img [ref=e1039]
+          - generic [ref=e1051]:
+            - img [ref=e1054]
+            - img [ref=e1060]
+            - img [ref=e1075]
+        - generic [ref=e1080]:
+          - generic [ref=e1083]:
+            - generic [ref=e1084]: © 2026
+            - paragraph [ref=e1086]: Pattis & Paz
+          - generic [ref=e1087]:
+            - text:    
+            - navigation [ref=e1088]:
+              - menubar [ref=e1089]:
+                - menuitem "Privacy" [ref=e1090]:
+                  - link "Privacy" [ref=e1091] [cursor=pointer]:
+                    - /url: /privacy
+                    - generic: Privacy 
+                - menuitem "Disclaimer" [ref=e1092]:
+                  - link "Disclaimer" [ref=e1093] [cursor=pointer]:
+                    - /url: /disclaimer
+                    - generic: Disclaimer 
+                - menuitem "Terms Of Use" [ref=e1094]:
+                  - link "Terms Of Use" [ref=e1095] [cursor=pointer]:
+                    - /url: /terms-of-use
+                    - generic: Terms Of Use 
+                - menuitem "Web Accessibility Statement" [ref=e1096]:
+                  - link "Web Accessibility Statement" [ref=e1097] [cursor=pointer]:
+                    - /url: /web-accessibility-statement
+                    - generic: Web Accessibility Statement 
+          - link "Website designed by Develomark" [ref=e1100] [cursor=pointer]:
+            - /url: https://www.develomark.com/
+            - img "Website designed by Develomark" [ref=e1101]
+  - generic:
+    - generic:
+      - generic: 
+    - generic: "Share by:"

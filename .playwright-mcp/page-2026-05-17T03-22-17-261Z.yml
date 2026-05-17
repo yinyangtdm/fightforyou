@@ -1,0 +1,1002 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Facebook" [ref=e4] [cursor=pointer]:
+        - /url: https://www.facebook.com/robertslawva
+      - link "RSS Feed" [ref=e5] [cursor=pointer]:
+        - /url: https://robertslaw.org/feed/
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Skip to navigation" [ref=e8] [cursor=pointer]:
+          - /url: "#menu"
+      - listitem [ref=e9]:
+        - link "Skip to main content" [ref=e10] [cursor=pointer]:
+          - /url: "#primaryContent"
+      - listitem [ref=e11]:
+        - link "Skip to secondary content" [ref=e12] [cursor=pointer]:
+          - /url: "#secondaryContent"
+      - listitem [ref=e13]:
+        - link "Skip to footer" [ref=e14] [cursor=pointer]:
+          - /url: "#footer"
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - heading "Thomas H. Roberts & Associates, PC" [level=1] [ref=e18]:
+          - link "Thomas H. Roberts & Associates, PC" [ref=e19] [cursor=pointer]:
+            - /url: https://robertslaw.org
+        - generic [ref=e20]: Virginia's Personal Injury & Civil Rights Law Firm
+      - generic [ref=e21]:
+        - generic:
+          - list:
+            - listitem [ref=e22]:
+              - link "Firm" [ref=e23] [cursor=pointer]:
+                - /url: https://robertslaw.org/
+            - listitem [ref=e24]:
+              - link "Attorney & Staff Profiles" [ref=e25] [cursor=pointer]:
+                - /url: https://robertslaw.org/attorney-staff-profiles/
+            - listitem [ref=e26]:
+              - link "Practice Areas" [ref=e27] [cursor=pointer]:
+                - /url: https://robertslaw.org/practice-areas/
+            - listitem [ref=e28]:
+              - link "Make Payment" [ref=e29] [cursor=pointer]:
+                - /url: https://robertslaw.org/make-payment/
+            - listitem [ref=e30]:
+              - link "Contact the Firm" [ref=e31] [cursor=pointer]:
+                - /url: https://robertslaw.org/contact-the-firm/
+            - listitem [ref=e32]:
+              - link "LOCAL NEWS IMPACTING OUR VIRGINIA COMMUNITY" [ref=e33] [cursor=pointer]:
+                - /url: https://robertslaw.org/local-news-impacting-our-virginia-community/
+    - generic [ref=e35]:
+      - heading "Virginia’s Personal Injury & Civil Rights Law Firm" [level=1] [ref=e36]:
+        - link "Virginia’s Personal Injury & Civil Rights Law Firm" [ref=e37] [cursor=pointer]:
+          - /url: https://robertslaw.org/
+      - generic [ref=e40]:
+        - heading "protecting life and liberty" [level=2] [ref=e45]
+        - link "Virginia Personal Injury & Civil Rights Law Firm" [ref=e50] [cursor=pointer]:
+          - /url: https://robertslaw.org/virginia-civil-rights-law-firm/
+          - img "Virginia Personal Injury & Civil Rights Law Firm" [ref=e51]
+        - heading "Justice and Civil Rights, It's In Our Blood" [level=2] [ref=e56]
+        - heading "Virginia Litigation Law Firm" [level=2] [ref=e61]:
+          - link "Virginia Litigation Law Firm" [ref=e62] [cursor=pointer]:
+            - /url: https://robertslaw.org/practice-areas/
+        - heading "Virginia’s personal injury and civil rights law firm of Thomas H. Roberts & Associates, PC has been a leader helping ordinary people with litigation since 1986." [level=4] [ref=e67]
+        - heading "CALL 804-783-2000" [level=2] [ref=e72]:
+          - link "CALL 804-783-2000" [ref=e73] [cursor=pointer]:
+            - /url: tel:8047832000
+        - search [ref=e78]:
+          - generic [ref=e80]:
+            - generic [ref=e81]: Search
+            - searchbox "Search" [ref=e82]
+            - button "Search" [ref=e83]:
+              - img [ref=e85]
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - link [ref=e93] [cursor=pointer]:
+              - /url: mailto:tom.roberts@robertslaw.org
+              - img [ref=e94]
+            - paragraph [ref=e98]: Email Attorney Roberts
+          - link "Photo of Virginia Lawyer Thomas H Roberts" [ref=e102] [cursor=pointer]:
+            - /url: https://robertslaw.org/attorney-staff-profiles/thomas-h-roberts-esq/
+            - img "Photo of Virginia Lawyer Thomas H Roberts" [ref=e103]
+          - generic [ref=e107]:
+            - link "Call Attorney Roberts" [ref=e109] [cursor=pointer]:
+              - /url: tel:804-783-2002
+              - img [ref=e110]
+            - generic [ref=e112]:
+              - heading "Call Attorney Roberts" [level=3] [ref=e113]:
+                - link "Call Attorney Roberts" [ref=e114] [cursor=pointer]:
+                  - /url: tel:804-783-2002
+              - paragraph [ref=e115]: 804-783-2002
+        - paragraph [ref=e120]:
+          - text: Principal
+          - link "Thomas H Roberts, Esq." [ref=e121] [cursor=pointer]:
+            - /url: https://robertslaw.org/attorney-staff-profiles/thomas-h-roberts-esq/
+            - strong [ref=e122]: Thomas H Roberts, Esq.
+          - text: Since 1986
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - link "Photo of Andrew T Bodoh, Esq." [ref=e128] [cursor=pointer]:
+              - /url: https://robertslaw.org/attorney-staff-profiles/andrew-t-bodoh-esq/
+              - img "Photo of Andrew T Bodoh, Esq." [ref=e129]
+            - paragraph [ref=e132]:
+              - text: Associate
+              - text: Andrew T Bodoh, Esq.
+            - link [ref=e136] [cursor=pointer]:
+              - /url: tel:804-991-4260
+              - img [ref=e137]
+            - link [ref=e142] [cursor=pointer]:
+              - /url: mailto:andrew.bodoh@robertslaw.org
+              - img [ref=e143]
+          - generic [ref=e145]:
+            - link "lawyers on courthouse steps" [ref=e148] [cursor=pointer]:
+              - /url: https://robertslaw.org/attorney-staff-profiles/thomas-h-roberts-esq/
+              - img "lawyers on courthouse steps" [ref=e149]
+            - paragraph [ref=e152]: Let us help you protect civil rights and obtain justice for personal injuries.
+          - generic [ref=e153]:
+            - link "Photo of Jonathan M Arthur, Esq." [ref=e156] [cursor=pointer]:
+              - /url: https://robertslaw.org/attorney-staff-profiles/jonathan-m-arthur-esq/
+              - img "Photo of Jonathan M Arthur, Esq." [ref=e157]
+            - paragraph [ref=e160]:
+              - text: Associate
+              - text: Jonathan M Arthur, Esq.
+            - link [ref=e164] [cursor=pointer]:
+              - /url: tel:804-991-4308
+              - img [ref=e165]
+            - link [ref=e170] [cursor=pointer]:
+              - /url: mailto:j.arthur@robertslaw.org
+              - img [ref=e171]
+        - paragraph [ref=e177]: With over 50 years of combined civil right and personal injury experience, we are here to help you. Smashing records, this personal injury law firm obtained the first $1 million jury verdict in the history of Henrico County. Each case is different, but one thing remains constant, we fight for you. Justice and civil rights is in our blood.
+        - img "richmond skyline photo" [ref=e182]
+        - generic [ref=e184]:
+          - heading "Contact Our Legal Team!" [level=2] [ref=e191]:
+            - link "Contact Our Legal Team!" [ref=e192] [cursor=pointer]:
+              - /url: tel:804-783-2000
+          - img "team work" [ref=e195]
+        - paragraph [ref=e200]: Richmond personal injury and civil rights, Chesterfield personal injury and civil rights, Henrico personal injury and civil rights, Hanover personal injury and civil rights, Goochland personal injury and civil rights, the list goes on. We are Virginia’s personal injury and civil rights law firm – let us help you.
+        - button "Menu Toggle" [ref=e205] [cursor=pointer]:
+          - img [ref=e206]
+        - generic [ref=e209]:
+          - heading "Civil Rights" [level=2] [ref=e213]:
+            - link "Civil Rights" [ref=e214] [cursor=pointer]:
+              - /url: https://robertslaw.org/civil-rights-in-virginia/
+          - heading "Wrongful Death" [level=2] [ref=e218]:
+            - link "Wrongful Death" [ref=e219] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-wrongful-death/
+          - heading "Accidents" [level=2] [ref=e223]:
+            - link "Accidents" [ref=e224] [cursor=pointer]:
+              - /url: https://robertslaw.org/summary-of-personal-injury-law/
+          - heading "Police Brutality" [level=2] [ref=e228]:
+            - link "Police Brutality" [ref=e229] [cursor=pointer]:
+              - /url: https://robertslaw.org/practice-areas/summary-of-excessive-use-of-force/
+          - heading "Defamation & Slander" [level=2] [ref=e233]:
+            - link "Defamation & Slander" [ref=e234] [cursor=pointer]:
+              - /url: https://robertslaw.org/summary-of-defamation-slander-libel-in-virginia/
+          - heading "FOIA Freedom of Information" [level=2] [ref=e238]:
+            - link "FOIA Freedom of Information" [ref=e239] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-foia/
+        - generic [ref=e241]:
+          - heading "Litigation" [level=2] [ref=e245]:
+            - link "Litigation" [ref=e246] [cursor=pointer]:
+              - /url: https://robertslaw.org/?s=litigation
+          - heading "Sexual Harassment" [level=2] [ref=e250]:
+            - link "Sexual Harassment" [ref=e251] [cursor=pointer]:
+              - /url: https://robertslaw.org/sexual-harassment-law-firm/
+          - heading "Appeals" [level=2] [ref=e255]:
+            - link "Appeals" [ref=e256] [cursor=pointer]:
+              - /url: https://robertslaw.org/appeals-in-virginia/
+          - heading "Malicious Prosecution" [level=2] [ref=e260]:
+            - link "Malicious Prosecution" [ref=e261] [cursor=pointer]:
+              - /url: https://robertslaw.org/malicious-prosecution-and-false-arrest-in-virginia/
+          - heading "1st Amendment Free Speech" [level=2] [ref=e265]:
+            - link "1st Amendment Free Speech" [ref=e266] [cursor=pointer]:
+              - /url: https://robertslaw.org/1st-amendment-retaliation-claims-in-the-4th-circuit/
+          - heading "Sue Drunk Driver" [level=2] [ref=e270]:
+            - link "Sue Drunk Driver" [ref=e271] [cursor=pointer]:
+              - /url: https://robertslaw.org/injured-by-drunk-driver-in-virginia/
+        - heading "Commercial Litigation" [level=2] [ref=e276]:
+          - link "Commercial Litigation" [ref=e277] [cursor=pointer]:
+            - /url: https://robertslaw.org/richmond-commercial-litigation-law-firm/
+        - generic [ref=e279]:
+          - heading "Virginia Personal Injury Law Firm" [level=2] [ref=e282]
+          - generic [ref=e284]:
+            - paragraph [ref=e285]:
+              - strong [ref=e286]: "Question:"
+              - text: What best describes us and our attorneys?
+            - paragraph [ref=e287]:
+              - strong [ref=e288]: "Answer:"
+              - text: Virginia Civil Rights Attorney * Virginia Personal Injury Attorney * Virginia Car Accident Lawyer * Virginia Injury Lawyer * Virginia Injury Attorney * Virginia Wrongful Death Lawyer * Virginia Personal Injury Lawyer * Virginia Car Wreck Attorney * Virginia Motorcycle Accident Attorney * Virginia FOIA Attorney * Skilled Virginia Litigator * Virginia Sexual Harassment Attorney * Virginia Sexual Assault Attorney * Virginia Defamation Attorney * Virginia Police Misconduct Attorney * Virginia Excessive Force Attorney
+        - region "Slides" [ref=e294]:
+          - generic [ref=e295]:
+            - group "9 / 9" [ref=e296]:
+              - generic [ref=e297]:
+                - generic [ref=e299]: I called the firm to ask if I had a case for defamation of character. Jonathan Arthur answered my call. He listened to my concerns and provided a thorough explanation of my options.
+                - generic [ref=e302]: Natasha Washington
+            - group "1 / 9" [ref=e303]:
+              - generic [ref=e304]:
+                - generic [ref=e306]: Thomas H. Roberts, Esq. went above and beyond to assist me ... took the time to sit down and genuinely listen .... He was very knowledgeable, patient, and helpful. ... I would recommend this law firm to help you navigate your legal matters.
+                - generic [ref=e307]:
+                  - img "Sierra S" [ref=e309]
+                  - generic [ref=e310]:
+                    - generic [ref=e311]: Sierra S
+                    - generic [ref=e312]: Client
+            - group "2 / 9" [ref=e313]:
+              - generic [ref=e314]:
+                - generic [ref=e316]: I’ve been fortunate to have Thomas H. Roberts & Associates on my side for a multitude of issues. They are excellent with understanding the issues and simplifying the complexity’s. Most importantly their attorneys are able to explain the legal issues in common language. I trust Tom Roberts and his associates to have my family’s back.
+                - generic [ref=e317]:
+                  - img "Cary D" [ref=e319]
+                  - generic [ref=e320]:
+                    - generic [ref=e321]: Cary D
+                    - generic [ref=e322]: Client
+            - group "3 / 9" [ref=e323]:
+              - generic [ref=e324]:
+                - generic [ref=e326]: I have utilized Mr. Roberts legal services several times throughout the years and he has always provided excellent, aggressive and creative legal service. Mr. Roberts has been a tremendous help to my family and I during difficult situations and has been victorious. I highly recommend Mr. Thomas Roberts if you need serious legal representation.
+                - generic [ref=e327]:
+                  - img "Harry Rosmarin" [ref=e329]
+                  - generic [ref=e330]:
+                    - generic [ref=e331]: Harry Rosmarin
+                    - generic [ref=e332]: CEO/Propietor
+            - group "4 / 9" [ref=e333]:
+              - generic [ref=e334]:
+                - generic [ref=e336]: Mr Roberts is a honest, caring attorney that takes the time to listen to you and gives excellent legal advice and guidance. He is my “go to” attorney. If you help, I highly recommend that you give him a call.
+                - generic [ref=e337]:
+                  - img "Philip Schultz" [ref=e339]
+                  - generic [ref=e341]: Philip Schultz
+            - group "5 / 9" [ref=e342]:
+              - generic [ref=e343]:
+                - generic [ref=e345]: Mr. Roberts is straight to the point and upfront. He is a bull when it comes to getting it done. I truly appreciate you for everything and will recommend you to anyone. Thanks again.
+                - generic [ref=e346]:
+                  - img "Lakiesha Bullock" [ref=e348]
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: Lakiesha Bullock
+                    - generic [ref=e351]: Client
+            - group "6 / 9" [ref=e352]:
+              - generic [ref=e353]:
+                - generic [ref=e355]: Knowledgeable and straightforward people eager to help set you on the right course of direction. Highly recommend their services!
+                - generic [ref=e356]:
+                  - img "Ellie" [ref=e358]
+                  - generic [ref=e360]: Ellie
+            - group "7 / 9" [ref=e361]:
+              - generic [ref=e362]:
+                - generic [ref=e364]: Almost immediately after calling Mr. Roberts he went straight away into developing a strategy to address my legal matter. A great deal of stress was taken from my shoulders; and I cannot recommend this firm, and in particular Mr. Roberts, enough. Sir, thank you, thank you, thank you!
+                - generic [ref=e367]: John Lesondak
+            - group "8 / 9" [ref=e368]:
+              - generic [ref=e369]:
+                - generic [ref=e371]: I am CEO of The Hyer Calling Foundation, Inc., a 501(c)(3) nonprofit that gives men and women in recovery from the disease of addiction a second chance at a career. Hyer Calling retained Andrew Bodoh to help us navigate a situation in which we needed both top notch lawyering as well as sensitivity. We found both and as a licensed attorney myself I would recommend this firm.
+                - generic [ref=e373]:
+                  - generic [ref=e374]: Kevin Hyer
+                  - generic [ref=e375]: CEO
+            - group "9 / 9" [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e379]: I called the firm to ask if I had a case for defamation of character. Jonathan Arthur answered my call. He listened to my concerns and provided a thorough explanation of my options.
+                - generic [ref=e382]: Natasha Washington
+            - group "1 / 9" [ref=e383]:
+              - generic [ref=e384]:
+                - generic [ref=e386]: Thomas H. Roberts, Esq. went above and beyond to assist me ... took the time to sit down and genuinely listen .... He was very knowledgeable, patient, and helpful. ... I would recommend this law firm to help you navigate your legal matters.
+                - generic [ref=e387]:
+                  - img "Sierra S" [ref=e389]
+                  - generic [ref=e390]:
+                    - generic [ref=e391]: Sierra S
+                    - generic [ref=e392]: Client
+          - button "Previous slide" [ref=e393] [cursor=pointer]:
+            - img [ref=e394]
+          - button "Next slide" [ref=e396] [cursor=pointer]:
+            - img [ref=e397]
+          - generic [ref=e399]:
+            - button "Go to slide 1" [ref=e400] [cursor=pointer]
+            - button "Go to slide 2" [ref=e401] [cursor=pointer]
+            - button "Go to slide 3" [ref=e402] [cursor=pointer]
+            - button "Go to slide 4" [ref=e403] [cursor=pointer]
+            - button "Go to slide 5" [ref=e404] [cursor=pointer]
+            - button "Go to slide 6" [ref=e405] [cursor=pointer]
+            - button "Go to slide 7" [ref=e406] [cursor=pointer]
+            - button "Go to slide 8" [ref=e407] [cursor=pointer]
+            - button "Go to slide 9" [ref=e408] [cursor=pointer]
+        - generic [ref=e412]:
+          - generic [ref=e414]:
+            - search [ref=e419]:
+              - generic [ref=e421]:
+                - generic [ref=e422]: Search
+                - searchbox "Search" [ref=e423]
+                - button "Search" [ref=e424]:
+                  - img [ref=e426]
+            - paragraph [ref=e432]:
+              - strong [ref=e433]:
+                - link "En Español" [ref=e434] [cursor=pointer]:
+                  - /url: https://robertslaw.org/abogados-de-lesiones-personales-y-accidentes-de-auto/
+          - heading "Some of the notable court cases include the following:" [level=4] [ref=e441]
+          - generic [ref=e443]:
+            - generic [ref=e445]:
+              - heading "Lt. Caron Nazario v Gutierrez" [level=2] [ref=e448]
+              - paragraph [ref=e451]: In 2021 – the firm filed suit against two Windsor police officers for 4th Amendment violations against Lt. Nazario with the United States Army arising from a simple but unlawful traffic stop. “What’s going on- you are fix’n to ride the lightning son!”
+              - paragraph [ref=e454]:
+                - text: "9/7/2023 – The Town of Windsor Virginia settles the suit brought against it stemming from the violations to Lt. Caron Nazario. Virginia’s Attorney General Miyares stated: “What we all saw in the shocking traffic stop video involving Army Lt. Caron Nazario was an"
+                - strong [ref=e455]: egregious and unjust use of power
+                - text: …
+                - strong [ref=e456]: I join the hundreds of thousands of good and decent law enforcement officers who stand against the kind of police misconduct we witnessed
+                - text: . Police are the only government entity that has a monopoly on the use of force in American society, so it’s important that they be good stewards of that responsibility and strive for excellence in the administration of justice. Excessive use of force and violations of constitutional liberties will not be tolerated in Virginia.”
+              - link "Read - 4th Circuit - Petition to Rehear" [ref=e460] [cursor=pointer]:
+                - /url: https://www.robertslaw.org/Nazario/46%20-%20Petition%20for%20Rehearing%20and%20Rehearing%20en%20Banc.pdf
+                - generic [ref=e462]: Read - 4th Circuit - Petition to Rehear
+              - heading "Read the Brief Filed for a New Trial" [level=3] [ref=e465]:
+                - link "Read the Brief Filed for a New Trial" [ref=e466] [cursor=pointer]:
+                  - /url: https://robertslaw.org/lt-nazario-v-town-of-windsor-police-officers-official-update/
+            - generic [ref=e468]:
+              - link "Lt. Nazario" [ref=e472] [cursor=pointer]:
+                - /url: https://robertslaw.org/civil-rights-suit-filed-in-norfolk/
+                - generic [ref=e474]: Lt. Nazario
+              - img "Lt. Nazario attacked with pepper spray" [ref=e477]
+              - link "4th Circuit - Petition to Rehear" [ref=e481] [cursor=pointer]:
+                - /url: https://www.robertslaw.org/Nazario/46%20-%20Petition%20for%20Rehearing%20and%20Rehearing%20en%20Banc.pdf
+                - generic [ref=e483]: 4th Circuit - Petition to Rehear
+              - link "Nazario Petition to Rehear - 4th Circuit Court of Appeals" [ref=e486] [cursor=pointer]:
+                - /url: https://www.robertslaw.org/Nazario/46%20-%20Petition%20for%20Rehearing%20and%20Rehearing%20en%20Banc.pdf
+                - img "Nazario Petition to Rehear - 4th Circuit Court of Appeals" [ref=e487]
+              - link "4th Circuit Opinion 5/31/2024" [ref=e491] [cursor=pointer]:
+                - /url: https://www.robertslaw.org/Nazario/46%20-%20Petition%20for%20Rehearing%20and%20Rehearing%20en%20Banc.pdf
+                - generic [ref=e493]: 4th Circuit Opinion 5/31/2024
+              - link [ref=e496] [cursor=pointer]:
+                - /url: https://www.robertslaw.org/Nazario/Nazario%20Opinion-5-31-2024-4th-ciruit.pdf
+          - heading "You Can Help Lt. Nazario with the Legal Costs and Expenses! – GOFUND.ME" [level=2] [ref=e499]:
+            - link "You Can Help Lt. Nazario with the Legal Costs and Expenses! – GOFUND.ME" [ref=e500] [cursor=pointer]:
+              - /url: https://gofund.me/b0eef5ed
+          - heading "Lee Monument Protestors v. City of Richmond Officers" [level=2] [ref=e507]
+          - generic [ref=e509]:
+            - generic [ref=e511]:
+              - paragraph [ref=e514]:
+                - text: In 2022 – the firm settled civil rights cases against RPD for unlawful infringement of constitutional liberties of peaceful protesters when without provocation citizens were attacked with gas and force on June 1, 2020 at Lee Circle. Claims under the 1st and 4th Amendments to the United States Constitution.
+                - link "READ THE TERMS RELEASED!" [ref=e515] [cursor=pointer]:
+                  - /url: https://robertslaw.org/richmond-2020-protest-settlement/
+              - link "Settlement - 2020 Lee Memorial Protesters Civil Rights Action Lawsuit - TERMS REVEALED! - click here!" [ref=e519] [cursor=pointer]:
+                - /url: https://robertslaw.org/richmond-2020-protest-settlement/
+                - generic [ref=e520]:
+                  - img [ref=e522]
+                  - generic [ref=e524]: Settlement - 2020 Lee Memorial Protesters Civil Rights Action Lawsuit - TERMS REVEALED! - click here!
+            - link "Defend 1st Amendment" [ref=e530] [cursor=pointer]:
+              - /url: https://protestrva.robertslaw.org/
+              - generic [ref=e532]: Defend 1st Amendment
+          - heading "4 Bronze Star Veteran v. Jailer" [level=2] [ref=e543]
+          - generic [ref=e545]:
+            - paragraph [ref=e550]: In 2015, the firm obtained a jury verdict against a Pamunkey Regional Corrections officer for excessive use of force against an old combat veteran, decorated with 4 bronze stars for valor in combat, who grabbed a towel to warm himself.
+            - generic [ref=e552]:
+              - link "Brutality" [ref=e556] [cursor=pointer]:
+                - /url: https://robertslaw.org/verdict-for-vietnam-war-hero-mistreated-by-jail/
+                - generic [ref=e558]: Brutality
+              - img "bronze star medal" [ref=e561]
+          - heading "Police Officers 1st Amendment Right to Post on Social Media" [level=2] [ref=e568]
+          - generic [ref=e570]:
+            - paragraph [ref=e575]: In 2016, involving Facebook posts, the law firm secured a 4th Circuit opinion declaring the Petersburg Police Social Media Policy unconstitutional, which intended to silence criticism of police departments.
+            - generic [ref=e577]:
+              - link "1st Amendment" [ref=e581] [cursor=pointer]:
+                - /url: https://robertslaw.org/1st-amendment-attorneys/
+                - generic [ref=e583]: 1st Amendment
+              - img "image of constitution us" [ref=e586]
+          - heading "Race Discrimination v Virginia Municipality" [level=2] [ref=e593]
+          - generic [ref=e595]:
+            - paragraph [ref=e600]: In 2001, the law firm obtained a public apology by the Town of Front Royal for discrimination against its two black employees, together with compensatory damages.
+            - generic [ref=e602]:
+              - link "Discrimination" [ref=e606] [cursor=pointer]:
+                - /url: https://robertslaw.org/advancing-racial-harmony-through-litigation/
+                - generic [ref=e608]: Discrimination
+              - img "Attorney Roberts accompanying his clients after Town of Front Royal apologizes." [ref=e611]
+          - heading "Virginia Excessive Force Lawsuit" [level=2] [ref=e618]
+          - generic [ref=e620]:
+            - paragraph [ref=e625]:
+              - text: In 2020, the law firm obtained from the
+              - link "Virginia Supreme Court" [ref=e626] [cursor=pointer]:
+                - /url: http://www.courts.state.va.us/opinions/opnscvwp/1180851.pdf
+              - generic [ref=e627]:
+                - text: the reversal of civil rights claims against a Petersburg officer who
+                - link "Cromartie civil rights violated in Petersburg, Virginia":
+                  - /url: https://robertslaw.org/wp-content/uploads/2023/01/cromartie-police-brutality-1.jpg
+                  - img "Cromartie civil rights violated in Petersburg, Virginia" [ref=e628] [cursor=pointer]
+                - text: used excessive force against a small black woman in a traffic stop.
+            - generic [ref=e634]:
+              - link "Police Brutality" [ref=e638] [cursor=pointer]:
+                - /url: https://robertslaw.org/petersburg-jury-awards-300000-for-civil-rights-violations/
+                - generic [ref=e640]: Police Brutality
+              - link "Civil Rights" [ref=e644] [cursor=pointer]:
+                - /url: https://robertslaw.org/civil-rights-in-virginia-upheld-by-virginias-highest-court-2020/
+                - generic [ref=e646]: Civil Rights
+              - link "Jury Results" [ref=e650] [cursor=pointer]:
+                - /url: https://robertslaw.org/civil-rights-jury-verdict-for-police-misconduct/
+                - generic [ref=e652]: Jury Results
+          - heading "1st Amendment Protection in Virginia" [level=2] [ref=e659]
+          - generic [ref=e661]:
+            - paragraph [ref=e666]: In 2020, the law firm filed a federal law suit against Richmond Police Officers for violating the 1st and 4th Amendment rights of protestors against the unprovoked attack upon them as they peacefully protested at the Robert E Lee memorial.
+            - generic [ref=e668]:
+              - link "Protest" [ref=e672] [cursor=pointer]:
+                - /url: https://robertslaw.org/thishastostop/
+                - generic [ref=e674]: Protest
+              - img "Lee Memorial in Richmond Virginia" [ref=e677]
+          - heading "Protecting Law Enforcement from Race Discrimination" [level=2] [ref=e684]
+          - generic [ref=e686]:
+            - paragraph [ref=e691]: The law firm represented two deputies with the Fairfax County Sheriff’s office who experienced systemic racism and discrimination within the department.
+            - link "Race Discrimination" [ref=e697] [cursor=pointer]:
+              - /url: https://robertslaw.org/qualified-immunity/
+              - generic [ref=e699]: Race Discrimination
+          - heading "Civil Rights for Police Officer" [level=2] [ref=e706]
+          - paragraph [ref=e713]: In 2013 – Civil rights attorneys Thomas H. Roberts and Andrew T. Bodoh successfully represented 20 year veteran Richmond Police Officer Wesley Moore in his suit against a junior patrol officer arising from events following a traffic stop. While the plaintiff disputed the basis for the traffic stop, the court determined the stop was legitimate – the case was submitted to the jury on the claim of battery. The jury awarded $250,000
+          - heading "Reversal of Conviction for Protestor" [level=2] [ref=e722]
+          - paragraph [ref=e729]: Reversal of a conviction by an individual protesting the police in Petersburg.
+          - heading "Federal Suit for Title VII and 1st Amendment" [level=2] [ref=e738]
+          - paragraph [ref=e745]: 2007 – Federal Suit for violations of Title VII and 1st Amendment to the United States Constitution, against Sheriff of Chesapeake, Virginia
+          - heading "The Right of Citizens to Use Reasonable Force to Repel an Unlawful Arrest" [level=2] [ref=e754]
+          - generic [ref=e756]:
+            - paragraph [ref=e761]: 2001 – The law firm successfully defended felony criminal charges against a Lynchburg Virginia man charged with assaulting two police officers. Roberts argued that the defendant had a right to express his commentary on police conduct and argued that the arrest was unlawful and therefore under common law long recognized by the Supreme Court of Virginia, the defendant had every right to use reasonable force to repel the unlawful arrest. The law firm represented the defendant in civil claims.
+            - link "Right to Criticize Government" [ref=e767] [cursor=pointer]:
+              - /url: https://robertslaw.org/the-right-to-criticize-police-lynchburg-excessive-use-of-force
+              - generic [ref=e769]: Right to Criticize Government
+          - generic [ref=e775]:
+            - paragraph
+            - paragraph
+            - paragraph [ref=e776]
+            - paragraph [ref=e777]:
+              - link "Litigation" [ref=e778] [cursor=pointer]:
+                - /url: https://robertslaw.org/litigation/
+            - paragraph [ref=e779]:
+              - link "Civil Rights" [ref=e780] [cursor=pointer]:
+                - /url: https://robertslaw.org/civil-rights-in-virginia/
+              - link "Personal Injury" [ref=e781] [cursor=pointer]:
+                - /url: https://robertslaw.org/personal-injury/
+                - text: Personal Injury
+              - link "Mediation" [ref=e782] [cursor=pointer]:
+                - /url: https://www.axiommediation.com
+                - text: Mediation
+              - link "FOIA" [ref=e783] [cursor=pointer]:
+                - /url: https://robertslaw.org/virginia-foia/
+                - text: FOIA
+              - link "Criminal Defense" [ref=e784] [cursor=pointer]:
+                - /url: https://robertslaw.org/arrested/
+                - text: Criminal Defense
+              - link "Family Law" [ref=e785] [cursor=pointer]:
+                - /url: https://robertslaw.org/domestic-and-family-law/
+                - text: Family Law
+              - link "Appeals" [ref=e786] [cursor=pointer]:
+                - /url: https://robertslaw.org/virginia-appeals-law-firm/
+                - text: Appeals
+              - link "Wrongful Death" [ref=e787] [cursor=pointer]:
+                - /url: https://robertslaw.org/virginia-wrongful-death/
+                - text: Wrongful Death
+              - link "NEWS" [ref=e788] [cursor=pointer]:
+                - /url: https://robertslaw.org/in-the-news/
+                - text: NEWS
+              - link "Defamation" [ref=e789] [cursor=pointer]:
+                - /url: https://robertslaw.org/summary-of-defamation-slander-libel-in-virginia/
+                - text: Defamation
+              - link "Medicaid-CCC+" [ref=e790] [cursor=pointer]:
+                - /url: https://robertslaw.org/ccc-plus/
+                - text: Medicaid-CCC+
+              - link "Blogs" [ref=e791] [cursor=pointer]:
+                - /url: https://robertslaw.org/virginia-wrongful-death/
+                - text: Blogs
+            - heading [level=2] [ref=e792]
+            - heading "Providing Quality Representation" [level=3] [ref=e793]
+            - paragraph [ref=e794]
+            - paragraph [ref=e795]:
+              - strong [ref=e796]: Lawyers For You!
+              - text: 105 S 1st Street
+              - text: Richmond, Virginia 23219
+              - text: "Tel: 804-783-2000"
+              - text: "Fax: 804-783-2105"
+              - emphasis [ref=e797]:
+                - strong [ref=e798]:
+                  - text: "* Dedicated to Freedom, Civil Rights and Justice *"
+                  - text: Zealous Representation
+            - paragraph [ref=e799]:
+              - strong [ref=e800]:
+                - link "DISCLAIMER" [ref=e801] [cursor=pointer]:
+                  - /url: https://robertslaw.org/disclaimer/
+            - paragraph [ref=e802]
+            - paragraph
+        - form "Basic - Contact the Firm" [ref=e809]:
+          - generic [ref=e810]:
+            - generic [ref=e811]:
+              - generic [ref=e812] [cursor=pointer]: You agree that by using this form, an attorney-client relationship is not created. You should not disclose confidential information using this contact form. *
+              - generic [ref=e814]:
+                - checkbox "You agree that by using this form, an attorney-client relationship is not created. You should not disclose confidential information using this contact form. * I agree." [ref=e815]
+                - text: I agree.
+            - generic [ref=e816]:
+              - generic [ref=e817] [cursor=pointer]: Name *
+              - textbox "Name *" [ref=e818]:
+                - /placeholder: Name
+            - generic [ref=e819]:
+              - generic [ref=e820] [cursor=pointer]: Telephone# *
+              - spinbutton "Telephone# *" [ref=e821]
+            - generic [ref=e822]:
+              - generic [ref=e823] [cursor=pointer]: Email *
+              - textbox "Email *" [ref=e824]:
+                - /placeholder: Email
+            - generic [ref=e825]:
+              - generic [ref=e826] [cursor=pointer]: Message *
+              - textbox "Message *" [ref=e827]:
+                - /placeholder: Message
+            - button "Send" [ref=e829]:
+              - generic [ref=e831]: Send
+        - list [ref=e842]:
+          - listitem [ref=e843]:
+            - generic [ref=e844]:
+              - heading "Making Sense of Virginia’s Gerrymandering Debacle" [level=3] [ref=e845]:
+                - link "Making Sense of Virginia’s Gerrymandering Debacle" [ref=e846] [cursor=pointer]:
+                  - /url: https://robertslaw.org/making-sense-of-virginias-gerrymandering-debacle/
+              - generic [ref=e847]: May 9, 2026 /// No Comments
+              - paragraph [ref=e849]: Did the Virginia Supreme Court steal the votes of Virginia Voters? Sound bites from Politicians would have you believe that
+              - link "Read more about Making Sense of Virginia’s Gerrymandering Debacle" [ref=e850] [cursor=pointer]:
+                - /url: https://robertslaw.org/making-sense-of-virginias-gerrymandering-debacle/
+                - text: Read More »
+          - listitem [ref=e851]:
+            - generic [ref=e852]:
+              - heading "Legal Analysis of Minnesota Shooting of Alex Pretti by Civil Rights Law Firm" [level=3] [ref=e853]:
+                - link "Legal Analysis of Minnesota Shooting of Alex Pretti by Civil Rights Law Firm" [ref=e854] [cursor=pointer]:
+                  - /url: https://robertslaw.org/legal-analysis-of-minnesota-shooting-of-alex-pretti-by-civil-rights-law-firm/
+              - generic [ref=e855]: January 26, 2026 /// No Comments
+              - paragraph [ref=e857]: "Justice and Civil Rights, It’s In Our Blood Note: This article addresses civil liability rather than criminal liability. Is the"
+              - link "Read more about Legal Analysis of Minnesota Shooting of Alex Pretti by Civil Rights Law Firm" [ref=e858] [cursor=pointer]:
+                - /url: https://robertslaw.org/legal-analysis-of-minnesota-shooting-of-alex-pretti-by-civil-rights-law-firm/
+                - text: Read More »
+          - listitem [ref=e859]:
+            - generic [ref=e860]:
+              - heading "Virginia Personal Injury Attorneys Legal Precedent Shapes $10 Million Verdict in Newport News School Shooting" [level=3] [ref=e861]:
+                - link "Virginia Personal Injury Attorneys Legal Precedent Shapes $10 Million Verdict in Newport News School Shooting" [ref=e862] [cursor=pointer]:
+                  - /url: https://robertslaw.org/power-of-legal-precedents/
+              - generic [ref=e863]: November 7, 2025 /// No Comments
+              - paragraph [ref=e865]: Justice and Civil Rights, It’s In Our Blood How Thomas H. Roberts & Associates, PC’s Virginia Supreme Court Victory in
+              - link "Read more about Virginia Personal Injury Attorneys Legal Precedent Shapes $10 Million Verdict in Newport News School Shooting" [ref=e866] [cursor=pointer]:
+                - /url: https://robertslaw.org/power-of-legal-precedents/
+                - text: Read More »
+          - listitem [ref=e867]:
+            - generic [ref=e868]:
+              - heading "Virginia Personal Injury Attorneys" [level=3] [ref=e869]:
+                - link "Virginia Personal Injury Attorneys" [ref=e870] [cursor=pointer]:
+                  - /url: https://robertslaw.org/virginia-personal-injury-attorneys/
+              - generic [ref=e871]: August 25, 2025 /// No Comments
+              - paragraph [ref=e873]: Justice and Civil Rights, It’s In Our Blood A JuryVerdict In Excess of $1 Million? Not every lawyer or law
+              - link "Read more about Virginia Personal Injury Attorneys" [ref=e874] [cursor=pointer]:
+                - /url: https://robertslaw.org/virginia-personal-injury-attorneys/
+                - text: Read More »
+          - listitem [ref=e875]:
+            - generic [ref=e876]:
+              - heading "Virginia Civil Rights Law Firm Thomas H. Roberts & Associates, PC obtains a $25.35 Million Judgment for Sexual Assault Victim" [level=3] [ref=e877]:
+                - link "Virginia Civil Rights Law Firm Thomas H. Roberts & Associates, PC obtains a $25.35 Million Judgment for Sexual Assault Victim" [ref=e878] [cursor=pointer]:
+                  - /url: https://robertslaw.org/25-million-dollar-judgment-sexual-assault-victim/
+              - generic [ref=e879]: August 23, 2025 /// No Comments
+              - paragraph [ref=e881]: Virginia Civil Rights & Personal Injury Law Firm Thomas H. Roberts & Associates, PC obtains a $25.35 Million Judgment for
+              - link "Read more about Virginia Civil Rights Law Firm Thomas H. Roberts & Associates, PC obtains a $25.35 Million Judgment for Sexual Assault Victim" [ref=e882] [cursor=pointer]:
+                - /url: https://robertslaw.org/25-million-dollar-judgment-sexual-assault-victim/
+                - text: Read More »
+          - listitem [ref=e883]:
+            - generic [ref=e884]:
+              - 'heading "Navigating Personal Injury Cases in Richmond, VA: What You Need to Know" [level=3] [ref=e885]':
+                - 'link "Navigating Personal Injury Cases in Richmond, VA: What You Need to Know" [ref=e886] [cursor=pointer]':
+                  - /url: https://robertslaw.org/navigating-personal-injury-cases-in-richmond-va-what-you-need-to-know/
+              - generic [ref=e887]: August 18, 2025 /// No Comments
+              - paragraph [ref=e889]: "Personal Injury Attorneys in Richmond: Your Guide to Legal Success Richmond is a bustling city, but accidents can happen at"
+              - 'link "Read more about Navigating Personal Injury Cases in Richmond, VA: What You Need to Know" [ref=e890] [cursor=pointer]':
+                - /url: https://robertslaw.org/navigating-personal-injury-cases-in-richmond-va-what-you-need-to-know/
+                - text: Read More »
+          - listitem [ref=e891]:
+            - generic [ref=e892]:
+              - heading "Virginia’s Best Personal Injury Law Firm" [level=3] [ref=e893]:
+                - link "Virginia’s Best Personal Injury Law Firm" [ref=e894] [cursor=pointer]:
+                  - /url: https://robertslaw.org/virginias-personal-injury-law-firm/
+              - generic [ref=e895]: August 16, 2025 /// No Comments
+              - paragraph [ref=e897]: You want the best personal injury attorney in Virginia. When you have been seriously injured or damaged in a personal
+              - link "Read more about Virginia’s Best Personal Injury Law Firm" [ref=e898] [cursor=pointer]:
+                - /url: https://robertslaw.org/virginias-personal-injury-law-firm/
+                - text: Read More »
+          - listitem [ref=e899]:
+            - generic [ref=e900]:
+              - heading "A summary of the law for wrongful death in Virginia caused by the negligence or wrongful act of another." [level=3] [ref=e901]:
+                - link "A summary of the law for wrongful death in Virginia caused by the negligence or wrongful act of another." [ref=e902] [cursor=pointer]:
+                  - /url: https://robertslaw.org/virginia-wrongful-death/
+              - generic [ref=e903]: August 14, 2025 /// No Comments
+              - paragraph [ref=e905]: Seeking Justice for Families Compassionate Support When You Need It Most We help families pursue justice and fair compensation after
+              - link "Read more about A summary of the law for wrongful death in Virginia caused by the negligence or wrongful act of another." [ref=e906] [cursor=pointer]:
+                - /url: https://robertslaw.org/virginia-wrongful-death/
+                - text: Read More »
+          - listitem [ref=e907]:
+            - link "Logo for Thomas H. Roberts & Associates, PC" [ref=e908] [cursor=pointer]:
+              - /url: https://robertslaw.org/summary-of-defamation-slander-libel-in-virginia/
+              - img "Logo for Thomas H. Roberts & Associates, PC" [ref=e910]
+            - generic [ref=e911]:
+              - heading "Summary of defamation, slander & libel in Virginia" [level=3] [ref=e912]:
+                - link "Summary of defamation, slander & libel in Virginia" [ref=e913] [cursor=pointer]:
+                  - /url: https://robertslaw.org/summary-of-defamation-slander-libel-in-virginia/
+              - generic [ref=e914]: August 13, 2025 /// No Comments
+              - paragraph [ref=e916]: "Overview: Slander, defamation and libel are all treated the same in Virginia. Defamation is a false statement of fact published"
+              - link "Read more about Summary of defamation, slander & libel in Virginia" [ref=e917] [cursor=pointer]:
+                - /url: https://robertslaw.org/summary-of-defamation-slander-libel-in-virginia/
+                - text: Read More »
+        - list [ref=e923]:
+          - listitem [ref=e924]:
+            - button "Share on facebook" [ref=e925] [cursor=pointer]:
+              - img [ref=e927]
+          - listitem [ref=e929]:
+            - button "Share on twitter" [ref=e930] [cursor=pointer]:
+              - img [ref=e932]
+          - listitem [ref=e934]:
+            - button "Share on linkedin" [ref=e935] [cursor=pointer]:
+              - img [ref=e937]
+      - paragraph [ref=e939]
+    - generic [ref=e941]:
+      - generic [ref=e942]:
+        - heading "Search Site" [level=3] [ref=e943]
+        - generic [ref=e945]:
+          - textbox [ref=e946]
+          - button "Search" [ref=e947] [cursor=pointer]
+      - generic [ref=e949]:
+        - text: This website provides
+        - text: hundreds of articles
+        - text: and commentaries
+        - text: related to the
+        - text: law for
+        - text: informational purposes.
+        - text: It is not intended
+        - text: as "legal
+        - text: advice" to you.
+      - generic [ref=e950]:
+        - heading "Recent Blogs" [level=3] [ref=e951]
+        - list [ref=e952]:
+          - listitem [ref=e953]:
+            - link "Making Sense of Virginia’s Gerrymandering Debacle" [ref=e954] [cursor=pointer]:
+              - /url: https://robertslaw.org/making-sense-of-virginias-gerrymandering-debacle/
+          - listitem [ref=e955]:
+            - link "Legal Analysis of Minnesota Shooting of Alex Pretti by Civil Rights Law Firm" [ref=e956] [cursor=pointer]:
+              - /url: https://robertslaw.org/legal-analysis-of-minnesota-shooting-of-alex-pretti-by-civil-rights-law-firm/
+          - listitem [ref=e957]:
+            - link "Virginia Personal Injury Attorneys Legal Precedent Shapes $10 Million Verdict in Newport News School Shooting" [ref=e958] [cursor=pointer]:
+              - /url: https://robertslaw.org/power-of-legal-precedents/
+          - listitem [ref=e959]:
+            - link "Virginia Personal Injury Attorneys" [ref=e960] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-personal-injury-attorneys/
+          - listitem [ref=e961]:
+            - link "Virginia Civil Rights Law Firm Thomas H. Roberts & Associates, PC obtains a $25.35 Million Judgment for Sexual Assault Victim" [ref=e962] [cursor=pointer]:
+              - /url: https://robertslaw.org/25-million-dollar-judgment-sexual-assault-victim/
+          - listitem [ref=e963]:
+            - 'link "Navigating Personal Injury Cases in Richmond, VA: What You Need to Know" [ref=e964] [cursor=pointer]':
+              - /url: https://robertslaw.org/navigating-personal-injury-cases-in-richmond-va-what-you-need-to-know/
+          - listitem [ref=e965]:
+            - link "Virginia’s Best Personal Injury Law Firm" [ref=e966] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginias-personal-injury-law-firm/
+          - listitem [ref=e967]:
+            - link "A summary of the law for wrongful death in Virginia caused by the negligence or wrongful act of another." [ref=e968] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-wrongful-death/
+          - listitem [ref=e969]:
+            - link "Summary of defamation, slander & libel in Virginia" [ref=e970] [cursor=pointer]:
+              - /url: https://robertslaw.org/summary-of-defamation-slander-libel-in-virginia/
+          - listitem [ref=e971]:
+            - link "Virginia FOIA Law Firm" [ref=e972] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-foia-law-firm/
+          - listitem [ref=e973]:
+            - link "Defense to Trespass in Virginia – bona fide claim of right plus evidence that your claim of right amounted to, at minimum, a facially valid authorization" [ref=e974] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-trespass-bona-fide-claim-of-right/
+          - listitem [ref=e975]:
+            - link "Abortion Civil Rights" [ref=e976] [cursor=pointer]:
+              - /url: https://robertslaw.org/abortion-civil-rights-2/
+          - listitem [ref=e977]:
+            - link "Settlement Agreements cannot require parties to conceal crimes or refuse to cooperate with government investigators" [ref=e978] [cursor=pointer]:
+              - /url: https://robertslaw.org/settlement-agreements-cannot-require-parties-to-conceal-crimes-or-refuse-to-cooperate-with-government-investigators/
+          - listitem [ref=e979]:
+            - link "When is force unreasonable and excessive in executing a search warrant?" [ref=e980] [cursor=pointer]:
+              - /url: https://robertslaw.org/when-is-force-unreasonable-and-excessive-in-executing-a-search-warrant/
+          - listitem [ref=e981]:
+            - link "Henry L Marsh, III Esq. – Memorial" [ref=e982] [cursor=pointer]:
+              - /url: https://robertslaw.org/henry-l-marsh-esq-memorial/
+          - listitem [ref=e983]:
+            - link "CPS wrongfully took my child in Virginia. Can I sue CPS?" [ref=e984] [cursor=pointer]:
+              - /url: https://robertslaw.org/cps-wrongfully-took-my-child-in-virginia-can-i-sue-cps/
+          - listitem [ref=e985]:
+            - link "Employer prohibited from docking exempt employee’s pay for being tardy!" [ref=e986] [cursor=pointer]:
+              - /url: https://robertslaw.org/employer-prohibited-from-docking-exempt-employees-pay-for-being-tardy/
+          - listitem [ref=e987]:
+            - link "Title IX – School’s failure to respond to student-on-student harassment in schools can support a private suit for money damages in extreme cases" [ref=e988] [cursor=pointer]:
+              - /url: https://robertslaw.org/title-ix-schools-failure-to-respond-to-student-on-student-harassment-in-schools-can-support-a-private-suit-for-money-damages/
+          - listitem [ref=e989]:
+            - link "Overturn My Conviction Based Upon Newly Discovered Evidence!" [ref=e990] [cursor=pointer]:
+              - /url: https://robertslaw.org/overturn-my-conviction-based-upon-newly-discovered-evidence/
+          - listitem [ref=e991]:
+            - link "Richmond lags behind other cities in antiquated restrictions on the number of unrelated persons living together" [ref=e992] [cursor=pointer]:
+              - /url: https://robertslaw.org/restrictions-on-number-of-unrelated-persons-living-together/
+          - listitem [ref=e993]:
+            - link "Abortion Civil Rights" [ref=e994] [cursor=pointer]:
+              - /url: https://robertslaw.org/abortion-civil-rights/
+          - listitem [ref=e995]:
+            - link "Overview of Construction Litigation In Virginia" [ref=e996] [cursor=pointer]:
+              - /url: https://robertslaw.org/overview-of-construction-litigation-in-virginia/
+          - listitem [ref=e997]:
+            - link "Fixtures belong to the owner of the real estate unless contract specifies otherwise" [ref=e998] [cursor=pointer]:
+              - /url: https://robertslaw.org/fixtures/
+          - listitem [ref=e999]:
+            - 'link "Navigating Personal Injury Cases in Chesterfield County, VA: What You Need to Know" [ref=e1000] [cursor=pointer]':
+              - /url: https://robertslaw.org/navigating-personal-injury-cases-in-chesterfield-county-va-what-you-need-to-know/
+          - listitem [ref=e1001]:
+            - 'link "Navigating Personal Injury Cases in Henrico County, VA: What You Need to Know" [ref=e1002] [cursor=pointer]':
+              - /url: https://robertslaw.org/navigating-personal-injury-cases-in-henrico-county-va-what-you-need-to-know/
+          - listitem [ref=e1003]:
+            - link "When Speech Goes To Far – Inciting Imminent Violence" [ref=e1004] [cursor=pointer]:
+              - /url: https://robertslaw.org/when-speech-goes-to-far-inciting-imminent-violence/
+          - listitem [ref=e1005]:
+            - link "Statute of Limitations for Virginia Civil Penalties" [ref=e1006] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-civil-penalties/
+          - listitem [ref=e1007]:
+            - link "Nazario Establishing Law in the Fourth Circuit" [ref=e1008] [cursor=pointer]:
+              - /url: https://robertslaw.org/nazario-establishing-law-in-the-fourth-circuit/
+          - listitem [ref=e1009]:
+            - link "A Government may not coerce a third party by a threat of government action to punish or suppress speech – 1st Amendment" [ref=e1010] [cursor=pointer]:
+              - /url: https://robertslaw.org/1st-amendment-protection-against-using-3rd-party-to-silence-or-punish/
+          - listitem [ref=e1011]:
+            - link "QUALIFIED IMMUNITY – TIME TO REMOVE THIS STAIN UPON THE JUDICIARY" [ref=e1012] [cursor=pointer]:
+              - /url: https://robertslaw.org/qualified-immunity-time-to-remove-this-stain-upon-the-judiciary/
+          - listitem [ref=e1013]:
+            - link "Nazario’s Fourth Circuit Arguments – 3/19/2024" [ref=e1014] [cursor=pointer]:
+              - /url: https://robertslaw.org/nazarios-fourth-circuit-arguments-3-19-2024/
+          - listitem [ref=e1015]:
+            - link "NONCOMPETES AND TELEMEDICINE" [ref=e1016] [cursor=pointer]:
+              - /url: https://robertslaw.org/noncompetes-and-telemedicine/
+          - listitem [ref=e1017]:
+            - link "Richmond Police Department Stop Black Drivers Disproportionately" [ref=e1018] [cursor=pointer]:
+              - /url: https://robertslaw.org/richmond-police-department-stop-black-drivers-disproportionately/
+          - listitem [ref=e1019]:
+            - link "ADA & Private Schools" [ref=e1020] [cursor=pointer]:
+              - /url: https://robertslaw.org/ada-private-schools/
+          - listitem [ref=e1021]:
+            - link "Happy Hanukkah" [ref=e1022] [cursor=pointer]:
+              - /url: https://robertslaw.org/happy-hanukkah/
+          - listitem [ref=e1023]:
+            - link "Unregistered Vehicle on Private Property In Virginia" [ref=e1024] [cursor=pointer]:
+              - /url: https://robertslaw.org/unregistered-vehicle-on-private-property-in-virginia/
+          - listitem [ref=e1025]:
+            - link "Is the Virginia state stalking statute unconstitutional?" [ref=e1026] [cursor=pointer]:
+              - /url: https://robertslaw.org/is-the-state-stalking-statute-unconstitutional/
+          - listitem [ref=e1027]:
+            - link "Can I sue police for not acting?" [ref=e1028] [cursor=pointer]:
+              - /url: https://robertslaw.org/can-i-sue-police-for-not-acting/
+          - listitem [ref=e1029]:
+            - link "Middle East Conflict" [ref=e1030] [cursor=pointer]:
+              - /url: https://robertslaw.org/middle-east-conflict/
+          - listitem [ref=e1031]:
+            - link "PRACTICE TIP – APPEALS FROM GENERAL DISTRICT COURT IN VIRGINIA" [ref=e1032] [cursor=pointer]:
+              - /url: https://robertslaw.org/practice-tip-appeals-from-general-district-court-in-virginia/
+          - listitem [ref=e1033]:
+            - link "Editorial Opinion and Virginia Law regarding Virginia Candidate Susanna Gibson’s Sex Tapes" [ref=e1034] [cursor=pointer]:
+              - /url: https://robertslaw.org/editorial-opinion-and-virginia-law-regarding-virginia-candidate-susanna-gibsons-sex-tapes/
+          - listitem [ref=e1035]:
+            - link "Lt. Caron Nazario update – Town of Windsor Settles suit by Virginia Attorney General – 9/7/2023" [ref=e1036] [cursor=pointer]:
+              - /url: https://robertslaw.org/lt-caron-nazario-update-town-of-windsor-settles-suit-by-virginia-attorney-general-9-7-2023/
+          - listitem [ref=e1037]:
+            - link "I just want to consult a Virginia lawyer!" [ref=e1038] [cursor=pointer]:
+              - /url: https://robertslaw.org/i-just-want-to-consult-a-virginia-lawyer/
+          - listitem [ref=e1039]:
+            - link "In Virginia, Prison officials violate the Eighth Amendment’s cruel-and-unusual-punishment clause when they are deliberately indifferent to a substantial risk to an inmate’s safety or medical needs." [ref=e1040] [cursor=pointer]:
+              - /url: https://robertslaw.org/in-virginia-prison-officials-violate-the-eighth-amendments-cruel-and-unusual-punishment-clause-when-they-are-deliberately-indifferent-to-a-substantial-risk-to-an-inmates-safety-or-m/
+          - listitem [ref=e1041]:
+            - link "Wrongful Termination in Virginia" [ref=e1042] [cursor=pointer]:
+              - /url: https://robertslaw.org/wrongful-termination-in-virginia/
+          - listitem [ref=e1043]:
+            - link "Insurance coverage for injuries sustained when using the vehicle as a vehicle in Virginia" [ref=e1044] [cursor=pointer]:
+              - /url: https://robertslaw.org/insurance-coverage-for-injuries-sustained-when-using-the-vehicle-as-a-vehicle-in-virginia/
+          - listitem [ref=e1045]:
+            - link "Expert on Due Process – Andrew T. Bodoh, Esq. Quoted by Virginia Supreme Court" [ref=e1046] [cursor=pointer]:
+              - /url: https://robertslaw.org/expert-on-due-process-andrew-t-bodoh-esq-quoted-by-virginia-supreme-court/
+          - listitem [ref=e1047]:
+            - link "Summary Contempt and Punishment in Virginia" [ref=e1048] [cursor=pointer]:
+              - /url: https://robertslaw.org/summary-contempt-and-punishment-in-virginia/
+          - listitem [ref=e1049]:
+            - link "Realtor in Charlotte N.C." [ref=e1050] [cursor=pointer]:
+              - /url: https://robertslaw.org/realtor-in-charlotte-n-c/
+          - listitem [ref=e1051]:
+            - link "What is the difference between medical malpractice and battery in Virginia?" [ref=e1052] [cursor=pointer]:
+              - /url: https://robertslaw.org/what-is-the-difference-between-medical-malpractice-and-battery-in-virginia/
+          - listitem [ref=e1053]:
+            - link "The Attorney-Client Privilege a cornerstone of the legal system." [ref=e1054] [cursor=pointer]:
+              - /url: https://robertslaw.org/attorney-client-privilege/
+          - listitem [ref=e1055]:
+            - link "Render to Caesar what is Caesar’s but no more! A tale of Government Thievery." [ref=e1056] [cursor=pointer]:
+              - /url: https://robertslaw.org/tax-sales/
+          - listitem [ref=e1057]:
+            - link "What is the definition of “public business” for Virginia’s Freedom of Information Act (VFOIA)?" [ref=e1058] [cursor=pointer]:
+              - /url: https://robertslaw.org/what-is-the-definition-of-public-business-for-virginias-freedom-of-information-act-vfoia/
+          - listitem [ref=e1059]:
+            - link "Why I would NOT buy AARP/Hartford Insurance" [ref=e1060] [cursor=pointer]:
+              - /url: https://robertslaw.org/why-i-would-not-buy-aarp-hartford-insurance/
+          - listitem [ref=e1061]:
+            - link "Who is responsible for fallen tree?" [ref=e1062] [cursor=pointer]:
+              - /url: https://robertslaw.org/who-is-responsible-for-fallen-tree/
+          - listitem [ref=e1063]:
+            - link "Solitary Confinement in Virginia" [ref=e1064] [cursor=pointer]:
+              - /url: https://robertslaw.org/solitary-confinement-in-virginia/
+          - listitem [ref=e1065]:
+            - link "Can I sue police for a retaliatory charge in Virginia?" [ref=e1066] [cursor=pointer]:
+              - /url: https://robertslaw.org/retaliatory-criminal-charge/
+          - listitem [ref=e1067]:
+            - link "Lt. Nazario’s successes in litigation" [ref=e1068] [cursor=pointer]:
+              - /url: https://robertslaw.org/lt-nazario-success/
+          - listitem [ref=e1069]:
+            - link "Police Brutality – Tyre Nichols" [ref=e1070] [cursor=pointer]:
+              - /url: https://robertslaw.org/police-brutality-tyre-nichols/
+          - listitem [ref=e1071]:
+            - link "Contractor Took My Deposit – Contractor Fraud In Virgnia" [ref=e1072] [cursor=pointer]:
+              - /url: https://robertslaw.org/virginia-contractor-took-my-deposit-contractor-fraud/
+          - listitem [ref=e1073]:
+            - link "Jury Verdict – Lt. Nazario v. Windsor Police Officers" [ref=e1074] [cursor=pointer]:
+              - /url: https://robertslaw.org/jury-deliberations-lt-nazario-v-windsor-police-officers/
+          - listitem [ref=e1075]:
+            - link "Merry Christmas" [ref=e1076] [cursor=pointer]:
+              - /url: https://robertslaw.org/merry-christmas/
+          - listitem [ref=e1077]:
+            - link "Did Trump really call for the termination of the provisions of the Constitution?" [ref=e1078] [cursor=pointer]:
+              - /url: https://robertslaw.org/did-trump-really-call-for-the-termination-of-the-provisions-of-the-constitution/
+          - listitem [ref=e1079]:
+            - link "Medical Evidence in Virginia General District Court" [ref=e1080] [cursor=pointer]:
+              - /url: https://robertslaw.org/medical-evidence-in-virginia-general-district-court/
+          - listitem [ref=e1081]:
+            - link "Can I sue somebody for putting an electronic tracker on my car?" [ref=e1082] [cursor=pointer]:
+              - /url: https://robertslaw.org/can-i-sue-somebody-for-putting-a-tracker-on-my-car/
+          - listitem [ref=e1083]:
+            - link "Lawyers for the Onion Held In Contempt by U.S. Supreme Court" [ref=e1084] [cursor=pointer]:
+              - /url: https://robertslaw.org/lawyers-for-the-onion-held-in-contempt-by-u-s-supreme-court/
+          - listitem [ref=e1085]:
+            - link "Trespass and the 4th Amendment, Objective and Subjective Factors" [ref=e1086] [cursor=pointer]:
+              - /url: https://robertslaw.org/trespass-and-the-4th-amendment-objective-and-subjective-factors/
+          - listitem [ref=e1087]:
+            - link "Liability of Parents" [ref=e1088] [cursor=pointer]:
+              - /url: https://robertslaw.org/liability-of-parents/
+          - listitem [ref=e1089]:
+            - link "The Hazards of Contracting Without a License in Virginia" [ref=e1090] [cursor=pointer]:
+              - /url: https://robertslaw.org/the-hazards-of-contracting-without-a-license-in-virginia/
+          - listitem [ref=e1091]:
+            - link "BEYOND A REASONABLE DOUBT IN VIRGINIA" [ref=e1092] [cursor=pointer]:
+              - /url: https://robertslaw.org/beyond-a-reasonable-doubt-in-virginia/
+          - listitem [ref=e1093]:
+            - link "Settlement Terms Released for 2020 RPD Violations of 1st Amendment Rights of Protestors at Lee Circle on June 1, 2020." [ref=e1094] [cursor=pointer]:
+              - /url: https://robertslaw.org/richmond-2020-protest-settlement/
+          - listitem [ref=e1095]:
+            - link "Insurance Liability for Defamation in Virginia" [ref=e1096] [cursor=pointer]:
+              - /url: https://robertslaw.org/insurance-liability-for-defamation-in-virginia/
+          - listitem [ref=e1097]:
+            - link "Happy 4th of July!" [ref=e1098] [cursor=pointer]:
+              - /url: https://robertslaw.org/happy-4th-of-july/
+          - listitem [ref=e1099]:
+            - link "“Legal Mail” in prisons & jails" [ref=e1100] [cursor=pointer]:
+              - /url: https://robertslaw.org/legal-mail-in-prisons-jails/
+          - listitem [ref=e1101]:
+            - link "Hidden or Lost Will" [ref=e1102] [cursor=pointer]:
+              - /url: https://robertslaw.org/hidden-or-lost-will/
+          - listitem [ref=e1103]:
+            - link "Parental Rights – Termination of parental right and adoption and Va Code § 63.2-1215 factors" [ref=e1104] [cursor=pointer]:
+              - /url: https://robertslaw.org/parental-rights-termination-of-parental-right-and-adoption-and-va-code-%c2%a7-63-2-1215-factors/
+          - listitem [ref=e1105]:
+            - link "Tortious Interference with Doctor-Patient Relationship" [ref=e1106] [cursor=pointer]:
+              - /url: https://robertslaw.org/tortious-interference-with-doctor-patient-relationship/
+          - listitem [ref=e1107]:
+            - link "COVID-19 Legal Cases to Watch" [ref=e1108] [cursor=pointer]:
+              - /url: https://robertslaw.org/covid-19-legal-cases-to-watch/
+          - listitem [ref=e1109]:
+            - link "Sexual Abuse in Churches and Legal Recourse – Wolves in Sheep’s Clothing" [ref=e1110] [cursor=pointer]:
+              - /url: https://robertslaw.org/sexual-abuse-in-churches-and-legal-recourse-wolves-in-sheeps-clothing/
+          - listitem [ref=e1111]:
+            - link "Wrongful Death Claim Against Alec Baldwin, et al.? Probably Not – He Will Be Shielded By Worker’s Compensation’s Exclusive Remedy" [ref=e1112] [cursor=pointer]:
+              - /url: https://robertslaw.org/wrongful-death-claim-against-alec-baldwin-et-al/
+          - listitem [ref=e1113]:
+            - link "Malicious Prosecution and False Arrest in Virginia" [ref=e1114] [cursor=pointer]:
+              - /url: https://robertslaw.org/malicious-prosecution-and-false-arrest-in-virginia/
+          - listitem [ref=e1115]:
+            - link "Ethics & Sciences – Creating SARS" [ref=e1116] [cursor=pointer]:
+              - /url: https://robertslaw.org/ethics-sciences-creating-sars/
+          - listitem [ref=e1117]:
+            - link "INTENTIONAL MISCONDUCT – FAILURE TO PROVIDE INFORMED CONSENT – COVID-19 JAB/”VACCINE”" [ref=e1118] [cursor=pointer]:
+              - /url: https://robertslaw.org/intentional-misconduct-failure-to-provide-informed-consent-covid-19-jab-vaccine/
+          - listitem [ref=e1119]:
+            - link "Immunity under Public Readiness and Emergency Preparedness Act (PREP Act)" [ref=e1120] [cursor=pointer]:
+              - /url: https://robertslaw.org/immunity-under-public-readiness-and-emergency-preparedness-act-prep-act/
+          - listitem [ref=e1121]:
+            - link "Science – What We Knew Pre-COVID-19 That We Now Ignore" [ref=e1122] [cursor=pointer]:
+              - /url: https://robertslaw.org/science-what-we-knew-pre-covid-19-that-we-now-ignore/
+          - listitem [ref=e1123]:
+            - link "The Fall of Afghanistan" [ref=e1124] [cursor=pointer]:
+              - /url: https://robertslaw.org/the-fall-of-afghanistan/
+          - listitem [ref=e1125]:
+            - link "Unlawful termination for refusing to disclose COVID-19 “vaccine” status in Virginia" [ref=e1126] [cursor=pointer]:
+              - /url: https://robertslaw.org/unlawful-termination-for-refusing-to-disclose-covid-19-vaccine-status-in-virginia/
+          - listitem [ref=e1127]:
+            - link "Is a Virginia employer at risk when hiring or retaining a person registered as a sex offender?" [ref=e1128] [cursor=pointer]:
+              - /url: https://robertslaw.org/is-a-virginia-employer-at-risk-when-hiring-or-retaining-a-person-registered-as-a-sex-offender/
+          - listitem [ref=e1129]:
+            - link "Striving for American Ideals" [ref=e1130] [cursor=pointer]:
+              - /url: https://robertslaw.org/striving-for-american-ideals/
+          - listitem [ref=e1131]:
+            - link "Petersburg Jury Awards $300,000 for Civil Rights Violations" [ref=e1132] [cursor=pointer]:
+              - /url: https://robertslaw.org/petersburg-jury-awards-300000-for-civil-rights-violations/
+          - listitem [ref=e1133]:
+            - link "Victims of Sexual Assault by Chiropractor" [ref=e1134] [cursor=pointer]:
+              - /url: https://robertslaw.org/victims-of-sexual-assault-by-health-professionals/
+          - listitem [ref=e1135]:
+            - link "Malfeasance, Misfeasance & Nonfeasance" [ref=e1136] [cursor=pointer]:
+              - /url: https://robertslaw.org/malfeasance-misfeasance-nonfeasance/
+          - listitem [ref=e1137]:
+            - link "Exposure to supervisor’s sexual misconduct with others does NOT create Title VII liability" [ref=e1138] [cursor=pointer]:
+              - /url: https://robertslaw.org/exposure-to-supervisors-sexual-misconduct-with-others-doesnt-create-title-vii-liability/
+          - listitem [ref=e1139]:
+            - link "Spoliation – destroying evidence – in the Fourth Circuit" [ref=e1140] [cursor=pointer]:
+              - /url: https://robertslaw.org/spoliation-destroying-evidence-in-the-fourth-circuit/
+          - listitem [ref=e1141]:
+            - link "First Amendment in the WorkPlace" [ref=e1142] [cursor=pointer]:
+              - /url: https://robertslaw.org/first-amendment-in-the-workplace/
+          - listitem [ref=e1143]:
+            - link "1st Amendment Retaliation Claims in the 4th Circuit" [ref=e1144] [cursor=pointer]:
+              - /url: https://robertslaw.org/1st-amendment-retaliation-claims-in-the-4th-circuit/
+          - listitem [ref=e1145]:
+            - link "Lt. Nazario v Town of Windsor Police Officers – Official Update" [ref=e1146] [cursor=pointer]:
+              - /url: https://robertslaw.org/lt-nazario-v-town-of-windsor-police-officers-official-update/
+          - listitem [ref=e1147]:
+            - link "Suit Filed in Norfolk Against Windsor Police for Civil Rights Violations against Lt. Caron Nazario" [ref=e1148] [cursor=pointer]:
+              - /url: https://robertslaw.org/civil-rights-suit-filed-in-norfolk/
+          - listitem [ref=e1149]:
+            - link "ROUNDUP" [ref=e1150] [cursor=pointer]:
+              - /url: https://robertslaw.org/roundup/
+          - listitem [ref=e1151]:
+            - link "Advancing Racial Harmony through Litigation" [ref=e1152] [cursor=pointer]:
+              - /url: https://robertslaw.org/advancing-racial-harmony-through-litigation/
+      - generic:
+        - paragraph
+      - generic [ref=e1153]:
+        - heading "Categories" [level=3] [ref=e1154]
+        - generic [ref=e1155]:
+          - generic [ref=e1156]: Categories
+          - combobox "Categories" [ref=e1157]:
+            - option "Select Category" [selected]
+            - option "Civil Rights"
+            - option "Assault & Battery"
+            - option "Due Process"
+            - option "Excessive Force"
+            - option "FOIA"
+            - option "Fourth Amendment"
+            - option "Freedom of Speech and Press"
+            - option "Religious Freedom"
+            - option "Commentary"
+            - option "Contract Law"
+            - option "Criminal Law"
+            - option "Defamation"
+            - option "Employment Law"
+            - option "ADA – Americans with Disabilities"
+            - option "Hostile Work Environment"
+            - option "Non-Competition"
+            - option "Retaliation"
+            - option "sexual harassment"
+            - option "Español"
+            - option "False Imprisonment"
+            - option "First Amendment"
+            - option "General"
+            - option "Libel & Slander"
+            - option "Litigation"
+            - option "Personal Injury Law"
+            - option "Assault & Battery"
+            - option "Negligence"
+            - option "Sexual Assault"
+            - option "Wrongful Death"
+            - option "Wills & Trusts"
+    - paragraph [ref=e1159]:
+      - text: Copyright © 2026 | Thomas H. Roberts & Associates, PC is proudly powered by
+      - link "WordPress.org" [ref=e1160] [cursor=pointer]:
+        - /url: http://wordpress.org/
+      - text: "-"
+      - link "wordpress-logo" [ref=e1161] [cursor=pointer]:
+        - /url: http://wordpress.org/
+        - img "wordpress-logo" [ref=e1162]
+  - generic [ref=e1163]:
+    - generic [ref=e1164]:
+      - link "Left Menu Button":
+        - /url: "#"
+        - generic [ref=e1165] [cursor=pointer]: 
+        - text: 
+    - link "Thomas H. Roberts & Associates, PC" [ref=e1167] [cursor=pointer]:
+      - /url: https://robertslaw.org
+  - generic [ref=e1168]:
+    - link "Left Menu Button":
+      - /url: "#"
+      - text: 
+    - menubar "Main navigation for mobile devices" [ref=e1171]:
+      - menuitem "Virginia’s Personal Injury & Civil Rights Law Firm " [ref=e1172] [cursor=pointer]:
+        - text: Virginia’s Personal Injury & Civil Rights Law Firm
+        - generic [ref=e1173]:
+          - generic [ref=e1174]: 
+          - text: 
+      - text:  
+      - menuitem "Personal Injury " [ref=e1175] [cursor=pointer]:
+        - text: Personal Injury
+        - generic [ref=e1176]:
+          - generic [ref=e1177]: 
+          - text: 
+      - menuitem "Civil Rights in Virginia" [ref=e1178] [cursor=pointer]
+      - menuitem "Sexual Harassment Law Firm" [ref=e1179] [cursor=pointer]
+      - menuitem "Virginia Appeals Law Firm " [ref=e1180] [cursor=pointer]:
+        - text: Virginia Appeals Law Firm
+        - generic [ref=e1181]:
+          - generic [ref=e1182]: 
+          - text: 
+      - menuitem "Virginia FOIA" [ref=e1183] [cursor=pointer]
+      - menuitem "Criminal Defense " [ref=e1184] [cursor=pointer]:
+        - text: Criminal Defense
+        - generic [ref=e1185]:
+          - generic [ref=e1186]: 
+          - text: 
+      - menuitem "Make Payment" [ref=e1187] [cursor=pointer]
+  - generic [ref=e1189]: tablet

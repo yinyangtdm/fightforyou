@@ -1,0 +1,184 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e7]:
+      - link "☎ (720) 722-3880" [ref=e9] [cursor=pointer]:
+        - /url: /contact-harris
+    - link "Highlands Law Firm | Civil Rights &amp; Disability Rights" [ref=e13] [cursor=pointer]:
+      - /url: /
+      - img "Highlands Law Firm | Civil Rights &amp; Disability Rights" [ref=e14]
+    - navigation [ref=e17]:
+      - link "Home" [ref=e19] [cursor=pointer]:
+        - /url: /
+      - link "Attorneys" [ref=e21] [cursor=pointer]:
+        - /url: /highlandslawfirm-about
+      - link "Services" [ref=e23] [cursor=pointer]:
+        - /url: /highlandslawfirm-services
+      - link "News" [ref=e25] [cursor=pointer]:
+        - /url: /highlandslawfirm-news
+      - link "Contact" [ref=e27] [cursor=pointer]:
+        - /url: /highlandslawfirm-contact
+  - generic [ref=e28]:
+    - img "Boardroom.jpg" [ref=e31]
+    - main [ref=e32]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e40]:
+            - heading "Civil Rights & Wrongful Death" [level=1] [ref=e41]
+            - paragraph [ref=e42]: Highlands Law Firm advocates for social justice. This means fighting for those whose Constitutional rights have been violated. And supporting the families of individuals who passed too soon.
+            - paragraph [ref=e43]: "With substantial experience in complex litigation in state and federal courts, Highlands Law Firm represents individuals and families to vindicate their most precious rights. Highlands Law Firm focuses exclusively on the following practice areas:"
+            - list [ref=e44]:
+              - listitem [ref=e45]:
+                - paragraph [ref=e46]:
+                  - text: •
+                  - strong [ref=e47]: Civil Rights
+                - list [ref=e48]:
+                  - listitem [ref=e49]:
+                    - paragraph [ref=e50]: ○ Jail & Prison Litigation
+                    - list [ref=e51]:
+                      - listitem [ref=e52]:
+                        - paragraph [ref=e53]: ■ Medical Treatment
+                      - listitem [ref=e54]:
+                        - paragraph [ref=e55]: ■ Prison Conditions
+                      - listitem [ref=e56]:
+                        - paragraph [ref=e57]: ■ Community Corrections
+                  - listitem [ref=e58]:
+                    - paragraph [ref=e59]: ○ Police Misconduct
+                    - list [ref=e60]:
+                      - listitem [ref=e61]:
+                        - paragraph [ref=e62]: ■ Excessive Force
+                      - listitem [ref=e63]:
+                        - paragraph [ref=e64]: ■ Wrongful Arrest
+                  - listitem [ref=e65]:
+                    - paragraph [ref=e66]: ○ Employment Discrimination
+                  - listitem [ref=e67]:
+                    - paragraph [ref=e68]: ○ Disability Discrimination
+                  - listitem [ref=e69]:
+                    - paragraph [ref=e70]: ○ Other § 1983 Claims
+              - listitem [ref=e71]:
+                - paragraph [ref=e72]:
+                  - text: •
+                  - strong [ref=e73]: Wrongful Death
+                - list [ref=e74]:
+                  - listitem [ref=e75]:
+                    - paragraph [ref=e76]: ○ Negligence
+                  - listitem [ref=e77]:
+                    - paragraph [ref=e78]: ○ Civil Rights Violations
+          - generic [ref=e79]:
+            - generic [ref=e81]:
+              - generic [ref=e86]:
+                - link "Zachary Warren" [ref=e87] [cursor=pointer]:
+                  - /url: https://profiles.superlawyers.com/colorado/denver/lawyer/zachary-warren/b119c639-6bdc-4169-9f6b-05606ac9d436.html?utm_source=b119c639-6bdc-4169-9f6b-05606ac9d436&utm_campaign=v1-slbadge-blue&utm_content=profile
+                - generic [ref=e88]:
+                  - text: Rated by Super Lawyers
+                  - text: loading ...
+              - generic [ref=e91]:
+                - img
+                - figure [ref=e93]
+            - generic [ref=e96]:
+              - generic [ref=e97]:
+                - figure [ref=e101]
+                - link [ref=e107] [cursor=pointer]:
+                  - /url: https://www.avvo.com/attorneys/80246-co-zachary-warren-3331377.html
+                  - img [ref=e108]:
+                    - generic [ref=e109]:
+                      - generic [ref=e145]: "10.0"
+                      - generic [ref=e146]: Zachary D Warren
+              - generic [ref=e147]:
+                - figure [ref=e151]
+                - figure [ref=e158]
+        - generic [ref=e162]:
+          - heading "Areas of Practice" [level=1] [ref=e166]
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - separator [ref=e171]
+              - generic [ref=e174]:
+                - heading "Civil Rights" [level=3] [ref=e175]
+                - paragraph [ref=e176]: Highlands Law Firm is first and foremost committed to protecting the civil rights of all individuals, focusing primarily on prison litigation, police misconduct, and advocating for individuals with serious injuries that implicate Constitutional rights.
+            - generic [ref=e177]:
+              - separator [ref=e180]
+              - generic [ref=e183]:
+                - heading "Wrongful Death" [level=3] [ref=e184]
+                - paragraph [ref=e185]: Highlands Law Firm stands with grieving families as they navigate the difficult process of seeking justice.
+          - generic [ref=e189]:
+            - region "Map" [ref=e190]
+            - generic [ref=e191]:
+              - button "Highlands Law Firm 501 S. Cherry St. Denver, CO 80246, United States" [ref=e208]:
+                - generic:
+                  - generic "Highlands Law Firm 501 S. Cherry St. Denver, CO 80246, United States"
+              - iframe [ref=e209]:
+                
+          - generic [ref=e212]:
+            - heading "Contact" [level=1] [ref=e213]
+            - heading "➤ LOCATION" [level=3] [ref=e214]:
+              - strong [ref=e215]: ➤ LOCATION
+            - heading "501 South Cherry Street" [level=2] [ref=e216]
+            - heading "11th Floor" [level=2] [ref=e217]
+            - heading "Denver, CO 80246" [level=2] [ref=e218]
+            - heading "☎ DIRECT" [level=2] [ref=e219]
+            - 'heading "P: (720) 722-3880" [level=2] [ref=e220]'
+          - heading "Request Information" [level=1] [ref=e225]
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - group "Name" [ref=e232]:
+                - generic [ref=e236]: Name
+                - generic [ref=e237]:
+                  - generic [ref=e240]:
+                    - text: First Name
+                    - generic [ref=e241]: (required)
+                  - textbox "First Name (required)" [ref=e242]
+                - generic [ref=e243]:
+                  - generic [ref=e246]:
+                    - text: Last Name
+                    - generic [ref=e247]: (required)
+                  - textbox "Last Name (required)" [ref=e248]
+              - generic [ref=e249]:
+                - generic [ref=e252]:
+                  - generic [ref=e253]: Subject
+                  - generic [ref=e254]: (required)
+                - textbox "Subject (required)" [ref=e255]:
+                  - /placeholder: ""
+              - group "Phone (required)" [ref=e256]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]: Phone
+                  - generic [ref=e261]: (required)
+                - textbox "Phone (required)" [ref=e264]
+              - generic [ref=e265]:
+                - generic [ref=e269]: Email Address
+                - textbox "Email Address" [ref=e270]:
+                  - /placeholder: ""
+              - generic [ref=e271]:
+                - generic [ref=e274]:
+                  - generic [ref=e275]: Message
+                  - generic [ref=e276]: (required)
+                - textbox "Message (required)" [ref=e277]:
+                  - /placeholder: ""
+              - generic:
+                - textbox
+            - button "Submit" [ref=e279] [cursor=pointer]
+    - contentinfo [ref=e280]:
+      - generic [ref=e283]:
+        - separator [ref=e286]
+        - generic [ref=e287]:
+          - generic [ref=e291]:
+            - paragraph [ref=e292]:
+              - link "Home" [ref=e293] [cursor=pointer]:
+                - /url: /home-harris
+              - text: "|"
+              - link "About" [ref=e294] [cursor=pointer]:
+                - /url: /about-harris
+              - text: "|"
+              - link "Services" [ref=e295] [cursor=pointer]:
+                - /url: /services-harris
+              - text: "|"
+              - link "News" [ref=e296] [cursor=pointer]:
+                - /url: /news-harris
+              - text: "|"
+              - link "Contact" [ref=e297] [cursor=pointer]:
+                - /url: /contact-harris
+            - paragraph [ref=e298]:
+              - link "Legal Disclaimer & Terms of Use" [ref=e299] [cursor=pointer]:
+                - /url: /highlandslawfirm-legal-disclaimer-terms-of-use
+            - paragraph [ref=e300]: ATTORNEY ADVERTISING
+            - paragraph [ref=e301]
+            - paragraph [ref=e302]
+          - paragraph [ref=e309]: Highlands Law Firm LLC is a Denver, Colorado-based civil rights, disability rights, and public interest law practice focused on advancing the cause of social justice. Unless you have a signed fee agreement with Highlands Law Firm LLC, you are not a client and you should seek legal counsel regarding any potential claims you may have and any relevant statutes of limitations.

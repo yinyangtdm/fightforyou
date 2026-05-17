@@ -1,0 +1,126 @@
+- generic [ref=e3]:
+  - region "top of page"
+  - generic [ref=e9]:
+    - banner [ref=e10]:
+      - generic [ref=e16]:
+        - generic:
+          - generic:
+            - generic [ref=e22]:
+              - generic:
+                - generic:
+                  - paragraph [ref=e26]:
+                    - link "info@raybin.com" [ref=e28] [cursor=pointer]:
+                      - /url: mailto:info@raybin.com
+                  - paragraph [ref=e29]: 203.661.4444
+            - generic [ref=e39]:
+              - generic [ref=e40]:
+                - generic:
+                  - generic:
+                    - paragraph [ref=e44]: RAYBIN MEMORABILIA
+                    - paragraph [ref=e45]: We Buy Sports Autograph Collections
+              - generic [ref=e46]:
+                - generic:
+                  - generic:
+                    - list "Social Bar" [ref=e51]:
+                      - listitem [ref=e52]:
+                        - link [ref=e53] [cursor=pointer]:
+                          - /url: https://www.facebook.com/wix
+                      - listitem [ref=e54]:
+                        - link [ref=e55] [cursor=pointer]:
+                          - /url: https://twitter.com/Wix
+                      - listitem [ref=e56]:
+                        - link [ref=e57] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/wix-com
+                    - link "Get In Touch" [ref=e59] [cursor=pointer]:
+                      - /url: mailto:info@raybin.com
+                      - generic [ref=e60]: Get In Touch
+    - main [ref=e61]:
+      - generic [ref=e66]:
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e72]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading "BASEBALLS" [level=2] [ref=e76]:
+                        - generic [ref=e78]: BASEBALLS
+                      - heading "POSTCARDS" [level=2] [ref=e79]:
+                        - generic [ref=e81]: POSTCARDS
+                      - heading "PHOTOS" [level=2] [ref=e82]:
+                        - generic [ref=e84]: PHOTOS
+                      - heading "BATS" [level=2] [ref=e85]:
+                        - generic [ref=e87]: BATS
+                      - heading "LETTERS" [level=2] [ref=e88]:
+                        - generic [ref=e90]: LETTERS
+                      - heading "CHECKS" [level=2] [ref=e91]:
+                        - generic [ref=e93]: CHECKS
+                      - heading "COLLECTIONS AND UNIQUE SPORTS MEMORABILIA" [level=2] [ref=e94]:
+                        - generic [ref=e96]: COLLECTIONS AND UNIQUE SPORTS MEMORABILIA
+                    - heading "WE BUY DECEASED SPORTS AUTOGRAPHS! RAYBIN MEMORABILIA IS BUYING SIGNED BASEBALLS, PHOTOS, POSTCARDS, LETTERS, CHECKS, FOOTBALLS, BATS AND MEMORABILIA CALL US AT 203.661.4444 or info@raybin.com" [level=1] [ref=e97]:
+                      - text: WE BUY DECEASED
+                      - text: SPORTS AUTOGRAPHS!
+                      - text: RAYBIN MEMORABILIA IS BUYING SIGNED
+                      - text: BASEBALLS, PHOTOS, POSTCARDS, LETTERS,
+                      - text: CHECKS, FOOTBALLS, BATS AND MEMORABILIA
+                      - generic [ref=e99]:
+                        - text: CALL US AT 203.661.4444 or
+                        - link "info@raybin.com" [ref=e101] [cursor=pointer]:
+                          - /url: mailto:info@raybin.com
+              - 'region "Home: Welcome"'
+              - 'region "Home: Collection"'
+              - generic [ref=e126]:
+                - generic:
+                  - generic:
+                    - paragraph [ref=e130]: I'm John Raybin. I was the world's first full-time dealer in deceased sports autographs and for 51 years, I've been buying and selling autographs, Over the last 4 decades, I was the publisher and editor of the leading sports collecting magazines and was the host and executive producer of the "The Sports Collectors Radio Show Network" - the first National radio show devoted exclusively to sports collectibles. The radio show was broadcast Nationally out of ABC's studios in New York City from 1991 - 1996.
+                    - generic [ref=e136]:
+                      - generic:
+                        - generic:
+                          - paragraph [ref=e140]: "Raybin Memorabilia will purchase one item or your entire collection. We purchase deceased sports autographs from all sports. Please contact us if you have autographs to sell: signed baseballs, photos, postcards, letters, checks, autograph books, 3 x 5 cards and very unique sports memorabilia."
+                          - button "Contact" [ref=e141]:
+                            - generic "Contact" [ref=e142] [cursor=pointer]:
+                              - generic [ref=e143]: Contact
+              - 'region "Home: About Me"'
+              - generic "wilchamberlin_edited.jpg" [ref=e144]
+              - generic "tycobb.jpg" [ref=e146]
+              - img "mantle.jpeg" [ref=e150]
+              - generic [ref=e155]:
+                - heading "CONTACT RAYBIN MEMORABILIA" [level=2] [ref=e160]:
+                  - generic [ref=e161]: CONTACT
+                  - generic [ref=e163]: RAYBIN
+                  - generic [ref=e164]: MEMORABILIA
+                - generic [ref=e170]:
+                  - generic:
+                    - generic:
+                      - textbox "Name" [ref=e173]
+                      - textbox "Email" [ref=e176]
+                      - textbox "Subject" [ref=e179]
+                      - textbox [ref=e181]:
+                        - /placeholder: Type your message here...
+                      - button "Submit" [ref=e183] [cursor=pointer]:
+                        - generic [ref=e184]: Submit
+              - region "Slideshow" [ref=e186]:
+                - generic [ref=e192]:
+                  - generic:
+                    - generic:
+                      - paragraph [ref=e193]:
+                        - generic [ref=e199]: Subscribe Form
+                      - textbox "Email Address" [ref=e202]
+                      - button "Submit" [ref=e204] [cursor=pointer]:
+                        - generic [ref=e205]: Submit
+              - generic:
+                - paragraph [ref=e206]: RAYBIN MEMORABILIA
+                - paragraph [ref=e207]
+              - generic:
+                - paragraph [ref=e208]: 15 East Putnam Avenue, Suite 450
+                - paragraph [ref=e209]: Greenwich, CT 06830
+                - paragraph [ref=e210]:
+                  - generic [ref=e211]:
+                    - link "info@raybin.com" [ref=e213] [cursor=pointer]:
+                      - /url: mailto:info@raybin.com
+                    - text: "| 203.661.4444"
+              - paragraph [ref=e214]: ©2021 by Raybin Memorabilia
+              - 'region "Home: Contact"'
+    - contentinfo [ref=e215]:
+      - img "vincelombardi.jpg" [ref=e233]
+  - region "bottom of page"

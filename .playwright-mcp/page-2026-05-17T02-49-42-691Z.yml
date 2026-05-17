@@ -1,0 +1,437 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e7]
+        - generic [ref=e10]: 8565 Dunwoody Place, Suite A • Atlanta, Georgia 30350
+      - link "770.998.1005" [ref=e12] [cursor=pointer]:
+        - /url: tel:7709981005
+        - img [ref=e13]
+        - generic [ref=e15]: 770.998.1005
+    - generic [ref=e18]:
+      - link "Blaska Holm LLC" [ref=e20] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/
+        - img "Blaska Holm LLC" [ref=e21]
+      - navigation [ref=e22]:
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - link "Home" [ref=e25] [cursor=pointer]:
+              - /url: https://www.blaskaholm.com/
+          - listitem [ref=e26]:
+            - link "Our Team" [ref=e27] [cursor=pointer]:
+              - /url: https://www.blaskaholm.com/our-team/
+              - text: Our Team
+          - listitem [ref=e28]:
+            - link "Practice Areas" [ref=e29] [cursor=pointer]:
+              - /url: https://www.blaskaholm.com/practice-areas/
+              - text: Practice Areas
+          - listitem [ref=e30]:
+            - link "Cities We Serve" [ref=e31] [cursor=pointer]:
+              - /url: "#"
+              - text: Cities We Serve
+          - listitem [ref=e32]:
+            - link "Resources" [ref=e33] [cursor=pointer]:
+              - /url: "#"
+              - text: Resources
+          - listitem [ref=e34]:
+            - link "Results" [ref=e35] [cursor=pointer]:
+              - /url: https://www.blaskaholm.com/case-results/
+          - listitem [ref=e36]:
+            - link "Contact" [ref=e37] [cursor=pointer]:
+              - /url: https://www.blaskaholm.com/contact-us/
+  - generic [ref=e40]:
+    - generic [ref=e41]:
+      - 'heading "Atlanta Personal Injury Attorneys: When They Hit You, We Hit Back Harder" [level=2] [ref=e42]':
+        - text: "Atlanta Personal Injury Attorneys:"
+        - text: When They Hit You, We Hit Back Harder
+      - paragraph [ref=e43]: From car wrecks to medical malpractice, our Atlanta accident attorneys have helped thousands of clients recover millions. Let us put that experience to work for you.
+      - paragraph [ref=e44]:
+        - link "What’s My Case Worth?" [ref=e45] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/contact-us/
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - text: "\"Absolutely the best team of lawyers!"
+        - text: They were phenomenal getting my daughter a fair and just settlement."
+      - generic [ref=e48]: Michelle W.
+  - generic [ref=e51]:
+    - heading "Experience that Delivers Results" [level=3] [ref=e53]
+    - generic [ref=e54]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: 40+
+        - strong [ref=e61]: years in business
+      - generic [ref=e65]:
+        - generic [ref=e66]: 1000's
+        - generic [ref=e67]:
+          - strong [ref=e68]: of satisfied
+          - text: client outcomes
+      - generic [ref=e72]:
+        - generic [ref=e73]: $100M+
+        - generic [ref=e74]:
+          - strong [ref=e75]: recovered
+          - text: for our clients
+  - generic [ref=e82]:
+    - heading "Get the Help You Need with Our Atlanta Law Firm" [level=2] [ref=e83]:
+      - text: Get the Help You Need with
+      - text: Our Atlanta Law Firm
+    - paragraph [ref=e84]:
+      - text: You are unique and so is your case.
+      - strong [ref=e85]: Unlike large and impersonal firms, we offer direct access to our skilled trial attorneys.
+      - text: We ensure that every client gets the personalized attention and strategic expertise you deserve. With hundreds of courtroom wins, we’ve earned a reputation as one of the top personal injury law firms in Atlanta and Sandy Springs.
+    - list [ref=e86]:
+      - listitem [ref=e87]:
+        - text: See how we’ve helped others get
+        - link "winning results" [ref=e88] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/case-results/
+      - listitem [ref=e89]:
+        - link "Meet the team" [ref=e90] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/our-team/
+        - text: who is here to support you every step of the way
+    - paragraph [ref=e91]
+  - generic [ref=e94]:
+    - generic [ref=e95]:
+      - heading "Law Firm Service the Way It Should Be" [level=2] [ref=e96]
+      - paragraph [ref=e97]: Choosing the right attorney makes all the difference.
+    - generic [ref=e98]:
+      - generic [ref=e100]:
+        - generic [ref=e102]:
+          - text: Direct Access to Your
+          - text: Attorney
+        - generic [ref=e103]: Most firms will promise you "experienced attorneys," but you'll never talk to them. At Blaska Holm, your attorney is your point of contact. Clients don't have to "chase down" their lawyer.
+      - generic [ref=e105]:
+        - generic [ref=e107]: Our Reputation Isn't Built on Billboards - It's Built on Results
+        - generic [ref=e108]: We don't throw money on large advertisements or shout catchy jingles. We earn trust through proven courtroom wins, personal referrals, and lasting client relationships.
+      - generic [ref=e110]:
+        - generic [ref=e112]:
+          - text: We Take Fewer Cases
+          - text: So We Can Win Bigger
+        - generic [ref=e113]: Clients get our full attention, and that gets results. Our focus is personal because every injury, every client, and every outcome matters.
+  - generic [ref=e115]:
+    - generic [ref=e116]:
+      - heading "When You Have a Legal Need, We Are Here to Help" [level=2] [ref=e117]
+      - paragraph [ref=e118]: When you’re facing a legal crisis, whether after a crash, a wrongful death, or an unexpected injury, you don’t just need any law firm. You need trusted and experienced attorneys in Atlanta who will fight for your future. You don’t want to pick the first law firm that appears in your search results when look for “personal injury lawyer near me.” You need a law firm that’s proven, personal, and ready to act. You need Blaska Holm.
+      - paragraph [ref=e119]: Our firm serves clients throughout Atlanta and the surrounding metro area, providing smart, strategic counsel when you need it most. We’re not a settlement firm that rushes you to close your case. We’re trial-tested attorneys who take you seriously; we treat you like a priority, not a file.
+      - paragraph [ref=e120]: Our Atlanta-based lawyers are here to give you direct, experienced representation from day one. No call centers. No endless intake forms. We are ready to hear your story and guide you with compassion, clarity, and fierce legal skills.
+    - generic [ref=e121]:
+      - heading "Blaska Holm LLC is your personal law firm for:" [level=3] [ref=e123]
+      - generic [ref=e124]:
+        - link "Personal Injury Our skilled attorneys will work with you to recover compensation for personal injuries and resulting financial losses." [ref=e126] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/practice-areas/personal-injury-attorneys-in-atlanta/
+          - generic [ref=e128]:
+            - heading "Personal Injury" [level=4] [ref=e129]
+            - paragraph [ref=e130]: Our skilled attorneys will work with you to recover compensation for personal injuries and resulting financial losses.
+        - link "Medical Malpractice If you or a loved one was a victim of medical malpractice, we have decades of experience successfully litigating cases like yours." [ref=e132] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/practice-areas/medical-malpractice-in-georgia/
+          - generic [ref=e134]:
+            - heading "Medical Malpractice" [level=4] [ref=e135]
+            - paragraph [ref=e136]: If you or a loved one was a victim of medical malpractice, we have decades of experience successfully litigating cases like yours.
+        - link "Premises Liability Injured on someone else's property? Let us work with you to ensure you are fairly compensated for your injuries." [ref=e138] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/practice-areas/premises-liability-attorneys/
+          - generic [ref=e140]:
+            - heading "Premises Liability" [level=4] [ref=e141]
+            - paragraph [ref=e142]: Injured on someone else's property? Let us work with you to ensure you are fairly compensated for your injuries.
+        - link "Auto Accidents Involved in a motor vehicle accident? We can simplify your complex legal issues and help you get the settlement you deserve." [ref=e144] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/practice-areas/auto-accidents-in-atlanta/
+          - generic [ref=e146]:
+            - heading "Auto Accidents" [level=4] [ref=e147]
+            - paragraph [ref=e148]: Involved in a motor vehicle accident? We can simplify your complex legal issues and help you get the settlement you deserve.
+        - link "Truck Accidents When you are involved in an accident with an 18 wheeler truck, let us guide you through the complex claims process." [ref=e150] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/practice-areas/trucking-accident-attorneys/
+          - generic [ref=e152]:
+            - heading "Truck Accidents" [level=4] [ref=e153]
+            - paragraph [ref=e154]: When you are involved in an accident with an 18 wheeler truck, let us guide you through the complex claims process.
+        - link "Wrongful Death When tragedy strikes, our attorneys are here to seek justice and compensation for your loss." [ref=e156] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com/practice-areas/wrongful-death-attorneys/
+          - generic [ref=e158]:
+            - heading "Wrongful Death" [level=4] [ref=e159]
+            - paragraph [ref=e160]: When tragedy strikes, our attorneys are here to seek justice and compensation for your loss.
+  - generic [ref=e164]:
+    - generic [ref=e165]:
+      - heading "Need Legal Help After an Accident in Atlanta?" [level=2] [ref=e166]
+      - paragraph [ref=e167]: If you or a loved one has been injured in an accident, having the right legal team on your side can make all the difference. Our Atlanta-based firm is home to highly rated personal injury attorneys who have helped clients across Georgia recover from devastating injuries. Whether you’ve been hurt in a car wreck, tractor trailer wreck, motorcycle crash, or slip and fall, we have the experience and resources to handle your case.
+      - paragraph [ref=e168]: "As top-rated attorneys, we know how devastating a serious accident can be: physically, emotionally, and financially. Medical bills, lost wages, and insurance company tactics can quickly become overwhelming. That’s why we relentlessly advocate for our clients, ensuring they receive fair settlements or take cases to trial when necessary."
+      - paragraph [ref=e169]: If you’ve been searching for an experienced accident lawyer, look no further. Our injury attorneys have handled hundreds of cases in Fulton, Cobb, and DeKalb Counties, and we’re ready to help you win yours. We handle the complexities of your case, so you can focus on what truly matters – your recovery.
+    - generic [ref=e170]:
+      - list [ref=e171]:
+        - listitem [ref=e172]:
+          - strong [ref=e173]: Direct access
+          - text: to attorneys with deep experience
+        - listitem [ref=e174]:
+          - strong [ref=e175]: Proven results
+          - text: in winning maximum compensation for injury victims
+        - listitem [ref=e176]:
+          - strong [ref=e177]: No upfront fees
+          - text: – for personal injury claims, you don’t pay unless we win your case
+        - listitem [ref=e178]:
+          - strong [ref=e179]: Compassionate, client-focused
+          - text: representation every step of the way
+      - paragraph [ref=e180]: Don’t wait to take action. The sooner you contact us, the stronger your case will be.
+      - paragraph [ref=e181]:
+        - strong [ref=e182]: Call Blaska Holm today or fill out our free case evaluation form. Let’s win this together.
+  - generic [ref=e186]:
+    - generic [ref=e188]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e190]
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - generic [ref=e193] [cursor=pointer]: When should I get a personal injury attorney to represent me?
+          - generic [ref=e194]: If you have been in an accident and are not at fault, you have the burden of proving your case. This is no easy task. Insurance companies and their defense lawyers are well-trained and well-funded to deny you fair compensation. Contact us now to ensure we help protect you throughout the legal process.
+        - generic [ref=e196] [cursor=pointer]: How do I know if I have a strong case?
+        - generic [ref=e198] [cursor=pointer]: Why should I choose Blaska Holm to represent me?
+    - generic [ref=e200]:
+      - heading "Free Case Evaluation" [level=2] [ref=e201]
+      - paragraph [ref=e202]: Your journey for justice begins with a single click. Complete the form now and we will promptly follow up with you.
+      - generic [ref=e204]:
+        - heading [level=3]
+        - paragraph [ref=e205]:
+          - textbox [ref=e206]:
+            - /placeholder: First Name*
+        - paragraph [ref=e207]:
+          - textbox [ref=e208]:
+            - /placeholder: Last Name*
+        - paragraph [ref=e209]:
+          - textbox [ref=e210]:
+            - /placeholder: Email Address*
+        - paragraph [ref=e211]:
+          - textbox [ref=e212]:
+            - /placeholder: Phone Number*
+        - paragraph [ref=e213]:
+          - textbox [ref=e214]:
+            - /placeholder: How can we help you?*
+        - paragraph [ref=e215]:
+          - checkbox [ref=e216]
+          - text: By submitting your information, you consent to receive email or SMS messages from Blaska Holm LLC. Standard message & data rates may apply. *
+        - paragraph [ref=e217]:
+          - iframe [ref=e220]:
+            - generic [ref=f97e2]:
+              - generic [ref=f97e3]:
+                - checkbox "I'm not a robot" [ref=f97e7]
+                - generic [ref=f97e11]: I'm not a robot
+              - generic [ref=f97e15]: reCAPTCHA
+        - paragraph [ref=e221]:
+          - button "Get Help Now" [ref=e222] [cursor=pointer]
+  - generic [ref=e225]:
+    - heading "What Do I When I’m in an Accident in Atlanta?" [level=2] [ref=e226]
+    - paragraph [ref=e227]: If you’ve been injured in a car accident in Atlanta, Sandy Springs, or anywhere in the metro area, the steps you take next can directly affect your ability to recover compensation.
+    - heading "1. Check for Injuries & Call 911" [level=4] [ref=e228]
+    - paragraph [ref=e229]: Your safety is the top priority. Check yourself and any passengers for injuries, then call 911 immediately to report the accident. A police report is essential for filing an insurance claim and pursuing a personal injury case in Atlanta.
+    - paragraph
+    - heading "2. Move to a Safe Location (If Possible)" [level=4] [ref=e230]
+    - paragraph [ref=e231]: If it’s safe, move your vehicle out of traffic to prevent further accidents. Turn on your hazard lights to alert other drivers.
+    - heading "3. Gather Evidence for Your Injury Claim" [level=4] [ref=e232]
+    - paragraph [ref=e233]: "Strong evidence can make a significant difference when filing a claim with an Atlanta injury law firm. Be sure to:"
+    - list [ref=e234]:
+      - listitem [ref=e235]: One photo can be worth a thousand words. Take photos and videos of vehicle damage, injuries, and the accident scene.
+      - listitem [ref=e236]: Get the other driver’s name, contact details, and insurance information.
+      - listitem [ref=e237]: Speak with witnesses and collect their contact information.
+      - listitem [ref=e238]: Note important details like road conditions, weather, and traffic signals.
+    - heading "4. Seek Medical Attention Right Away" [level=4] [ref=e239]
+    - paragraph [ref=e240]: Even if you don’t feel injured, some conditions like whiplash or internal trauma may not show symptoms immediately. Seeing a doctor as soon as possible provides medical documentation that is critical for your personal injury claim in Atlanta. They will ensure you get a treatment plan in place if necessary.
+    - heading "5. Notify Your Insurance Company (But Be Cautious!)" [level=4] [ref=e241]
+    - paragraph [ref=e242]: You should report the accident to your insurer, but avoid admitting fault or giving a recorded statement without speaking to an attorney. Insurance adjusters often try to minimize payouts, so having legal representation is crucial.
+    - heading "6. Contact a Top Personal Injury Firm to Represent You" [level=4] [ref=e243]
+    - paragraph [ref=e244]: If you are injured due to someone else’s negligence, working with an experienced car accident attorney can help you recover maximum compensation for medical expenses, lost wages, and pain and suffering.
+    - paragraph [ref=e245]: Blaska Holm is ready to help. We aggressively fight for accident victims, ensuring they receive the justice and compensation they deserve as they continue on their path to healing.
+    - paragraph [ref=e246]: We handle everything from negotiating with insurance companies to filing lawsuits if necessary. You don’t pay unless we win your case!
+    - paragraph [ref=e247]:
+      - strong [ref=e248]: If you’re searching for an accident lawyer near me, contact Blaska Holm for a free case consult.
+  - generic [ref=e250]:
+    - generic [ref=e251]:
+      - heading "Meet Your Team" [level=2] [ref=e252]
+      - paragraph [ref=e253]:
+        - text: Our attorneys in Georgia are here to serve you in the metro area or across the state, depending on your location.
+        - text: With over 85+ years of combined experience, we are ready to help you with your legal needs.
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - group "1 / 6" [ref=e257]:
+          - link "Charles Blaska Partner" [ref=e258] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/team/charles-blaska-attorney/
+            - generic [ref=e260]: Charles Blaska
+            - generic [ref=e261]: Partner
+        - group "2 / 6" [ref=e262]:
+          - link "Katie Blaska Dodd Trial Attorney Atlanta Georgia Katherine Blaska Dodd Partner" [ref=e263] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/team/katherine-blaska-dodd-attorney/
+            - img "Katie Blaska Dodd Trial Attorney Atlanta Georgia" [ref=e265]
+            - generic [ref=e266]: Katherine Blaska Dodd
+            - generic [ref=e267]: Partner
+        - group "3 / 6" [ref=e268]:
+          - link "Jeff Holm Partner" [ref=e269] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/team/jeffrey-holm-attorney/
+            - generic [ref=e271]: Jeff Holm
+            - generic [ref=e272]: Partner
+        - group "4 / 6" [ref=e273]:
+          - link "Kyle Brooks Partner" [ref=e274] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/team/kyle-brooks-attorney/
+            - generic [ref=e276]: Kyle Brooks
+            - generic [ref=e277]: Partner
+        - group "5 / 6" [ref=e278]:
+          - link "Anthony Guidotti Paralegal" [ref=e279] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/team/anthony-guidotti/
+            - generic [ref=e281]: Anthony Guidotti
+            - generic [ref=e282]: Paralegal
+        - group "6 / 6" [ref=e283]:
+          - link "Kevin King Office Manager" [ref=e284] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/team/kevin-king/
+            - generic [ref=e286]: Kevin King
+            - generic [ref=e287]: Office Manager
+      - generic [ref=e288]:
+        - button "Go to slide 1" [ref=e289] [cursor=pointer]
+        - button "Go to slide 2" [ref=e290] [cursor=pointer]
+        - button "Go to slide 3" [ref=e291] [cursor=pointer]
+        - button "Go to slide 4" [ref=e292] [cursor=pointer]
+        - button "Go to slide 5" [ref=e293] [cursor=pointer]
+        - button "Go to slide 6" [ref=e294] [cursor=pointer]
+  - generic [ref=e297]:
+    - heading "Why Do I Need a Personal Injury Lawyer?" [level=2] [ref=e298]
+    - paragraph [ref=e299]: Hiring a skilled personal injury lawyer in Atlanta can mean the difference between a low settlement or getting the full financial recovery you deserve. Insurance companies often try to minimize payouts, and without experienced legal representation, you may not receive the full amount you deserve. Without the right legal team, your rights and your compensation could be at risk.
+  - generic [ref=e302]:
+    - heading "Benefits of Hiring a Personal Injury Lawyer" [level=2] [ref=e303]
+    - heading "1. Maximize Your Compensation" [level=4] [ref=e304]
+    - paragraph [ref=e305]: Insurance companies may offer quick settlements that don’t cover all of your medical expenses, lost wages, or pain and suffering. A personal injury attorney in Atlanta fights to secure the maximum compensation for your injuries.
+    - heading "2. Handle Insurance Companies for You" [level=4] [ref=e306]
+    - paragraph [ref=e307]: Insurers often use tactics to devalue or deny claims. An experienced accident lawyer will negotiate on your behalf, ensuring that you don’t accept an unfair settlement.
+    - heading "3. Prove Liability and Gather Strong Evidence" [level=4] [ref=e308]
+    - paragraph [ref=e309]: Establishing fault in accidents, especially in cases involving a truck accident in Atlanta or an 18-wheeler accident, can be complex. A skilled lawyer collects evidence, speaks with witnesses, and works with accident reconstruction experts to build a strong case.
+    - heading "4. No Upfront Fees – You Don’t Pay Unless We Win" [level=4] [ref=e310]
+    - paragraph [ref=e311]: For personal injury claims, we work on a contingency fee basis, meaning you only pay if they win your case. This allows you to pursue justice without worrying about upfront legal costs.
+    - paragraph
+    - heading "5. Navigate Complex Legal Procedures" [level=4] [ref=e312]
+    - paragraph [ref=e313]: From filing paperwork to negotiating settlements and even going to trial if necessary, a top personal injury firm in Atlanta ensures your case is handled correctly and efficiently.
+    - heading "When Should I Contact an Atlanta GA injury law firm?" [level=4] [ref=e314]
+    - list [ref=e315]:
+      - listitem [ref=e316]: After a car accident in Atlanta, especially if injuries are involved
+      - listitem [ref=e317]: If you were the victim of a hit and run accident in Atlanta
+      - listitem [ref=e318]: If you were injured in a truck accident or 18-wheeler accident
+      - listitem [ref=e319]: When an insurance company is delaying or denying your claim
+      - listitem [ref=e320]: If you’ve suffered severe injuries that impact your daily life
+    - paragraph [ref=e321]: Hiring an Atlanta car accident attorney can be the key to winning your case and getting the financial recovery you deserve.
+    - paragraph [ref=e322]:
+      - strong [ref=e323]: Need help after a car crash in Atlanta? Contact us today for a free consultation!
+  - generic [ref=e326]:
+    - heading "Serving Atlanta and Beyond" [level=2] [ref=e327]
+    - paragraph [ref=e328]: We represent clients across the Atlanta metro area and North Georgia, offering trusted personal injury legal services to individuals and families who need help now.
+    - paragraph [ref=e329]:
+      - link "Atlanta" [ref=e330] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-atlanta/
+      - text: —>
+      - link "Sandy Springs" [ref=e331] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-sandy_springs/
+      - text: —>
+      - link "Roswell" [ref=e332] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-roswell/
+      - text: —>
+      - link "Marietta" [ref=e333] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-marietta/
+      - text: —>
+      - link "Alpharetta" [ref=e334] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-alpharetta/
+      - text: —>
+      - link "Johns Creek" [ref=e335] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-johns_creek
+      - text: —>
+      - link "Dunwoody" [ref=e336] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-dunwoody
+      - text: —>
+      - link "Brookhaven" [ref=e337] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-brookhaven/
+      - text: —>
+      - link "Buckhead" [ref=e338] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-buckhead/
+      - text: —>
+      - link "Peachtree Corners" [ref=e339] [cursor=pointer]:
+        - /url: https://www.blaskaholm.com/personal-injury-lawyer-in-peachtree-corners/
+      - text: —>
+  - generic [ref=e341]:
+    - heading "Hear from Our Clients" [level=2] [ref=e343]
+    - generic [ref=e344]:
+      - generic [ref=e346]:
+        - group "1 / 4" [ref=e347]:
+          - paragraph [ref=e352]: "\"Katie Blaska went above and beyond the call of duty to get my case resolved quickly. Any questions or concerns were answered immediately!! They made sure I knew everything that was going on with my case. Very professional! If you want results in a timely manner, Katie Blaska is the Attorney you need in your corner!\""
+        - group "2 / 4":
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: "\"Excellent firm and knowledgeable attorneys.\""
+        - group "3 / 4":
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: "\"We used [the firm] for both my and my wife's wills. It was a smooth, easy process. Katie explained everything thoroughly and laid out all our options. Prepared and knowledgeable. We highly recommend them!\""
+        - group "4 / 4":
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: "\"Absolutely the best team of lawyers!\""
+      - button "Previous slide" [ref=e353] [cursor=pointer]
+      - button "Next slide" [ref=e354] [cursor=pointer]
+  - generic [ref=e357]:
+    - generic [ref=e361]:
+      - heading "Main Office" [level=4] [ref=e362]
+      - paragraph [ref=e363]:
+        - text: 8565 Dunwoody Place
+        - text: Suite A
+        - text: Atlanta, GA 30350
+    - generic [ref=e367]:
+      - heading "Our Phone" [level=4] [ref=e368]
+      - paragraph [ref=e369]:
+        - link "770.998.1005" [ref=e370] [cursor=pointer]:
+          - /url: tel:7709981005
+    - generic [ref=e374]:
+      - heading "Office Hours" [level=4] [ref=e375]
+      - paragraph [ref=e376]: Mon-Fri. 9am-5pm
+  - contentinfo [ref=e377]:
+    - generic [ref=e380]:
+      - generic [ref=e381]:
+        - link "Blaska Holm LLC" [ref=e383] [cursor=pointer]:
+          - /url: https://www.blaskaholm.com
+          - img "Blaska Holm LLC" [ref=e384]
+        - link [ref=e386] [cursor=pointer]:
+          - /url: https://www.bbb.org/us/ga/atlanta/profile/personal-injury-lawyer/blaska-holm-llc-0443-91840305
+        - generic [ref=e387]:
+          - heading "Newsletter" [level=4] [ref=e388]
+          - paragraph [ref=e389]:
+            - strong [ref=e390]: Keep me in touch with new posts!
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - status
+              - list
+            - form "Contact form" [ref=e393]:
+              - paragraph [ref=e395]:
+                - textbox "E-mail.." [ref=e397]
+                - button "Subscribe" [ref=e398] [cursor=pointer]
+          - paragraph
+      - generic [ref=e399]:
+        - list [ref=e401]:
+          - listitem [ref=e402]:
+            - link [ref=e403] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/blaska-holm-llc
+              - img [ref=e404]
+          - listitem [ref=e408]:
+            - link [ref=e409] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=100064392540427
+              - img [ref=e410]
+          - listitem [ref=e412]:
+            - link [ref=e413] [cursor=pointer]:
+              - /url: https://profiles.superlawyers.com/georgia/atlanta/lawfirm/blaska-holm-llc/0e5d765a-46ad-4434-ad95-a510ff33eece.html
+              - img [ref=e414]
+        - generic [ref=e419]:
+          - heading "Contact Info" [level=4] [ref=e420]
+          - paragraph [ref=e421]:
+            - link "770.998.1005" [ref=e422] [cursor=pointer]:
+              - /url: tel:7709981005
+          - paragraph [ref=e423]:
+            - link "info@blaskaholm.com" [ref=e424] [cursor=pointer]:
+              - /url: mailto:info@blaskaholm.com
+          - paragraph [ref=e425]:
+            - link "Map & Direction [+]" [ref=e426] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/ydJzQzqjLWhXBfZN7
+    - generic [ref=e429]:
+      - list [ref=e431]:
+        - listitem [ref=e432]:
+          - link "DISCLAIMER" [ref=e433] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/disclaimer/
+          - text: /
+        - listitem [ref=e434]:
+          - link "PRIVACY POLICY" [ref=e435] [cursor=pointer]:
+            - /url: https://www.blaskaholm.com/privacy-policy/
+      - paragraph [ref=e437]: © 2026 Blaska Holm LLC
+  - iframe [ref=e438]:
+    

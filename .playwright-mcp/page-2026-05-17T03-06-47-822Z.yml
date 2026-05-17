@@ -1,0 +1,81 @@
+- generic [ref=e2]:
+  - banner:
+    - generic [ref=e3]:
+      - link "Skip to Content" [ref=e4] [cursor=pointer]:
+        - /url: "#page"
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "Pitt McGehee Palmer Bonanni &amp; Rivers" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - img "Pitt McGehee Palmer Bonanni &amp; Rivers" [ref=e13]
+          - navigation [ref=e16]:
+            - link "Home" [ref=e18] [cursor=pointer]:
+              - /url: /
+            - button "About Our Firm" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: About Our Firm
+            - button "Who We Are" [ref=e23] [cursor=pointer]:
+              - generic [ref=e24]: Who We Are
+            - button "What We Do" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: What We Do
+            - link "In the News" [ref=e29] [cursor=pointer]:
+              - /url: /in-the-news
+        - link "CONTACT US" [ref=e32] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e33]:
+    - article [ref=e34]:
+      - generic [ref=e45]:
+        - heading "Justice, served." [level=1] [ref=e46]
+        - heading "Helping people overcome injustice is more than our work. It’s our passion." [level=2] [ref=e47]:
+          - text: Helping people overcome injustice
+          - text: is more than our work. It’s our passion.
+      - generic [ref=e53]:
+        - generic [ref=e58]:
+          - heading "Are you a former student athlete? Concerned your private information was hacked by Matt Weiss?" [level=2] [ref=e59]
+          - paragraph [ref=e60]
+          - heading "Don’t Wait. Contact Us." [level=2] [ref=e61]:
+            - text: Don’t Wait.
+            - link "Contact Us" [ref=e62] [cursor=pointer]:
+              - /url: /matt-weiss-university-of-michigan-litigation
+            - text: .
+        - link "LEARN MORE" [ref=e67] [cursor=pointer]:
+          - /url: /matt-weiss-university-of-michigan-litigation
+      - heading "Pitt McGehee Palmer Bonanni & Rivers celebrates 30 years as Michigan’s preeminent civil rights and discrimination law firm." [level=2] [ref=e79]
+      - generic [ref=e85]:
+        - generic [ref=e90]:
+          - heading "Michigan’s leading discrimination and civil rights attorneys." [level=2] [ref=e91]
+          - heading "Pitt McGehee Palmer Bonanni & Rivers is one of the largest and most experienced employment and civil rights law firms in Michigan. Our attorneys have successfully supported clients, both individually and in groups, in litigation against companies charged with employment discrimination. In addition to our civil rights and employment discrimination representation, we also handle complex and difficult personal injury and criminal defense cases." [level=4] [ref=e92]
+        - generic [ref=e106]:
+          - heading "Employment Discrimination" [level=4] [ref=e107]
+          - paragraph [ref=e108]: Our firm helps employees fight discrimination made illegal by the Civil Rights Act of 1964 (Title VII) and other state and federal anti-discrimination laws.
+        - generic [ref=e122]:
+          - heading "Class/Group Actions" [level=4] [ref=e123]
+          - paragraph [ref=e124]: These suits unite your group with one strong voice. Our firm has worked on the Michigan UIA fraud case, the Flint water class action, sexual assault group actions and more.
+        - img "White person in a coat with face cropped out holding a piece of paper with the words me too written on it" [ref=e133]
+        - generic [ref=e139]:
+          - heading "Sexual Assault & Harrassment" [level=4] [ref=e140]
+          - paragraph [ref=e141]: As a civil rights law firm, we have the training and experience to challenge all instances of sexual harassment and gain redress for everyone affected by it.
+        - img "A diverse group of people walking on a sidewalk carrying signs with justice-themed messages" [ref=e150]
+        - generic [ref=e156]:
+          - heading "Civil Rights" [level=4] [ref=e157]
+          - paragraph [ref=e158]: Civil rights law is our specialty and we represent individual clients, as well as groups (in class actions) of people whose rights have been violated.
+        - generic [ref=e172]:
+          - heading "Disability Discrimination" [level=4] [ref=e173]
+          - paragraph [ref=e174]: More than 56 million Americans have some form of disability, and we make sure that those with disabilities have the same opportunities as everyone else.
+        - img "Whistleblower man holding papers in front of media microphones" [ref=e183]
+        - generic [ref=e189]:
+          - heading "Whistleblower" [level=4] [ref=e190]
+          - paragraph [ref=e191]: Retaliation can occur in response to overtime, minimum wage, discrimination, workers’ compensation, medical leave, equal pay claims and others.
+        - heading "We care deeply about righting the wrongs done to innocent people. For us it’s about justice prevailing." [level=3] [ref=e197]:
+          - text: We care deeply about righting the wrongs done to innocent people.
+          - text: For us it’s about justice prevailing.
+      - generic [ref=e203]:
+        - heading "Let’s work together." [level=2] [ref=e209]
+        - link "CONTACT US" [ref=e214] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e215]:
+    - generic [ref=e226]:
+      - paragraph [ref=e227]:
+        - generic [ref=e228]:
+          - text: 117 West 4th Street, Suite 200, Royal Oak, Michigan 48067
+          - text: (248) 398-9800
+      - paragraph [ref=e229]: Copyright © 2025. All Rights Reserved.

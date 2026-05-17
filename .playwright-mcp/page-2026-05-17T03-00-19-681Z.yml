@@ -1,0 +1,1031 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - text: 
+      - generic [ref=e8]:
+        - link "Loevy + Loevy" [ref=e13] [cursor=pointer]:
+          - /url: https://www.loevy.com/
+          - img "Loevy + Loevy" [ref=e14]
+        - button "Main Menu" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: Main Menu
+          - img [ref=e22]
+    - main [ref=e27]:
+      - article [ref=e28]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e33]:
+              - group "1 / 8"
+              - group "2 / 8"
+              - group "3 / 8"
+              - group "4 / 8"
+              - group "5 / 8"
+              - group "6 / 8"
+              - group "7 / 8"
+              - group "8 / 8"
+              - group "1 / 8" [ref=e34]
+              - group "2 / 8"
+              - group "3 / 8"
+              - group "4 / 8"
+              - group "5 / 8"
+              - group "6 / 8"
+              - group "7 / 8"
+              - group "8 / 8"
+              - group "1 / 8"
+              - group "2 / 8"
+              - group "3 / 8"
+              - group "4 / 8"
+              - group "5 / 8"
+              - group "6 / 8"
+              - group "7 / 8"
+              - group "8 / 8"
+            - generic [ref=e38]:
+              - heading "Loevy + Loevy is an award-winning civil rights law firm working for justice, accountability, and transparency." [level=2] [ref=e43]
+              - generic [ref=e47]: We take on the nation’s most difficult public interest cases to hold officials, governments, and corporations accountable. Our award-winning attorneys work relentlessly to ensure our clients are supported, empowered, and victorious.
+              - generic [ref=e49]:
+                - link "About Our Firm" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.loevy.com/about/
+                  - generic [ref=e55]: About Our Firm
+                - link "Meet Our Team" [ref=e59] [cursor=pointer]:
+                  - /url: https://www.loevy.com/our-team/
+                  - generic [ref=e61]: Meet Our Team
+          - generic [ref=e68]:
+            - heading "Take Action!" [level=2] [ref=e71]
+            - paragraph [ref=e78]:
+              - link "Go here" [ref=e79] [cursor=pointer]:
+                - /url: https://docs.google.com/forms/d/e/1FAIpQLSeKhnni1lW1xUGtIThagkNU_S6oPhpCCcathpbfff4NXIG8yQ/viewform
+          - generic [ref=e81]:
+            - generic [ref=e83]:
+              - heading "Call for a Special Prosecutor to Investigate Crimes by DHS" [level=2] [ref=e86]
+              - generic [ref=e88]:
+                - paragraph [ref=e89]:
+                  - text: A broad coalition of organizations, officials, and individuals have submitted a
+                  - link "petition" [ref=e90] [cursor=pointer]:
+                    - /url: https://www.loevy.com/wp-content/uploads/2026/03/Special-Prosecutor-Petition-Filed-3.12.26.pdf
+                  - text: asking for the appointment of a special prosecutor to investigate crimes committed by federal agents operating during “Operation Midway Blitz.”
+                - paragraph [ref=e91]:
+                  - text: The petition has been signed by
+                  - link "more than 400 concerned leaders, individuals, and organizations" [ref=e92] [cursor=pointer]:
+                    - /url: https://docs.google.com/document/d/1G4AhN6AiwgefCUxygkHu6E5pCn4oZxvZxrVG6NZcpqE/preview?tab=t.0
+                  - text: ", including nonprofit organizations, attorneys and bar associations, religious leaders, media outlets, veterans’ groups, academics and educators, and elected officials."
+                - paragraph [ref=e93]:
+                  - text: No one is above the law.
+                  - link "Click here to add your name, or your organization’s name, to the petition" [ref=e94] [cursor=pointer]:
+                    - /url: https://docs.google.com/forms/d/e/1FAIpQLSeKhnni1lW1xUGtIThagkNU_S6oPhpCCcathpbfff4NXIG8yQ/viewform
+                  - text: ", and join the call for justice and accountability in Cook County."
+            - generic [ref=e95]:
+              - link [ref=e98] [cursor=pointer]:
+                - /url: https://youtu.be/hAuyNGJzXIc
+              - paragraph [ref=e101]:
+                - link "Click here" [ref=e102] [cursor=pointer]:
+                  - /url: https://youtu.be/hAuyNGJzXIc
+                - text: to watch the full press conference from
+                - text: March 12, 2026, in which petitioners discuss the need
+                - text: for a special prosecutor to investigate and
+                - text: prosecute crimes by DHS agents.
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - heading "Featured Case" [level=2] [ref=e109]
+              - paragraph [ref=e116]:
+                - link "Learn more" [ref=e117] [cursor=pointer]:
+                  - /url: https://www.loevy.com/class-actions/government-accountability/chc-v-noem/
+            - generic [ref=e119]:
+              - link [ref=e122] [cursor=pointer]:
+                - /url: https://www.loevy.com/class-actions/government-accountability/chc-v-noem/
+              - generic [ref=e123]:
+                - heading "Chicago Headline Club v. Noem" [level=2] [ref=e126]
+                - generic [ref=e128]:
+                  - paragraph [ref=e129]: Under the Trump administration’s “Operation Midway Blitz,” federal agents deployed to the Chicago region have used violent force against the press, elected officials, religious leaders, and private individuals engaged in peaceful and protected activities.
+                  - paragraph [ref=e130]:
+                    - emphasis [ref=e131]: CHC v. Noem
+                    - text: is a federal lawsuit brought by members of the press, clergy, and ordinary citizens who chose to speak in opposition to the Trump Administration’s policies, and who then came together to courageously stand up for the First Amendment rights of all Americans.
+                - paragraph [ref=e134]:
+                  - link "Learn more about the case here" [ref=e135] [cursor=pointer]:
+                    - /url: https://www.loevy.com/class-actions/government-accountability/chc-v-noem/
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - heading "Latest News" [level=2] [ref=e141]
+              - paragraph [ref=e148]:
+                - link "More news" [ref=e149] [cursor=pointer]:
+                  - /url: https://www.loevy.com/media/
+            - paragraph [ref=e154]: Loevy + Loevy is working to hold individuals, governments, and corporations accountable while advocating for victims of injustice. Our clients are at the center of everything we do, and the people we represent are more than just clients—they become our friends and family.
+            - generic [ref=e156]:
+              - list [ref=e157]:
+                - generic [ref=e158]:
+                  - group [ref=e159]:
+                    - generic [ref=e160]:
+                      - article [ref=e161]:
+                        - generic [ref=e162]:
+                          - heading [level=3] [ref=e165]:
+                            - link [ref=e166] [cursor=pointer]:
+                              - /url: https://fox56news.com/news/kentucky/federal-lawsuit-alleges-knox-county-deputy-used-cruiser-as-deadly-weapon-killing-1/
+                              - text: "WDKY: Federal lawsuit alleges Knox County deputy used cruiser as deadly weapon, killing 1"
+                          - list [ref=e169]:
+                            - listitem [ref=e170]:
+                              - time [ref=e172]: April 20, 2026
+                      - link [ref=e177] [cursor=pointer]:
+                        - /url: https://fox56news.com/news/kentucky/federal-lawsuit-alleges-knox-county-deputy-used-cruiser-as-deadly-weapon-killing-1/
+                        - generic [ref=e178]:
+                          - img [ref=e180]
+                          - generic [ref=e182]: Learn More
+                  - group [ref=e183]:
+                    - generic [ref=e184]:
+                      - article [ref=e185]:
+                        - generic [ref=e186]:
+                          - heading [level=3] [ref=e189]:
+                            - link [ref=e190] [cursor=pointer]:
+                              - /url: https://www.loevy.com/press-release-lawsuits-filed-against-knox-co-ky-deputy-who-caused-fatal-utv-crash/
+                              - text: "PRESS RELEASE: Lawsuits Filed Against Knox Co. (KY) Deputy Who Caused Fatal UTV Crash"
+                          - list [ref=e193]:
+                            - listitem [ref=e194]:
+                              - time [ref=e196]: April 16, 2026
+                      - link [ref=e201] [cursor=pointer]:
+                        - /url: https://www.loevy.com/press-release-lawsuits-filed-against-knox-co-ky-deputy-who-caused-fatal-utv-crash/
+                        - generic [ref=e202]:
+                          - img [ref=e204]
+                          - generic [ref=e206]: Learn More
+                  - group "1 / 15" [ref=e207]:
+                    - generic [ref=e208]:
+                      - article [ref=e209]:
+                        - generic [ref=e210]:
+                          - 'heading "Chicago Sun-Times: Chicago considers $16.5M more in settlements tied to police wrongdoing, including case linked to Burge" [level=3] [ref=e213]':
+                            - 'link "Chicago Sun-Times: Chicago considers $16.5M more in settlements tied to police wrongdoing, including case linked to Burge" [ref=e214] [cursor=pointer]':
+                              - /url: https://chicago.suntimes.com/city-hall/2026/05/14/city-council-finance-committee-police-settlements-jon-burge-car-chases
+                          - list [ref=e217]:
+                            - listitem [ref=e218]:
+                              - time [ref=e220]: May 16, 2026
+                      - link "Learn More" [ref=e225] [cursor=pointer]:
+                        - /url: https://chicago.suntimes.com/city-hall/2026/05/14/city-council-finance-committee-police-settlements-jon-burge-car-chases
+                        - generic [ref=e226]:
+                          - img [ref=e228]
+                          - generic [ref=e230]: Learn More
+                  - group "2 / 15" [ref=e231]:
+                    - generic [ref=e232]:
+                      - article [ref=e233]:
+                        - generic [ref=e234]:
+                          - heading "Illinois Journalists, Actors, and Vocal Artists File Class-Action Lawsuits Against Amazon, Apple, Google, Meta, Microsoft, Nvidia, and Other Companies for Stealing Their Voices" [level=3] [ref=e237]:
+                            - link "Illinois Journalists, Actors, and Vocal Artists File Class-Action Lawsuits Against Amazon, Apple, Google, Meta, Microsoft, Nvidia, and Other Companies for Stealing Their Voices" [ref=e238] [cursor=pointer]:
+                              - /url: https://www.loevy.com/illinois-vocal-artists-sue-big-tech-companies-over-voice-ai/
+                          - list [ref=e241]:
+                            - listitem [ref=e242]:
+                              - time [ref=e244]: May 14, 2026
+                      - link "Learn More" [ref=e249] [cursor=pointer]:
+                        - /url: https://www.loevy.com/illinois-vocal-artists-sue-big-tech-companies-over-voice-ai/
+                        - generic [ref=e250]:
+                          - img [ref=e252]
+                          - generic [ref=e254]: Learn More
+                  - group "3 / 15" [ref=e255]:
+                    - generic [ref=e256]:
+                      - article [ref=e257]:
+                        - generic [ref=e258]:
+                          - 'heading "Boston Globe: ‘The Commonwealth decided to declare me guilty’: Thomas Rosa, Jr., wrongfully imprisoned for 34 years, sues Massachusetts" [level=3] [ref=e261]':
+                            - 'link "Boston Globe: ‘The Commonwealth decided to declare me guilty’: Thomas Rosa, Jr., wrongfully imprisoned for 34 years, sues Massachusetts" [ref=e262] [cursor=pointer]':
+                              - /url: https://www.bostonglobe.com/2026/05/13/metro/thomas-rosa-jr-sues-mass-for-1-million-after-being-wrongly-imprisoned/
+                          - list [ref=e265]:
+                            - listitem [ref=e266]:
+                              - time [ref=e268]: May 14, 2026
+                      - link "Learn More" [ref=e273] [cursor=pointer]:
+                        - /url: https://www.bostonglobe.com/2026/05/13/metro/thomas-rosa-jr-sues-mass-for-1-million-after-being-wrongly-imprisoned/
+                        - generic [ref=e274]:
+                          - img [ref=e276]
+                          - generic [ref=e278]: Learn More
+                  - group "4 / 15" [ref=e279]:
+                    - generic [ref=e280]:
+                      - article [ref=e281]:
+                        - generic [ref=e282]:
+                          - 'heading "WTTW: Loevy & Exoneration Project Attorney Lyla Wasz-Piper on Eileen O’Neill Burke’s Opposition to Certificates of Innocence" [level=3] [ref=e285]':
+                            - 'link "WTTW: Loevy & Exoneration Project Attorney Lyla Wasz-Piper on Eileen O’Neill Burke’s Opposition to Certificates of Innocence" [ref=e286] [cursor=pointer]':
+                              - /url: https://news.wttw.com/2026/05/12/investigation-finds-cook-county-state-s-attorney-s-office-objects-4-5-petitions
+                          - list [ref=e289]:
+                            - listitem [ref=e290]:
+                              - time [ref=e292]: May 13, 2026
+                      - link "Learn More" [ref=e297] [cursor=pointer]:
+                        - /url: https://news.wttw.com/2026/05/12/investigation-finds-cook-county-state-s-attorney-s-office-objects-4-5-petitions
+                        - generic [ref=e298]:
+                          - img [ref=e300]
+                          - generic [ref=e302]: Learn More
+                  - group "5 / 15" [ref=e303]:
+                    - generic [ref=e304]:
+                      - article [ref=e305]:
+                        - generic [ref=e306]:
+                          - 'heading "ABC7: Jon Loevy on settlement of lawsuit against disgraced CPD detective: “Mr. Reyes and Mr. Solache are completely innocent of this crime”" [level=3] [ref=e309]':
+                            - 'link "ABC7: Jon Loevy on settlement of lawsuit against disgraced CPD detective: “Mr. Reyes and Mr. Solache are completely innocent of this crime”" [ref=e310] [cursor=pointer]':
+                              - /url: https://abc7chicago.com/post/former-cook-county-sa-kim-foxx-gives-deposition-says-she-believes-exonerees-were-guilty-cpd-detective-reynaldo-guevara-case/19059950/
+                          - list [ref=e313]:
+                            - listitem [ref=e314]:
+                              - time [ref=e316]: May 7, 2026
+                      - link "Learn More" [ref=e321] [cursor=pointer]:
+                        - /url: https://abc7chicago.com/post/former-cook-county-sa-kim-foxx-gives-deposition-says-she-believes-exonerees-were-guilty-cpd-detective-reynaldo-guevara-case/19059950/
+                        - generic [ref=e322]:
+                          - img [ref=e324]
+                          - generic [ref=e326]: Learn More
+                  - group "6 / 15" [ref=e327]:
+                    - generic [ref=e328]:
+                      - article [ref=e329]:
+                        - generic [ref=e330]:
+                          - heading "Jury Awards $24.35 Million to Jeffrey Clark, Framed by Meade County (Ky) Sheriff’s Dept. for 1992 Murder" [level=3] [ref=e333]:
+                            - link "Jury Awards $24.35 Million to Jeffrey Clark, Framed by Meade County (Ky) Sheriff’s Dept. for 1992 Murder" [ref=e334] [cursor=pointer]:
+                              - /url: https://www.loevy.com/big-wins/jury-awards-24-35-million-to-jeffrey-clark-framed-by-meade-county-ky-sheriffs-dept-for-1992-murder/
+                          - list [ref=e337]:
+                            - listitem [ref=e338]:
+                              - time [ref=e340]: April 30, 2026
+                      - link "Learn More" [ref=e345] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jury-awards-24-35-million-to-jeffrey-clark-framed-by-meade-county-ky-sheriffs-dept-for-1992-murder/
+                        - generic [ref=e346]:
+                          - img [ref=e348]
+                          - generic [ref=e350]: Learn More
+                  - group "7 / 15" [ref=e351]:
+                    - generic [ref=e352]:
+                      - article [ref=e353]:
+                        - generic [ref=e354]:
+                          - 'heading "PRESS RELEASE: Framed for Murder by the East Cleveland Police Department, Jerry Sims—Exonerated After 7 Years in Prison—Files Federal Lawsuit" [level=3] [ref=e357]':
+                            - 'link "PRESS RELEASE: Framed for Murder by the East Cleveland Police Department, Jerry Sims—Exonerated After 7 Years in Prison—Files Federal Lawsuit" [ref=e358] [cursor=pointer]':
+                              - /url: https://www.loevy.com/press-release-jerry-sims-framed-for-murder-by-east-cleveland-police-files-lawsuit/
+                          - list [ref=e361]:
+                            - listitem [ref=e362]:
+                              - time [ref=e364]: April 30, 2026
+                      - link "Learn More" [ref=e369] [cursor=pointer]:
+                        - /url: https://www.loevy.com/press-release-jerry-sims-framed-for-murder-by-east-cleveland-police-files-lawsuit/
+                        - generic [ref=e370]:
+                          - img [ref=e372]
+                          - generic [ref=e374]: Learn More
+                  - group "8 / 15" [ref=e375]:
+                    - generic [ref=e376]:
+                      - article [ref=e377]:
+                        - generic [ref=e378]:
+                          - 'heading "PRESS RELEASE: City of Boston Settles Police Brutality Lawsuit with Four #BlackLivesMatter Protesters for $850,000" [level=3] [ref=e381]':
+                            - 'link "PRESS RELEASE: City of Boston Settles Police Brutality Lawsuit with Four #BlackLivesMatter Protesters for $850,000" [ref=e382] [cursor=pointer]':
+                              - /url: https://www.loevy.com/press-release-boston-settles-protester-lawsuit-for-850k/
+                          - list [ref=e385]:
+                            - listitem [ref=e386]:
+                              - time [ref=e388]: April 28, 2026
+                      - link "Learn More" [ref=e393] [cursor=pointer]:
+                        - /url: https://www.loevy.com/press-release-boston-settles-protester-lawsuit-for-850k/
+                        - generic [ref=e394]:
+                          - img [ref=e396]
+                          - generic [ref=e398]: Learn More
+                  - group "9 / 15" [ref=e399]:
+                    - generic [ref=e400]:
+                      - article [ref=e401]:
+                        - generic [ref=e402]:
+                          - 'heading "WTTW: Judge Set to Rule Next Month on Request for Special Prosecutor to Investigate ICE Crimes in Chicago" [level=3] [ref=e405]':
+                            - 'link "WTTW: Judge Set to Rule Next Month on Request for Special Prosecutor to Investigate ICE Crimes in Chicago" [ref=e406] [cursor=pointer]':
+                              - /url: https://news.wttw.com/2026/04/24/judge-set-rule-next-month-request-special-prosecutor-investigate-ice-crimes-chicago
+                          - list [ref=e409]:
+                            - listitem [ref=e410]:
+                              - time [ref=e412]: April 24, 2026
+                      - link "Learn More" [ref=e417] [cursor=pointer]:
+                        - /url: https://news.wttw.com/2026/04/24/judge-set-rule-next-month-request-special-prosecutor-investigate-ice-crimes-chicago
+                        - generic [ref=e418]:
+                          - img [ref=e420]
+                          - generic [ref=e422]: Learn More
+                  - group "10 / 15" [ref=e423]:
+                    - generic [ref=e424]:
+                      - article [ref=e425]:
+                        - generic [ref=e426]:
+                          - 'heading "PRESS RELEASE: Utah County Refuses to Adequately Fund Legal Representation for Man Facing the Death Penalty" [level=3] [ref=e429]':
+                            - 'link "PRESS RELEASE: Utah County Refuses to Adequately Fund Legal Representation for Man Facing the Death Penalty" [ref=e430] [cursor=pointer]':
+                              - /url: https://www.loevy.com/press-release-utah-county-refuses-to-adequately-fund-death-penalty-defense/
+                          - list [ref=e433]:
+                            - listitem [ref=e434]:
+                              - time [ref=e436]: April 22, 2026
+                      - link "Learn More" [ref=e441] [cursor=pointer]:
+                        - /url: https://www.loevy.com/press-release-utah-county-refuses-to-adequately-fund-death-penalty-defense/
+                        - generic [ref=e442]:
+                          - img [ref=e444]
+                          - generic [ref=e446]: Learn More
+                  - group "11 / 15" [ref=e447]:
+                    - generic [ref=e448]:
+                      - article [ref=e449]:
+                        - generic [ref=e450]:
+                          - 'heading "PRESS RELEASE: Family of Roberto Calvario, Jr.—Shot and Killed by Chicago Police in December—Files Federal Lawsuit" [level=3] [ref=e453]':
+                            - 'link "PRESS RELEASE: Family of Roberto Calvario, Jr.—Shot and Killed by Chicago Police in December—Files Federal Lawsuit" [ref=e454] [cursor=pointer]':
+                              - /url: https://www.loevy.com/family-of-roberto-calvario-jr-files-federal-lawsuit/
+                          - list [ref=e457]:
+                            - listitem [ref=e458]:
+                              - time [ref=e460]: April 22, 2026
+                      - link "Learn More" [ref=e465] [cursor=pointer]:
+                        - /url: https://www.loevy.com/family-of-roberto-calvario-jr-files-federal-lawsuit/
+                        - generic [ref=e466]:
+                          - img [ref=e468]
+                          - generic [ref=e470]: Learn More
+                  - group "12 / 15" [ref=e471]:
+                    - generic [ref=e472]:
+                      - article [ref=e473]:
+                        - generic [ref=e474]:
+                          - 'heading "PRESS RELEASE: Appellate Court Upholds $14.75 Million Verdict for Denver Protesters Subjected to Excessive Police Force During 2020 Protests" [level=3] [ref=e477]':
+                            - 'link "PRESS RELEASE: Appellate Court Upholds $14.75 Million Verdict for Denver Protesters Subjected to Excessive Police Force During 2020 Protests" [ref=e478] [cursor=pointer]':
+                              - /url: https://www.loevy.com/press-release-appellate-court-upholds-14m-verdict-for-denver-protesters/
+                          - list [ref=e481]:
+                            - listitem [ref=e482]:
+                              - time [ref=e484]: April 21, 2026
+                      - link "Learn More" [ref=e489] [cursor=pointer]:
+                        - /url: https://www.loevy.com/press-release-appellate-court-upholds-14m-verdict-for-denver-protesters/
+                        - generic [ref=e490]:
+                          - img [ref=e492]
+                          - generic [ref=e494]: Learn More
+                  - group "13 / 15" [ref=e495]:
+                    - generic [ref=e496]:
+                      - article [ref=e497]:
+                        - generic [ref=e498]:
+                          - 'heading "Jonesboro (AR) Sun: In Sexual Harassment Lawsuit, Landlord and Former Mayor Ordered to Pay Tenant for Hostile Environment" [level=3] [ref=e501]':
+                            - 'link "Jonesboro (AR) Sun: In Sexual Harassment Lawsuit, Landlord and Former Mayor Ordered to Pay Tenant for Hostile Environment" [ref=e502] [cursor=pointer]':
+                              - /url: https://www.paxtonmedia.com/news/jonesboro_sun/coggins-ordered-to-pay-former-tenant/article_d2c89603-f366-5fcc-9af2-570030a554d6.html
+                          - list [ref=e505]:
+                            - listitem [ref=e506]:
+                              - time [ref=e508]: April 20, 2026
+                      - link "Learn More" [ref=e513] [cursor=pointer]:
+                        - /url: https://www.paxtonmedia.com/news/jonesboro_sun/coggins-ordered-to-pay-former-tenant/article_d2c89603-f366-5fcc-9af2-570030a554d6.html
+                        - generic [ref=e514]:
+                          - img [ref=e516]
+                          - generic [ref=e518]: Learn More
+                  - group "14 / 15" [ref=e519]:
+                    - generic [ref=e520]:
+                      - article [ref=e521]:
+                        - generic [ref=e522]:
+                          - 'heading "WDKY: Federal lawsuit alleges Knox County deputy used cruiser as deadly weapon, killing 1" [level=3] [ref=e525]':
+                            - 'link "WDKY: Federal lawsuit alleges Knox County deputy used cruiser as deadly weapon, killing 1" [ref=e526] [cursor=pointer]':
+                              - /url: https://fox56news.com/news/kentucky/federal-lawsuit-alleges-knox-county-deputy-used-cruiser-as-deadly-weapon-killing-1/
+                          - list [ref=e529]:
+                            - listitem [ref=e530]:
+                              - time [ref=e532]: April 20, 2026
+                      - link "Learn More" [ref=e537] [cursor=pointer]:
+                        - /url: https://fox56news.com/news/kentucky/federal-lawsuit-alleges-knox-county-deputy-used-cruiser-as-deadly-weapon-killing-1/
+                        - generic [ref=e538]:
+                          - img [ref=e540]
+                          - generic [ref=e542]: Learn More
+                  - group "15 / 15" [ref=e543]:
+                    - generic [ref=e544]:
+                      - article [ref=e545]:
+                        - generic [ref=e546]:
+                          - 'heading "PRESS RELEASE: Lawsuits Filed Against Knox Co. (KY) Deputy Who Caused Fatal UTV Crash" [level=3] [ref=e549]':
+                            - 'link "PRESS RELEASE: Lawsuits Filed Against Knox Co. (KY) Deputy Who Caused Fatal UTV Crash" [ref=e550] [cursor=pointer]':
+                              - /url: https://www.loevy.com/press-release-lawsuits-filed-against-knox-co-ky-deputy-who-caused-fatal-utv-crash/
+                          - list [ref=e553]:
+                            - listitem [ref=e554]:
+                              - time [ref=e556]: April 16, 2026
+                      - link "Learn More" [ref=e561] [cursor=pointer]:
+                        - /url: https://www.loevy.com/press-release-lawsuits-filed-against-knox-co-ky-deputy-who-caused-fatal-utv-crash/
+                        - generic [ref=e562]:
+                          - img [ref=e564]
+                          - generic [ref=e566]: Learn More
+                  - group "1 / 15" [ref=e567]:
+                    - generic [ref=e568]:
+                      - article [ref=e569]:
+                        - generic [ref=e570]:
+                          - 'heading "Chicago Sun-Times: Chicago considers $16.5M more in settlements tied to police wrongdoing, including case linked to Burge" [level=3] [ref=e573]':
+                            - 'link "Chicago Sun-Times: Chicago considers $16.5M more in settlements tied to police wrongdoing, including case linked to Burge" [ref=e574] [cursor=pointer]':
+                              - /url: https://chicago.suntimes.com/city-hall/2026/05/14/city-council-finance-committee-police-settlements-jon-burge-car-chases
+                          - list [ref=e577]:
+                            - listitem [ref=e578]:
+                              - time [ref=e580]: May 16, 2026
+                      - link "Learn More" [ref=e585] [cursor=pointer]:
+                        - /url: https://chicago.suntimes.com/city-hall/2026/05/14/city-council-finance-committee-police-settlements-jon-burge-car-chases
+                        - generic [ref=e586]:
+                          - img [ref=e588]
+                          - generic [ref=e590]: Learn More
+                  - group "2 / 15" [ref=e591]:
+                    - generic [ref=e592]:
+                      - article [ref=e593]:
+                        - generic [ref=e594]:
+                          - heading "Illinois Journalists, Actors, and Vocal Artists File Class-Action Lawsuits Against Amazon, Apple, Google, Meta, Microsoft, Nvidia, and Other Companies for Stealing Their Voices" [level=3] [ref=e597]:
+                            - link "Illinois Journalists, Actors, and Vocal Artists File Class-Action Lawsuits Against Amazon, Apple, Google, Meta, Microsoft, Nvidia, and Other Companies for Stealing Their Voices" [ref=e598] [cursor=pointer]:
+                              - /url: https://www.loevy.com/illinois-vocal-artists-sue-big-tech-companies-over-voice-ai/
+                          - list [ref=e601]:
+                            - listitem [ref=e602]:
+                              - time [ref=e604]: May 14, 2026
+                      - link "Learn More" [ref=e609] [cursor=pointer]:
+                        - /url: https://www.loevy.com/illinois-vocal-artists-sue-big-tech-companies-over-voice-ai/
+                        - generic [ref=e610]:
+                          - img [ref=e612]
+                          - generic [ref=e614]: Learn More
+              - button "Previous slide" [ref=e615] [cursor=pointer]:
+                - img [ref=e616]
+              - button "Next slide" [ref=e618] [cursor=pointer]:
+                - img [ref=e619]
+              - generic [ref=e621]:
+                - button "Go to slide 1" [ref=e622] [cursor=pointer]
+                - button "Go to slide 2" [ref=e623] [cursor=pointer]
+                - button "Go to slide 3" [ref=e624] [cursor=pointer]
+                - button "Go to slide 4" [ref=e625] [cursor=pointer]
+                - button "Go to slide 5" [ref=e626] [cursor=pointer]
+                - button "Go to slide 6" [ref=e627] [cursor=pointer]
+                - button "Go to slide 7" [ref=e628] [cursor=pointer]
+                - button "Go to slide 8" [ref=e629] [cursor=pointer]
+                - button "Go to slide 9" [ref=e630] [cursor=pointer]
+                - button "Go to slide 10" [ref=e631] [cursor=pointer]
+                - button "Go to slide 11" [ref=e632] [cursor=pointer]
+                - button "Go to slide 12" [ref=e633] [cursor=pointer]
+                - button "Go to slide 13" [ref=e634] [cursor=pointer]
+                - button "Go to slide 14" [ref=e635] [cursor=pointer]
+                - button "Go to slide 15" [ref=e636] [cursor=pointer]
+          - generic [ref=e638]:
+            - generic [ref=e640]:
+              - heading "Recent Wins" [level=2] [ref=e643]
+              - paragraph [ref=e650]:
+                - link "More WIns" [ref=e651] [cursor=pointer]:
+                  - /url: /big-wins/
+            - paragraph [ref=e656]: Loevy + Loevy has won more multi-million dollar verdicts than perhaps any other law firm in the country over the past decade. Our willingness to take difficult public interest cases to trial, and win them for our clients, has yielded a nationally-recognized reputation for success in the courtroom.
+            - generic [ref=e658]:
+              - list [ref=e659]:
+                - generic [ref=e660]:
+                  - group [ref=e661]:
+                    - article [ref=e662]:
+                      - generic [ref=e665]:
+                        - heading [level=3] [ref=e668]:
+                          - link [ref=e669] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/jury-awards-john-fulton-and-anthony-mitchell-120-million-in-lawsuit-against-chicago-p-d/
+                            - text: Jury Awards John Fulton and Anthony Mitchell $120 Million in Lawsuit Against Chicago P.D.
+                        - list [ref=e672]:
+                          - listitem [ref=e673]:
+                            - time [ref=e675]: March 10, 2025
+                      - link [ref=e680] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jury-awards-john-fulton-and-anthony-mitchell-120-million-in-lawsuit-against-chicago-p-d/
+                        - generic [ref=e681]:
+                          - img [ref=e683]
+                          - generic [ref=e685]: Learn More
+                  - group [ref=e686]:
+                    - article [ref=e687]:
+                      - generic [ref=e690]:
+                        - heading [level=3] [ref=e693]:
+                          - link [ref=e694] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/denver-settles-with-13-black-lives-matter-protesters-for-2-5-million/
+                            - text: Denver Settles with 13 Black Lives Matter Protesters for $2.5 Million
+                        - list [ref=e697]:
+                          - listitem [ref=e698]:
+                            - time [ref=e700]: February 18, 2025
+                      - link [ref=e705] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/denver-settles-with-13-black-lives-matter-protesters-for-2-5-million/
+                        - generic [ref=e706]:
+                          - img [ref=e708]
+                          - generic [ref=e710]: Learn More
+                  - group "1 / 15" [ref=e711]:
+                    - article [ref=e712]:
+                      - generic [ref=e715]:
+                        - heading "Jury Awards $24.35 Million to Jeffrey Clark, Framed by Meade County (Ky) Sheriff’s Dept. for 1992 Murder" [level=3] [ref=e718]:
+                          - link "Jury Awards $24.35 Million to Jeffrey Clark, Framed by Meade County (Ky) Sheriff’s Dept. for 1992 Murder" [ref=e719] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/jury-awards-24-35-million-to-jeffrey-clark-framed-by-meade-county-ky-sheriffs-dept-for-1992-murder/
+                        - list [ref=e722]:
+                          - listitem [ref=e723]:
+                            - time [ref=e725]: April 30, 2026
+                      - link "Learn More" [ref=e730] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jury-awards-24-35-million-to-jeffrey-clark-framed-by-meade-county-ky-sheriffs-dept-for-1992-murder/
+                        - generic [ref=e731]:
+                          - img [ref=e733]
+                          - generic [ref=e735]: Learn More
+                  - group "2 / 15" [ref=e736]:
+                    - article [ref=e737]:
+                      - generic [ref=e740]:
+                        - heading "Jury Awards $45 Million in Whistleblower Case That Exposed Massive Fraud by Military Contractor in Afghanistan" [level=3] [ref=e743]:
+                          - link "Jury Awards $45 Million in Whistleblower Case That Exposed Massive Fraud by Military Contractor in Afghanistan" [ref=e744] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/jury-sides-with-whistleblowers-in-fluor-trial/
+                        - list [ref=e747]:
+                          - listitem [ref=e748]:
+                            - time [ref=e750]: March 14, 2026
+                      - link "Learn More" [ref=e755] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jury-sides-with-whistleblowers-in-fluor-trial/
+                        - generic [ref=e756]:
+                          - img [ref=e758]
+                          - generic [ref=e760]: Learn More
+                  - group "3 / 15" [ref=e761]:
+                    - article [ref=e762]:
+                      - generic [ref=e765]:
+                        - heading "Sexually Harassed by a Property Manager, Los Angeles Woman is Awarded $2.8 Million by a Federal Jury" [level=3] [ref=e768]:
+                          - link "Sexually Harassed by a Property Manager, Los Angeles Woman is Awarded $2.8 Million by a Federal Jury" [ref=e769] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/woman-sexually-harassed-by-landlord-awarded-2-8-million/
+                        - list [ref=e772]:
+                          - listitem [ref=e773]:
+                            - time [ref=e775]: March 4, 2026
+                      - link "Learn More" [ref=e780] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/woman-sexually-harassed-by-landlord-awarded-2-8-million/
+                        - generic [ref=e781]:
+                          - img [ref=e783]
+                          - generic [ref=e785]: Learn More
+                  - group "4 / 15" [ref=e786]:
+                    - article [ref=e787]:
+                      - generic [ref=e790]:
+                        - heading "Gary Washington, Who Spent 30 Years in Prison for a Crime He Didn’t Commit, Receives $14 Million Settlement from the City of Baltimore" [level=3] [ref=e793]:
+                          - link "Gary Washington, Who Spent 30 Years in Prison for a Crime He Didn’t Commit, Receives $14 Million Settlement from the City of Baltimore" [ref=e794] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/gary-washington-receives-14-million-from-city-of-baltimore/
+                        - list [ref=e797]:
+                          - listitem [ref=e798]:
+                            - time [ref=e800]: January 7, 2026
+                      - link "Learn More" [ref=e805] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/gary-washington-receives-14-million-from-city-of-baltimore/
+                        - generic [ref=e806]:
+                          - img [ref=e808]
+                          - generic [ref=e810]: Learn More
+                  - group "5 / 15" [ref=e811]:
+                    - article [ref=e812]:
+                      - generic [ref=e815]:
+                        - 'heading "News from the City of Big Shoulders: Federal Judge Issues Injunction Against Federal Forces in Chicago" [level=3] [ref=e818]':
+                          - 'link "News from the City of Big Shoulders: Federal Judge Issues Injunction Against Federal Forces in Chicago" [ref=e819] [cursor=pointer]':
+                            - /url: https://www.loevy.com/big-wins/news-from-the-city-of-big-shoulders-federal-judge-issues-injunction-against-federal-forces-in-chicago/
+                        - list [ref=e822]:
+                          - listitem [ref=e823]:
+                            - time [ref=e825]: November 6, 2025
+                      - link "Learn More" [ref=e830] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/news-from-the-city-of-big-shoulders-federal-judge-issues-injunction-against-federal-forces-in-chicago/
+                        - generic [ref=e831]:
+                          - img [ref=e833]
+                          - generic [ref=e835]: Learn More
+                  - group "6 / 15" [ref=e836]:
+                    - article [ref=e837]:
+                      - generic [ref=e840]:
+                        - heading "Federal Judge Issues Temporary Restraining Order, Reining in Federal Agents’ Use of Violence, and Protecting First Amendment Rights of Protesters, Clergy, and Press" [level=3] [ref=e843]:
+                          - link "Federal Judge Issues Temporary Restraining Order, Reining in Federal Agents’ Use of Violence, and Protecting First Amendment Rights of Protesters, Clergy, and Press" [ref=e844] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/federal-judge-issues-temporary-restraining-order-reining-in-federal-agents-use-of-violence-and-protecting-first-amendment-rights-of-protesters-clergy-and-press/
+                        - list [ref=e847]:
+                          - listitem [ref=e848]:
+                            - time [ref=e850]: October 9, 2025
+                      - link "Learn More" [ref=e855] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/federal-judge-issues-temporary-restraining-order-reining-in-federal-agents-use-of-violence-and-protecting-first-amendment-rights-of-protesters-clergy-and-press/
+                        - generic [ref=e856]:
+                          - img [ref=e858]
+                          - generic [ref=e860]: Learn More
+                  - group "7 / 15" [ref=e861]:
+                    - article [ref=e862]:
+                      - generic [ref=e865]:
+                        - heading "$90 Million Global Settlement of 176 Lawsuits Against Disgraced CPD Officer Ronald Watts" [level=3] [ref=e868]:
+                          - link "$90 Million Global Settlement of 176 Lawsuits Against Disgraced CPD Officer Ronald Watts" [ref=e869] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/90-million-global-settlement-of-176-lawsuits-against-disgraced-cpd-officer-ronald-watts/
+                        - list [ref=e872]:
+                          - listitem [ref=e873]:
+                            - time [ref=e875]: September 25, 2025
+                      - link "Learn More" [ref=e880] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/90-million-global-settlement-of-176-lawsuits-against-disgraced-cpd-officer-ronald-watts/
+                        - generic [ref=e881]:
+                          - img [ref=e883]
+                          - generic [ref=e885]: Learn More
+                  - group "8 / 15" [ref=e886]:
+                    - article [ref=e887]:
+                      - generic [ref=e890]:
+                        - heading "The Mendez Family, Victims of a “Wrong Raid” by Chicago P.D., Receives $2.5 Million from the City" [level=3] [ref=e893]:
+                          - link "The Mendez Family, Victims of a “Wrong Raid” by Chicago P.D., Receives $2.5 Million from the City" [ref=e894] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/the-mendez-family-victims-of-a-wrong-raid-by-chicago-p-d-receives-2-5-million-from-the-city/
+                        - list [ref=e897]:
+                          - listitem [ref=e898]:
+                            - time [ref=e900]: July 18, 2025
+                      - link "Learn More" [ref=e905] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/the-mendez-family-victims-of-a-wrong-raid-by-chicago-p-d-receives-2-5-million-from-the-city/
+                        - generic [ref=e906]:
+                          - img [ref=e908]
+                          - generic [ref=e910]: Learn More
+                  - group "9 / 15" [ref=e911]:
+                    - article [ref=e912]:
+                      - generic [ref=e915]:
+                        - heading "Jackie Wilson Receives Largest Pre-Trial Settlement of a Wrongful Conviction Case in U.S. History" [level=3] [ref=e918]:
+                          - link "Jackie Wilson Receives Largest Pre-Trial Settlement of a Wrongful Conviction Case in U.S. History" [ref=e919] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/jackie-wilson-receives-largest-pre-trial-settlement-of-a-wrongful-conviction-case-in-u-s-history/
+                        - list [ref=e922]:
+                          - listitem [ref=e923]:
+                            - time [ref=e925]: July 16, 2025
+                      - link "Learn More" [ref=e930] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jackie-wilson-receives-largest-pre-trial-settlement-of-a-wrongful-conviction-case-in-u-s-history/
+                        - generic [ref=e931]:
+                          - img [ref=e933]
+                          - generic [ref=e935]: Learn More
+                  - group "10 / 15" [ref=e936]:
+                    - article [ref=e937]:
+                      - generic [ref=e940]:
+                        - heading "Alexander Torres Settles Wrongful Conviction Lawsuit Against LA County for $14 Million" [level=3] [ref=e943]:
+                          - link "Alexander Torres Settles Wrongful Conviction Lawsuit Against LA County for $14 Million" [ref=e944] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/alexander-torres-settles-wrongful-conviction-lawsuit-against-la-county-for-14-million/
+                        - list [ref=e947]:
+                          - listitem [ref=e948]:
+                            - time [ref=e950]: July 15, 2025
+                      - link "Learn More" [ref=e955] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/alexander-torres-settles-wrongful-conviction-lawsuit-against-la-county-for-14-million/
+                        - generic [ref=e956]:
+                          - img [ref=e958]
+                          - generic [ref=e960]: Learn More
+                  - group "11 / 15" [ref=e961]:
+                    - article [ref=e962]:
+                      - img "Loevy attorney Tara Thompson and John Galvan" [ref=e965]
+                      - generic [ref=e966]:
+                        - heading "Chicago to Pay $48 Million to Three Men Wrongfully Convicted of Arson in 1986" [level=3] [ref=e969]:
+                          - link "Chicago to Pay $48 Million to Three Men Wrongfully Convicted of Arson in 1986" [ref=e970] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/chicago-to-pay-48-million-to-three-men-wrongfully-convicted-of-arson-in-1986/
+                        - list [ref=e973]:
+                          - listitem [ref=e974]:
+                            - time [ref=e976]: May 21, 2025
+                      - link "Learn More" [ref=e981] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/chicago-to-pay-48-million-to-three-men-wrongfully-convicted-of-arson-in-1986/
+                        - generic [ref=e982]:
+                          - img [ref=e984]
+                          - generic [ref=e986]: Learn More
+                  - group "12 / 15" [ref=e987]:
+                    - article [ref=e988]:
+                      - generic [ref=e991]:
+                        - heading "After 12 Years, Class-Action Lawsuit Over Dangerous Conditions at Stateville Prison is Finally Settled" [level=3] [ref=e994]:
+                          - link "After 12 Years, Class-Action Lawsuit Over Dangerous Conditions at Stateville Prison is Finally Settled" [ref=e995] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/after-12-years-lawsuit-over-dangerous-conditions-at-stateville-prison-is-finally-settled/
+                        - list [ref=e998]:
+                          - listitem [ref=e999]:
+                            - time [ref=e1001]: April 24, 2025
+                      - link "Learn More" [ref=e1006] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/after-12-years-lawsuit-over-dangerous-conditions-at-stateville-prison-is-finally-settled/
+                        - generic [ref=e1007]:
+                          - img [ref=e1009]
+                          - generic [ref=e1011]: Learn More
+                  - group "13 / 15" [ref=e1012]:
+                    - article [ref=e1013]:
+                      - generic [ref=e1016]:
+                        - heading "Judge OKs Loevy’s Innovative $51.75 Million Settlement in Clearview AI Class Action Lawsuit" [level=3] [ref=e1019]:
+                          - link "Judge OKs Loevy’s Innovative $51.75 Million Settlement in Clearview AI Class Action Lawsuit" [ref=e1020] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/judge-oks-loevys-innovative-51-75-million-settlement-in-clearview-ai-class-action-lawsuit/
+                        - list [ref=e1023]:
+                          - listitem [ref=e1024]:
+                            - time [ref=e1026]: March 21, 2025
+                      - link "Learn More" [ref=e1031] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/judge-oks-loevys-innovative-51-75-million-settlement-in-clearview-ai-class-action-lawsuit/
+                        - generic [ref=e1032]:
+                          - img [ref=e1034]
+                          - generic [ref=e1036]: Learn More
+                  - group "14 / 15" [ref=e1037]:
+                    - article [ref=e1038]:
+                      - generic [ref=e1041]:
+                        - heading "Jury Awards John Fulton and Anthony Mitchell $120 Million in Lawsuit Against Chicago P.D." [level=3] [ref=e1044]:
+                          - link "Jury Awards John Fulton and Anthony Mitchell $120 Million in Lawsuit Against Chicago P.D." [ref=e1045] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/jury-awards-john-fulton-and-anthony-mitchell-120-million-in-lawsuit-against-chicago-p-d/
+                        - list [ref=e1048]:
+                          - listitem [ref=e1049]:
+                            - time [ref=e1051]: March 10, 2025
+                      - link "Learn More" [ref=e1056] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jury-awards-john-fulton-and-anthony-mitchell-120-million-in-lawsuit-against-chicago-p-d/
+                        - generic [ref=e1057]:
+                          - img [ref=e1059]
+                          - generic [ref=e1061]: Learn More
+                  - group "15 / 15" [ref=e1062]:
+                    - article [ref=e1063]:
+                      - generic [ref=e1066]:
+                        - heading "Denver Settles with 13 Black Lives Matter Protesters for $2.5 Million" [level=3] [ref=e1069]:
+                          - link "Denver Settles with 13 Black Lives Matter Protesters for $2.5 Million" [ref=e1070] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/denver-settles-with-13-black-lives-matter-protesters-for-2-5-million/
+                        - list [ref=e1073]:
+                          - listitem [ref=e1074]:
+                            - time [ref=e1076]: February 18, 2025
+                      - link "Learn More" [ref=e1081] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/denver-settles-with-13-black-lives-matter-protesters-for-2-5-million/
+                        - generic [ref=e1082]:
+                          - img [ref=e1084]
+                          - generic [ref=e1086]: Learn More
+                  - group "1 / 15" [ref=e1087]:
+                    - article [ref=e1088]:
+                      - generic [ref=e1091]:
+                        - heading "Jury Awards $24.35 Million to Jeffrey Clark, Framed by Meade County (Ky) Sheriff’s Dept. for 1992 Murder" [level=3] [ref=e1094]:
+                          - link "Jury Awards $24.35 Million to Jeffrey Clark, Framed by Meade County (Ky) Sheriff’s Dept. for 1992 Murder" [ref=e1095] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/jury-awards-24-35-million-to-jeffrey-clark-framed-by-meade-county-ky-sheriffs-dept-for-1992-murder/
+                        - list [ref=e1098]:
+                          - listitem [ref=e1099]:
+                            - time [ref=e1101]: April 30, 2026
+                      - link "Learn More" [ref=e1106] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jury-awards-24-35-million-to-jeffrey-clark-framed-by-meade-county-ky-sheriffs-dept-for-1992-murder/
+                        - generic [ref=e1107]:
+                          - img [ref=e1109]
+                          - generic [ref=e1111]: Learn More
+                  - group "2 / 15" [ref=e1112]:
+                    - article [ref=e1113]:
+                      - generic [ref=e1116]:
+                        - heading "Jury Awards $45 Million in Whistleblower Case That Exposed Massive Fraud by Military Contractor in Afghanistan" [level=3] [ref=e1119]:
+                          - link "Jury Awards $45 Million in Whistleblower Case That Exposed Massive Fraud by Military Contractor in Afghanistan" [ref=e1120] [cursor=pointer]:
+                            - /url: https://www.loevy.com/big-wins/jury-sides-with-whistleblowers-in-fluor-trial/
+                        - list [ref=e1123]:
+                          - listitem [ref=e1124]:
+                            - time [ref=e1126]: March 14, 2026
+                      - link "Learn More" [ref=e1131] [cursor=pointer]:
+                        - /url: https://www.loevy.com/big-wins/jury-sides-with-whistleblowers-in-fluor-trial/
+                        - generic [ref=e1132]:
+                          - img [ref=e1134]
+                          - generic [ref=e1136]: Learn More
+              - button "Previous slide" [ref=e1137] [cursor=pointer]:
+                - img [ref=e1138]
+              - button "Next slide" [ref=e1140] [cursor=pointer]:
+                - img [ref=e1141]
+              - generic [ref=e1143]:
+                - button "Go to slide 1" [ref=e1144] [cursor=pointer]
+                - button "Go to slide 2" [ref=e1145] [cursor=pointer]
+                - button "Go to slide 3" [ref=e1146] [cursor=pointer]
+                - button "Go to slide 4" [ref=e1147] [cursor=pointer]
+                - button "Go to slide 5" [ref=e1148] [cursor=pointer]
+                - button "Go to slide 6" [ref=e1149] [cursor=pointer]
+                - button "Go to slide 7" [ref=e1150] [cursor=pointer]
+                - button "Go to slide 8" [ref=e1151] [cursor=pointer]
+                - button "Go to slide 9" [ref=e1152] [cursor=pointer]
+                - button "Go to slide 10" [ref=e1153] [cursor=pointer]
+                - button "Go to slide 11" [ref=e1154] [cursor=pointer]
+                - button "Go to slide 12" [ref=e1155] [cursor=pointer]
+                - button "Go to slide 13" [ref=e1156] [cursor=pointer]
+                - button "Go to slide 14" [ref=e1157] [cursor=pointer]
+                - button "Go to slide 15" [ref=e1158] [cursor=pointer]
+          - generic [ref=e1160]:
+            - generic [ref=e1162]:
+              - heading "National Impact" [level=2] [ref=e1165]
+              - img [ref=e1171]
+            - paragraph [ref=e1178]: Loevy and Loevy is one of the largest and most successful civil rights law firms in the United States. We fearlessly fight to achieve justice for clients across the country, from urban centers to rural townships.
+            - generic [ref=e1184]:
+              - generic [ref=e1186]:
+                - heading "$1 billion+" [level=2] [ref=e1191]
+                - paragraph [ref=e1194]: worth of verdicts and settlements for our clients.
+              - generic [ref=e1198]:
+                - heading "1,500+" [level=2] [ref=e1203]
+                - paragraph [ref=e1206]: clients served
+          - generic [ref=e1210]:
+            - generic [ref=e1212]:
+              - heading "Practice Areas" [level=2] [ref=e1215]
+              - img [ref=e1221]
+            - paragraph [ref=e1228]: Our experienced civil rights attorneys have a proven track record of achieving historic results. We work hand-in-hand with diverse clients to hold the system accountable in federal and state courts throughout the nation.
+          - generic [ref=e1230]:
+            - generic [ref=e1231]:
+              - generic [ref=e1232]:
+                - heading "Wrongful Convictions" [level=3] [ref=e1235]:
+                  - link "Wrongful Convictions" [ref=e1236] [cursor=pointer]:
+                    - /url: https://www.loevy.com/wrongful-conviction-attorneys/
+                - paragraph [ref=e1239]: Time spent in prison is something that you can never get back, but a dedicated civil rights lawyer can help you pursue justice. Put simply, no firm in the country has more experience or more success than Loevy + Loevy in securing accountability and justice in wrongfully convicted cases.
+              - link "Explore now" [ref=e1244] [cursor=pointer]:
+                - /url: https://www.loevy.com/wrongful-conviction-attorneys/
+                - generic [ref=e1245]:
+                  - img [ref=e1247]
+                  - generic [ref=e1249]: Explore now
+            - generic [ref=e1250]:
+              - generic [ref=e1251]:
+                - heading "Police Misconduct" [level=3] [ref=e1254]:
+                  - link "Police Misconduct" [ref=e1255] [cursor=pointer]:
+                    - /url: https://www.loevy.com/police-misconduct/
+                - paragraph [ref=e1258]: Loevy + Loevy’s police misconduct attorneys represent people whose constitutional rights have been violated, fighting for justice and accountability in the courtroom. Our civil rights law firm has secured landmark trial verdicts and settlements for victims of police misconduct and civil rights violations.
+              - link "Explore now" [ref=e1263] [cursor=pointer]:
+                - /url: https://www.loevy.com/police-misconduct/
+                - generic [ref=e1264]:
+                  - img [ref=e1266]
+                  - generic [ref=e1268]: Explore now
+            - generic [ref=e1269]:
+              - generic [ref=e1270]:
+                - heading "Whistleblower Protection" [level=3] [ref=e1273]:
+                  - link "Whistleblower Protection" [ref=e1274] [cursor=pointer]:
+                    - /url: https://www.loevy.com/whistleblower-protection/
+                - paragraph [ref=e1277]: "Loevy + Loevy has experience litigating whistleblower cases throughout the United States: we are experts in whistleblower law. Our attorneys understand the particular needs of whistleblower clients and always maintain the strictest confidentiality. We will never use your information for any purpose other than pursuing the best possible result in your case."
+              - link "Explore now" [ref=e1282] [cursor=pointer]:
+                - /url: https://www.loevy.com/whistleblower-protection/
+                - generic [ref=e1283]:
+                  - img [ref=e1285]
+                  - generic [ref=e1287]: Explore now
+            - generic [ref=e1288]:
+              - generic [ref=e1289]:
+                - heading "Prisoner Rights" [level=3] [ref=e1292]:
+                  - link "Prisoner Rights" [ref=e1293] [cursor=pointer]:
+                    - /url: https://www.loevy.com/prisoner-rights/
+                - paragraph [ref=e1296]: People in prisons and jails are among the most vulnerable populations in our country. Too often, incarcerated people have their rights violated by prison staff or private corporations operating in jails and prisons. At Loevy + Loevy, we are committed to helping prisoners and detainees challenge the violations of their civil rights through individual cases and class actions.
+              - link "Explore now" [ref=e1301] [cursor=pointer]:
+                - /url: https://www.loevy.com/prisoner-rights/
+                - generic [ref=e1302]:
+                  - img [ref=e1304]
+                  - generic [ref=e1306]: Explore now
+            - generic [ref=e1307]:
+              - generic [ref=e1308]:
+                - heading "First Amendment, Media, & Transparency" [level=3] [ref=e1311]:
+                  - link "First Amendment, Media, & Transparency" [ref=e1312] [cursor=pointer]:
+                    - /url: https://www.loevy.com/foia-media-first-amendment/
+                - paragraph [ref=e1315]: Loevy + Loevy is a national leader in litigating First Amendment, Freedom of Information Act (FOIA), and open governance lawsuits. Our unwavering commitment to transparency is evidenced by our landmark cases which have established favorable law and ensured public figures and entities operate with the transparency mandated by law.
+              - link "Explore now" [ref=e1320] [cursor=pointer]:
+                - /url: https://www.loevy.com/foia-media-first-amendment/
+                - generic [ref=e1321]:
+                  - img [ref=e1323]
+                  - generic [ref=e1325]: Explore now
+            - generic [ref=e1326]:
+              - generic [ref=e1327]:
+                - heading "Cryptocurrency, Blockchain, & DAOS" [level=3] [ref=e1330]:
+                  - link "Cryptocurrency, Blockchain, & DAOS" [ref=e1331] [cursor=pointer]:
+                    - /url: https://www.loevy.com/cryptocurrency-blockchain-daos/
+                - paragraph [ref=e1334]: People who venture into cryptocurrency, blockchain, and decentralized autonomous organizations (DAOs) are often exposed to risks that can cause them large losses when trading in initial offerings (ICOs and IEOs) and on exchanges in the secondary market. At Loevy + Loevy, our cryptocurrency attorneys have pioneered innovative litigation to protect cryptocurrency investors. We are here to help.
+              - link "Explore now" [ref=e1339] [cursor=pointer]:
+                - /url: https://www.loevy.com/cryptocurrency-blockchain-daos/
+                - generic [ref=e1340]:
+                  - img [ref=e1342]
+                  - generic [ref=e1344]: Explore now
+            - generic [ref=e1345]:
+              - generic [ref=e1346]:
+                - heading "Data Privacy" [level=3] [ref=e1349]:
+                  - link "Data Privacy" [ref=e1350] [cursor=pointer]:
+                    - /url: https://www.loevy.com/data-privacy-practice/
+                - paragraph [ref=e1353]: In the age of the internet, data privacy has become a modern issue of individual rights. Ever-evolving technology and Americans’ near-constant surveillance pose increasing threats. Loevy + Loevy believes data privacy is a fundamental right that should be respected to the full extent of the law.
+              - link "Explore now" [ref=e1358] [cursor=pointer]:
+                - /url: https://www.loevy.com/data-privacy-practice/
+                - generic [ref=e1359]:
+                  - img [ref=e1361]
+                  - generic [ref=e1363]: Explore now
+            - generic [ref=e1364]:
+              - generic [ref=e1365]:
+                - heading "Intellectual Property & Complex Litigation" [level=3] [ref=e1368]:
+                  - link "Intellectual Property & Complex Litigation" [ref=e1369] [cursor=pointer]:
+                    - /url: https://www.loevy.com/intellectual-property/
+                - paragraph [ref=e1372]: Loevy + Loevy has a depth of experience in litigating and trying complex civil litigation matters, including intellectual property, breach of contract, fraud, partnership, patent, trademark, and class action matters. We also regularly counsel and advise businesses, entrepreneurs, and non-profits on these and related issues.
+              - link "Explore now" [ref=e1377] [cursor=pointer]:
+                - /url: https://www.loevy.com/intellectual-property/
+                - generic [ref=e1378]:
+                  - img [ref=e1380]
+                  - generic [ref=e1382]: Explore now
+    - contentinfo [ref=e1383]:
+      - generic [ref=e1387]:
+        - generic [ref=e1389]:
+          - heading "Subscribe to our newsletter" [level=2] [ref=e1394]
+          - paragraph [ref=e1398]: Receive news and advocacy updates directly to your email inbox.
+          - paragraph [ref=e1402]:
+            - link "Click here to read the latest edition." [ref=e1403] [cursor=pointer]:
+              - /url: https://nut.sh/ell/ed/369769/9aP7J5
+        - form "Newsletter Signup Footer" [ref=e1408]:
+          - generic [ref=e1409]:
+            - textbox "Email" [ref=e1411]
+            - button "Submit" [ref=e1413] [cursor=pointer]:
+              - generic [ref=e1415]: Submit
+      - generic [ref=e1419]:
+        - generic [ref=e1420]:
+          - link "Loevy and Loevy Civil Rights Attorneys" [ref=e1423] [cursor=pointer]:
+            - /url: https://www.loevy.com/
+          - paragraph [ref=e1428]: Loevy + Loevy is a civil rights law firm fighting for justice across the country. We take on the nation’s most difficult public interest cases, advocating in and outside the courtroom to secure justice for our clients and to hold officials, governments, and corporations accountable. Our compassionate, award-winning attorneys work relentlessly to ensure our clients are supported, empowered, and victorious.
+          - list [ref=e1431]:
+            - listitem [ref=e1432]:
+              - link "Facebook" [ref=e1433] [cursor=pointer]:
+                - /url: https://www.facebook.com/loevyandloevy
+                - generic [ref=e1434]: Facebook
+                - img [ref=e1435]
+            - listitem [ref=e1437]:
+              - link [ref=e1438] [cursor=pointer]:
+                - /url: https://twitter.com/LoevyAndLoevy
+                - img [ref=e1440]
+            - listitem [ref=e1442]:
+              - link "Youtube" [ref=e1443] [cursor=pointer]:
+                - /url: https://www.youtube.com/@LoevyandLoevy
+                - generic [ref=e1444]: Youtube
+                - img [ref=e1445]
+            - listitem [ref=e1447]:
+              - link "Instagram" [ref=e1448] [cursor=pointer]:
+                - /url: https://www.instagram.com/loevyandloevy/
+                - generic [ref=e1449]: Instagram
+                - img [ref=e1450]
+            - listitem [ref=e1452]:
+              - link "Linkedin-in" [ref=e1453] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/loevy-&-loevy
+                - generic [ref=e1454]: Linkedin-in
+                - img [ref=e1455]
+            - listitem [ref=e1457]:
+              - link [ref=e1458] [cursor=pointer]:
+                - /url: https://www.threads.net/@loevyandloevy
+                - img [ref=e1460]
+            - listitem [ref=e1462]:
+              - link [ref=e1463] [cursor=pointer]:
+                - /url: https://bsky.app/profile/loevy.com
+                - img [ref=e1465]
+        - generic [ref=e1468]:
+          - paragraph [ref=e1471]: Practice Areas
+          - navigation "Menu" [ref=e1474]:
+            - list [ref=e1475]:
+              - listitem [ref=e1476]:
+                - link "Wrongful Convictions" [ref=e1477] [cursor=pointer]:
+                  - /url: https://www.loevy.com/wrongful-conviction-attorneys/
+              - listitem [ref=e1478]:
+                - link "Police Misconduct" [ref=e1479] [cursor=pointer]:
+                  - /url: https://www.loevy.com/police-misconduct/
+              - listitem [ref=e1480]:
+                - link "Whistleblower Protection" [ref=e1481] [cursor=pointer]:
+                  - /url: https://www.loevy.com/whistleblower-protection/
+              - listitem [ref=e1482]:
+                - link "Prisoner Rights" [ref=e1483] [cursor=pointer]:
+                  - /url: https://www.loevy.com/prisoner-rights/
+              - listitem [ref=e1484]:
+                - link "FOIA, Media, and First Amendment" [ref=e1485] [cursor=pointer]:
+                  - /url: https://www.loevy.com/foia-media-first-amendment/
+              - listitem [ref=e1486]:
+                - link "Cryptocurrency, Blockchain, & DAOS" [ref=e1487] [cursor=pointer]:
+                  - /url: https://www.loevy.com/cryptocurrency-blockchain-daos/
+              - listitem [ref=e1488]:
+                - link "Data Privacy & Cybersecurity" [ref=e1489] [cursor=pointer]:
+                  - /url: https://www.loevy.com/data-privacy-practice/
+              - listitem [ref=e1490]:
+                - link "Intellectual Property & Complex Litigation" [ref=e1491] [cursor=pointer]:
+                  - /url: https://www.loevy.com/intellectual-property/
+              - listitem [ref=e1492]:
+                - link "Class Actions" [ref=e1493] [cursor=pointer]:
+                  - /url: https://www.loevy.com/class-actions/
+                  - text: Class Actions
+        - generic [ref=e1496]:
+          - paragraph [ref=e1499]: Quick Links
+          - navigation "Menu" [ref=e1502]:
+            - list [ref=e1503]:
+              - listitem [ref=e1504]:
+                - link "About" [ref=e1505] [cursor=pointer]:
+                  - /url: https://www.loevy.com/about/
+              - listitem [ref=e1506]:
+                - link "Big Wins" [ref=e1507] [cursor=pointer]:
+                  - /url: /big-wins/
+              - listitem [ref=e1508]:
+                - link "News" [ref=e1509] [cursor=pointer]:
+                  - /url: https://www.loevy.com/media/
+              - listitem [ref=e1510]:
+                - link "Insight" [ref=e1511] [cursor=pointer]:
+                  - /url: https://www.loevy.com/insight/
+              - listitem [ref=e1512]:
+                - link "FAQ" [ref=e1513] [cursor=pointer]:
+                  - /url: https://www.loevy.com/faq/
+          - paragraph [ref=e1520]: Our Partners
+          - navigation "Menu" [ref=e1523]:
+            - list [ref=e1524]:
+              - listitem [ref=e1525]:
+                - link "The Exoneration Project" [ref=e1526] [cursor=pointer]:
+                  - /url: https://www.exonerationproject.org/
+              - listitem [ref=e1527]:
+                - link "Road 2 Reentry" [ref=e1528] [cursor=pointer]:
+                  - /url: https://road2reentry.org/
+        - generic [ref=e1530]:
+          - paragraph [ref=e1533]: Get In Touch
+          - paragraph [ref=e1536]: Chicago, IL
+          - paragraph [ref=e1539]:
+            - text: 311 North Aberdeen Street
+            - text: 3rd Floor
+            - text: Chicago, IL 60607
+          - list [ref=e1542]:
+            - listitem [ref=e1543]:
+              - link "312-243-5900" [ref=e1544] [cursor=pointer]:
+                - /url: tel:123-456-7890
+                - generic [ref=e1545]: 312-243-5900
+          - link "Contact Us" [ref=e1549] [cursor=pointer]:
+            - /url: https://www.loevy.com/contact/
+            - generic [ref=e1551]: Contact Us
+      - generic [ref=e1555]:
+        - link "© 2026 by Loevy + Loevy. All Rights Reserved | Attorney Advertising | Prior results do not guarantee a similar outcome." [ref=e1556] [cursor=pointer]:
+          - /url: https://www.loevy.com/disclaimer/
+          - paragraph [ref=e1559]: © 2026 by Loevy + Loevy. All Rights Reserved | Attorney Advertising | Prior results do not guarantee a similar outcome.
+        - navigation "Menu" [ref=e1562]:
+          - list [ref=e1563]:
+            - listitem [ref=e1564]:
+              - link "Disclaimer" [ref=e1565] [cursor=pointer]:
+                - /url: https://www.loevy.com/disclaimer/
+            - listitem [ref=e1566]:
+              - link "Privacy Policy" [ref=e1567] [cursor=pointer]:
+                - /url: https://www.loevy.com/privacy-policy/
+    - generic [ref=e1569]:
+      - button "Close menu" [ref=e1571] [cursor=pointer]:
+        - img [ref=e1574]
+      - generic [ref=e1576]:
+        - complementary "Header Widget 1" [ref=e1577]:
+          - figure [ref=e1578]
+        - 'navigation "Site Navigation: Main Menu" [ref=e1584]':
+          - list [ref=e1586]:
+            - listitem [ref=e1587]:
+              - link "About" [ref=e1588] [cursor=pointer]:
+                - /url: https://www.loevy.com/about/
+              - button "Menu Toggle" [ref=e1589] [cursor=pointer]:
+                - generic [ref=e1590]: Menu Toggle
+                - generic:
+                  - img
+            - listitem [ref=e1591]:
+              - link "Practice Areas" [ref=e1592] [cursor=pointer]:
+                - /url: https://www.loevy.com/practice-areas/
+              - button "Menu Toggle" [ref=e1593] [cursor=pointer]:
+                - generic [ref=e1594]: Menu Toggle
+                - generic:
+                  - img
+            - listitem [ref=e1595]:
+              - link "News" [ref=e1596] [cursor=pointer]:
+                - /url: https://www.loevy.com/media/
+            - listitem [ref=e1597]:
+              - link "Big Wins" [ref=e1598] [cursor=pointer]:
+                - /url: /big-wins
+            - listitem [ref=e1599]:
+              - link "Insight" [ref=e1600] [cursor=pointer]:
+                - /url: https://www.loevy.com/insight/
+        - link "Contact Us" [ref=e1603] [cursor=pointer]:
+          - /url: /contact/
+          - generic [ref=e1604]: Contact Us
+        - search [ref=e1607]:
+          - generic [ref=e1608]:
+            - generic [ref=e1609]: "Search for:"
+            - searchbox "Search for:" [ref=e1610]
+          - button "Search" [ref=e1611] [cursor=pointer]:
+            - img [ref=e1615]
+      - 'navigation "Site Navigation: Main Menu" [ref=e1621]':
+        - list [ref=e1623]:
+          - listitem [ref=e1624]:
+            - link "About" [ref=e1625] [cursor=pointer]:
+              - /url: https://www.loevy.com/about/
+            - button "Menu Toggle" [ref=e1626] [cursor=pointer]:
+              - generic [ref=e1627]: Menu Toggle
+              - generic:
+                - img
+          - listitem [ref=e1628]:
+            - link "Practice Areas" [ref=e1629] [cursor=pointer]:
+              - /url: https://www.loevy.com/practice-areas/
+            - button "Menu Toggle" [ref=e1630] [cursor=pointer]:
+              - generic [ref=e1631]: Menu Toggle
+              - generic:
+                - img
+          - listitem [ref=e1632]:
+            - link "News" [ref=e1633] [cursor=pointer]:
+              - /url: https://www.loevy.com/media/
+          - listitem [ref=e1634]:
+            - link "Big Wins" [ref=e1635] [cursor=pointer]:
+              - /url: /big-wins
+          - listitem [ref=e1636]:
+            - link "Insight" [ref=e1637] [cursor=pointer]:
+              - /url: https://www.loevy.com/insight/
+  - generic [ref=e1638]: tablet

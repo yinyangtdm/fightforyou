@@ -1,0 +1,584 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner "Header" [ref=e3]:
+      - generic [ref=e6]:
+        - link "Gingras, Thomsen & Wachs, LLP" [ref=e8] [cursor=pointer]:
+          - /url: https://gtwlawyers.com/
+          - img "Gingras, Thomsen & Wachs, LLP" [ref=e9]
+        - navigation [ref=e10]:
+          - generic [ref=e11]:
+            - menu:
+              - menuitem "Practice Areas▾" [ref=e12]:
+                - link "Practice Areas▾" [ref=e13] [cursor=pointer]:
+                  - /url: https://gtwlawyers.com/practice-areas/
+                  - text: Practice Areas▾
+              - menuitem "Locations▾" [ref=e14]:
+                - link "Locations▾" [ref=e15] [cursor=pointer]:
+                  - /url: https://gtwlawyers.com/locations/
+                  - text: Locations▾
+              - menuitem "Attorneys▾" [ref=e16]:
+                - link "Attorneys▾" [ref=e17] [cursor=pointer]:
+                  - /url: https://gtwlawyers.com/wisconsin-attorneys/
+                  - text: Attorneys▾
+              - menuitem "About▾" [ref=e18]:
+                - link "About▾" [ref=e19] [cursor=pointer]:
+                  - /url: https://gtwlawyers.com/about/
+                  - text: About▾
+              - menuitem "Contact" [ref=e20]:
+                - link "Contact" [ref=e21] [cursor=pointer]:
+                  - /url: /contact-us/
+              - menuitem " (855) 954-1186" [ref=e22]:
+                - link " (855) 954-1186" [ref=e23] [cursor=pointer]:
+                  - /url: tel:855.954.1186
+                  - generic [ref=e24]:
+                    - generic [ref=e25]: 
+                    - text: (855) 954-1186
+              - menuitem "Search" [ref=e26]:
+                - link "Search" [ref=e27] [cursor=pointer]:
+                  - /url: "?s="
+                  - img [ref=e28]
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "Link to Facebook" [ref=e32] [cursor=pointer]:
+                - /url: https://www.facebook.com/GTWLawyers/
+                - text: 
+            - listitem [ref=e33]:
+              - link "Link to LinkedIn" [ref=e34] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/gingras-thomsen-wachs/
+                - text: 
+            - listitem [ref=e35]:
+              - link "Link to Instagram" [ref=e36] [cursor=pointer]:
+                - /url: https://www.instagram.com/gtwlawyers/
+                - text: 
+            - listitem [ref=e37]:
+              - link "Link to Youtube" [ref=e38] [cursor=pointer]:
+                - /url: https://www.youtube.com/@gingrasthomsenwachslawyers794
+                - text: 
+            - listitem [ref=e39]:
+              - link "Link to Yelp" [ref=e40] [cursor=pointer]:
+                - /url: https://www.yelp.com/biz/gingras-thomsen-and-wachs-lawyers-madison
+                - text: 
+            - listitem [ref=e41]:
+              - link "Link to Rss this site" [ref=e42] [cursor=pointer]:
+                - /url: /news-blog/
+                - text: 
+      - text: 
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - generic [ref=e49]:
+                - iframe [ref=e51]:
+                  - generic [active] [ref=f353e1]:
+                    - generic "YouTube Video Player" [ref=f353e3]
+                    - generic [ref=f353e6]:
+                      - generic:
+                        - generic:
+                          - button "Hide player controls" [ref=f353e7] [cursor=pointer]
+                          - generic [ref=f353e9]:
+                            - generic:
+                              - generic [ref=f353e14]:
+                                - generic [ref=f353e15]:
+                                  - 'link "Gingras, Thomsen & Wachs, LLP: Personal Injury Lawyer" [ref=f353e16] [cursor=pointer]':
+                                    - /url: https://www.youtube.com/watch?v=vNBlBArpGxc
+                                  - link "image works" [ref=f353e17] [cursor=pointer]:
+                                    - /url: /channel/UCq3itC2NaujhPDSJtTdFmmA
+                                    - generic [ref=f353e18]: image works
+                                - generic [ref=f353e19]:
+                                  - button [ref=f353e20] [cursor=pointer]
+                                  - generic [ref=f353e22]:
+                                    - generic: image works
+                                    - generic: 4 subscribers
+                              - generic [ref=f353e23]:
+                                - generic:
+                                  - button "Rewind 10 seconds"
+                                  - generic:
+                                    - button "Play video":
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - img
+                                  - button "Fast forward 10 seconds"
+                            - generic [ref=f353e26]:
+                              - button "Share" [ref=f353e29] [cursor=pointer]:
+                                - generic [ref=f353e33]:
+                                  - img
+                              - link "Watch on YouTube" [ref=f353e40] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=vNBlBArpGxc
+                                - img [ref=f353e44]:
+                                  - generic [ref=f353e46]:
+                                    - img
+                - text: 
+              - text: 
+          - text: .
+        - generic [ref=e52]:
+          - link [ref=e54] [cursor=pointer]:
+            - /url: "#next-section"
+            - img [ref=e55]
+          - main [ref=e58]:
+            - generic [ref=e60]:
+              - generic [ref=e62]:
+                - paragraph [ref=e64]: Injured?
+                - heading "GTW is ALL IN TO WIN®" [level=1] [ref=e65]:
+                  - generic [ref=e66]:
+                    - strong [ref=e68]: GTW
+                    - emphasis [ref=e69]: is
+                    - strong [ref=e70]: ALL IN TO WIN
+                    - text: ®
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - heading "DO I HAVE A CASE?" [level=2] [ref=e77]
+                  - paragraph [ref=e80]:
+                    - text: Free case review – No obligation – 24/7 availability
+                    - text: Call
+                    - link "855.954.1186" [ref=e81] [cursor=pointer]:
+                      - /url: tel:855.954.1186
+                  - link "<strong>Get Started Here</strong>" [ref=e85] [cursor=pointer]:
+                    - /url: /free-consultation/
+                    - strong [ref=e87]: Get Started Here
+                    - generic: 
+                  - text:  
+                - generic [ref=e88]:
+                  - heading "WHY CHOOSE GTW" [level=2] [ref=e90]
+                  - generic [ref=e92]:
+                    - paragraph [ref=e93]: Gingras, Thomsen & Wachs lawyers fight for higher settlements!
+                    - paragraph [ref=e94]:
+                      - link "Madison" [ref=e95] [cursor=pointer]:
+                        - /url: /locations/madison/
+                      - text: •
+                      - link "Milwaukee" [ref=e96] [cursor=pointer]:
+                        - /url: /locations/milwaukee/
+                      - text: •
+                      - link "Eau Claire" [ref=e97] [cursor=pointer]:
+                        - /url: /locations/eau-claire/
+                      - text: •
+                      - link "Waukesha" [ref=e98] [cursor=pointer]:
+                        - /url: /locations/waukesha/
+                  - link "Why Choose GTW" [ref=e102] [cursor=pointer]:
+                    - /url: /higher-settlements/
+                    - generic [ref=e103]: Why Choose GTW
+                    - generic: 
+                - generic [ref=e104]:
+                  - heading "ATTORNEY M. THOMSEN" [level=2] [ref=e106]
+                  - paragraph [ref=e109]:
+                    - strong [ref=e110]: Listen Live
+                    - text: on “
+                    - emphasis [ref=e111]: Say Something Real with Michelle Bryant
+                    - text: “, every 2nd Monday of the month, 7:30am to 8:00am!
+                  - link "Listen Live!" [ref=e115] [cursor=pointer]:
+                    - /url: /blog/say-something-real-with-michelle-bryant-attorney-m-thomsen/
+                    - generic [ref=e116]: Listen Live!
+                    - generic: 
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - paragraph [ref=e136]:
+            - strong [ref=e137]: 40+ Years of Experience
+          - heading "Millions Earned for Clients" [level=1] [ref=e138]
+        - generic [ref=e143]:
+          - paragraph [ref=e144]: If you or a loved one has been injured or killed as the result of a car, truck or motorcycle accident, Gingras, Thomsen & Wachs will fight for the justice you deserve. Our team of professional, passionate attorneys, licensed in both Wisconsin and Minnesota, has decades of experience helping accident victims like you return to their normal.
+          - paragraph [ref=e145]: We have recovered over $200 million on behalf of our clients. At Gingras, Thomsen & Wachs, our lawyers work on a contingency fee basis, which means we only get paid if you do. An accident can change your life in a matter of seconds. Let our statewide team of award-winning personal injury lawyers at Gingras, Thomsen & Wachs help you navigate what comes next. We charge no upfront fees.
+        - generic [ref=e148]:
+          - link "<strong>Request Free Case Evaluation</strong>" [ref=e149] [cursor=pointer]:
+            - /url: /free-consultation/
+            - strong [ref=e151]: Request Free Case Evaluation
+            - generic: 
+          - link "Meet Your GTW Attorneys Near You" [ref=e153] [cursor=pointer]:
+            - /url: /wisconsin-attorneys/
+            - generic [ref=e154]: Meet Your GTW Attorneys Near You
+            - generic: 
+          - link "Practice Areas" [ref=e155] [cursor=pointer]:
+            - /url: /practice-areas/
+            - generic [ref=e156]: Practice Areas
+            - generic: 
+      - generic [ref=e169]:
+        - heading "Helping Clients Achieve Big Results" [level=3] [ref=e171]
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - generic [ref=e180]:
+              - paragraph [ref=e181]:
+                - strong [ref=e183]: “My lawyers were skilled and thoughtful – they helped me a lot.”
+              - paragraph [ref=e184]: When I was sexually harassed at work, Gingras, Thomsen & Wachs helped me with my case, reassuring me through a confusing and difficult process. Later, when I was injured in an auto accident, they fought for me again. My lawyers were skilled and thoughtful – they helped me a lot.
+            - strong [ref=e187]: — Jennifer W.
+          - generic:
+            - link "Previous" [ref=e188] [cursor=pointer]:
+              - /url: "#prev"
+              - img [ref=e189]
+            - link "Next" [ref=e191] [cursor=pointer]:
+              - /url: "#next"
+              - img [ref=e192]
+        - link "See More Case Results" [ref=e195] [cursor=pointer]:
+          - /url: /results-testimonials/
+          - generic [ref=e196]: See More Case Results
+          - generic: 
+      - generic [ref=e198]:
+        - heading "Recognized by Clients & Peers Alike" [level=3] [ref=e202]
+        - link "Best Law Firms Ranked By Best Lawyers 2026" [ref=e211] [cursor=pointer]:
+          - /url: https://www.bestlawfirms.com/firms/gingras-thomsen-wachs/20401/US
+          - img "Best Law Firms Ranked By Best Lawyers 2026" [ref=e212]
+        - generic [ref=e214]:
+          - paragraph [ref=e217]:
+            - strong [ref=e218]: GTW brings you superior representation by some of our state’s best lawyers in their practice areas.
+          - blockquote [ref=e221]:
+            - paragraph [ref=e222]:
+              - text: Recognized by clients and peers alike, our award-winning firm has been named one of the best regional law firms. Our experienced, dedicated and compassionate lawyers proudly serve the
+              - link "Eau Claire" [ref=e223] [cursor=pointer]:
+                - /url: /locations/eau-claire/
+              - text: ","
+              - link "Madison" [ref=e224] [cursor=pointer]:
+                - /url: /locations/madison/
+              - text: ","
+              - link "Milwaukee" [ref=e225] [cursor=pointer]:
+                - /url: /locations/milwaukee/
+              - text: and
+              - link "Waukesha" [ref=e226] [cursor=pointer]:
+                - /url: /locations/waukesha/
+              - text: areas, with licensed lawyers in Wisconsin.
+      - generic [ref=e231]:
+        - heading "Practice Areas" [level=3] [ref=e233]
+        - paragraph [ref=e239]: Whether you’ve been injured in an auto accident or harmed through no fault of your own, Gingras, Thomsen & Wachs are your personal injury attorneys. Our team has taken on cases involving auto accidents, bike and boating accidents, slip and fall accidents, burn injuries, defective products, nursing home neglect, and wrongful death. Together, we will right the wrong.
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e243]: 
+            - heading "Personal Injury" [level=2] [ref=e245]
+            - paragraph [ref=e248]: We fight dishonesty and injustice to help injured victims recover the compensation they deserve.
+            - link "Learn more" [ref=e252] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/personal-injury/
+              - generic [ref=e253]: Learn more
+              - generic: 
+          - generic [ref=e255]:
+            - generic [ref=e257]: 
+            - heading "Civil Rights" [level=2] [ref=e259]
+            - paragraph [ref=e262]: We fiercely protect your constitutional rights against police misconduct and government abuse.
+            - link "Learn more" [ref=e266] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/civil-rights-promo/
+              - generic [ref=e267]: Learn more
+              - generic: 
+          - generic [ref=e269]:
+            - generic [ref=e271]: 
+            - heading "Employment Law" [level=2] [ref=e273]
+            - paragraph [ref=e276]: We stand up for workers facing discrimination, harassment, or unfair treatment in the workplace.
+            - link "Learn more" [ref=e280] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/employment-promo/
+              - generic [ref=e281]: Learn more
+              - generic: 
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e285]: 
+            - heading "Wrongful Death" [level=2] [ref=e287]
+            - paragraph [ref=e290]: We help grieving families seek justice and financial stability after a tragic, preventable loss.
+            - link "Learn more" [ref=e294] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/personal-injury/wrongful-death-promo/
+              - generic [ref=e295]: Learn more
+              - generic: 
+          - generic [ref=e297]:
+            - generic [ref=e299]: 
+            - heading "Insurance Bad Faith" [level=2] [ref=e301]
+            - paragraph [ref=e304]: We hold insurance companies accountable when they unfairly delay, deny, or underpay your claims.
+            - link "Learn more" [ref=e308] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/insurance-bad-faith/
+              - generic [ref=e309]: Learn more
+              - generic: 
+          - generic [ref=e311]:
+            - generic [ref=e313]: 
+            - heading "Nursing Home Neglect & Abuse" [level=2] [ref=e315]
+            - paragraph [ref=e318]: We protect vulnerable seniors by holding facilities accountable for substandard care and abuse.
+            - link "Learn more" [ref=e322] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/personal-injury/nursing-home-neglect-promo/
+              - generic [ref=e323]: Learn more
+              - generic: 
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - generic [ref=e327]: 
+            - heading "Medical Malpractice" [level=2] [ref=e329]
+            - paragraph [ref=e332]: We demand accountability for devastating injuries caused by medical errors and hospital negligence.
+            - link "Learn more" [ref=e336] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/locations/milwaukee/medical-malpractice/
+              - generic [ref=e337]: Learn more
+              - generic: 
+          - generic [ref=e339]:
+            - generic [ref=e341]: 
+            - heading "Class Action" [level=2] [ref=e343]
+            - paragraph [ref=e346]: We level the playing field by uniting plaintiffs to take on massive corporations and institutions.
+            - link "Learn more" [ref=e350] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/class-action-lawyers/
+              - generic [ref=e351]: Learn more
+              - generic: 
+          - generic [ref=e353]:
+            - generic [ref=e355]: 
+            - heading "Legal Malpractice" [level=2] [ref=e357]
+            - paragraph [ref=e360]: We fight to recover your losses when another attorney breaches their professional duty to you.
+            - link "Learn more" [ref=e364] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/practice-areas/legal-malpractice/
+              - generic [ref=e365]: Learn more
+              - generic: 
+      - generic [ref=e378]:
+        - heading "What Our Clients Say" [level=3] [ref=e380]
+        - generic [ref=e385]:
+          - generic [ref=e387]:
+            - generic [ref=e389]:
+              - paragraph [ref=e390]:
+                - strong [ref=e392]: “My lawyers were skilled and thoughtful – they helped me a lot.”
+              - paragraph [ref=e393]: When I was sexually harassed at work, Gingras, Thomsen & Wachs helped me with my case, reassuring me through a confusing and difficult process. Later, when I was injured in an auto accident, they fought for me again. My lawyers were skilled and thoughtful – they helped me a lot.
+            - strong [ref=e396]: — Jennifer W.
+          - generic [ref=e398]:
+            - generic [ref=e400]:
+              - paragraph [ref=e401]:
+                - strong [ref=e403]: “The case was settled eliminating the need to go to trial. They did a wonderful job for us.”
+              - paragraph [ref=e404]: Gingras, Thomsen & Wachs represented my children and me in a medical malpractice case involving the death of my husband. They were very attentive to our needs. The case was settled eliminating the need to go to trial. They did a wonderful job for us.
+            - strong [ref=e407]: — Linda J.
+          - generic [ref=e409]:
+            - generic [ref=e411]:
+              - paragraph [ref=e412]:
+                - strong [ref=e414]: “They were always available to me!””
+              - paragraph [ref=e415]: I was represented by Gingras, Thomsen & Wachs because I was severely injured while on another person’s property. Gingras, Thomsen & Wachs was able to show that the person was clearly at fault and we were able to settle the case out of court. They were always available to me. They did a great job.
+            - strong [ref=e418]: — Margaret H.
+        - link "Read More Testimonials" [ref=e420] [cursor=pointer]:
+          - /url: /results-testimonials/
+          - generic [ref=e421]: Read More Testimonials
+          - generic: 
+      - contentinfo [ref=e423]:
+        - main [ref=e426]:
+          - generic [ref=e429]:
+            - link "Facebook-circled" [ref=e432] [cursor=pointer]:
+              - /url: https://www.facebook.com/GTWLawyers/
+              - img "Facebook-circled" [ref=e433]
+            - link "Linkedin-circled" [ref=e438] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/gingras-thomsen-wachs/
+              - img "Linkedin-circled" [ref=e439]
+            - link "Instagram" [ref=e444] [cursor=pointer]:
+              - /url: https://www.instagram.com/gtwlawyers/
+              - img "Instagram" [ref=e445]
+            - link "Youtube-play" [ref=e450] [cursor=pointer]:
+              - /url: https://www.youtube.com/@gingrasthomsenwachslawyers794
+              - img "Youtube-play" [ref=e451]
+            - link "Rss" [ref=e456] [cursor=pointer]:
+              - /url: /news-blog/
+              - img "Rss" [ref=e457]
+        - generic [ref=e466]:
+          - generic [ref=e467]:
+            - heading "EAU CLAIRE" [level=5] [ref=e469]:
+              - link "EAU CLAIRE" [ref=e470] [cursor=pointer]:
+                - /url: /locations/eau-claire/
+            - generic [ref=e471]:
+              - heading "101 Putnam St P.O. Box 390" [level=6] [ref=e472]:
+                - link "101 Putnam St P.O. Box 390" [ref=e473] [cursor=pointer]:
+                  - /url: https://share.google/joQ1xJyenauFq4EnT
+                  - text: 101 Putnam St
+                  - text: P.O. Box 390
+              - paragraph [ref=e475]: Eau Claire, WI 54703
+            - paragraph [ref=e480]:
+              - link "715.598.3737" [ref=e481] [cursor=pointer]:
+                - /url: tel:715.598.3737
+          - generic [ref=e483]:
+            - heading "MADISON" [level=5] [ref=e485]:
+              - link "MADISON" [ref=e486] [cursor=pointer]:
+                - /url: /locations/madison/
+            - generic [ref=e487]:
+              - heading "8150 Excelsior Drive" [level=6] [ref=e488]:
+                - link "8150 Excelsior Drive" [ref=e489] [cursor=pointer]:
+                  - /url: https://share.google/UoYOD0Pq6FPSNLtIH
+                  - text: 8150 Excelsior
+                  - text: Drive
+              - paragraph [ref=e491]: Madison, WI 53717
+            - paragraph [ref=e496]:
+              - link "608.807.0039" [ref=e497] [cursor=pointer]:
+                - /url: tel:608.807.0039
+          - generic [ref=e499]:
+            - heading "MILWAUKEE" [level=5] [ref=e501]:
+              - link "MILWAUKEE" [ref=e502] [cursor=pointer]:
+                - /url: /locations/milwaukee/
+            - generic [ref=e503]:
+              - heading "219 N Milwaukee St Suite 520" [level=6] [ref=e504]:
+                - link "219 N Milwaukee St Suite 520" [ref=e505] [cursor=pointer]:
+                  - /url: https://share.google/DKlhgbCdDttnV8r75
+                  - text: 219 N Milwaukee St
+                  - text: Suite 520
+              - paragraph [ref=e507]: Milwaukee, WI 53202
+            - paragraph [ref=e512]:
+              - link "414.928.7756" [ref=e513] [cursor=pointer]:
+                - /url: tel:414.928.7756
+          - generic [ref=e515]:
+            - heading "WAUKESHA" [level=5] [ref=e517]:
+              - link "WAUKESHA" [ref=e518] [cursor=pointer]:
+                - /url: /locations/waukesha/
+            - generic [ref=e519]:
+              - heading "741 N Grand Ave Suite 209" [level=6] [ref=e520]:
+                - link "741 N Grand Ave Suite 209" [ref=e521] [cursor=pointer]:
+                  - /url: https://share.google/ubo9UXDk3YnHKNU0U
+                  - text: 741 N Grand Ave
+                  - text: Suite 209
+              - paragraph [ref=e523]: Waukesha, WI 53186
+            - paragraph [ref=e528]:
+              - link "414.310.3187" [ref=e529] [cursor=pointer]:
+                - /url: tel:414.310.3187
+        - generic [ref=e536]:
+          - heading "Nationally Recognized Law Firm" [level=3] [ref=e538]
+          - generic [ref=e542]:
+            - link "logo_abota" [ref=e547] [cursor=pointer]:
+              - /url: https://www.abota.org/
+              - img "logo_abota" [ref=e548]
+            - link "logo_bestlaw" [ref=e554] [cursor=pointer]:
+              - /url: https://www.bestlawyers.com/firms/gingras-thomsen-wachs/20401/US
+              - img "logo_bestlaw" [ref=e555]
+            - link "logo_waj" [ref=e561] [cursor=pointer]:
+              - /url: https://www.wisjustice.org/?&diraction=SearchResults&fs_match=s&m_company=gingras&pg=FindALaywer&seed=888653
+              - img "logo_waj" [ref=e562]
+            - link "Super Lawyers - profiles.superlawyers.com" [ref=e568] [cursor=pointer]:
+              - /url: https://profiles.superlawyers.com/wisconsin/milwaukee/lawfirm/gingras-thomsen-and-wachs-llp/6fce69e0-4263-4e28-97a7-cff2aab28068.html?refPageViewId=7c5b5c9fc6da26fb
+              - img "Super Lawyers - profiles.superlawyers.com" [ref=e569]
+            - link "toplawfirm" [ref=e575] [cursor=pointer]:
+              - /url: https://www.bcgsearch.com/bestlawfirms/K72Z6/Gingras-Thomsen-and-Wachs-LLP/rankings
+              - img "toplawfirm" [ref=e576]
+        - generic [ref=e586]:
+          - img "Gingras, Thomsen & Wachs, LLP | Attorneys at Law | Lawyers in Wisconsin | GTW is ALL IN TO WIN®" [ref=e591]
+          - list [ref=e595]:
+            - listitem [ref=e596]:
+              - generic [ref=e598]: 
+              - article [ref=e599]:
+                - 'generic "Icon: <a href=''tel:855.954.1186'' title=''855.954.1186''>855.954.1186</a>" [ref=e601]':
+                  - link "855.954.1186" [ref=e603] [cursor=pointer]:
+                    - /url: tel:855.954.1186
+            - listitem [ref=e604]:
+              - img [ref=e607]
+              - article [ref=e609]:
+                - 'generic "Icon: <a href=''mailto:info@gtwlawyers.com'' title=''info@gtwlawyers.com''>info@gtwlawyers.com</a>" [ref=e611]':
+                  - link "info@gtwlawyers.com" [ref=e613] [cursor=pointer]:
+                    - /url: mailto:info@gtwlawyers.com
+            - listitem [ref=e614]:
+              - img [ref=e617]
+              - article [ref=e619]:
+                - 'generic "Icon: <a href=''/locations/'' title=''Wisconsin Locations''>Wisconsin Locations</a>" [ref=e621]':
+                  - link "Wisconsin Locations" [ref=e623] [cursor=pointer]:
+                    - /url: /locations/
+            - listitem [ref=e624]:
+              - img [ref=e627]
+              - article [ref=e629]:
+                - 'generic "Icon: <a href=''/free-consultation/'' title=''Request Free Case Review''>Request Free Case Review</a>" [ref=e631]':
+                  - link "Request Free Case Review" [ref=e633] [cursor=pointer]:
+                    - /url: /free-consultation/
+            - listitem [ref=e634]:
+              - img [ref=e637]
+              - article [ref=e639]:
+                - 'generic "Icon: <a href=''/news-blog/'' title=''News & Blog''>News & Blog</a>" [ref=e641]':
+                  - link "News & Blog" [ref=e643] [cursor=pointer]:
+                    - /url: /news-blog/
+          - generic [ref=e647]:
+            - article [ref=e648]:
+              - 'link "Link to: Gingras, Thomsen & Wachs, LLP Presents at Marquette Law School’s Traveling CLE in Scottsdale" [ref=e650] [cursor=pointer]':
+                - /url: https://gtwlawyers.com/blog/gingras-thomsen-wachs-llp-presents-at-marquette-law-schools-traveling-cle-in-scottsdale/
+              - 'generic "Post: Gingras, Thomsen & Wachs, LLP Presents at Marquette Law School’s Traveling CLE in Scottsdale" [ref=e652]':
+                - time [ref=e653]: March 17, 2026
+                - generic [ref=e654]:
+                  - text: In
+                  - link "News" [ref=e656] [cursor=pointer]:
+                    - /url: https://gtwlawyers.com/blog/category/news/
+                - heading "Gingras, Thomsen & Wachs, LLP Presents at Marquette Law School’s Traveling CLE in Scottsdale" [level=3] [ref=e657]:
+                  - link "Gingras, Thomsen & Wachs, LLP Presents at Marquette Law School’s Traveling CLE in Scottsdale" [ref=e658] [cursor=pointer]:
+                    - /url: https://gtwlawyers.com/blog/gingras-thomsen-wachs-llp-presents-at-marquette-law-schools-traveling-cle-in-scottsdale/
+            - article [ref=e659]:
+              - 'link "Link to: Listen Live with Attorney M. Thomsen on “Say Something Real with Michelle Bryant”" [ref=e661] [cursor=pointer]':
+                - /url: https://gtwlawyers.com/blog/say-something-real-with-michelle-bryant-attorney-m-thomsen/
+              - 'generic "Post: Listen Live with Attorney M. Thomsen on \"Say Something Real with Michelle Bryant\"" [ref=e663]':
+                - time [ref=e664]: February 20, 2026
+                - generic [ref=e665]:
+                  - text: In
+                  - link "News" [ref=e667] [cursor=pointer]:
+                    - /url: https://gtwlawyers.com/blog/category/news/
+                - heading "Listen Live with Attorney M. Thomsen on “Say Something Real with Michelle Bryant”" [level=3] [ref=e668]:
+                  - link "Listen Live with Attorney M. Thomsen on “Say Something Real with Michelle Bryant”" [ref=e669] [cursor=pointer]:
+                    - /url: https://gtwlawyers.com/blog/say-something-real-with-michelle-bryant-attorney-m-thomsen/
+          - list [ref=e673]:
+            - listitem [ref=e674]:
+              - generic [ref=e676]: 
+              - article [ref=e677]:
+                - 'generic "Icon: <a href=''/practice-areas/personal-injury/'' title=''Personal Injury''>Personal Injury</a>" [ref=e679]':
+                  - link "Personal Injury" [ref=e681] [cursor=pointer]:
+                    - /url: /practice-areas/personal-injury/
+            - listitem [ref=e682]:
+              - generic [ref=e684]: 
+              - article [ref=e685]:
+                - 'generic "Icon: <a href=''/practice-areas/civil-rights/'' title=''Civil Rights''>Civil Rights</a>" [ref=e687]':
+                  - link "Civil Rights" [ref=e689] [cursor=pointer]:
+                    - /url: /practice-areas/civil-rights/
+            - listitem [ref=e690]:
+              - generic [ref=e692]: 
+              - article [ref=e693]:
+                - 'generic "Icon: <a href=''/practice-areas/employment-law/'' title=''Employment Law''>Employment Law</a>" [ref=e695]':
+                  - link "Employment Law" [ref=e697] [cursor=pointer]:
+                    - /url: /practice-areas/employment-law/
+            - listitem [ref=e698]:
+              - generic [ref=e700]: 
+              - article [ref=e701]:
+                - 'generic "Icon: <a href=''/practice-areas/wrongful-death/'' title=''Wrongful Death''>Wrongful Death</a>" [ref=e703]':
+                  - link "Wrongful Death" [ref=e705] [cursor=pointer]:
+                    - /url: /practice-areas/wrongful-death/
+            - listitem [ref=e706]:
+              - generic [ref=e708]: 
+              - article [ref=e709]:
+                - 'generic "Icon: <a href=''/practice-areas/insurance-bad-faith/'' title=''Insurance Bad Faith''>Insurance Bad Faith</a>" [ref=e711]':
+                  - link "Insurance Bad Faith" [ref=e713] [cursor=pointer]:
+                    - /url: /practice-areas/insurance-bad-faith/
+            - listitem [ref=e714]:
+              - generic [ref=e716]: 
+              - article [ref=e717]:
+                - 'generic "Icon: <a href=''/practice-areas/nursing-home-neglect/'' title=''Nursing Home Neglect & Abuse''>Nursing Home Neglect & Abuse</a>" [ref=e719]':
+                  - link "Nursing Home Neglect & Abuse" [ref=e721] [cursor=pointer]:
+                    - /url: /practice-areas/nursing-home-neglect/
+            - listitem [ref=e722]:
+              - generic [ref=e724]: 
+              - article [ref=e725]:
+                - 'generic "Icon: <a href=''/practice-areas/medical-malpractice/'' title=''Medical Malpractice''>Medical Malpractice</a>" [ref=e727]':
+                  - link "Medical Malpractice" [ref=e729] [cursor=pointer]:
+                    - /url: /practice-areas/medical-malpractice/
+            - listitem [ref=e730]:
+              - generic [ref=e732]: 
+              - article [ref=e733]:
+                - 'generic "Icon: <a href=''/practice-areas/class-action-lawyers/'' title=''Class Action''>Class Action</a>" [ref=e735]':
+                  - link "Class Action" [ref=e737] [cursor=pointer]:
+                    - /url: /practice-areas/class-action-lawyers/
+            - listitem [ref=e738]:
+              - generic [ref=e740]: 
+              - article [ref=e741]:
+                - 'generic "Icon: <a href=''/practice-areas/legal-malpractice/'' title=''Legal Malpractice''>Legal Malpractice</a>" [ref=e743]':
+                  - link "Legal Malpractice" [ref=e745] [cursor=pointer]:
+                    - /url: /practice-areas/legal-malpractice/
+        - generic [ref=e753]:
+          - paragraph [ref=e756]:
+            - link "Gingras, Thomsen & Wachs, LLP" [ref=e757] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/
+            - text: "| Attorneys at Law | Lawyers in Wisconsin |"
+            - strong [ref=e758]: GTW is ALL IN TO WIN
+            - text: ®
+            - text: Located in Wisconsin, the law firm of Gingras, Thomsen & Wachs, LLP represents clients throughout Wisconsin, including, but not limited to the cities of
+            - link "Madison" [ref=e759] [cursor=pointer]:
+              - /url: /locations/madison/
+            - text: ","
+            - link "Milwaukee" [ref=e760] [cursor=pointer]:
+              - /url: /locations/milwaukee/
+            - text: ","
+            - link "Eau Claire" [ref=e761] [cursor=pointer]:
+              - /url: /locations/eau-claire/
+            - text: and
+            - link "Waukesha" [ref=e762] [cursor=pointer]:
+              - /url: /locations/waukesha/
+            - text: .
+          - paragraph [ref=e765]:
+            - text: © 2026
+            - link "Gingras, Thomsen & Wachs, LLP" [ref=e766] [cursor=pointer]:
+              - /url: https://www.gtwlawyers.com/
+            - text: — All Rights Reserved.
+            - link "Privacy Policy" [ref=e767] [cursor=pointer]:
+              - /url: https://gtwlawyers.com/privacy-policy/
+            - text: . Website powered by
+            - link "image.works" [ref=e768] [cursor=pointer]:
+              - /url: https://www.imageworksdirect.com/
+            - text: .
+          - generic [ref=e771]: 
+  - img [ref=e775]
+  - iframe [ref=e778]:
+    - button "Opens a chat window" [ref=f352e5] [cursor=pointer]: LIVE CHAT
+  - iframe [ref=e780]:
+    - generic [ref=f355e2]:
+      - generic "Need help? Chat with us now!" [ref=f355e3] [cursor=pointer]
+      - generic [ref=f355e5]: Online Agent

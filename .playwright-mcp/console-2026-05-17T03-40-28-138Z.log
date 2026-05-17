@@ -1,0 +1,6 @@
+[     818ms] [WARNING] yui: NOT loaded: squarespace-visitor_site_error_reporter @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[     818ms] [WARNING] yui: NOT loaded: squarespace-cldr_resource_pack @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[     818ms] [WARNING] yui: NOT loaded: squarespace-common_vendors_stable @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[     818ms] [WARNING] yui: NOT loaded: squarespace-common_vendors @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[     820ms] [WARNING] yui: NOT loaded: squarespace-performance @ https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-b8d716935110c7b2-min.en-US.js:7
+[    1135ms] [LOG] [Visitor Sentry] Initialized and sending events @ https://assets.squarespace.com/universal/scripts-compressed/7041-ab5682cb407bceb3-min.en-US.js:484

@@ -1,0 +1,691 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to Main Content":
+      - /url: "#main"
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://www.stormsdworak.com
+        - img [ref=e6]
+      - generic [ref=e30]:
+        - link "Free Consultation 1.855.BWOLVES" [ref=e31] [cursor=pointer]:
+          - /url: tel:(612) 455-7050
+          - text: Free Consultation
+          - generic [ref=e32]:
+            - img [ref=e33]
+            - text: 1.855.BWOLVES
+        - generic [ref=e35]:
+          - generic [ref=e36]: ☰
+          - navigation "Main Menu" [ref=e37]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - link "Home" [ref=e41] [cursor=pointer]:
+                  - /url: https://www.stormsdworak.com/
+              - listitem [ref=e42]:
+                - link "TEAM" [ref=e43] [cursor=pointer]:
+                  - /url: https://www.stormsdworak.com/attorneys/
+              - listitem [ref=e45]:
+                - link "Practice Areas" [ref=e46] [cursor=pointer]:
+                  - /url: https://www.stormsdworak.com/practice-areas/
+              - listitem [ref=e48]:
+                - link "Blog" [ref=e49] [cursor=pointer]:
+                  - /url: https://www.stormsdworak.com/blog/
+              - listitem [ref=e50]:
+                - link "Contact" [ref=e51] [cursor=pointer]:
+                  - /url: https://www.stormsdworak.com/contact/
+  - main [ref=e53]:
+    - article [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - img "banner Background" [ref=e57]
+          - generic [ref=e58]:
+            - img [ref=e60]
+            - generic [ref=e76]:
+              - heading "Lighting your path to Justice TM" [level=1] [ref=e77]:
+                - text: Lighting
+                - text: your path
+                - text: to Justice
+                - generic [ref=e78]: TM
+              - generic [ref=e80]:
+                - link "Request A FREE CONSULTATION" [ref=e81] [cursor=pointer]:
+                  - /url: /contact/
+                  - generic [ref=e82]: Request A FREE CONSULTATION
+                - figure [ref=e83]:
+                  - figure [ref=e84]
+                  - figure [ref=e85]
+                  - figure [ref=e86]
+              - paragraph [ref=e87]: In the darkest of times, our serious injury attorneys bring clarity, direction, and a path to justice.
+        - generic [ref=e89]:
+          - heading "Case results" [level=2] [ref=e90]
+          - generic [ref=e91]:
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]:
+                    - text: $27
+                    - generic [ref=e97]: Million
+                  - generic [ref=e98]: Civil Rights
+              - listitem [ref=e99]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - text: $8
+                    - generic [ref=e102]: Million
+                  - generic [ref=e103]: Product Liability
+              - listitem [ref=e104]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]:
+                    - text: $3.5
+                    - generic [ref=e107]: Million
+                  - generic [ref=e108]: Wrongful Death
+              - listitem [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - text: $3.4
+                    - generic [ref=e112]: Million
+                  - generic [ref=e113]: Jail Death
+              - listitem [ref=e114]:
+                - generic [ref=e115]:
+                  - generic [ref=e116]:
+                    - text: $3.25
+                    - generic [ref=e117]: Million
+                  - generic [ref=e118]: Civil Rights
+              - listitem [ref=e119]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]:
+                    - text: $1.85
+                    - generic [ref=e122]: Million
+                  - generic [ref=e123]: Wrongful Death
+              - listitem [ref=e124]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - text: $1.75
+                    - generic [ref=e127]: Million
+                  - generic [ref=e128]: School Sex Assualt
+              - listitem [ref=e129]:
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - text: $1.75
+                    - generic [ref=e132]: Million
+                  - generic [ref=e133]: Medical Malpractice
+              - listitem [ref=e134]:
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - text: $1.6
+                    - generic [ref=e137]: Million
+                  - generic [ref=e138]: Wrongful Death
+              - listitem [ref=e139]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - text: $1.6
+                    - generic [ref=e142]: Million
+                  - generic [ref=e143]: Sex Abuse Victim
+              - listitem [ref=e144]:
+                - generic [ref=e145]:
+                  - generic [ref=e146]:
+                    - text: $1.5
+                    - generic [ref=e147]: Million
+                  - generic [ref=e148]: Car Crash
+              - listitem [ref=e149]:
+                - generic [ref=e150]:
+                  - generic [ref=e151]:
+                    - text: $1.25
+                    - generic [ref=e152]: Million
+                  - generic [ref=e153]: Medical Malpractice
+              - listitem [ref=e154]:
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - text: $1.15
+                    - generic [ref=e157]: Million
+                  - generic [ref=e158]: Civil Rights
+              - listitem [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - text: $1
+                    - generic [ref=e162]: Million
+                  - generic [ref=e163]: Sex Abuse Victim
+              - listitem [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - text: $1
+                    - generic [ref=e167]: Million
+                  - generic [ref=e168]: Wrongful Death
+              - listitem [ref=e169]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - text: $900
+                    - generic [ref=e172]: Thousand
+                  - generic [ref=e173]: Medical Malpractice
+              - listitem [ref=e174]:
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - text: $800
+                    - generic [ref=e177]: Thousand
+                  - generic [ref=e178]: Employment Discrimination
+              - listitem [ref=e179]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - text: $800
+                    - generic [ref=e182]: Thousand
+                  - generic [ref=e183]: Sex Abuse Victim
+              - listitem [ref=e184]:
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - text: $575
+                    - generic [ref=e187]: Thousand
+                  - generic [ref=e188]: Product Liability
+              - listitem [ref=e189]:
+                - generic [ref=e190]:
+                  - generic [ref=e191]:
+                    - text: $500
+                    - generic [ref=e192]: Thousand
+                  - generic [ref=e193]: School Injury
+              - listitem [ref=e194]:
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - text: $500
+                    - generic [ref=e197]: Thousand
+                  - generic [ref=e198]: Child Injury
+              - listitem [ref=e199]:
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - text: $450
+                    - generic [ref=e202]: Thousand
+                  - generic [ref=e203]: Data Practices Violation
+              - listitem [ref=e204]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - text: $400
+                    - generic [ref=e207]: Thousand
+                  - generic [ref=e208]: Negligent Shooting
+            - list [ref=e210]:
+              - listitem [ref=e211]:
+                - generic [ref=e212]:
+                  - generic [ref=e213]:
+                    - text: $27
+                    - generic [ref=e214]: Million
+                  - generic [ref=e215]: Civil Rights
+              - listitem [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - text: $8
+                    - generic [ref=e219]: Million
+                  - generic [ref=e220]: Product Liability
+              - listitem [ref=e221]:
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - text: $3.5
+                    - generic [ref=e224]: Million
+                  - generic [ref=e225]: Wrongful Death
+              - listitem [ref=e226]:
+                - generic [ref=e227]:
+                  - generic [ref=e228]:
+                    - text: $3.4
+                    - generic [ref=e229]: Million
+                  - generic [ref=e230]: Jail Death
+              - listitem [ref=e231]:
+                - generic [ref=e232]:
+                  - generic [ref=e233]:
+                    - text: $3.25
+                    - generic [ref=e234]: Million
+                  - generic [ref=e235]: Civil Rights
+              - listitem [ref=e236]:
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - text: $1.85
+                    - generic [ref=e239]: Million
+                  - generic [ref=e240]: Wrongful Death
+              - listitem [ref=e241]:
+                - generic [ref=e242]:
+                  - generic [ref=e243]:
+                    - text: $1.75
+                    - generic [ref=e244]: Million
+                  - generic [ref=e245]: School Sex Assualt
+              - listitem [ref=e246]:
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - text: $1.75
+                    - generic [ref=e249]: Million
+                  - generic [ref=e250]: Medical Malpractice
+              - listitem [ref=e251]:
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - text: $1.6
+                    - generic [ref=e254]: Million
+                  - generic [ref=e255]: Wrongful Death
+              - listitem [ref=e256]:
+                - generic [ref=e257]:
+                  - generic [ref=e258]:
+                    - text: $1.6
+                    - generic [ref=e259]: Million
+                  - generic [ref=e260]: Sex Abuse Victim
+              - listitem [ref=e261]:
+                - generic [ref=e262]:
+                  - generic [ref=e263]:
+                    - text: $1.5
+                    - generic [ref=e264]: Million
+                  - generic [ref=e265]: Car Crash
+              - listitem [ref=e266]:
+                - generic [ref=e267]:
+                  - generic [ref=e268]:
+                    - text: $1.25
+                    - generic [ref=e269]: Million
+                  - generic [ref=e270]: Medical Malpractice
+              - listitem [ref=e271]:
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - text: $1.15
+                    - generic [ref=e274]: Million
+                  - generic [ref=e275]: Civil Rights
+              - listitem [ref=e276]:
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - text: $1
+                    - generic [ref=e279]: Million
+                  - generic [ref=e280]: Sex Abuse Victim
+              - listitem [ref=e281]:
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - text: $1
+                    - generic [ref=e284]: Million
+                  - generic [ref=e285]: Wrongful Death
+              - listitem [ref=e286]:
+                - generic [ref=e287]:
+                  - generic [ref=e288]:
+                    - text: $900
+                    - generic [ref=e289]: Thousand
+                  - generic [ref=e290]: Medical Malpractice
+              - listitem [ref=e291]:
+                - generic [ref=e292]:
+                  - generic [ref=e293]:
+                    - text: $800
+                    - generic [ref=e294]: Thousand
+                  - generic [ref=e295]: Employment Discrimination
+              - listitem [ref=e296]:
+                - generic [ref=e297]:
+                  - generic [ref=e298]:
+                    - text: $800
+                    - generic [ref=e299]: Thousand
+                  - generic [ref=e300]: Sex Abuse Victim
+              - listitem [ref=e301]:
+                - generic [ref=e302]:
+                  - generic [ref=e303]:
+                    - text: $575
+                    - generic [ref=e304]: Thousand
+                  - generic [ref=e305]: Product Liability
+              - listitem [ref=e306]:
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - text: $500
+                    - generic [ref=e309]: Thousand
+                  - generic [ref=e310]: School Injury
+              - listitem [ref=e311]:
+                - generic [ref=e312]:
+                  - generic [ref=e313]:
+                    - text: $500
+                    - generic [ref=e314]: Thousand
+                  - generic [ref=e315]: Child Injury
+              - listitem [ref=e316]:
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - text: $450
+                    - generic [ref=e319]: Thousand
+                  - generic [ref=e320]: Data Practices Violation
+              - listitem [ref=e321]:
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - text: $400
+                    - generic [ref=e324]: Thousand
+                  - generic [ref=e325]: Negligent Shooting
+            - list [ref=e327]:
+              - listitem [ref=e328]:
+                - generic [ref=e329]:
+                  - generic [ref=e330]:
+                    - text: $27
+                    - generic [ref=e331]: Million
+                  - generic [ref=e332]: Civil Rights
+              - listitem [ref=e333]:
+                - generic [ref=e334]:
+                  - generic [ref=e335]:
+                    - text: $8
+                    - generic [ref=e336]: Million
+                  - generic [ref=e337]: Product Liability
+              - listitem [ref=e338]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - text: $3.5
+                    - generic [ref=e341]: Million
+                  - generic [ref=e342]: Wrongful Death
+              - listitem [ref=e343]:
+                - generic [ref=e344]:
+                  - generic [ref=e345]:
+                    - text: $3.4
+                    - generic [ref=e346]: Million
+                  - generic [ref=e347]: Jail Death
+              - listitem [ref=e348]:
+                - generic [ref=e349]:
+                  - generic [ref=e350]:
+                    - text: $3.25
+                    - generic [ref=e351]: Million
+                  - generic [ref=e352]: Civil Rights
+              - listitem [ref=e353]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]:
+                    - text: $1.85
+                    - generic [ref=e356]: Million
+                  - generic [ref=e357]: Wrongful Death
+              - listitem [ref=e358]:
+                - generic [ref=e359]:
+                  - generic [ref=e360]:
+                    - text: $1.75
+                    - generic [ref=e361]: Million
+                  - generic [ref=e362]: School Sex Assualt
+              - listitem [ref=e363]:
+                - generic [ref=e364]:
+                  - generic [ref=e365]:
+                    - text: $1.75
+                    - generic [ref=e366]: Million
+                  - generic [ref=e367]: Medical Malpractice
+              - listitem [ref=e368]:
+                - generic [ref=e369]:
+                  - generic [ref=e370]:
+                    - text: $1.6
+                    - generic [ref=e371]: Million
+                  - generic [ref=e372]: Wrongful Death
+              - listitem [ref=e373]:
+                - generic [ref=e374]:
+                  - generic [ref=e375]:
+                    - text: $1.6
+                    - generic [ref=e376]: Million
+                  - generic [ref=e377]: Sex Abuse Victim
+              - listitem [ref=e378]:
+                - generic [ref=e379]:
+                  - generic [ref=e380]:
+                    - text: $1.5
+                    - generic [ref=e381]: Million
+                  - generic [ref=e382]: Car Crash
+              - listitem [ref=e383]:
+                - generic [ref=e384]:
+                  - generic [ref=e385]:
+                    - text: $1.25
+                    - generic [ref=e386]: Million
+                  - generic [ref=e387]: Medical Malpractice
+              - listitem [ref=e388]:
+                - generic [ref=e389]:
+                  - generic [ref=e390]:
+                    - text: $1.15
+                    - generic [ref=e391]: Million
+                  - generic [ref=e392]: Civil Rights
+              - listitem [ref=e393]:
+                - generic [ref=e394]:
+                  - generic [ref=e395]:
+                    - text: $1
+                    - generic [ref=e396]: Million
+                  - generic [ref=e397]: Sex Abuse Victim
+              - listitem [ref=e398]:
+                - generic [ref=e399]:
+                  - generic [ref=e400]:
+                    - text: $1
+                    - generic [ref=e401]: Million
+                  - generic [ref=e402]: Wrongful Death
+              - listitem [ref=e403]:
+                - generic [ref=e404]:
+                  - generic [ref=e405]:
+                    - text: $900
+                    - generic [ref=e406]: Thousand
+                  - generic [ref=e407]: Medical Malpractice
+              - listitem [ref=e408]:
+                - generic [ref=e409]:
+                  - generic [ref=e410]:
+                    - text: $800
+                    - generic [ref=e411]: Thousand
+                  - generic [ref=e412]: Employment Discrimination
+              - listitem [ref=e413]:
+                - generic [ref=e414]:
+                  - generic [ref=e415]:
+                    - text: $800
+                    - generic [ref=e416]: Thousand
+                  - generic [ref=e417]: Sex Abuse Victim
+              - listitem [ref=e418]:
+                - generic [ref=e419]:
+                  - generic [ref=e420]:
+                    - text: $575
+                    - generic [ref=e421]: Thousand
+                  - generic [ref=e422]: Product Liability
+              - listitem [ref=e423]:
+                - generic [ref=e424]:
+                  - generic [ref=e425]:
+                    - text: $500
+                    - generic [ref=e426]: Thousand
+                  - generic [ref=e427]: School Injury
+              - listitem [ref=e428]:
+                - generic [ref=e429]:
+                  - generic [ref=e430]:
+                    - text: $500
+                    - generic [ref=e431]: Thousand
+                  - generic [ref=e432]: Child Injury
+              - listitem [ref=e433]:
+                - generic [ref=e434]:
+                  - generic [ref=e435]:
+                    - text: $450
+                    - generic [ref=e436]: Thousand
+                  - generic [ref=e437]: Data Practices Violation
+              - listitem [ref=e438]:
+                - generic [ref=e439]:
+                  - generic [ref=e440]:
+                    - text: $400
+                    - generic [ref=e441]: Thousand
+                  - generic [ref=e442]: Negligent Shooting
+        - generic [ref=e444]:
+          - generic [ref=e445]:
+            - heading "Attorneys" [level=2] [ref=e446]
+            - generic [ref=e447]:
+              - link "Team Image Allison Andersen" [ref=e448] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/allison-andersen/
+                - img "Team Image" [ref=e449]
+                - paragraph [ref=e451]: Allison Andersen
+              - link "Team Image Marc Betinsky" [ref=e452] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/marc-betinsky/
+                - img "Team Image" [ref=e453]
+                - paragraph [ref=e455]: Marc Betinsky
+              - link "Team Image PAUL DWORAK" [ref=e456] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/paul-dworak/
+                - img "Team Image" [ref=e457]
+                - paragraph [ref=e459]: PAUL DWORAK
+              - link "Team Image JAMES LOWE, M.D., J.D." [ref=e460] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/james-lowe/
+                - img "Team Image" [ref=e461]
+                - paragraph [ref=e463]: JAMES LOWE, M.D., J.D.
+              - link "Team Image NAOMI MARTIN" [ref=e464] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/naomi-martin/
+                - img "Team Image" [ref=e465]
+                - paragraph [ref=e467]: NAOMI MARTIN
+              - link "Team Image JEFF STORMS" [ref=e468] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/jeff-storms/
+                - img "Team Image" [ref=e469]
+                - paragraph [ref=e471]: JEFF STORMS
+              - link "Team Image TIM O’CONNOR" [ref=e472] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/tim-o-connor/
+                - img "Team Image" [ref=e473]
+                - paragraph [ref=e475]: TIM O’CONNOR
+              - link "Team Image RYAN O. VETTLESON" [ref=e476] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/ryan-o-vettleson/
+                - img "Team Image" [ref=e477]
+                - paragraph [ref=e479]: RYAN O. VETTLESON
+            - heading "Professionals" [level=2] [ref=e480]
+            - generic [ref=e481]:
+              - link "Team Image Esther Alfani" [ref=e482] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/esther-alfani/
+                - img "Team Image" [ref=e483]
+                - paragraph [ref=e485]: Esther Alfani
+              - link "Team Image Maddie Collett" [ref=e486] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/maddie-collett/
+                - img "Team Image" [ref=e487]
+                - paragraph [ref=e489]: Maddie Collett
+              - link "Team Image Megan Diller" [ref=e490] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/megan-diller/
+                - img "Team Image" [ref=e491]
+                - paragraph [ref=e493]: Megan Diller
+              - link "Team Image Abbi Settel" [ref=e494] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/abbi-settel/
+                - img "Team Image" [ref=e495]
+                - paragraph [ref=e497]: Abbi Settel
+              - link "Team Image Brandon Stahl" [ref=e498] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/attorneys/brandon-stahl/
+                - img "Team Image" [ref=e499]
+                - paragraph [ref=e501]: Brandon Stahl
+            - img "background image texture" [ref=e503]
+          - generic [ref=e504]:
+            - heading "PRACTICE AREAS" [level=3] [ref=e505]
+            - link "Child Injury" [ref=e506] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/child-injury/
+              - img [ref=e508]
+              - generic [ref=e514]: Child Injury
+            - link "Civil Rights" [ref=e515] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/civil-rights/
+              - img [ref=e517]
+              - generic [ref=e520]: Civil Rights
+            - link "Depo-Provera" [ref=e521] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/depo-provera/
+              - img [ref=e523]
+              - generic [ref=e525]: Depo-Provera
+            - link "Employment & Discrimination" [ref=e526] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/employment-discrimination/
+              - img [ref=e528]
+              - generic [ref=e530]: Employment & Discrimination
+            - link "Medical Malpractice" [ref=e531] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/medical-malpractice/
+              - img [ref=e533]
+              - generic [ref=e537]: Medical Malpractice
+            - link "Personal Injury" [ref=e538] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/personal-injury/
+              - img [ref=e540]
+              - generic [ref=e544]: Personal Injury
+            - link "Sex Abuse" [ref=e545] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/abuse/
+              - img [ref=e547]
+              - generic [ref=e553]: Sex Abuse
+            - link "View All" [ref=e554] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/practice-areas/
+              - generic [ref=e555]: View All
+        - generic [ref=e557]:
+          - img "image of northern lights" [ref=e558]
+          - generic [ref=e559]:
+            - heading "IT TAKES A WOLF" [level=3] [ref=e560]
+            - paragraph [ref=e561]: The lawyers at Storms Dworak are a rare breed of attorney. They are all law school honors graduates who are as tough as they are smart. Our lawyers are regularly recognized for their victories inside and outside the courtroom, including perennial ratings by Super Lawyers and six collective Attorney of the Year awards from Minnesota Lawyer. They have helped clients recover millions of dollars in matters involving sexual assault, civil rights violations, medical malpractice, car crashes, employment, and business disputes.
+            - paragraph [ref=e562]: The firm adopted the wolf as a nod to its Northern roots and because our lawyers strive to embrace the wolf’s best traits, including intelligence, intuition, and loyalty. We fiercely advocate for our clients and are not afraid to take calculated risks through litigation strategy or by taking cases other lawyers deem too challenging to pursue. We stand by your side at the most challenging of times and show you the path towards accountability, be it for the loss of a loved one, infringement of your constitutional rights, the loss of employment, or when you suffer injury or abuse so serious that your life will be forever impacted.
+            - paragraph [ref=e563]: Storms Dworak has attorneys licensed in Minnesota, South Dakota, and various federal courts throughout the Midwest.
+            - link "Contact Us" [ref=e564] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/contact/
+        - generic [ref=e566]:
+          - heading "RECENT NEWS" [level=2] [ref=e567]
+          - generic [ref=e568]:
+            - generic [ref=e569]:
+              - heading "Former Minnesota pastor sentenced to life for child sex abuse" [level=5] [ref=e570]
+              - paragraph [ref=e571]: May 14, 2026
+              - paragraph [ref=e573]: The former pastor at a Minnesota church will spend the rest of his life behind bars for sexually abusing a…
+              - link "Read More" [ref=e574] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/princeton-pastor-sexually-abused-child/
+            - generic [ref=e575]:
+              - heading "Bus, pickup collision leaves one dead" [level=5] [ref=e576]
+              - paragraph [ref=e577]: May 11, 2026
+              - paragraph [ref=e579]: One person has died and a bus driver has been hospitalized in an early morning collision Monday morning in South…
+              - link "Read More" [ref=e580] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/bus-pickup-collision-dead-south-minneapolis/
+            - generic [ref=e581]:
+              - heading "One pedestrian killed, another seriously injured in Rockford crash" [level=5] [ref=e582]
+              - paragraph [ref=e583]: May 4, 2026
+              - paragraph [ref=e585]: One woman is dead and another was seriously injured after they were struck by a vehicle while walking in the…
+              - link "Read More" [ref=e586] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/pedestrian-killed-another-injured-rockford-crash/
+            - generic [ref=e587]:
+              - heading "Driver who fatally struck bicyclist in Minneapolis may have been impaired" [level=5] [ref=e588]
+              - paragraph [ref=e589]: April 21, 2026
+              - paragraph [ref=e591]: Minneapolis police say they suspect a driver was under the influence when he hit and killed a bicyclist on the…
+              - link "Read More" [ref=e592] [cursor=pointer]:
+                - /url: https://www.stormsdworak.com/driver-fatal-strike-bicycle-minneapolis/
+          - link "View all News" [ref=e593] [cursor=pointer]:
+            - /url: https://www.stormsdworak.com/blog/
+        - generic [ref=e595]:
+          - heading "Featured in the Media" [level=3] [ref=e596]
+          - generic [ref=e597]:
+            - img "Good Monring America Logo" [ref=e599]
+            - img "ABC Nightiline logo" [ref=e601]
+            - img "Cnn Logo" [ref=e603]
+            - img "Fox News logo" [ref=e605]
+            - img "Anderson Cooper 360deg logo" [ref=e607]
+            - img "MSNBC Logo" [ref=e609]
+            - img "The Washington Post Logo" [ref=e611]
+            - img "KARE logo" [ref=e613]
+            - img "5ABC logo" [ref=e615]
+            - img "The New York Times Logo" [ref=e617]
+            - img "PBS logo" [ref=e619]
+            - img "WCCO Logo" [ref=e621]
+            - img "Pioneer Press Twin Cities com logo" [ref=e623]
+            - img "StarTribunne Logo" [ref=e625]
+        - generic [ref=e626]:
+          - img "Images wolf" [ref=e627]
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - heading "Request a free consultation" [level=2] [ref=e630]
+              - generic [ref=e633]:
+                - generic [ref=e635]:
+                  - textbox "Name(Required)" [ref=e638]:
+                    - /placeholder: "*Name"
+                  - textbox "Email(Required)" [ref=e641]:
+                    - /placeholder: "*Email"
+                  - textbox "Phone(Required)" [ref=e644]:
+                    - /placeholder: "*Phone"
+                  - combobox "Category(Required)" [ref=e647]:
+                    - option "*Category" [selected]
+                    - option "Employment"
+                    - option "Civil Rights"
+                    - option "Depo-Provera"
+                    - option "Sexual Assault Survivor"
+                    - option "Medical Malpractice"
+                    - option "Auto"
+                    - option "Other Personal Injury"
+                  - textbox "Message" [ref=e650]
+                - generic [ref=e651]:
+                  - button "Submit Now!" [ref=e652]
+                  - textbox [ref=e653]
+            - generic [ref=e654]:
+              - heading "Contact Details" [level=3] [ref=e655]
+              - generic [ref=e656]:
+                - heading "Call" [level=5] [ref=e657]
+                - img [ref=e658]
+                - link "1.855.BWOLVES" [ref=e662] [cursor=pointer]:
+                  - /url: tel:6124557050
+              - generic [ref=e663]:
+                - heading "Fax" [level=5] [ref=e664]
+                - img [ref=e665]
+                - link "612-455-7051" [ref=e676] [cursor=pointer]:
+                  - /url: ""
+              - generic [ref=e677]:
+                - heading "Pence Building" [level=5] [ref=e678]
+                - img [ref=e679]
+                - link "800 Hennepin Avenue 800 Pence Building Minneapolis, MN 55403" [ref=e682] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/aYM9Qbuz1VWDMUGs7
+                  - text: 800 Hennepin Avenue
+                  - text: 800 Pence Building
+                  - text: Minneapolis, MN 55403
+                - link "Get Directions" [ref=e683] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/aYM9Qbuz1VWDMUGs7
+              - generic [ref=e684]: contact
+  - contentinfo [ref=e685]:
+    - generic [ref=e686]:
+      - generic [ref=e687]:
+        - generic [ref=e688]:
+          - paragraph [ref=e689]: © 2026 STORMS DWORAK LLC All Rights Reserved
+          - generic [ref=e690]:
+            - link "Site Map" [ref=e691] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/sitemap/
+            - text: "|"
+            - link "Disclaimer" [ref=e692] [cursor=pointer]:
+              - /url: https://www.stormsdworak.com/disclaimer/
+            - text: "|"
+            - link "Site By:" [ref=e693] [cursor=pointer]:
+              - /url: https://niftymarketing.com/?utm_source=stormsdworak&utm_medium=referral&utm_campaign=footer+tag
+              - generic [ref=e694]: "Site By:"
+        - paragraph [ref=e695]: Client Advertising. Storms Dworak LLC website is designed for general information only. The information presented on this site should not be construed as legal advice nor the formation of a lawyer/client relationship.
+      - link "STORMS DWORAK LLC Trial Lawyers" [ref=e696] [cursor=pointer]:
+        - /url: https://www.stormsdworak.com
+        - img "STORMS DWORAK LLC Trial Lawyers" [ref=e697]

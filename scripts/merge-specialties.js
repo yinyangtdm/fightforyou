@@ -4,7 +4,7 @@ const { PrismaClient } = require("@prisma/client")
 const { PrismaPg } = require("@prisma/adapter-pg")
 
 const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
+  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL_PROD, ssl: { rejectUnauthorized: false } }),
 })
 
 // Complete merge history — all rounds combined.
@@ -29,9 +29,9 @@ const MERGES = {
   "Police Shootings":             "Police Brutality",
 
   // Into Police Misconduct (chains flattened)
-  "Illegal Searches":             "Police Misconduct",
-  "Illegal Search and Seizure":   "Police Misconduct",
-  "Police Pursuit":               "Police Misconduct",
+  "Illegal Searches":             "Fourth Amendment",
+  "Illegal Search and Seizure":   "Fourth Amendment",
+  "Police Pursuit":               "Police Negligence",
   "Police Retaliation":           "Police Misconduct",
   "Racial Profiling":             "Police Misconduct",
   "Unlawful Stops":               "Police Misconduct",

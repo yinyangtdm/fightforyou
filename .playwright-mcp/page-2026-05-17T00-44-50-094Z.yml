@@ -1,0 +1,227 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - paragraph [ref=e6]: Fighting Police Misconduct
+      - link "Law Offices of Dale K. Galipo" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Law Offices of Dale K. Galipo" [ref=e8]
+      - generic [ref=e9]:
+        - paragraph [ref=e10]: Get The Justice You Deserve
+        - paragraph [ref=e11]:
+          - link "818-347-3333" [ref=e12] [cursor=pointer]:
+            - /url: tel:+18183473333
+    - navigation [ref=e13]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/
+        - listitem [ref=e17]:
+          - generic [ref=e18]: Our Team
+          - generic:
+            - list:
+              - listitem:
+                - link "Dale K. Galipo":
+                  - /url: https://www.galipolaw.com/dale-k-galipo/
+              - listitem:
+                - link "Eric Valenzuela":
+                  - /url: https://www.galipolaw.com/eric-valenzuela/
+              - listitem:
+                - link "Renée Valentine Masongsong":
+                  - /url: https://www.galipolaw.com/renee-v-masongsong/
+              - listitem:
+                - link "Hang D. Le":
+                  - /url: https://www.galipolaw.com/hang-d-le/
+              - listitem:
+                - link "Marcel F. Sincich":
+                  - /url: https://www.galipolaw.com/marcel-f-sincich/
+              - listitem:
+                - link "Brendan Johnson":
+                  - /url: https://www.galipolaw.com/brendan-johnson/
+              - listitem:
+                - link "Alejandro Monguia":
+                  - /url: https://www.galipolaw.com/alejandro-monguia/
+              - listitem:
+                - link "Benjamin S. Levine":
+                  - /url: https://www.galipolaw.com/benjamin-s-levine/
+              - listitem:
+                - link "Cooper Alison-Mayne":
+                  - /url: https://www.galipolaw.com/cooper-alison-mayne/
+              - listitem:
+                - link "Leslie De Leon":
+                  - /url: https://www.galipolaw.com/leslie-de-leon/
+              - listitem:
+                - link "Santiago G. Laurel":
+                  - /url: https://www.galipolaw.com/santiago-g-laurel/
+              - listitem:
+                - link "Darci Gilbert":
+                  - /url: https://www.galipolaw.com/darci-gilbert/
+              - listitem:
+                - link "Sunne K. Sanders":
+                  - /url: https://www.galipolaw.com/sunne-k-sanders/
+        - listitem [ref=e19]:
+          - link "Practice Areas" [ref=e20] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/practice-areas/
+          - list:
+            - listitem:
+              - link "Asphyxia & Restraint":
+                - /url: https://www.galipolaw.com/asphyxia-restraint/
+            - listitem:
+              - link "Excessive Force":
+                - /url: https://www.galipolaw.com/excessive-restraint/
+            - listitem:
+              - link "Denial of Medical Care":
+                - /url: https://www.galipolaw.com/denial-of-medical-care/
+            - listitem:
+              - link "In-Custody Death":
+                - /url: https://www.galipolaw.com/in-custody-death/
+            - listitem:
+              - link "Officer-Involved Shootings":
+                - /url: https://www.galipolaw.com/officer-involved-shootings/
+            - listitem:
+              - link "Police Misconduct":
+                - /url: https://www.galipolaw.com/police-misconduct/
+            - listitem:
+              - link "Sexual Assault":
+                - /url: https://www.galipolaw.com/sexual-assault/
+            - listitem:
+              - link "Wrongful Conviction":
+                - /url: https://www.galipolaw.com/police-misconduct-wrongful-conviction/
+        - listitem [ref=e21]:
+          - link "Success Record" [ref=e22] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/winning-record/
+        - listitem [ref=e23]:
+          - link "Reviews" [ref=e24] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/testimonials/
+        - listitem [ref=e25]:
+          - generic [ref=e26]: News & Media
+          - list:
+            - listitem:
+              - link "News":
+                - /url: https://www.galipolaw.com/news/
+            - listitem:
+              - link "Media":
+                - /url: https://www.galipolaw.com/media/
+            - listitem:
+              - link "Blog":
+                - /url: https://www.galipolaw.com/blog/
+        - listitem [ref=e27]:
+          - link "Contact" [ref=e28] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/contact-us/
+      - generic [ref=e30] [cursor=pointer]:
+        - img "Search Icon" [ref=e31]
+        - img "Search Icon" [ref=e32]
+  - article [ref=e37]:
+    - generic [ref=e38]:
+      - link "Home" [ref=e39] [cursor=pointer]:
+        - /url: https://www.galipolaw.com
+      - text: / Dale K. Galipo
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading "Civil Rights Attorney" [level=4] [ref=e42]
+        - heading "DALE K. GALIPO" [level=1] [ref=e43]
+        - paragraph [ref=e44]: Dale K. Galipo is the founder and principal of The Law Offices of Dale K. Galipo, in Woodland Hills, California. Originally from a suburb of Cleveland, Ohio, he graduated from The University of Michigan, Ann Arbor, with a degree in business administration and obtained his J.D. from the UCLA School of Law in 1984.
+        - paragraph [ref=e45]: With a highly successful trial record in both criminal defense and personal injury law throughout the 90’s, Mr. Galipo was dubbed “The Strikes Man” by the Daily Journal Los Angeles for multiple jury acquittals in “three strikes” cases. From 1995 through 1996, he obtained six consecutive jury acquittals on major felony cases, and continuing to prove his trial abilities, he soon obtained multimillion dollar jury verdicts in personal injury cases.
+        - paragraph [ref=e46]: Mr. Galipo focused his trial skills on civil rights cases involving police misconduct and by 2004, was achieving seven-figure jury verdicts for victims of excessive force and police abuse. In 2011 he won ten civil rights cases in a single year! In 2012 he was awarded the Defender of the Constitution Award by the Inland Empire Chapter of the Federal Bar Association and later was the Honoree for the Martin Luther King award, presented in his name at the UC Davis School of Law. In 2020, he was awarded the coveted CAALA Trial Lawyer of the Year award and in the same year, received the prestigious CAOC Consumer Attorney of the Year award! In 2023 and 2024, he was named among The Daily Journal’s Top Plaintiff’s Lawyers and in 2024 he was a finalist for the CAOC Attorney of the Year award and a top 15 finalist for CAALA Trial Lawyer of the Year. Later that same year, he was honored with a CLAY award by The Daily Journal’s California Lawyers Magazine.
+        - paragraph [ref=e47]: Mr. Galipo has been selected to the Southern California’s Super Lawyers list for the past thirteen years running. He is an esteemed member of The Inner Circle of Advocates and a proud Fellow of The American College of Trial Lawyers. Mr. Galipo has prevailed in over 100 Jury Trials with more than 100 seven-figure verdicts and settlements and twenty published opinions on civil rights.
+        - paragraph [ref=e48]: Dale Galipo is widely considered to be one of the top civil rights trial attorneys in the country.
+        - blockquote [ref=e49]:
+          - heading "Someone Has To Police The Police" [level=2] [ref=e50]:
+            - emphasis [ref=e51]: Someone Has To Police The Police
+      - img "Dale K. Galipo, Los Angeles Civil Rights Attorney" [ref=e53]
+  - generic [ref=e55]:
+    - generic [ref=e56]:
+      - img "Dale Galipo"
+    - generic [ref=e57]:
+      - paragraph [ref=e58]: Raising the Legal Standard
+      - paragraph [ref=e59]: "Impressive Outcomes:"
+      - list [ref=e60]:
+        - listitem [ref=e61]: Secured over $500 MILLION in verdicts and settlements for clients.
+        - listitem [ref=e62]: Prevailed in over 100 Jury Trials.
+        - listitem [ref=e63]: Authored twenty published opinions in the 9th Circuit Court of Appeals.
+      - paragraph [ref=e64]: "Industry Recognition:"
+      - list [ref=e65]:
+        - listitem [ref=e66]: Daily Journal’s CLAY Award 2024
+        - listitem [ref=e67]: UC Davis School of Law MLK Honoree for Social and Political Justice for the Disadvantaged
+        - listitem [ref=e68]: Daily Journal’s Top Plaintiff’s Lawyer for 2023 and 2024
+        - listitem [ref=e69]: Federal Bar Association Defender of the Constitution Award
+        - listitem [ref=e70]: CAALA 2020 Trial Lawyer of the year!
+        - listitem [ref=e71]: CAOC 2020 Consumer Attorney of the Year!
+        - listitem [ref=e72]: Top100Lawyers.com - Attorney of the Year 2023
+        - listitem [ref=e73]: Top100Lawyers.com - Civil Rights Attorney of the Year 2024
+      - paragraph [ref=e74]: "Peer Recognition:"
+      - list [ref=e75]:
+        - listitem [ref=e76]: Member of the Inner Circle of Advocates
+        - listitem [ref=e77]: Southern California Super Lawyers list 10+ years.
+        - listitem [ref=e78]: Proud Fellow of the American College of Trial Lawyers.
+  - generic [ref=e81]:
+    - list [ref=e82]:
+      - listitem [ref=e83]:
+        - img "American College of Trial Lawyers" [ref=e84]
+      - listitem [ref=e85]:
+        - img "Avvo Rating 10.0 Top Attorney" [ref=e86]
+      - listitem [ref=e87]:
+        - img "The Inner Circle of Advocates" [ref=e88]
+      - listitem [ref=e89]:
+        - img "Rated By Super Lawyers Dele K. Galipo Superlawyers.com" [ref=e90]
+      - listitem [ref=e91]:
+        - img "Top 100 Lawyers" [ref=e92]
+    - link "Send us Your Information" [ref=e94] [cursor=pointer]:
+      - /url: https://www.galipolaw.com/contact-us/
+  - generic [ref=e96]:
+    - paragraph [ref=e97]: Exceptional Legal Expertise
+    - paragraph [ref=e98]: Dale K. Galipo has been named CAOC Consumer Attorney of the Year and CAALA Trial Lawyer of the Year. Celebrate his outstanding achievements by watching the video highlights of these events below, showcasing his relentless pursuit of justice.
+    - list [ref=e99]:
+      - listitem [ref=e100]:
+        - generic [ref=e101]:
+          - img "CAOC Consumer Attorney of the Year" [ref=e103]
+          - paragraph [ref=e104]:
+            - text: CAOC Consumer Attorney
+            - text: of the Year
+      - listitem [ref=e105]:
+        - generic [ref=e106]:
+          - img "2018 Trial Lawyer of the Year" [ref=e108]
+          - paragraph [ref=e109]:
+            - text: 2018 Trial Lawyer
+            - text: of the Year
+      - listitem [ref=e110]:
+        - generic [ref=e111]:
+          - img "Caala Trial Lawyer Of The Year!" [ref=e113]
+          - paragraph [ref=e114]:
+            - text: Caala Trial Lawyer
+            - text: Of The Year!
+    - paragraph [ref=e115]: Dale K. Galipo, a renowned Southern California attorney, is celebrated for his deep understanding of the region’s diverse communities and law enforcement environments. Galipo, a tireless advocate for civil rights, has earned recognition as a reliable ally for individuals unjustly treated by law enforcement. His significant contributions to the legal community were acknowledged when he was named Trial Lawyer of the Year in 2020 and included in the Inner Circle of Advocates. Galipo’s commitment to his clients, dedication to the community, and proven trial expertise continuously result in significant courtroom victories, distinguishing him in the field of civil rights law.
+  - generic [ref=e117]:
+    - paragraph [ref=e118]: Watch a Closing Argument Resulting in $33.5 Million Verdict
+    - paragraph [ref=e119]: Watch Dale K. Galipo delivering the closing and rebuttal arguments in Archibald v. County of San Bernardino (2018).
+    - list [ref=e120]:
+      - listitem [ref=e121]:
+        - img "Rebuttal Argument Video" [ref=e123]
+      - listitem [ref=e124]:
+        - img "Rebuttal Argument Video" [ref=e126]
+    - link "View More Videos" [ref=e128] [cursor=pointer]:
+      - /url: https://www.youtube.com/channel/UCwfme-V-eUQAHzx_-OfwauA
+  - contentinfo [ref=e129]:
+    - link "Law Offices of Dale K. Galipo" [ref=e133] [cursor=pointer]:
+      - /url: /
+      - img "Law Offices of Dale K. Galipo" [ref=e134]
+    - generic [ref=e136]:
+      - list [ref=e137]:
+        - listitem [ref=e138]:
+          - link "Site Map" [ref=e139] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/site-map/
+        - listitem [ref=e140]:
+          - link "Disclaimer" [ref=e141] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/disclaimer/
+        - listitem [ref=e142]:
+          - link "Contact Us" [ref=e143] [cursor=pointer]:
+            - /url: https://www.galipolaw.com/contact-us/
+      - generic [ref=e144]:
+        - paragraph [ref=e145]:
+          - text: "Address: 21800 Burbank Blvd., Suite 310, Woodland Hills, CA 91367 | Phone:"
+          - link "818-347-3333" [ref=e146] [cursor=pointer]:
+            - /url: tel:+18183473333
+        - paragraph [ref=e147]: "IMPORTANT NOTICE: The information on this website is for informational purposes only. This website should not be taken as legal advice. Prior results do not guarantee a similar outcome. This information should not be taken as the formation of an attorney-client relationship. For more details, read the full disclaimer."
+        - paragraph [ref=e148]: © 2024 - 2026 Law Offices of Dale K. Galipo
+      - link "Everest Legal Marketing" [ref=e149] [cursor=pointer]:
+        - /url: https://www.everestlegalmarketing.com/
+        - img "Everest Legal Marketing" [ref=e150]

@@ -1,0 +1,320 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner:
+      - generic:
+        - generic [ref=e5]:
+          - generic [ref=e6]:
+            - link "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e9] [cursor=pointer]:
+              - /url: /
+              - img "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e11]
+            - generic [ref=e12]:
+              - button "Contact Us" [ref=e14] [cursor=pointer]
+              - generic [ref=e17]:
+                - navigation [ref=e19]:
+                  - list [ref=e20]:
+                    - listitem [ref=e21]:
+                      - link "Home" [ref=e22] [cursor=pointer]:
+                        - /url: /
+                    - listitem [ref=e23]:
+                      - link "About" [ref=e24] [cursor=pointer]:
+                        - /url: /about/
+                    - listitem [ref=e25]:
+                      - link "Attorneys 3" [ref=e26] [cursor=pointer]:
+                        - /url: /attorney/
+                    - listitem [ref=e27]:
+                      - generic [ref=e28]: Practice Areas 3
+                    - listitem [ref=e29]:
+                      - link "News" [ref=e30] [cursor=pointer]:
+                        - /url: /news/
+                    - listitem [ref=e31]:
+                      - link "Blog" [ref=e32] [cursor=pointer]:
+                        - /url: /blog/
+                    - listitem [ref=e33]:
+                      - link "Contact" [ref=e34] [cursor=pointer]:
+                        - /url: /contact/
+                - text: aMenu
+          - text: 3 3 aMenu
+        - text: 3 3 a
+    - generic [ref=e35]:
+      - main [ref=e36]:
+        - generic [ref=e38]:
+          - paragraph [ref=e44]: We Fight Against Injustice – Wherever It May Arise
+          - navigation "Breadcrumb" [ref=e49]:
+            - list [ref=e50]:
+              - listitem [ref=e51]:
+                - link "Home" [ref=e52] [cursor=pointer]:
+                  - /url: https://www.sshhzlaw.com
+              - listitem [ref=e53]: »
+              - listitem [ref=e54]: Police Misconduct
+          - generic [ref=e56]:
+            - generic [ref=e58]:
+              - heading "Seeking Justice For Victims Of Police Misconduct" [level=1] [ref=e59]
+              - article [ref=e60]:
+                - generic [ref=e61]:
+                  - paragraph [ref=e62]: Since 1990, Schonbrun Seplow Harris Hoffman & Zeldes, LLP has built a record of results helping victims of police misconduct in Los Angeles and throughout California. Our strong attorneys are vigorous advocates who are willing to take on any opponent, including police departments, in order to do right for those who have been harmed.
+                  - paragraph [ref=e63]:
+                    - text: Call Schonbrun Seplow Harris Hoffman & Zeldes, LLP at
+                    - link "310-396-0731" [ref=e65] [cursor=pointer]:
+                      - /url: tel:+1-310-396-0731
+                    - text: or
+                    - link "send us an email" [ref=e66] [cursor=pointer]:
+                      - /url: /contact/
+                    - text: to schedule an initial consultation about your police misconduct claim.
+                  - paragraph [ref=e67]: Allegations of police misconduct are frequent. Many people believe they were arrested without probable cause. Many people believe their constitutional rights were violated by an illegal search and seizure. There are also people who suffer much more serious forms of law enforcement misconduct. There are people who are seriously injured or even killed. There are people who are sent to prison for years before someone realizes that a mistake has been made and sets them free. These people truly deserve compensation and justice.
+                  - paragraph [ref=e68]: "We frequently handle cases involving:"
+                  - list [ref=e69]:
+                    - listitem [ref=e70]:
+                      - link "Excessive force" [ref=e71] [cursor=pointer]:
+                        - /url: /police-misconduct/excessive-force/
+                    - listitem [ref=e72]:
+                      - link "False arrest and imprisonment" [ref=e73] [cursor=pointer]:
+                        - /url: /police-misconduct/false-arrest-imprisonment/
+                  - heading "Police Misconduct Comes In Many Forms" [level=2] [ref=e74]
+                  - paragraph [ref=e75]: While excessive force and false arrest claims are perhaps the most common forms of police misconduct, our attorneys have seen many ways that police officers can abuse their power. For example, we handled a case involving a girl who was killed by gang members. The reason she was killed was because police officers falsely told them the girl had “snitched on them.” While these cases may be rare, they tend to be tragic. We can help.
+                  - heading "We Will Take On The Police Department" [level=2] [ref=e76]
+                  - paragraph [ref=e77]: We are trial lawyers, ready to go up against major opponents. To do this, we must take great care and thoroughly prepare the case. If you are considering getting in touch with us to take action, we encourage you to immediately start documenting. Keep medical records. Take photos of injuries. If there were witnesses, compile their names. Every detail could make a difference as we build your case to go up against the police.
+                  - heading "Contact Us For A Free Initial Consultation" [level=2] [ref=e78]
+                  - paragraph [ref=e79]:
+                    - text: Call us at
+                    - link "310-396-0731" [ref=e81] [cursor=pointer]:
+                      - /url: tel:+1-310-396-0731
+                    - text: or
+                    - link "send us an email" [ref=e82] [cursor=pointer]:
+                      - /url: /contact/
+                    - text: . Because we handle most police misconduct cases on a contingency fee basis, ensuring we believe in you and your case.
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - heading "Practice Areas" [level=2] [ref=e86]
+                - list [ref=e88]:
+                  - listitem [ref=e89]:
+                    - text: 
+                    - link "Appellate" [ref=e90] [cursor=pointer]:
+                      - /url: /appellate/
+                  - listitem [ref=e91]:
+                    - text: 
+                    - link "Civil Rights" [ref=e92] [cursor=pointer]:
+                      - /url: /civil-rights-law/
+                    - link "" [ref=e93] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e94]: 
+                    - text: 
+                  - listitem [ref=e95]:
+                    - text: 
+                    - link "Class Actions" [ref=e96] [cursor=pointer]:
+                      - /url: /class-actions/
+                    - link "" [ref=e97] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e98]: 
+                    - text:  
+                  - listitem [ref=e99]:
+                    - text: 
+                    - link "Employment" [ref=e100] [cursor=pointer]:
+                      - /url: /employment-law/
+                    - link "" [ref=e101] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e102]: 
+                    - text:                  
+                  - listitem [ref=e103]:
+                    - text: 
+                    - link "Human Rights" [ref=e104] [cursor=pointer]:
+                      - /url: /international-human-rights/
+                  - listitem [ref=e105]:
+                    - text: 
+                    - link "Personal Injury" [ref=e106] [cursor=pointer]:
+                      - /url: /personal-injury/
+                  - listitem [ref=e107]:
+                    - text: 
+                    - link "Police Misconduct" [ref=e108] [cursor=pointer]:
+                      - /url: /police-misconduct/
+                    - link "" [ref=e109] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=e110]: 
+                    - list [ref=e111]:
+                      - listitem [ref=e112]:
+                        - text: 
+                        - link "Excessive Force" [ref=e113] [cursor=pointer]:
+                          - /url: /police-misconduct/excessive-force/
+                      - listitem [ref=e114]:
+                        - text: 
+                        - link "False Arrest And Imprisonment" [ref=e115] [cursor=pointer]:
+                          - /url: /police-misconduct/false-arrest-imprisonment/
+              - separator [ref=e117]
+              - heading "Recent Blog Posts" [level=2] [ref=e119]
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - text: 
+                  - link "How to appeal a lost employment case in California" [ref=e123] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/04/how-to-appeal-a-lost-employment-case-in-california/
+                - listitem [ref=e124]:
+                  - text: 
+                  - link "When does a nurse’s “working lunch” become a legal issue?" [ref=e125] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/03/when-does-a-nurses-working-lunch-become-a-legal-issue/
+                - listitem [ref=e126]:
+                  - text: 
+                  - link "What rights do pregnant employees have under California law?" [ref=e127] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/02/what-rights-do-pregnant-employees-have-under-california-law/
+                - listitem [ref=e128]:
+                  - text: 
+                  - link "What evidence do you need in a class action alleging price-fixing?" [ref=e129] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/02/what-evidence-do-you-need-in-a-class-action-alleging-price-fixing/
+                - listitem [ref=e130]:
+                  - text: 
+                  - link "Understanding workplace retaliation and your rights in California" [ref=e131] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/blog/2026/01/understanding-workplace-retaliation-and-your-rights-in-california/
+      - contentinfo [ref=e132]:
+        - generic [ref=e133]:
+          - generic [ref=e136]:
+            - 'heading "We Will Make A Difference For You: Contact Us" [level=2] [ref=e139]'
+            - generic [ref=e142]: Loading Form...
+          - generic [ref=e143]:
+            - heading "Contact the firm" [level=2] [ref=e148]:
+              - strong [ref=e149]: Contact the firm
+            - generic [ref=e150]:
+              - generic [ref=e153] [cursor=pointer]:
+                - generic:
+                  - link "Pasadena Map":
+                    - /url: /south-pasadena-employment-law-office/
+                    - generic:
+                      - img "Pasadena Map"
+                - generic [ref=e154]:
+                  - heading "S. Pasadena Office" [level=3] [ref=e155]:
+                    - link "S. Pasadena Office" [ref=e156]:
+                      - /url: /south-pasadena-employment-law-office/
+                  - generic [ref=e157]:
+                    - paragraph [ref=e158]:
+                      - text: "Phone:"
+                      - strong [ref=e159]:
+                        - link "626-441-4129" [ref=e161]:
+                          - /url: tel:+1-626-441-4129
+                      - text: "Fax:"
+                      - strong [ref=e162]: 626-283-5770
+                      - generic [ref=e163]:
+                        - text: 715 Fremont Avenue
+                        - text: Suite A
+                        - text: S. Pasadena, CA 91030
+                    - paragraph [ref=e164]:
+                      - link "S. Pasadena Office" [ref=e165]:
+                        - /url: /south-pasadena-employment-law-office/
+              - generic [ref=e168] [cursor=pointer]:
+                - generic:
+                  - link "Culver City Map":
+                    - /url: /culver-city-employment-law-office/
+                    - generic:
+                      - img "Culver City Map"
+                - generic [ref=e169]:
+                  - heading "Culver City Office" [level=3] [ref=e170]:
+                    - link "Culver City Office" [ref=e171]:
+                      - /url: /culver-city-employment-law-office/
+                  - generic [ref=e172]:
+                    - paragraph [ref=e173]:
+                      - text: "Phone:"
+                      - strong [ref=e174]:
+                        - link "310-396-0731" [ref=e176]:
+                          - /url: tel:+1-310-396-0731
+                      - text: "Fax:"
+                      - strong [ref=e177]: 310-399-7040
+                      - generic [ref=e178]:
+                        - text: "9415 Culver Blvd. #115"
+                        - text: Culver City, CA 90232
+                    - paragraph [ref=e179]:
+                      - link "Culver City Office" [ref=e180]:
+                        - /url: /culver-city-employment-law-office/
+              - generic [ref=e183] [cursor=pointer]:
+                - generic:
+                  - link "Hermosa Beach Map":
+                    - /url: /hermosa-beach-law-office/
+                    - generic:
+                      - img "Hermosa Beach Map"
+                - generic [ref=e184]:
+                  - heading "Hermosa Beach Office" [level=3] [ref=e185]:
+                    - link "Hermosa Beach Office" [ref=e186]:
+                      - /url: /hermosa-beach-law-office/
+                  - paragraph [ref=e188]:
+                    - text: "Phone:"
+                    - strong [ref=e189]:
+                      - link "424-297-0114" [ref=e191]:
+                        - /url: tel:+1-424-297-0114
+                    - text: "Fax:"
+                    - strong [ref=e192]: 310-399-7040
+                    - generic [ref=e193]:
+                      - text: 200 Pier Ave
+                      - text: Suite 226
+                      - text: Hermosa Beach, CA 90254
+                    - link "Hermosa Beach Office" [ref=e194]:
+                      - /url: /hermosa-beach-law-office/
+              - generic [ref=e197] [cursor=pointer]:
+                - generic:
+                  - link "San Diego Map":
+                    - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+                    - generic:
+                      - img "San Diego Map"
+                - generic [ref=e198]:
+                  - heading "San Diego Office" [level=3] [ref=e199]:
+                    - link "San Diego Office" [ref=e200]:
+                      - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+                  - paragraph [ref=e202]:
+                    - text: "Phone:"
+                    - strong [ref=e203]:
+                      - link "619-400-4990" [ref=e205]:
+                        - /url: tel:+1-619-400-4990
+                    - text: "Fax:"
+                    - strong [ref=e206]: 310-399-7040
+                    - generic [ref=e207]:
+                      - text: 501 W. Broadway
+                      - text: Suite 800
+                      - text: San Diego, CA 92101
+                    - link "San Diego Office" [ref=e208]:
+                      - /url: https://www.google.com/maps/place/501+W+Broadway+%23800,+San+Diego,+CA+92101/@32.715111,-117.1699587,17z/data=!3m1!4b1!4m5!3m4!1s0x80d954aa280b1637:0x272940ce98e383eb!8m2!3d32.715111!4d-117.16777
+          - paragraph [ref=e214]: Reach out to one of our experienced attorneys today
+          - generic [ref=e216]:
+            - generic [ref=e218]:
+              - generic:
+                - img "California Employment Lawyers Association | Cela"
+            - generic [ref=e220]:
+              - generic:
+                - img "The State Bar Of California | July 29th 1927"
+            - generic [ref=e222]:
+              - generic:
+                - img "Lacba | Los Angeles County Bar Association"
+            - generic [ref=e224]:
+              - generic:
+                - img "Nela | National Employment Lawyers Association"
+            - generic [ref=e226]:
+              - generic:
+                - img "Consumer Attorneys Of California"
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - button "Review Us" [ref=e231] [cursor=pointer]
+              - list [ref=e233]:
+                - listitem [ref=e234]:
+                  - link " Follow on Facebook, opens in a new window" [ref=e235] [cursor=pointer]:
+                    - /url: https://www.facebook.com/sshhzlaw/
+                    - text: 
+                    - generic: Follow on Facebook, opens in a new window
+            - text: 
+            - generic [ref=e239]:
+              - paragraph [ref=e240]
+              - generic [ref=e241]:
+                - paragraph [ref=e243]:
+                  - text: © 2026
+                  - link "Schonbrun Seplow Harris Hoffman & Zeldes, LLP" [ref=e244] [cursor=pointer]:
+                    - /url: https://lawyers.findlaw.com/california/culver-city/schonbrun-seplow-harris-hoffman--zeldes-llp-MTA2MDA4NF8x/
+                  - text: • All Rights Reserved
+                - paragraph [ref=e246]:
+                  - link "Disclaimer" [ref=e247] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/disclaimer/
+                  - text: "|"
+                  - link "Site Map" [ref=e248] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/site-map/
+                  - text: "|"
+                  - link "Privacy Policy" [ref=e249] [cursor=pointer]:
+                    - /url: https://www.sshhzlaw.com/privacy/
+                  - text: "|"
+                  - link "Business Development Solutions" [ref=e250] [cursor=pointer]:
+                    - /url: https://www.findlaw.com/lawyer-marketing/
+                  - text: by
+                  - link "FindLaw" [ref=e251] [cursor=pointer]:
+                    - /url: https://www.findlaw.com/
+  - text: "2"

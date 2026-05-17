@@ -1,0 +1,633 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: best california attorney firm litigation against police law enforcement civil rights best california attorney firm litigation against police law enforcement civil rights
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]
+      - generic [ref=e49]:
+        - button "Google apps" [ref=e51] [cursor=pointer]:
+          - img [ref=e52]
+        - link "Sign in" [ref=e56] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Bcalifornia%2Battorney%2Bfirm%2Blitigation%2Bagainst%2Bpolice%2Blaw%2Benforcement%2Bcivil%2Brights%26sei%3Dzw4JarqBFIjJkPIPpqO14QU&ec=futura_srp_og_si_72236_p
+  - generic [ref=e58]:
+    - navigation [ref=e64]:
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - link "AI Mode" [ref=e71] [cursor=pointer]:
+            - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEX0JrNlkGKVM9D79Cip-YIQV9osyDh1Jc2MI6cm0dwB6YmfOViysrSxqyFA4p2wfL-CVWPYsO14R85GOzNNlMjHHbYi51TNueZBh5oPPs5QpZv1w8cGytpAxMiwqPH5ClTD3WTw&aep=1&ntc=1&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q2J8OegQIDhAD
+            - generic [ref=e74]: AI Mode
+        - listitem [ref=e75]:
+          - link "All" [disabled] [ref=e76]:
+            - generic [ref=e78]: All
+        - listitem [ref=e79]:
+          - link "News" [ref=e80] [cursor=pointer]:
+            - /url: /search?sca_esv=8adbecc950e8a8f8&q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEX0JrNlkGKVM9D79Cip-YIQV9osyDh1Jc2MI6cm0dwB6YmfOViysrSxqyFA4p2wfL-CVWPYsO14R85GOzNNlMjHHbYi51TNueZBh5oPPs5QpZv1w8cGytpAxMiwqPH5ClTD3WTw&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q0pQJegQIERAB
+            - generic [ref=e82]: News
+        - listitem [ref=e83]:
+          - link "Short videos" [ref=e84] [cursor=pointer]:
+            - /url: /search?sca_esv=8adbecc950e8a8f8&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEX0JrNlkGKVM9D79Cip-YIQV9osyDh1Jc2MI6cm0dwB6YmfOViysrSxqyFA4p2wfL-CVWPYsO14R85GOzNNlMjHHbYi51TNueZBh5oPPs5QpZv1w8cGytpAxMiwqPH5ClTD3WTw&q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Qs6gLegQIFBAB
+            - generic [ref=e86]: Short videos
+        - listitem [ref=e87]:
+          - link "Forums" [ref=e88] [cursor=pointer]:
+            - /url: /search?sca_esv=8adbecc950e8a8f8&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEX0JrNlkGKVM9D79Cip-YIQV9osyDh1Jc2MI6cm0dwB6YmfOViysrSxqyFA4p2wfL-CVWPYsO14R85GOzNNlMjHHbYi51TNueZBh5oPPs5QpZv1w8cGytpAxMiwqPH5ClTD3WTw&q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Qs6gLegQIExAB
+            - generic [ref=e90]: Forums
+        - listitem [ref=e91]:
+          - link "Images" [ref=e92] [cursor=pointer]:
+            - /url: /search?sca_esv=8adbecc950e8a8f8&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEX0JrNlkGKVM9D79Cip-YIQV9osyDh1Jc2MI6cm0dwB6YmfOViysrSxqyFA4p2wfL-CVWPYsO14R85GOzNNlMjHHbYi51TNueZBh5oPPs5QpZv1w8cGytpAxMiwqPH5ClTD3WTw&q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QtKgLegQIFhAB
+            - generic [ref=e94]: Images
+        - listitem [ref=e95]:
+          - link "Shopping" [ref=e96] [cursor=pointer]:
+            - /url: /search?sca_esv=8adbecc950e8a8f8&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEX0JrNlkGKVM9D79Cip-YIQV9osyDh1Jc2MI6cm0dwB6YmfOViysrSxqyFA4p2wfL-CVWPYsO14R85GOzNNlMjHHbYi51TNueZBh5oPPs5QpZv1w8cGytpAxMiwqPH5ClTD3WTw&q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&ved=1t:220175&ictx=111
+            - generic [ref=e98]: Shopping
+        - listitem [ref=e99]:
+          - button "More filters" [ref=e100] [cursor=pointer]:
+            - generic "More filters" [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: More
+                - img [ref=e105]
+    - heading "Search Results" [level=1] [ref=e107]
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e115]:
+          - generic [ref=e120]:
+            - heading "California" [level=2] [ref=e121]:
+              - img [ref=e124]:
+                - img [ref=e125]
+              - generic [ref=e128]: California
+            - generic [ref=e130]:
+              - text: ∙
+              - button "Choose area" [ref=e131] [cursor=pointer]
+            - button "How location is used" [ref=e134] [cursor=pointer]:
+              - img [ref=e136]
+          - region "Ads" [ref=e139]:
+            - generic [ref=e140]:
+              - heading "Sponsored results" [level=2] [ref=e147]
+              - generic [ref=e148]:
+                - generic [ref=e155]:
+                  - generic [ref=e161]:
+                    - generic [ref=e163]:
+                      - generic [ref=e164]:
+                        - link ", 5 star rating 143 reviews" [ref=e167] [cursor=pointer]:
+                          - link "Gammill Law https://www.gammill.law Why this ad?" [ref=e168]:
+                            - /url: https://www.gammill.law/homepage-final/civil-rights-attorney-san-bernardino/
+                            - generic [ref=e171]:
+                              - img [ref=e180]
+                              - generic [ref=e182]:
+                                - generic [ref=e183]: Gammill Law
+                                - generic [ref=e185]: https://www.gammill.law
+                              - button "Why this ad?" [ref=e191]:
+                                - img [ref=e193]
+                          - heading "Specializing in cases of police misconduct" [level=3] [ref=e195]:
+                            - link "Specializing in cases of police misconduct" [ref=e196]:
+                              - /url: https://www.gammill.law/homepage-final/civil-rights-attorney-san-bernardino/
+                              - generic [ref=e197]: Specializing in cases of police misconduct
+                          - generic [ref=e198]:
+                            - text: Personal injury attorney · 3820 Del Amo Boulevard ·
+                            - generic [ref=e200]: Open 24 hours
+                          - img [ref=e202]:
+                            - text: "5.0"
+                            - img [ref=e203]
+                            - text: (143)
+                        - generic [ref=e207]:
+                          - generic [ref=e209] [cursor=pointer]:
+                            - generic:
+                              - list:
+                                - listitem [ref=e210]:
+                                  - link "1st image of type unknown" [ref=e213]:
+                                    - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAEQDxoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAJEgLBYPD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_0j6ZDV23GDtY0-O5ExFeTh1iz9vw&q=&nis=4&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QjKsKegQIKRAQ&adurl=https://www.gammill.law/homepage-final/civil-rights-attorney-san-bernardino/%3Fcampaignid%3D22698969732%26adgroupid%3D%26creative%3D%26matchtype%3D%26network%3Dx%26device%3Dc%26keyword%3D%26gad_source%3D1%26gad_campaignid%3D22698970308%26gbraid%3D0AAAAAC_J4qJI8zdpBk7R_vWAMpvhe1Spy%26gclid%3DEAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAJEgLBYPD_BwE
+                                    - generic "Image Carousel" [ref=e214]
+                          - generic:
+                            - button "Previous in Carousel" [ref=e217] [cursor=pointer]:
+                              - img [ref=e218]
+                            - button "Next in Carousel" [ref=e220] [cursor=pointer]:
+                              - img [ref=e221]
+                      - generic [ref=e226]: In the quest for justice in civil rights violations, police misconduct, and police shootings in San Bernardino, Gammill Law stands with you to see justice done. In the quest for justice in civil rights violations, police misconduct, and police shootings in San Bernardino, Gammill Law stands with...
+                      - generic [ref=e228]:
+                        - link "Website" [ref=e230] [cursor=pointer]:
+                          - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAEQERoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASALEgLW9fD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_3KsdLj1d5bwQgstqSbtjCMhgU9iQ&nis=4&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1Y4JegQIKRAe&adurl=https://www.gammill.law/homepage-final/civil-rights-attorney-san-bernardino/%3Fcampaignid%3D22698969732%26adgroupid%3D%26creative%3D%26matchtype%3D%26network%3Dx%26device%3Dc%26keyword%3D%26gad_source%3D1%26gad_campaignid%3D22698970308%26gbraid%3D0AAAAAC_J4qJI8zdpBk7R_vWAMpvhe1Spy%26gclid%3DEAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASALEgLW9fD_BwE
+                          - generic [ref=e232]:
+                            - img [ref=e235]
+                            - generic [ref=e237]: Website
+                        - link "Directions" [ref=e239] [cursor=pointer]:
+                          - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAEQCBoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAEEgLTUvD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_396XEmIzw5MlFTDG-yhnBoqyH5oA&nis=4&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QhMIJegQIKRAg&adurl=https://maps.google.com/maps%3Fum%3D1%26ie%3DUTF-8%26daddr%3D3820%2BDel%2BAmo%2BBoulevard%2BSte%2B304,%2BTorrance,%2BCA%2B90503%26geocode%3DFbp6BAIdNQ3y-ClPxassBLXCgDGWy5yN8yliBg%26f%3Dd%26saddr%3D%26iwstate1%3Ddir:to%26fb%3D1%26lsa%3DCAAQARgEIhMIhqT4sYu_lAMVzZHuAR08hST_%26ei%3Dzw4JasaAIM2jur8PvIqS-Q8%26gad_source%3D1%26gad_campaignid%3D22698970308%26gbraid%3D0AAAAAC_J4qJI8zdpBk7R_vWAMpvhe1Spy%26gclid%3DEAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAEEgLTUvD_BwE
+                          - generic [ref=e241]:
+                            - img [ref=e244]
+                            - generic [ref=e249]: Directions
+                        - generic [ref=e252] [cursor=pointer]:
+                          - img [ref=e255]
+                          - generic [ref=e257]: Call us
+                    - generic [ref=e258]:
+                      - link "Civil rights violations" [ref=e261] [cursor=pointer]:
+                        - /url: /aclk?sa=L&pf=1&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAEQKhoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAkEgJvG_D_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_0sM8r1BCxPZacar2oZ88EJvSTrew&q=&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QwgUoAXoECCkQLA&adurl=https://www.gammill.law/homepage-final/civil-rights-attorney-san-bernardino/%3Fcampaignid%3D22698969732%26adgroupid%3D%26creative%3D%26matchtype%3D%26network%3Dx%26device%3Dc%26keyword%3D%26gad_source%3D1%26gad_campaignid%3D22698970308%26gbraid%3D0AAAAAC_J4qJI8zdpBk7R_vWAMpvhe1Spy%26gclid%3DEAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAkEgJvG_D_BwE
+                        - img [ref=e263]
+                        - generic [ref=e265]: Civil rights violations
+                      - link "San Bernardino Police Misconduct Attorney- Gammill Law" [ref=e268] [cursor=pointer]:
+                        - /url: /aclk?sa=L&pf=1&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAEQKxoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAlEgJh0vD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_0dwMeJWVpsPhgDvzI4xizslO41Kg&q=&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QwgUoA3oECCkQLg&adurl=https://www.gammill.law/homepage-final/civil-rights-attorney-san-bernardino/%3Fcampaignid%3D22698969732%26adgroupid%3D%26creative%3D%26matchtype%3D%26network%3Dx%26device%3Dc%26keyword%3D%26gad_source%3D1%26gad_campaignid%3D22698970308%26gbraid%3D0AAAAAC_J4qJI8zdpBk7R_vWAMpvhe1Spy%26gclid%3DEAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYASAlEgJh0vD_BwE
+                        - img [ref=e270]
+                        - generic [ref=e272]: San Bernardino Police Misconduct Attorney- Gammill Law
+                      - link "ValBot" [ref=e275] [cursor=pointer]:
+                        - /url: https://www.gammill.law/ai-calculator/?sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QwgUoBXoECCkQMA
+                        - img [ref=e277]
+                        - generic [ref=e279]: ValBot
+                  - generic [ref=e286]:
+                    - link "Image from kirakosianlaw.com" [ref=e288] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAEQAhoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYAiACEgLjQvD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_0Uh1LKBxXC9dQ5umKNt8Yj54QoMA&q=&nis=4&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Qh78CegQIHhAB&adurl=https://go.kirakosianlaw.com%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DLeads-Search-main-LA%26utm_adgroup%3DAdGroup1%26utm_term%3Dpolice%2520misconduct%2520attorney%26utm_matchtype%3Db%26utm_device%3Dc%26utm_content%3D685432850304%26gad_source%3D1%26gad_campaignid%3D20885555012%26gbraid%3D0AAAAABNjBV-E2sOIgsHcYu5CBnZ9Az4ju%26gclid%3DEAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYAiACEgLjQvD_BwE
+                      - img "Image from kirakosianlaw.com" [ref=e290]
+                    - generic [ref=e291]:
+                      - link "Lawyer for Police Negligence - Police Misconduct Civil Rights Kirakosian Law https://go.kirakosianlaw.com" [ref=e292] [cursor=pointer]:
+                        - /url: https://go.kirakosianlaw.com/
+                        - heading "Lawyer for Police Negligence - Police Misconduct Civil Rights" [level=3] [ref=e294]
+                        - generic [ref=e300]:
+                          - generic [ref=e302]: Kirakosian Law
+                          - generic [ref=e303]: https://go.kirakosianlaw.com
+                      - button "Why this ad?" [ref=e306] [cursor=pointer]:
+                        - img [ref=e308]
+                    - generic [ref=e313]:
+                      - emphasis [ref=e314]: California’s
+                      - text: "#1"
+                      - emphasis [ref=e315]: Civil Rights
+                      - text: Lawyer with an actual winning history
+                      - emphasis [ref=e316]: against law enforcement
+                      - text: . You don't pay if we don't win. If you were hurt by
+                      - emphasis [ref=e317]: law enforcement
+                      - text: "call now! As Seen On TV. Zero Cost Consultation. Services:"
+                      - emphasis [ref=e318]: Police
+                      - text: Brutality...
+                    - generic [ref=e319]:
+                      - link "Police Misconduct Law" [ref=e322] [cursor=pointer]:
+                        - /url: https://go.kirakosianlaw.com/excessive-force-attorney/?sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QwgUoAXoECB4QEw
+                        - img [ref=e324]
+                        - generic [ref=e326]: Police Misconduct Law
+                      - link "A Lawyer Who Wins vs Police" [ref=e329] [cursor=pointer]:
+                        - /url: /aclk?sa=L&pf=1&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAEQBBoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYAiADEgICA_D_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_0h0mXfzZhVLL7LJuszSQocq6b6sw&q=&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QwgUoA3oECB4QFQ&adurl=https://go.kirakosianlaw.com%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DLeads-Search-main-LA%26utm_adgroup%3DAdGroup1%26utm_term%3Dpolice%2520misconduct%2520attorney%26utm_matchtype%3Db%26utm_device%3Dc%26utm_content%3D685432850304%26gad_source%3D1%26gad_campaignid%3D20885555012%26gbraid%3D0AAAAABNjBV-E2sOIgsHcYu5CBnZ9Az4ju%26gclid%3DEAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAAYAiADEgICA_D_BwE
+                        - img [ref=e331]
+                        - generic [ref=e333]: A Lawyer Who Wins vs Police
+                - button "Hide sponsored results" [ref=e336] [cursor=pointer]:
+                  - separator [ref=e337]
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: Hide sponsored results
+                    - img [ref=e341]
+        - generic [ref=e357]:
+          - heading "Thinking" [level=2] [ref=e361]:
+            - generic [ref=e362]: Thinking
+          - progressbar [ref=e363]
+      - main [ref=e365]:
+        - generic [ref=e369]:
+          - generic [ref=e372]:
+            - heading "Web results" [level=2] [ref=e373]
+            - generic [ref=e374]:
+              - generic [ref=e377]:
+                - link "Los Angeles Police Misconduct Lawyer V. James DeSimone Law https://www.vjamesdesimonelaw.com › civil-rights-law" [ref=e379] [cursor=pointer]:
+                  - /url: https://www.vjamesdesimonelaw.com/civil-rights-law/police-misconduct/
+                  - heading "Los Angeles Police Misconduct Lawyer" [level=3] [ref=e380]
+                  - generic [ref=e385]:
+                    - generic [ref=e387]: V. James DeSimone Law
+                    - generic [ref=e389]: https://www.vjamesdesimonelaw.com › civil-rights-law
+                - button "About this result" [ref=e390] [cursor=pointer]:
+                  - img [ref=e393]
+              - generic [ref=e397]:
+                - emphasis [ref=e398]: V. James DeSimone is a police misconduct attorney in Los Angeles
+                - text: with over 30 years of civil rights experience. If you or a family member was a victim of ...
+              - generic [ref=e400]:
+                - text: "Missing: litigation ‎| Show results with:"
+                - link "litigation" [ref=e401] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=best+california+attorney+firm+%22litigation%22+against+police+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q5t4CegQIIxAB
+          - generic [ref=e405]:
+            - generic [ref=e408]:
+              - link "Police Misconduct Lawyer in California BNCL Law Firm https://bncllaw.com › practice-areas › police-misconduct" [ref=e410] [cursor=pointer]:
+                - /url: https://bncllaw.com/practice-areas/police-misconduct/
+                - heading "Police Misconduct Lawyer in California" [level=3] [ref=e411]
+                - generic [ref=e416]:
+                  - generic [ref=e418]: BNCL Law Firm
+                  - generic [ref=e420]: https://bncllaw.com › practice-areas › police-misconduct
+              - button "About this result" [ref=e421] [cursor=pointer]:
+                - img [ref=e424]
+            - generic [ref=e427]:
+              - generic [ref=e428]:
+                - emphasis [ref=e429]: BNCL is a National law firm with offices in California
+                - text: and Minnesota practicing in all areas of civil rights, with a focus on police misconduct and racial ...
+              - link "Read more" [ref=e430] [cursor=pointer]:
+                - /url: https://bncllaw.com/practice-areas/police-misconduct/#:~:text=BNCL%20is%20a%20National%20law,misconduct%20and%20racial%20discrimination%20cases.
+          - generic [ref=e434]:
+            - generic [ref=e437]:
+              - link "Police Officer Discrimination Lawyer Los Angeles McNicholas & McNicholas, LLP https://www.mcnicholaslaw.com › ... › Employment Law" [ref=e439] [cursor=pointer]:
+                - /url: https://www.mcnicholaslaw.com/practice-areas/employment-law/police-officers-sheriffs-deputies/
+                - heading "Police Officer Discrimination Lawyer Los Angeles" [level=3] [ref=e440]
+                - generic [ref=e445]:
+                  - generic [ref=e447]: McNicholas & McNicholas, LLP
+                  - generic [ref=e449]: https://www.mcnicholaslaw.com › ... › Employment Law
+              - button "About this result" [ref=e450] [cursor=pointer]:
+                - img [ref=e453]
+            - generic [ref=e457]:
+              - text: Our Los Angeles lawyers
+              - emphasis [ref=e458]: represent police officers, sheriffs' deputies and all members of law enforcement
+              - text: when their rights have been violated.
+            - img "Rated 4.8 out of 5, (292) user reviews" [ref=e463]:
+              - text: "4.8"
+              - img [ref=e464]
+              - text: (292)
+          - generic [ref=e470]:
+            - generic [ref=e473]:
+              - 'link "Law Offices of Dale K. Galipo: California Police Misconduct ... Law Offices of Dale K. Galipo https://www.galipolaw.com" [ref=e475] [cursor=pointer]':
+                - /url: https://www.galipolaw.com/
+                - 'heading "Law Offices of Dale K. Galipo: California Police Misconduct ..." [level=3] [ref=e476]'
+                - generic [ref=e481]:
+                  - generic [ref=e483]: Law Offices of Dale K. Galipo
+                  - generic [ref=e485]: https://www.galipolaw.com
+              - button "About this result" [ref=e486] [cursor=pointer]:
+                - img [ref=e489]
+            - generic [ref=e493]:
+              - emphasis [ref=e494]: The Law Offices of Dale K. Galipo
+              - text: take on cases of police misconduct, excessive force & civil rights. Call or visit today for legal counsel.
+            - generic [ref=e496]:
+              - text: "Missing: litigation ‎| Show results with:"
+              - link "litigation" [ref=e497] [cursor=pointer]:
+                - /url: /search?sca_esv=8adbecc950e8a8f8&q=best+california+attorney+firm+%22litigation%22+against+police+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q5t4CegQIHRAB
+          - generic [ref=e501]:
+            - generic [ref=e504]:
+              - link "California Police Misconduct Lawyers Moseley Collins Law https://www.moseleycollins.com › police-misconduct-law..." [ref=e506] [cursor=pointer]:
+                - /url: https://www.moseleycollins.com/police-misconduct-lawyer-in-california.html
+                - heading "California Police Misconduct Lawyers" [level=3] [ref=e507]
+                - generic [ref=e512]:
+                  - generic [ref=e514]: Moseley Collins Law
+                  - generic [ref=e516]: https://www.moseleycollins.com › police-misconduct-law...
+              - button "About this result" [ref=e517] [cursor=pointer]:
+                - img [ref=e520]
+            - generic [ref=e524]:
+              - text: Free Consultation - Call (800) 426-5546 -
+              - emphasis [ref=e525]: Moseley Collins helps victims and their families receive compensation
+              - text: for their injuries in Civil Rights and ...
+          - generic [ref=e529]:
+            - generic [ref=e532]:
+              - link "Los Angeles Civil Rights Violations Lawyers, CA Taylor & Ring https://www.taylorring.com › Practice Areas" [ref=e534] [cursor=pointer]:
+                - /url: https://www.taylorring.com/practice-areas/civil-rights-violation/
+                - heading "Los Angeles Civil Rights Violations Lawyers, CA" [level=3] [ref=e535]
+                - generic [ref=e540]:
+                  - generic [ref=e542]: Taylor & Ring
+                  - generic [ref=e544]: https://www.taylorring.com › Practice Areas
+              - button "About this result" [ref=e545] [cursor=pointer]:
+                - img [ref=e548]
+            - generic [ref=e551]:
+              - generic [ref=e552]:
+                - text: The Los Angeles police misconduct attorneys at Taylor & Ring
+                - emphasis [ref=e553]: have a successful record of settlements for clients in civil rights actions
+                - text: .
+              - link "Read more" [ref=e554] [cursor=pointer]:
+                - /url: https://www.taylorring.com/practice-areas/civil-rights-violation/#:~:text=The%20Los%20Angeles%20police%20misconduct,and%20jail%20and%20prison%20systems.
+            - img "Rated 5.0 out of 5, (32) user reviews" [ref=e559]:
+              - text: "5.0"
+              - img [ref=e560]
+              - text: (32)
+            - generic [ref=e564]:
+              - text: "Missing: litigation ‎| Show results with:"
+              - link "litigation" [ref=e565] [cursor=pointer]:
+                - /url: /search?sca_esv=8adbecc950e8a8f8&q=best+california+attorney+firm+%22litigation%22+against+police+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q5t4CegQIRhAB
+          - generic [ref=e569]:
+            - generic [ref=e572]:
+              - link "Civil Rights & Police Misconduct Lawyer in Los Angeles Justin E. Sterling https://sterlingdefense.com › civil-rights-police-miscond..." [ref=e574] [cursor=pointer]:
+                - /url: https://sterlingdefense.com/civil-rights-police-misconduct/
+                - heading "Civil Rights & Police Misconduct Lawyer in Los Angeles" [level=3] [ref=e575]
+                - generic [ref=e580]:
+                  - generic [ref=e582]: Justin E. Sterling
+                  - generic [ref=e584]: https://sterlingdefense.com › civil-rights-police-miscond...
+              - button "About this result" [ref=e585] [cursor=pointer]:
+                - img [ref=e588]
+            - generic [ref=e592]:
+              - text: Victim of police brutality or unlawful arrest?
+              - emphasis [ref=e593]: Our civil rights attorneys fight for justice and compensation
+              - text: . Hold law enforcement accountable for ...
+          - generic [ref=e597]:
+            - generic [ref=e600]:
+              - link "Civil Rights Litigation Larson LLP https://www.larsonllp.com › ... › Complex Civil Litigation" [ref=e602] [cursor=pointer]:
+                - /url: https://www.larsonllp.com/practice-areas/complex-civil-litigation/civil-rights-litigation/
+                - heading "Civil Rights Litigation" [level=3] [ref=e603]
+                - generic [ref=e608]:
+                  - generic [ref=e610]: Larson LLP
+                  - generic [ref=e612]: https://www.larsonllp.com › ... › Complex Civil Litigation
+              - button "About this result" [ref=e613] [cursor=pointer]:
+                - img [ref=e616]
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - text: Our attorneys have
+                - emphasis [ref=e621]: prosecuted and defended civil rights matters
+                - text: related to highly publicized events and with challenging legal barriers.
+              - link "Read more" [ref=e622] [cursor=pointer]:
+                - /url: https://www.larsonllp.com/practice-areas/complex-civil-litigation/civil-rights-litigation/#:~:text=Our%20attorneys%20have%20prosecuted%20and,and%20with%20challenging%20legal%20barriers.
+            - generic [ref=e624]:
+              - text: "Missing: police ‎| Show results with:"
+              - link "police" [ref=e625] [cursor=pointer]:
+                - /url: /search?sca_esv=8adbecc950e8a8f8&q=best+california+attorney+firm+litigation+against+%22police%22+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q5t4CegQIRRAB
+          - generic [ref=e629]:
+            - generic [ref=e632]:
+              - link "California Civil Rights Attorneys Carpenter & Zuckerman https://www.cz.law › practice-areas › civil-rights-violations" [ref=e634] [cursor=pointer]:
+                - /url: https://www.cz.law/practice-areas/civil-rights-violations/
+                - heading "California Civil Rights Attorneys" [level=3] [ref=e635]
+                - generic [ref=e640]:
+                  - generic [ref=e642]: Carpenter & Zuckerman
+                  - generic [ref=e644]: https://www.cz.law › practice-areas › civil-rights-violations
+              - button "About this result" [ref=e645] [cursor=pointer]:
+                - img [ref=e648]
+            - generic [ref=e652]:
+              - text: From police brutality to voter suppression, our attorneys
+              - emphasis [ref=e653]: aggressively defend against civil rights violations in California
+              - text: . Call for a free consultation.
+          - generic [ref=e657]:
+            - generic [ref=e660]:
+              - 'link "Haddad & Sherwin LLP: Leading California Civil Rights ... Haddad & Sherwin LLP https://www.haddadandsherwin.com" [ref=e662] [cursor=pointer]':
+                - /url: https://www.haddadandsherwin.com/
+                - 'heading "Haddad & Sherwin LLP: Leading California Civil Rights ..." [level=3] [ref=e663]'
+                - generic [ref=e668]:
+                  - generic [ref=e670]: Haddad & Sherwin LLP
+                  - generic [ref=e672]: https://www.haddadandsherwin.com
+              - button "About this result" [ref=e673] [cursor=pointer]:
+                - img [ref=e676]
+            - generic [ref=e679]:
+              - generic [ref=e680]:
+                - text: We represent people in
+                - emphasis [ref=e681]: catastrophic injury and death cases
+                - text: involving Civil Rights, Police Shootings and Misconduct, Jail Suicide and Death, and general ...
+              - link "Read more" [ref=e682] [cursor=pointer]:
+                - /url: https://www.haddadandsherwin.com/#:~:text=We%20represent%20people%20in%20catastrophic,Death%2C%20and%20general%20Wrongful%20Death.
+            - generic [ref=e684]:
+              - text: "Missing: best ‎| Show results with:"
+              - link "best" [ref=e685] [cursor=pointer]:
+                - /url: /search?sca_esv=8adbecc950e8a8f8&q=%22best%22+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q5t4CegQIQxAB
+          - generic [ref=e689]:
+            - heading "Local Results" [level=2] [ref=e690]
+            - generic [ref=e691]:
+              - heading "Places" [level=2] [ref=e695]
+              - generic [ref=e696]:
+                - heading "Map" [level=3] [ref=e697]
+                - link "Map" [ref=e700] [cursor=pointer]:
+                  - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&udm=1&lsack=zw4JasaAIM2jur8PvIqS-Q8&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QtgN6BAhTEAM
+              - generic [ref=e704]:
+                - generic [ref=e707]:
+                  - button "MSD Lawyers Rated 4.8 out of 5, 133 user reviews · Law firm Los Angeles, CA · (213) 628-3856 Open 24 hours \"He gave me many options on how we should pursue my legal case.\"" [ref=e709]:
+                    - generic [ref=e713] [cursor=pointer]:
+                      - heading "MSD Lawyers" [level=3] [ref=e714]:
+                        - generic [ref=e715]: MSD Lawyers
+                      - generic [ref=e716]:
+                        - img "Rated 4.8 out of 5, 133 user reviews" [ref=e718]:
+                          - text: "4.8"
+                          - img [ref=e719]
+                          - text: (133)
+                        - text: · Law firm
+                      - generic [ref=e722]: Los Angeles, CA · (213) 628-3856
+                      - generic [ref=e724]: Open 24 hours
+                      - generic [ref=e726]:
+                        - img [ref=e729]
+                        - generic [ref=e734]: "\"He gave me many options on how we should pursue my legal case.\""
+                  - link "Website" [ref=e735] [cursor=pointer]:
+                    - /url: https://msdlawyers.com/
+                    - generic [ref=e737]:
+                      - img [ref=e740]
+                      - generic [ref=e742]: Website
+                  - link "Directions" [ref=e743] [cursor=pointer]:
+                    - /url: /maps/dir//MSD+Lawyers,+333+S+Hope+St+40th+Floor,+Los+Angeles,+CA+90071/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80c2c79fc6a9113b:0xa7dc31de8783b34a?sa=X&ved=1t:57443&ictx=111
+                    - generic [ref=e745]:
+                      - img [ref=e748]
+                      - generic [ref=e753]: Directions
+                - generic [ref=e757]:
+                  - button "Kingsmen Law Rated 5.0 out of 5, 118 user reviews · Law firm Glendale, CA · (310) 424-7939 Open 24 hours \"This kingsman law is the best.\"" [ref=e759]:
+                    - generic [ref=e763] [cursor=pointer]:
+                      - heading "Kingsmen Law" [level=3] [ref=e764]:
+                        - generic [ref=e765]: Kingsmen Law
+                      - generic [ref=e766]:
+                        - img "Rated 5.0 out of 5, 118 user reviews" [ref=e768]:
+                          - text: "5.0"
+                          - img [ref=e769]
+                          - text: (118)
+                        - text: · Law firm
+                      - generic [ref=e772]: Glendale, CA · (310) 424-7939
+                      - generic [ref=e774]: Open 24 hours
+                      - generic [ref=e776]:
+                        - img [ref=e779]
+                        - generic [ref=e784]: "\"This kingsman law is the best.\""
+                  - link "Website" [ref=e785] [cursor=pointer]:
+                    - /url: https://kingsmenlaw.com/
+                    - generic [ref=e787]:
+                      - img [ref=e790]
+                      - generic [ref=e792]: Website
+                  - link "Directions" [ref=e793] [cursor=pointer]:
+                    - /url: /maps/dir//Kingsmen+Law,+505+N+Brand+Blvd+Suite+815,+Glendale,+CA+91203/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80c2b9e18d620a2b:0x5e6b85d1dc409ce3?sa=X&ved=1t:57443&ictx=111
+                    - generic [ref=e795]:
+                      - img [ref=e798]
+                      - generic [ref=e803]: Directions
+                - generic [ref=e807]:
+                  - button "Blackstone Law Rated 4.8 out of 5, 420 user reviews · Law firm Beverly Hills, CA · (310) 622-4278 Open 24 hours \"The attorneys that primarily handled my case were Matt and Lara.\"" [ref=e809]:
+                    - generic [ref=e813] [cursor=pointer]:
+                      - heading "Blackstone Law" [level=3] [ref=e814]:
+                        - generic [ref=e815]: Blackstone Law
+                      - generic [ref=e816]:
+                        - img "Rated 4.8 out of 5, 420 user reviews" [ref=e818]:
+                          - text: "4.8"
+                          - img [ref=e819]
+                          - text: (420)
+                        - text: · Law firm
+                      - generic [ref=e822]: Beverly Hills, CA · (310) 622-4278
+                      - generic [ref=e824]: Open 24 hours
+                      - generic [ref=e826]:
+                        - img [ref=e829]
+                        - generic [ref=e834]: "\"The attorneys that primarily handled my case were Matt and Lara.\""
+                  - link "Website" [ref=e835] [cursor=pointer]:
+                    - /url: https://blackstonepc.com/?utm_campaign=gmb
+                    - generic [ref=e837]:
+                      - img [ref=e840]
+                      - generic [ref=e842]: Website
+                  - link "Directions" [ref=e843] [cursor=pointer]:
+                    - /url: /maps/dir//Blackstone+Law,+8383+Wilshire+Blvd+%23+745,+Beverly+Hills,+CA+90211/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80c2bbf4c8500001:0x3b8bcee74125a25?sa=X&ved=1t:57443&ictx=111
+                    - generic [ref=e845]:
+                      - img [ref=e848]
+                      - generic [ref=e853]: Directions
+              - heading "More places" [level=3] [ref=e856]:
+                - link "More places" [ref=e858] [cursor=pointer]:
+                  - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&udm=1&lsack=zw4JasaAIM2jur8PvIqS-Q8&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8QjGp6BAhPEAE
+                  - separator [ref=e859]
+                  - generic [ref=e860]:
+                    - generic [ref=e861]: More places
+                    - img [ref=e863]
+          - region "Ads" [ref=e868]:
+            - generic [ref=e869]:
+              - heading "Sponsored results" [level=2] [ref=e876]
+              - generic [ref=e877]:
+                - generic [ref=e884]:
+                  - generic [ref=e889]:
+                    - generic [ref=e890]:
+                      - link "Los Angeles Police Brutality Lawyer martinianlaw.com https://www.martinianlaw.com" [ref=e891] [cursor=pointer]:
+                        - /url: https://www.martinianlaw.com/los-angeles-personal-injury-attorney/police-brutality/
+                        - heading "Los Angeles Police Brutality Lawyer" [level=3] [ref=e892]
+                        - generic [ref=e894]:
+                          - img [ref=e899]
+                          - generic [ref=e901]:
+                            - generic [ref=e903]: martinianlaw.com
+                            - generic [ref=e904]: https://www.martinianlaw.com
+                      - button "Why this ad?" [ref=e907] [cursor=pointer]:
+                        - img [ref=e909]
+                    - generic [ref=e914]:
+                      - text: If you have been beaten, or shown unfair and excessive force when being arrested you need to contact a Los Angeles
+                      - emphasis [ref=e915]: police
+                      - text: brutality
+                      - emphasis [ref=e916]: attorney
+                      - text: .
+                    - generic [ref=e918]:
+                      - text: ‎
+                      - link "Practice Areas" [ref=e919] [cursor=pointer]:
+                        - /url: https://www.martinianlaw.com/practice-areas/
+                      - text: · ‎
+                      - link "About Us" [ref=e920] [cursor=pointer]:
+                        - /url: https://www.martinianlaw.com/about-us/
+                      - text: · ‎
+                      - link "Wrongful Death Attorney" [ref=e921] [cursor=pointer]:
+                        - /url: https://www.martinianlaw.com/los-angeles-wrongful-death-lawyer/
+                      - text: · ‎
+                      - link "Car Accidents" [ref=e922] [cursor=pointer]:
+                        - /url: https://www.martinianlaw.com/los-angeles-car-accident-lawyer/
+                  - generic [ref=e927]:
+                    - link "Image from attorneyswithswag.org" [ref=e929] [cursor=pointer]:
+                      - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAIQBxoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAMYAiADEgLBWPD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_3xq3-ISc2EIo2af_qoqegIjufUxQ&q=&nis=4&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Qh78CegQIZBAB&adurl=
+                      - img "Image from attorneyswithswag.org" [ref=e931]
+                    - generic [ref=e932]:
+                      - link "Malicious Prosecution - Police Misconduct Exposed Attorneys With Swag https://www.attorneyswithswag.org" [ref=e933] [cursor=pointer]:
+                        - /url: https://www.attorneyswithswag.org/civilrights
+                        - heading "Malicious Prosecution - Police Misconduct Exposed" [level=3] [ref=e935]
+                        - generic [ref=e937]:
+                          - img [ref=e942]
+                          - generic [ref=e944]:
+                            - generic [ref=e946]: Attorneys With Swag
+                            - generic [ref=e947]: https://www.attorneyswithswag.org
+                      - button "Why this ad?" [ref=e950] [cursor=pointer]:
+                        - img [ref=e952]
+                    - generic [ref=e957]:
+                      - emphasis [ref=e958]: Attorneys
+                      - text: "With Swag: Learn about your"
+                      - emphasis [ref=e959]: civil rights
+                      - text: and
+                      - emphasis [ref=e960]: police
+                      - text: misconduct. Learn about the real-world fight for justice
+                      - emphasis [ref=e961]: against police
+                      - text: "misconduct. Empowering the masses. Educating the masses. Shows: Know Your"
+                      - emphasis [ref=e962]: Legal Rights
+                      - text: ", Jury's Out..."
+                    - generic [ref=e964]:
+                      - text: ‎
+                      - link "What Is Police Misconduct?" [ref=e965] [cursor=pointer]:
+                        - /url: /aclk?sa=L&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAIQCRoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAMYAiAEEgLTLPD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_12B8oWmHjeiPKLDaChpxmRzKSTnw&adurl=&q=
+                      - text: · ‎
+                      - link "Civil Rights & Police Misconduct - Attorneys with Swag" [ref=e966] [cursor=pointer]:
+                        - /url: /aclk?sa=L&ai=DChsSEwjlloGyi7-UAxWiNEQIHdLLCuUYACICCAIQChoCZHo&co=1&ase=2&gclid=EAIaIQobChMI5ZaBsou_lAMVojRECB3SywrlEAMYAiAFEgI8LvD_BwE&cid=CAAS0wHkaL6dsJt_LVeT4dzug0S78MiR_uFqFH-t_GOiPvMI6_a4fjdLJADbu7_tc_3cAyp7RA0blZphnwiI49sTlo1xRB11WlVdwf9YwamaZnOR29pNtjga_HlVNJajVFdL-9en8sq2BIH7RCt9ZHQPESBOox3B28ssyDRhifjSyAgEcAT-2AaGn519sbIPxPEo6ywDQPKZcfd5-sk9pHPQJYcfl8A5RFBrf_fzGUNadQBbOdnoKd-Ct2IuXafkUy6v1ygFn2zYg7ogLeQ-4mgctmiJ--8J&cce=2&category=acrcp_v1_32&sig=AOD64_2PQYdD_r8iEHXDMYR8bS_hULP3mw&adurl=&q=
+                      - text: · ‎
+                      - link "Shows" [ref=e967] [cursor=pointer]:
+                        - /url: https://www.attorneyswithswag.org/the-show
+                      - text: · ‎
+                      - link "Blog" [ref=e968] [cursor=pointer]:
+                        - /url: https://www.attorneyswithswag.org/the-blog
+                - button "Hide sponsored results" [ref=e970] [cursor=pointer]:
+                  - separator [ref=e971]
+                  - generic [ref=e972]:
+                    - generic [ref=e973]: Hide sponsored results
+                    - img [ref=e975]
+        - generic [ref=e978]:
+          - generic [ref=e983]:
+            - heading "People also search for" [level=2] [ref=e985]
+            - generic [ref=e987]:
+              - generic [ref=e988]:
+                - link "Best lawyers against police" [ref=e992] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Best+lawyers+against+police&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAgsEAE
+                  - generic [ref=e993]:
+                    - generic [ref=e998]: Best lawyers against police
+                    - img [ref=e1002]
+                - link "Civil rights attorney police misconduct" [ref=e1007] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Civil+rights+attorney+police+misconduct&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAg0EAE
+                  - generic [ref=e1008]:
+                    - generic [ref=e1013]: Civil rights attorney police misconduct
+                    - img [ref=e1017]
+                - link "Police misconduct lawyers Los Angeles" [ref=e1022] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Police+misconduct+lawyers+Los+Angeles&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAg4EAE
+                  - generic [ref=e1023]:
+                    - generic [ref=e1028]: Police misconduct lawyers Los Angeles
+                    - img [ref=e1032]
+                - link "Police misconduct lawyers near me" [ref=e1037] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Police+misconduct+lawyers+near+me&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAgxEAE
+                  - generic [ref=e1038]:
+                    - generic [ref=e1043]: Police misconduct lawyers near me
+                    - img [ref=e1047]
+              - generic [ref=e1049]:
+                - link "Police brutality lawyers California" [ref=e1053] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Police+brutality+lawyers+California&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAgwEAE
+                  - generic [ref=e1054]:
+                    - generic [ref=e1059]: Police brutality lawyers California
+                    - img [ref=e1063]
+                - link "Police misconduct attorney San Bernardino" [ref=e1068] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Police+misconduct+attorney+San+Bernardino&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAgvEAE
+                  - generic [ref=e1069]:
+                    - generic [ref=e1074]: Police misconduct attorney San Bernardino
+                    - img [ref=e1078]
+                - link "Police misconduct attorneys" [ref=e1083] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Police+misconduct+attorneys&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAguEAE
+                  - generic [ref=e1084]:
+                    - generic [ref=e1089]: Police misconduct attorneys
+                    - img [ref=e1093]
+                - link "Top Black civil rights attorneys" [ref=e1098] [cursor=pointer]:
+                  - /url: /search?sca_esv=8adbecc950e8a8f8&q=Top+Black+civil+rights+attorneys&sa=X&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q1QJ6BAgtEAE
+                  - generic [ref=e1099]:
+                    - generic [ref=e1104]: Top Black civil rights attorneys
+                    - img [ref=e1108]
+          - navigation [ref=e1110]:
+            - heading "Page Navigation" [level=1] [ref=e1111]
+            - text: "1"
+            - link "Page 2" [ref=e1114] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=10&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAE
+              - text: "2"
+            - link "Page 3" [ref=e1116] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=20&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAG
+              - text: "3"
+            - link "Page 4" [ref=e1118] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=30&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAI
+              - text: "4"
+            - link "Page 5" [ref=e1120] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=40&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAK
+              - text: "5"
+            - link "Page 6" [ref=e1122] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=50&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAM
+              - text: "6"
+            - link "Page 7" [ref=e1124] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=60&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAO
+              - text: "7"
+            - link "Page 8" [ref=e1126] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=70&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAQ
+              - text: "8"
+            - link "Page 9" [ref=e1128] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=80&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAS
+              - text: "9"
+            - link "Page 10" [ref=e1130] [cursor=pointer]:
+              - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=90&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8tMDegQIKhAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1132]:
+              - link "Next" [ref=e1133] [cursor=pointer]:
+                - /url: /search?q=best+california+attorney+firm+litigation+against+police+law+enforcement+civil+rights&sca_esv=8adbecc950e8a8f8&ei=zw4JasaAIM2jur8PvIqS-Q8&start=10&sa=N&sstk=Af77f_ciZrRuWQMer1r93QtPa44WSDI8SLGMj-GBbhgfNiVA8rYO80lYkPnr4aXx30mDs4jj0XeAWHArWK7i8AloYJgxHJQVTPd94A&ved=2ahUKEwiGpPixi7-UAxXNke4BHTyFJP8Q8NMDegQIKhAW
+                - generic [ref=e1135]: Next
+        - navigation
+    - contentinfo [ref=e1136]:
+      - heading "Footer Links" [level=1] [ref=e1137]

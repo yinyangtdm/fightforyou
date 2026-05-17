@@ -33,5 +33,10 @@
       "c:\\Users\\yinya\\legal-directory"
     ]
   },
-  "enabledMcpjsonServers": []
+  "enabledMcpjsonServers": [
+    "server-sequential-thinking",
+    "server-filesystem",
+    "playwright",
+    "mcp-fetch"
+  ]
 }

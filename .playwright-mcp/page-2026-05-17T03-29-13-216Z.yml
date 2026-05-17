@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - region "Cookie banner" [ref=e2]:
+    - paragraph [ref=e3]: By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.
+    - button "OK" [ref=e5] [cursor=pointer]:
+      - generic [ref=e6]: OK
+  - generic:
+    - generic [ref=e8]:
+      - link "Gill and Sculimbrene" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Gill and Sculimbrene" [ref=e11]
+      - button "Open navigation menu" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - navigation [ref=e19]:
+            - link "About" [ref=e20] [cursor=pointer]:
+              - /url: /about-us
+            - button "Areas of Practice »" [ref=e21] [cursor=pointer]
+            - link "Blog" [ref=e22] [cursor=pointer]:
+              - /url: /blog
+            - link "Press" [ref=e23] [cursor=pointer]:
+              - /url: /press
+            - link "Contact Us" [ref=e24] [cursor=pointer]:
+              - /url: /contact
+          - navigation [ref=e25]:
+            - 'link "CALL: 855-NH-LAWS1" [ref=e26] [cursor=pointer]':
+              - /url: tel:8556452971
+        - generic [ref=e27]:
+          - button "« Back" [ref=e28] [cursor=pointer]
+          - link "Criminal" [ref=e29] [cursor=pointer]:
+            - /url: /criminal-defense
+          - link "DWI" [ref=e30] [cursor=pointer]:
+            - /url: /new-hampshire-dwi
+          - link "Civil Rights" [ref=e31] [cursor=pointer]:
+            - /url: /new-hampshire-civil-rights-attorney
+          - link "Sexual Assault Charges" [ref=e32] [cursor=pointer]:
+            - /url: /new-hampshire-attorney-sexual-assault-charges
+          - link "Drug Cases" [ref=e33] [cursor=pointer]:
+            - /url: /new-hampshire-drug-cases
+          - link "Pre-Arrest" [ref=e34] [cursor=pointer]:
+            - /url: /new-hampshire-pre-arrest
+          - link "Juvenile" [ref=e35] [cursor=pointer]:
+            - /url: /juvenile-arrest
+          - link "Federal Cases" [ref=e36] [cursor=pointer]:
+            - /url: /federal-cases
+          - link "Administrative Hearings" [ref=e37] [cursor=pointer]:
+            - /url: /administrative-hearings
+      - button "Close navigation menu" [ref=e38] [cursor=pointer]:
+        - img [ref=e39]
+  - generic [ref=e42]:
+    - main [ref=e45]:
+      - generic [ref=e46]:
+        - generic:
+          - img
+        - generic [ref=e50]:
+          - paragraph [ref=e54]
+          - generic [ref=e60]:
+            - heading "New Hampshire Criminal Defense Lawyers" [level=1] [ref=e61]
+            - heading "Nashua, New Hampshire" [level=3] [ref=e62]
+        - figure [ref=e63]:
+          - img "Updated-Hero-Image.jpg" [ref=e64]
+      - generic [ref=e72]:
+        - heading "Welcome to Gill & Sculimbrene" [level=2] [ref=e73]:
+          - text: Welcome to
+          - text: Gill & Sculimbrene
+        - heading "When challenges arise, experience matters" [level=3] [ref=e74]
+        - paragraph [ref=e75]:
+          - text: At Gill and Sculimbrene, we are passionate, hard-working criminal defense lawyers, dedicated to protecting the rights of those charged with a crime throughout the state of New Hampshire. We are two dedicated lawyers with experience in virtually every court in the State. We are both litigators, just as comfortable in the courtroom in front of juries as we are in negotiations with opposing counsel. We are a client-focused practice where we work toward results not billable hours. We have built a practice that leverages secure, cloud-based technologies, professional contacts in a variety of allied fields, and creative insights to provide nimble yet robust representation whether it is in state court or in front of a federal judge. Legal problems are often crises in your life. When these challenges arise, experience matters. Gill and Sculimbrene is dedicated to serving jurisdictions throughout the state of New Hampshire including Nashua, Manchester, Concord, Portsmouth, Cheshire and Rockingham County.
+          - link "Contact New Hampshire Criminal Defense Attorneys Gill and Sculimbrene, today" [ref=e76] [cursor=pointer]:
+            - /url: /contact
+          - text: .
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e91]:
+            - heading "We Are Paperless" [level=2] [ref=e92]
+            - paragraph [ref=e93]: Gill & Sculimbrene is proud to be a paperless firm. Learn how this can work to your advantage.
+          - link "Learn more" [ref=e97] [cursor=pointer]:
+            - /url: /paperless-law-firm
+        - generic [ref=e98]:
+          - generic [ref=e101]:
+            - heading "Meet the Team" [level=2] [ref=e102]
+            - paragraph [ref=e103]: Learn more about partners, Leslie Gill and Tony Sculimbrene and how they can help you with your case.
+          - link "Learn more" [ref=e107] [cursor=pointer]:
+            - /url: /about-us
+        - generic [ref=e108]:
+          - generic [ref=e111]:
+            - heading "YDC Settlement Lawsuit" [level=2] [ref=e112]
+            - paragraph [ref=e113]: Learn more about this case and if you know someone who may be qualified to receive a settlement.
+          - link "Learn more" [ref=e117] [cursor=pointer]:
+            - /url: /ydc-lawsuit-settlement-fund
+      - generic [ref=e118]:
+        - generic [ref=e122]:
+          - generic [ref=e125]:
+            - heading "Focused. Dedicated. Results-Driven." [level=1] [ref=e126]
+            - heading "Contact Our New Hampshire Attorneys" [level=2] [ref=e127]
+          - link "Contact Us" [ref=e131] [cursor=pointer]:
+            - /url: /contact-us
+        - figure [ref=e132]:
+          - img "ROA_6318.jpg" [ref=e133]
+      - generic [ref=e138]:
+        - generic [ref=e141]:
+          - heading "Areas of Practice" [level=2] [ref=e142]
+          - heading "Criminal Defense Law Firm In New Hampshire" [level=3] [ref=e143]
+        - generic [ref=e147]:
+          - generic [ref=e150]:
+            - figure "Criminal Charges Learn More ->" [ref=e153]:
+              - link "Criminal Charges" [ref=e155] [cursor=pointer]:
+                - /url: /criminal-defense
+                - img "Criminal Charges" [ref=e157]
+              - generic [ref=e159]:
+                - paragraph [ref=e162]: Criminal Charges
+                - paragraph [ref=e165]:
+                  - link "Learn More ->" [ref=e166] [cursor=pointer]:
+                    - /url: /criminal-defense
+            - figure "DWI/DUI Learn more ->" [ref=e169]:
+              - link "DWI" [ref=e171] [cursor=pointer]:
+                - /url: /new-hampshire-dwi
+                - img "DWI" [ref=e173]
+              - generic [ref=e175]:
+                - paragraph [ref=e178]: DWI/DUI
+                - paragraph [ref=e181]:
+                  - link "Learn more ->" [ref=e182] [cursor=pointer]:
+                    - /url: /new-hampshire-dwi
+            - figure "Civil Rights Learn More ->" [ref=e185]:
+              - link "Civil Rights" [ref=e187] [cursor=pointer]:
+                - /url: /new-hampshire-civil-rights-attorney
+                - img "Civil Rights" [ref=e189]
+              - generic [ref=e191]:
+                - paragraph [ref=e194]: Civil Rights
+                - paragraph [ref=e197]:
+                  - link "Learn More ->" [ref=e198] [cursor=pointer]:
+                    - /url: /new-hampshire-civil-rights-attorney
+            - figure "Sexual Assault Charges Learn More ->" [ref=e201]:
+              - link "Sex Cases" [ref=e203] [cursor=pointer]:
+                - /url: /new-hampshire-attorney-sexual-assault-charges
+                - img "Sex Cases" [ref=e205]
+              - generic [ref=e207]:
+                - paragraph [ref=e210]: Sexual Assault Charges
+                - paragraph [ref=e213]:
+                  - link "Learn More ->" [ref=e214] [cursor=pointer]:
+                    - /url: /new-hampshire-attorney-sexual-assault-charges
+            - figure "Drug Cases Learn More ->" [ref=e217]:
+              - link "Drug Charges" [ref=e219] [cursor=pointer]:
+                - /url: /new-hampshire-drug-cases
+                - img "Drug Charges" [ref=e221]
+              - generic [ref=e223]:
+                - paragraph [ref=e226]: Drug Cases
+                - paragraph [ref=e229]:
+                  - link "Learn More ->" [ref=e230] [cursor=pointer]:
+                    - /url: /new-hampshire-drug-cases
+          - generic [ref=e233]:
+            - figure "Pre-Arrest Learn More ->" [ref=e236]:
+              - link "Pre Charge" [ref=e238] [cursor=pointer]:
+                - /url: /new-hampshire-pre-arrest
+                - img "Pre Charge" [ref=e240]
+              - generic [ref=e242]:
+                - paragraph [ref=e245]: Pre-Arrest
+                - paragraph [ref=e248]:
+                  - link "Learn More ->" [ref=e249] [cursor=pointer]:
+                    - /url: /new-hampshire-pre-arrest
+            - figure "Juvenile Learn More ->" [ref=e252]:
+              - link "Juvenile" [ref=e254] [cursor=pointer]:
+                - /url: /juvenile-arrest
+                - img "Juvenile" [ref=e256]
+              - generic [ref=e258]:
+                - paragraph [ref=e261]: Juvenile
+                - paragraph [ref=e264]:
+                  - link "Learn More ->" [ref=e265] [cursor=pointer]:
+                    - /url: /juvenile-arrest
+            - figure "Federal Charges Learn More ->" [ref=e268]:
+              - link "Federal charges" [ref=e270] [cursor=pointer]:
+                - /url: /federal-cases
+                - img "Federal charges" [ref=e272]
+              - generic [ref=e274]:
+                - paragraph [ref=e277]: Federal Charges
+                - paragraph [ref=e280]:
+                  - link "Learn More ->" [ref=e281] [cursor=pointer]:
+                    - /url: /federal-cases
+            - figure "Administrative Hearings Learn More ->" [ref=e284]:
+              - link "Administrative" [ref=e286] [cursor=pointer]:
+                - /url: /administrative-hearings
+                - img "Administrative" [ref=e288]
+              - generic [ref=e290]:
+                - paragraph [ref=e293]: Administrative Hearings
+                - paragraph [ref=e296]:
+                  - link "Learn More ->" [ref=e297] [cursor=pointer]:
+                    - /url: /administrative-hearings
+            - figure "Schedule Your Consult Contact Us ->" [ref=e300]:
+              - link "Contact Us" [ref=e302] [cursor=pointer]:
+                - /url: /contact-us
+                - img "Contact Us" [ref=e304]
+              - generic [ref=e306]:
+                - paragraph [ref=e309]: Schedule Your Consult
+                - paragraph [ref=e312]:
+                  - link "Contact Us ->" [ref=e313] [cursor=pointer]:
+                    - /url: /contact
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - heading "Meet the Team" [level=2] [ref=e326]
+          - generic [ref=e330]:
+            - paragraph [ref=e337]: Meet Leslie Gill and Tony Sculimbrene, two New Hampshire Criminal Defense Attorneys dedicated to protecting the rights of their clients.
+            - link "Learn more" [ref=e341] [cursor=pointer]:
+              - /url: /about-us
+        - figure "Leslie Gill" [ref=e345]:
+          - link "Leslie Gill- NH Criminal Defense Lawyer" [ref=e347] [cursor=pointer]:
+            - /url: /leslie-gill
+            - img "Leslie Gill- NH Criminal Defense Lawyer" [ref=e349]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Leslie Gill
+        - figure "Tony Sculimbrene" [ref=e354]:
+          - link "Tony Sculimbrene- NH Criminal Defense Lawyer" [ref=e356] [cursor=pointer]:
+            - /url: /tony-sculimbrene
+            - img "Tony Sculimbrene- NH Criminal Defense Lawyer" [ref=e358]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Tony Sculimbrene
+      - generic [ref=e360]:
+        - generic [ref=e364]:
+          - generic [ref=e371]:
+            - heading "Book Your Consultation" [level=1] [ref=e372]
+            - heading "Contact Gill & Sculimbrene" [level=2] [ref=e373]
+          - link "Book Now" [ref=e384] [cursor=pointer]:
+            - /url: /contact-us
+        - figure [ref=e385]:
+          - img "ROA_6315.jpg" [ref=e386]
+    - contentinfo [ref=e387]:
+      - generic [ref=e389]:
+        - generic [ref=e393]:
+          - figure [ref=e398]:
+            - link "Law Office of Gill and Sculimbrene" [ref=e399] [cursor=pointer]:
+              - /url: /gill-sculimbrene
+              - img "Law Office of Gill and Sculimbrene" [ref=e402]
+          - generic [ref=e404]:
+            - 'heading "Areas of Practice: criminal DWI Civil Rights Sexual Assault Drug Cases Pre-arrest JUvenile federal Charges ADministrative" [level=3] [ref=e411]':
+              - text: "Areas of Practice:"
+              - link "criminal" [ref=e412] [cursor=pointer]:
+                - /url: /criminal-defense
+              - link "DWI" [ref=e413] [cursor=pointer]:
+                - /url: /new-hampshire-dwi
+              - link "Civil Rights" [ref=e414] [cursor=pointer]:
+                - /url: /new-hampshire-civil-rights-attorney
+              - link "Sexual Assault" [ref=e415] [cursor=pointer]:
+                - /url: /new-hampshire-attorney-sexual-assault-charges
+              - link "Drug Cases" [ref=e416] [cursor=pointer]:
+                - /url: /new-hampshire-drug-cases
+              - link "Pre-arrest" [ref=e417] [cursor=pointer]:
+                - /url: /new-hampshire-pre-arrest
+              - link "JUvenile" [ref=e418] [cursor=pointer]:
+                - /url: /juvenile-arrest
+              - link "federal Charges" [ref=e419] [cursor=pointer]:
+                - /url: /federal-cases
+              - link "ADministrative" [ref=e420] [cursor=pointer]:
+                - /url: /administrative-hearings
+            - 'heading "Quick Links: About Us Contact Us Schedule Your Consult Blog PRESS" [level=3] [ref=e427]':
+              - text: "Quick Links:"
+              - link "About Us" [ref=e428] [cursor=pointer]:
+                - /url: /about-us
+              - link "Contact Us" [ref=e429] [cursor=pointer]:
+                - /url: /contact-us
+              - link "Schedule Your Consult" [ref=e430] [cursor=pointer]:
+                - /url: /contact-us
+              - link "Blog" [ref=e431] [cursor=pointer]:
+                - /url: /blog
+              - link "PRESS" [ref=e432] [cursor=pointer]:
+                - /url: /press
+          - generic [ref=e433]:
+            - generic [ref=e436]:
+              - heading "FIND US:" [level=3] [ref=e437]
+              - 'heading "221 Main Street, Suite 204 Nashua, NH 03060 Phone: 855-NH-LAWS1 EMAIL: INFO@NHLAWS.COM" [level=3] [ref=e438]':
+                - text: 221 Main Street, Suite 204
+                - text: Nashua, NH 03060
+                - text: "Phone:"
+                - link "855-NH-LAWS1" [ref=e439] [cursor=pointer]:
+                  - /url: tel:+18556452971
+                - text: "EMAIL:"
+                - link "INFO@NHLAWS.COM" [ref=e440] [cursor=pointer]:
+                  - /url: mailto:INFO@NHLAWS.COM
+            - navigation [ref=e445]:
+              - link "Facebook" [ref=e446] [cursor=pointer]:
+                - /url: https://www.facebook.com/nhlaws
+                - img [ref=e448]
+              - link "info@nhlaws.com" [ref=e451] [cursor=pointer]:
+                - /url: mailto:info@nhlaws.com
+                - img [ref=e453]
+        - generic [ref=e457]:
+          - separator [ref=e464]
+          - heading "Branding & Web Design by Skyhouse Creative" [level=3] [ref=e470]:
+            - text: Branding & Web Design by
+            - link "Skyhouse Creative" [ref=e471] [cursor=pointer]:
+              - /url: https://www.skyhousecreative.com/

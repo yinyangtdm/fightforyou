@@ -1,0 +1,405 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - button "Skip to Content" [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic "Main Menu" [ref=e8] [cursor=pointer]
+          - link "Berman & Simmons" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "Berman & Simmons" [ref=e10]
+          - link [ref=e11]:
+            - /url: tel:2074174199
+        - navigation [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - generic "Close the Menu" [ref=e15] [cursor=pointer]:
+                - generic [ref=e16]: Close
+            - listitem [ref=e17]:
+              - generic [ref=e19]:
+                - generic [ref=e20]: Search
+                - searchbox "Search" [ref=e21]
+                - button "Search Our Site" [ref=e22] [cursor=pointer]
+          - navigation [ref=e24]:
+            - menu "Mobile Navigation" [ref=e25]:
+              - listitem [ref=e26]:
+                - menuitem "About Us" [ref=e27] [cursor=pointer]
+                - generic "Open child menu of About Us" [ref=e28] [cursor=pointer]
+              - listitem [ref=e29]:
+                - menuitem "Our Attorneys" [ref=e30] [cursor=pointer]
+                - generic "Open child menu of Our Attorneys" [ref=e31] [cursor=pointer]
+              - listitem [ref=e32]:
+                - menuitem "Practice Areas" [ref=e33] [cursor=pointer]
+                - generic "Open child menu of Practice Areas" [ref=e34] [cursor=pointer]
+              - listitem [ref=e35]:
+                - menuitem "Case Results" [ref=e36] [cursor=pointer]
+              - listitem [ref=e37]:
+                - menuitem "Testimonials" [ref=e38] [cursor=pointer]
+                - generic "Open child menu of Testimonials" [ref=e39] [cursor=pointer]
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Contact Us" [ref=e45] [cursor=pointer]:
+                - /url: /free-case-review/
+            - listitem [ref=e46]:
+              - link "Call Us Today!" [ref=e47]:
+                - /url: tel:2074174199
+          - generic [ref=e48]:
+            - strong [ref=e50]: Follow Us
+            - list [ref=e51]:
+              - listitem [ref=e52]:
+                - link "Facebook" [ref=e53] [cursor=pointer]:
+                  - /url: https://www.facebook.com/bermansimmons
+              - listitem [ref=e54]:
+                - link "LinkedIn" [ref=e55] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/berman-&-simmons/
+              - listitem [ref=e56]:
+                - link "Instagram" [ref=e57] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bermansimmons/
+  - main [ref=e58]:
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - strong [ref=e62]: Helping You When the Stakes Are High
+        - emphasis [ref=e63]: We Achieve Record-Setting Results in Complex and Serious Cases for Injured Clients Across Maine’s 16 Counties and Across the Country
+      - link "Schedule Your Free Case Review" [ref=e66] [cursor=pointer]:
+        - /url: /free-case-review/
+    - list [ref=e69]:
+      - listitem [ref=e70]:
+        - link "We Set the Bar in Maine and Beyond -- Over $1.5 Billion Recovered. From personal injury, medical malpractice and wrongful death to vehicle and trucking accidents, defective products, and sexual abuse, we handle the most complex cases and set records for the largest verdicts and settlements in Maine and nationwide." [ref=e71] [cursor=pointer]:
+          - /url: /case-results/
+          - generic [ref=e74]:
+            - strong [ref=e76]: We Set the Bar in Maine and Beyond -- Over $1.5 Billion Recovered.
+            - paragraph [ref=e78]: From personal injury, medical malpractice and wrongful death to vehicle and trucking accidents, defective products, and sexual abuse, we handle the most complex cases and set records for the largest verdicts and settlements in Maine and nationwide.
+    - generic [ref=e81]:
+      - generic [ref=e83]:
+        - heading "Results That Change Lives" [level=4] [ref=e84]
+        - heading "We Fight Tirelessly on Behalf of Those Who Have Been Injured Through No Fault of Their Own" [level=5] [ref=e85]
+      - list [ref=e87]:
+        - listitem [ref=e88]:
+          - generic [ref=e89]:
+            - strong [ref=e90]: $25,000,000
+            - emphasis [ref=e91]: Trucking Accident
+        - listitem [ref=e92]:
+          - generic [ref=e93]:
+            - strong [ref=e94]: $23,250,000
+            - emphasis [ref=e95]: Wrongful Death
+        - listitem [ref=e96]:
+          - generic [ref=e97]:
+            - strong [ref=e98]: $22,500,000
+            - emphasis [ref=e99]: Personal Injury
+        - listitem [ref=e100]:
+          - generic [ref=e101]:
+            - strong [ref=e102]: $17,500,000
+            - emphasis [ref=e103]: Catastrophic Injuries
+        - listitem [ref=e104]:
+          - generic [ref=e105]:
+            - strong [ref=e106]: $14,000,000
+            - emphasis [ref=e107]: Medical Malpractice
+        - listitem [ref=e108]:
+          - generic [ref=e109]:
+            - strong [ref=e110]: $4,000,000
+            - emphasis [ref=e111]: Sexual Abuse
+      - link "View More case Results" [ref=e116] [cursor=pointer]:
+        - /url: /case-results/
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - heading "Maine’s Leading Personal Injury Lawyers" [level=1] [ref=e121]
+        - heading "When the Stakes are High, You Deserve:" [level=2] [ref=e122]
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - strong [ref=e125]: "The Most Experience:"
+            - text: Collectively, our personal injury and medical malpractice attorneys have vastly more trial experience than anyone else in Maine.
+          - listitem [ref=e126]:
+            - strong [ref=e127]: "The Greatest Talent:"
+            - text: Our 12 attorneys and more than 40 talented legal professionals are unmatched in the depth of legal knowledge, advocacy skills, and creativity they bring to every case.
+          - listitem [ref=e128]:
+            - strong [ref=e129]: "The Deepest Resources:"
+            - text: No one invests in top national experts, state-of-the-art technology, and innovative trial techniques like we do.
+          - listitem [ref=e130]:
+            - strong [ref=e131]: "The Best Preparation:"
+            - text: Our unique team approach and relentless trial preparation mean we win more – and more often – than anyone else.
+          - listitem [ref=e132]:
+            - strong [ref=e133]: "The Biggest Verdicts:"
+            - text: We have recovered $1.5 billion in verdicts and settlements, and we add to that total every year.
+          - listitem [ref=e134]:
+            - strong [ref=e135]: "The Most Personalized Care:"
+            - text: As our reviews attest, we provide exceptional care to our clients and their family members, never losing sight of what’s at stake for them.
+      - link "Give Us A Call" [ref=e138]:
+        - /url: tel:(207) 417-4199
+    - generic [ref=e140]:
+      - heading "Results That Make Headlines" [level=4] [ref=e143]
+      - list [ref=e144]:
+        - listitem [ref=e145]:
+          - link "100 Survivors and Victims’ Families of Mass Shooting Sue U.S. Government" [ref=e146] [cursor=pointer]:
+            - /url: https://www.bermansimmons.com/latest-news/2023/june/survivors-of-maine-mass-shooting-take-step-towar/
+            - strong [ref=e148]: 100 Survivors and Victims’ Families of Mass Shooting Sue U.S. Government
+        - listitem [ref=e149]:
+          - link "Settlement Reached in Explosion Lawsuit" [ref=e150] [cursor=pointer]:
+            - /url: https://www.bermansimmons.com/latest-news/2021/october/farmington-explosion-lawsuit-settled-victims-and/
+            - strong [ref=e152]: Settlement Reached in Explosion Lawsuit
+        - listitem [ref=e153]:
+          - link "Maine family sues Amazon after delivery driver causes fatal crash" [ref=e154] [cursor=pointer]:
+            - /url: https://www.mainepublic.org/business-and-economy/2022-04-14/maine-family-sues-amazon-after-delivery-driver-causes-fatal-crash
+            - strong [ref=e156]: Maine family sues Amazon after delivery driver causes fatal crash
+        - listitem [ref=e157]:
+          - link "$6.5 Million Jury Verdict in Medical Malpractice Case" [ref=e158] [cursor=pointer]:
+            - /url: /latest-news/2023/may/jury-awards-25-year-old-s-parents-6-5-million-fo/
+            - strong [ref=e160]: $6.5 Million Jury Verdict in Medical Malpractice Case
+    - generic [ref=e164]:
+      - heading "Our Areas of Practice" [level=4] [ref=e167]
+      - list [ref=e168]:
+        - listitem [ref=e169] [cursor=pointer]:
+          - link "Truck Accidents" [ref=e170]:
+            - /url: /practice-areas/vehicle-accidents/truck-accident/
+            - strong [ref=e171]: Truck Accidents
+        - listitem [ref=e172] [cursor=pointer]:
+          - link "Medical Malpractice" [ref=e173]:
+            - /url: /practice-areas/medical-malpractice/
+            - strong [ref=e174]: Medical Malpractice
+        - listitem [ref=e175] [cursor=pointer]:
+          - link "Personal Injury" [ref=e176]:
+            - /url: /practice-areas/personal-injury/
+            - strong [ref=e177]: Personal Injury
+        - listitem [ref=e178] [cursor=pointer]:
+          - link "Wrongful Death" [ref=e179]:
+            - /url: /practice-areas/wrongful-death/
+            - strong [ref=e180]: Wrongful Death
+        - listitem [ref=e181] [cursor=pointer]:
+          - link "Sexual Abuse" [ref=e182]:
+            - /url: /practice-areas/sex-abuse/
+            - strong [ref=e183]: Sexual Abuse
+      - link "Questions? Contact Us Today." [ref=e186] [cursor=pointer]:
+        - /url: /free-case-review/
+    - generic [ref=e188]:
+      - list [ref=e192]:
+        - listitem [ref=e193]:
+          - img "Best Lawyers | Best Law Firms - 2026" [ref=e195]
+        - listitem [ref=e196]:
+          - img "Chambers" [ref=e198]
+        - listitem [ref=e199]:
+          - img "AV Preeminent" [ref=e201]
+        - listitem [ref=e202]:
+          - img "Avvo" [ref=e204]
+        - listitem [ref=e205]:
+          - img "American Association for Justice" [ref=e207]
+      - generic [ref=e209]:
+        - generic [ref=e211]:
+          - heading "Results That Speak For Themselves" [level=4] [ref=e212]
+          - heading "Read Our Client Testimonials" [level=5] [ref=e213]
+        - list [ref=e215]:
+          - listitem [ref=e216]:
+            - list "Star Rating" [ref=e217]:
+              - listitem [ref=e218]
+              - listitem [ref=e219]
+              - listitem [ref=e220]
+              - listitem [ref=e221]
+              - listitem [ref=e222]
+            - blockquote [ref=e223]:
+              - strong [ref=e224]: "\"\"Berman & Simmons attorneys are The Real Deal\"\""
+              - paragraph [ref=e225]: Elizabeth and her team were remarkably responsive and thorough in their approach to our case.
+              - strong [ref=e227]: "- Scott R."
+        - link "Read More Testimonials" [ref=e231] [cursor=pointer]:
+          - /url: /testimonials/
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - heading "Meet Our Attorneys" [level=1] [ref=e235]
+          - heading "As powerful advocates for civil justice, we fight tirelessly for our clients, winning high-stakes, complex cases, where our team’s expertise and unmatched skills make all the difference." [level=2] [ref=e236]
+        - list [ref=e237]:
+          - listitem [ref=e238]:
+            - link "Susan A. Faunce Photo Susan A. Faunce Managing Director, Shareholder" [ref=e239] [cursor=pointer]:
+              - /url: /our-attorneys/susan-a-faunce/
+              - img "Susan A. Faunce Photo" [ref=e241]
+              - generic [ref=e242]:
+                - strong [ref=e243]: Susan A. Faunce
+                - emphasis [ref=e244]: Managing Director, Shareholder
+          - listitem [ref=e245]:
+            - link "Travis M. Brennan Photo Travis M. Brennan Attorney, Shareholder" [ref=e246] [cursor=pointer]:
+              - /url: /our-attorneys/travis-m-brennan/
+              - img "Travis M. Brennan Photo" [ref=e248]
+              - generic [ref=e249]:
+                - strong [ref=e250]: Travis M. Brennan
+                - emphasis [ref=e251]: Attorney, Shareholder
+          - listitem [ref=e252]:
+            - link "Timothy M. Kenlan Photo Timothy M. Kenlan Attorney, Shareholder" [ref=e253] [cursor=pointer]:
+              - /url: /our-attorneys/timothy-m-kenlan/
+              - img "Timothy M. Kenlan Photo" [ref=e255]
+              - generic [ref=e256]:
+                - strong [ref=e257]: Timothy M. Kenlan
+                - emphasis [ref=e258]: Attorney, Shareholder
+          - listitem [ref=e259]:
+            - link "Elizabeth A. Kayatta Photo Elizabeth A. Kayatta Attorney, Shareholder" [ref=e260] [cursor=pointer]:
+              - /url: /our-attorneys/elizabeth-a-kayatta/
+              - img "Elizabeth A. Kayatta Photo" [ref=e262]
+              - generic [ref=e263]:
+                - strong [ref=e264]: Elizabeth A. Kayatta
+                - emphasis [ref=e265]: Attorney, Shareholder
+          - listitem [ref=e266]:
+            - link "Charles P. Hehmeyer Photo Charles P. Hehmeyer Attorney, Shareholder" [ref=e267] [cursor=pointer]:
+              - /url: /our-attorneys/charles-p-hehmeyer/
+              - img "Charles P. Hehmeyer Photo" [ref=e269]
+              - generic [ref=e270]:
+                - strong [ref=e271]: Charles P. Hehmeyer
+                - emphasis [ref=e272]: Attorney, Shareholder
+          - listitem [ref=e273]:
+            - link "Christopher C. Boots Photo Christopher C. Boots Attorney, Shareholder" [ref=e274] [cursor=pointer]:
+              - /url: /our-attorneys/christopher-c-boots/
+              - img "Christopher C. Boots Photo" [ref=e276]
+              - generic [ref=e277]:
+                - strong [ref=e278]: Christopher C. Boots
+                - emphasis [ref=e279]: Attorney, Shareholder
+        - link "Meet The Rest of Our Attorneys" [ref=e282] [cursor=pointer]:
+          - /url: /our-attorneys/
+    - generic [ref=e284]:
+      - generic [ref=e287]:
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - strong [ref=e291]: When the Stakes are High, We Deliver
+            - emphasis [ref=e292]: We Achieve Record-Setting Results for Seriously Injured Mainers
+            - paragraph [ref=e293]: Our clients live in all 16 of Maine’s counties. From our northern woods to our western mountains to our working coastline, we deliver what you need.
+          - list [ref=e295]:
+            - listitem [ref=e296]:
+              - link "Give Us A Call" [ref=e297]:
+                - /url: tel:(207) 417-4199
+        - generic [ref=e299]:
+          - generic [ref=e301]:
+            - heading "Reach Out To Us" [level=4] [ref=e302]
+            - heading "Setting the Bar in Maine and Beyond" [level=5] [ref=e303]
+          - generic [ref=e304]:
+            - group [ref=e305]:
+              - list [ref=e306]:
+                - listitem [ref=e307]:
+                  - generic [ref=e308]:
+                    - generic [ref=e309]: First Name
+                    - textbox "First Name" [ref=e310]
+                - listitem [ref=e311]:
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: Last Name
+                    - textbox "Last Name" [ref=e314]
+                - listitem [ref=e315]:
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: Phone
+                    - textbox "Phone" [ref=e318]
+                - listitem [ref=e319]:
+                  - generic [ref=e320]:
+                    - generic [ref=e321]: Email
+                    - textbox "Email" [ref=e322]
+                - listitem [ref=e323]:
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: Are you a new client?
+                    - combobox "Are you a new client?" [ref=e326]:
+                      - option [selected]
+                      - option "Yes, I am a potential new client"
+                      - option "No, I'm a current existing client"
+                      - option "I'm neither."
+                - listitem [ref=e327]:
+                  - generic [ref=e328]:
+                    - generic [ref=e329]: How can we help you?
+                    - textbox "How can we help you?" [ref=e330]
+                - listitem [ref=e331]:
+                  - list [ref=e332]:
+                    - listitem [ref=e333]:
+                      - checkbox [ref=e334] [cursor=pointer]
+                      - generic [ref=e336]:
+                        - text: By checking this box, I consent to receive SMS from Berman & Simmons. Reply STOP to Opt-out; Reply HELP for support; Message & data rates may apply; Messaging frequency may vary. Visit
+                        - link "https://www.bermansimmons.com/privacy-policy/" [ref=e337] [cursor=pointer]:
+                          - /url: /privacy-policy/
+                        - text: to see our Privacy Policy
+            - button "Send Message" [ref=e339] [cursor=pointer]
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - generic [ref=e343]:
+            - link "Berman & Simmons" [ref=e344] [cursor=pointer]:
+              - /url: /
+              - img "Berman & Simmons" [ref=e345]
+            - generic [ref=e346]:
+              - generic [ref=e347]: Contact Maine's Top Trial Attorneys
+              - link "207-417-4199" [ref=e348]:
+                - /url: tel:2074174199
+          - navigation [ref=e350]:
+            - strong [ref=e352]: Links
+            - list [ref=e354]:
+              - listitem [ref=e355]:
+                - link "About Us" [ref=e356] [cursor=pointer]:
+                  - /url: /about-us/
+              - listitem [ref=e357]:
+                - link "Our Attorneys" [ref=e358] [cursor=pointer]:
+                  - /url: /our-attorneys/
+              - listitem [ref=e359]:
+                - link "Practice Areas" [ref=e360] [cursor=pointer]:
+                  - /url: /practice-areas/
+              - listitem [ref=e361]:
+                - link "Case Results" [ref=e362] [cursor=pointer]:
+                  - /url: /case-results/
+              - listitem [ref=e363]:
+                - link "Latest News" [ref=e364] [cursor=pointer]:
+                  - /url: /latest-news/
+              - listitem [ref=e365]:
+                - link "Testimonials" [ref=e366] [cursor=pointer]:
+                  - /url: /testimonials/
+              - listitem [ref=e367]:
+                - link "Free Case Review" [ref=e368] [cursor=pointer]:
+                  - /url: /free-case-review/
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - strong [ref=e372]: Our Locations Throughout Maine
+            - list [ref=e373]:
+              - listitem [ref=e374]:
+                - strong [ref=e375]: Lewiston Office
+                - generic [ref=e376]:
+                  - text: 129 Lisbon St.
+                  - text: Lewiston, ME 04240
+                - link "Map & Directions" [ref=e377] [cursor=pointer]:
+                  - /url: https://www.google.com/maps?cid=5203404788151234147
+              - listitem [ref=e378]:
+                - strong [ref=e379]: Portland Office
+                - generic [ref=e380]:
+                  - text: 85 Exchange St.
+                  - text: Portland, ME 04101
+                - link "Map & Directions" [ref=e381] [cursor=pointer]:
+                  - /url: https://www.google.com/maps?cid=13851283340421143429
+              - listitem [ref=e382]:
+                - strong [ref=e383]: Biddeford Office
+                - generic [ref=e384]:
+                  - text: 11 Adams St.
+                  - text: Suite C
+                  - text: Biddeford, ME 04005
+                - link "Map & Directions" [ref=e385] [cursor=pointer]:
+                  - /url: https://www.google.com/maps?cid=6288816920089313581
+              - listitem [ref=e386]:
+                - strong [ref=e387]:
+                  - text: Bangor Office
+                  - text: (Key Plaza)
+                - generic [ref=e388]:
+                  - text: 23 Water St.
+                  - text: Suite 207
+                  - text: Bangor, ME 04401
+                - link "Map & Directions" [ref=e389] [cursor=pointer]:
+                  - /url: https://www.google.com/maps?cid=7026968347371283108
+          - generic [ref=e391]:
+            - strong [ref=e393]: Follow Us
+            - list [ref=e394]:
+              - listitem [ref=e395]:
+                - link "Facebook" [ref=e396] [cursor=pointer]:
+                  - /url: https://www.facebook.com/bermansimmons
+              - listitem [ref=e397]:
+                - link "LinkedIn" [ref=e398] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/berman-&-simmons/
+              - listitem [ref=e399]:
+                - link "Instagram" [ref=e400] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bermansimmons/
+  - contentinfo [ref=e401]:
+    - generic [ref=e404]:
+      - generic [ref=e405]:
+        - text: The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.
+        - text: This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
+      - paragraph [ref=e406]: © 2026 All Rights Reserved.
+      - navigation [ref=e407]:
+        - menu "Footer Navigation" [ref=e408]:
+          - menuitem "Site Map" [ref=e409]:
+            - link "Site Map" [ref=e410] [cursor=pointer]:
+              - /url: /site-map/
+          - menuitem "Privacy Policy" [ref=e411]:
+            - link "Privacy Policy" [ref=e412] [cursor=pointer]:
+              - /url: /privacy-policy/
+          - menuitem "Site Search" [ref=e413]:
+            - link "Site Search" [ref=e414] [cursor=pointer]:
+              - /url: /site-search/
