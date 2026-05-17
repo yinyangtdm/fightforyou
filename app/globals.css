@@ -899,21 +899,17 @@ footer {
 
 /* ── LISTING PAGES ── */
 .listing-page {
-  display: grid;
-  grid-template-columns: 1fr;
   width: 100%;
-  max-width: var(--page-max);
-  margin: 0 auto;
-  padding: 24px var(--page-px) 24px;
-  border-bottom: none;
 }
 
 .listing-page-header {
   width: 100%;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 16px var(--page-px) 24px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
-  margin-top: -16px;
 }
 
 .listing-page-filter-row {
@@ -1020,8 +1016,9 @@ footer {
 
 /* Filing Deadlines */
 .filing-deadlines {
-  margin-bottom: 32px;
-  padding-top: 24px;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 24px var(--page-px) 32px;
 }
 
 .filing-deadlines-title {
@@ -1358,10 +1355,13 @@ footer {
 
 .profile-page {
   width: 100%;
+}
+
+.profile-body {
+  width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
   padding: 12px var(--page-px) 96px;
-  background: transparent;
 }
 
 .profile-img {
@@ -2102,7 +2102,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 12px var(--page-px) 96px;
+  padding: 0 var(--page-px) 96px;
 }
 
 .guide-page-inner {
@@ -2135,10 +2135,6 @@ footer {
 }
 
 .guide-back-container {
-  width: 100%;
-  max-width: var(--page-max);
-  margin: 0 auto;
-  padding: 0 var(--page-px);
   height: 52px;
   display: flex;
   align-items: center;
@@ -2663,8 +2659,7 @@ footer {
   /* Listings */
   .breadcrumb-container,
   .guide-back-container { height: 44px; }
-  .listing-page { padding: 12px var(--page-px) 20px; }
-  .listing-page-header { margin-top: 0; }
+  .listing-page-header { padding: 12px var(--page-px) 16px; }
   .listing-section-inner { padding: 28px var(--page-px); }
   .listing-page-filter-row { flex-wrap: wrap; }
   .listing-page-header h1 { font-size: 30px; }
@@ -2673,7 +2668,7 @@ footer {
   .listing-card-top { flex-direction: column; }
 
   /* Profile */
-  .profile-page { padding: 12px var(--page-px) 64px; }
+  .profile-body { padding: 12px var(--page-px) 64px; }
   .profile-name { font-size: 28px; }
   .profile-hero { margin: 0 0 16px; border-radius: 8px; }
   .profile-map-row { grid-template-columns: 1fr; }
@@ -2700,7 +2695,7 @@ footer {
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
-  .guide-page { padding: 12px var(--page-px) 64px; }
+  .guide-page { padding: 0 var(--page-px) 64px; }
   .guide-title { font-size: 30px; }
   .guide-page-inner { grid-template-columns: 1fr; }
   .guide-sidebar { position: static; border-top: 1px solid var(--border-on-dark); padding-top: 40px; }
@@ -2731,16 +2726,16 @@ footer {
   .footer-top { grid-template-columns: 1fr; }
   footer { padding: var(--sp-6) 0 0; }
 
-  .listing-page { padding: 12px var(--page-px) 16px; }
-  .listing-page-header h1 {font-size: 24px;  }
+  .listing-page-header { padding: 8px var(--page-px) 12px; }
+  .listing-page-header h1 { font-size: 24px; }
   .listing-page-header p,
   .listing-page-subheading { font-size: 16px; }
   .guides-subheading,
   .guide-card-excerpt { font-size: 16px; }
   .listing-section-inner { padding: 24px var(--page-px); }
 
-  .guide-page { padding: 12px var(--page-px) 56px; }
-  .profile-page { padding: 12px var(--page-px) 56px; }
+  .guide-page { padding: 0 var(--page-px) 56px; }
+  .profile-body { padding: 12px var(--page-px) 56px; }
   .profile-hero { margin: 0 0 16px; height: auto; }
   .profile-hero {
     grid-template-columns: 1fr;

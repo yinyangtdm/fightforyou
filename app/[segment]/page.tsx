@@ -138,16 +138,16 @@ export default async function SegmentPage({
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="breadcrumb-container">
-        <Breadcrumb
-          items={[
-            { label: "Home", href: "/" },
-            { label: data.label },
-          ]}
-        />
-      </div>
-
       <div className="listing-page">
+        <div className="breadcrumb-container">
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: data.label },
+            ]}
+          />
+        </div>
+
         <div className="listing-page-header">
           <h1>{heading}</h1>
           <p className="listing-page-subheading">{subheading}</p>
@@ -172,26 +172,22 @@ export default async function SegmentPage({
             )}
           </div>
         </div>
-      </div>
 
-      <div className="listing-section">
-        <div className="listing-section-inner">
-          <div className="listing-grid">
-            {data.listings.map((listing) => (
-              <ListingCard key={listing.slug} listing={listing} />
-            ))}
-            {data.listings.length === 0 && (
-              <p className="listing-empty">No listings found.</p>
-            )}
+        <div className="listing-section">
+          <div className="listing-section-inner">
+            <div className="listing-grid">
+              {data.listings.map((listing) => (
+                <ListingCard key={listing.slug} listing={listing} />
+              ))}
+              {data.listings.length === 0 && (
+                <p className="listing-empty">No listings found.</p>
+              )}
+            </div>
           </div>
         </div>
-      </div>
 
-      {data.type === "state" && (
-        <div className="listing-page">
-          <FilingDeadlines stateAbbr={data.stateAbbr} />
-        </div>
-      )}
+        {data.type === "state" && <FilingDeadlines stateAbbr={data.stateAbbr} />}
+      </div>
 
       <Footer />
     </div>
