@@ -727,10 +727,23 @@ img, video { max-width: 100%; height: auto; }
 
 /* ── FOOTER ── */
 footer {
-  background: var(--bg-base);
-  border-top: 1px solid var(--border);
+  /* Footer is always dark regardless of theme */
+  background: #2e3440;
+  border-top: 1px solid rgba(216, 222, 233, 0.1);
   padding: var(--sp-8) 0 0;
+  --bg-base:    #2e3440;
+  --bg-raised:  #3b4252;
+  --bg-overlay: #434c5e;
+  --text-primary:   #eceff4;
+  --text-secondary: #e5e9f0;
+  --text-muted:     #d8dee9;
+  --accent:         #88c0d0;
+  --accent-light:   #8fbcbb;
+  --border:         rgba(216, 222, 233, 0.10);
+  --border-on-dark: rgba(216, 222, 233, 0.10);
 }
+
+.footer-brand-logo { display: block; margin-bottom: 12px; }
 
 .footer-inner {
   max-width: var(--page-max);
@@ -1755,7 +1768,7 @@ footer {
   padding: 12px var(--page-px) 96px;
 }
 
-.guides-page--index {
+.guide-index {
   padding-top: 70px;
 }
 
@@ -2153,11 +2166,11 @@ footer {
 
 .guide-lead {
   font-family: var(--sans);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   color: var(--text-muted);
   line-height: 1.75;
-  margin-top: 16px;
+  margin-top: 40px;
   padding-bottom: 0;
   border-bottom: none;
 }
