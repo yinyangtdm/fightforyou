@@ -1670,7 +1670,7 @@ footer {
 }
 
 .guides-page--index {
-  padding-top: calc(12px + 47.6px);
+  padding-top: 70px;
 }
 
 
@@ -1695,9 +1695,8 @@ footer {
   font-family: var(--serif);
   font-size: 36px;
   font-weight: 700;
-  letter-spacing: -0.02em;
   color: var(--nord6);
-  margin-bottom: 48px;
+  margin-bottom: 16px;
   line-height: 1;
 }
 
@@ -1837,7 +1836,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
-  margin-top: 16px;
+  margin-top: 32px;
 }
 
 .guide-pinned-card {
@@ -2584,7 +2583,7 @@ footer {
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
-  .guide-page { padding: 12px var(--page-px) 64px; }
+  .guide-page { padding: 40px var(--page-px) 64px; }
   .guide-title { font-size: 30px; }
   .guide-page-inner { grid-template-columns: 1fr; }
   .guide-sidebar { position: static; border-top: 1px solid var(--border-on-dark); padding-top: 40px; }
