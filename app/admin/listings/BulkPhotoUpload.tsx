@@ -135,7 +135,7 @@ export default function BulkPhotoUpload({ listings }: Props) {
   const matchedCount = entries.filter(e => e.match !== null).length
 
   return (
-    <div className="bg-white rounded-lg shadow p-6 mt-6">
+    <div className="bg-[#3b4252] rounded-lg border border-[#4c566a] p-6 mt-6">
       <h2 className="text-lg font-semibold mb-4">Bulk Photo Upload</h2>
 
       <div
@@ -144,19 +144,19 @@ export default function BulkPhotoUpload({ listings }: Props) {
         onDrop={handleDrop}
         onClick={() => inputRef.current?.click()}
         className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${
-          dragging ? "border-blue-400 bg-blue-50" : "border-gray-300 hover:border-gray-400"
+          dragging ? "border-[#88c0d0] bg-[#3b4252]" : "border-[#4c566a] hover:border-[#88c0d0]"
         }`}
       >
-        <p className="text-gray-500 text-sm">Drag photos here or click to select</p>
-        <p className="text-gray-400 text-xs mt-1">Filenames should match listing names (e.g. &quot;John Smith.jpg&quot;)</p>
+        <p className="text-[#9aa5b4] text-sm">Drag photos here or click to select</p>
+        <p className="text-[#4c566a] text-xs mt-1">Filenames should match listing names (e.g. &quot;John Smith.jpg&quot;)</p>
         <input ref={inputRef} type="file" accept="image/*" multiple onChange={handleInputChange} className="hidden" />
       </div>
 
       {entries.length > 0 && (
         <div className="mt-4">
-          <div className="border rounded-lg overflow-hidden">
-            <table className="w-full text-sm text-left">
-              <thead className="bg-gray-50 border-b">
+          <div className="border border-[#4c566a] rounded-lg overflow-hidden">
+            <table className="w-full text-sm text-left text-[#eceff4]">
+              <thead className="bg-[#434c5e] border-b border-[#4c566a]">
                 <tr>
                   <th className="px-4 py-2 font-medium">Preview</th>
                   <th className="px-4 py-2 font-medium">Photo Slug</th>
@@ -164,14 +164,14 @@ export default function BulkPhotoUpload({ listings }: Props) {
                   <th className="px-4 py-2 font-medium w-8"></th>
                 </tr>
               </thead>
-              <tbody className="divide-y">
+              <tbody className="divide-y divide-[#4c566a]">
                 {entries.map((entry, i) => (
-                  <tr key={entry.file.name} className="hover:bg-gray-50">
+                  <tr key={entry.file.name} className="hover:bg-[#434c5e]">
                     <td className="px-4 py-2">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={entry.preview} alt="" className="h-10 w-10 object-cover rounded" />
                     </td>
-                    <td className="px-4 py-2 font-mono text-gray-700">{entry.slug}</td>
+                    <td className="px-4 py-2 font-mono text-[#d8dee9]">{entry.slug}</td>
                     <td className="px-4 py-2 font-mono">
                       {entry.match ? (
                         <>
@@ -187,7 +187,7 @@ export default function BulkPhotoUpload({ listings }: Props) {
                     <td className="px-4 py-2">
                       <button
                         onClick={() => setEntries(prev => prev.filter((_, j) => j !== i))}
-                        className="text-gray-400 hover:text-red-600 text-xl leading-none"
+                        className="text-[#4c566a] hover:text-red-400 text-xl leading-none"
                         aria-label="Remove"
                       >
                         &times;
@@ -203,14 +203,14 @@ export default function BulkPhotoUpload({ listings }: Props) {
             <button
               onClick={handleConfirm}
               disabled={uploading || matchedCount === 0}
-              className="bg-black text-white px-4 py-2 rounded text-sm hover:bg-gray-800 disabled:opacity-50"
+              className="bg-[#5e81ac] text-white px-4 py-2 rounded text-sm hover:bg-[#81a1c1] disabled:opacity-50"
             >
               {uploading ? "Uploading..." : `Confirm Upload (${matchedCount} matched)`}
             </button>
             <button
               onClick={() => setEntries([])}
               disabled={uploading}
-              className="text-sm text-gray-500 hover:text-gray-700"
+              className="text-sm text-[#9aa5b4] hover:text-[#eceff4]"
             >
               Clear all
             </button>

@@ -419,14 +419,14 @@ export default function EditForm({ listing }: EditFormProps) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow">
+    <div className="min-h-screen bg-[#2e3440] p-8">
+      <div className="max-w-2xl mx-auto bg-[#3b4252] p-8 rounded-lg border border-[#4c566a]">
         <div className="flex items-center gap-4 mb-6">
-          <Link href="/admin/listings" className="text-gray-500 hover:text-gray-700 text-sm">
+          <Link href="/admin/listings" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">
             &larr; Back
           </Link>
           <h1 className="text-2xl font-bold">Edit Listing</h1>
-          <span className="ml-auto text-sm text-gray-400 font-mono">#{listing.id}</span>
+          <span className="ml-auto text-sm text-[#4c566a] font-mono">#{listing.id}</span>
         </div>
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -443,14 +443,14 @@ export default function EditForm({ listing }: EditFormProps) {
                 type="button"
                 onClick={() => void handleAutoFill()}
                 disabled={autoFillLoading || (!pageText.trim() && !form.name.trim())}
-                className="px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50"
+                className="px-4 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-50"
               >
                 {autoFillLoading ? "Filling..." : "Auto-fill"}
               </button>
               <button
                 type="button"
                 onClick={handleCopyPrompt}
-                className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
+                className="px-4 py-2 border border-[#4c566a] rounded text-sm hover:bg-[#434c5e]"
               >
                 {copyConfirm ? "Copied!" : "Copy prompt"}
               </button>
@@ -458,7 +458,7 @@ export default function EditForm({ listing }: EditFormProps) {
               <button
                 type="button"
                 onClick={() => htmlFileInputRef.current?.click()}
-                className="px-4 py-2 border rounded text-sm hover:bg-gray-50"
+                className="px-4 py-2 border border-[#4c566a] rounded text-sm hover:bg-[#434c5e]"
               >
                 Upload HTML
               </button>
@@ -486,13 +486,13 @@ export default function EditForm({ listing }: EditFormProps) {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Slug</label>
-            <input readOnly name="slug" value={form.slug} className="w-full border rounded p-2 bg-gray-50 text-gray-500 cursor-default" />
+            <input readOnly name="slug" value={form.slug} className="w-full border rounded p-2 bg-[#2e3440] text-[#9aa5b4] cursor-default" />
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Tagline</label>
             <div className="flex gap-2">
               <input name="tagline" value={form.tagline} onChange={handleChange} className="flex-1 border rounded p-2" placeholder="e.g. The National Catalyst" />
-              <button type="button" onClick={() => void handleFieldLookup("tagline")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "tagline" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("tagline")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "tagline" ? "…" : "Find"}</button>
             </div>
           </div>
           <div>
@@ -512,7 +512,7 @@ export default function EditForm({ listing }: EditFormProps) {
                 }}
                 className={`flex-1 border rounded p-2 ${emailError ? "border-red-500" : ""}`}
               />
-              <button type="button" onClick={() => void handleFieldLookup("email")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "email" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("email")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "email" ? "…" : "Find"}</button>
             </div>
             {emailError && <p className="text-red-500 text-sm mt-1">{emailError}</p>}
           </div>
@@ -533,14 +533,14 @@ export default function EditForm({ listing }: EditFormProps) {
                 }}
                 className={`flex-1 border rounded p-2 ${phoneError ? "border-red-500" : ""}`}
               />
-              <button type="button" onClick={() => void handleFieldLookup("phone")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "phone" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("phone")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "phone" ? "…" : "Find"}</button>
             </div>
             {phoneError && <p className="text-red-500 text-sm mt-1">{phoneError}</p>}
           </div>
           <div>
             <div className="flex items-center gap-2 mb-1">
               <label className="text-sm font-medium">Description</label>
-              <button type="button" onClick={() => void handleFieldLookup("description")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-gray-500 hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "description" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("description")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-[#9aa5b4] hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "description" ? "…" : "Find"}</button>
             </div>
             <textarea name="description" value={form.description} onChange={handleChange} rows={10} className="w-full border rounded p-2 whitespace-pre-wrap" />
           </div>
@@ -551,7 +551,7 @@ export default function EditForm({ listing }: EditFormProps) {
               type="button"
               onClick={() => fileInputRef.current?.click()}
               disabled={photoUploading}
-              className="px-4 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-50"
+              className="px-4 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-50"
             >
               {photoUploading ? "Uploading..." : "Upload Photo"}
             </button>
@@ -586,8 +586,8 @@ export default function EditForm({ listing }: EditFormProps) {
                 placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
                 className="flex-1 border rounded p-2"
               />
-              <button type="button" onClick={() => void handleParseAddress()} className="px-4 py-2 border rounded text-sm hover:bg-gray-50">Parse</button>
-              <button type="button" onClick={() => void handleFieldLookup("address")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "address" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleParseAddress()} className="px-4 py-2 border border-[#4c566a] rounded text-sm hover:bg-[#434c5e]">Parse</button>
+              <button type="button" onClick={() => void handleFieldLookup("address")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "address" ? "…" : "Find"}</button>
             </div>
           </div>
           <div>
@@ -597,11 +597,11 @@ export default function EditForm({ listing }: EditFormProps) {
           <div className="grid grid-cols-3 gap-4">
             <div>
               <label className="block text-sm font-medium mb-1">City</label>
-              <input readOnly name="city" value={form.city} className="w-full border rounded p-2 bg-gray-50 text-gray-500 cursor-default" />
+              <input readOnly name="city" value={form.city} className="w-full border rounded p-2 bg-[#2e3440] text-[#9aa5b4] cursor-default" />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">State</label>
-              <input readOnly name="state" value={form.state} className="w-full border rounded p-2 bg-gray-50 text-gray-500 cursor-default" />
+              <input readOnly name="state" value={form.state} className="w-full border rounded p-2 bg-[#2e3440] text-[#9aa5b4] cursor-default" />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1">Zip Code</label>
@@ -632,13 +632,13 @@ export default function EditForm({ listing }: EditFormProps) {
             <label className="block text-sm font-medium mb-1">Specialties</label>
             <div className="flex gap-2">
               <input name="specialties" value={form.specialties} onChange={handleChange} onBlur={(e) => setForm(prev => ({ ...prev, specialties: normalizeSpecialties(e.target.value) }))} className="flex-1 border rounded p-2" placeholder="e.g. Criminal, Family, Immigration" />
-              <button type="button" onClick={() => void handleFieldLookup("specialties")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "specialties" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("specialties")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "specialties" ? "…" : "Find"}</button>
             </div>
           </div>
           <div>
             <div className="flex items-center gap-2 mb-1">
               <label className="text-sm font-medium">Notable Results</label>
-              <button type="button" onClick={() => void handleFieldLookup("notableResults")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-gray-500 hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "notableResults" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("notableResults")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-[#9aa5b4] hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "notableResults" ? "…" : "Find"}</button>
             </div>
             <div className="space-y-2">
               {form.notableResults.map((item, i) => (
@@ -665,7 +665,7 @@ export default function EditForm({ listing }: EditFormProps) {
                       ...prev,
                       notableResults: prev.notableResults.length === 1 ? [""] : prev.notableResults.filter((_, j) => j !== i),
                     }))}
-                    className="text-gray-400 hover:text-red-600 px-2 text-xl leading-none"
+                    className="text-[#4c566a] hover:text-red-400 px-2 text-xl leading-none"
                     aria-label="Remove item"
                   >
                     &times;
@@ -684,7 +684,7 @@ export default function EditForm({ listing }: EditFormProps) {
           <div>
             <div className="flex items-center gap-2 mb-1">
               <label className="text-sm font-medium">Key Characteristics</label>
-              <button type="button" onClick={() => void handleFieldLookup("keyCharacteristics")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-gray-500 hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "keyCharacteristics" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("keyCharacteristics")} disabled={!!fieldLoading} className="text-xs px-2 py-1 border rounded text-[#9aa5b4] hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "keyCharacteristics" ? "…" : "Find"}</button>
             </div>
             <div className="space-y-2">
               {form.keyCharacteristics.map((item, i) => (
@@ -721,7 +721,7 @@ export default function EditForm({ listing }: EditFormProps) {
                       ...prev,
                       keyCharacteristics: prev.keyCharacteristics.length === 1 ? [""] : prev.keyCharacteristics.filter((_, j) => j !== i),
                     }))}
-                    className="text-gray-400 hover:text-red-600 px-2 text-xl leading-none"
+                    className="text-[#4c566a] hover:text-red-400 px-2 text-xl leading-none"
                     aria-label="Remove item"
                   >
                     &times;
@@ -741,7 +741,7 @@ export default function EditForm({ listing }: EditFormProps) {
             <label className="block text-sm font-medium mb-1">Bar Number</label>
             <div className="flex gap-2">
               <input name="barNumber" value={form.barNumber} onChange={handleChange} className="flex-1 border rounded p-2" />
-              <button type="button" onClick={() => void handleFieldLookup("barNumber")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "barNumber" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("barNumber")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "barNumber" ? "…" : "Find"}</button>
             </div>
           </div>
           <div>
@@ -762,7 +762,7 @@ export default function EditForm({ listing }: EditFormProps) {
                 }}
                 className={`flex-1 border rounded p-2 ${websiteError ? "border-red-500" : ""}`}
               />
-              <button type="button" onClick={() => void handleFieldLookup("website")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "website" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("website")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "website" ? "…" : "Find"}</button>
             </div>
             {websiteError && <p className="text-red-500 text-sm mt-1">{websiteError}</p>}
           </div>
@@ -790,7 +790,7 @@ export default function EditForm({ listing }: EditFormProps) {
                 }}
                 className={`flex-1 border rounded p-2 ${linkedinError ? "border-red-500" : ""}`}
               />
-              <button type="button" onClick={() => void handleFieldLookup("linkedin")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "linkedin" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("linkedin")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "linkedin" ? "…" : "Find"}</button>
             </div>
             {linkedinError && <p className="text-red-500 text-sm mt-1">{linkedinError}</p>}
           </div>
@@ -818,7 +818,7 @@ export default function EditForm({ listing }: EditFormProps) {
                 }}
                 className={`flex-1 border rounded p-2 ${facebookError ? "border-red-500" : ""}`}
               />
-              <button type="button" onClick={() => void handleFieldLookup("facebook")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-gray-50 disabled:opacity-40">{fieldLoading === "facebook" ? "…" : "Find"}</button>
+              <button type="button" onClick={() => void handleFieldLookup("facebook")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "facebook" ? "…" : "Find"}</button>
             </div>
             {facebookError && <p className="text-red-500 text-sm mt-1">{facebookError}</p>}
           </div>
@@ -830,7 +830,7 @@ export default function EditForm({ listing }: EditFormProps) {
             <input type="checkbox" name="featured" checked={form.featured} onChange={handleChange} />
             <span>Featured</span>
           </label>
-          <button type="submit" disabled={loading} className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 disabled:opacity-50">
+          <button type="submit" disabled={loading} className="w-full bg-[#5e81ac] text-white py-2 rounded hover:bg-[#81a1c1] disabled:opacity-50">
             {loading ? "Saving..." : "Save Changes"}
           </button>
         </form>

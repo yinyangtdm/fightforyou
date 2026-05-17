@@ -22,21 +22,21 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-sm">
-        <h1 className="text-2xl font-bold mb-6 text-center">Admin Login</h1>
+    <div className="min-h-screen flex items-center justify-center bg-[#2e3440]">
+      <div className="bg-[#3b4252] p-8 rounded-lg border border-[#4c566a] w-full max-w-sm">
+        <h1 className="text-2xl font-bold mb-6 text-center text-[#eceff4]">Admin Login</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="password"
             placeholder="Enter password"
             value={password}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
-            className="w-full border border-gray-300 rounded p-2 mb-4"
+            className="w-full border border-[#4c566a] rounded p-2 mb-4 bg-[#434c5e] text-[#eceff4] placeholder:text-[#4c566a]"
           />
-          {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
+          {error && <p className="text-red-400 text-sm mb-4">{error}</p>}
           <button
             type="submit"
-            className="w-full bg-black text-white py-2 rounded hover:bg-gray-800"
+            className="w-full bg-[#5e81ac] text-white py-2 rounded hover:bg-[#81a1c1]"
           >
             Login
           </button>

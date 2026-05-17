@@ -57,6 +57,32 @@ html { overflow-x: clip; }
 body { overflow-x: hidden; }
 input, textarea, select { font-size: 16px; }
 
+/* ── Admin layout ── */
+.admin-layout {
+  background: var(--nord0);
+  color: var(--nord6);
+  min-height: 100vh;
+}
+
+.admin-layout input:not([type="checkbox"]):not([type="radio"]),
+.admin-layout textarea,
+.admin-layout select {
+  background: var(--nord2);
+  color: var(--nord6);
+  border-color: var(--nord3);
+}
+
+.admin-layout input:not([type="checkbox"]):not([type="radio"]):focus,
+.admin-layout textarea:focus,
+.admin-layout select:focus {
+  outline-color: var(--nord8);
+  border-color: var(--nord8);
+}
+
+.admin-layout label {
+  color: var(--nord5);
+}
+
 /* ── Public page wrapper ── */
 .public {
   font-family: var(--sans);

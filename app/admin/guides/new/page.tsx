@@ -164,10 +164,10 @@ export default function NewGuidePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow">
+    <div className="min-h-screen bg-[#2e3440] p-8">
+      <div className="max-w-2xl mx-auto bg-[#3b4252] p-8 rounded-lg border border-[#4c566a]">
         <div className="flex items-center gap-4 mb-6">
-          <Link href="/admin/guides" className="text-gray-500 hover:text-black text-sm">← Guides</Link>
+          <Link href="/admin/guides" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">← Guides</Link>
           <h1 className="text-2xl font-bold">New Guide</h1>
         </div>
         {error && <p className="text-red-500 mb-4">{error}</p>}
@@ -194,7 +194,7 @@ export default function NewGuidePage() {
                 type="button"
                 onClick={() => coverInputRef.current?.click()}
                 disabled={coverUploading}
-                className="shrink-0 px-3 py-2 bg-black text-white text-sm rounded hover:bg-gray-800 disabled:opacity-50"
+                className="shrink-0 px-3 py-2 bg-[#5e81ac] text-white text-sm rounded hover:bg-[#81a1c1] disabled:opacity-50"
               >
                 {coverUploading ? "Uploading…" : "Browse"}
               </button>
@@ -203,7 +203,7 @@ export default function NewGuidePage() {
                 readOnly
                 value={coverUploading ? "Uploading…" : coverFileName}
                 placeholder="No file chosen"
-                className="flex-1 border rounded p-2 text-sm text-gray-500 bg-gray-50 cursor-default"
+                className="flex-1 border border-[#4c566a] rounded p-2 text-sm text-[#9aa5b4] bg-[#2e3440] cursor-default"
               />
               <input
                 ref={coverInputRef}
@@ -220,7 +220,7 @@ export default function NewGuidePage() {
                 <button
                   type="button"
                   onClick={() => { setForm(prev => ({ ...prev, coverImageUrl: "" })); setCoverFileName(""); if (coverInputRef.current) coverInputRef.current.value = "" }}
-                  className="absolute top-1 right-1 bg-black text-white rounded-full w-5 h-5 text-xs flex items-center justify-center"
+                  className="absolute top-1 right-1 bg-[#4c566a] text-[#eceff4] rounded-full w-5 h-5 text-xs flex items-center justify-center"
                 >×</button>
               </div>
             )}
@@ -231,7 +231,7 @@ export default function NewGuidePage() {
           </div>
           <div>
             <label className="block text-sm font-medium mb-1">Body *</label>
-            <div className="flex flex-wrap gap-1 mb-1 p-1 border rounded bg-gray-50">
+            <div className="flex flex-wrap gap-1 mb-1 p-1 border border-[#4c566a] rounded bg-[#2e3440]">
               {[
                 { label: "B", title: "Bold", before: "**", after: "**", placeholder: "bold text" },
                 { label: "I", title: "Italic", before: "*", after: "*", placeholder: "italic text" },
@@ -248,18 +248,18 @@ export default function NewGuidePage() {
                   type="button"
                   title={btn.title}
                   onClick={() => bodyRef.current && insertMarkdown(bodyRef.current, btn.before, btn.after, btn.placeholder, val => setForm(prev => ({ ...prev, body: val })))}
-                  className="text-xs border rounded px-2 py-1 font-mono font-bold text-gray-700 hover:bg-white hover:shadow-sm"
+                  className="text-xs border border-[#4c566a] rounded px-2 py-1 font-mono font-bold text-[#d8dee9] hover:bg-[#434c5e] hover:shadow-sm"
                 >
                   {btn.label}
                 </button>
               ))}
-              <div className="w-px bg-gray-300 mx-1" />
+              <div className="w-px bg-[#4c566a] mx-1" />
               <input ref={bodyImageInputRef} type="file" accept="image/*" onChange={handleBodyImageUpload} className="hidden" />
               <button
                 type="button"
                 onClick={() => bodyImageInputRef.current?.click()}
                 disabled={bodyUploading}
-                className="text-xs border rounded px-2 py-1 text-gray-600 hover:bg-white hover:shadow-sm disabled:opacity-50"
+                className="text-xs border border-[#4c566a] rounded px-2 py-1 text-[#d8dee9] hover:bg-[#434c5e] hover:shadow-sm disabled:opacity-50"
               >
                 {bodyUploading ? "Uploading…" : "🖼 Image"}
               </button>
@@ -270,13 +270,13 @@ export default function NewGuidePage() {
               if (!suggestions.length) return null
               return (
                 <div className="mt-2 flex flex-wrap gap-1 items-center">
-                  <span className="text-xs text-gray-400 mr-1">Detected:</span>
+                  <span className="text-xs text-[#4c566a] mr-1">Detected:</span>
                   {suggestions.map(s => (
                     <button
                       key={s}
                       type="button"
                       onClick={() => setForm(prev => ({ ...prev, categories: [...prev.categories, s] }))}
-                      className="text-xs border border-blue-300 text-blue-600 rounded px-2 py-0.5 hover:bg-blue-50"
+                      className="text-xs border border-[#4c566a] text-[#88c0d0] rounded px-2 py-0.5 hover:bg-[#434c5e]"
                     >
                       + {s}
                     </button>
@@ -301,7 +301,7 @@ export default function NewGuidePage() {
             <input type="checkbox" name="featured" checked={form.featured} onChange={handleChange} />
             <span>Featured</span>
           </label>
-          <button type="submit" disabled={loading} className="w-full bg-black text-white py-2 rounded hover:bg-gray-800 disabled:opacity-50">
+          <button type="submit" disabled={loading} className="w-full bg-[#5e81ac] text-white py-2 rounded hover:bg-[#81a1c1] disabled:opacity-50">
             {loading ? "Saving..." : "Create Guide"}
           </button>
         </form>

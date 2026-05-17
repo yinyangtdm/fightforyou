@@ -54,33 +54,33 @@ export default async function ListingsPage({
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
+    <div className="min-h-screen bg-[#2e3440] p-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-3xl font-bold">Listings</h1>
+          <h1 className="text-3xl font-bold text-[#eceff4]">Listings</h1>
           <Link
             href="/admin/listings/new"
-            className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800"
+            className="bg-[#5e81ac] text-white px-4 py-2 rounded hover:bg-[#81a1c1]"
           >
             Add New
           </Link>
         </div>
 
         {listings.length === 0 ? (
-          <p className="text-gray-500">No listings yet.</p>
+          <p className="text-[#9aa5b4]">No listings yet.</p>
         ) : (
-          <div className="bg-white rounded-lg shadow overflow-x-auto">
-            <table className="w-full text-sm text-left">
-              <thead className="bg-gray-50 border-b">
+          <div className="bg-[#3b4252] rounded-lg border border-[#4c566a] overflow-x-auto">
+            <table className="w-full text-sm text-left text-[#eceff4]">
+              <thead className="bg-[#434c5e] border-b border-[#4c566a]">
                 <tr>
                   <th className="px-4 py-3 font-medium">Photo</th>
                   <th className="px-4 py-3 font-medium">
-                    <a href={sortHref("name")} className="hover:text-black flex items-center">
+                    <a href={sortHref("name")} className="hover:text-[#88c0d0] flex items-center">
                       Name{sortIndicator("name")}
                     </a>
                   </th>
                   <th className="px-4 py-3 font-medium">
-                    <a href={sortHref("type")} className="hover:text-black flex items-center">
+                    <a href={sortHref("type")} className="hover:text-[#88c0d0] flex items-center">
                       Type{sortIndicator("type")}
                     </a>
                   </th>
@@ -90,31 +90,31 @@ export default async function ListingsPage({
                   <th className="px-4 py-3 font-medium">Actions</th>
                 </tr>
               </thead>
-              <tbody className="divide-y">
+              <tbody className="divide-y divide-[#4c566a]">
                 {sorted.map((listing) => (
-                  <tr key={listing.id} className="hover:bg-gray-50">
+                  <tr key={listing.id} className="hover:bg-[#434c5e]">
                     <td className="px-4 py-3">
                       {listing.photoUrl ? (
                         // eslint-disable-next-line @next/next/no-img-element
                         <img src={listing.photoUrl} alt="" className="h-10 w-10 rounded object-cover" />
                       ) : (
-                        <div className="h-10 w-10 rounded bg-gray-200" />
+                        <div className="h-10 w-10 rounded bg-[#4c566a]" />
                       )}
                     </td>
                     <td className="px-4 py-3 font-medium">{listing.name}</td>
-                    <td className="px-4 py-3 text-gray-500">
+                    <td className="px-4 py-3 text-[#9aa5b4]">
                       {listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Firm" : "Attorney"}
                     </td>
-                    <td className="px-4 py-3 text-gray-500">
+                    <td className="px-4 py-3 text-[#9aa5b4]">
                       {[listing.city, listing.state].filter(Boolean).join(", ") || "—"}
                     </td>
-                    <td className="px-4 py-3 text-gray-500">{listing.email || "—"}</td>
+                    <td className="px-4 py-3 text-[#9aa5b4]">{listing.email || "—"}</td>
                     <td className="px-4 py-3">
                       <span
                         className={`px-2 py-0.5 rounded-full text-xs font-medium ${
                           listing.approved
-                            ? "bg-green-100 text-green-700"
-                            : "bg-yellow-100 text-yellow-700"
+                            ? "bg-[rgba(163,190,140,0.15)] text-[#a3be8c]"
+                            : "bg-[rgba(235,203,139,0.15)] text-[#ebcb8b]"
                         }`}
                       >
                         {listing.approved ? "Yes" : "Pending"}
@@ -123,7 +123,7 @@ export default async function ListingsPage({
                     <td className="px-4 py-3 flex gap-4">
                       <a
                         href={`/admin/listings/${listing.id}/edit`}
-                        className="text-blue-600 hover:text-blue-800"
+                        className="text-[#88c0d0] hover:text-[#8fbcbb]"
                       >
                         Edit
                       </a>
