@@ -1761,7 +1761,7 @@ footer {
 .guide-card:hover::before { height: 100%; }
 
 .guide-card--featured {
-  padding: 36px 40px;
+  padding: 28px 32px;
 }
 
 .guide-card-category {
@@ -1788,7 +1788,7 @@ footer {
 
 .guide-card-excerpt {
   font-family: var(--sans);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   color: var(--text-muted);
   line-height: 1.7;
