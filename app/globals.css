@@ -1757,18 +1757,13 @@ footer {
 
 .profile-contact-item {
   display: flex;
-  gap: 16px;
-  align-items: baseline;
+  gap: 8px;
+  align-items: center;
 }
 
-.profile-contact-label {
-  font-family: var(--serif);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.profile-contact-icon {
+  flex-shrink: 0;
   color: var(--text-muted);
-  min-width: 90px;
 }
 
 .profile-contact-item span:last-child,

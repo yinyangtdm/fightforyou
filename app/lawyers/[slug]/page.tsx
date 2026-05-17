@@ -280,19 +280,28 @@ export default async function ProfilePage({
           <div className="profile-section profile-contact">
             {listing.streetAddress && (
               <div className="profile-contact-item">
-                <span className="profile-contact-label">Address</span>
+                <svg className="profile-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
                 <span>{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</span>
               </div>
             )}
             {listing.linkedin && (
               <div className="profile-contact-item">
-                <span className="profile-contact-label">LinkedIn</span>
+                <svg className="profile-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
                 <a href={listing.linkedin} target="_blank" rel="noopener noreferrer">{listing.linkedin}</a>
               </div>
             )}
             {listing.facebook && (
               <div className="profile-contact-item">
-                <span className="profile-contact-label">Facebook</span>
+                <svg className="profile-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
                 <a href={listing.facebook} target="_blank" rel="noopener noreferrer">{listing.facebook}</a>
               </div>
             )}
