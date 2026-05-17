@@ -743,12 +743,15 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 16px var(--page-px) 16px;
+  padding: 0 var(--page-px);
+  height: 52px;
+  display: flex;
+  align-items: center;
 }
 
 .breadcrumb {
   margin-bottom: 0;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .breadcrumb-list {
@@ -759,14 +762,14 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .breadcrumb-item {
   display: flex;
   align-items: center;
   gap: 8px;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 .breadcrumb-link {
@@ -791,11 +794,11 @@ footer {
 }
 
 .breadcrumb-separator {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--accent);
   opacity: 0.4;
   user-select: none;
-  line-height: 1;
+  line-height: 1.2;
 }
 
 /* ── LISTING PAGES ── */
@@ -2039,7 +2042,10 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 16px var(--page-px) 16px;
+  padding: 0 var(--page-px);
+  height: 52px;
+  display: flex;
+  align-items: center;
 }
 
 .guide-back {
@@ -2550,7 +2556,7 @@ footer {
 
   /* Listings */
   .breadcrumb-container,
-  .guide-back-container { padding: 12px var(--page-px) 12px; }
+  .guide-back-container { height: 44px; }
   .listing-page { padding: 12px var(--page-px) 20px; }
   .listing-page-header { margin-top: 0; }
   .listing-section-inner { padding: 28px var(--page-px); }
