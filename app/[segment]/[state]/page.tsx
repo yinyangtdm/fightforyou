@@ -95,30 +95,28 @@ export default async function SpecialtyStatePage({
     <div className="public">
       <Nav specialties={data.specialties} guides={data.guides} />
 
-      <div className="breadcrumb-container">
-        <Breadcrumb
-          items={[
-            { label: "Home", href: "/" },
-            { label: data.stateName, href: `/${state}` },
-            { label: data.specialty },
-          ]}
-        />
-      </div>
-
       <div className="listing-page">
-        <div className="listing-page-header">
+        <div className="breadcrumb-container">
+          <Breadcrumb
+            items={[
+              { label: "Home", href: "/" },
+              { label: data.stateName, href: `/${state}` },
+              { label: data.specialty },
+            ]}
+          />
+        </div>
+
+        <div className="listing-header">
           <h1>{data.specialty} Lawyers in {data.stateName}</h1>
-          <p className="listing-page-subheading">
+          <p className="listing-subheading">
             {getSpecialtyDescription(data.specialty) ?? `Attorneys and firms specializing in ${data.specialty} in ${data.stateName}, with a proven record against law enforcement.`}
           </p>
-          <div className="listing-page-filter-row">
-            <span className="listing-page-count">{data.listings.length} results</span>
+          <div className="listing-filter-row">
+            <span className="listing-count">{data.listings.length} results</span>
           </div>
         </div>
-      </div>
 
-      <div className="listing-section">
-        <div className="listing-section-inner">
+        <div className="listing-section">
           <div className="listing-grid">
             {data.listings.map((listing) => (
               <ListingCard key={listing.slug} listing={listing} />
@@ -128,9 +126,7 @@ export default async function SpecialtyStatePage({
             )}
           </div>
         </div>
-      </div>
 
-      <div className="listing-page">
         <FilingDeadlines stateAbbr={data.stateAbbr} />
       </div>
 
