@@ -33,7 +33,7 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
 
       map = new mapboxgl.Map({
         container: containerRef.current!,
-        style: "mapbox://styles/yinyangthetwin/cmp5yuprb004p01shflez16hy",
+        style: "mapbox://styles/yinyangthetwin/cmp5ztvs8003h01sn8ltnemy6",
         center: [longitude, latitude],
         zoom: 13,
         fadeDuration: 0,
