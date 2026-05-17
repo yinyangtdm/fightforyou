@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import { STATE_NAMES, STATE_ABBRS, toSlug } from "../lib/slugs"
 import { PINNED_GUIDES } from "../guides/_lib"
 
@@ -57,6 +57,9 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
   }, [mobileOpen, openMenu])
 
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const statesRef = useRef<HTMLLIElement>(null)
+  const specialtyRef = useRef<HTMLLIElement>(null)
+  const rightsRef = useRef<HTMLLIElement>(null)
 
   function hoverOpen(id: MenuId) {
     if (mobileOpen) return
@@ -72,6 +75,25 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
   function hoverCancelClose() {
     if (closeTimer.current) clearTimeout(closeTimer.current)
   }
+
+  const handleNavMouseMove = useCallback((e: React.MouseEvent) => {
+    if (mobileOpen) return
+    const x = e.clientX
+    const triggers = [
+      [statesRef, "states"],
+      [specialtyRef, "specialty"],
+      [rightsRef, "rights"],
+    ] as const
+    for (const [ref, id] of triggers) {
+      if (!ref.current) continue
+      const { left, right } = ref.current.getBoundingClientRect()
+      if (x >= left && x <= right) {
+        if (closeTimer.current) clearTimeout(closeTimer.current)
+        setOpenMenu(prev => prev === id ? prev : id)
+        return
+      }
+    }
+  }, [mobileOpen])
 
   function toggleMenu(id: MenuId) {
     setOpenMenu((prev) => (prev === id ? null : id))
@@ -94,7 +116,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
   return (
     <>
-      <nav className="site-nav">
+      <nav className="site-nav" onMouseMove={handleNavMouseMove} onMouseLeave={hoverStartClose}>
       <div className="nav-inner">
         <button
           className={`nav-hamburger${mobileOpen ? " open" : ""}`}
@@ -112,7 +134,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
         <ul className={`nav-links${mobileOpen ? " open" : ""}`}>
           {/* Browse by State */}
-          <li className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}
+          <li ref={statesRef} className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}
             onMouseEnter={() => hoverOpen("states")}
             onMouseLeave={hoverStartClose}
           >
@@ -137,7 +159,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           </li>
 
           {/* Browse by Specialty */}
-          <li className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}
+          <li ref={specialtyRef} className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}
             onMouseEnter={() => hoverOpen("specialty")}
             onMouseLeave={hoverStartClose}
           >
@@ -161,7 +183,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           </li>
 
           {/* Know Your Rights */}
-          <li className={`nav-accordion-item${openAccordion === "rights" ? " accordion-open" : ""}`}
+          <li ref={rightsRef} className={`nav-accordion-item${openAccordion === "rights" ? " accordion-open" : ""}`}
             onMouseEnter={() => hoverOpen("rights")}
             onMouseLeave={hoverStartClose}
           >
