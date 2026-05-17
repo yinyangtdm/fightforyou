@@ -53,9 +53,9 @@ export default function CategoryPicker({ value, onChange }: CategoryPickerProps)
           flexWrap: "wrap",
           gap: "6px",
           padding: "6px 8px",
-          border: "1px solid #d1d5db",
+          border: "1px solid #4c566a",
           borderRadius: "4px",
-          background: "#fff",
+          background: "#2e3440",
           minHeight: "42px",
           alignItems: "center",
           cursor: "text",
@@ -69,11 +69,12 @@ export default function CategoryPicker({ value, onChange }: CategoryPickerProps)
               display: "inline-flex",
               alignItems: "center",
               gap: "4px",
-              background: "#e5e7eb",
+              background: "#434c5e",
               borderRadius: "4px",
               padding: "2px 8px",
               fontSize: "13px",
               fontWeight: 500,
+              color: "#eceff4",
             }}
           >
             {tag}
@@ -86,7 +87,7 @@ export default function CategoryPicker({ value, onChange }: CategoryPickerProps)
                 cursor: "pointer",
                 padding: "0 2px",
                 lineHeight: 1,
-                color: "#6b7280",
+                color: "#9aa5b4",
                 fontSize: "15px",
               }}
               aria-label={`Remove ${tag}`}
@@ -108,6 +109,8 @@ export default function CategoryPicker({ value, onChange }: CategoryPickerProps)
             minWidth: "160px",
             fontSize: "14px",
             padding: "2px 0",
+            background: "transparent",
+            color: "#eceff4",
           }}
         />
       </div>
@@ -122,13 +125,14 @@ export default function CategoryPicker({ value, onChange }: CategoryPickerProps)
             margin: "4px 0 0",
             padding: 0,
             listStyle: "none",
-            background: "#fff",
-            border: "1px solid #d1d5db",
+            background: "#3b4252",
+            border: "1px solid #4c566a",
             borderRadius: "4px",
-            boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
             zIndex: 50,
             maxHeight: "240px",
             overflowY: "auto",
+            color: "#eceff4",
           }}
         >
           {filtered.map(option => (
@@ -140,7 +144,7 @@ export default function CategoryPicker({ value, onChange }: CategoryPickerProps)
                 cursor: "pointer",
                 fontSize: "14px",
               }}
-              onMouseEnter={e => (e.currentTarget.style.background = "#f3f4f6")}
+              onMouseEnter={e => (e.currentTarget.style.background = "#434c5e")}
               onMouseLeave={e => (e.currentTarget.style.background = "")}
             >
               {option}
