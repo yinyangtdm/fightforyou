@@ -906,7 +906,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 16px var(--page-px) 24px;
+  padding: 16px 0 24px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
@@ -1018,7 +1018,7 @@ footer {
 .filing-deadlines {
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 24px var(--page-px) 32px;
+  padding: 24px 0 32px;
 }
 
 .filing-deadlines-title {
@@ -1111,7 +1111,7 @@ footer {
 
 .listing-section {
   background: var(--nord1);
-  padding: 32px var(--page-px);
+  padding: 32px 0;
 }
 
 .listing-grid {
@@ -1762,7 +1762,7 @@ footer {
 .guides-header {
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 70px var(--page-px) 40px;
+  padding: 70px 0 40px;
 }
 
 .guides-clear-filter {
@@ -1801,7 +1801,7 @@ footer {
   gap: 16px;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 16px var(--page-px) 24px;
+  padding: 16px 0 24px;
 }
 
 .guides-grid {
@@ -1810,7 +1810,7 @@ footer {
   gap: 16px;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 8px var(--page-px) 0;
+  padding: 8px 0 0;
 }
 
 .guide-card {
@@ -1926,7 +1926,7 @@ footer {
   gap: 16px;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 0 var(--page-px) 16px;
+  padding: 0 0 16px;
 }
 
 .guide-pinned-card {
@@ -2679,8 +2679,11 @@ footer {
   .guide-meta-categories::before { content: none; }
 
   /* Guides */
-  .guides-header { padding-top: 62px; padding-bottom: 28px; }
+  .guides-header { padding: 62px var(--page-px) 28px; }
   .guides-header h1 { font-size: 30px; margin-bottom: 20px; }
+  .guides-pinned { padding: 0 var(--page-px) 16px; }
+  .guides-featured { padding: 16px var(--page-px) 24px; }
+  .guides-grid { padding: 8px var(--page-px) 0; }
   .guides-cta { margin-left: var(--page-px); margin-right: var(--page-px); }
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
@@ -2723,6 +2726,11 @@ footer {
   .guides-subheading,
   .guide-card-excerpt { font-size: 16px; }
   .listing-section { padding: 24px var(--page-px); }
+  .guides-header { padding: 48px var(--page-px) 24px; }
+  .guides-pinned { padding: 0 var(--page-px) 16px; }
+  .guides-featured { padding: 16px var(--page-px) 24px; }
+  .guides-grid { padding: 8px var(--page-px) 0; }
+  .guides-cta { margin-left: var(--page-px); margin-right: var(--page-px); }
 
   .guide-page { padding: 0 var(--page-px) 56px; }
   .profile-body { padding: 12px var(--page-px) 56px; }
