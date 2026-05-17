@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { STATE_NAMES, STATE_ABBRS, toSlug } from "../lib/slugs"
 import { PINNED_GUIDES } from "../guides/_lib"
 
@@ -56,6 +56,23 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
     }
   }, [mobileOpen, openMenu])
 
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  function hoverOpen(id: MenuId) {
+    if (mobileOpen) return
+    if (closeTimer.current) clearTimeout(closeTimer.current)
+    setOpenMenu(id)
+  }
+
+  function hoverStartClose() {
+    if (mobileOpen) return
+    closeTimer.current = setTimeout(() => setOpenMenu(null), 150)
+  }
+
+  function hoverCancelClose() {
+    if (closeTimer.current) clearTimeout(closeTimer.current)
+  }
+
   function toggleMenu(id: MenuId) {
     setOpenMenu((prev) => (prev === id ? null : id))
   }
@@ -95,7 +112,10 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
         <ul className={`nav-links${mobileOpen ? " open" : ""}`}>
           {/* Browse by State */}
-          <li className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}>
+          <li className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}
+            onMouseEnter={() => hoverOpen("states")}
+            onMouseLeave={hoverStartClose}
+          >
             <a
               href="#"
               className={`nav-accordion-trigger${openMenu === "states" ? " nav-trigger-active" : ""}`}
@@ -117,7 +137,10 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           </li>
 
           {/* Browse by Specialty */}
-          <li className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}>
+          <li className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}
+            onMouseEnter={() => hoverOpen("specialty")}
+            onMouseLeave={hoverStartClose}
+          >
             <a
               href="#"
               className={`nav-accordion-trigger${openMenu === "specialty" ? " nav-trigger-active" : ""}`}
@@ -138,7 +161,10 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           </li>
 
           {/* Know Your Rights */}
-          <li className={`nav-accordion-item${openAccordion === "rights" ? " accordion-open" : ""}`}>
+          <li className={`nav-accordion-item${openAccordion === "rights" ? " accordion-open" : ""}`}
+            onMouseEnter={() => hoverOpen("rights")}
+            onMouseLeave={hoverStartClose}
+          >
             <a
               href="#"
               className={`nav-accordion-trigger${openMenu === "rights" ? " nav-trigger-active" : ""}`}
@@ -193,7 +219,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
       </nav>
 
       {/* Desktop mega menus — hidden on mobile via CSS */}
-      <div className={`mega-menu${openMenu === "states" ? " open" : ""}`}>
+      <div className={`mega-menu${openMenu === "states" ? " open" : ""}`} onMouseEnter={hoverCancelClose} onMouseLeave={() => setOpenMenu(null)}>
         <div className="mega-menu-heading">Browse by State</div>
         <div className="mega-menu-grid">
           {ALL_STATES.map((state) => (
@@ -203,7 +229,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
         </div>
       </div>
 
-      <div className={`mega-menu${openMenu === "specialty" ? " open" : ""}`}>
+      <div className={`mega-menu${openMenu === "specialty" ? " open" : ""}`} onMouseEnter={hoverCancelClose} onMouseLeave={() => setOpenMenu(null)}>
         <div className="mega-menu-heading">Browse by Specialty</div>
         <div className="mega-menu-grid">
           {specialties.map((s) => (
@@ -212,7 +238,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
         </div>
       </div>
 
-      <div className={`mega-menu${openMenu === "rights" ? " open" : ""}`}>
+      <div className={`mega-menu${openMenu === "rights" ? " open" : ""}`} onMouseEnter={hoverCancelClose} onMouseLeave={() => setOpenMenu(null)}>
         <div className="mega-menu-heading">Know Your Rights</div>
         <div className="mega-menu-grid">
           {sortedGuideLinks.map(g => (
