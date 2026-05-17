@@ -8,49 +8,6 @@ Issues marked with severity:
 - 🟢 CONFIRMED — verified on site
 
 Progress: 142 / 142 ✅ COMPLETE
-
----
-
-## id:4 — Luther Oneal Sutter, II
-**Website:** https://www.sutterandgillham.com
-
-- **Website** 🔴 Domain is parked/dead (GoDaddy placeholder). The law firm's site no longer exists at this URL. All data unverifiable.
-
----
-
-## id:5 — Keith T. Belt, Jr.
-**Website:** http://www.alabamainjjurylawyer.com
-
-- **Phone** 🔴 Site shows (844) 239-2891 — DB has (205) 933-1500. Wrong number.
-- **Tagline** 🔴 "Fighting for Civil Rights Justice" — site is a general personal injury firm (car accidents, truck accidents, dog bites). Zero civil rights focus visible.
-- **Notable Results** 🟡 Specific verdicts ($13M, $6M, $2M, "$200M+ total") are firm-level claims — may be real personal injury verdicts, but civil rights framing is fabricated.
-
----
-
-## id:6 — Emancipate NC
-**Website:** https://www.emancipatenc.org
-
-- **Tagline** 🔴 "Fighting For Civil Rights In Carolina" — not on site. Actual: "Dismantling Structural Racism and Mass Incarceration Across North Carolina".
-- **Notable Results** 🟡 "$975,000 settlement for Darryl Tyree Williams — largest taser-death recovery in the 4th Circuit" is a very specific claim, unverifiable from site. Policy wins (no-knock warrant ban, cite-and-release) are plausible for this org but unconfirmed.
-
----
-
-## id:3 — Doug Sheff
-**Website:** https://www.shefflaw.com
-
-- **Phone** 🔴 Site shows 1-888-423-4477 — DB has (617) 227-7000. Wrong number.
-- **Tagline** 🔴 "Thhe Police Misconduct Champion" — has a typo ("Thhe") AND is fabricated. Site is a general personal injury firm; homepage says "Over Half a Billion Dollars in Personal Injury Settlements". Not a police misconduct specialist.
-- **Notable Results** 🔴 All vague generics; no police-specific case results visible on site. Site highlights Hingham Apple Store crash, Columbia Gas Explosion, Aaron Hernandez case — none are police misconduct.
-
----
-
-## id:2 — Benjamin L. Crump
-**Website:** https://www.bencrump.com
-
-- **Phone** 🔴 Site shows 800-683-5111 — DB has (800) 959-1444. Wrong number.
-- **Tagline** 🟡 "America's Attorney for the People" — not on homepage. Site title/subtitle is "Trial Lawyer for Justice".
-- **Notable Results** 🔴 "$779 million Gadsden County verdict" and "$411 million for Duane Washington" are implausibly large and appear fabricated. "$98.65 million for Botham Jean" — oddly specific and unverifiable. George Floyd $27M, Breonna Taylor $12M, and Trayvon Martin $1.5M are well-documented public settlements. "Active in multiple 2025–2026 Kansas civil rights cases" — Ben Crump is a Florida/national attorney; Kansas framing looks hallucinated.
-
 ---
 
 ## id:11 — Antonio Ponvert, III
