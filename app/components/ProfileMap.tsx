@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useMemo, useRef } from "react"
 import "mapbox-gl/dist/mapbox-gl.css"
 
 interface Props {
@@ -16,11 +16,9 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
   const googleUrl = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`
   const appleUrl = `https://maps.apple.com/?ll=${latitude},${longitude}&q=${encodeURIComponent(name)}`
 
-  const [directionsUrl, setDirectionsUrl] = useState(googleUrl)
-
-  useEffect(() => {
-    const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent)
-    setDirectionsUrl(isApple ? appleUrl : googleUrl)
+  const directionsUrl = useMemo(() => {
+    if (typeof navigator === "undefined") return googleUrl
+    return /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent) ? appleUrl : googleUrl
   }, [appleUrl, googleUrl])
 
   useEffect(() => {
