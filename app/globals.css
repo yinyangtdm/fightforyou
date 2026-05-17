@@ -266,7 +266,7 @@ img, video { max-width: 100%; height: auto; }
 .nav-links a {
   font-family: var(--serif);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--nord4);
