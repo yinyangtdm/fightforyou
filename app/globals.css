@@ -276,7 +276,7 @@ img, video { max-width: 100%; height: auto; }
 
 .nav-links a:hover { color: var(--nord8); }
 
-.nav-cta {
+.nav-links a.nav-cta {
   background: var(--accent);
   color: var(--nord0);
   padding: 11px 28px;
@@ -289,7 +289,7 @@ img, video { max-width: 100%; height: auto; }
   transition: background var(--ease);
 }
 
-.nav-cta:hover { background: var(--accent-light); color: var(--nord0); }
+.nav-links a.nav-cta:hover { background: var(--accent-light); color: var(--nord0); }
 
 /* ── HOME ── */
 .home-page { width: 100%; }
