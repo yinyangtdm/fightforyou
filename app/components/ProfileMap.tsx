@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import "mapbox-gl/dist/mapbox-gl.css"
 
 interface Props {
@@ -16,6 +16,13 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
   const googleUrl = `https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`
   const appleUrl = `https://maps.apple.com/?ll=${latitude},${longitude}&q=${encodeURIComponent(name)}`
 
+  const [directionsUrl, setDirectionsUrl] = useState(googleUrl)
+
+  useEffect(() => {
+    const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent)
+    setDirectionsUrl(isApple ? appleUrl : googleUrl)
+  }, [appleUrl, googleUrl])
+
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
@@ -30,11 +37,18 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
         container: containerRef.current!,
         style: "mapbox://styles/yinyangthetwin/cmp5yuprb004p01shflez16hy",
         center: [longitude, latitude],
-        zoom: 14,
-        interactive: true,
+        zoom: 13,
+        fadeDuration: 0,
+        scrollZoom: false,
+        boxZoom: false,
+        doubleClickZoom: false,
+        dragRotate: false,
+        pitchWithRotate: false,
       })
 
-      const popupHtml = `<strong>${name}</strong><br/><a href="${googleUrl}" target="_blank" rel="noopener noreferrer">Google Maps</a> &middot; <a href="${appleUrl}" target="_blank" rel="noopener noreferrer">Apple Maps</a>`
+      const isApple = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent)
+      const url = isApple ? appleUrl : googleUrl
+      const popupHtml = `<strong>${name}</strong><br/><a href="${url}" target="_blank" rel="noopener noreferrer">Get Directions</a>`
 
       new mapboxgl.Marker({ color: "#5E81AC" })
         .setLngLat([longitude, latitude])
@@ -56,11 +70,8 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
     <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
       <div ref={containerRef} style={{ width: "100%", height: "100%", minHeight: 400, borderRadius: 8 }} />
       <div className="profile-map-actions">
-        <a href={googleUrl} target="_blank" rel="noopener noreferrer" className="profile-map-directions-link">
-          Get directions (Google Maps)
-        </a>
-        <a href={appleUrl} target="_blank" rel="noopener noreferrer" className="profile-map-directions-link">
-          Get directions (Apple Maps)
+        <a href={directionsUrl} target="_blank" rel="noopener noreferrer" className="profile-map-directions-link">
+          Get Directions
         </a>
       </div>
     </div>
