@@ -1,0 +1,7 @@
+[    1393ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://cdn-iladlbd.nitrocdn.com/IfXqFaTbwszcCTExfICqasihiorguXnN/assets/static/optimized/rev-cd7df89/www.alabamainjurylawyer.com/wp-includes/js/jquery/nitro-min-558973c0fd98109493258c8470e94016.jquery-migrate.min.js:1
+[    1644ms] [LOG] attributer.io ready, version 25.11.26.1 @ https://cdn-iladlbd.nitrocdn.com/IfXqFaTbwszcCTExfICqasihiorguXnN/assets/static/optimized/rev-cd7df89/d1b3llzbo1rqxo.cloudfront.net/nitro-min-attributer.js:0
+[    1645ms] [LOG] Set cookie for alabamainjurylawyer.com. @ https://cdn-iladlbd.nitrocdn.com/IfXqFaTbwszcCTExfICqasihiorguXnN/assets/static/optimized/rev-cd7df89/d1b3llzbo1rqxo.cloudfront.net/nitro-min-attributer.js:0
+[    1905ms] [LOG] tag manager push events script is loaded. @ :1
+[    2464ms] [LOG] Attributer Starting Populate  @ https://cdn-iladlbd.nitrocdn.com/IfXqFaTbwszcCTExfICqasihiorguXnN/assets/static/optimized/rev-cd7df89/d1b3llzbo1rqxo.cloudfront.net/nitro-min-attributer.js:0
+[    2567ms] [WARNING] Allow attribute will take precedence over 'allowfullscreen'. @ https://intaker.azureedge.net/widget/chat.min.js:0
+[    3112ms] [LOG] Attributer Populated. @ https://cdn-iladlbd.nitrocdn.com/IfXqFaTbwszcCTExfICqasihiorguXnN/assets/static/optimized/rev-cd7df89/d1b3llzbo1rqxo.cloudfront.net/nitro-min-attributer.js:0

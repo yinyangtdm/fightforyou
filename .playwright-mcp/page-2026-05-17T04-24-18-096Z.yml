@@ -1,0 +1,749 @@
+- generic [active] [ref=e1]:
+  - text:            
+  - button "Accessibility Widget, click to open" [ref=e3] [cursor=pointer]:
+    - generic [ref=e4]: 
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "Wagner Reese, LLP" [ref=e8] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/
+          - img "Wagner Reese, LLP" [ref=e10]
+        - generic [ref=e12]:
+          - button "Toggle Menu" [ref=e16] [cursor=pointer]
+          - text:   
+        - generic [ref=e19]:
+          - link "(866) 828-0308" [ref=e20] [cursor=pointer]:
+            - /url: tel:(866) 828-0308
+          - paragraph [ref=e21]:
+            - text: Free Consultation
+            - link "ESPAÑOL?" [ref=e22] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/espanol/
+    - generic [ref=e23]:
+      - img "Wagner Reese" [ref=e24]
+      - generic [ref=e25]:
+        - generic [ref=e26]: When The Stakes Are at The Highest
+        - paragraph [ref=e27]: More Than $200 Million Recovered for Injury Victims Since 1997
+        - link "START MY FREE CASE REVIEW" [ref=e28] [cursor=pointer]:
+          - /url: "#homepage-free-case-evaluation"
+        - paragraph [ref=e29]:
+          - text: "Call Now - We Answer 24/7:"
+          - link "(866) 828-0308" [ref=e30] [cursor=pointer]:
+            - /url: tel:+18668280308
+    - region "Practice area highlights" [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e35]: Award-Winning Attorneys
+        - generic [ref=e37]:
+          - generic [ref=e38]: 28+
+          - generic [ref=e39]: Years of Experience
+        - generic [ref=e41]:
+          - generic [ref=e42]: 250+
+          - generic [ref=e43]: Five-Star Reviews
+        - generic [ref=e45]:
+          - generic [ref=e46]: 24/7
+          - generic [ref=e47]: Availability
+        - generic [ref=e50]:
+          - text: No Fee Unless
+          - text: We Win
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - paragraph [ref=e53]: Indiana's Most Successful Personal Injury Case Results
+        - paragraph [ref=e54]: These aren't just numbers - they're real families we've helped.
+      - generic [ref=e56]:
+        - group "8 / 10" [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: $5.5 Million
+            - paragraph [ref=e60]: Vehicle Accident
+        - group "9 / 10" [ref=e62]:
+          - generic [ref=e63]:
+            - generic [ref=e64]: $5 Million
+            - paragraph [ref=e65]: Construction Site
+        - group "10 / 10" [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: $4.57 Million
+            - paragraph [ref=e70]: Truck Accident
+        - group "1 / 10" [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: $22 Million
+            - paragraph [ref=e75]: Wrongful Death
+        - group "2 / 10" [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: $17 Million
+            - paragraph [ref=e80]: Catastrophic Injury
+        - group "3 / 10" [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: $14 Million
+            - paragraph [ref=e85]: Sex Abuse Victim
+        - group "4 / 10" [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: $10 Million
+            - paragraph [ref=e90]: Catastrophic Injury
+        - group "5 / 10" [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: $9.3 Million
+            - paragraph [ref=e95]: Product Liability
+        - group "6 / 10" [ref=e97]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: $6.62 Million
+            - paragraph [ref=e100]: Construction Accident
+        - group "7 / 10" [ref=e102]:
+          - generic [ref=e103]:
+            - generic [ref=e104]: $6.5 Million
+            - paragraph [ref=e105]: Wrongful Death
+      - link "See all case results" [ref=e108] [cursor=pointer]:
+        - /url: https://www.wagnerreese.com/case-results/
+      - generic [ref=e110]:
+        - heading "Start My Free Case Evaluation" [level=2] [ref=e111]
+        - paragraph [ref=e112]: Fill out the form and our team will contact you to schedule a free consultation.
+        - generic [ref=e115]:
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - text: Full Name
+                - generic [ref=e120]: "*"
+              - textbox "Full Name *" [ref=e122]:
+                - /placeholder: Full Name
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - text: Phone
+                - generic [ref=e125]: "*"
+              - textbox "Phone *" [ref=e127]:
+                - /placeholder: Phone
+            - generic [ref=e128]:
+              - generic [ref=e129]:
+                - text: Email
+                - generic [ref=e130]: "*"
+              - textbox "Email *" [ref=e132]:
+                - /placeholder: Email
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - text: Are you a new client?
+                - generic [ref=e135]: "*"
+              - combobox "Are you a new client? *" [ref=e137]:
+                - option "Are you a new client?" [selected]
+                - option "Yes, I am a potential new client"
+                - option "No, I'm a current existing client"
+                - option "I'm neither"
+            - generic [ref=e138]:
+              - generic [ref=e139]: Message
+              - textbox "Message" [ref=e141]:
+                - /placeholder: Tell us about your case
+          - button "SUBMIT" [ref=e143] [cursor=pointer]
+    - generic [ref=e145]:
+      - heading "Indiana Personal Injury Lawyers" [level=1] [ref=e146]
+      - img "Wagner Reese Logo" [ref=e150]
+      - generic [ref=e152]:
+        - img "Photo of Attorneys at Wagner Reese" [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - paragraph [ref=e157]: For more than two decades, our firm has been helping injured individuals and their families fight for the justice and fair recovery they are owed. When someone else’s careless, reckless, or negligent actions result in injuries or the death of your loved one, you have the right to take legal action. Our Indiana personal injury attorneys are here to help.
+            - paragraph [ref=e158]: Our lawyers have achieved several multi-million-dollar verdicts for our clients, and we’ve been recognized by our peers in the legal community for the hard work we do on our clients’ behalf. That includes being honored by Super Lawyers®, the Multi-Million Dollar Advocates Forum, The Best Lawyers in America©, and U.S. News & World Report.
+            - paragraph [ref=e159]: We’re most proud of the difference we make in each of our clients’ lives. We understand just how devastating and life-altering an unexpected accident can be; that’s why we are here to advocate for you when the stakes are the highest.
+          - generic [ref=e160]:
+            - link "Schedule My Free Consultation" [ref=e161] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/contact-us/
+            - link "Speak To An Attorney" [ref=e162] [cursor=pointer]:
+              - /url: tel:+18668280308
+    - generic [ref=e164]:
+      - paragraph [ref=e165]: Our Awards & Partnerships
+      - generic:
+        - generic:
+          - group "1 / 20":
+            - generic:
+              - img "America's Top 100 Attorneys Badge"
+          - group "2 / 20":
+            - generic:
+              - img "NADC 2025 Badge"
+          - group "3 / 20":
+            - generic:
+              - img "Elite Lawyer 2025 Badge"
+          - group "4 / 20":
+            - generic:
+              - img "Best Law Firms 2025 Badge"
+          - group "5 / 20":
+            - generic:
+              - img "Multi-million Dollar Advocates Forum Badge"
+          - group "6 / 20":
+            - generic:
+              - img "Top 100 Personal Injury Attorneys Badge"
+          - group "7 / 20":
+            - generic:
+              - img "The National Top 100 Trial Lawyers Badge"
+          - group "8 / 20":
+            - generic:
+              - img "The National Top 40 Under 40 Trial Lawyers Badge"
+          - group "9 / 20":
+            - generic:
+              - img "Top 25 Products Liability Lawyers Badge"
+          - group "10 / 20":
+            - generic:
+              - img "Top 25 Medical Malpractice Lawyers Badge"
+          - group "11 / 20":
+            - generic:
+              - img "Lawyers of Distinction 2021 Badge"
+          - group "12 / 20":
+            - generic:
+              - img "Best Law Firms 2024 Badge"
+          - group "13 / 20":
+            - generic:
+              - img "Badge"
+          - group "14 / 20":
+            - generic:
+              - img "Best Law Firms U.S. News 2023 Badge"
+          - group "15 / 20":
+            - generic:
+              - img "Best Lawyers 2024 Badge"
+          - group "16 / 20":
+            - generic:
+              - img "Best Lawyers 2022 Badge"
+          - group "17 / 20":
+            - generic:
+              - img "The National Trial Lawyers Top 100 Badge"
+          - group "18 / 20":
+            - generic:
+              - img "Indianapolis Colts Badge"
+          - group "19 / 20":
+            - generic:
+              - img "Super Lawyers Badge"
+          - group "20 / 20":
+            - link "AAJ Leaders Forum Badge":
+              - /url: https://www.wagnerreese.com/
+              - generic:
+                - img "AAJ Leaders Forum Badge"
+    - generic [ref=e167]:
+      - heading "We’re Here For You, No Matter the Case" [level=2] [ref=e168]:
+        - text: We’re Here For You,
+        - text: No Matter the Case
+      - generic [ref=e169]:
+        - paragraph [ref=e170]: Whether you were involved in a serious car or semi-truck accident, are the victim of medical malpractice or birth injury, or lost a loved one due to a serious workplace accident, our Indiana personal injury attorneys can help. We offer contingent fees, meaning there is absolutely no upfront cost for you and, if we do not successfully recover compensation on your behalf, you do not pay.
+        - generic [ref=e171]:
+          - link "Find Out What My Case Is Worth" [ref=e172] [cursor=pointer]:
+            - /url: https://www.wagnerreese.com/contact-us/
+          - link "Consulta Gratis en Español" [ref=e173] [cursor=pointer]:
+            - /url: https://www.wagnerreese.com/espanol/
+    - generic [ref=e175]:
+      - heading "Our Practice Areas" [level=2] [ref=e176]
+      - img "Wagner Reese Logo" [ref=e180]
+      - generic [ref=e182]:
+        - link "Photo Representing Birth Injury Birth Injury Birth injuries can devastate families, and they often happen because of medical negligence. Our team has years of experience fighting for birth injury victims to help ensure they get the compensation they’re legally entitled to. Let us help you today. Learn More" [ref=e183] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/birth-injury/
+          - img "Photo Representing Birth Injury" [ref=e184]
+          - generic [ref=e185]:
+            - heading "Birth Injury" [level=3] [ref=e187]
+            - generic:
+              - paragraph [ref=e188]: Birth injuries can devastate families, and they often happen because of medical negligence. Our team has years of experience fighting for birth injury victims to help ensure they get the compensation they’re legally entitled to. Let us help you today.
+              - button "Learn More" [ref=e189]
+        - link "Photo Representing Medical Malpractice Medical Malpractice If a healthcare provider has failed to give you acceptable care, and you’ve suffered serious harm as a result, our team is here to fight for the compensation you deserve. Learn More" [ref=e190] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/medical-malpractice/
+          - img "Photo Representing Medical Malpractice" [ref=e191]
+          - generic [ref=e192]:
+            - heading "Medical Malpractice" [level=3] [ref=e194]
+            - generic:
+              - paragraph [ref=e195]: If a healthcare provider has failed to give you acceptable care, and you’ve suffered serious harm as a result, our team is here to fight for the compensation you deserve.
+              - button "Learn More" [ref=e196]
+        - link "Photo Representing Catastrophic Injuries Catastrophic Injuries Catastrophic injuries, such as brain injuries and spinal cord injuries, are life-changing and debilitating. When you’ve suffered one because of someone else’s negligence, we can help. Learn More" [ref=e197] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/catastrophic-injuries/
+          - img "Photo Representing Catastrophic Injuries" [ref=e198]
+          - generic [ref=e199]:
+            - heading "Catastrophic Injuries" [level=3] [ref=e201]
+            - generic:
+              - paragraph [ref=e202]: Catastrophic injuries, such as brain injuries and spinal cord injuries, are life-changing and debilitating. When you’ve suffered one because of someone else’s negligence, we can help.
+              - button "Learn More" [ref=e203]
+        - link "Photo Representing Car Accidents Car Accidents A car accident can change your life, starting at the accident scene and moving forward. You may be seriously injured, and worse, you may be unable to seek help from your insurance company. Many people struggle to overcome the situation without an Indianapolis car accident attorney on their side. Learn More" [ref=e204] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/vehicle-accidents/
+          - img "Photo Representing Car Accidents" [ref=e205]
+          - generic [ref=e206]:
+            - heading "Car Accidents" [level=3] [ref=e208]
+            - generic:
+              - paragraph [ref=e209]: A car accident can change your life, starting at the accident scene and moving forward. You may be seriously injured, and worse, you may be unable to seek help from your insurance company. Many people struggle to overcome the situation without an Indianapolis car accident attorney on their side.
+              - button "Learn More" [ref=e210]
+        - link "Photo Representing Truck Accidents Truck Accidents Truck accidents cause some of the most horrific crashes on our roads. If you’ve been injured in one, you need a firm with a track record of success in truck accident cases. Talk to Wagner Reese today. Learn More" [ref=e211] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/vehicle-accidents/truck-accidents/
+          - img "Photo Representing Truck Accidents" [ref=e212]
+          - generic [ref=e213]:
+            - heading "Truck Accidents" [level=3] [ref=e215]
+            - generic:
+              - paragraph [ref=e216]: Truck accidents cause some of the most horrific crashes on our roads. If you’ve been injured in one, you need a firm with a track record of success in truck accident cases. Talk to Wagner Reese today.
+              - button "Learn More" [ref=e217]
+        - link "Photo Representing Motorcycle Accidents Motorcycle Accidents We lead the way in representing those who have been injured in motorcycle accidents with a high success rate that has allowed us to recover million-dollar rewards and bring justice for the injured. Learn More" [ref=e218] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/vehicle-accidents/motorcycle-accidents/
+          - img "Photo Representing Motorcycle Accidents" [ref=e219]
+          - generic [ref=e220]:
+            - heading "Motorcycle Accidents" [level=3] [ref=e222]
+            - generic:
+              - paragraph [ref=e223]: We lead the way in representing those who have been injured in motorcycle accidents with a high success rate that has allowed us to recover million-dollar rewards and bring justice for the injured.
+              - button "Learn More" [ref=e224]
+        - link "Photo Representing Wrongful Death Wrongful Death Wrongful deaths are entirely preventable and surviving family members deserve justice for the many costs they’re facing because of someone else’s negligence. Our skilled attorneys are ready to fight for you and your family. Learn More" [ref=e225] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/wrongful-death/
+          - img "Photo Representing Wrongful Death" [ref=e226]
+          - generic [ref=e227]:
+            - heading "Wrongful Death" [level=3] [ref=e229]
+            - generic:
+              - paragraph [ref=e230]: Wrongful deaths are entirely preventable and surviving family members deserve justice for the many costs they’re facing because of someone else’s negligence. Our skilled attorneys are ready to fight for you and your family.
+              - button "Learn More" [ref=e231]
+        - link "Photo Representing Sexual Abuse Sexual Abuse Learn More" [ref=e232] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/sexual-abuse-victims/
+          - img "Photo Representing Sexual Abuse" [ref=e233]
+          - generic [ref=e234]:
+            - heading "Sexual Abuse" [level=3] [ref=e236]
+            - generic:
+              - paragraph [ref=e237]
+              - button "Learn More" [ref=e238]
+        - link "Photo Representing Jail/Prison Deaths Jail/Prison Deaths Learn More" [ref=e239] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/practice-areas/jail-prison-deaths/
+          - img "Photo Representing Jail/Prison Deaths" [ref=e240]
+          - generic [ref=e241]:
+            - heading "Jail/Prison Deaths" [level=3] [ref=e243]
+            - generic:
+              - paragraph [ref=e244]
+              - button "Learn More" [ref=e245]
+      - img "Wagner Reese Logo" [ref=e249]
+      - heading "Injured in a Different Type of Accident?" [level=3] [ref=e251]
+      - link "View All Practice Areas" [ref=e252] [cursor=pointer]:
+        - /url: https://www.wagnerreese.com/practice-areas/
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - heading "Your Questions Answered" [level=2] [ref=e257]
+        - paragraph [ref=e259]: For more than two decades, our firm has been helping injured individuals and their families fight for the justice and fair recovery they are owed. When someone else’s careless, reckless, or negligent actions result in injuries or the death of your loved one, you have the right to take legal action. Our Indiana personal injury attorneys are here to help.
+      - generic [ref=e260]:
+        - generic [ref=e261] [cursor=pointer]:
+          - generic [ref=e262]:
+            - img [ref=e264]
+            - heading "How Much Is My Personal Injury Case Worth?" [level=3] [ref=e267]
+          - paragraph [ref=e268]: Your attorney can speak with you about this, but even attorneys can’t necessarily pinpoint what your case is worth until it is close to a resolution. Many factors—including the circumstances of the accident, the state of the drivers involved, and the insurance companies—influence the outcome. So do your medical bills, your loss of income, and the nature of your injuries. An experienced lawyer can work with you to decide whether to pursue legal action and how to proceed.
+        - generic [ref=e269] [cursor=pointer]:
+          - generic [ref=e270]:
+            - img [ref=e272]
+            - heading "Do I Have to Go to Court If I Want to Recover Damages?" [level=3] [ref=e275]
+          - paragraph [ref=e276]: Maybe. Your case may settle even before your attorney files a lawsuit; on the other hand, it may go all the way to a trial and a jury verdict. The majority of lawsuits are settled before they get to trial, but what happens in your case depends on the facts, the law, and the parties involved.
+        - generic [ref=e277] [cursor=pointer]:
+          - generic [ref=e278]:
+            - img [ref=e280]
+            - heading "How Long Do I Have to File a Personal Injury Lawsuit?" [level=3] [ref=e283]
+          - paragraph [ref=e284]: The statute of limitations refers to the need to file a lawsuit within a time limit. In Indiana, most injury cases have a two-year statute of limitations—but not all. Some lawsuits, such as lawsuits against the government, require a notice within a shorter period of time. The time begins to run when a cause of action accrues. A good example is someone negligently running into your car. The statute of limitation begins on the day of the accident. Sometimes, however, you have no way of knowing that you have a cause of action for years, such as discovering ill effects from taking a medication or being exposed to chemicals. It is important to seek the advice of an attorney and doctor if you suspect that you are having problems but don’t know for sure if it relates to the negligence of another or an unreasonably dangerous product.
+        - generic [ref=e285] [cursor=pointer]:
+          - generic [ref=e286]:
+            - img [ref=e288]
+            - heading "Can I Talk to You About My Case for Free?" [level=3] [ref=e291]
+          - paragraph [ref=e292]: Absolutely. Our personal injury lawyers in Indianapolis are more than happy to talk with people about their case without charging a fee for the consultation. Even if it is a case that we are not able to take for some reason, we can often make suggestions about what the caller can do or refer them to other legal resources that may be able to provide assistance.
+        - generic [ref=e293] [cursor=pointer]:
+          - generic [ref=e294]:
+            - img [ref=e296]
+            - heading "What Am I Entitled to Recover After an Accident?" [level=3] [ref=e299]
+          - paragraph [ref=e300]: You may be entitled to a number of different types of damages under Indiana law. Some of the more common types of damages in accident cases include reasonable and necessary medical expenses, lost earnings, reduced earning capacity in the future, future medical expenses and prescriptions, pain and suffering, and permanent impairment.
+        - generic [ref=e301] [cursor=pointer]:
+          - generic [ref=e302]:
+            - img [ref=e304]
+            - heading "How Much Will I Have to Pay for You to Handle My Case?" [level=3] [ref=e307]
+          - paragraph [ref=e308]: Like most personal injury law firms, our fee is taken as a percentage of the recovery that is made and paid at the time of settlement. If a lawsuit is filed on your behalf, the percentage usually increases, due to the increased amount of work required in prosecuting the lawsuit. However, if we are unable to recover money for you, you do not pay us anything. The actual fee charged in your case will depend on the circumstances of our case and can range anywhere from 20-40%.
+        - generic [ref=e309] [cursor=pointer]:
+          - generic [ref=e310]:
+            - img [ref=e312]
+            - heading "What If I’ve Already Hired Another Attorney?" [level=3] [ref=e315]
+          - paragraph [ref=e316]: If you already hired another attorney to handle your personal injury case and you are not happy with their services, the first thing you should do is try to work through the problems with that attorney. Lack of communication, disagreement over the amount of a potential settlement, and lack of attention to your case are the reasons we most frequently hear as to why clients are unhappy with their current attorneys. However, it is very important to be comfortable and confident with your attorney. If you have tried but failed to work things out, you have the right to switch attorneys. Your prior attorney may assert a “lien” for attorney fees and expenses incurred on your case, but our firm policy is to pay that lien out of our attorney fee if you switch attorneys. In other words, you have the right to switch attorneys and it will not cost you anything to do so.
+    - generic [ref=e318]:
+      - heading "Our Attorneys" [level=2] [ref=e319]
+      - img "Wagner Reese Logo" [ref=e323]
+      - generic [ref=e325]:
+        - link "Stephen M. Wagner Headshot Stephen M. Wagner Co-founder & Partner" [ref=e326] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/stephen-wagner/
+          - img "Stephen M. Wagner Headshot"
+          - generic [ref=e329]:
+            - heading "Stephen M. Wagner" [level=3] [ref=e330]
+            - paragraph [ref=e331]: Co-founder & Partner
+        - link "Jason R. Reese Headshot Jason R. Reese Co-founder & Partner" [ref=e332] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/jason-reese/
+          - img "Jason R. Reese Headshot"
+          - generic [ref=e335]:
+            - heading "Jason R. Reese" [level=3] [ref=e336]
+            - paragraph [ref=e337]: Co-founder & Partner
+        - link "Stephanie L. Cassman Headshot Stephanie L. Cassman Partner" [ref=e338] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/stephanie-cassman/
+          - img "Stephanie L. Cassman Headshot"
+          - generic [ref=e341]:
+            - heading "Stephanie L. Cassman" [level=3] [ref=e342]
+            - paragraph [ref=e343]: Partner
+        - link "Timothy F. Devereux Headshot Timothy F. Devereux Partner" [ref=e344] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/timothy-f-devereux/
+          - img "Timothy F. Devereux Headshot"
+          - generic [ref=e347]:
+            - heading "Timothy F. Devereux" [level=3] [ref=e348]
+            - paragraph [ref=e349]: Partner
+        - link "Jeff S. Gibson Headshot Jeff S. Gibson Partner" [ref=e350] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/jeff-gibson/
+          - img "Jeff S. Gibson Headshot"
+          - generic [ref=e353]:
+            - heading "Jeff S. Gibson" [level=3] [ref=e354]
+            - paragraph [ref=e355]: Partner
+        - link "Laura W. Swafford Headshot Laura W. Swafford Partner" [ref=e356] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/laura-walker-swafford/
+          - img "Laura W. Swafford Headshot"
+          - generic [ref=e359]:
+            - heading "Laura W. Swafford" [level=3] [ref=e360]
+            - paragraph [ref=e361]: Partner
+        - link "Autumn L. Seib Headshot Autumn L. Seib Attorney" [ref=e362] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/autumn-seib/
+          - img "Autumn L. Seib Headshot"
+          - generic [ref=e365]:
+            - heading "Autumn L. Seib" [level=3] [ref=e366]
+            - paragraph [ref=e367]: Attorney
+        - link "Jill E. Reese Headshot Jill E. Reese Of Counsel" [ref=e368] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/our-team/jill-reese/
+          - img "Jill E. Reese Headshot"
+          - generic [ref=e371]:
+            - heading "Jill E. Reese" [level=3] [ref=e372]
+            - paragraph [ref=e373]: Of Counsel
+      - link "View Full Team" [ref=e374] [cursor=pointer]:
+        - /url: https://www.wagnerreese.com/about-us/
+    - generic [ref=e376]:
+      - heading "Wagner Reese News" [level=2] [ref=e377]
+      - img "Wagner Reese Logo" [ref=e381]
+      - generic [ref=e383]:
+        - 'link "Blog Post Featured Image April 14, 2026 Placental Abruption and Medical Negligence: When Doctors Miss Critical Signs" [ref=e384] [cursor=pointer]':
+          - /url: https://www.wagnerreese.com/blog/placental-abruption-medical-negligence/
+          - generic [ref=e385]:
+            - img "Blog Post Featured Image" [ref=e386]
+            - paragraph [ref=e387]: April 14, 2026
+          - generic [ref=e388]:
+            - 'heading "Placental Abruption and Medical Negligence: When Doctors Miss Critical Signs" [level=3] [ref=e389]'
+            - img [ref=e391]
+        - 'link "Blog Post Featured Image April 14, 2026 Grooming in Indiana: Recognizing the Warning Signs and Legal Recourse" [ref=e393] [cursor=pointer]':
+          - /url: https://www.wagnerreese.com/blog/grooming-indiana-warning-signs-legal-recourse/
+          - generic [ref=e394]:
+            - img "Blog Post Featured Image" [ref=e395]
+            - paragraph [ref=e396]: April 14, 2026
+          - generic [ref=e397]:
+            - 'heading "Grooming in Indiana: Recognizing the Warning Signs and Legal Recourse" [level=3] [ref=e398]'
+            - img [ref=e400]
+        - link "Blog Post Featured Image April 14, 2026 How to Deal With the At-Fault Driver's Insurance Company" [ref=e402] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/blog/how-to-deal-with-at-fault-drivers-insurance-company/
+          - generic [ref=e403]:
+            - img "Blog Post Featured Image" [ref=e404]
+            - paragraph [ref=e405]: April 14, 2026
+          - generic [ref=e406]:
+            - heading "How to Deal With the At-Fault Driver's Insurance Company" [level=3] [ref=e407]
+            - img [ref=e409]
+        - link "Blog Post Featured Image April 14, 2026 What Happens If You Get in an Accident with a Company Vehicle?" [ref=e411] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/blog/accident-with-company-vehicle/
+          - generic [ref=e412]:
+            - img "Blog Post Featured Image" [ref=e413]
+            - paragraph [ref=e414]: April 14, 2026
+          - generic [ref=e415]:
+            - heading "What Happens If You Get in an Accident with a Company Vehicle?" [level=3] [ref=e416]
+            - img [ref=e418]
+    - region "Featured nationwide as seen in" [ref=e421]:
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - heading "Indiana's Recognized Legal Experts Featured Nationwide" [level=2] [ref=e425]:
+            - generic [ref=e426]: Indiana's Recognized Legal
+            - generic [ref=e427]: Experts Featured Nationwide
+          - generic [ref=e428]:
+            - button [ref=e429] [cursor=pointer]
+            - button [ref=e430] [cursor=pointer]
+            - button [ref=e431] [cursor=pointer]
+            - button [ref=e432] [cursor=pointer]
+            - button [ref=e433] [cursor=pointer]
+            - button [ref=e434] [cursor=pointer]
+            - button [ref=e435] [cursor=pointer]
+        - generic [ref=e438]:
+          - group "1 / 7" [ref=e439]:
+            - generic [ref=e440]:
+              - img "2024 New Msn Logo"
+          - group "2 / 7" [ref=e441]:
+            - generic [ref=e442]:
+              - img "Huffpost"
+          - group "3 / 7" [ref=e443]:
+            - generic [ref=e444]:
+              - img "Independent"
+          - group "4 / 7" [ref=e445]:
+            - generic [ref=e446]:
+              - img "IndyStar Logo"
+          - group "5 / 7" [ref=e447]:
+            - generic [ref=e448]:
+              - img "NewYorkPost"
+          - group "6 / 7" [ref=e449]:
+            - generic [ref=e450]:
+              - img "Path1"
+          - group "7 / 7" [ref=e451]:
+            - generic [ref=e452]:
+              - img "Vector"
+    - generic [ref=e455]:
+      - generic [ref=e456]:
+        - img "Map of Office Locations" [ref=e457]
+        - link "Carmel" [ref=e458] [cursor=pointer]:
+          - /url: https://maps.google.com/maps?cid=14549092848537789668
+          - generic [ref=e459]: Carmel
+        - link "Indianapolis" [ref=e461] [cursor=pointer]:
+          - /url: https://maps.google.com/maps?cid=3100666539377369649
+          - generic [ref=e463]: Indianapolis
+        - link "Fort Wayne" [ref=e464] [cursor=pointer]:
+          - /url: https://maps.google.com/maps?cid=366471809378966739
+          - generic [ref=e465]: Fort Wayne
+        - link "West Lafayette" [ref=e467] [cursor=pointer]:
+          - /url: https://maps.google.com/maps?cid=8559214305869496581
+          - generic [ref=e469]: West Lafayette
+        - link "Champaign" [ref=e470] [cursor=pointer]:
+          - /url: https://maps.google.com/maps?cid=15410124681575452720
+          - generic [ref=e471]: Champaign
+        - link "Evansville" [ref=e473] [cursor=pointer]:
+          - /url: https://maps.google.com/maps?cid=4328107552237616111
+          - generic [ref=e474]: Evansville
+      - generic [ref=e476]:
+        - heading "Our Office Locations" [level=2] [ref=e477]
+        - generic [ref=e478]:
+          - link "Carmel Office 11939 N. Meridian St. Carmel, IN 46032 Map & Directions" [ref=e479] [cursor=pointer]:
+            - /url: https://maps.google.com/maps?cid=14549092848537789668
+            - generic [ref=e480]:
+              - img [ref=e481]
+              - paragraph [ref=e483]: Carmel Office
+            - paragraph [ref=e484]:
+              - text: 11939 N. Meridian St.
+              - text: Carmel, IN 46032
+              - generic [ref=e485]: Map & Directions
+          - link "Indianapolis Office 201 N Illinois St 16th Floor Indianapolis, IN 46204 Map & Directions" [ref=e486] [cursor=pointer]:
+            - /url: https://maps.google.com/maps?cid=3100666539377369649
+            - generic [ref=e487]:
+              - img [ref=e488]
+              - paragraph [ref=e490]: Indianapolis Office
+            - paragraph [ref=e491]:
+              - text: 201 N Illinois St 16th Floor
+              - text: Indianapolis, IN 46204
+              - generic [ref=e492]: Map & Directions
+          - link "Fort Wayne Office 111 W. Berry Street, Suite 211 Fort Wayne, IN 46802 Map & Directions" [ref=e493] [cursor=pointer]:
+            - /url: https://maps.google.com/maps?cid=366471809378966739
+            - generic [ref=e494]:
+              - img [ref=e495]
+              - paragraph [ref=e497]: Fort Wayne Office
+            - paragraph [ref=e498]:
+              - text: 111 W. Berry Street, Suite 211
+              - text: Fort Wayne, IN 46802
+              - generic [ref=e499]: Map & Directions
+          - link "West Lafayette Office 101 Foundry Dr. Suite 1200-14 West Lafayette, IN 47906 Map & Directions" [ref=e500] [cursor=pointer]:
+            - /url: https://maps.google.com/maps?cid=8559214305869496581
+            - generic [ref=e501]:
+              - img [ref=e502]
+              - paragraph [ref=e504]: West Lafayette Office
+            - paragraph [ref=e505]:
+              - text: 101 Foundry Dr. Suite 1200-14
+              - text: West Lafayette, IN 47906
+              - generic [ref=e506]: Map & Directions
+          - link "Champaign Office 701 Devonshire Dr. Suite C17 Champaign, IL 61820 Map & Directions" [ref=e507] [cursor=pointer]:
+            - /url: https://maps.google.com/maps?cid=15410124681575452720
+            - generic [ref=e508]:
+              - img [ref=e509]
+              - paragraph [ref=e511]: Champaign Office
+            - paragraph [ref=e512]:
+              - text: 701 Devonshire Dr. Suite C17
+              - text: Champaign, IL 61820
+              - generic [ref=e513]: Map & Directions
+          - link "Evansville Office 815 John St. Suite 110 Evansville, IN 47713 Map & Directions" [ref=e514] [cursor=pointer]:
+            - /url: https://maps.google.com/maps?cid=4328107552237616111
+            - generic [ref=e515]:
+              - img [ref=e516]
+              - paragraph [ref=e518]: Evansville Office
+            - paragraph [ref=e519]:
+              - text: 815 John St. Suite 110
+              - text: Evansville, IN 47713
+              - generic [ref=e520]: Map & Directions
+    - generic:
+      - main
+    - generic [ref=e522]:
+      - generic [ref=e523]:
+        - generic [ref=e524]:
+          - heading "Start My Free Case Evaluation" [level=2] [ref=e525]
+          - paragraph [ref=e526]: Fill out the form and our team will contact you to schedule a free consultation.
+          - list [ref=e527]:
+            - listitem [ref=e528]: Your Information Is Confidential
+            - listitem [ref=e529]: No Obligation - Free Consultation
+            - listitem [ref=e530]: We Respond Within 24 hours
+            - listitem [ref=e531]: No Fees Unless We Win
+          - link "Local Phone (317) 779-1992" [ref=e532] [cursor=pointer]:
+            - /url: tel:(317) 779-1992
+            - img [ref=e534]
+            - generic [ref=e536]:
+              - text: Local Phone
+              - generic [ref=e537]: (317) 779-1992
+          - link "Toll Free Phone (866) 828-0308" [ref=e538] [cursor=pointer]:
+            - /url: tel:(866) 828-0308
+            - img [ref=e540]
+            - generic [ref=e542]:
+              - text: Toll Free Phone
+              - generic [ref=e543]: (866) 828-0308
+        - generic [ref=e546]:
+          - generic [ref=e548]:
+            - generic [ref=e549]:
+              - generic [ref=e550]:
+                - text: Full Name
+                - generic [ref=e551]: "*"
+              - textbox "Full Name *" [ref=e553]:
+                - /placeholder: Full Name
+            - generic [ref=e554]:
+              - generic [ref=e555]:
+                - text: Phone
+                - generic [ref=e556]: "*"
+              - textbox "Phone *" [ref=e558]:
+                - /placeholder: Phone
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - text: Email
+                - generic [ref=e561]: "*"
+              - textbox "Email *" [ref=e563]:
+                - /placeholder: Email
+            - generic [ref=e564]:
+              - generic [ref=e565]:
+                - text: Are you a new client?
+                - generic [ref=e566]: "*"
+              - combobox "Are you a new client? *" [ref=e568]:
+                - option "Are you a new client?" [selected]
+                - option "Yes, I am a potential new client"
+                - option "No, I am an existing client"
+                - option "Other"
+            - generic [ref=e569]:
+              - generic [ref=e570]:
+                - text: Message
+                - generic [ref=e571]: "*"
+              - textbox "Message *" [ref=e573]:
+                - /placeholder: Tell us about your case
+            - generic [ref=e574]:
+              - generic [ref=e575]: CAPTCHA
+              - iframe [ref=e579]:
+                - generic [ref=f503e2]:
+                  - generic [ref=f503e3]:
+                    - checkbox "I'm not a robot" [ref=f503e7]
+                    - generic [ref=f503e11]: I'm not a robot
+                  - generic [ref=f503e15]: reCAPTCHA
+          - button "SUBMIT" [ref=e581] [cursor=pointer]
+      - paragraph [ref=e582]:
+        - text: "Disclaimer: By providing your phone number to Wagner Reese LLP, you hereby acknowledge and agree that we may send text messages to your wireless phone number for various purposes. Please note that message and data rates may apply. Message frequency will vary, and you retain the right to Opt-out by simply replying “STOP.” For a detailed understanding of how we handle your data, please refer to our"
+        - link "Privacy Policy" [ref=e583] [cursor=pointer]:
+          - /url: https://www.wagnerreese.com/privacy-policy/
+        - text: below.
+    - contentinfo [ref=e584]:
+      - generic [ref=e585]:
+        - img "Wagner Reese Logo" [ref=e586]
+        - generic [ref=e587]:
+          - generic "Carmel Office" [ref=e589]:
+            - generic [ref=e590]:
+              - img [ref=e591]
+              - paragraph [ref=e593]: Carmel Office
+            - paragraph [ref=e594]:
+              - text: 11939 N. Meridian St.
+              - text: Carmel, IN 46032
+            - link "Map & Directions" [ref=e595] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?cid=14549092848537789668
+          - generic "Indianapolis Office" [ref=e597]:
+            - generic [ref=e598]:
+              - img [ref=e599]
+              - paragraph [ref=e601]: Indianapolis Office
+            - paragraph [ref=e602]:
+              - text: 201 N Illinois St 16th Floor
+              - text: Indianapolis, IN 46204
+            - link "Map & Directions" [ref=e603] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?cid=3100666539377369649
+          - generic "Fort Wayne Office" [ref=e605]:
+            - generic [ref=e606]:
+              - img [ref=e607]
+              - paragraph [ref=e609]: Fort Wayne Office
+            - paragraph [ref=e610]:
+              - text: 111 W. Berry Street, Suite 211
+              - text: Fort Wayne, IN 46802
+            - link "Map & Directions" [ref=e611] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?cid=366471809378966739
+          - generic "West Lafayette Office" [ref=e613]:
+            - generic [ref=e614]:
+              - img [ref=e615]
+              - paragraph [ref=e617]: West Lafayette Office
+            - paragraph [ref=e618]:
+              - text: 101 Foundry Dr. Suite 1200-14
+              - text: West Lafayette, IN 47906
+            - link "Map & Directions" [ref=e619] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?cid=8559214305869496581
+          - generic "Champaign Office" [ref=e621]:
+            - generic [ref=e622]:
+              - img [ref=e623]
+              - paragraph [ref=e625]: Champaign Office
+            - paragraph [ref=e626]:
+              - text: 701 Devonshire Dr. Suite C17
+              - text: Champaign, IL 61820
+            - link "Map & Directions" [ref=e627] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?cid=15410124681575452720
+          - generic "Evansville Office" [ref=e629]:
+            - generic [ref=e630]:
+              - img [ref=e631]
+              - paragraph [ref=e633]: Evansville Office
+            - paragraph [ref=e634]:
+              - text: 815 John St. Suite 110
+              - text: Evansville, IN 47713
+            - link "Map & Directions" [ref=e635] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?cid=4328107552237616111
+      - generic [ref=e636]:
+        - list [ref=e638]:
+          - listitem [ref=e639]:
+            - link "Home" [ref=e640] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/
+          - listitem [ref=e641]:
+            - link "Practice Areas" [ref=e642] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/practice-areas/
+          - listitem [ref=e643]:
+            - link "Case Results" [ref=e644] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/case-results/
+          - listitem [ref=e645]:
+            - link "Referrals" [ref=e646] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/about-us/referrals/
+          - listitem [ref=e647]:
+            - link "Blog" [ref=e648] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/blog/
+          - listitem [ref=e649]:
+            - link "Resources" [ref=e650] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/resource-links/
+          - listitem [ref=e651]:
+            - link "Contact Us" [ref=e652] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/contact-us/
+          - listitem [ref=e653]:
+            - link "Sitemap" [ref=e654] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/sitemap/
+          - listitem [ref=e655]:
+            - link "Privacy Policy" [ref=e656] [cursor=pointer]:
+              - /url: https://www.wagnerreese.com/privacy-policy/
+        - generic [ref=e657]:
+          - link "Find Us On X" [ref=e658] [cursor=pointer]:
+            - /url: https://x.com/wagnerreese
+            - img [ref=e659]
+          - link "Find Us On Facebook" [ref=e661] [cursor=pointer]:
+            - /url: https://www.facebook.com/WagnerReese
+            - img [ref=e662]
+          - link "Find Us On LinkedIn" [ref=e664] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/wagner-reese-llp
+            - img [ref=e665]
+          - link "Find Us On YouTube" [ref=e668] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCdb9_v-6NJlDtU17tIz_VUg
+            - img [ref=e669]
+          - link "Find Us On Instagram" [ref=e671] [cursor=pointer]:
+            - /url: https://www.instagram.com/wagnerreesellp/
+            - img [ref=e672]
+      - generic [ref=e676]:
+        - paragraph [ref=e677]: The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
+        - paragraph [ref=e678]: © 2026 Wagner Reese, LLP. All Rights Reserved.
+  - generic [ref=e682]:
+    - button "Unmute video" [ref=e683] [cursor=pointer]
+    - button "Unmute video" [ref=e684] [cursor=pointer]
+    - button "Close Intaker Chat Widget" [ref=e686] [cursor=pointer]
+    - button "Toggle position" [ref=e687] [cursor=pointer]
+    - generic [ref=e692]:
+      - generic [ref=e694]: Hi 👋🏼 Welcome to Wagner Reese, LLP. How can we help you?
+      - button "Car Accident" [ref=e695] [cursor=pointer]:
+        - paragraph [ref=e696]: Car Accident
+      - button "Child Birth Injury" [ref=e697] [cursor=pointer]:
+        - paragraph [ref=e698]: Child Birth Injury
+      - button "Wrongful Death" [ref=e699] [cursor=pointer]:
+        - paragraph [ref=e700]: Wrongful Death
+      - button "Medical Malpractice" [ref=e701] [cursor=pointer]:
+        - paragraph [ref=e702]: Medical Malpractice
+      - button "Other Injuries" [ref=e703] [cursor=pointer]:
+        - paragraph [ref=e704]: Other Injuries
+    - generic [ref=e705]:
+      - generic [ref=e706]: Powered by
+      - link "Powered by Intaker" [ref=e707] [cursor=pointer]:
+        - /url: https://intaker.com
+        - generic: Intaker
+  - button "Call us" [ref=e709] [cursor=pointer]:
+    - generic [ref=e711]: Call us

@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: We serve throughout Alabama
+      - link "(844) 239-2891" [ref=e5] [cursor=pointer]:
+        - /url: tel:+18442392891
+        - img [ref=e6]
+        - text: (844) 239-2891
+    - link "Belt, Bruner & Barnett Personal Injury Lawyers - Logo" [ref=e9] [cursor=pointer]:
+      - /url: /
+      - img "Belt, Bruner & Barnett Personal Injury Lawyers - Logo" [ref=e10]
+  - generic [ref=e17]:
+    - generic [ref=e19]: Your browser does not support the video tag.
+    - img "Personal Injury Lawyers in Birmingham, Alabama" [ref=e21]
+    - generic [ref=e22]:
+      - heading "Birmingham Personal Injury Lawyer" [level=1] [ref=e23]
+      - paragraph [ref=e24]: 90+ Years of Combined Experience. Hundreds of Millions Recovered.
+      - link "Free Case Review" [ref=e25] [cursor=pointer]:
+        - /url: /contact-us/
+        - text: Free Case Review
+        - img [ref=e26]
+      - img [ref=e29]
+  - article [ref=e60]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - paragraph
+        - paragraph [ref=e63]: Top-Rated Injury Lawyers
+      - generic [ref=e64]:
+        - paragraph [ref=e65]:
+          - text: If you were involved in an accident in
+          - link "Birmingham, Alabama" [ref=e66] [cursor=pointer]:
+            - /url: https://www.birminghamal.gov/
+          - generic [ref=e67]:
+            - text: ", you may be entitled to compensation. Our Birmingham personal injury attorney at"
+            - link "Belt, Bruner & Barnett Personal Injury Lawyers" [ref=e68] [cursor=pointer]:
+              - /url: https://www.alabamainjurylawyer.com/about-us/
+            - text: can help you recover damages for your pain and suffering, medical bills, lost wages, and more. Call us at
+            - link "(844) 239-2891" [ref=e69] [cursor=pointer]:
+              - /url: tel:+18442392891
+            - text: .
+        - paragraph [ref=e70]:
+          - generic [ref=e71]:
+            - text: We are a top-rated personal injury law firm that consistently wins cases for accident victims in the area. Our attorneys have more than nine decades of combined experience and
+            - link "have obtained hundreds of millions of dollars" [ref=e72] [cursor=pointer]:
+              - /url: https://www.alabamainjurylawyer.com/about-us/case-results/
+            - text: for personal injury victims. You can count on us to get you winning results, too.
+        - paragraph [ref=e73]:
+          - generic [ref=e74]:
+            - text: Get in touch with our law offices, we are also located in
+            - link "Huntsville" [ref=e75] [cursor=pointer]:
+              - /url: https://www.alabamainjurylawyer.com/huntsville-personal-injury-lawyer/
+            - text: and
+            - link "Montgomery" [ref=e76] [cursor=pointer]:
+              - /url: https://www.alabamainjurylawyer.com/montgomery-personal-injury-lawyer/
+            - text: . Get started or ask any questions you may have.
+            - link "We offer a completely free, no obligation consultation" [ref=e77] [cursor=pointer]:
+              - /url: https://www.alabamainjurylawyer.com/contact-us/
+            - text: .
+  - paragraph

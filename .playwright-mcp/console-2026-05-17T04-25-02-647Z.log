@@ -1,0 +1,3 @@
+[   65525ms] TypeError: Failed to execute 'exitFullscreen' on 'Document': Document not active
+    at T (https://www.geraldagriggs.com/assets/front/include/rs-plugin/js/extensions/revolution.extension.video.min.js:7:20443)
+    at HTMLVideoElement.<anonymous> (https://www.geraldagriggs.com/assets/front/include/rs-plugin/js/extensions/revolution.extension.video.min.js:7:24942)

@@ -1,0 +1,440 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#content"
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link "Peter Goldstein" [ref=e9] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/about-our-firm/petergoldstein/
+            - listitem [ref=e10]:
+              - link "Case Results" [ref=e11] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/case-results/
+            - listitem [ref=e12]:
+              - link "Practice Areas" [ref=e13] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/practice-areas/
+          - link "Peter Goldstein Law Corporation" [ref=e16] [cursor=pointer]:
+            - /url: https://petergoldsteinlaw.com/
+            - img "Peter Goldstein Law Corporation" [ref=e17]
+          - generic [ref=e19]:
+            - complementary:
+              - generic:
+                - list:
+                  - listitem [ref=e20]:
+                    - generic [ref=e21]:
+                      - generic [ref=e23]: 
+                      - generic [ref=e24]:
+                        - link "702.474.6400" [ref=e26] [cursor=pointer]:
+                          - /url: tel:(702) 747-6400
+                        - generic [ref=e27]: Las Vegas
+                  - listitem [ref=e28]:
+                    - generic [ref=e29]:
+                      - generic [ref=e31]: 
+                      - generic [ref=e32]:
+                        - link "310.552.2050" [ref=e34] [cursor=pointer]:
+                          - /url: tel:(310) 552-2050
+                        - generic [ref=e35]: Los Angeles
+                  - listitem [ref=e36]:
+                    - link " Free Case Evaluation" [ref=e39] [cursor=pointer]:
+                      - /url: /free-case-evaluation
+                      - generic [ref=e40]: 
+                      - text: Free Case Evaluation
+      - navigation [ref=e41]:
+        - generic [ref=e42]:
+          - text: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/
+            - listitem [ref=e46]:
+              - text: 
+              - link "About Our Firm" [ref=e47] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/about-our-firm/
+            - listitem [ref=e48]:
+              - text: 
+              - link "Practice Areas" [ref=e49] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/practice-areas/
+            - listitem [ref=e50]:
+              - link "Questions & Answers" [ref=e51] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/questions-answers/
+            - listitem [ref=e52]:
+              - link "News" [ref=e53] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/personal-injury-news/
+            - listitem [ref=e54]:
+              - link "Published Cases" [ref=e55] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/opinions/
+            - listitem [ref=e56]:
+              - text: 
+              - link "Contact Us" [ref=e57] [cursor=pointer]:
+                - /url: https://petergoldsteinlaw.com/contact-law-office-of-peter-goldstein/
+          - list [ref=e58]:
+            - link "" [ref=e59] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/petergoldsteinlawoffice/
+              - generic [ref=e60]: 
+      - generic [ref=e62]:
+        - generic [ref=e76]:
+          - heading "My Goal Is One Thing, Getting Money for My Client" [level=2] [ref=e82]:
+            - generic [ref=e83]: My Goal Is One Thing, Getting Money for My Client
+          - link "Check Our Practices" [ref=e86] [cursor=pointer]:
+            - /url: https://34t.92b.myftpupload.com/practice-areas/
+        - generic [ref=e90]:
+          - generic [ref=e93]:
+            - heading "Case Results" [level=2] [ref=e95]
+            - paragraph [ref=e99]: Police Misconduct trial result for unlawful 5150 (mental health hold for 2 days) San Bernardino Superior Court.
+            - paragraph [ref=e102]:
+              - text: Business Dispute Settlement Family Business Dispute settlement
+              - strong [ref=e103]: $3,000,000
+          - generic [ref=e106]:
+            - heading "Peter Goldstein Law Office" [level=2] [ref=e108]
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - paragraph [ref=e114]: Our multi-jurisdictional law firm has over 30 years of trial experience and Peter has a dual license to practice law in California and Nevada.
+                - paragraph [ref=e115]: We invite you to call our office for a free consultation so we can evaluate your case.
+                - paragraph [ref=e116]: "Peter Goldstein “A Personal Injury Lawyer” is a member of the following organizations: Consumer Attorneys of California, Consumer Attorneys of Los Angeles, Nevada Justice Association, the American Board of Trial Advocates and the American Association for Justice."
+                - paragraph [ref=e117]: Peter Goldstein has tried many cases to verdict recently prevailing after 12 years in a case against the State of California which resulted in a settlement of over $10 million.
+              - heading "We will fight to protect your legal rights under the law." [level=3] [ref=e119]
+        - generic [ref=e128]:
+          - generic [ref=e130]:
+            - heading "My Goal Is One Thing," [level=3] [ref=e131]:
+              - emphasis [ref=e132]: My Goal Is One Thing,
+            - heading "GETTING MONEY FOR MY CLIENT" [level=1] [ref=e133]:
+              - strong [ref=e134]: GETTING MONEY FOR MY CLIENT
+          - link "Free Case Evaluation" [ref=e135] [cursor=pointer]:
+            - /url: https://34t.92b.myftpupload.com/free-case-evaluation/
+        - generic [ref=e143]:
+          - heading "Practice Areas" [level=2] [ref=e145]
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - link "Police Misconduct" [ref=e155] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/police-misconduct/
+                  - link "Police Misconduct" [ref=e157] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/police-misconduct/
+                - generic [ref=e161]:
+                  - heading "Police Misconduct" [level=4] [ref=e163]
+                  - paragraph [ref=e165]: Many incidents involving police and the use of excessive force have been recently circulated throughout the media, prompting the average ...
+                  - link "Read more" [ref=e167] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/police-misconduct/
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - link "Casino Injury" [ref=e172] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/casino-injury/
+                  - link "Casino Injury" [ref=e174] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/casino-injury/
+                - generic [ref=e178]:
+                  - heading "Casino Injury" [level=4] [ref=e180]
+                  - paragraph [ref=e182]: UNIQUE CHALLENGES IN CASINO INJURIES There must be proof of negligence for a casino to be held legally responsible for an ...
+                  - link "Read more" [ref=e184] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/casino-injury/
+              - generic [ref=e186]:
+                - generic [ref=e187]:
+                  - link "Wrongful Death" [ref=e189] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/wrongful-death-2/
+                  - link "Wrongful Death" [ref=e191] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/wrongful-death-2/
+                - generic [ref=e195]:
+                  - heading "Wrongful Death" [level=4] [ref=e197]
+                  - paragraph [ref=e199]: UNDERSTANDING WRONGFUL DEATH AS A PERSONAL INJURY CLAIM Wrongful death is a cause of action that exists on behalf of ...
+                  - link "Read more" [ref=e201] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/practice-areas/wrongful-death-2/
+            - link "Load more" [ref=e204] [cursor=pointer]:
+              - /url: javascript:;
+        - generic [ref=e209]:
+          - generic [ref=e212]:
+            - heading "Free Case Evaluation" [level=2] [ref=e214]
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - paragraph [ref=e218]: My name is DeAndra Thomas and I have had the privelage of working with Peter Goldstein who represented my family in a tragic loss of our 19 year old son. We shopped around for different attorneys that we felt were most qualified to handle our case and most importantly believe in the injustice that happened while my son was in custody at West Valley Detention Center. After being referred to Mr. Goldstein, a very experienced and reputable attorney at law, my husband and I knew he was the best fit for our case.
+                - paragraph [ref=e219]: Mr. Goldstein was very thorough and timely throughout the discovery and litigation process. His confidence and strong court room presence paid off in pretrial negotiations saving our family additional heart ache and pain. Peter Goldstein and team got my family 1.5 million dollars and I will refer him to all of my family and friends in need.
+              - generic [ref=e221]: DeAndra Thomas
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - status
+              - list
+            - form "Contact form" [ref=e227]:
+              - paragraph [ref=e229]:
+                - textbox "First Name *" [ref=e231] [cursor=pointer]
+              - paragraph [ref=e233]:
+                - textbox "Last Name *" [ref=e235] [cursor=pointer]
+              - paragraph [ref=e238]:
+                - textbox "Your Email *" [ref=e240] [cursor=pointer]
+              - paragraph [ref=e242]:
+                - textbox "Your Phone Number *" [ref=e244] [cursor=pointer]
+              - paragraph [ref=e247]:
+                - textbox "City *" [ref=e249] [cursor=pointer]
+              - paragraph [ref=e251]:
+                - textbox "State *" [ref=e253] [cursor=pointer]
+              - paragraph [ref=e255]:
+                - textbox "Case Subject" [ref=e257] [cursor=pointer]
+              - paragraph [ref=e258]:
+                - textbox "Case Details" [ref=e260] [cursor=pointer]
+              - paragraph [ref=e261]:
+                - button "Submit Evaluation" [ref=e262] [cursor=pointer]
+        - generic [ref=e269]:
+          - heading "News" [level=2] [ref=e271]
+          - generic [ref=e274]:
+            - generic [ref=e276]:
+              - generic [ref=e277]:
+                - link "Settlements totaling $675K approved for 2 men with claims against police" [ref=e279] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+                - heading "Settlements totaling $675K approved for 2 men with claims against police" [level=4] [ref=e280]:
+                  - link "Settlements totaling $675K approved for 2 men with claims against police" [ref=e281] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+                - generic [ref=e282]:
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: 
+                    - time [ref=e285]: April 25, 2022
+                  - generic [ref=e286]:
+                    - generic [ref=e287]: 
+                    - text: Comments off.
+                - paragraph [ref=e288]
+                - link "Read More" [ref=e289] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+              - generic [ref=e290]:
+                - link "Somebody has to answer for this,’ says father of inmate who was strangled" [ref=e292] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/01/somebody-has-to-answer-for-this-says-father-of-inmate-who-was-strangled/
+                - heading "Somebody has to answer for this,’ says father of inmate who was strangled" [level=4] [ref=e293]:
+                  - link "Somebody has to answer for this,’ says father of inmate who was strangled" [ref=e294] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2022/01/somebody-has-to-answer-for-this-says-father-of-inmate-who-was-strangled/
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: 
+                    - time [ref=e298]: January 27, 2022
+                  - generic [ref=e299]:
+                    - generic [ref=e300]: 
+                    - text: Comments off.
+                - paragraph [ref=e301]
+                - link "Read More" [ref=e302] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/01/somebody-has-to-answer-for-this-says-father-of-inmate-who-was-strangled/
+              - generic [ref=e303]:
+                - link "Lawsuit filed after sheriff’s deputy kills man in rural Nevada" [ref=e305] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2021/03/family-of-man-shot-in-head-by-police-officer-sues-metro-2/
+                - heading "Lawsuit filed after sheriff’s deputy kills man in rural Nevada" [level=4] [ref=e306]:
+                  - link "Lawsuit filed after sheriff’s deputy kills man in rural Nevada" [ref=e307] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2021/03/family-of-man-shot-in-head-by-police-officer-sues-metro-2/
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: 
+                    - time [ref=e311]: March 25, 2021
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: 
+                    - text: Comments off.
+                - paragraph [ref=e314]
+                - link "Read More" [ref=e315] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2021/03/family-of-man-shot-in-head-by-police-officer-sues-metro-2/
+              - generic [ref=e316]:
+                - link "Civil Rights" [ref=e318] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/cqualified-immunity-excessive-force-2/
+                - heading "Civil Rights" [level=4] [ref=e319]:
+                  - link "Civil Rights" [ref=e320] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2025/02/cqualified-immunity-excessive-force-2/
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: 
+                    - time [ref=e324]: February 3, 2025
+                  - generic [ref=e325]:
+                    - generic [ref=e326]: 
+                    - text: Comments off.
+                - paragraph [ref=e327]: "Case 2:18-cv-01625-JCM-BNW Document 84 Filed 05/23/22 Page 1 of 20 Case: 20-17053, 05/23/2022, ID: 12453300, DktEntry: 38-1, Page 1 of ..."
+                - link "Read More" [ref=e328] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/cqualified-immunity-excessive-force-2/
+              - generic [ref=e329]:
+                - link "Qualified Immunity / Excessive Force" [ref=e331] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/qualified-immunity-excessive-force/
+                - heading "Qualified Immunity / Excessive Force" [level=4] [ref=e332]:
+                  - link "Qualified Immunity / Excessive Force" [ref=e333] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2025/02/qualified-immunity-excessive-force/
+                - generic [ref=e334]:
+                  - generic [ref=e335]:
+                    - generic [ref=e336]: 
+                    - time [ref=e337]: February 2, 2025
+                  - generic [ref=e338]:
+                    - generic [ref=e339]: 
+                    - text: Comments off.
+                - paragraph [ref=e340]: "(1 of 25) WARNING: AT LEAST ONE DOCUMENT COULD NOT BE INCLUDED! You were not billed for these documents. Please ..."
+                - link "Read More" [ref=e341] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/qualified-immunity-excessive-force/
+              - generic [ref=e342]:
+                - link "Settlements totaling $675K approved for 2 men with claims against police" [ref=e344] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+                - heading "Settlements totaling $675K approved for 2 men with claims against police" [level=4] [ref=e345]:
+                  - link "Settlements totaling $675K approved for 2 men with claims against police" [ref=e346] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - generic [ref=e349]: 
+                    - time [ref=e350]: April 25, 2022
+                  - generic [ref=e351]:
+                    - generic [ref=e352]: 
+                    - text: Comments off.
+                - paragraph [ref=e353]
+                - link "Read More" [ref=e354] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+              - generic [ref=e355]:
+                - link "Somebody has to answer for this,’ says father of inmate who was strangled" [ref=e357] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/01/somebody-has-to-answer-for-this-says-father-of-inmate-who-was-strangled/
+                - heading "Somebody has to answer for this,’ says father of inmate who was strangled" [level=4] [ref=e358]:
+                  - link "Somebody has to answer for this,’ says father of inmate who was strangled" [ref=e359] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2022/01/somebody-has-to-answer-for-this-says-father-of-inmate-who-was-strangled/
+                - generic [ref=e360]:
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: 
+                    - time [ref=e363]: January 27, 2022
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: 
+                    - text: Comments off.
+                - paragraph [ref=e366]
+                - link "Read More" [ref=e367] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/01/somebody-has-to-answer-for-this-says-father-of-inmate-who-was-strangled/
+              - generic [ref=e368]:
+                - link "Lawsuit filed after sheriff’s deputy kills man in rural Nevada" [ref=e370] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2021/03/family-of-man-shot-in-head-by-police-officer-sues-metro-2/
+                - heading "Lawsuit filed after sheriff’s deputy kills man in rural Nevada" [level=4] [ref=e371]:
+                  - link "Lawsuit filed after sheriff’s deputy kills man in rural Nevada" [ref=e372] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2021/03/family-of-man-shot-in-head-by-police-officer-sues-metro-2/
+                - generic [ref=e373]:
+                  - generic [ref=e374]:
+                    - generic [ref=e375]: 
+                    - time [ref=e376]: March 25, 2021
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: 
+                    - text: Comments off.
+                - paragraph [ref=e379]
+                - link "Read More" [ref=e380] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2021/03/family-of-man-shot-in-head-by-police-officer-sues-metro-2/
+              - generic [ref=e381]:
+                - link "Civil Rights" [ref=e383] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/cqualified-immunity-excessive-force-2/
+                - heading "Civil Rights" [level=4] [ref=e384]:
+                  - link "Civil Rights" [ref=e385] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2025/02/cqualified-immunity-excessive-force-2/
+                - generic [ref=e386]:
+                  - generic [ref=e387]:
+                    - generic [ref=e388]: 
+                    - time [ref=e389]: February 3, 2025
+                  - generic [ref=e390]:
+                    - generic [ref=e391]: 
+                    - text: Comments off.
+                - paragraph [ref=e392]: "Case 2:18-cv-01625-JCM-BNW Document 84 Filed 05/23/22 Page 1 of 20 Case: 20-17053, 05/23/2022, ID: 12453300, DktEntry: 38-1, Page 1 of ..."
+                - link "Read More" [ref=e393] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/cqualified-immunity-excessive-force-2/
+              - generic [ref=e394]:
+                - link "Qualified Immunity / Excessive Force" [ref=e396] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/qualified-immunity-excessive-force/
+                - heading "Qualified Immunity / Excessive Force" [level=4] [ref=e397]:
+                  - link "Qualified Immunity / Excessive Force" [ref=e398] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2025/02/qualified-immunity-excessive-force/
+                - generic [ref=e399]:
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: 
+                    - time [ref=e402]: February 2, 2025
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: 
+                    - text: Comments off.
+                - paragraph [ref=e405]: "(1 of 25) WARNING: AT LEAST ONE DOCUMENT COULD NOT BE INCLUDED! You were not billed for these documents. Please ..."
+                - link "Read More" [ref=e406] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2025/02/qualified-immunity-excessive-force/
+              - generic [ref=e407]:
+                - link "Settlements totaling $675K approved for 2 men with claims against police" [ref=e409] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+                - heading "Settlements totaling $675K approved for 2 men with claims against police" [level=4] [ref=e410]:
+                  - link "Settlements totaling $675K approved for 2 men with claims against police" [ref=e411] [cursor=pointer]:
+                    - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+                - generic [ref=e412]:
+                  - generic [ref=e413]:
+                    - generic [ref=e414]: 
+                    - time [ref=e415]: April 25, 2022
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: 
+                    - text: Comments off.
+                - paragraph [ref=e418]
+                - link "Read More" [ref=e419] [cursor=pointer]:
+                  - /url: https://petergoldsteinlaw.com/2022/04/settlements-totaling-675k-approved-for-2-men-with-claims-against-police/
+            - generic [ref=e421] [cursor=pointer]: 
+            - generic [ref=e423] [cursor=pointer]: 
+        - generic [ref=e427]:
+          - generic [ref=e430]:
+            - heading "Peter Goldstein" [level=2] [ref=e432]
+            - generic [ref=e435]:
+              - paragraph [ref=e436]: Peter Goldstein litigates claims against governmental entities, including police misconduct and excessive force cases. Peter has been practicing personal injury for more than 32 years and has tried over 100 cases to verdict.
+              - paragraph [ref=e437]: Peter Goldstein has obtained multiple six and seven-figure verdicts and settlements on behalf of his clients. In 2016 he prevailed after 12 years of litigation against the State of California., which resulted in a settlement of over $10 million for his clients.
+          - generic [ref=e440]:
+            - heading "Affiliates" [level=2] [ref=e442]
+            - generic [ref=e445]:
+              - paragraph [ref=e446]
+              - paragraph [ref=e447]
+      - contentinfo [ref=e449]:
+        - generic [ref=e451]:
+          - complementary [ref=e452]:
+            - complementary [ref=e453]:
+              - heading "About Peter Goldstein Law Office" [level=3] [ref=e454]
+              - generic [ref=e455]:
+                - paragraph [ref=e456]: Our multi-jurisdictional law firm has over 30 years of trial experience and Peter has a dual license to practice law in California and Nevada.
+                - paragraph [ref=e457]: We invite you to call our office for a free consultation so we can evaluate your case.
+          - complementary [ref=e458]:
+            - complementary [ref=e459]:
+              - heading "Explore Our Site" [level=3] [ref=e460]
+              - generic:
+                - list:
+                  - listitem [ref=e461]:
+                    - link "Practice Areas" [ref=e462] [cursor=pointer]:
+                      - /url: https://petergoldsteinlaw.com/practice-areas/
+                  - listitem [ref=e463]:
+                    - link "Case Results" [ref=e464] [cursor=pointer]:
+                      - /url: https://petergoldsteinlaw.com/case-results/
+                  - listitem [ref=e465]:
+                    - link "Contact Us" [ref=e466] [cursor=pointer]:
+                      - /url: https://petergoldsteinlaw.com/contact-law-office-of-peter-goldstein/
+          - complementary [ref=e467]:
+            - complementary [ref=e468]:
+              - heading "Las Vegas Law Office" [level=3] [ref=e469]
+              - generic [ref=e470]:
+                - generic [ref=e471]:
+                  - generic [ref=e472]:
+                    - generic [ref=e474]: 
+                    - generic [ref=e475]: 10161 Park Run Drive, Suite 150 Las Vegas, NV 89145
+                  - generic [ref=e476]:
+                    - generic [ref=e478]: 
+                    - link "(702) 474-6400" [ref=e480] [cursor=pointer]:
+                      - /url: tel:(702) 474-6400
+                    - link:
+                      - /url: tel:(702) 474-6400
+                  - generic [ref=e481]:
+                    - generic [ref=e483]: 
+                    - generic [ref=e484]: (888) 400-8799
+                - link "Get directions on the map" [ref=e488] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/place/Peter+Goldstein+Law+Corporation/@35.0675243,-118.1698408,8z/data=!3m1!5s0x80c8bfa523c71d87:0xa8e520c163bb7072!4m10!1m2!2m1!1sLaw+office+of+Peter+Goldstein+las+vegas!3m6!1s0x80c8bf2132babda5:0x15aab6116df3b6a5!8m2!3d36.1607679!4d-115.3169837!15sCidMYXcgb2ZmaWNlIG9mIFBldGVyIEdvbGRzdGVpbiBsYXMgdmVnYXOSAQZsYXd5ZXLgAQA!16s%2Fg%2F11zr2_f8b?hl=en&entry=ttu
+          - complementary [ref=e489]:
+            - complementary [ref=e490]:
+              - heading "Los Angeles Law Office" [level=3] [ref=e491]
+              - generic [ref=e492]:
+                - generic [ref=e493]:
+                  - generic [ref=e494]:
+                    - generic [ref=e496]: 
+                    - generic [ref=e497]: 400 Corporate Pointe, Ste. 300 Culver City, CA 90230
+                  - generic [ref=e498]:
+                    - generic [ref=e500]: 
+                    - link "(310) 552-2050" [ref=e502] [cursor=pointer]:
+                      - /url: tel:(310) 552 2050
+                  - generic [ref=e503]:
+                    - generic [ref=e505]: 
+                    - generic [ref=e506]: (888) 400-8799>
+                - link "Get directions on the map" [ref=e510] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/place/Law+Office+Los+Angeles+of+Peter+Goldstein/@35.0534244,-117.9771982,8z/data=!4m8!1m2!2m1!1sLaw+office+of+Peter+Goldstein+los+angeles!3m4!1s0x80c2b756fad7e615:0xe992e965e7b638af!8m2!3d33.98856!4d-118.384728?hl=en
+        - generic [ref=e511]:
+          - generic [ref=e512]: 2026, Peter Goldstein Law Corporation
+          - list [ref=e514]:
+            - listitem [ref=e515]:
+              - link "Privacy Policy" [ref=e516] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e517]:
+              - link "Terms of Use" [ref=e518] [cursor=pointer]:
+                - /url: "#"
+    - text: 
+  - iframe [ref=e521]:
+    - generic [ref=f467e6]:
+      - text: protected by
+      - strong [ref=f467e7]: reCAPTCHA

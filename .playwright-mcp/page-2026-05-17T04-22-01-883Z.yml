@@ -1,0 +1,445 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - complementary [ref=e5]:
+    - paragraph [ref=e8]:
+      - text: SCHEDULE A FREE CONSULTATION
+      - strong [ref=e9]: 314.433.9131
+      - link "ENGLISH" [ref=e10] [cursor=pointer]:
+        - /url: https://stltriallawyers.com/
+      - text: "|"
+      - link "ESPANOL" [ref=e11] [cursor=pointer]:
+        - /url: https://stltriallawyers.com/es
+  - navigation [ref=e12]:
+    - generic [ref=e13]:
+      - link "St. Louis Trial Lawyers" [ref=e15] [cursor=pointer]:
+        - /url: https://stltriallawyers.com/
+        - img "St. Louis Trial Lawyers" [ref=e16]
+      - button "Menu" [ref=e17] [cursor=pointer]:
+        - img [ref=e19]
+        - generic [ref=e21]: Menu
+  - main [ref=e25]:
+    - article [ref=e26]:
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e35]:
+            - heading "St. Louis Personal Injury Lawyer" [level=1] [ref=e36]:
+              - strong [ref=e37]: St. Louis Personal Injury Lawyer
+            - heading "OVER $100 MILLION WON FOR CLIENTS" [level=2] [ref=e38]:
+              - strong [ref=e39]: OVER $100 MILLION WON FOR CLIENTS
+            - paragraph [ref=e40]:
+              - strong [ref=e41]: For more than 30 years, we’ve stood up against powerful insurance companies, fighting for the rights of injured individuals.
+            - paragraph [ref=e42]:
+              - strong [ref=e43]: NO FEE UNTIL WE WIN
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - group "Name" [ref=e51]:
+                - generic [ref=e52]: Name *
+                - generic [ref=e53]:
+                  - generic [ref=e54]:
+                    - textbox "First First" [ref=e55]:
+                      - /placeholder: First Name
+                    - generic [ref=e56]: First
+                  - generic [ref=e57]:
+                    - textbox "Last Last" [ref=e58]:
+                      - /placeholder: Last Name
+                    - generic [ref=e59]: Last
+              - generic [ref=e60]:
+                - generic [ref=e61]: Email *
+                - textbox "Email Email" [ref=e62]:
+                  - /placeholder: Email
+              - generic [ref=e63]:
+                - generic [ref=e64]: Phone Number
+                - spinbutton "Phone Number Phone Number" [ref=e65]
+              - generic [ref=e66]:
+                - generic [ref=e67]: Comment or Message *
+                - textbox "Comment or Message Comment or Message" [ref=e68]:
+                  - /placeholder: Message
+                - generic [ref=e69]: Please add as many details as possible. The more information we have, the better we'll be able to understand and evaluate your case.
+              - group "Opt-in" [ref=e71]:
+                - generic [ref=e72]: Opt-in
+                - list [ref=e73]:
+                  - listitem [ref=e74]:
+                    - checkbox "I agree to receive text messages from Fernandez Law sent from (314)621-1252. I agree to receive text messages from Fernandez Law sent from (314)621-1252." [ref=e75]
+                    - generic [ref=e76] [cursor=pointer]: I agree to receive text messages from Fernandez Law sent from (314)621-1252.
+                - generic [ref=e77]:
+                  - text: Message frequency varies and may include appointment reminders, service or other information. Message and data rates may apply. Reply STOP at any time to end or unsubscribe. For assistance, reply HELP or contact support at (314)621-1252. See our
+                  - link "Privacy Policy" [ref=e78] [cursor=pointer]:
+                    - /url: https://stltriallawyers.com/privacy-policy/
+                  - text: for details on how we handle your information.
+            - button "Send" [ref=e80] [cursor=pointer]
+        - generic [ref=e83]:
+          - generic [ref=e86]:
+            - generic [ref=e91]:
+              - paragraph [ref=e92]
+              - paragraph [ref=e93]: I would just like to thank Gonz for all of the hard work and effort he put into my case. He was phenomenal to say the least. He’s an extremely friendly guy and overall just easy to get along with and talk to. He handled my case from beginning to end and made sure we got the outcome we deserved. Thanks to the entire team that helped us out. It meant so much to us.
+              - paragraph [ref=e94]:
+                - emphasis [ref=e95]: – Ryan
+            - generic [ref=e100]:
+              - paragraph [ref=e101]
+              - paragraph [ref=e102]: My father was involved in a serious car accident that resulted in the death of one of the parties involved. Gonzalo Fernandez handled the situation for my dad with great professionalism and compassion, ensuring that absolutely no details were left unattended. The peace of mind you have knowing you are working with a highly experienced attorney who is looking out for your best interests, in a situation like this, is invaluable. I can’t recommend Gonzalo Fernandez highly enough.
+              - paragraph [ref=e103]:
+                - emphasis [ref=e104]: – Lisa
+            - generic [ref=e109]:
+              - paragraph [ref=e110]
+              - paragraph [ref=e111]: Gonzalo Fernandez is an exceptional attorney and I continue to recommend him enthusiastically. Smart, savvy, and client-focused, he is the consummate professional you want on your team; and the ideal lawyer you want leading it.
+              - paragraph [ref=e112]:
+                - emphasis [ref=e113]: – Jeffrey
+          - heading "See more testimonials" [level=4] [ref=e118]:
+            - link "See more testimonials" [ref=e119] [cursor=pointer]:
+              - /url: https://www.google.com/search?q=fernandez+law+google+reviews&oq=fernandez+law+google+reviews&aqs=chrome..69i57.8820j0j7&sourceid=chrome&ie=UTF-8#lrd=0x87d8b3434ca90baf:0x2231b140fea9ca6a,1,,,
+              - strong [ref=e120]: See more testimonials
+        - generic [ref=e122]:
+          - generic [ref=e129]:
+            - heading "NATION'S TOP ONE PERCENT" [level=4] [ref=e130]:
+              - strong [ref=e131]:
+                - generic [ref=e132]:
+                  - text: NATION'S TOP
+                  - text: ONE PERCENT
+            - paragraph [ref=e133]: NATIONAL ASSOCIATION OF DISTINGUISHED COUNSEL
+          - generic [ref=e140]:
+            - heading "TOP 100 LAWYERS" [level=4] [ref=e141]:
+              - strong [ref=e142]:
+                - generic [ref=e143]:
+                  - text: TOP 100
+                  - text: LAWYERS
+            - paragraph [ref=e144]: THE NATIONAL TRIAL LAWYERS
+          - generic [ref=e151]:
+            - heading "LIFETIME ACHIEVEMENT" [level=4] [ref=e152]:
+              - strong [ref=e153]:
+                - generic [ref=e154]:
+                  - text: LIFETIME
+                  - text: ACHIEVEMENT
+            - paragraph [ref=e155]: THE NATIONAL TRIAL LAWYERS
+          - generic [ref=e162]:
+            - heading "RATED AV PREEMINENT" [level=4] [ref=e163]:
+              - strong [ref=e164]:
+                - generic [ref=e165]:
+                  - text: RATED AV
+                  - text: PREEMINENT
+            - paragraph [ref=e166]: THE HIGHEST POSSIBLE RATING ON LAWYERS.COM
+        - heading "St. Louis Attorney Experienced in All Types of Personal Injury Cases" [level=2] [ref=e173]:
+          - strong [ref=e174]: St. Louis Attorney Experienced in All Types of Personal Injury Cases
+        - generic [ref=e175]:
+          - link "Medical Malpractice icon" [ref=e180] [cursor=pointer]:
+            - /url: https://stltriallawyers.com/medical-malpractice-lawyers/
+            - img "Medical Malpractice icon" [ref=e181]
+          - link "Truck Accident Icon" [ref=e186] [cursor=pointer]:
+            - /url: https://stltriallawyers.com/truck-accident-lawyers/
+            - img "Truck Accident Icon" [ref=e187]
+          - link [ref=e192] [cursor=pointer]:
+            - /url: https://stltriallawyers.com/car-accidents-lawyers/
+          - link "Brain Injury Icon" [ref=e197] [cursor=pointer]:
+            - /url: https://stltriallawyers.com/brain-accident-lawyer/
+            - img "Brain Injury Icon" [ref=e198]
+          - link "Birth Injury Icon" [ref=e203] [cursor=pointer]:
+            - /url: https://stltriallawyers.com/birth-injury-lawyer/
+            - img "Birth Injury Icon" [ref=e204]
+        - link "View All Services" [ref=e212] [cursor=pointer]:
+          - /url: https://stltriallawyers.com/services/
+          - img "View All Services" [ref=e213]
+        - generic [ref=e216]:
+          - generic [ref=e219]:
+            - heading "How to Know If You Have a Personal Injury Case" [level=2] [ref=e220]:
+              - strong [ref=e221]: How to Know If You Have a Personal Injury Case
+            - paragraph [ref=e222]: Every year, thousands of people in the St. Louis area suffer personal injuries.
+            - list [ref=e223]:
+              - listitem [level=1] [ref=e224]:
+                - link "Personal injury is the leading cause of death" [ref=e225] [cursor=pointer]:
+                  - /url: https://health.mo.gov/living/families/injuries/index.php
+                - text: for Missourians 44 and younger
+              - listitem [level=1] [ref=e226]:
+                - link "Nearly 90,000 Missourians are injured on the job" [ref=e227] [cursor=pointer]:
+                  - /url: https://labor.mo.gov/safe-at-work/workplace-injury-data
+                - text: every year
+              - listitem [level=1] [ref=e228]:
+                - link "Missouri roadways see about 15,000 injuries and 1,000 deaths" [ref=e229] [cursor=pointer]:
+                  - /url: https://www.modot.org/node/40901
+                - text: due to traffic accidents each year
+            - paragraph [ref=e230]: If the negligence, misconduct, or recklessness of someone else directly or indirectly contributed to your injury, you may have a personal injury case.
+            - paragraph [ref=e231]: "Under Missouri law, personal injury cases are built on four elements:"
+            - list [ref=e232]:
+              - listitem [level=1] [ref=e233]: "Duty: Someone had a legal obligation to act with reasonable care to prevent people from injury."
+            - list [ref=e234]:
+              - listitem [level=1] [ref=e235]: "Breach: They failed to meet that duty."
+            - list [ref=e236]:
+              - listitem [level=1] [ref=e237]: "Causation: That breach of duty contributed to an injury."
+            - list [ref=e238]:
+              - listitem [level=1] [ref=e239]: "Damages: That injury caused provable physical, financial, or emotional harm."
+            - heading [level=1] [ref=e240]
+            - heading "NOT SURE IF YOU HAVE A CASE?" [level=2] [ref=e241]:
+              - generic [ref=e243]: NOT SURE IF YOU HAVE A CASE?
+            - heading "CALL (314) 433-9131 TO SCHEDULE A FREE, NO-PRESSURE CONSULTATION" [level=2] [ref=e244]:
+              - generic [ref=e246]: CALL (314) 433-9131 TO SCHEDULE A FREE, NO-PRESSURE CONSULTATION
+            - paragraph [ref=e247]
+          - generic [ref=e250]:
+            - heading "You Need a Personal Injury Attorney to Fight for You in Missouri Courts. Here’s Why:" [level=2] [ref=e251]:
+              - strong [ref=e252]: "You Need a Personal Injury Attorney to Fight for You in Missouri Courts. Here’s Why:"
+            - table [ref=e253]:
+              - rowgroup [ref=e254]:
+                - row "YOUR OPPONENTS WILL BLAME YOU The defendant’s strategy will almost always be to shift blame for your injury onto you. Every bit of liability they pin on you reduces the damages you could win. Fernandez Law conducts its own investigation and builds a solid case protecting your rights." [ref=e255]:
+                  - cell "YOUR OPPONENTS WILL BLAME YOU" [ref=e256]
+                  - cell "The defendant’s strategy will almost always be to shift blame for your injury onto you. Every bit of liability they pin on you reduces the damages you could win. Fernandez Law conducts its own investigation and builds a solid case protecting your rights." [ref=e257]:
+                    - text: The defendant’s strategy will almost always be to shift blame for your injury onto you. Every bit of liability they pin on you reduces the damages you could win.
+                    - paragraph
+                    - paragraph [ref=e258]: Fernandez Law conducts its own investigation and builds a solid case protecting your rights.
+                - 'row "YOU’RE OUTMATCHED Insurance companies are large, sophisticated organizations. They have teams of lawyers and investigators with one goal: to pay you as little as possible. You need an experienced personal injury lawyer who knows how to go head-to-head with Goliaths and win." [ref=e259]':
+                  - cell "YOU’RE OUTMATCHED" [ref=e260]
+                  - 'cell "Insurance companies are large, sophisticated organizations. They have teams of lawyers and investigators with one goal: to pay you as little as possible. You need an experienced personal injury lawyer who knows how to go head-to-head with Goliaths and win." [ref=e261]':
+                    - text: "Insurance companies are large, sophisticated organizations. They have teams of lawyers and investigators with one goal: to pay you as little as possible."
+                    - paragraph
+                    - paragraph [ref=e262]: You need an experienced personal injury lawyer who knows how to go head-to-head with Goliaths and win.
+                - row "MISSOURI COURTS ARE COMPLEX The law is designed to confuse and frustrate people representing themselves. Litigation involves technical language, obscure arguments, mountains of paperwork, confusing procedures, and inflexible deadlines. We’ve navigated the ins and outs of the Missouri court system every day for years. When you turn the heavy lifting over to experts, you can focus on recovering and getting back to your daily life." [ref=e263]:
+                  - cell "MISSOURI COURTS ARE COMPLEX" [ref=e264]
+                  - cell "The law is designed to confuse and frustrate people representing themselves. Litigation involves technical language, obscure arguments, mountains of paperwork, confusing procedures, and inflexible deadlines. We’ve navigated the ins and outs of the Missouri court system every day for years. When you turn the heavy lifting over to experts, you can focus on recovering and getting back to your daily life." [ref=e265]:
+                    - text: The law is designed to confuse and frustrate people representing themselves.
+                    - paragraph
+                    - paragraph [ref=e266]: Litigation involves technical language, obscure arguments, mountains of paperwork, confusing procedures, and inflexible deadlines.
+                    - paragraph [ref=e267]: We’ve navigated the ins and outs of the Missouri court system every day for years. When you turn the heavy lifting over to experts, you can focus on recovering and getting back to your daily life.
+                - row "INSURERS WILL LOW-BALL YOU Insurers are in the business of making money, and that means paying you as little as possible. They’ll pressure you to accept a settlement that sounds good, before you’ve had time to understand your future needs. Once you settle, you can’t go back for more. We stand between you and their high-pressure tactics. We use our experience, investigation, and data to calculate what your claim is really worth before you agree to anything." [ref=e268]:
+                  - cell "INSURERS WILL LOW-BALL YOU" [ref=e269]
+                  - cell "Insurers are in the business of making money, and that means paying you as little as possible. They’ll pressure you to accept a settlement that sounds good, before you’ve had time to understand your future needs. Once you settle, you can’t go back for more. We stand between you and their high-pressure tactics. We use our experience, investigation, and data to calculate what your claim is really worth before you agree to anything." [ref=e270]:
+                    - text: Insurers are in the business of making money, and that means paying you as little as possible.
+                    - paragraph
+                    - paragraph [ref=e271]: They’ll pressure you to accept a settlement that sounds good, before you’ve had time to understand your future needs. Once you settle, you can’t go back for more.
+                    - paragraph [ref=e272]: We stand between you and their high-pressure tactics. We use our experience, investigation, and data to calculate what your claim is really worth before you agree to anything.
+                - row "YOU DESERVE TO RECOVER IN PEACE You’re already dealing with the physical, emotional, and financial impact of your injury. High-pressure lawyers and complicated paperwork are stressors you don’t need. Let us focus on your claim so you can focus on recovery." [ref=e273]:
+                  - cell "YOU DESERVE TO RECOVER IN PEACE" [ref=e274]
+                  - cell "You’re already dealing with the physical, emotional, and financial impact of your injury. High-pressure lawyers and complicated paperwork are stressors you don’t need. Let us focus on your claim so you can focus on recovery." [ref=e275]:
+                    - text: You’re already dealing with the physical, emotional, and financial impact of your injury.
+                    - paragraph
+                    - paragraph [ref=e276]: High-pressure lawyers and complicated paperwork are stressors you don’t need. Let us focus on your claim so you can focus on recovery.
+            - heading [level=2] [ref=e277]
+            - heading "Gonzalo Fernandez" [level=2] [ref=e278]:
+              - strong [ref=e279]: Gonzalo Fernandez
+            - paragraph [ref=e280]: Personal Injury Lawyer With 30+ Years Experience in St. Louis Courts
+            - paragraph [ref=e281]: Gonzalo Fernandez has spent more than 30 years fighting for people who were hurt by the actions or negligence of others.
+            - paragraph [ref=e282]: The law firm he founded, Fernandez Law has achieved the highest-possible rating from Martindale-Hubbell, which ranks lawyers’ legal ability and ethical standards based on reviews by their peers.
+            - paragraph [ref=e283]: "Gonzalo’s professional honors include:"
+            - list [ref=e284]:
+              - listitem [level=1] [ref=e285]: Recognition with a Lifetime Achievement Award by The National Trial Lawyers, which also named him a Top 100 Trial Lawyer
+              - listitem [level=1] [ref=e286]: Named to the Nation’s Top 1% by the National Association of Distinguished Counsel
+              - listitem [level=1] [ref=e287]: Named a Best Lawyer by both St. Louis Magazine and Alive Magazine
+              - listitem [level=1] [ref=e288]: Named one of the Top Attorneys of Missouri by both Missouri Top Lawyers and KC Magazine
+            - paragraph [ref=e289]:
+              - link "Full Profile" [ref=e290] [cursor=pointer]:
+                - /url: https://stltriallawyers.com/our-team/gonzalo-a-fernandez/
+            - heading [level=1] [ref=e291]
+            - heading "If you or a loved one suffered an injury, schedule a free consultation to review your case with the experienced team at Fernandez Law." [level=2] [ref=e292]:
+              - generic [ref=e294]:
+                - text: If you or a loved one suffered an injury,
+                - link "schedule a free consultation" [ref=e295] [cursor=pointer]:
+                  - /url: https://stltriallawyers.com/contact-us/
+                - text: to review your case with the experienced team at Fernandez Law.
+            - paragraph [ref=e296]
+            - paragraph [ref=e297]
+          - generic [ref=e300]:
+            - heading "Fernandez Law Is a Top-Rated Trial Nation’s Top 1%, National Association of Distinguished Counsel" [level=2] [ref=e301]:
+              - strong [ref=e302]: Fernandez Law Is a Top-Rated Trial Nation’s Top 1%, National Association of Distinguished Counsel
+            - list [ref=e303]:
+              - listitem [level=1] [ref=e304]: Top 100 Trial Lawyers, The National Trial Lawyers
+              - listitem [level=1] [ref=e305]: Lifetime Achievement, The National Trial Lawyers
+              - listitem [level=1] [ref=e306]: Best Lawyers, St. Louis Magazine
+              - listitem [level=1] [ref=e307]: Top Attorneys of Missouri, Missouri Top Lawyers
+              - listitem [level=1] [ref=e308]: Top Attorneys of Missouri and Kansas, KC Magazine
+            - heading [level=1] [ref=e309]
+            - heading "What Is Your Personal Injury Claim Worth?" [level=2] [ref=e310]:
+              - strong [ref=e311]: What Is Your Personal Injury Claim Worth?
+            - paragraph [ref=e312]: "Missouri personal injury law is intended to restore what you lost, to the extent possible. There are three kinds of damages you may be awarded:"
+            - heading "Financial Damages" [level=3] [ref=e313]:
+              - strong [ref=e314]: Financial Damages
+            - paragraph [ref=e315]: "An injured person and their loved ones can seek compensation for the financial costs of the injury. For example:"
+            - list [ref=e316]:
+              - listitem [level=1] [ref=e317]: Past and future medical bills
+              - listitem [level=1] [ref=e318]: Cost of rehabilitation, therapy, and ongoing care
+              - listitem [level=1] [ref=e319]: Wages for caregivers needed to do things the injured person can no longer do for themselves
+              - listitem [level=1] [ref=e320]: Disability accommodations like wheelchair ramps
+              - listitem [level=1] [ref=e321]: Property damage
+              - listitem [level=1] [ref=e322]: Out-of-pocket expenses like mileage to travel to rehab appointments
+              - listitem [level=1] [ref=e323]: Lost wages during recovery
+              - listitem [level=1] [ref=e324]: Lost future earning capacity
+            - paragraph [ref=e325]: An experienced personal injury lawyer understands not only what your injury has cost you so far, but how it may impact your future finances.
+            - heading "Non-Economic Damages" [level=3] [ref=e326]:
+              - strong [ref=e327]: Non-Economic Damages
+            - paragraph [ref=e328]: "A personal injury can cause damages that don’t come with a price tag. These intangible losses are real, disruptive, and deserve compensation. Non-economic damages may include:"
+            - list [ref=e329]:
+              - listitem [level=1] [ref=e330]: Pain and suffering
+              - listitem [level=1] [ref=e331]: Emotional distress
+              - listitem [level=1] [ref=e332]: Post-traumatic stress disorder, depression, and anxiety
+              - listitem [level=1] [ref=e333]: Loss of enjoyment of life
+              - listitem [level=1] [ref=e334]: Disfigurement
+            - heading "Punitive Damages" [level=3] [ref=e335]:
+              - strong [ref=e336]: Punitive Damages
+            - paragraph [ref=e337]: In some cases, a court may find the party at fault in your injury acted in a particularly reckless manner. In those cases, a judge or jury may award punitive damages to punish the defendant.
+            - heading "How Much Can I Get From My Personal Injury Claim?" [level=3] [ref=e338]:
+              - strong [ref=e339]: How Much Can I Get From My Personal Injury Claim?
+            - paragraph [ref=e340]: There is no average or standard range for personal injury compensation. The amount depends on the facts of your case, including the severity of your injuries, the recklessness of the conduct, and the limits of insurance.
+            - paragraph [ref=e341]
+            - paragraph [ref=e342]: While past results are not a guarantee of future outcomes, Fernandez Law has a solid track record of recovering far more than our clients had hoped for.
+            - paragraph [ref=e343]: "Past Outcomes:"
+            - list [ref=e344]:
+              - listitem [level=1] [ref=e345]: $15 million for the victim of a truck accident
+              - listitem [level=1] [ref=e346]: $7 million in a medical negligence claim
+              - listitem [level=1] [ref=e347]: $3 million for a fall on an icy sidewalk
+              - listitem [level=1] [ref=e348]: $11 million for a factory workplace accident
+            - paragraph [ref=e349]: In your no-obligation consultation, we’ll listen to your story and give you an honest estimate of what your claim might be worth.
+          - link "What's My Claim Worth" [ref=e353] [cursor=pointer]:
+            - /url: https://stltriallawyers.com/contact-us/
+          - generic [ref=e356]:
+            - heading [level=2] [ref=e357]
+            - heading "What Happens When You Call Fernandez Law" [level=2] [ref=e358]:
+              - strong [ref=e359]: What Happens When You Call Fernandez Law
+            - paragraph [ref=e360]: FREE CONSULTATION
+            - paragraph [ref=e361]: When you reach out to Fernandez Law, you’ll get a free, no-obligation consultation. Our experienced, compassionate team will listen to your story and gather the details of your case.
+            - paragraph [ref=e362]: "Then we’ll give you our honest assessment: whether you have a case, how strong it is, an estimate on possible damages, and how long it might take to resolve."
+            - paragraph [ref=e363]: Once we take your case, the high-pressure insurance calls you’ve been getting stop. When an attorney or insurer calls you, tell them any communication has to go through us.
+            - paragraph [ref=e364]: INDEPENDENT INVESTIGATION
+            - paragraph [ref=e365]: We’re not content to read reports and file paperwork. We’ll launch our own investigation into the circumstances surrounding your injury.
+            - paragraph [ref=e366]: We gather evidence, review records, interview witnesses, and consult with experts to build your case.
+            - paragraph [ref=e367]: NEGOTIATION
+            - paragraph [ref=e368]: Based on the data from our investigation, what the injury has cost you so far, and what it’s likely to cost you in the future, we calculate a demand for damages.
+            - paragraph [ref=e369]: We put forth our demand and negotiate with the defendant to get you a fair settlement.
+            - paragraph [ref=e370]: TRIAL PREPARATION
+            - paragraph [ref=e371]: Most personal injury cases in St. Louis settle out of court. But we build every case as though it is going to trial.
+            - paragraph [ref=e372]: Insurers know we’re not afraid to take a claim to trial. They don’t bother starting with low-ball offers when we’re on the case.
+            - paragraph [ref=e373]: RESOLUTION AND RECOVERY
+            - paragraph [ref=e374]: Once the case ends, we handle all the paperwork, disbursements, and logistics to get your award into your hands.
+            - paragraph [ref=e375]: Fernandez Law works on a contingency fee basis. Our fee is based on a percentage of your award, with no fees or up-front costs. That means if we don’t win, you don’t pay.
+            - paragraph [ref=e376]
+            - heading "CALL (314) 433-9131 TO SCHEDULE YOU CONSULTATION" [level=2] [ref=e377]:
+              - generic [ref=e378]: CALL (314) 433-9131 TO SCHEDULE YOU CONSULTATION
+            - paragraph [ref=e379]
+          - generic [ref=e382]:
+            - heading "Frequently Asked Questions About Personal Injury Law" [level=2] [ref=e383]:
+              - strong [ref=e384]: Frequently Asked Questions About Personal Injury Law
+            - paragraph [ref=e385]: How long do I have to file a personal injury lawsuit in Missouri?
+            - paragraph [ref=e386]: In most personal injury cases, you have 5 years from the date of the injury to file suit in Missouri. Across the state line in Illinois, you have 2 years.
+            - paragraph [ref=e387]: "There are some exceptions:"
+            - list [ref=e388]:
+              - listitem [level=1] [ref=e389]: If the injury isn’t immediately apparent, the 5-year clock starts on the date the injury is discovered.
+              - listitem [level=1] [ref=e390]: People injured as minors typically have 5 years or until their 21st birthday, whichever is later, to file a claim.
+              - listitem [level=1] [ref=e391]: Claims against government entities, such as the City of St. Louis or Metro Transit, have dramatically shorter time frames — some as little as 90 days.
+              - listitem [level=1] [ref=e392]: In a wrongful death suit, the family of the deceased has 3 years from the date of death to file a claim.
+            - paragraph [ref=e393]: In all cases, the sooner you start your claim, the better. As time passes, evidence becomes lost or destroyed, witnesses move away, and memories fade. Meanwhile, the costs of your injury keep compounding.
+            - heading [level=2] [ref=e394]
+            - paragraph [ref=e395]: Can I still sue if my injury is partly my fault?
+            - paragraph [ref=e396]: Yes. Missouri is a comparative fault state. If you were partly at fault for your injury, the amount of damages you’re awarded is reduced by the amount of your liability.
+            - paragraph [ref=e397]: For example, if the court finds you were 25% responsible in a $100,000 claim, you may still recover $75,000.
+            - paragraph [ref=e398]: Insurance companies will paint a picture that puts you at fault to lower the amount they have to pay. An experienced lawyer will get you the level of compensation you really deserve.
+            - heading [level=2] [ref=e399]
+            - paragraph [ref=e400]: How much does a personal injury lawyer cost in St. Louis?
+            - paragraph [ref=e401]: Fernandez Law handles personal injury cases on a contingency fee basis. That means there are no fees or upfront costs when we’re hired.
+            - paragraph [ref=e402]: Our fee is calculated as a percentage of the compensation you win. So if we don’t win your case, you don’t pay.
+            - heading [level=2] [ref=e403]
+            - paragraph [ref=e404]: How do I know if I have a personal injury case?
+            - paragraph [ref=e405]: "You likely have a case if:"
+            - list [ref=e406]:
+              - listitem [level=1] [ref=e407]: You suffered a real, provable injury, whether physical, psychological, or financial;
+              - listitem [level=1] [ref=e408]: The injury happened because someone else was negligent or reckless;
+              - listitem [level=1] [ref=e409]: And you have measurable damages such as pain, lost wages, and medical bills.
+            - paragraph [ref=e410]: The best way to know if you have a case is to consult with an attorney. The initial consultation is free, confidential, and no obligation.
+            - heading [level=2] [ref=e411]
+            - paragraph [ref=e412]: Do I need to hire a personal injury attorney?
+            - paragraph [ref=e413]: Under Missouri law, you are not required to hire an attorney. You can file a personal injury claim yourself.
+            - paragraph [ref=e414]: But people who hire an attorney recover far more money than those who handle claims on their own, even after paying legal fees.
+            - paragraph [ref=e415]: Filing a claim and seeing it through involves complex paperwork, court procedures, and deadlines. You’ll be up against legal professionals who know more than you do about the system and whose job is to make sure you get as little as possible.
+            - heading [level=2] [ref=e416]
+            - paragraph [ref=e417]: How long does a personal injury case take?
+            - paragraph [ref=e418]: Most personal injury cases settle in anywhere from a few months to a year. Cases that go to trial may take two years or more.
+            - paragraph [ref=e419]: In most cases, you should not accept a settlement until your medical team can confidently predict your long-term outcomes. Settling too soon may mean running out of money for future medical needs.
+            - heading [level=2] [ref=e420]
+            - paragraph [ref=e421]: What should I do if an insurance company contacts me about my injury?
+            - paragraph [ref=e422]: If an insurance representative contacts you, do not give them any recorded statement—even if they’re from your insurance company.
+            - paragraph [ref=e423]: Do not give any statements, answer any questions, accept any offers, or sign any releases without first consulting an attorney.
+            - paragraph [ref=e424]: Once you’ve hired an attorney, you can direct insurers to communicate only with your legal team.
+            - heading [level=2] [ref=e425]
+            - paragraph [ref=e426]: What if the other party doesn’t have enough insurance?
+            - paragraph [ref=e427]: Insurance limits are a real concern, especially in catastrophic injuries, where long-term costs can far exceed the limits of any one policy.
+            - paragraph [ref=e428]: Most large awards come from settling with multiple responsible parties. Fernandez Law works to identify every party that may bear some liability in the injury.
+            - heading [level=2] [ref=e429]
+            - paragraph [ref=e430]: What should I look for in a personal injury lawyer?
+            - paragraph [ref=e431]: "Look for these factors when choosing a personal injury attorney to represent you:"
+            - list [ref=e432]:
+              - listitem [level=1] [ref=e433]: Experience in personal injury cases, particularly in the kind of injury you suffered
+              - listitem [level=1] [ref=e434]: A track record of substantial settlements and verdicts
+              - listitem [level=1] [ref=e435]: Trial experience and willingness to go to trial
+              - listitem [level=1] [ref=e436]: Peer recognition such as ratings and awards
+              - listitem [level=1] [ref=e437]: Open communication policies so your questions are always answered and you always know where your case stands
+              - listitem [level=1] [ref=e438]: Positive client reviews
+              - listitem [level=1] [ref=e439]: A contingency fee model, so they only get paid when you win
+            - heading [level=2] [ref=e440]
+            - heading "Your consultation is free. Time is limited. Don't wait." [level=2] [ref=e441]:
+              - generic [ref=e442]: Your consultation is free. Time is limited. Don't wait.
+            - paragraph [ref=e443]: If you or a loved one suffered a personal injury in the St. Louis area, you don’t have to face your recovery alone.
+            - paragraph [ref=e444]: Gonzalo Fernandez and his team have been fighting for the rights of the injured for more than 30 years.
+            - paragraph [ref=e445]: They’ll help you get the compensation you need to get your life back.
+            - paragraph [ref=e446]:
+              - strong [ref=e447]: Schedule a free, confidential, no-obligation consultation today.
+        - generic [ref=e456]:
+          - generic [ref=e457]:
+            - group "Name" [ref=e459]:
+              - generic [ref=e460]: Name *
+              - generic [ref=e461]:
+                - generic [ref=e462]:
+                  - textbox "First Name" [ref=e463]
+                  - generic [ref=e464]: First
+                - generic [ref=e465]:
+                  - textbox "Last Name" [ref=e466]
+                  - generic [ref=e467]: Last
+            - generic [ref=e468]:
+              - generic [ref=e469]: Email *
+              - textbox "Email" [ref=e470]
+            - generic [ref=e471]:
+              - generic [ref=e472]: Phone Number
+              - spinbutton [ref=e473]
+            - generic [ref=e474]:
+              - generic [ref=e475]: Comment or Message *
+              - textbox "Message" [ref=e476]
+              - generic [ref=e477]: Please add as many details as possible. The more information we have, the better we'll be able to understand and evaluate your case.
+            - group "Opt-in" [ref=e479]:
+              - generic [ref=e480]: Opt-in
+              - list [ref=e481]:
+                - listitem [ref=e482]:
+                  - checkbox [ref=e483]
+                  - generic [ref=e484] [cursor=pointer]: I agree to receive text messages from Fernandez Law sent from (314)621-1252.
+              - generic [ref=e485]:
+                - text: Message frequency varies and may include appointment reminders, service or other information. Message and data rates may apply. Reply STOP at any time to end or unsubscribe. For assistance, reply HELP or contact support at (314)621-1252. See our
+                - link "Privacy Policy" [ref=e486] [cursor=pointer]:
+                  - /url: https://stltriallawyers.com/privacy-policy/
+                - text: for details on how we handle your information.
+          - button "Send" [ref=e488] [cursor=pointer]
+  - generic [ref=e489]:
+    - generic [ref=e493]:
+      - complementary [ref=e494]:
+        - paragraph [ref=e497]:
+          - generic [ref=e498]:
+            - text: CALL 314.433.9131 // 701 Market Street, SUITE 1425 // ST. LOUIS, MO 63101 //
+            - link "Map & Direction" [ref=e499] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/muqddWSQAJvdWrKP6
+            - text: s //
+            - link "Terms and Conditions" [ref=e500] [cursor=pointer]:
+              - /url: https://stltriallawyers.com/terms-and-conditions/
+            - text: //
+            - link "Privacy Policy" [ref=e501] [cursor=pointer]:
+              - /url: https://stltriallawyers.com/privacy-policy/
+      - complementary [ref=e502]:
+        - generic [ref=e504]:
+          - link "St. Louis Trial Lawyers on Facebook" [ref=e505] [cursor=pointer]:
+            - /url: https://www.facebook.com/Dsnfl
+            - generic [ref=e507]: 
+          - link "St. Louis Trial Lawyers on X Twitter" [ref=e508] [cursor=pointer]:
+            - /url: https://twitter.com/stltriallawyers
+            - generic [ref=e510]: 
+          - link "St. Louis Trial Lawyers on Linkedin" [ref=e511] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/devereaux-stokes-nolan-fernandez-&-leonard-p-c-
+            - generic [ref=e513]: 
+    - contentinfo "Site" [ref=e514]:
+      - generic [ref=e516]: © 2026 by Fernandez Law. All rights reserved.
+  - iframe [ref=e519]:
+    - generic [ref=f471e6]:
+      - text: protected by
+      - strong [ref=f471e7]: reCAPTCHA
+  - iframe [ref=e521]:
+    - button "Opens a chat window" [ref=f472e5] [cursor=pointer]: Text To Chat
+  - iframe [ref=e523]:
+    

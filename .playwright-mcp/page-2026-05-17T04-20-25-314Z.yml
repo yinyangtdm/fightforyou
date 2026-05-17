@@ -1,0 +1,347 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQPAgK
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Doug Sheff attorney Sheff Law phone number Boston Doug Sheff attorney Sheff Law phone number Boston
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]
+      - generic [ref=e49]:
+        - button "Google apps" [ref=e51] [cursor=pointer]:
+          - img [ref=e52]
+        - link "Sign in" [ref=e56] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DDoug%2BSheff%2Battorney%2BSheff%2BLaw%2Bphone%2Bnumber%2BBoston&ec=futura_srp_og_si_72236_p
+  - generic [ref=e58]:
+    - navigation [ref=e64]:
+      - list [ref=e67]:
+        - listitem [ref=e68]:
+          - link "AI Mode" [ref=e71] [cursor=pointer]:
+            - /url: /search?q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sca_esv=6f110671a32cfd9a&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44YtK2K86hZx-TW8lzeBGazAnghFjhBEmde9h6fVZ9p7MnU7va0KjN_zQvrgjDjHx6-uRrY96ybnRmMFGB8zRh-dwbDVrQMIsuHSh1aOIrMZPBscaAV8Dyon2Rlu7GUmrsbXB02QfJZdJY2_OS1TD_KXoa_bg&aep=1&ntc=1&sa=X&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ2J8OegQIERAD
+            - generic [ref=e74]: AI Mode
+        - listitem [ref=e75]:
+          - link "All" [disabled] [ref=e76]:
+            - generic [ref=e78]: All
+        - listitem [ref=e79]:
+          - link "News" [ref=e80] [cursor=pointer]:
+            - /url: /search?sca_esv=6f110671a32cfd9a&q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44YtK2K86hZx-TW8lzeBGazAnghFjhBEmde9h6fVZ9p7MnU7va0KjN_zQvrgjDjHx6-uRrY96ybnRmMFGB8zRh-dwbDVrQMIsuHSh1aOIrMZPBscaAV8Dyon2Rlu7GUmrsbXB02QfJZdJY2_OS1TD_KXoa_bg&sa=X&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ0pQJegQIFxAB
+            - generic [ref=e82]: News
+        - listitem [ref=e83]:
+          - link "Forums" [ref=e84] [cursor=pointer]:
+            - /url: /search?sca_esv=6f110671a32cfd9a&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44YtK2K86hZx-TW8lzeBGazAnghFjhBEmde9h6fVZ9p7MnU7va0KjN_zQvrgjDjHx6-uRrY96ybnRmMFGB8zRh-dwbDVrQMIsuHSh1aOIrMZPBscaAV8Dyon2Rlu7GUmrsbXB02QfJZdJY2_OS1TD_KXoa_bg&q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sa=X&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQs6gLegQIFhAB
+            - generic [ref=e86]: Forums
+        - listitem [ref=e87]:
+          - link "Images" [ref=e88] [cursor=pointer]:
+            - /url: /search?sca_esv=6f110671a32cfd9a&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44YtK2K86hZx-TW8lzeBGazAnghFjhBEmde9h6fVZ9p7MnU7va0KjN_zQvrgjDjHx6-uRrY96ybnRmMFGB8zRh-dwbDVrQMIsuHSh1aOIrMZPBscaAV8Dyon2Rlu7GUmrsbXB02QfJZdJY2_OS1TD_KXoa_bg&q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sa=X&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQtKgLegQIExAB
+            - generic [ref=e90]: Images
+        - listitem [ref=e91]:
+          - link "Shopping" [ref=e92] [cursor=pointer]:
+            - /url: /search?sca_esv=6f110671a32cfd9a&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44YtK2K86hZx-TW8lzeBGazAnghFjhBEmde9h6fVZ9p7MnU7va0KjN_zQvrgjDjHx6-uRrY96ybnRmMFGB8zRh-dwbDVrQMIsuHSh1aOIrMZPBscaAV8Dyon2Rlu7GUmrsbXB02QfJZdJY2_OS1TD_KXoa_bg&q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&ved=1t:220175&ictx=111
+            - generic [ref=e94]: Shopping
+        - listitem [ref=e95]:
+          - link "Videos" [ref=e96] [cursor=pointer]:
+            - /url: /search?sca_esv=6f110671a32cfd9a&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44YtK2K86hZx-TW8lzeBGazAnghFjhBEmde9h6fVZ9p7MnU7va0KjN_zQvrgjDjHx6-uRrY96ybnRmMFGB8zRh-dwbDVrQMIsuHSh1aOIrMZPBscaAV8Dyon2Rlu7GUmrsbXB02QfJZdJY2_OS1TD_KXoa_bg&q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sa=X&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQtKgLegQIFBAB
+            - generic [ref=e98]: Videos
+        - listitem [ref=e99]:
+          - button "More filters" [ref=e100] [cursor=pointer]:
+            - generic "More filters" [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: More
+                - img [ref=e105]
+    - heading "Search Results" [level=1] [ref=e107]
+    - main [ref=e113]:
+      - generic [ref=e119]:
+        - heading "Boston, MA" [level=2] [ref=e120]:
+          - img [ref=e123]:
+            - img [ref=e124]
+          - generic [ref=e127]: Boston, MA
+        - generic [ref=e129]:
+          - text: ∙
+          - button "Choose area" [ref=e130] [cursor=pointer]
+        - button "How location is used" [ref=e133] [cursor=pointer]:
+          - img [ref=e135]
+      - generic [ref=e140]:
+        - generic [ref=e143]:
+          - heading "Web results" [level=2] [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e148]:
+              - link "Personal Injury Lawyers Near Me | Sheff Law in Boston, MA Sheff Law https://www.shefflaw.com" [ref=e150] [cursor=pointer]:
+                - /url: https://www.shefflaw.com/
+                - heading "Personal Injury Lawyers Near Me | Sheff Law in Boston, MA" [level=3] [ref=e151]
+                - generic [ref=e156]:
+                  - generic [ref=e158]: Sheff Law
+                  - generic [ref=e160]: https://www.shefflaw.com
+              - button "About this result" [ref=e161] [cursor=pointer]:
+                - img [ref=e164]
+            - generic [ref=e168]:
+              - text: Meet with Sheff Law,
+              - emphasis [ref=e169]: a Boston personal injury law firm
+              - text: that specializes in workplace accidents, brain injuries, car accidents and more.
+        - generic [ref=e173]:
+          - generic [ref=e176]:
+            - link "Boston Personal Injury Lawyer Douglas K. Sheff Sheff Law https://www.shefflaw.com › about-us › attorney-profiles" [ref=e178] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/about-us/attorney-profiles/douglas-k-sheff/
+              - heading "Boston Personal Injury Lawyer Douglas K. Sheff" [level=3] [ref=e179]
+              - generic [ref=e184]:
+                - generic [ref=e186]: Sheff Law
+                - generic [ref=e188]: https://www.shefflaw.com › about-us › attorney-profiles
+            - button "About this result" [ref=e189] [cursor=pointer]:
+              - img [ref=e192]
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - emphasis [ref=e197]: 1-888-423-4477
+              - text: Sheff Law Sheff Law DOUGLAS K. SHEFF Founding Partner DSheff@shefflaw.com Douglas Sheff Douglas Sheff PROFESSIONAL ORGANIZATIONS BAR ADMISSIONS
+            - link "Read more" [ref=e198] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/about-us/attorney-profiles/douglas-k-sheff/#:~:text=1%2D888%2D423%2D4477&text=Menu&text=DOUGLAS%20K.%20SHEFF,Founding%20Partner&text=DSheff%40shefflaw.com&text=PROFESSIONAL%20ORGANIZATIONS&text=PROFESSIONAL%20ORGANIZATIONS&text=BAR%20ADMISSIONS
+        - generic [ref=e209]:
+          - heading "Thinking" [level=2] [ref=e213]:
+            - generic [ref=e214]: Thinking
+          - progressbar [ref=e215]
+        - generic [ref=e219]:
+          - heading "Web results" [level=2] [ref=e220]
+          - generic [ref=e221]:
+            - generic [ref=e224]:
+              - link "Sheff Law Offices, P.C. | Boston MA Facebook · Sheff Law Offices, P.C. 240+ followers" [ref=e226] [cursor=pointer]:
+                - /url: https://www.facebook.com/SheffLawOffices/
+                - heading "Sheff Law Offices, P.C. | Boston MA" [level=3] [ref=e227]
+                - generic [ref=e232]:
+                  - generic [ref=e234]: Facebook · Sheff Law Offices, P.C.
+                  - generic [ref=e236]: 240+ followers
+              - button "About this result" [ref=e237] [cursor=pointer]:
+                - img [ref=e240]
+            - generic [ref=e243]:
+              - generic [ref=e244]:
+                - text: If you have any information to share regarding this tragedy, please contact the legal team at Sheff & Cook by calling
+                - emphasis [ref=e245]: 617-227-7000
+                - text: or by sending an email to ...
+              - link "Read more" [ref=e246] [cursor=pointer]:
+                - /url: https://www.facebook.com/SheffLawOffices/#:~:text=If%20you%20have%20any%20information,email%20to%20dsheff%40sheffandcook.com%20or%20kjcook%40sheffandcook.
+            - img "Rated 5.0 out of 5, (5) user reviews" [ref=e251]:
+              - text: "5.0"
+              - img [ref=e252]
+              - text: (5)
+        - generic [ref=e258]:
+          - generic [ref=e261]:
+            - 'link "Sheff & Cook: Home Sheff & Cook https://sheffandcook.com" [ref=e263] [cursor=pointer]':
+              - /url: https://sheffandcook.com/
+              - 'heading "Sheff & Cook: Home" [level=3] [ref=e264]'
+              - generic [ref=e269]:
+                - generic [ref=e271]: Sheff & Cook
+                - generic [ref=e273]: https://sheffandcook.com
+            - button "About this result" [ref=e274] [cursor=pointer]:
+              - img [ref=e277]
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - text: United
+              - emphasis [ref=e282]: in
+              - text: the fight for justice after catastrophic personal injury and wrongful death, with nearly a billion dollars recovered for our clients.
+            - link "Read more" [ref=e283] [cursor=pointer]:
+              - /url: https://sheffandcook.com/#:~:text=United%20in%20the%20fight%20for,dollars%20recovered%20for%20our%20clients.
+        - generic [ref=e287]:
+          - generic [ref=e290]:
+            - link "Boston Personal Injury Attorney Profiles Sheff Law https://www.shefflaw.com › about-us › attorney-profiles" [ref=e292] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/about-us/attorney-profiles/
+              - heading "Boston Personal Injury Attorney Profiles" [level=3] [ref=e293]
+              - generic [ref=e298]:
+                - generic [ref=e300]: Sheff Law
+                - generic [ref=e302]: https://www.shefflaw.com › about-us › attorney-profiles
+            - button "About this result" [ref=e303] [cursor=pointer]:
+              - img [ref=e306]
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - text: "Douglas K. Sheff, Founding Partner, Boston, MA, Phone: ("
+              - emphasis [ref=e311]: 617) 227-7000
+              - text: ", Toll-Free: (888) 423-4477."
+            - link "Read more" [ref=e312] [cursor=pointer]:
+              - /url: https://www.shefflaw.com/about-us/attorney-profiles/#:~:text=Douglas%20K.%20Sheff,Toll%2DFree%3A%20(888)%20423%2D4477
+        - generic [ref=e316]:
+          - generic [ref=e319]:
+            - link "SHEFF LAW - Updated May 2026 - 10 Tremont St, Boston, ... Yelp https://www.yelp.com › ... › Personal Injury Law" [ref=e321] [cursor=pointer]:
+              - /url: https://www.yelp.com/biz/sheff-law-boston-3
+              - heading "SHEFF LAW - Updated May 2026 - 10 Tremont St, Boston, ..." [level=3] [ref=e322]
+              - generic [ref=e327]:
+                - generic [ref=e329]: Yelp
+                - generic [ref=e331]: https://www.yelp.com › ... › Personal Injury Law
+            - button "About this result" [ref=e332] [cursor=pointer]:
+              - img [ref=e335]
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - text: 10 Tremont St. Fl 7. Boston, MA 02108. Downtown. Directions ; (
+              - emphasis [ref=e340]: 617) 227-7000
+              - text: . Call Now ; Visit Website. http://www.shefflaw.com.
+            - link "Read more" [ref=e341] [cursor=pointer]:
+              - /url: https://www.yelp.com/biz/sheff-law-boston-3#:~:text=10%20Tremont%20St,Directions&text=(617)%20227%2D7000,Call%20Now&text=Visit%20Website,http%3A%2F%2Fwww.shefflaw.com
+          - img "Rated 4.0 out of 5, (4) user reviews" [ref=e346]:
+            - text: "4.0"
+            - img [ref=e347]
+            - text: (4)
+        - generic [ref=e353]:
+          - generic [ref=e356]:
+            - link "Sheff & Cook, LLC in Boston, Massachusetts Super Lawyers https://profiles.superlawyers.com › Lawyer directory" [ref=e358] [cursor=pointer]:
+              - /url: https://profiles.superlawyers.com/massachusetts/boston/lawfirm/sheff-and-cook-llc/baae42b5-e688-4515-b9fc-d0ca2d8efab8.html
+              - heading "Sheff & Cook, LLC in Boston, Massachusetts" [level=3] [ref=e359]
+              - generic [ref=e364]:
+                - generic [ref=e366]: Super Lawyers
+                - generic [ref=e368]: https://profiles.superlawyers.com › Lawyer directory
+            - button "About this result" [ref=e369] [cursor=pointer]:
+              - img [ref=e372]
+          - generic [ref=e375]:
+            - generic [ref=e376]:
+              - text: "Sheff & Cook, LLC. The Daniel Webster Suite 10 Tremont Street, 7th Floor Boston, MA 02108 Phone:"
+              - emphasis [ref=e377]: 617-227-7000
+              - text: https://sheffandcook.com ...
+            - link "Read more" [ref=e378] [cursor=pointer]:
+              - /url: https://profiles.superlawyers.com/massachusetts/boston/lawfirm/sheff-and-cook-llc/baae42b5-e688-4515-b9fc-d0ca2d8efab8.html#:~:text=Sheff%20%26%20Cook%2C%20LLC,MA%2002108%20Phone%3A%20617%2D227%2D7000%20https%3A%2F%2Fsheffandcook.com
+        - generic [ref=e382]:
+          - generic [ref=e385]:
+            - link "Organization Profile Vew American Association for Justice (AAJ) https://ams.justice.org › eweb › dynamicpage" [ref=e387] [cursor=pointer]:
+              - /url: https://ams.justice.org/eweb/dynamicpage.aspx?webcode=orgProfileView&cst_recno=229729
+              - heading "Organization Profile Vew" [level=3] [ref=e388]
+              - generic [ref=e390]:
+                - img [ref=e394]
+                - generic [ref=e396]:
+                  - generic [ref=e398]: American Association for Justice (AAJ)
+                  - generic [ref=e400]: https://ams.justice.org › eweb › dynamicpage
+            - button "About this result" [ref=e401] [cursor=pointer]:
+              - img [ref=e404]
+          - generic [ref=e407]:
+            - generic [ref=e408]:
+              - text: "Main Contact: Mr. Douglas K. Sheff, Esq. · ("
+              - emphasis [ref=e409]: 617)227-7000
+              - text: · (617)227-8833 · dsheff@shefflaw.com · View Website ...
+            - link "Read more" [ref=e410] [cursor=pointer]:
+              - /url: https://ams.justice.org/eweb/dynamicpage.aspx?webcode=orgProfileView&cst_recno=229729#:~:text=Main%20Contact%3A%20Mr.%20Douglas%20K.,Sheff%2C%20Esq.&text=(617)227%2D7000&text=(617)227%2D8833&text=dsheff%40shefflaw.com&text=View%20Website
+          - generic [ref=e412]:
+            - text: "Missing: Law ‎| Show results with:"
+            - link "Law" [ref=e413] [cursor=pointer]:
+              - /url: /search?sca_esv=6f110671a32cfd9a&q=Doug+Sheff+attorney+Sheff+%22Law%22+phone+number+Boston&sa=X&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ5t4CegQIORAB
+        - generic [ref=e417]:
+          - generic [ref=e420]:
+            - link "Douglas K. Sheff, Lawyer in Boston, Massachusetts Justia https://lawyers.justia.com › Lawyer Directory › Boston" [ref=e422] [cursor=pointer]:
+              - /url: https://lawyers.justia.com/lawyer/douglas-k-sheff-1346269
+              - heading "Douglas K. Sheff, Lawyer in Boston, Massachusetts" [level=3] [ref=e423]
+              - generic [ref=e428]:
+                - generic [ref=e430]: Justia
+                - generic [ref=e432]: https://lawyers.justia.com › Lawyer Directory › Boston
+            - button "About this result" [ref=e433] [cursor=pointer]:
+              - img [ref=e436]
+          - generic [ref=e440]:
+            - emphasis [ref=e441]: Boston, Massachusetts attorney Douglas K. Sheff
+            - text: . Legal practice includes personal injury, workers' compensation and products liability.
+        - generic [ref=e445]:
+          - heading "Local Results" [level=2] [ref=e446]
+          - generic [ref=e447]:
+            - heading "Businesses" [level=2] [ref=e451]
+            - generic [ref=e452]:
+              - heading "Map" [level=3] [ref=e453]
+              - link "Map" [ref=e456] [cursor=pointer]:
+                - /url: /search?q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sca_esv=6f110671a32cfd9a&udm=1&lsack=-kEJaofzNcbMkPIPnKuI0As&sa=X&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQtgN6BAhAEAM
+            - generic [ref=e460]:
+              - generic [ref=e463]:
+                - button "Sheff & Cook Rated 5.0 out of 5, 94 user reviews · Personal injury attorney 10+ years in business · The Daniel Webster, 10 Tremont St 7th Floor Closed · Opens 9 AM Mon · (617) 227-7000 \"Thank you Sheff Law and paritcularly Attorney Pete Chandler!\"" [ref=e465]:
+                  - generic [ref=e469] [cursor=pointer]:
+                    - heading "Sheff & Cook" [level=3] [ref=e470]:
+                      - generic [ref=e471]: Sheff & Cook
+                    - generic [ref=e472]:
+                      - img "Rated 5.0 out of 5, 94 user reviews" [ref=e474]:
+                        - text: "5.0"
+                        - img [ref=e475]
+                        - text: (94)
+                      - text: · Personal injury attorney
+                    - generic [ref=e478]: 10+ years in business · The Daniel Webster, 10 Tremont St 7th Floor
+                    - generic [ref=e479]:
+                      - generic [ref=e480]: Closed · Opens 9 AM Mon
+                      - text: · (617) 227-7000
+                    - generic [ref=e482]:
+                      - img [ref=e485]
+                      - generic [ref=e490]: "\"Thank you Sheff Law and paritcularly Attorney Pete Chandler!\""
+                - link "Website" [ref=e491] [cursor=pointer]:
+                  - /url: https://sheffandcook.com/
+                  - generic [ref=e493]:
+                    - img [ref=e496]
+                    - generic [ref=e498]: Website
+                - link "Directions" [ref=e499] [cursor=pointer]:
+                  - /url: /maps/dir//Sheff+%26+Cook,+The+Daniel+Webster,+10+Tremont+St+7th+Floor,+Boston,+MA+02108/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89e37084efaa8db7:0xa473619c1be8f741?sa=X&ved=1t:57443&ictx=111
+                  - generic [ref=e501]:
+                    - img [ref=e504]
+                    - generic [ref=e509]: Directions
+              - generic [ref=e513]:
+                - button "Douglas K. Sheff No reviews · Personal injury attorney 7+ years in business · 10 Tremont St 7th Floor Closed · Opens 9 AM Mon · (617) 227-7000" [ref=e515]:
+                  - generic [ref=e519] [cursor=pointer]:
+                    - heading "Douglas K. Sheff" [level=3] [ref=e520]:
+                      - generic [ref=e521]: Douglas K. Sheff
+                    - generic [ref=e522]: No reviews · Personal injury attorney
+                    - generic [ref=e523]: 7+ years in business · 10 Tremont St 7th Floor
+                    - generic [ref=e524]:
+                      - generic [ref=e525]: Closed · Opens 9 AM Mon
+                      - text: · (617) 227-7000
+                - link "Website" [ref=e526] [cursor=pointer]:
+                  - /url: https://www.shefflaw.com/about-us/attorney-profiles/douglas-k-sheff/
+                  - generic [ref=e528]:
+                    - img [ref=e531]
+                    - generic [ref=e533]: Website
+                - link "Directions" [ref=e534] [cursor=pointer]:
+                  - /url: /maps/dir//Douglas+K.+Sheff,+10+Tremont+St+7th+Floor,+Boston,+MA+02108/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89e3719e04a12637:0x6dd11b6ca4e4fb95?sa=X&ved=1t:57443&ictx=111
+                  - generic [ref=e536]:
+                    - img [ref=e539]
+                    - generic [ref=e544]: Directions
+        - generic [ref=e547]:
+          - heading "Web results" [level=2] [ref=e548]
+          - generic [ref=e549]:
+            - generic [ref=e552]:
+              - link "sheff-law-offices-attorneys Sheff Law https://www.shefflaw.com › about-us › sheff-law-offices-..." [ref=e554] [cursor=pointer]:
+                - /url: https://www.shefflaw.com/about-us/sheff-law-offices-attorneys/
+                - heading "sheff-law-offices-attorneys" [level=3] [ref=e555]
+                - generic [ref=e560]:
+                  - generic [ref=e562]: Sheff Law
+                  - generic [ref=e564]: https://www.shefflaw.com › about-us › sheff-law-offices-...
+              - button "About this result" [ref=e565] [cursor=pointer]:
+                - img [ref=e568]
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - text: ABOUT DOUG SHEFF · DISCLAIMER · IN THE NEWS · COVID-19 STATEMENT OF PRECAUTIONS ... Boston, MA 02108 (
+                - emphasis [ref=e573]: 888) 423-4477
+                - text: "| (617) 227-7000. Search. © Copyright 2020 ..."
+              - link "Read more" [ref=e574] [cursor=pointer]:
+                - /url: https://www.shefflaw.com/about-us/sheff-law-offices-attorneys/#:~:text=The%20Daniel%20Webster%20Suite&text=Boston%2C%20MA%2002108,Copyright%202020%20%2D%20Sheff%20Law
+      - navigation [ref=e577]:
+        - heading "Page Navigation" [level=1] [ref=e578]
+        - text: "1"
+        - link "Page 2" [ref=e581] [cursor=pointer]:
+          - /url: /search?q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sca_esv=6f110671a32cfd9a&ei=-kEJaofzNcbMkPIPnKuI0As&start=10&sa=N&sstk=AU9db-BR-iqwps0Qu8akb7bCQ_2HSEoiOLhtPSO9DlszYAR_KEVdQIb3TFE9uqQ7_uZ_0RAmWQRSpD_pqTonxOZXmAD1C-qxOmND1g&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ8tMDegQIJRAE
+          - text: "2"
+        - link "Page 3" [ref=e583] [cursor=pointer]:
+          - /url: /search?q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sca_esv=6f110671a32cfd9a&ei=-kEJaofzNcbMkPIPnKuI0As&start=20&sa=N&sstk=AU9db-BR-iqwps0Qu8akb7bCQ_2HSEoiOLhtPSO9DlszYAR_KEVdQIb3TFE9uqQ7_uZ_0RAmWQRSpD_pqTonxOZXmAD1C-qxOmND1g&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ8tMDegQIJRAG
+          - text: "3"
+        - link "Page 4" [ref=e585] [cursor=pointer]:
+          - /url: /search?q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sca_esv=6f110671a32cfd9a&ei=-kEJaofzNcbMkPIPnKuI0As&start=30&sa=N&sstk=AU9db-BR-iqwps0Qu8akb7bCQ_2HSEoiOLhtPSO9DlszYAR_KEVdQIb3TFE9uqQ7_uZ_0RAmWQRSpD_pqTonxOZXmAD1C-qxOmND1g&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ8tMDegQIJRAI
+          - text: "4"
+        - link "Page 5" [ref=e587] [cursor=pointer]:
+          - /url: /search?q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sca_esv=6f110671a32cfd9a&ei=-kEJaofzNcbMkPIPnKuI0As&start=40&sa=N&sstk=AU9db-BR-iqwps0Qu8akb7bCQ_2HSEoiOLhtPSO9DlszYAR_KEVdQIb3TFE9uqQ7_uZ_0RAmWQRSpD_pqTonxOZXmAD1C-qxOmND1g&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ8tMDegQIJRAK
+          - text: "5"
+        - heading "Next" [level=2] [ref=e589]:
+          - link "Next" [ref=e590] [cursor=pointer]:
+            - /url: /search?q=Doug+Sheff+attorney+Sheff+Law+phone+number+Boston&sca_esv=6f110671a32cfd9a&ei=-kEJaofzNcbMkPIPnKuI0As&start=10&sa=N&sstk=AU9db-BR-iqwps0Qu8akb7bCQ_2HSEoiOLhtPSO9DlszYAR_KEVdQIb3TFE9uqQ7_uZ_0RAmWQRSpD_pqTonxOZXmAD1C-qxOmND1g&ved=2ahUKEwiH2JmYvL-UAxVGJkQIHZwVAroQ8NMDegQIJRAM
+            - generic [ref=e592]: Next
+      - navigation
+    - contentinfo [ref=e593]:
+      - heading "Footer Links" [level=1] [ref=e594]
