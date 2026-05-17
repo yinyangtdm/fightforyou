@@ -148,11 +148,11 @@ export default async function SegmentPage({
           />
         </div>
 
-        <div className="listing-page-header">
+        <div className="listing-header">
           <h1>{heading}</h1>
-          <p className="listing-page-subheading">{subheading}</p>
-          <div className="listing-page-filter-row">
-            <span className="listing-page-count">{data.listings.length} results</span>
+          <p className="listing-subheading">{subheading}</p>
+          <div className="listing-filter-row">
+            <span className="listing-count">{data.listings.length} results</span>
             {data.type === "state" && (
               <FilterDropdown
                 type="state"
@@ -174,15 +174,13 @@ export default async function SegmentPage({
         </div>
 
         <div className="listing-section">
-          <div className="listing-section-inner">
-            <div className="listing-grid">
-              {data.listings.map((listing) => (
-                <ListingCard key={listing.slug} listing={listing} />
-              ))}
-              {data.listings.length === 0 && (
-                <p className="listing-empty">No listings found.</p>
-              )}
-            </div>
+          <div className="listing-grid">
+            {data.listings.map((listing) => (
+              <ListingCard key={listing.slug} listing={listing} />
+            ))}
+            {data.listings.length === 0 && (
+              <p className="listing-empty">No listings found.</p>
+            )}
           </div>
         </div>
 

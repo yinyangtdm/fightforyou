@@ -902,7 +902,7 @@ footer {
   width: 100%;
 }
 
-.listing-page-header {
+.listing-header {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
@@ -912,7 +912,7 @@ footer {
   gap: 12px;
 }
 
-.listing-page-filter-row {
+.listing-filter-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -982,7 +982,7 @@ footer {
 .filter-dropdown-option:hover { background: var(--nord2); }
 
 
-.listing-page-header h1 {
+.listing-header h1 {
   font-family: var(--serif);
   font-size: 36px;
   font-weight: 700;
@@ -993,8 +993,8 @@ footer {
   max-width: none;
 }
 
-.listing-page-header p,
-.listing-page-subheading {
+.listing-header p,
+.listing-subheading {
   font-family: var(--sans);
   font-size: 18px;
   font-weight: 300;
@@ -1005,7 +1005,7 @@ footer {
   max-width: none;
 }
 
-.listing-page-count {
+.listing-count {
   font-family: var(--serif);
   font-size: 12px;
   font-weight: 600;
@@ -1111,12 +1111,6 @@ footer {
 
 .listing-section {
   background: var(--nord1);
-  padding: 0;
-}
-
-.listing-section-inner {
-  max-width: var(--page-max);
-  margin: 0 auto;
   padding: 32px var(--page-px);
 }
 
@@ -1124,6 +1118,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2px;
+  max-width: var(--page-max);
+  margin: 0 auto;
 }
 
 .listing-empty {
@@ -2659,10 +2655,10 @@ footer {
   /* Listings */
   .breadcrumb-container,
   .guide-back-container { height: 44px; }
-  .listing-page-header { padding: 12px var(--page-px) 16px; }
-  .listing-section-inner { padding: 28px var(--page-px); }
-  .listing-page-filter-row { flex-wrap: wrap; }
-  .listing-page-header h1 { font-size: 30px; }
+  .listing-header { padding: 12px var(--page-px) 16px; }
+  .listing-section { padding: 28px var(--page-px); }
+  .listing-filter-row { flex-wrap: wrap; }
+  .listing-header h1 { font-size: 30px; }
   .listing-grid { grid-template-columns: 1fr; }
   .deadline-grid { grid-template-columns: 1fr; }
   .listing-card-top { flex-direction: column; }
@@ -2726,13 +2722,13 @@ footer {
   .footer-top { grid-template-columns: 1fr; }
   footer { padding: var(--sp-6) 0 0; }
 
-  .listing-page-header { padding: 8px var(--page-px) 12px; }
-  .listing-page-header h1 { font-size: 24px; }
-  .listing-page-header p,
-  .listing-page-subheading { font-size: 16px; }
+  .listing-header { padding: 8px var(--page-px) 12px; }
+  .listing-header h1 { font-size: 24px; }
+  .listing-header p,
+  .listing-subheading { font-size: 16px; }
   .guides-subheading,
   .guide-card-excerpt { font-size: 16px; }
-  .listing-section-inner { padding: 24px var(--page-px); }
+  .listing-section { padding: 24px var(--page-px); }
 
   .guide-page { padding: 0 var(--page-px) 56px; }
   .profile-body { padding: 12px var(--page-px) 56px; }
