@@ -1727,17 +1727,22 @@ footer {
 
 .profile-map-actions {
   display: flex;
-  gap: 16px;
+  justify-content: center;
 }
 
 .profile-map-directions-link {
+  display: inline-block;
   font-size: 16px;
-  color: var(--nord8);
+  font-weight: 600;
+  color: var(--nord0);
+  background: var(--nord8);
   text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 6px;
 }
 
 .profile-map-directions-link:hover {
-  text-decoration: underline;
+  background: var(--nord9);
 }
 
 
