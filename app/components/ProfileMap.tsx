@@ -24,7 +24,7 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
-    let map: { remove: () => void } | null = null
+    let map: import("mapbox-gl").Map | null = null
 
     async function init() {
       const mapboxgl = (await import("mapbox-gl")).default
@@ -53,7 +53,7 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
       new mapboxgl.Marker({ color: "#5E81AC" })
         .setLngLat([longitude, latitude])
         .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml))
-        .addTo(map as Parameters<mapboxgl.Marker["addTo"]>[0])
+        .addTo(map)
 
       mapRef.current = map
     }
