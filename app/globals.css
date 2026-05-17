@@ -1664,7 +1664,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  gap: 8px;
   max-width: var(--page-max);
   margin: 0 auto;
   padding: 12px var(--page-px) 96px;
@@ -1698,7 +1697,7 @@ footer {
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--nord6);
-  margin-bottom: 16px;
+  margin-bottom: 48px;
   line-height: 1.08;
 }
 
@@ -1838,7 +1837,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
-  margin-top: 18px;
+  margin-top: 16px;
 }
 
 .guide-pinned-card {
