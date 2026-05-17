@@ -100,7 +100,7 @@
 
   /* ── Layout ── */
   --page-max: 1200px;
-  --page-px:  40px;
+  --page-px: 24px;
   --nav-h:    68px;
 }
 
@@ -2606,8 +2606,6 @@ footer {
 
 /* ── TABLET / MOBILE (≤ 768px) ── */
 @media (max-width: 768px) {
-  :root { --page-px: 24px; }
-
   .nav-inner { padding: 0 24px; }
 
   /* Breadcrumb */
