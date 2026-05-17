@@ -11,15 +11,7 @@ export default function Footer() {
             <Link href="/" className="footer-logo">
               fightfor<span>you</span>
             </Link>
-            <p>A legal directory built for the people. Find the right attorney for your case, in your state.</p>
-          </div>
-
-          <div className="footer-col">
-            <h5>Directory</h5>
-            <ul>
-              <li><a href="#">Attorneys by State</a></li>
-              <li><a href="#">Attorneys by Specialty</a></li>
-            </ul>
+            <p>A legal directory built for the people.</p>
           </div>
 
           <div className="footer-col">

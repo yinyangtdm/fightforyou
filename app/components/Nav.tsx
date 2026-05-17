@@ -160,7 +160,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           </li>
 
           <li>
-            <a href="#" className="nav-cta">Sign In</a>
+            <Link href="/admin/login" className="nav-cta">Sign In</Link>
           </li>
         </ul>
 
