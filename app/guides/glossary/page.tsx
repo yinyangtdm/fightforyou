@@ -211,11 +211,10 @@ export default async function GlossaryPage({
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="guide-back-container">
-        <Link href="/guides" className="guide-back">← All Guides</Link>
-      </div>
-
       <div className="guide-page" id="top">
+        <div className="guide-back-container">
+          <Link href="/guides" className="guide-back">← All Guides</Link>
+        </div>
         <div className="guide-page-inner">
           <div className="guide-article">
             <h1 className="guide-title">Legal Glossary</h1>

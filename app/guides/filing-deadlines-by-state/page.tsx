@@ -42,11 +42,10 @@ export default async function FilingDeadlinesPage() {
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="guide-back-container">
-        <Link href="/guides" className="guide-back">← All Guides</Link>
-      </div>
-
       <div className="guide-page">
+        <div className="guide-back-container">
+          <Link href="/guides" className="guide-back">← All Guides</Link>
+        </div>
         <div className="guide-page-inner">
           <div className="guide-article">
             <h1 className="guide-title">State Filing Deadlines</h1>
