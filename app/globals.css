@@ -1731,13 +1731,15 @@ footer {
 }
 
 .profile-map-directions-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
   font-size: 16px;
   font-weight: 600;
   color: var(--nord0);
   background: var(--nord8);
   text-decoration: none;
-  padding: 10px 24px;
+  padding: 0 24px;
   border-radius: 6px;
 }
 
