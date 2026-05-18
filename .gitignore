@@ -45,3 +45,4 @@ profiles.sql
 
 docker-compose.yml
 .aider*
+.playwright-mcp/
