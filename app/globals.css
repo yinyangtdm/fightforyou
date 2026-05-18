@@ -1839,6 +1839,9 @@ footer {
 }
 
 .guide-card {
+  --nord2: #434c5e;
+  --nord4: #d8dee9;
+  --nord8: #88c0d0;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -1955,6 +1958,9 @@ footer {
 }
 
 .guide-pinned-card {
+  --nord2: #434c5e;
+  --nord4: #d8dee9;
+  --nord8: #88c0d0;
   display: block;
   background: var(--nord2);
   border: 1px solid var(--border-on-dark);
