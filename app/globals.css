@@ -1948,6 +1948,15 @@ footer {
   margin-bottom: 64px;
 }
 
+/* Strip double padding when nested inside rights-inner */
+.rights-inner .guides-pinned,
+.rights-inner .guides-featured,
+.rights-inner .guides-grid {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* Pinned resource card on guides listing */
 .guides-pinned {
   display: grid;

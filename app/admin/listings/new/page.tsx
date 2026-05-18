@@ -373,7 +373,7 @@ export default function NewListingPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#2e3440] p-8">
+    <div className="min-h-screen bg-[#2e3440] text-[#d8dee9] p-8">
       <div className="max-w-2xl mx-auto bg-[#3b4252] p-8 rounded-lg border border-[#4c566a]">
         <h1 className="text-2xl font-bold mb-6">Add New Listing</h1>
         {error && <p className="text-red-500 mb-4">{error}</p>}

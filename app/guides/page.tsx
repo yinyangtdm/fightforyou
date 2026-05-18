@@ -36,6 +36,8 @@ export default async function GuidesPage() {
   const { guides, specialties } = await getData()
 
   const navGuides = guides.slice(0, 8).map((g) => ({ title: g.title, slug: g.slug }))
+  const featured = guides.filter((g) => g.featured)
+  const rest = guides.filter((g) => !g.featured)
 
   return (
     <div className="public">
@@ -48,6 +50,30 @@ export default async function GuidesPage() {
             Plain-language explanations of the laws, rights, and legal processes that matter when police misconduct affects your life.
           </p>
         </div>
+
+        {featured.length > 0 && (
+          <div className="guides-featured">
+            {featured.map((g) => (
+              <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card guide-card--featured">
+                {g.coverImageUrl && (
+                  <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
+                )}
+                <h2 className="guide-card-title">{g.title}</h2>
+                <div className="guide-card-meta">
+                  {g.authorName && g.authorSlug && (
+                    <>
+                      <span className="guide-card-author">{g.authorName}</span>
+                      <span className="guide-card-meta-sep">·</span>
+                    </>
+                  )}
+                  <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+                </div>
+                {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
+                <span className="guide-card-read">Read guide →</span>
+              </Link>
+            ))}
+          </div>
+        )}
 
         <div className="guides-grid">
           {PINNED_GUIDES.map((p) => (
@@ -62,7 +88,7 @@ export default async function GuidesPage() {
               <span className="guide-card-read">{p.readLabel}</span>
             </Link>
           ))}
-          {guides.map((g) => (
+          {rest.map((g) => (
             <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card">
               {g.coverImageUrl && (
                 <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />

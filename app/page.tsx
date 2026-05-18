@@ -143,21 +143,6 @@ export default async function HomePage() {
               <Link href="/guides" className="section-link">View all guides</Link>
             </div>
 
-            <div className="guides-pinned">
-              {PINNED_GUIDES.map((p) => (
-                <Link key={p.slug} href={p.href} className="guide-pinned-card">
-                  <h2 className="guide-card-title">{p.title}</h2>
-                  <div className="guide-card-meta">
-                    <span className="guide-card-author">{p.authorName}</span>
-                    <span className="guide-card-meta-sep">·</span>
-                    <span className="guide-card-date">{p.date}</span>
-                  </div>
-                  <p className="guide-card-excerpt">{p.excerpt}</p>
-                  <span className="guide-card-read">{p.readLabel}</span>
-                </Link>
-              ))}
-            </div>
-
             {featured.length > 0 && (
               <div className="guides-featured">
                 {featured.map((g) => (
@@ -181,6 +166,21 @@ export default async function HomePage() {
                 ))}
               </div>
             )}
+
+            <div className="guides-pinned">
+              {PINNED_GUIDES.map((p) => (
+                <Link key={p.slug} href={p.href} className="guide-pinned-card">
+                  <h2 className="guide-card-title">{p.title}</h2>
+                  <div className="guide-card-meta">
+                    <span className="guide-card-author">{p.authorName}</span>
+                    <span className="guide-card-meta-sep">·</span>
+                    <span className="guide-card-date">{p.date}</span>
+                  </div>
+                  <p className="guide-card-excerpt">{p.excerpt}</p>
+                  <span className="guide-card-read">{p.readLabel}</span>
+                </Link>
+              ))}
+            </div>
 
             {rest.length > 0 && (
               <div className="guides-grid">
