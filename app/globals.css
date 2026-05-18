@@ -540,7 +540,7 @@ img, video { max-width: 100%; height: auto; }
 
 /* ── KNOW YOUR RIGHTS ── */
 .rights-section {
-  background: var(--bg-raised);
+  background: #fbfbfc;
   padding: var(--section-py) 0;
 }
 
