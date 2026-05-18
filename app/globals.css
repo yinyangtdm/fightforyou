@@ -1839,9 +1839,6 @@ footer {
 }
 
 .guide-card {
-  --nord2: #434c5e;
-  --nord4: #d8dee9;
-  --nord8: #88c0d0;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -1870,10 +1867,7 @@ footer {
   border-color: var(--nord8);
 }
 
-[data-theme="light"] .guide-card:hover { background: #d8dee9; 
-                                        border-color:#5e81ac;
-                                                color:var(--nord2);
-                                      }
+[data-theme="light"] .guide-card:hover { background: var(--nord0); border-color: var(--nord8); }
 [data-theme="light"] .glossary-page-btn:hover,
 [data-theme="light"] .glossary-page-btn--active { background: var(--nord0); }
 .guide-card:hover::before { height: 100%; }
@@ -1961,9 +1955,6 @@ footer {
 }
 
 .guide-pinned-card {
-  --nord2: #434c5e;
-  --nord4: #d8dee9;
-  --nord8: #88c0d0;
   display: block;
   background: var(--nord2);
   border: 1px solid var(--border-on-dark);
