@@ -1889,7 +1889,7 @@ footer {
   font-family: var(--serif);
   font-size: 22px;
   font-weight: 700;
-  color: var(--nord6);
+  color: var(--nord4);
   line-height: 1.25;
   margin: 0;
 }
@@ -1902,7 +1902,7 @@ footer {
   font-family: var(--sans);
   font-size: 16px;
   font-weight: 400;
-  color: var(--text-muted);
+  color: var(--nord4);
   line-height: 1.7;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -1919,11 +1919,11 @@ footer {
   font-size: 12px;
 }
 
-.guide-card-author { color: var(--text-muted); }
+.guide-card-author { color: var(--nord4); }
 
 .guide-card-meta-sep { opacity: 0.4; }
 
-.guide-card-date { color: var(--text-muted); }
+.guide-card-date { color: var(--nord4); }
 
 .guide-card-read {
   font-family: var(--serif);
@@ -1990,7 +1990,7 @@ footer {
 }
 
 .guide-pinned-card .guide-card-excerpt {
-  color: var(--text-muted);
+  color: var(--nord4);
   font-size: 15px;
   line-height: 1.6;
   margin: 14px 0 14px;
