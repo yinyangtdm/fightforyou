@@ -498,12 +498,12 @@ img, video { max-width: 100%; height: auto; }
 
 /* ── ABOUT ── */
 .about-section {
-  --nord0: #2e3440;
+  --nord2: #434c5e;
   --nord4: #d8dee9;
   --nord6: #eceff4;
   --nord8: #88c0d0;
   --accent: #88c0d0;
-  background: var(--nord0);
+  background: var(--nord6);
   padding: var(--sp-9) 0;
   border-bottom: 1px solid var(--border);
 }
@@ -533,7 +533,7 @@ img, video { max-width: 100%; height: auto; }
   font-family: var(--sans);
   font-size: 16px;
   font-weight: 400;
-  color: var(--nord6);
+  color: var(--nord2);
   line-height: 1.9;
   margin-bottom: 20px;
 }
