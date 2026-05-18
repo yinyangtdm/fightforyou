@@ -45,8 +45,15 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
       }
     }
 
-    // If there are hidden items, walk back from the cutoff until "+N more"
-    // fits on line 2 (reserve ~80px at the right edge of that line)
+    // Also cut items that overflow the container's right edge
+    for (let i = 0; i < cutoff; i++) {
+      if (rects[i].right > containerRect.right + 1) {
+        cutoff = i
+        break
+      }
+    }
+
+    // If there are hidden items, walk back until "+N more" fits
     if (cutoff < items.length) {
       const MORE_WIDTH = 80
       while (cutoff > 0 && containerRect.right - rects[cutoff - 1].right < MORE_WIDTH) {
