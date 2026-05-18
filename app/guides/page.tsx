@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
-import { deriveExcerpt, categorySlug, PINNED_GUIDES } from "./_lib"
+import { deriveExcerpt, PINNED_GUIDES } from "./_lib"
 
 export const dynamic = "force-dynamic"
 
@@ -35,8 +35,6 @@ async function getData() {
 export default async function GuidesPage() {
   const { guides, specialties } = await getData()
 
-  const featured = guides.filter((g) => g.featured)
-  const rest = guides.filter((g) => !g.featured)
   const navGuides = guides.slice(0, 8).map((g) => ({ title: g.title, slug: g.slug }))
 
   return (
@@ -51,9 +49,9 @@ export default async function GuidesPage() {
           </p>
         </div>
 
-        <div className="guides-pinned">
+        <div className="guides-grid">
           {PINNED_GUIDES.map((p) => (
-            <Link key={p.slug} href={p.href} className="guide-pinned-card">
+            <Link key={p.slug} href={p.href} className="guide-card">
               <h2 className="guide-card-title">{p.title}</h2>
               <div className="guide-card-meta">
                 <span className="guide-card-author">{p.authorName}</span>
@@ -64,59 +62,26 @@ export default async function GuidesPage() {
               <span className="guide-card-read">{p.readLabel}</span>
             </Link>
           ))}
+          {guides.map((g) => (
+            <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card">
+              {g.coverImageUrl && (
+                <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
+              )}
+              <h2 className="guide-card-title">{g.title}</h2>
+              <div className="guide-card-meta">
+                {g.authorName && g.authorSlug && (
+                  <>
+                    <span className="guide-card-author">{g.authorName}</span>
+                    <span className="guide-card-meta-sep">·</span>
+                  </>
+                )}
+                <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+              </div>
+              {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
+              <span className="guide-card-read">Read guide →</span>
+            </Link>
+          ))}
         </div>
-
-        {featured.length > 0 && (
-          <div className="guides-featured">
-            {featured.map((g) => (
-              <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card guide-card--featured">
-                {g.coverImageUrl && (
-                  <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
-                )}
-                <h2 className="guide-card-title">{g.title}</h2>
-                <div className="guide-card-meta">
-                  {g.authorName && g.authorSlug && (
-                    <>
-                      <span className="guide-card-author">{g.authorName}</span>
-                      <span className="guide-card-meta-sep">·</span>
-                    </>
-                  )}
-                  <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
-                </div>
-                {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
-                <span className="guide-card-read">Read guide →</span>
-              </Link>
-            ))}
-          </div>
-        )}
-
-        {rest.length > 0 && (
-          <div className="guides-grid">
-            {rest.map((g) => (
-              <Link key={g.slug} href={`/guides/${g.slug}`} className="guide-card">
-                {g.coverImageUrl && (
-                  <Image src={g.coverImageUrl} alt={g.title} width={600} height={180} className="guide-card-cover" />
-                )}
-                <h2 className="guide-card-title">{g.title}</h2>
-                <div className="guide-card-meta">
-                  {g.authorName && g.authorSlug && (
-                    <>
-                      <span className="guide-card-author">{g.authorName}</span>
-                      <span className="guide-card-meta-sep">·</span>
-                    </>
-                  )}
-                  <span className="guide-card-date">{g.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
-                </div>
-                {(g.excerpt || deriveExcerpt(g.body)) && <p className="guide-card-excerpt">{g.excerpt || deriveExcerpt(g.body)}</p>}
-                <span className="guide-card-read">Read guide →</span>
-              </Link>
-            ))}
-          </div>
-        )}
-
-        {guides.length === 0 && (
-          <p className="guides-empty">No guides found.</p>
-        )}
 
         <div className="guides-cta">
           <h2>Are you an attorney?</h2>
