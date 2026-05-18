@@ -217,7 +217,9 @@ img, video { max-width: 100%; height: auto; }
 
 .nav-logo span { color: var(--accent); }
 
-[data-theme="light"] .nav-logo { color: var(--text-primary); }
+[data-theme="light"] .site-nav { background: #eceff4; }
+[data-theme="light"] .nav-logo { color: var(--nord3); }
+[data-theme="light"] .nav-links a { color: var(--nord3); }
 
 /* ── Theme toggle button ── */
 .nav-right {
@@ -298,6 +300,8 @@ img, video { max-width: 100%; height: auto; }
   background: var(--nord0);
   border-bottom: 1px solid var(--border-on-dark);
 }
+
+[data-theme="light"] .hero-section { background: #eceff4; }
 
 .hero {
   padding: 72px var(--page-px) 72px;
