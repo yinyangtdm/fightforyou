@@ -217,7 +217,7 @@ img, video { max-width: 100%; height: auto; }
 
 .nav-logo span { color: var(--accent); }
 
-[data-theme="light"] .site-nav { background: #eceff4; }
+[data-theme="light"] .site-nav { background: #ffffff; }
 [data-theme="light"] .nav-logo { color: var(--nord3); }
 [data-theme="light"] .nav-links a { color: var(--nord3); }
 
@@ -301,7 +301,7 @@ img, video { max-width: 100%; height: auto; }
   border-bottom: 1px solid var(--border-on-dark);
 }
 
-[data-theme="light"] .hero-section { background: #eceff4; }
+[data-theme="light"] .hero-section { background: #ffffff; }
 
 .hero {
   padding: 72px var(--page-px) 72px;
