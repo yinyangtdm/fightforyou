@@ -63,7 +63,7 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
     const container = containerRef.current
     if (!container) return
 
-    document.fonts.ready.then(measure)
+    document.fonts.ready.then(() => { lastWidth.current = 0; measure() })
 
     const observer = new ResizeObserver(measure)
     observer.observe(container)
