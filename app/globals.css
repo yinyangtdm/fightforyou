@@ -498,7 +498,7 @@ img, video { max-width: 100%; height: auto; }
 
 /* ── ABOUT ── */
 .about-section {
-  background: var(--bg-base);
+  background: var(--nord0);
   padding: var(--sp-9) 0;
   border-bottom: 1px solid var(--border);
 }
