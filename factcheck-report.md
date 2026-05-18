@@ -19,7 +19,7 @@ Progress: 142 / 142 ✅ COMPLETE
 ---
 
 ## id:12 — John Holland
-**Website:** https://hheglaw.com
+**Website:** h
 
 - **Phone** 🟢 (303) 860-1331 confirmed in site header.
 - **Tagline** 🟡 "Civil Rights and Police Accountability Advocate" — not exact but firm is genuinely civil rights/police brutality focused.
@@ -1105,3 +1105,4 @@ Progress: 142 / 142 ✅ COMPLETE
 
 ---
 
+# Factcheck Report — Prod Listings vs. Websites
