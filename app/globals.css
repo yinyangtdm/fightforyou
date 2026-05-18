@@ -1209,14 +1209,15 @@ footer {
 
 .profile-photo-wrap {
   width: 200px;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
-.profile-photo-col .profile-badge {
-  width: auto;
+.profile-photo-wrap .listing-card-badge {
+  width: 100%;
   text-align: center;
-  margin-top: 0;
   white-space: nowrap;
+  padding: 3px 8px;
 }
 
 .listing-card-img {
@@ -1350,11 +1351,9 @@ footer {
 }
 
 .profile-photo-col {
-  display: grid;
-  grid-template-rows: auto auto;
-  align-content: center;
-  justify-items: center;
-  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 16px;
   border-right: 1px solid var(--border-on-dark);
 }
@@ -2706,7 +2705,7 @@ footer {
   .profile-map-row { grid-template-columns: 1fr; }
   .profile-hero { grid-template-columns: 168px 1fr; }
   .profile-photo-col { padding: 10px; }
-  .profile-photo-wrap { width: 148px; height: 148px; }
+  .profile-photo-wrap { width: 148px; }
   .profile-info-col { padding: 12px 16px; }
   .profile-firm,
   .profile-address,

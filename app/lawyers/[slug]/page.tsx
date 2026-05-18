@@ -146,8 +146,8 @@ export default async function ProfilePage({
             ) : (
               <div className="profile-img-placeholder" />
             )}
-          </div>
             <span className={`listing-card-badge profile-badge ${badgeClass}`}>{type}</span>
+          </div>
           </div>
 
           <div className="profile-info-col">
