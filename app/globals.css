@@ -1691,7 +1691,8 @@ footer {
   border-radius: 8px;
   background: var(--nord2);
   border: 1px solid var(--border-on-dark);
-  min-height: 400px;
+  height: 450px;
+  align-self: start;
 }
 
 .mapboxgl-popup-content {
@@ -1728,6 +1729,7 @@ footer {
 .profile-map-actions {
   display: flex;
   align-items: stretch;
+  height: 50px;
 }
 
 .profile-map-directions-link {
