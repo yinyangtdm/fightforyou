@@ -48,7 +48,7 @@ export default async function FilingDeadlinesPage() {
         </div>
         <div className="guide-page-inner">
           <div className="guide-article">
-            <h1 className="guide-title">State Filing Deadlines</h1>
+            <h1 className="guide-title" style={{ paddingTop: 25 }}>State Filing Deadlines</h1>
             <div className="guide-meta">
               <Link href="/guides/author/fight-for-you" className="guide-author-link">By fightfor.you</Link>
               <span className="guide-meta-sep">·</span>

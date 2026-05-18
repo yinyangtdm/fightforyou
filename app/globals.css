@@ -210,7 +210,7 @@ img, video { max-width: 100%; height: auto; }
   font-family: var(--serif);
   font-size: 22px;
   font-weight: 700;
-  color: var(--nord3);
+  color: var(--nord6);
   text-decoration: none;
   letter-spacing: -0.02em;
 }
@@ -276,20 +276,21 @@ img, video { max-width: 100%; height: auto; }
 .nav-links a:hover { color: var(--nord8); }
 
 .nav-links a.nav-cta {
-  background: #ffffff;
-  color: var(--nord3);
-  border: 1px solid var(--nord3);
-  padding: 11px 28px;
+  background: transparent;
+  color: var(--nord4);
+  border: 1.5px solid var(--nord4);
+  padding: 8px 20px;
   border-radius: var(--radius-sm);
   font-family: var(--sans);
-  font-size: var(--fs-base);
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-decoration: none;
-  transition: background var(--ease), border-color var(--ease), color var(--ease);
+  transition: color var(--ease), border-color var(--ease);
 }
 
-.nav-links a.nav-cta:hover { background: var(--nord10); border-color: var(--nord10); color: #ffffff; }
+.nav-links a.nav-cta:hover { background: transparent; border-color: var(--nord8); color: var(--nord8); }
 
 /* ── HOME ── */
 .home-page { width: 100%; }
@@ -542,6 +543,9 @@ img, video { max-width: 100%; height: auto; }
 .rights-section {
   background: #fbfbfc;
   padding: var(--section-py) 0;
+}
+[data-theme="dark"] .rights-section {
+  background: var(--nord1);
 }
 
 .rights-inner {
@@ -927,7 +931,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 16px var(--page-px) 24px;
+  padding: 34px var(--page-px) 24px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
@@ -2223,6 +2227,7 @@ footer {
   font-weight: 400;
   line-height: 1.85;
   color: var(--nord5);
+  margin-top: 40px;
 }
 
 /* ── GLOSSARY ── */

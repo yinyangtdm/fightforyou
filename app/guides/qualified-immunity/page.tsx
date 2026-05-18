@@ -48,7 +48,7 @@ export default async function QualifiedImmunityPage() {
         </div>
         <div className="guide-page-inner">
           <div className="guide-article">
-            <h1 className="guide-title">Qualified Immunity Laws</h1>
+            <h1 className="guide-title" style={{ paddingTop: 25 }}>Qualified Immunity Laws</h1>
             <div className="guide-meta">
               <Link href="/guides/author/fight-for-you" className="guide-author-link">By fightfor.you</Link>
               <span className="guide-meta-sep">·</span>
@@ -66,7 +66,7 @@ export default async function QualifiedImmunityPage() {
             <QIStatePicker />
 
             <div className="guide-body">
-              <h2 className="guide-body-h2">What Is Qualified Immunity?</h2>
+              <h3 className="guide-body-h3">What Is Qualified Immunity?</h3>
               <p>
                 Qualified immunity is a judicially created legal doctrine that protects government officials &mdash; most commonly police officers &mdash; from personal civil liability for constitutional violations unless the violated right was &ldquo;clearly established&rdquo; at the time of the conduct.
               </p>
@@ -77,7 +77,7 @@ export default async function QualifiedImmunityPage() {
                 In plain terms: even if a police officer violates your constitutional rights, they can avoid being personally sued if no prior court has ruled that the <em>exact same conduct</em>, in nearly identical circumstances, was unconstitutional. This &ldquo;find a case on all fours&rdquo; requirement has resulted in perverse outcomes &mdash; officers escaping liability not because they acted reasonably, but because no prior case had the same unusual facts.
               </p>
 
-              <h2 className="guide-body-h2">How Qualified Immunity Works in Practice</h2>
+              <h3 className="guide-body-h3">How Qualified Immunity Works in Practice</h3>
               <p>
                 Under current law, when a plaintiff sues a police officer and the officer claims qualified immunity, the court must ask two questions:
               </p>
@@ -101,7 +101,7 @@ export default async function QualifiedImmunityPage() {
                 Even when courts find that an officer&apos;s conduct was constitutionally questionable, they frequently still grant immunity because no prior case addressed that specific situation.
               </p>
 
-              <h2 className="guide-body-h2">The Current Legal and Political Landscape</h2>
+              <h3 className="guide-body-h3">The Current Legal and Political Landscape</h3>
               <p>
                 Qualified immunity has become a flashpoint in the national debate over police accountability, and the landscape is shifting &mdash; though unevenly.
               </p>
@@ -115,7 +115,7 @@ export default async function QualifiedImmunityPage() {
                 <strong>At the state level,</strong> the picture is more encouraging for victims of misconduct. Four states &mdash; <strong>Colorado, Montana, Nevada, and New Mexico</strong> &mdash; have completely banned police officers from using qualified immunity as a defense in state court. Several others, including Connecticut and Massachusetts, have taken steps to limit the doctrine or create new state-level paths to accountability.
               </p>
 
-              <h2 className="guide-body-h2">Can You Still Sue the Police Even With Qualified Immunity?</h2>
+              <h3 className="guide-body-h3">Can You Still Sue the Police Even With Qualified Immunity?</h3>
               <p>Yes &mdash; and here is how:</p>
 
               <h3 className="guide-body-h3">1. Sue the Municipality (<em>Monell</em> Claims)</h3>
@@ -141,7 +141,7 @@ export default async function QualifiedImmunityPage() {
                 Civil and criminal liability are separate tracks. Even if a civil case is dismissed on qualified immunity grounds, the officer may still face state criminal charges for assault, excessive force, or other crimes, or federal civil rights charges under 18 U.S.C. &sect; 242.
               </p>
 
-              <h2 className="guide-body-h2">Off-Duty Officers and Qualified Immunity: A Growing Problem</h2>
+              <h3 className="guide-body-h3">Off-Duty Officers and Qualified Immunity: A Growing Problem</h3>
               <p>
                 A recent joint investigation by the Howard Center for Investigative Journalism and CBS News identified more than 40 cases over the past decade in which off-duty police officers &mdash; working as private security guards &mdash; successfully claimed qualified immunity to avoid civil lawsuits. In most of these cases, courts granted full or partial immunity even when the officer was being paid by a private business, not a government agency.
               </p>
@@ -149,7 +149,7 @@ export default async function QualifiedImmunityPage() {
                 This extension of qualified immunity into purely private conduct has drawn sharp criticism from legal scholars, who argue it distorts the doctrine&apos;s original purpose and shields officers from accountability for actions that have nothing to do with government policing.
               </p>
 
-              <h2 className="guide-body-h2">The Bottom Line</h2>
+              <h3 className="guide-body-h3">The Bottom Line</h3>
               <p>
                 Qualified immunity is a serious obstacle, but it is not an impenetrable wall. The doctrine has been criticized by legal scholars across the political spectrum &mdash; from the ACLU to the Cato Institute &mdash; as an invention that lacks statutory basis and systematically denies justice to victims of police abuse.
               </p>

@@ -142,7 +142,7 @@ export default async function GuidePage({
               <Image src={guide.coverImageUrl} alt={guide.title} width={900} height={420} className="guide-hero-img" />
             )}
 
-            <h1 className="guide-title">{guide.title}</h1>
+            <h1 className="guide-title" style={{ paddingTop: 25 }}>{guide.title}</h1>
 
 
             <div className="guide-meta">
