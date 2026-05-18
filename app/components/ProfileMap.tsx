@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef } from "react"
 import "mapbox-gl/dist/mapbox-gl.css"
+import type { Map as MapboxMap } from "mapbox-gl"
 
 interface Props {
   latitude: number
@@ -24,7 +25,7 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
-    let map: import("mapbox-gl").Map | null = null
+    let map: MapboxMap | null = null
 
     async function init() {
       const mapboxgl = (await import("mapbox-gl")).default
