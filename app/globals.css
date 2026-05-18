@@ -325,7 +325,7 @@ img, video { max-width: 100%; height: auto; }
 
 .hero h1 em {
   font-style: italic;
-  color: var(--nord7);
+  color: var(--nord8);
 }
 
 .hero-sub {
@@ -459,6 +459,8 @@ img, video { max-width: 100%; height: auto; }
   background: var(--bg-raised);
   padding: var(--sp-7) 0;
 }
+
+[data-theme="light"] .stats-bar { background: #f8f9fb; }
 
 .stats-inner {
   max-width: var(--page-max);
