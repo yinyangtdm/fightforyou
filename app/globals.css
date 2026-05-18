@@ -1348,7 +1348,7 @@ footer {
   box-shadow: 0 4px 24px rgba(0,0,0,0.3);
   display: grid;
   grid-template-columns: 248px 1fr 310px;
-  height: 262px;
+  min-height: 262px;
 }
 
 .profile-photo-col {
