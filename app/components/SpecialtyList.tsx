@@ -59,10 +59,12 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
 
   useLayoutEffect(() => {
     lastWidth.current = 0
-    measure()
 
     const container = containerRef.current
     if (!container) return
+
+    document.fonts.ready.then(measure)
+
     const observer = new ResizeObserver(measure)
     observer.observe(container)
     return () => observer.disconnect()
