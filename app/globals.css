@@ -694,6 +694,9 @@ img, video { max-width: 100%; height: auto; }
   gap: 6px 24px;
 }
 
+.mega-menu-grid--4col { grid-template-columns: repeat(4, 1fr); }
+.mega-menu-grid--3col { grid-template-columns: repeat(3, 1fr); }
+
 .mega-menu-grid a {
   font-family: var(--sans);
   font-size: 13px;

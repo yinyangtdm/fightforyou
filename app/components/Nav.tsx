@@ -253,7 +253,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
       <div className={`mega-menu${openMenu === "specialty" ? " open" : ""}`} onMouseEnter={hoverCancelClose} onMouseLeave={() => setOpenMenu(null)}>
         <div className="mega-menu-heading">Browse by Specialty</div>
-        <div className="mega-menu-grid">
+        <div className="mega-menu-grid mega-menu-grid--4col">
           {specialties.map((s) => (
             <Link key={s} href={`/${toSlug(s)}`}>{s}</Link>
           ))}
@@ -262,7 +262,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
       <div className={`mega-menu${openMenu === "rights" ? " open" : ""}`} onMouseEnter={hoverCancelClose} onMouseLeave={() => setOpenMenu(null)}>
         <div className="mega-menu-heading">Know Your Rights</div>
-        <div className="mega-menu-grid">
+        <div className="mega-menu-grid mega-menu-grid--3col">
           {sortedGuideLinks.map(g => (
             <Link key={g.slug} href={g.href}>{g.title}</Link>
           ))}
