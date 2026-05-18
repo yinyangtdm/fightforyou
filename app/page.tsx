@@ -120,7 +120,7 @@ export default async function HomePage() {
             <p>
               Our mission is to change that equation. Every attorney and firm listed here has a documented record of
               success against law enforcement and government entities. There are <strong>no pay-to-play listings</strong> and <strong>no unvetted
-              submissions</strong> — <strong>only</strong> lawyers who have taken law enforcement to court and <strong>won.</strong>
+              submissions</strong> — <strong>only</strong> attorneys who have taken law enforcement to court and <strong>won.</strong>
             </p>
             <p>
               Attorneys in this field almost universally work on contingency, meaning you pay nothing unless you win.

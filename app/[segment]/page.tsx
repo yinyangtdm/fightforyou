@@ -104,12 +104,12 @@ export async function generateMetadata({
 
   const title =
     data.type === "state"
-      ? `Lawyers in ${data.label}`
-      : `${data.label} Lawyers`
+      ? `Attorneys in ${data.label}`
+      : `${data.label} Attorneys`
 
   return {
     title: `${title} | fightfor.you`,
-    description: `Find verified ${data.type === "state" ? `civil rights lawyers in ${data.label}` : `${data.label} attorneys`} with a proven record against law enforcement.`,
+    description: `Find verified ${data.type === "state" ? `civil rights attorneys in ${data.label}` : `${data.label} attorneys`} with a proven record against law enforcement.`,
   }
 }
 
@@ -126,8 +126,8 @@ export default async function SegmentPage({
 
   const heading =
     data.type === "state"
-      ? `Lawyers in ${data.label}`
-      : `${data.label} Lawyers`
+      ? `Attorneys in ${data.label}`
+      : `${data.label} Attorneys`
 
   const subheading =
     data.type === "state"

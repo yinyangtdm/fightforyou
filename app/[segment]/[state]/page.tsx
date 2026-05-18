@@ -77,7 +77,7 @@ export async function generateMetadata({
   if (!data) return {}
 
   return {
-    title: `${data.specialty} Lawyers in ${data.stateName} | fightfor.you`,
+    title: `${data.specialty} Attorneys in ${data.stateName} | fightfor.you`,
     description: `Find verified ${data.specialty} attorneys in ${data.stateName} with a proven record against law enforcement.`,
   }
 }
@@ -107,7 +107,7 @@ export default async function SpecialtyStatePage({
         </div>
 
         <div className="listing-header">
-          <h1>{data.specialty} Lawyers in {data.stateName}</h1>
+          <h1>{data.specialty} Attorneys in {data.stateName}</h1>
           <p className="listing-subheading">
             {getSpecialtyDescription(data.specialty) ?? `Attorneys and firms specializing in ${data.specialty} in ${data.stateName}, with a proven record against law enforcement.`}
           </p>
