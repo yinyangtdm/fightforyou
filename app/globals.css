@@ -130,7 +130,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-body { overflow-x: hidden; font-family: var(--sans); font-weight: 500; }
+body { overflow-x: hidden; font-family: var(--sans); font-weight: 400; }
 
 /* Prevent iOS font scaling on inputs */
 input, textarea, select { font-size: 16px; }
