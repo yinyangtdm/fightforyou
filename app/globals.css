@@ -1959,7 +1959,7 @@ footer {
   gap: 16px;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 0 var(--page-px) 16px;
+  padding: 0 var(--page-px);
 }
 
 .guide-pinned-card {
