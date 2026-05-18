@@ -420,7 +420,7 @@ export default function EditForm({ listing }: EditFormProps) {
 
   return (
     <div className="admin-layout p-8">
-      <div className="max-w-2xl mx-auto bg-[#3b4252] p-8 rounded-lg border border-[#4c566a]">
+      <div className="max-w-2xl mx-auto bg-[#3b4252] text-[#d8dee9] p-8 rounded-lg border border-[#4c566a]">
         <div className="flex items-center gap-4 mb-6">
           <Link href="/admin/listings" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">
             &larr; Back
