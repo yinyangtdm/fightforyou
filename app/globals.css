@@ -106,7 +106,7 @@
 
 /* ── Light mode overrides ── */
 [data-theme="light"] {
-  --nord0: #d8dee9;
+  --nord0: #ffffff;
   --nord1: #e5e9f0;
   --nord2: #eceff4;
   --nord3: #4c566a;
@@ -217,9 +217,7 @@ img, video { max-width: 100%; height: auto; }
 
 .nav-logo span { color: var(--accent); }
 
-[data-theme="light"] .site-nav { background: #ffffff; }
-[data-theme="light"] .nav-logo { color: var(--nord3); }
-[data-theme="light"] .nav-links a { color: var(--nord3); }
+[data-theme="light"] .nav-logo { color: var(--text-primary); }
 
 /* ── Theme toggle button ── */
 .nav-right {
@@ -301,9 +299,6 @@ img, video { max-width: 100%; height: auto; }
   border-bottom: 1px solid var(--border-on-dark);
 }
 
-[data-theme="light"] .hero-section { background: #ffffff; }
-[data-theme="light"] .hero h1 { color: var(--nord3); }
-
 .hero {
   padding: 72px var(--page-px) 72px;
   max-width: var(--page-max);
@@ -325,7 +320,7 @@ img, video { max-width: 100%; height: auto; }
 
 .hero h1 em {
   font-style: italic;
-  color: var(--nord8);
+  color: var(--nord7);
 }
 
 .hero-sub {
@@ -460,8 +455,6 @@ img, video { max-width: 100%; height: auto; }
   padding: var(--sp-7) 0;
 }
 
-[data-theme="light"] .stats-bar { background: #f8f9fb; }
-
 .stats-inner {
   max-width: var(--page-max);
   margin: 0 auto;
@@ -505,7 +498,7 @@ img, video { max-width: 100%; height: auto; }
 
 /* ── ABOUT ── */
 .about-section {
-  background: var(--nord0);
+  background: var(--bg-base);
   padding: var(--sp-9) 0;
   border-bottom: 1px solid var(--border);
 }
@@ -520,7 +513,7 @@ img, video { max-width: 100%; height: auto; }
   font-family: var(--serif);
   font-size: 36px;
   font-weight: 700;
-  color: var(--nord4);
+  color: var(--nord6);
   letter-spacing: -0.02em;
   line-height: 1.15;
   margin-bottom: 28px;
@@ -535,7 +528,7 @@ img, video { max-width: 100%; height: auto; }
   font-family: var(--sans);
   font-size: 16px;
   font-weight: 400;
-  color: var(--nord6);
+  color: var(--nord4);
   line-height: 1.9;
   margin-bottom: 20px;
 }
