@@ -1630,7 +1630,7 @@ footer {
 
 .profile-specialty-link {
   font-family: var(--sans);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   color: var(--accent);
   text-decoration: none;
@@ -1649,7 +1649,7 @@ footer {
 
 .profile-list li {
   font-family: var(--sans);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: var(--text-muted);
   line-height: 1.7;
