@@ -429,7 +429,7 @@ img, video { max-width: 100%; height: auto; }
   border-radius: 0 2px 2px 0;
 }
 
-.search-btn:hover { background: var(--nord7); }
+.search-btn:hover { background: var(--nord8); }
 
 @keyframes search-btn-shake {
   0%, 100% { transform: translateX(0); }
