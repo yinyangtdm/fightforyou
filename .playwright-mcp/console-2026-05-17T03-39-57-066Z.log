@@ -1,3 +1,0 @@
-[     998ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.hpslawfirm.com/wp-content/cache/jch-optimize/assets1203442/js/6f06836f6b999b921bff5a7127487cd873f2b08393990bbc44644b55f5a6a9f8.js:3
-[    1113ms] [LOG] ready! @ https://www.hpslawfirm.com/wp-content/cache/jch-optimize/assets1203442/js/6f06836f6b999b921bff5a7127487cd873f2b08393990bbc44644b55f5a6a9f8.js:72
-[    1182ms] [WARNING] Datadog Browser SDK: env value doesn't meet tag requirements and will be sanitized. More details: https://docs.datadoghq.com/getting_started/tagging/#defining-tags @ https://www.datadoghq-browser-agent.com/datadog-rum-v5.js:0

@@ -931,7 +931,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 34px var(--page-px) 24px;
+  padding: 18px var(--page-px) 24px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
@@ -1009,7 +1009,7 @@ footer {
 
 .listing-header h1 {
   font-family: var(--serif);
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
   color: var(--nord6);
   letter-spacing: -0.02em;
@@ -1331,7 +1331,7 @@ footer {
   width: 100%;
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 12px var(--page-px) 0;
+  padding: 40px var(--page-px) 0;
   border-bottom: none;
 }
 
@@ -1791,7 +1791,7 @@ footer {
 .guides-header {
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 70px var(--page-px) 40px;
+  padding: 79px var(--page-px) 40px;
 }
 
 .guides-clear-filter {
@@ -2184,11 +2184,11 @@ footer {
 
 .guide-lead {
   font-family: var(--sans);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--text-muted);
   line-height: 1.75;
-  margin-top: 40px;
+  margin-top: 18px;
   padding-bottom: 0;
   border-bottom: none;
 }
@@ -2680,7 +2680,7 @@ footer {
   /* Listings */
   .breadcrumb-container,
   .guide-back-container { height: 44px; }
-  .listing-header { padding: 12px var(--page-px) 16px; }
+  .listing-header { padding: 17px var(--page-px) 16px; }
   .listing-section { padding: 28px 0; }
   .listing-filter-row { flex-wrap: wrap; }
   .listing-header h1 { font-size: 30px; }
@@ -2708,8 +2708,8 @@ footer {
   .guide-meta-categories::before { content: none; }
 
   /* Guides */
-  .guides-header { padding-top: 62px; padding-bottom: 28px; }
-  .guides-header h1 { font-size: 30px; margin-bottom: 20px; }
+  .guides-header { padding-top: 70px; padding-bottom: 28px; }
+  .guides-header h1 { font-size: 34px; margin-bottom: 20px; }
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }

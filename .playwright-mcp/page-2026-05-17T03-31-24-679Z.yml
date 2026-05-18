@@ -1,5 +1,0 @@
-- generic [active] [ref=e1]:
-  - generic [ref=e2]: Sorry, your request cannot be accepted.
-  - paragraph [ref=e3]:
-    - link "« Back" [ref=e4] [cursor=pointer]:
-      - /url: javascript:history.back()

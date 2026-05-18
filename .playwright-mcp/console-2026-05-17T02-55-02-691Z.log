@@ -1,7 +1,0 @@
-[     598ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://floridajustice.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
-[     762ms] [LOG] href value is not a URL or a fragment: /johns-family-featured-ortega-magazine/ @ https://floridajustice.com/wp-content/plugins/wp-accessibility/js/wp-accessibility.min.js?ver=2.3.3:0
-[     770ms] [LOG] opt-out @ https://floridajustice.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1777845352:0
-[   10178ms] [LOG] Invitation with cdn @ https://www.apexchat.net/scripts/invitation.ashx?company=knowthelawyer:0
-[   10772ms] [LOG] public path: https://v2.apex.live/contents/scripts/dist/ @ https://v2.apex.live/contents/scripts/dist/invitationHandler.chunk.753b10b243f4088562f2.js:0
-[   10900ms] [LOG] domain https://v2.apex.live/ Loading RdPlusTheme/prechat.css @ https://v2.apex.live/contents/scripts/dist/5413.chunk.753b10b243f4088562f2.js:0
-[   11272ms] [LOG] Rounded Template renderer _questionTypeUIConfiguration @ https://v2.apex.live/contents/scripts/dist/PreChatInvitation.chunk.753b10b243f4088562f2.js:0

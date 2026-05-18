@@ -23,7 +23,7 @@ export const PINNED_GUIDES = [
   {
     slug: "filing-deadlines-by-state",
     href: "/guides/filing-deadlines-by-state",
-    title: "State Filing Deadlines",
+    title: "Filing Deadlines by State",
     excerpt: "State-by-state statutes of limitations and notice-of-claim deadlines for civil rights cases. Missing a deadline permanently bars your claim.",
     authorName: "fightfor.you",
     date: "May 9, 2026",
@@ -32,7 +32,7 @@ export const PINNED_GUIDES = [
   {
     slug: "qualified-immunity",
     href: "/guides/qualified-immunity",
-    title: "Qualified Immunity Laws",
+    title: "Qualified Immunity Laws by State",
     excerpt: "How qualified immunity shields officers from personal liability, which states have reformed or abolished it, and what it means for your case.",
     authorName: "fightfor.you",
     date: "May 9, 2026",

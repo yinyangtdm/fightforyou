@@ -1,6 +1,0 @@
-[     836ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://www.myers-law.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
-[     870ms] [ERROR] Access to font at 'https://myers-law.com/wp-content/uploads/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia1zl7.woff2' from origin 'https://www.myers-law.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.myers-law.com/:0
-[     870ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://myers-law.com/wp-content/uploads/elementor/google-fonts/fonts/inter-ucc73fwrk3iltehus_nvmrmxcp50sjia1zl7.woff2:0
-[     870ms] [ERROR] Access to font at 'https://myers-law.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo7cnqeu92fr1me7ksn66agldtyluama3yuba.woff2' from origin 'https://www.myers-law.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.myers-law.com/:0
-[     870ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://myers-law.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo7cnqeu92fr1me7ksn66agldtyluama3yuba.woff2:0
-[     899ms] [LOG] init popups ✔ @ https://www.myers-law.com/wp-content/cache/min/1/wp-content/uploads/pum/pum-site-scripts.js?ver=1778683392:0

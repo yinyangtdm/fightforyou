@@ -1,8 +1,0 @@
-[     757ms] Unexpected token '<'
-[    1050ms] Unexpected token '<'
-[    1050ms] Unexpected token '<'
-[    1059ms] ReferenceError: jQuery is not defined
-    at https://www.grgblaw.com/:1899:457
-[    1072ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/bodonimoda/v28/aFTH7PxzY382XsXX63LUYL6GYFcan6NJrKp-VPj1KOxQ.woff2 @ https://www.grgblaw.com/:2143
-[    2386ms] Uncaught (in promise) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD
-    at e (https://static.olark.com/jsclient-bucket5/application2.js?v=1778876637982:32:11271)

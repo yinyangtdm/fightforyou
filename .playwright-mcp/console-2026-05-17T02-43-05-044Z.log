@@ -1,4 +1,0 @@
-[     981ms] [LOG] Invitation with cdn @ https://blazeo.com/scripts/invitation.ashx?company=cochranfirm:0
-[    1401ms] [LOG] public path: https://v2.vialivechat.com/contents/scripts/dist/ @ https://v2.vialivechat.com/contents/scripts/dist/invitationHandler.chunk.753b10b243f4088562f2.js:0
-[    1754ms] [LOG] domain https://v2.vialivechat.com/ Loading RdPlusTheme/prechat.css @ https://v2.vialivechat.com/contents/scripts/dist/5413.chunk.753b10b243f4088562f2.js:0
-[    2294ms] [LOG] Rounded Template renderer _questionTypeUIConfiguration @ https://v2.vialivechat.com/contents/scripts/dist/PreChatInvitation.chunk.753b10b243f4088562f2.js:0

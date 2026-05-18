@@ -1,3 +1,0 @@
-[     614ms] Unexpected token '<'
-[    2732ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://www.pattispazlaw.com/:0
-[    3001ms] [LOG] ServiceWorker registration successful with scope:  https://www.pattispazlaw.com/ @ https://www.pattispazlaw.com/:194

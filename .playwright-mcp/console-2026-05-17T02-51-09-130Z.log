@@ -1,8 +1,0 @@
-[    2196ms] ReferenceError: jQuery is not defined
-    at https://www.panish.law/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.24:1:1816
-[    2196ms] ReferenceError: jQuery is not defined
-    at https://www.panish.law/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.9.24:2:4603
-[    2413ms] [LOG] {reload: yes} @ https://www.panish.law/:14214
-[    4233ms] [INFO] Custom Script Started @ https://www.panish.law/wp-content/litespeed/js/4eddca3eeb0ac052bbc8ef4519fb9cb1.js?ver=624f5:418
-[    4707ms] [LOG] [LiteSpeed] Start Lazy Load @ https://www.panish.law/:14222
-[    5260ms] [LOG] Countdown finished! @ https://www.panish.law/wp-content/litespeed/js/4eddca3eeb0ac052bbc8ef4519fb9cb1.js?ver=624f5:419

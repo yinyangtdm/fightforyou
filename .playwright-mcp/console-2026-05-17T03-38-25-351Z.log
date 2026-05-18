@@ -1,3 +1,0 @@
-[     292ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://simonlawpc.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
-[     589ms] [LOG] [div.carousel--content-with-cards] @ https://simonlawpc.com/wp-content/themes/simonlaw/js/content-with-cards.js?ver=1.2.3:0
-[    1581ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin @ https://vimeo.com/ablincoln/vuid?pid=218aab2fead9dacbb2649500d0cc4667dae624881778989092:0
