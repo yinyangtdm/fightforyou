@@ -302,6 +302,7 @@ img, video { max-width: 100%; height: auto; }
 }
 
 [data-theme="light"] .hero-section { background: #ffffff; }
+[data-theme="light"] .hero h1 { color: var(--nord3); }
 
 .hero {
   padding: 72px var(--page-px) 72px;
