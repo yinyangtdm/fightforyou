@@ -326,7 +326,7 @@ img, video { max-width: 100%; height: auto; }
 .hero-sub {
   font-family: var(--sans);
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nord4);
   line-height: 1.75;
   max-width: 620px;
@@ -527,7 +527,7 @@ img, video { max-width: 100%; height: auto; }
 .about-inner p {
   font-family: var(--sans);
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nord4);
   line-height: 1.9;
   margin-bottom: 20px;
@@ -628,7 +628,7 @@ img, video { max-width: 100%; height: auto; }
 .rights-card p {
   font-family: var(--sans);
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nord4);
   line-height: 1.8;
   margin-bottom: 20px;
@@ -803,7 +803,7 @@ footer {
 .footer-brand p {
   font-family: var(--sans);
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nord4);
   line-height: 1.8;
   max-width: 260px;
@@ -826,7 +826,7 @@ footer {
   font-size: 13px;
   color: var(--nord4);
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   transition: color 0.18s;
   display: block;
   font-family: var(--sans);
@@ -844,7 +844,7 @@ footer {
 .footer-bottom p {
   font-size: 12px;
   color: var(--nord4);
-  font-weight: 300;
+  font-weight: 400;
   opacity: 0.7;
   font-family: var(--sans);
 }
@@ -1024,7 +1024,7 @@ footer {
 .listing-subheading {
   font-family: var(--sans);
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   line-height: 1.7;
   margin-bottom: 12px;
@@ -1283,7 +1283,7 @@ footer {
   display: block;
   font-family: var(--sans);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   margin: 0;
 }
@@ -1303,7 +1303,7 @@ footer {
 .listing-card-bio {
   font-family: var(--sans);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   margin: 0;
   line-height: 1.5;
@@ -1615,7 +1615,7 @@ footer {
 .profile-section > p, .profile-description > p {
   font-family: var(--sans);
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   line-height: 1.9;
   margin-bottom: 1em;
@@ -1626,7 +1626,7 @@ footer {
 .profile-specialty-link {
   font-family: var(--sans);
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--accent);
   text-decoration: none;
 }
@@ -1645,7 +1645,7 @@ footer {
 .profile-list li {
   font-family: var(--sans);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   line-height: 1.7;
   padding-left: 16px;
@@ -1773,7 +1773,7 @@ footer {
 .profile-contact-item a {
   font-family: var(--sans);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--nord6);
   text-decoration: none;
   word-break: break-all;
@@ -1821,7 +1821,7 @@ footer {
 .guides-subheading {
   font-family: var(--sans);
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   line-height: 1.75;
 }
@@ -1907,7 +1907,7 @@ footer {
 .guide-card-excerpt {
   font-family: var(--sans);
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   line-height: 1.7;
   display: -webkit-box;
@@ -2111,7 +2111,7 @@ footer {
 .guides-cta p {
   font-family: var(--sans);
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   line-height: 1.7;
   max-width: 520px;
@@ -2187,7 +2187,7 @@ footer {
 .guide-lead {
   font-family: var(--sans);
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text-muted);
   line-height: 1.75;
   margin-top: 40px;
@@ -2226,7 +2226,7 @@ footer {
 .guide-body {
   font-family: var(--sans);
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.85;
   color: var(--nord5);
 }
@@ -2301,7 +2301,7 @@ footer {
 .glossary-def {
   font-family: var(--sans);
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.75;
   color: var(--nord4);
   margin: 0;
