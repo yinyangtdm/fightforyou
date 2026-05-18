@@ -745,7 +745,7 @@ img, video { max-width: 100%; height: auto; }
 /* ── FOOTER ── */
 footer {
   /* Footer is always dark regardless of theme */
-  background: #2e3440;
+  background: #d8dee9;
   border-top: 1px solid rgba(216, 222, 233, 0.1);
   padding: var(--sp-8) 0 0;
   --bg-base:    #2e3440;
