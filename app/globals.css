@@ -770,7 +770,9 @@ footer {
 }
 
 .footer-brand-logo { display: block; margin-bottom: 12px; }
-[data-theme="light"] .footer-brand-logo { display: none; }
+.footer-brand-logo--light { display: none; }
+[data-theme="light"] .footer-brand-logo--dark { display: none; }
+[data-theme="light"] .footer-brand-logo--light { display: block; }
 
 .footer-inner {
   max-width: var(--page-max);

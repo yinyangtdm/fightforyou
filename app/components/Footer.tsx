@@ -7,7 +7,8 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-top">
           <div className="footer-brand">
-            <Image src="/logo.svg" alt="fightforyou" width={120} height={40} className="footer-brand-logo" />
+            <Image src="/logo-dark.svg" alt="fightforyou" width={120} height={40} className="footer-brand-logo footer-brand-logo--dark" />
+            <Image src="/logo-light.svg" alt="fightforyou" width={120} height={40} className="footer-brand-logo footer-brand-logo--light" />
             <Link href="/" className="footer-logo">
               fightfor<span>you</span>
             </Link>
