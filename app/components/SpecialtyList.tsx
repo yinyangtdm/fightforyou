@@ -6,7 +6,7 @@ import { toSlug } from "../lib/slugs"
 
 export default function SpecialtyList({ specialties }: { specialties: string[] }) {
   const containerRef = useRef<HTMLDivElement>(null)
-  const [visibleCount, setVisibleCount] = useState(specialties.length)
+  const [visibleCount, setVisibleCount] = useState(0)
   const lastWidth = useRef(0)
 
   const measure = useCallback(() => {
@@ -70,6 +70,12 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
     const container = containerRef.current
     if (!container) return
 
+    // Measure immediately (synchronous) so nothing overflows on first paint
+    setVisibleCount(specialties.length)
+    void container.offsetHeight
+    measure()
+
+    // Re-measure once fonts are ready for pixel-accurate result
     document.fonts.ready.then(() => {
       requestAnimationFrame(() => { lastWidth.current = 0; measure() })
     })
@@ -77,7 +83,7 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
     const observer = new ResizeObserver(() => requestAnimationFrame(measure))
     observer.observe(container)
     return () => observer.disconnect()
-  }, [measure])
+  }, [measure, specialties.length])
 
   const hidden = specialties.length - visibleCount
 
