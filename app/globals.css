@@ -1205,7 +1205,7 @@ footer {
   white-space: nowrap;
   font-size: 10px;
   padding: 3px 8px;
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 8px 8px;
 }
 
 .profile-photo-wrap {
@@ -1225,14 +1225,14 @@ footer {
 .listing-card-img {
   width: 144px;
   height: 144px;
-  border-radius: 2px 2px 0 0;
+  border-radius: 8px 8px 0 0;
   object-fit: cover;
 }
 
 .listing-card-img-placeholder {
   width: 144px;
   height: 144px;
-  border-radius: 2px 2px 0 0;
+  border-radius: 8px 8px 0 0;
   background: var(--nord2);
   border: 1px solid var(--border-on-dark);
 }
