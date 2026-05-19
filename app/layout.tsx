@@ -26,6 +26,10 @@ export const metadata: Metadata = {
     default: "fightfor.you",
   },
   description: "Find verified civil rights attorneys with a proven record against law enforcement.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
