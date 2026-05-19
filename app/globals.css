@@ -147,30 +147,30 @@ input, textarea, select { font-size: 16px; }
 /* Smooth image rendering */
 img, video { max-width: 100%; height: auto; }
 
-/* ── Admin layout ── */
+/* ── Admin layout — hardcoded b/w, immune to theme cascade ── */
 .admin-layout {
-  background: var(--nord0);
-  color: var(--nord6);
+  background: #1a1a1a;
+  color: #f0f0f0;
   min-height: 100vh;
 }
 
 .admin-layout input:not([type="checkbox"]):not([type="radio"]),
 .admin-layout textarea,
 .admin-layout select {
-  background: var(--nord2);
-  color: var(--nord6);
-  border-color: var(--nord3);
+  background: #2a2a2a;
+  color: #f0f0f0;
+  border-color: #444;
 }
 
 .admin-layout input:not([type="checkbox"]):not([type="radio"]):focus,
 .admin-layout textarea:focus,
 .admin-layout select:focus {
-  outline-color: var(--nord8);
-  border-color: var(--nord8);
+  outline-color: #88c0d0;
+  border-color: #88c0d0;
 }
 
 .admin-layout label {
-  color: var(--nord5);
+  color: #d0d0d0;
 }
 
 /* ── Public page wrapper ── */
