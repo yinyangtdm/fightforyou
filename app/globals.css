@@ -1679,6 +1679,7 @@ footer {
 
 .profile-map-placeholder {
   border-radius: 8px;
+  overflow: hidden;
   background: var(--nord2);
   border: 1px solid var(--border-on-dark);
   height: 440px;
@@ -1737,7 +1738,7 @@ footer {
   font-weight: 600;
   text-decoration: none;
   border: none;
-  border-radius: 4px;
+  border-radius: 0 0 4px 4px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
   transition: background 0.15s, box-shadow 0.15s;

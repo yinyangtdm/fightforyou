@@ -69,7 +69,7 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
-      <div ref={containerRef} style={{ width: "100%", height: "100%", minHeight: 400, borderRadius: 8 }} />
+      <div ref={containerRef} style={{ width: "100%", height: "100%", minHeight: 400, borderRadius: "8px 8px 0 0" }} />
       <div className="profile-map-actions">
         <a href={directionsUrl} target="_blank" rel="noopener noreferrer" className="profile-map-directions-link">
           Get Directions
