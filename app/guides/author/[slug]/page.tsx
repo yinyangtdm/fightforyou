@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { guides } = await getData(slug)
   const authorName = slug === "fight-for-you" ? "fightfor.you" : (guides[0]?.authorName ?? slug)
   return {
-    title: `Guides by ${authorName} | fightfor.you`,
+    title: `Guides by ${authorName}`,
     description: `Civil rights guides and resources written by ${authorName}.`,
   }
 }

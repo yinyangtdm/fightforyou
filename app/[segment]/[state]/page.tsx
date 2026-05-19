@@ -77,7 +77,7 @@ export async function generateMetadata({
   if (!data) return {}
 
   return {
-    title: `${data.specialty} Attorneys in ${data.stateName} | fightfor.you`,
+    title: `${data.specialty} Attorneys in ${data.stateName}`,
     description: `Find verified ${data.specialty} attorneys in ${data.stateName} with a proven record against law enforcement.`,
   }
 }

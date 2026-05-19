@@ -49,7 +49,7 @@ export async function generateMetadata({
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
 
   return {
-    title: `${listing.name} — ${type}${location ? ` in ${location}` : ""} | fightfor.you`,
+    title: `${listing.name} — ${type}${location ? ` in ${location}` : ""}`,
     description: listing.tagline ?? listing.description?.slice(0, 160) ?? undefined,
   }
 }

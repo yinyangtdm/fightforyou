@@ -9,7 +9,7 @@ import QIStatePicker from "./StatePicker"
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "Qualified Immunity Laws | fightfor.you",
+  title: "Qualified Immunity Laws",
   description: "How qualified immunity works, which states have reformed or abolished it, and what it means for your civil rights case.",
 }
 

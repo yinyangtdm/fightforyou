@@ -9,7 +9,7 @@ import StatePicker from "./StatePicker"
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "State Filing Deadlines | fightfor.you",
+  title: "State Filing Deadlines",
   description: "State-by-state statutes of limitations and notice-of-claim deadlines for civil rights cases. Missing a deadline permanently bars your claim.",
 }
 

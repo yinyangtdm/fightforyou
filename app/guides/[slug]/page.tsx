@@ -40,7 +40,7 @@ export async function generateMetadata({
   const data = await getData(slug)
   if (!data) return {}
   return {
-    title: `${data.guide.title} | fightfor.you`,
+    title: data.guide.title,
     description: data.guide.excerpt ?? undefined,
   }
 }

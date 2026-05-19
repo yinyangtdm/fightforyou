@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const { category } = await params
   const displayCategory = categoryFromSlug(category)
   return {
-    title: `Guides tagged "${displayCategory}" | fightfor.you`,
+    title: `Guides tagged "${displayCategory}"`,
     description: `Civil rights guides and resources tagged "${displayCategory}".`,
   }
 }

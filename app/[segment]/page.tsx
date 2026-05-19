@@ -108,7 +108,7 @@ export async function generateMetadata({
       : `${data.label} Attorneys`
 
   return {
-    title: `${title} | fightfor.you`,
+    title,
     description: `Find verified ${data.type === "state" ? `civil rights attorneys in ${data.label}` : `${data.label} attorneys`} with a proven record against law enforcement.`,
   }
 }

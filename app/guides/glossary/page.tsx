@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "Legal Glossary | fightfor.you",
+  title: "Legal Glossary",
   description: "Plain-language definitions of legal terms used in civil rights cases — from qualified immunity to Section 1983.",
 }
 

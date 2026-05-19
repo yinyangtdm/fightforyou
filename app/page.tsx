@@ -1,5 +1,6 @@
 export const dynamic = "force-dynamic"
 
+import type { Metadata } from "next"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "./components/Nav"
@@ -8,6 +9,11 @@ import SearchBar from "./components/SearchBar"
 import Link from "next/link"
 import Image from "next/image"
 import { deriveExcerpt, PINNED_GUIDES } from "./guides/_lib"
+
+export const metadata: Metadata = {
+  title: "Civil Rights Attorney Directory",
+  description: "Find verified civil rights attorneys with a proven record against law enforcement. Search by state or practice area.",
+}
 
 const STATE_NAMES: Record<string, string> = {
   AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",

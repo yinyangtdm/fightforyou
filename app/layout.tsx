@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono, Open_Sans, Merriweather } from "next/font/google"
 import "./globals.css"
 import { Providers } from './providers'
+import type { Metadata } from "next"
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] })
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] })
@@ -19,9 +20,12 @@ const merriweather = Merriweather({
   style: ["normal", "italic"],
 })
 
-export const metadata = {
-  title: process.env.NEXT_PUBLIC_APP_TITLE || "fightfor.you",
-  description: "Holding Police Accountable",
+export const metadata: Metadata = {
+  title: {
+    template: "%s | fightfor.you",
+    default: "fightfor.you",
+  },
+  description: "Find verified civil rights attorneys with a proven record against law enforcement.",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
