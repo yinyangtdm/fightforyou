@@ -34,8 +34,8 @@ export default function GlobalError({
         An unexpected error occurred. You can try again or go back to the home page.
       </p>
       <div style={{ display: "flex", gap: "12px", marginTop: "8px", flexWrap: "wrap", justifyContent: "center" }}>
-        <button onClick={reset} className="btn-primary">Try again</button>
-        <Link href="/" style={{ color: "var(--accent)", textDecoration: "none", fontFamily: "var(--sans)", fontSize: "15px", padding: "0 4px" }}>Go home →</Link>
+        <Link href="/" className="btn-primary">Go home</Link>
+        <button onClick={reset} className="btn-primary" style={{ background: "transparent", border: "1.5px solid var(--nord4)", color: "var(--nord4)" }}>Try again</button>
       </div>
     </div>
   )

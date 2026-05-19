@@ -29,7 +29,7 @@ export default function NotFound() {
         </p>
         <div style={{ display: "flex", gap: "12px", marginTop: "8px", flexWrap: "wrap", justifyContent: "center" }}>
           <Link href="/" className="btn-primary">Go home</Link>
-          <Link href="/guides" style={{ color: "var(--accent)", textDecoration: "none", fontFamily: "var(--sans)", fontSize: "15px", padding: "0 4px" }}>Browse guides →</Link>
+          <Link href="/guides" className="btn-primary" style={{ background: "transparent", border: "1.5px solid var(--nord4)", color: "var(--nord4)" }}>Browse guides</Link>
         </div>
       </main>
 
