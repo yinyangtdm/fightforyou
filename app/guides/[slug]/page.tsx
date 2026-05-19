@@ -132,7 +132,7 @@ export default async function GuidePage({
     <div className="public">
       <Nav specialties={specialties} guides={navGuides} />
 
-      <div className="guide-page">
+      <main className="guide-page" id="main-content">
         <div className="guide-back-container">
           <Link href="/guides" className="guide-back">← All Guides</Link>
         </div>
@@ -175,7 +175,7 @@ export default async function GuidePage({
           </div>
 
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

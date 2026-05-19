@@ -162,7 +162,7 @@ export default async function ProfilePage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav specialties={specialties} guides={[]} />
 
-      <div className="profile-page">
+      <main className="profile-page" id="main-content">
         <div className="breadcrumb-container">
           <Breadcrumb items={breadcrumbItems} />
         </div>
@@ -346,7 +346,7 @@ export default async function ProfilePage({
             )}
           </div>
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

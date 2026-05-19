@@ -43,7 +43,7 @@ export default async function GuidesPage() {
     <div className="public">
       <Nav specialties={specialties} guides={navGuides} />
 
-      <div className="guides-page">
+      <main className="guides-page" id="main-content">
         <div className="guides-header">
           <h1>Guides &amp; Resources</h1>
           <p className="guides-subheading">
@@ -114,7 +114,7 @@ export default async function GuidesPage() {
           <p>Share your expertise by contributing a guide. Attorney submissions are reviewed before publishing.</p>
           <Link href="/admin/login" className="btn-primary">Submit a Guide</Link>
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

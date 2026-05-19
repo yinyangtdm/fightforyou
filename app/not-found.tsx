@@ -12,7 +12,7 @@ export default function NotFound() {
     <div className="public">
       <Nav specialties={[]} guides={[]} />
 
-      <div style={{
+      <main id="main-content" style={{
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -31,7 +31,7 @@ export default function NotFound() {
           <Link href="/" className="btn-primary">Go home</Link>
           <Link href="/guides" style={{ color: "var(--accent)", textDecoration: "none", fontFamily: "var(--sans)", fontSize: "15px", padding: "0 4px" }}>Browse guides →</Link>
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

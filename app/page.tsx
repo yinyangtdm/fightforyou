@@ -68,7 +68,7 @@ export default async function HomePage() {
     <div className="public">
       <Nav specialties={practices} guides={guides.slice(0, 8).map((g) => ({ title: g.title, slug: g.slug }))} />
 
-      <div className="home-page">
+      <main className="home-page" id="main-content">
         {/* Hero */}
         <section className="hero-section">
           <div className="hero">
@@ -213,7 +213,7 @@ export default async function HomePage() {
             )}
           </div>
         </section>
-      </div>
+      </main>
 
       <Footer />
     </div>

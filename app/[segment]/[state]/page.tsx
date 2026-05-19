@@ -95,7 +95,7 @@ export default async function SpecialtyStatePage({
     <div className="public">
       <Nav specialties={data.specialties} guides={data.guides} />
 
-      <div className="listing-page">
+      <main className="listing-page" id="main-content">
         <div className="breadcrumb-container">
           <Breadcrumb
             items={[
@@ -128,7 +128,7 @@ export default async function SpecialtyStatePage({
         </div>
 
         <FilingDeadlines stateAbbr={data.stateAbbr} />
-      </div>
+      </main>
 
       <Footer />
     </div>

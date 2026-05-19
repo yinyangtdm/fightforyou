@@ -26,11 +26,7 @@ export const metadata: Metadata = {
     default: "fightfor.you",
   },
   description: "Find verified civil rights attorneys with a proven record against law enforcement.",
-  robots: {
-    index: false,
-    follow: false,
-  },
-    metadataBase: new URL("https://fightfor.you"),
+  metadataBase: new URL("https://fightfor.you"),
   openGraph: {
     siteName: "fightfor.you",
     images: [{ url: "https://fightfor.you/og-image.png", width: 1200, height: 630 }],
@@ -46,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${geistSans.variable} ${geistMono.variable} ${openSans.variable} ${merriweather.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <a href="#main-content" className="skip-link">Skip to main content</a>
         <Providers>
           {children}
         </Providers>

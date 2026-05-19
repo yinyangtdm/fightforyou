@@ -126,6 +126,9 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           >
             <a
               href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded={openMenu === "states" || openAccordion === "states"}
               className={`nav-accordion-trigger${openMenu === "states" ? " nav-trigger-active" : ""}`}
               onClick={(e) => {
                 e.preventDefault()
@@ -151,6 +154,9 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           >
             <a
               href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded={openMenu === "specialty" || openAccordion === "specialty"}
               className={`nav-accordion-trigger${openMenu === "specialty" ? " nav-trigger-active" : ""}`}
               onClick={(e) => {
                 e.preventDefault()
@@ -175,6 +181,9 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           >
             <a
               href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded={openMenu === "rights" || openAccordion === "rights"}
               className={`nav-accordion-trigger${openMenu === "rights" ? " nav-trigger-active" : ""}`}
               onClick={(e) => {
                 e.preventDefault()

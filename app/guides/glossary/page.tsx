@@ -197,7 +197,7 @@ export default async function GlossaryPage({
         return (
           <a
             key={pageNum}
-            href={`/guides/glossary?page=${pageNum}#top`}
+            href={`/guides/glossary?page=${pageNum}#main-content`}
             className={`glossary-page-btn${currentPage === pageNum ? " glossary-page-btn--active" : ""}`}
           >
             {label}
@@ -211,7 +211,7 @@ export default async function GlossaryPage({
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="guide-page" id="top">
+      <main className="guide-page" id="main-content">
         <div className="guide-back-container">
           <Link href="/guides" className="guide-back">← All Guides</Link>
         </div>
@@ -236,7 +236,7 @@ export default async function GlossaryPage({
                       </div>
                     ))}
                   </dl>
-                  <a href="#top" className="glossary-top-link">↑ Back to top</a>
+                  <a href="#main-content" className="glossary-top-link">↑ Back to top</a>
                 </div>
               ))}
             </div>
@@ -244,7 +244,7 @@ export default async function GlossaryPage({
             {pagination}
           </div>
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

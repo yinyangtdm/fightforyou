@@ -1,5 +1,28 @@
 @import "tailwindcss";
 
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.5rem 1rem;
+  background: var(--accent);
+  color: var(--nord0);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  transition: top 0.15s;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 2px solid var(--nord0);
+  outline-offset: 2px;
+}
+
 :root {
   /* ── Nord colour palette ── */
   --nord0:  #2e3440;

@@ -48,6 +48,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     <div className="public">
       <Nav specialties={specialties} guides={navGuides} />
 
+      <main id="main-content">
       <div className="guide-back-container">
         <Link href="/guides" className="guide-back">← All Guides</Link>
       </div>
@@ -100,6 +101,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
           <p className="guides-empty">No guides found.</p>
         )}
       </div>
+      </main>
 
       <Footer />
     </div>

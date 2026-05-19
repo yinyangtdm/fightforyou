@@ -42,7 +42,7 @@ export default async function QualifiedImmunityPage() {
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="guide-page">
+      <main className="guide-page" id="main-content">
         <div className="guide-back-container">
           <Link href="/guides" className="guide-back">← All Guides</Link>
         </div>
@@ -167,7 +167,7 @@ export default async function QualifiedImmunityPage() {
             </div>
           </div>
         </div>
-      </div>
+      </main>
 
       <Footer />
     </div>

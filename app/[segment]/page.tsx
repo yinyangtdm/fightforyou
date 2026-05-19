@@ -138,7 +138,7 @@ export default async function SegmentPage({
     <div className="public">
       <Nav specialties={specialties} guides={guides} />
 
-      <div className="listing-page">
+      <main className="listing-page" id="main-content">
         <div className="breadcrumb-container">
           <Breadcrumb
             items={[
@@ -185,7 +185,7 @@ export default async function SegmentPage({
         </div>
 
         {data.type === "state" && <FilingDeadlines stateAbbr={data.stateAbbr} />}
-      </div>
+      </main>
 
       <Footer />
     </div>
