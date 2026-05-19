@@ -11,6 +11,7 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import SpecialtyList from "../../components/SpecialtyList"
 import ProfileMap from "../../components/ProfileMap"
+import ShareButton from "../../components/ShareButton"
 
 export const revalidate = 3600
 
@@ -227,6 +228,7 @@ export default async function ProfilePage({
               Visit Website
             </a>
           )}
+          <ShareButton name={listing.name} />
         </div>
         </div>
         </div>
