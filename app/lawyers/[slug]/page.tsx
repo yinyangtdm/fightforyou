@@ -201,7 +201,7 @@ export default async function ProfilePage({
           </div>
 
           <div className="profile-actions-col">
-          <div style={{ display: "flex", justifyContent: "flex-end", padding: "12px 12px 0 0" }}>
+          <div style={{ position: "absolute", top: 8, right: 8 }}>
             <ShareButton name={listing.name} />
           </div>
           {listing.phone && (

@@ -1374,6 +1374,7 @@ footer {
   align-content: center;
   gap: 10px;
   padding: 16px 24px;
+  position: relative;
 }
 
 .profile-page {
