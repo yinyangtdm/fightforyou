@@ -133,8 +133,33 @@ export default async function ProfilePage({
 
   breadcrumbItems.push({ label: listing.name, href: "" })
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": listing.isFirm ? "LegalService" : "Attorney",
+    "name": listing.name,
+    "description": listing.tagline ?? listing.description?.slice(0, 200) ?? undefined,
+    "url": `https://fightfor.you/lawyers/${listing.slug}`,
+    ...(listing.phone && { "telephone": listing.phone }),
+    ...(listing.email && { "email": listing.email }),
+    ...(listing.website && { "sameAs": listing.website }),
+    ...((listing.streetAddress || listing.city || listing.state) && {
+      "address": {
+        "@type": "PostalAddress",
+        ...(listing.streetAddress && { "streetAddress": listing.streetAddress }),
+        ...(listing.city && { "addressLocality": listing.city }),
+        ...(listing.state && { "addressRegion": listing.state }),
+        ...(listing.zipCode && { "postalCode": listing.zipCode }),
+        "addressCountry": "US",
+      },
+    }),
+    "areaServed": listing.isNational ? "US" : listing.state ?? undefined,
+    ...(listing.photoUrl && { "image": listing.photoUrl }),
+    ...(listing.specialties.length > 0 && { "knowsAbout": listing.specialties }),
+  }
+
   return (
     <div className="public profile-public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav specialties={specialties} guides={[]} />
 
       <div className="profile-page">
