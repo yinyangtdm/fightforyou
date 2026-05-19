@@ -147,30 +147,30 @@ input, textarea, select { font-size: 16px; }
 /* Smooth image rendering */
 img, video { max-width: 100%; height: auto; }
 
-/* ── Admin layout — hardcoded b/w, immune to theme cascade ── */
+/* ── Admin layout — hardcoded light, immune to theme cascade ── */
 .admin-layout {
-  background: #1a1a1a;
-  color: #f0f0f0;
+  background: #f5f5f5;
+  color: #111;
   min-height: 100vh;
 }
 
 .admin-layout input:not([type="checkbox"]):not([type="radio"]),
 .admin-layout textarea,
 .admin-layout select {
-  background: #2a2a2a;
-  color: #f0f0f0;
-  border-color: #444;
+  background: #fff;
+  color: #111;
+  border-color: #ccc;
 }
 
 .admin-layout input:not([type="checkbox"]):not([type="radio"]):focus,
 .admin-layout textarea:focus,
 .admin-layout select:focus {
-  outline-color: #88c0d0;
-  border-color: #88c0d0;
+  outline-color: #5e81ac;
+  border-color: #5e81ac;
 }
 
 .admin-layout label {
-  color: #d0d0d0;
+  color: #333;
 }
 
 /* ── Public page wrapper ── */
