@@ -48,9 +48,19 @@ export async function generateMetadata({
   const location = [listing.city, stateName].filter(Boolean).join(", ")
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
 
+  const description = listing.tagline ?? listing.description?.slice(0, 160) ?? undefined
+
   return {
     title: `${listing.name} — ${type}${location ? ` in ${location}` : ""}`,
-    description: listing.tagline ?? listing.description?.slice(0, 160) ?? undefined,
+    description,
+    openGraph: {
+      title: `${listing.name} — ${type}${location ? ` in ${location}` : ""}`,
+      description,
+      type: "profile",
+      images: listing.photoUrl
+        ? [{ url: listing.photoUrl, width: 400, height: 400 }]
+        : undefined,
+    },
   }
 }
 
