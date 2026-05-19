@@ -20,12 +20,25 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
     const items = Array.from(container.querySelectorAll<HTMLElement>("[data-item]"))
     if (!items.length) return
 
-    // Show all items for measurement
-    items.forEach(el => { el.style.display = "" })
+    // Capture container bounds BEFORE revealing items — its size is set by the
+    // flex parent and won't change, but we want the measurement before any reflow.
+    const containerRect = container.getBoundingClientRect()
+
+    // Temporarily reveal all items at their natural (unshrunk) widths so
+    // getBoundingClientRect returns true positions. flex-shrink:0 prevents the
+    // browser from squishing items into available space, which would make a
+    // partially-overflowing item appear to fit.
+    items.forEach(el => {
+      el.style.display = ""
+      el.style.flexShrink = "0"
+    })
+    container.style.overflow = "visible"
     void container.offsetHeight
 
-    const containerRect = container.getBoundingClientRect()
     const rects = items.map(el => el.getBoundingClientRect())
+
+    container.style.overflow = ""
+    items.forEach(el => { el.style.flexShrink = "" })
 
     // Collect distinct line tops (4px tolerance for subpixel)
     const lineTops: number[] = []
@@ -45,9 +58,9 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
       }
     }
 
-    // Also cut items that overflow the container's right edge
+    // Also cut items that overflow the container's right edge (12px buffer for subpixel/reflow)
     for (let i = 0; i < cutoff; i++) {
-      if (rects[i].right > containerRect.right + 1) {
+      if (rects[i].right > containerRect.right - 12) {
         cutoff = i
         break
       }
@@ -60,6 +73,15 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
         cutoff--
       }
     }
+
+    // We cleared every item's inline display during measurement. React only
+    // patches the DOM when it detects a vdom diff — if an item's style prop
+    // stays { display: "none" } (prev === next), React skips the update and
+    // leaves our mutation in place. Re-apply display:none for hidden items so
+    // the DOM baseline matches what React will write on the next render.
+    items.forEach((el, i) => {
+      if (i >= cutoff) el.style.display = "none"
+    })
 
     setVisibleCount(cutoff)
   }, [])
@@ -80,7 +102,7 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
       requestAnimationFrame(() => { lastWidth.current = 0; measure() })
     })
 
-    const observer = new ResizeObserver(() => requestAnimationFrame(measure))
+    const observer = new ResizeObserver(() => { lastWidth.current = 0; requestAnimationFrame(() => requestAnimationFrame(measure)) })
     observer.observe(container)
     return () => observer.disconnect()
   }, [measure, specialties.length])
