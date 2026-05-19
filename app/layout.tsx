@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
+    metadataBase: new URL("https://fightfor.you"),
   openGraph: {
     siteName: "fightfor.you",
     images: [{ url: "https://fightfor.you/og-image.png", width: 1200, height: 630 }],
