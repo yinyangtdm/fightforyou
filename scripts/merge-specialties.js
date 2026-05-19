@@ -144,6 +144,8 @@ const MERGES = {
 
   // Wrongful Conviction variants
   "Exoneration Cases": "Wrongful Conviction",
+
+  "Unlawful Detention": "Wrongful Imprisonment",
 }
 
 const REMOVE = new Set([
@@ -191,3 +193,4 @@ async function main() {
 }
 
 main().finally(() => prisma.$disconnect())
+

@@ -62,7 +62,7 @@ export default function SpecialtyList({ specialties }: { specialties: string[] }
     }
 
     setVisibleCount(cutoff)
-  }, [specialties])
+  }, [])
 
   useLayoutEffect(() => {
     lastWidth.current = 0
