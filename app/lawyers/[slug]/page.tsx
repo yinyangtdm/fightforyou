@@ -162,7 +162,8 @@ export default async function ProfilePage({
           </div>
 
           <div className="profile-info-col">
-          <div className="profile-info-identity">
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
+            <div className="profile-info-identity" style={{ flex: 1 }}>
             <h1 className="profile-name">{listing.name}</h1>
             {!listing.isNonprofit && !listing.isFirm && listing.firm && listing.name !== listing.firm && (
               <div className="profile-field">
@@ -175,6 +176,8 @@ export default async function ProfilePage({
                 <p className="profile-firm">{listing.firm}</p>
               </div>
             )}
+            </div>
+            <ShareButton name={listing.name} />
           </div>
           <div className="profile-info-details">
             {[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).length > 0 && (
@@ -228,7 +231,6 @@ export default async function ProfilePage({
               Visit Website
             </a>
           )}
-          <ShareButton name={listing.name} />
         </div>
         </div>
         </div>
