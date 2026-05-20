@@ -453,8 +453,6 @@ img, video { max-width: 100%; height: auto; }
   border-radius: 0 2px 2px 0;
 }
 
-.search-btn:hover { background: var(--nord8); }
-
 @keyframes search-btn-shake {
   0%, 100% { transform: translateX(0); }
   20%       { transform: translateX(-4px); }
@@ -1271,7 +1269,7 @@ footer {
 
 .listing-card-info { flex: 1; min-width: 0; }
 
-.listing-card-meta {
+.listing-card-info-grid {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -1358,10 +1356,7 @@ footer {
 
 /* ── PROFILE PAGE ── */
 .profile-public {
-  background: var(--nord0);
-  background: -webkit-linear-gradient(315deg, var(--nord1) 0%, var(--nord1) 0%, var(--nord0) 59%, var(--nord0) 100%) fixed;
-  background: -moz-linear-gradient(315deg, var(--nord1) 0%, var(--nord1) 0%, var(--nord0) 59%, var(--nord0) 100%) fixed;
-  background: linear-gradient(315deg, var(--nord1) 0%, var(--nord1) 0%, var(--nord0) 59%, var(--nord0) 100%) fixed;
+  background: linear-gradient(315deg, var(--nord1) 0%, var(--nord0) 59%) fixed;
 }
 
 .profile-hero-outer {
@@ -1466,12 +1461,6 @@ footer {
   line-height: 1.6;
   overflow-wrap: break-word;
   word-break: break-word;
-}
-
-.profile-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .profile-actions-col .btn-primary {
@@ -1613,13 +1602,16 @@ footer {
 .btn-outline-404 {
   display: inline-flex;
   align-items: center;
-  padding: 10px 20px;
+  justify-content: center;
+  padding: 0 24px;
+  height: 48px;
+  box-sizing: border-box;
   border: 1.5px solid var(--nord4);
-  border-radius: 6px;
+  border-radius: 4px;
   color: var(--nord4);
   font-family: var(--sans);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   background: transparent;
   transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
@@ -1766,6 +1758,27 @@ footer {
 
 .mapboxgl-popup-close-button {
   color: var(--nord4) !important;
+}
+
+.mapboxgl-ctrl-group {
+  background: var(--nord1) !important;
+  border: 1px solid var(--border-on-dark) !important;
+  box-shadow: none !important;
+  border-radius: 4px !important;
+}
+
+.mapboxgl-ctrl-group button {
+  background: transparent !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.mapboxgl-ctrl-group button:hover {
+  background: var(--nord2) !important;
+}
+
+.mapboxgl-ctrl-group button .mapboxgl-ctrl-icon {
+  filter: invert(0.8) !important;
 }
 
 .profile-map-actions {
@@ -1932,10 +1945,6 @@ footer {
 [data-theme="light"] .glossary-page-btn--active { background: var(--nord0); }
 .guide-card:hover::before { height: 100%; }
 
-.guide-card--featured {
-  padding: 28px 32px;
-}
-
 .guide-card-category {
   font-family: var(--serif);
   font-size: 10px;
@@ -1952,10 +1961,6 @@ footer {
   color: var(--nord4);
   line-height: 1.25;
   margin: 0;
-}
-
-.guide-card--featured .guide-card-title {
-  font-size: 22px;
 }
 
 .guide-card-excerpt {
@@ -2055,7 +2060,7 @@ footer {
 
 .guide-pinned-card .guide-card-title {
   font-size: 22px;
-  margin: 0px 0 10px;
+  margin: 0 0 10px;
 }
 
 .guide-pinned-card .guide-card-excerpt {
@@ -2449,10 +2454,6 @@ footer {
   top: 3px;
 }
 
-.guide-body-list--ol {
-  counter-reset: none;
-}
-
 .guide-body-list--ol li::before {
   content: counter(list-item) ".";
   counter-increment: list-item;
@@ -2765,9 +2766,8 @@ footer {
   /* Profile */
   .profile-body { padding: 12px var(--page-px) 64px; }
   .profile-name { font-size: 28px; }
-  .profile-hero { margin: 0 0 16px; border-radius: 8px; }
+  .profile-hero { margin: 0 0 16px; border-radius: 8px; grid-template-columns: 168px 1fr; }
   .profile-map-row { grid-template-columns: 1fr; }
-  .profile-hero { grid-template-columns: 168px 1fr; }
   .profile-photo-col { padding: 10px; }
   .profile-photo-wrap { width: 148px; }
   .profile-info-col { padding: 12px 16px; }
@@ -2787,9 +2787,8 @@ footer {
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
-  .guide-page-inner { padding: 0 var(--page-px) 64px; }
+  .guide-page-inner { padding: 0 var(--page-px) 64px; grid-template-columns: 1fr; }
   .guide-title { font-size: 30px; }
-  .guide-page-inner { grid-template-columns: 1fr; }
   .guide-sidebar { position: static; border-top: 1px solid var(--border-on-dark); padding-top: 40px; }
 }
 

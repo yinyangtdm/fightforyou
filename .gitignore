@@ -29,7 +29,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
-
+debug.log*
 # env files (can opt-in for committing if needed)
 .env*
 
@@ -42,6 +42,7 @@ next-env.d.ts
 
 # local data
 profiles.sql
+scripts/emails.csv
 
 docker-compose.yml
 .aider*

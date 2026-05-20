@@ -245,7 +245,7 @@ export default async function ProfilePage({
                 <rect x="2" y="4" width="20" height="16" rx="2" />
                 <path d="m22 7-10 5L2 7" />
               </svg>
-              Message Me
+              Send Message
             </a>
           )}
           {listing.website && (

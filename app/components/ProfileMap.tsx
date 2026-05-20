@@ -51,7 +51,10 @@ export default function ProfileMap({ latitude, longitude, name }: Props) {
       const url = isApple ? appleUrl : googleUrl
       const popupHtml = `<strong>${name}</strong><br/><a href="${url}" target="_blank" rel="noopener noreferrer">Get Directions</a>`
 
-      new mapboxgl.Marker({ color: "#5E81AC" })
+      const markerEl = document.createElement("div")
+      markerEl.style.cssText = "width:14px;height:14px;border-radius:50%;background:var(--accent);border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,0.4);"
+
+      new mapboxgl.Marker({ element: markerEl })
         .setLngLat([longitude, latitude])
         .setPopup(new mapboxgl.Popup({ offset: 25 }).setHTML(popupHtml))
         .addTo(map)
