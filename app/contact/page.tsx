@@ -26,7 +26,7 @@ export default function ContactPage() {
           <div>
             <h1 className="contact-page-title">Contact Us</h1>
             <p className="contact-page-lead">
-              Questions, corrections, attorney listing requests, or anything else — we'd love to hear from you.
+              Questions, corrections, attorney listing requests, or anything else — we&apos;d love to hear from you.
             </p>
             <GeneralContactForm />
           </div>

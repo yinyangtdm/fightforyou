@@ -24,7 +24,7 @@ export default function AboutPage() {
               <p>
                 When law enforcement causes harm, the system is designed to make accountability as difficult as possible.
                 Qualified immunity shields officers from civil liability. Police unions fund aggressive legal defense.
-                City attorneys fight victims at every turn. And most people don't know where to start.
+                City attorneys fight victims at every turn. And most people don&apos;t know where to start.
               </p>
 
               <p>

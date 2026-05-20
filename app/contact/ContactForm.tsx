@@ -92,7 +92,7 @@ export default function GeneralContactForm() {
           <polyline points="22 4 12 14.01 9 11.01" />
         </svg>
         <h2>Message Sent</h2>
-        <p>Thanks for reaching out. We'll get back to you as soon as possible.</p>
+        <p>Thanks for reaching out. We&apos;ll get back to you as soon as possible.</p>
       </div>
     )
   }
