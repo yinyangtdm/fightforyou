@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useRef } from "react"
+import Link from "next/link"
 import { Turnstile } from "@marsidev/react-turnstile"
 import type { TurnstileInstance } from "@marsidev/react-turnstile"
 
@@ -248,9 +249,9 @@ export default function ContactForm({ slug, attorneyName }: { slug: string; atto
 
       <p className="contact-disclaimer">
         By submitting this form, you agree to our{" "}
-        <a href="/terms" className="contact-disclaimer-link">Terms of Service</a>{" "}
+        <Link href="/terms" className="contact-disclaimer-link">Terms of Service</Link>{" "}
         and{" "}
-        <a href="/privacy" className="contact-disclaimer-link">Privacy Policy</a>.
+        <Link href="/privacy" className="contact-disclaimer-link">Privacy Policy</Link>.
         Submission of this form does not create an attorney-client relationship and should not be construed as legal advice.
         Do not include privileged or confidential information in your message.
       </p>
