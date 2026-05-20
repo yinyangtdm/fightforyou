@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
-import Breadcrumb from "../components/Breadcrumb"
 import GeneralContactForm from "./ContactForm"
 
 export const metadata: Metadata = {
@@ -11,17 +10,10 @@ export const metadata: Metadata = {
 }
 
 export default function ContactPage() {
-  const breadcrumbItems = [
-    { label: "Contact", href: "" },
-  ]
-
   return (
     <div className="public">
       <NavServer />
       <main className="contact-page" id="main-content">
-        <div className="breadcrumb-container">
-          <Breadcrumb items={breadcrumbItems} />
-        </div>
         <div className="contact-page-inner contact-page-inner--centered">
           <div>
             <h1 className="contact-page-title">Contact Us</h1>
