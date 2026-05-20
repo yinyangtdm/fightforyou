@@ -55,7 +55,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
 
   function hoverStartClose() {
     if (mobileOpen) return
-    closeTimer.current = setTimeout(() => setOpenMenu(null), 150)
+    closeTimer.current = setTimeout(() => setOpenMenu(null), 300)
   }
 
   function hoverCancelClose() {
