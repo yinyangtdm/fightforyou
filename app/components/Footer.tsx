@@ -29,8 +29,7 @@ export default function Footer() {
           <div className="footer-col">
             <h5>Organization</h5>
             <ul>
-              <li><a href="#">About Us</a></li>
-              <li><Link href="/lawyers">For Attorneys</Link></li>
+              <li><Link href="/about">About Us</Link></li>
               <li><a href="mailto:contact@fightfor.you">Contact</a></li>
             </ul>
           </div>
