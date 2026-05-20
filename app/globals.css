@@ -2578,7 +2578,7 @@ footer {
 }
 
 /* ── NAV HAMBURGER (≤ 1024px) ── */
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .nav-inner { padding: 0 var(--page-px); }
   .nav-hamburger {
     display: flex;
