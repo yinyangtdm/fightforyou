@@ -104,12 +104,12 @@ export async function generateMetadata({
 
   const title =
     data.type === "state"
-      ? `Civil Rights Attorneys in ${data.label}`
+      ? `Attorneys Against Law Enforcement in ${data.label}`
       : `${data.label} Attorneys`
 
   const description =
     data.type === "state"
-      ? `Browse civil rights attorneys in ${data.label} with proven track records against police misconduct, wrongful arrest, and government abuse.`
+      ? `Browse attorneys in ${data.label} who fight law enforcement — police misconduct, excessive force, wrongful arrest, wrongful death, and more.`
       : `Find ${data.label} attorneys with proven records against law enforcement. Browse profiles with case results, contact info, and background on each attorney.`
 
   return { title, description }
