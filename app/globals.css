@@ -2250,8 +2250,16 @@ footer {
   margin: 16px 0 16px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 6px;
 }
+
+.guide-meta-categories {
+  width: 100%;
+  margin-top: 2px;
+}
+
+.guide-meta-categories::before { content: none; }
 
 .guide-author-link {
   color: var(--accent);
