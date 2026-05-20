@@ -1,4 +1,3 @@
-import { auth } from "@/auth"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 
@@ -80,9 +79,9 @@ const linkedinUpdates = [
   { name: "Stroud, Flechas & Dalton",                      linkedin: null },
 ]
 
-export async function POST() {
-  const session = await auth()
-  if (!session) return Response.json({ error: "Unauthorized" }, { status: 401 })
+export async function POST(request: Request) {
+  const secret = request.headers.get("x-secret")
+  if (secret !== process.env.ADMIN_PASSWORD) return Response.json({ error: "Unauthorized" }, { status: 401 })
 
   const results: { name: string; field: string; value: string | null; matched: number }[] = []
 
