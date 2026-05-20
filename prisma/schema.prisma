@@ -53,3 +53,15 @@ model Listing {
   approved            Boolean   @default(false)
   featured            Boolean   @default(false)
 }
+
+model ContactLead {
+  id          Int      @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  listingSlug String
+  name        String
+  email       String
+  phone       String
+  city        String
+  state       String
+  message     String
+}

@@ -140,7 +140,6 @@ export default async function ProfilePage({
     "description": listing.tagline ?? listing.description?.slice(0, 200) ?? undefined,
     "url": `https://fightfor.you/lawyers/${listing.slug}`,
     ...(listing.phone && { "telephone": listing.phone }),
-    ...(listing.email && { "email": listing.email }),
     ...(listing.website && { "sameAs": listing.website }),
     ...((listing.streetAddress || listing.city || listing.state) && {
       "address": {
@@ -239,15 +238,13 @@ export default async function ProfilePage({
               {listing.phone}
             </a>
           )}
-          {listing.email && (
-            <a href={`mailto:${listing.email}`} className="btn-primary">
+          <Link href={`/lawyers/${listing.slug}/contact`} className="btn-primary">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <rect x="2" y="4" width="20" height="16" rx="2" />
                 <path d="m22 7-10 5L2 7" />
               </svg>
               Send Message
-            </a>
-          )}
+            </Link>
           {listing.website && (
             <a href={listing.website} target="_blank" rel="noopener noreferrer" className="btn-primary btn-website">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">

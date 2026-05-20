@@ -2565,6 +2565,193 @@ footer {
 }
 
 
+/* ── CONTACT PAGE ── */
+.contact-page { padding: 0 0 80px; }
+
+.contact-page-inner {
+  max-width: 600px;
+  margin: 48px auto 0;
+  padding: 0 24px;
+}
+
+.contact-page-title {
+  font-size: clamp(22px, 4vw, 30px);
+  font-weight: 700;
+  color: var(--nord6);
+  margin-bottom: 32px;
+}
+
+.contact-attorney-card {
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--nord3);
+}
+
+.contact-attorney-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0 0;
+}
+
+.contact-attorney-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.contact-attorney-row dt {
+  flex-shrink: 0;
+  color: var(--accent);
+  padding-top: 2px;
+}
+
+.contact-attorney-row dd {
+  margin: 0;
+  font-size: 14px;
+  color: var(--nord4);
+  line-height: 1.5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-field label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--nord4);
+}
+
+.contact-optional {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.contact-field input,
+.contact-field select,
+.contact-field textarea {
+  background: var(--nord1);
+  border: 1px solid var(--nord3);
+  border-radius: var(--radius);
+  color: var(--nord6);
+  padding: 12px 14px;
+  font-family: var(--sans);
+  font-size: 15px;
+  transition: border-color 0.15s;
+  width: 100%;
+}
+
+.contact-field input::placeholder,
+.contact-field textarea::placeholder { color: var(--text-muted); }
+
+.contact-field input:focus,
+.contact-field select:focus,
+.contact-field textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.contact-field textarea {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.contact-field--message textarea { min-height: 240px; }
+
+.contact-field select { appearance: none; cursor: pointer; }
+
+.contact-field--error input,
+.contact-field--error select,
+.contact-field--error textarea {
+  border-color: #bf616a;
+}
+
+.contact-field-error {
+  font-size: 12px;
+  color: #bf616a;
+  margin-top: 2px;
+}
+
+.contact-field-row {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  gap: 12px;
+}
+
+.contact-message-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.contact-char-count {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.contact-char-count--warn { color: #bf616a; }
+
+.contact-submit { align-self: flex-start; padding: 12px 28px; font-size: 15px; }
+.contact-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.contact-error {
+  color: #bf616a;
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact-disclaimer {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 4px 0 0;
+}
+
+.contact-success {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 32px;
+  background: var(--nord1);
+  border-radius: var(--radius);
+  border: 1px solid var(--nord3);
+}
+
+.contact-success svg { color: var(--accent); }
+
+.contact-success h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--nord6);
+  margin: 0;
+}
+
+.contact-success p {
+  font-size: 15px;
+  color: var(--nord4);
+  margin: 0;
+  line-height: 1.6;
+}
+
 /* ── ANIMATIONS ── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
@@ -2624,7 +2811,7 @@ footer {
   .nav-links {
     display: none;
     position: fixed;
-    top: 68px;
+    top: var(--nav-h);
     left: 0; right: 0; bottom: 0;
     background: var(--nord0);
     flex-direction: column;
@@ -2660,7 +2847,7 @@ footer {
     margin: 0 -24px;
     padding: 0 24px;
   }
-  .accordion-open .nav-accordion-list { max-height: none; }
+  .accordion-open .nav-accordion-list { max-height: 2000px; }
   .nav-accordion-list li { border-bottom: 1px solid var(--border-on-dark); }
   .nav-accordion-list li:last-child { border-bottom: none; }
   .nav-accordion-list a {
@@ -2676,10 +2863,7 @@ footer {
   .mega-menu { display: none; }
   .mega-overlay { display: none !important; }
 
-  .profile-hero { height: auto; }
-
   .listing-grid { grid-template-columns: 1fr; }
-  .guides-grid { grid-template-columns: repeat(2, 1fr); }
   .guides-featured { grid-template-columns: 1fr; }
   .rights-grid { grid-template-columns: repeat(2, 1fr); }
 
@@ -2711,8 +2895,6 @@ footer {
 
 /* ── TABLET / MOBILE (≤ 768px) ── */
 @media (max-width: 768px) {
-  .nav-inner { padding: 0 24px; }
-
   /* Breadcrumb */
   .breadcrumb-link,
   .breadcrumb-current,
@@ -2727,7 +2909,7 @@ footer {
 
   /* Search */
   .search-bar { grid-template-columns: 1fr; border-radius: 3px; }
-  .search-field input { border-right: none; border-bottom: 1px solid var(--border-on-light); }
+  .search-field input { border-right: none; border-bottom: 1px solid var(--border-on-dark); }
   .search-btn { border-radius: 0 0 2px 2px; padding: 16px; }
 
   /* Stats */
@@ -2737,7 +2919,6 @@ footer {
 
   /* About */
   .about-section { padding: var(--section-py-md) 0; }
-  .about-inner { max-width: 100%; }
   .about-inner h2 { font-size: 32px; }
 
   /* Rights */
@@ -2747,7 +2928,6 @@ footer {
 
   /* Footer */
   .footer-top { grid-template-columns: 1fr; gap: 32px; }
-  .footer-brand { grid-column: 1; }
   footer { padding: var(--sp-7) 0 0; }
   .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
   .footer-bottom-links { justify-content: center; }
@@ -2759,7 +2939,6 @@ footer {
   .listing-section { padding: 28px 0; }
   .listing-filter-row { flex-wrap: wrap; }
   .listing-header h1 { font-size: 30px; }
-  .listing-grid { grid-template-columns: 1fr; }
   .deadline-grid { grid-template-columns: 1fr; }
   .listing-card-top { flex-direction: column; }
 
@@ -2828,8 +3007,9 @@ footer {
 
   .guide-page-inner { padding: 0 var(--page-px) 56px; }
   .profile-body { padding: 12px var(--page-px) 56px; }
-  .profile-hero { margin: 0 0 16px; height: auto; }
   .profile-hero {
+    margin: 0 0 16px;
+    height: auto;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
   }
@@ -2840,6 +3020,7 @@ footer {
     border-right: none;
     border-bottom: 1px solid var(--border-on-dark);
   }
+  .profile-photo-wrap { width: 100%; max-width: 200px; margin: 0 auto; }
   .profile-info-col {
     grid-column: 1;
     grid-row: 2;
@@ -2858,8 +3039,7 @@ footer {
 
   .guides-page { padding: 58px var(--page-px) 56px; }
   .guides-header h1,
-  .guides-page > h1 { font-size: 24px;
-   margin-bottom: 16px; }
+  .guides-page > h1 { font-size: 24px; margin-bottom: 16px; }
   .guide-title { font-size: 24px; }
 
   .glossary-page-btn { width: 56px; font-size: 12px; padding: 8px 0; }
