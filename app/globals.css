@@ -698,13 +698,15 @@ img, video { max-width: 100%; height: auto; }
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.15s ease, visibility 0.15s ease;
+  transform: translateY(-8px);
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
 }
 
 .mega-menu.open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transform: translateY(0);
 }
 
 .mega-menu-heading {
@@ -1570,7 +1572,6 @@ footer {
   border-radius: 4px;
   cursor: pointer;
   white-space: nowrap;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
   transition: background 0.15s, box-shadow 0.15s;
   user-select: none;
   touch-action: manipulation;
@@ -1579,7 +1580,7 @@ footer {
 .btn-primary:hover { background: var(--nord7); }
 
 .btn-primary:focus {
-  box-shadow: var(--nord7) 0 0 0 1.5px inset, rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
+  box-shadow: var(--nord7) 0 0 0 1.5px inset;
 }
 
 .btn-primary:active {
@@ -1765,7 +1766,6 @@ footer {
   border: none;
   border-radius: 0 0 4px 4px;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px;
   transition: background 0.15s, box-shadow 0.15s;
   user-select: none;
   touch-action: manipulation;
