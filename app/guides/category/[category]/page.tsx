@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
-import Nav from "../../../components/Nav"
+import NavServer from "../../../components/NavServer"
 import Footer from "../../../components/Footer"
 import Link from "next/link"
 import Image from "next/image"
@@ -13,18 +13,13 @@ async function getData(category: string) {
   const prisma = new PrismaClient({
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
-  const [guides, specialtyRows] = await Promise.all([
-    prisma.guide.findMany({
-      where: { published: true, categories: { has: category } },
-      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
-    }),
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-    `,
-  ])
+  const guides = await prisma.guide.findMany({
+    where: { published: true, categories: { has: category } },
+    orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+    select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+  })
   await prisma.$disconnect()
-  return { guides, specialties: specialtyRows.map((r) => r.specialty) }
+  return { guides }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
@@ -39,14 +34,13 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const { category } = await params
   const displayCategory = categoryFromSlug(category)
-  const { guides, specialties } = await getData(displayCategory)
+  const { guides } = await getData(displayCategory)
 
-  const navGuides = guides.slice(0, 8).map((g) => ({ title: g.title, slug: g.slug }))
   const showPinned = category === "legal-reference"
 
   return (
     <div className="public">
-      <Nav specialties={specialties} guides={navGuides} />
+      <NavServer />
 
       <main id="main-content">
       <div className="guide-back-container">

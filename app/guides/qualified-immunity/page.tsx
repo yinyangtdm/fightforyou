@@ -1,6 +1,4 @@
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
-import Nav from "../../components/Nav"
+import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import Link from "next/link"
 import type { Metadata } from "next"
@@ -13,34 +11,10 @@ export const metadata: Metadata = {
   description: "How qualified immunity shields police from lawsuits, which states have reformed or abolished it, and what it means for your chances of winning a civil rights case.",
 }
 
-async function getNavData() {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-  const [specialtyRows, guideRows] = await Promise.all([
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-    `,
-    prisma.guide.findMany({
-      where: { published: true },
-      select: { title: true, slug: true },
-      orderBy: { createdAt: "desc" },
-      take: 50,
-    }),
-  ])
-  await prisma.$disconnect()
-  return {
-    specialties: specialtyRows.map((r) => r.specialty),
-    guides: guideRows,
-  }
-}
-
 export default async function QualifiedImmunityPage() {
-  const { specialties, guides } = await getNavData()
-
   return (
     <div className="public">
-      <Nav specialties={specialties} guides={guides} />
+      <NavServer />
 
       <main className="guide-page" id="main-content">
         <div className="guide-back-container">

@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Nav from "../components/Nav"
+import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 
 export const metadata: Metadata = {
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="public">
-      <Nav specialties={[]} guides={[]} />
+      <NavServer />
 
       <main className="guide-page" id="main-content">
         <div className="guide-page-inner">

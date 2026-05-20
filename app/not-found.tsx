@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Nav from "./components/Nav"
+import NavServer from "./components/NavServer"
 import Footer from "./components/Footer"
 import type { Metadata } from "next"
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function NotFound() {
   return (
     <div className="public">
-      <Nav specialties={[]} guides={[]} />
+      <NavServer />
 
       <main id="main-content" style={{
         display: "flex",

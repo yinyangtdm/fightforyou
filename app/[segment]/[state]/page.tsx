@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { STATE_SLUGS, STATE_NAMES, toSlug } from "../../lib/slugs"
 import { getSpecialtyDescription } from "../../lib/specialty-descriptions"
-import Nav from "../../components/Nav"
+import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import ListingCard from "../../components/ListingCard"
 import FilingDeadlines from "../../components/FilingDeadlines"
@@ -38,22 +38,11 @@ async function getData(specialtySegment: string, stateSegment: string) {
     return null
   }
 
-  const [listings, allSpecialties, guideRows] = await Promise.all([
-    prisma.listing.findMany({
-      where: { specialties: { has: specialty }, approved: true, OR: [{ state: stateAbbr }, { additionalStates: { has: stateAbbr } }] },
-      select: SELECT,
-      orderBy: { name: "asc" },
-    }),
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-    `,
-    prisma.guide.findMany({
-      where: { published: true },
-      select: { title: true, slug: true },
-      orderBy: { createdAt: "desc" },
-      take: 50,
-    }),
-  ])
+  const listings = await prisma.listing.findMany({
+    where: { specialties: { has: specialty }, approved: true, OR: [{ state: stateAbbr }, { additionalStates: { has: stateAbbr } }] },
+    select: SELECT,
+    orderBy: { name: "asc" },
+  })
 
   await prisma.$disconnect()
 
@@ -62,8 +51,6 @@ async function getData(specialtySegment: string, stateSegment: string) {
     stateAbbr,
     stateName: STATE_NAMES[stateAbbr],
     listings,
-    specialties: allSpecialties.map((r) => r.specialty),
-    guides: guideRows,
   }
 }
 
@@ -93,7 +80,7 @@ export default async function SpecialtyStatePage({
 
   return (
     <div className="public">
-      <Nav specialties={data.specialties} guides={data.guides} />
+      <NavServer />
 
       <main className="listing-page" id="main-content">
         <div className="breadcrumb-container">

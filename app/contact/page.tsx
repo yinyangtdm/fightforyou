@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Nav from "../components/Nav"
+import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 import Breadcrumb from "../components/Breadcrumb"
 import GeneralContactForm from "./ContactForm"
@@ -17,7 +17,7 @@ export default function ContactPage() {
 
   return (
     <div className="public">
-      <Nav specialties={[]} guides={[]} />
+      <NavServer />
       <main className="contact-page" id="main-content">
         <div className="breadcrumb-container">
           <Breadcrumb items={breadcrumbItems} />

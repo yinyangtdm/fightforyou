@@ -1,6 +1,4 @@
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
-import Nav from "../../components/Nav"
+import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import Link from "next/link"
 import type { Metadata } from "next"
@@ -136,27 +134,6 @@ const TERMS: { term: string; definition: string }[] = [
   { term: "Systemic reform", definition: "Litigation aimed at changing the policies, training, and institutional culture of entire government agencies — rather than pursuing compensation for individual victims alone. Systemic reform cases may result in court orders, federal oversight, and lasting policy changes affecting entire communities for years to come." },
 ]
 
-async function getNavData() {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-  const [specialtyRows, guideRows] = await Promise.all([
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-    `,
-    prisma.guide.findMany({
-      where: { published: true },
-      select: { title: true, slug: true },
-      orderBy: { createdAt: "desc" },
-      take: 50,
-    }),
-  ])
-  await prisma.$disconnect()
-  return {
-    specialties: specialtyRows.map((r) => r.specialty),
-    guides: guideRows,
-  }
-}
 
 const PAGES = [
   { keys: ["#", "A", "B", "C"] },
@@ -171,7 +148,6 @@ export default async function GlossaryPage({
 }: {
   searchParams: Promise<{ page?: string }>
 }) {
-  const { specialties, guides } = await getNavData()
   const { page: pageParam } = await searchParams
   const currentPage = Math.min(Math.max(parseInt(pageParam ?? "1") || 1, 1), PAGES.length)
   const pageKeys = PAGES[currentPage - 1].keys
@@ -209,7 +185,7 @@ export default async function GlossaryPage({
 
   return (
     <div className="public">
-      <Nav specialties={specialties} guides={guides} />
+      <NavServer />
 
       <main className="guide-page" id="main-content">
         <div className="guide-back-container">

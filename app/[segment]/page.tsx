@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { STATE_SLUGS, STATE_NAMES, toSlug } from "../lib/slugs"
 import { getSpecialtyDescription } from "../lib/specialty-descriptions"
-import Nav from "../components/Nav"
+import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 import ListingCard from "../components/ListingCard"
 import FilingDeadlines from "../components/FilingDeadlines"
@@ -27,30 +27,17 @@ async function getData(segment: string) {
   const stateAbbr = STATE_SLUGS[segment]
 
   if (stateAbbr) {
-    const [listings, specialtyRows, guideRows] = await Promise.all([
-      prisma.listing.findMany({
-        where: { approved: true, OR: [{ state: stateAbbr }, { additionalStates: { has: stateAbbr } }] },
-        select: SELECT,
-        orderBy: { name: "asc" },
-      }),
-      prisma.$queryRaw<{ specialty: string }[]>`
-        SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-      `,
-      prisma.guide.findMany({
-        where: { published: true },
-        select: { title: true, slug: true },
-        orderBy: { createdAt: "desc" },
-        take: 50,
-      }),
-    ])
+    const listings = await prisma.listing.findMany({
+      where: { approved: true, OR: [{ state: stateAbbr }, { additionalStates: { has: stateAbbr } }] },
+      select: SELECT,
+      orderBy: { name: "asc" },
+    })
     await prisma.$disconnect()
     return {
       type: "state" as const,
       stateAbbr,
       label: STATE_NAMES[stateAbbr],
       listings,
-      specialties: specialtyRows.map((r) => r.specialty),
-      guides: guideRows,
     }
   }
 
@@ -66,30 +53,17 @@ async function getData(segment: string) {
     return null
   }
 
-  const [listings, allSpecialties, guideRows] = await Promise.all([
-    prisma.listing.findMany({
-      where: { specialties: { has: specialty }, approved: true },
-      select: SELECT,
-      orderBy: { name: "asc" },
-    }),
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-    `,
-    prisma.guide.findMany({
-      where: { published: true },
-      select: { title: true, slug: true },
-      orderBy: { createdAt: "desc" },
-      take: 50,
-    }),
-  ])
+  const listings = await prisma.listing.findMany({
+    where: { specialties: { has: specialty }, approved: true },
+    select: SELECT,
+    orderBy: { name: "asc" },
+  })
 
   await prisma.$disconnect()
   return {
     type: "specialty" as const,
     label: specialty,
     listings,
-    specialties: allSpecialties.map((r) => r.specialty),
-    guides: guideRows,
   }
 }
 
@@ -124,8 +98,6 @@ export default async function SegmentPage({
   const data = await getData(segment)
   if (!data) notFound()
 
-  const { specialties, guides } = data
-
   const heading =
     data.type === "state"
       ? `Attorneys in ${data.label}`
@@ -138,7 +110,7 @@ export default async function SegmentPage({
 
   return (
     <div className="public">
-      <Nav specialties={specialties} guides={guides} />
+      <NavServer />
 
       <main className="listing-page" id="main-content">
         <div className="breadcrumb-container">

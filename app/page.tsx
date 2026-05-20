@@ -3,7 +3,7 @@ export const dynamic = "force-dynamic"
 import type { Metadata } from "next"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
-import Nav from "./components/Nav"
+import NavServer from "./components/NavServer"
 import Footer from "./components/Footer"
 import SearchBar from "./components/SearchBar"
 import Link from "next/link"
@@ -34,39 +34,27 @@ async function getSearchData() {
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
 
-  const [specialtyRows, guideRows] = await Promise.all([
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty
-      FROM "Listing"
-      WHERE array_length(specialties, 1) > 0
-      ORDER BY specialty
-    `,
-    prisma.guide.findMany({
-      where: { published: true },
-      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
-    }),
-  ])
+  const guides = await prisma.guide.findMany({
+    where: { published: true },
+    orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+    select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+  })
 
   await prisma.$disconnect()
 
   const states = Object.values(STATE_NAMES).sort()
 
-  const practices = specialtyRows
-    .map((row: { specialty: string }) => row.specialty)
-    .filter(Boolean)
-
-  return { states, practices, guides: guideRows }
+  return { states, guides }
 }
 
 export default async function HomePage() {
-  const { states, practices, guides } = await getSearchData()
+  const { states, guides } = await getSearchData()
   const featured = guides.filter((g) => g.featured)
   const rest = guides.filter((g) => !g.featured)
 
   return (
     <div className="public">
-      <Nav specialties={practices} guides={guides.slice(0, 8).map((g) => ({ title: g.title, slug: g.slug }))} />
+      <NavServer />
 
       <main className="home-page" id="main-content">
         {/* Hero */}

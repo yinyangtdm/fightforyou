@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
-import Nav from "../../components/Nav"
+import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import Link from "next/link"
 import Image from "next/image"
@@ -14,21 +14,10 @@ async function getData(slug: string) {
   const prisma = new PrismaClient({
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
-  const [guide, specialtyRows, navGuideRows] = await Promise.all([
-    prisma.guide.findUnique({ where: { slug, published: true } }),
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-    `,
-    prisma.guide.findMany({
-      where: { published: true },
-      select: { title: true, slug: true },
-      orderBy: { createdAt: "desc" },
-      take: 50,
-    }),
-  ])
+  const guide = await prisma.guide.findUnique({ where: { slug, published: true } })
   await prisma.$disconnect()
   if (!guide) return null
-  return { guide, specialties: specialtyRows.map((r) => r.specialty), navGuides: navGuideRows }
+  return { guide }
 }
 
 export async function generateMetadata({
@@ -126,11 +115,11 @@ export default async function GuidePage({
   const data = await getData(slug)
   if (!data) notFound()
 
-  const { guide, specialties, navGuides } = data
+  const { guide } = data
 
   return (
     <div className="public">
-      <Nav specialties={specialties} guides={navGuides} />
+      <NavServer />
 
       <main className="guide-page" id="main-content">
         <div className="guide-back-container">

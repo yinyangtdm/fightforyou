@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
-import Nav from "../components/Nav"
+import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 import Link from "next/link"
 import Image from "next/image"
@@ -18,30 +18,24 @@ async function getData() {
   const prisma = new PrismaClient({
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
-  const [guides, specialtyRows] = await Promise.all([
-    prisma.guide.findMany({
-      where: { published: true },
-      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
-    }),
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
-    `,
-  ])
+  const guides = await prisma.guide.findMany({
+    where: { published: true },
+    orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+    select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+  })
   await prisma.$disconnect()
-  return { guides, specialties: specialtyRows.map((r) => r.specialty) }
+  return { guides }
 }
 
 export default async function GuidesPage() {
-  const { guides, specialties } = await getData()
+  const { guides } = await getData()
 
-  const navGuides = guides.slice(0, 8).map((g) => ({ title: g.title, slug: g.slug }))
   const featured = guides.filter((g) => g.featured)
   const rest = guides.filter((g) => !g.featured)
 
   return (
     <div className="public">
-      <Nav specialties={specialties} guides={navGuides} />
+      <NavServer />
 
       <main className="guides-page" id="main-content">
         <div className="guides-header">

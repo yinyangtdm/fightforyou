@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Nav from "../components/Nav"
+import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 
 export const dynamic = "force-dynamic"
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="public">
-      <Nav specialties={[]} guides={[]} />
+      <NavServer />
 
       <main className="guide-page" id="main-content">
         <div className="guide-page-inner">
