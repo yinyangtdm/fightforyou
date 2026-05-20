@@ -3,7 +3,6 @@ import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import NavServer from "../../../components/NavServer"
 import Footer from "../../../components/Footer"
-import Breadcrumb from "../../../components/Breadcrumb"
 import Image from "next/image"
 import type { Metadata } from "next"
 import ContactForm from "./ContactForm"
@@ -93,19 +92,10 @@ export default async function ContactPage({ params }: { params: Promise<{ slug: 
       : listing.state ?? listing.zipCode,
   ].filter(Boolean)
 
-  const breadcrumbItems = [
-    { label: "Find a Lawyer", href: "/lawyers" },
-    { label: listing.name, href: `/lawyers/${slug}` },
-    { label: "Contact", href: "" },
-  ]
-
   return (
     <div className="public">
       <NavServer />
       <main className="contact-page" id="main-content">
-        <div className="breadcrumb-container">
-          <Breadcrumb items={breadcrumbItems} />
-        </div>
         <div className="contact-page-inner">
           <div className="contact-attorney-card">
             <div className="contact-attorney-header">
