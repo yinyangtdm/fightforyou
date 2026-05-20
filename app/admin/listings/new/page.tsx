@@ -566,7 +566,7 @@ export default function NewListingPage() {
             </div>
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Additional States Licensed</label>
+            <label className="block text-sm font-medium mb-1">Additional States Served</label>
             <input name="additionalStates" value={form.additionalStates} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. CA, NY, TX (comma-separated, beyond office state)" />
           </div>
           <div>
