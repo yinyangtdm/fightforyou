@@ -34,21 +34,30 @@ async function getSearchData() {
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
 
-  const guides = await prisma.guide.findMany({
-    where: { published: true },
-    orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-    select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
-  })
+  const [guides, specialtyRows] = await Promise.all([
+    prisma.guide.findMany({
+      where: { published: true },
+      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+    }),
+    prisma.$queryRaw<{ specialty: string }[]>`
+      SELECT DISTINCT UNNEST(specialties) AS specialty
+      FROM "Listing"
+      WHERE array_length(specialties, 1) > 0
+      ORDER BY specialty
+    `,
+  ])
 
   await prisma.$disconnect()
 
   const states = Object.values(STATE_NAMES).sort()
+  const practices = specialtyRows.map((r) => r.specialty).filter(Boolean)
 
-  return { states, guides }
+  return { states, guides, practices }
 }
 
 export default async function HomePage() {
-  const { states, guides } = await getSearchData()
+  const { states, guides, practices } = await getSearchData()
   const featured = guides.filter((g) => g.featured)
   const rest = guides.filter((g) => !g.featured)
 
