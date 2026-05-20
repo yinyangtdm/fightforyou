@@ -54,6 +54,15 @@ model Listing {
   featured            Boolean   @default(false)
 }
 
+model GeneralContact {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  name      String
+  email     String
+  subject   String
+  message   String
+}
+
 model LoginAttempt {
   id        Int      @id @default(autoincrement())
   ip        String

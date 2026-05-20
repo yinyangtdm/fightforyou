@@ -30,7 +30,7 @@ export default function Footer() {
             <h5>Organization</h5>
             <ul>
               <li><Link href="/about">About Us</Link></li>
-              <li><a href="mailto:contact@fightfor.you">Contact</a></li>
+              <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
         </div>

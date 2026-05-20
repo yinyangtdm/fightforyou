@@ -2591,6 +2591,18 @@ footer {
   top: 24px;
 }
 
+.contact-page-inner--centered {
+  grid-template-columns: 1fr;
+  max-width: 600px;
+}
+
+.contact-page-lead {
+  font-size: 15px;
+  color: var(--nord4);
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
 .contact-attorney-header {
   display: flex;
   flex-direction: column;
