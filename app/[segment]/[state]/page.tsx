@@ -15,7 +15,7 @@ export const revalidate = 3600
 const SELECT = {
   slug: true, name: true, firm: true, tagline: true, description: true, photoUrl: true,
   city: true, state: true, isFirm: true, isNonprofit: true,
-  isNational: true, specialties: true,
+  additionalStates: true, specialties: true,
 }
 
 async function getData(specialtySegment: string, stateSegment: string) {
@@ -40,7 +40,7 @@ async function getData(specialtySegment: string, stateSegment: string) {
 
   const [listings, allSpecialties, guideRows] = await Promise.all([
     prisma.listing.findMany({
-      where: { specialties: { has: specialty }, state: stateAbbr, approved: true },
+      where: { specialties: { has: specialty }, approved: true, OR: [{ state: stateAbbr }, { additionalStates: { has: stateAbbr } }] },
       select: SELECT,
       orderBy: { name: "asc" },
     }),

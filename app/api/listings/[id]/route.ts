@@ -24,8 +24,8 @@ export async function PATCH(
   try {
     const body = await request.json() as Record<string, unknown>
     const nullable = ["email", "phone", "description", "photoUrl", "streetAddress", "city", "state", "zipCode", "firm", "tagline", "barNumber", "website", "linkedin", "facebook"]
-    const direct = ["isFirm", "isNonprofit", "name", "slug", "isNational", "approved", "featured", "latitude", "longitude"]
-    const arrays = ["specialties", "notableResults", "keyCharacteristics"]
+    const direct = ["isFirm", "isNonprofit", "name", "slug", "approved", "featured", "latitude", "longitude"]
+    const arrays = ["specialties", "notableResults", "keyCharacteristics", "additionalStates"]
     const data: Record<string, unknown> = {}
     for (const f of nullable) if (f in body) data[f] = body[f] || null
     for (const f of direct) if (f in body) data[f] = body[f]

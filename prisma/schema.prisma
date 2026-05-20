@@ -40,7 +40,7 @@ model Listing {
   city                String?
   state               String?
   zipCode             String?
-  isNational          Boolean  @default(false)
+  additionalStates    String[]  @default([])
   latitude            Float?
   longitude           Float?
   specialties         String[]  @default([])

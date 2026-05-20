@@ -152,7 +152,9 @@ export default async function ProfilePage({
         "addressCountry": "US",
       },
     }),
-    "areaServed": listing.isNational ? "US" : listing.state ?? undefined,
+    "areaServed": listing.additionalStates.length > 0
+      ? [listing.state, ...listing.additionalStates].filter(Boolean)
+      : listing.state ?? undefined,
     ...(listing.photoUrl && { "image": listing.photoUrl }),
     ...(listing.specialties.length > 0 && { "knowsAbout": listing.specialties }),
   }

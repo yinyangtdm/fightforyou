@@ -16,7 +16,7 @@ interface FormState {
   city: string
   state: string
   zipCode: string
-  isNational: boolean
+  additionalStates: string
   specialties: string
   notableResults: string[]
   keyCharacteristics: string[]
@@ -143,7 +143,7 @@ export default function NewListingPage() {
     city: "",
     state: "",
     zipCode: "",
-    isNational: false,
+    additionalStates: "",
     specialties: "",
     notableResults: [""],
     keyCharacteristics: [""],
@@ -209,7 +209,7 @@ export default function NewListingPage() {
   }
 
   type AutoFillData = {
-    name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean; isNational?: boolean
+    name?: string; firm?: string; isFirm?: boolean; isNonprofit?: boolean; additionalStates?: string[]
     tagline?: string; email?: string; phone?: string; description?: string
     streetAddress?: string; city?: string; state?: string; zipCode?: string
     specialties?: string[]; notableResults?: string[]; keyCharacteristics?: string[]
@@ -358,6 +358,7 @@ export default function NewListingPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...form,
+          additionalStates: form.additionalStates.split(",").map(s => s.trim().toUpperCase()).filter(Boolean),
           specialties: form.specialties.split(",").map(s => s.trim()).filter(Boolean),
           notableResults: form.notableResults.filter(s => s.trim()),
           keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()),
@@ -564,10 +565,10 @@ export default function NewListingPage() {
               {zipCodeError && <p className="text-red-500 text-sm mt-1">{zipCodeError}</p>}
             </div>
           </div>
-          <label className="flex items-center gap-2">
-            <input type="checkbox" name="isNational" checked={form.isNational} onChange={handleChange} />
-            <span>National (operates across the US, not region-specific)</span>
-          </label>
+          <div>
+            <label className="block text-sm font-medium mb-1">Additional States Licensed</label>
+            <input name="additionalStates" value={form.additionalStates} onChange={handleChange} className="w-full border rounded p-2" placeholder="e.g. CA, NY, TX (comma-separated, beyond office state)" />
+          </div>
           <div>
             <label className="block text-sm font-medium mb-1">Specialties</label>
             <div className="flex gap-2">

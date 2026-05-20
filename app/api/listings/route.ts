@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
       city?: string
       state?: string
       zipCode?: string
-      isNational?: boolean
+      additionalStates?: string[]
       specialties?: string[]
       notableResults?: string[]
       keyCharacteristics?: string[]
@@ -74,7 +74,7 @@ export async function POST(request: NextRequest) {
         city: body.city || null,
         state: body.state || null,
         zipCode: body.zipCode || null,
-        isNational: body.isNational ?? false,
+        additionalStates: body.additionalStates ?? [],
         specialties: body.specialties ?? [],
         notableResults: body.notableResults ?? [],
         keyCharacteristics: body.keyCharacteristics ?? [],

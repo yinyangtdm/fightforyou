@@ -12,7 +12,7 @@ type Listing = {
   state: string | null
   isFirm: boolean
   isNonprofit: boolean
-  isNational: boolean
+  additionalStates: string[]
   specialties: string[]
 }
 
