@@ -707,6 +707,15 @@ img, video { max-width: 100%; height: auto; }
   clip-path: inset(0 0 0% 0);
 }
 
+.mega-menu::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  height: 12px;
+}
+
 .mega-menu-heading {
   font-family: var(--serif);
   font-size: 10px;
