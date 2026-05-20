@@ -146,13 +146,15 @@ export default async function GuidePage({
 
 
             <div className="guide-meta">
-              {guide.authorName && guide.authorSlug ? (
-                <>
-                  <Link href={`/guides/author/${guide.authorSlug}`} className="guide-author-link">By {guide.authorName}</Link>
-                  <span className="guide-meta-sep">·</span>
-                </>
-              ) : null}
-              <span>{guide.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+              <span className="guide-meta-byline">
+                {guide.authorName && guide.authorSlug ? (
+                  <>
+                    <Link href={`/guides/author/${guide.authorSlug}`} className="guide-author-link">By {guide.authorName}</Link>
+                    <span className="guide-meta-sep">·</span>
+                  </>
+                ) : null}
+                <span>{guide.createdAt.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+              </span>
               {guide.categories.length > 0 && (
                 <span className="guide-meta-categories">
                   {guide.categories.map((cat, i) => (

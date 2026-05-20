@@ -2254,12 +2254,12 @@ footer {
   gap: 6px;
 }
 
-.guide-meta-categories {
-  width: 100%;
-  margin-top: 2px;
+.guide-meta-byline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
 }
-
-.guide-meta-categories::before { content: none; }
 
 .guide-author-link {
   color: var(--accent);
