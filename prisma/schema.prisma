@@ -54,6 +54,12 @@ model Listing {
   featured            Boolean   @default(false)
 }
 
+model LoginAttempt {
+  id        Int      @id @default(autoincrement())
+  ip        String
+  createdAt DateTime @default(now())
+}
+
 model ClickEvent {
   id          Int      @id @default(autoincrement())
   createdAt   DateTime @default(now())

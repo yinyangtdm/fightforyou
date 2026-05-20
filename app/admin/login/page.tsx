@@ -16,8 +16,10 @@ export default function LoginPage() {
     })
     if (result?.ok) {
       router.push("/admin")
+    } else if (result?.error === "CredentialsSignin") {
+      setError("Wrong password. Too many failed attempts will lock you out for 15 minutes.")
     } else {
-      setError("Wrong password")
+      setError("Too many attempts. Try again in 15 minutes.")
     }
   }
 
