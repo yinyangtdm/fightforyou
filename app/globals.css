@@ -2566,7 +2566,7 @@ footer {
 
 
 /* ── CONTACT PAGE ── */
-.contact-page { padding: 0 0 80px; }
+.contact-page { padding: 52px 0 80px; }
 
 .contact-page-inner {
   max-width: var(--page-max);
