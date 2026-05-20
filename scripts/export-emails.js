@@ -7,12 +7,12 @@ const { PrismaPg } = require("@prisma/adapter-pg");
 require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
 
 const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
+  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL_PROD }),
 });
 
 async function main() {
   const listings = await prisma.listing.findMany({
-    where: { email: { not: null } },
+    where: { email: { not: null, notIn: [""] } },
     select: { name: true, email: true },
     orderBy: { name: "asc" },
   });
