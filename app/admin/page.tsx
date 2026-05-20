@@ -27,6 +27,14 @@ export default async function AdminPage() {
           </Link>
         </div>
 
+        <h2 className="text-lg font-semibold text-[#d8dee9] mb-3">CRM</h2>
+        <div className="grid grid-cols-2 gap-6 mb-10">
+          <Link href="/admin/leads" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
+            <h3 className="text-xl font-bold mb-2 text-[#eceff4]">Leads</h3>
+            <p className="text-[#9aa5b4]">Review contact form submissions and track follow-ups</p>
+          </Link>
+        </div>
+
         <h2 className="text-lg font-semibold text-[#d8dee9] mb-3">Guides</h2>
         <div className="grid grid-cols-2 gap-6">
           <Link href="/admin/guides" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">

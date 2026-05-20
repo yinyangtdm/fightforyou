@@ -64,4 +64,6 @@ model ContactLead {
   city        String
   state       String
   message     String
+  contacted   Boolean  @default(false)
+  handedOver  Boolean  @default(false)
 }

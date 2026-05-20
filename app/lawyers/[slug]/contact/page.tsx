@@ -4,6 +4,7 @@ import { PrismaPg } from "@prisma/adapter-pg"
 import Nav from "../../../components/Nav"
 import Footer from "../../../components/Footer"
 import Breadcrumb from "../../../components/Breadcrumb"
+import Image from "next/image"
 import type { Metadata } from "next"
 import ContactForm from "./ContactForm"
 
@@ -107,7 +108,25 @@ export default async function ContactPage({ params }: { params: Promise<{ slug: 
         </div>
         <div className="contact-page-inner">
           <div className="contact-attorney-card">
-            <h1 className="contact-page-title">Contact {listing.name}</h1>
+            <div className="contact-attorney-header">
+              <div className="contact-photo-wrap">
+                {listing.photoUrl ? (
+                  <Image
+                    src={listing.photoUrl}
+                    alt={listing.name}
+                    width={200}
+                    height={200}
+                    className="profile-img"
+                  />
+                ) : (
+                  <div className="profile-img-placeholder" />
+                )}
+                <span className={`listing-card-badge profile-badge ${listing.isNonprofit ? "listing-card-badge--nonprofit" : listing.isFirm ? "listing-card-badge--firm" : ""}`}>
+                  {listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"}
+                </span>
+              </div>
+              <h1 className="contact-page-title">Contact {listing.name}</h1>
+            </div>
             <dl className="contact-attorney-details">
               {addressParts.length > 0 && (
                 <div className="contact-attorney-row">
