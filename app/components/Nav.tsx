@@ -122,7 +122,6 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           {/* Browse by State */}
           <li ref={statesRef} className={`nav-accordion-item${openAccordion === "states" ? " accordion-open" : ""}`}
             onMouseEnter={() => hoverOpen("states")}
-            onMouseLeave={hoverStartClose}
           >
             <a
               href="#"
@@ -150,7 +149,6 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           {/* Browse by Specialty */}
           <li ref={specialtyRef} className={`nav-accordion-item${openAccordion === "specialty" ? " accordion-open" : ""}`}
             onMouseEnter={() => hoverOpen("specialty")}
-            onMouseLeave={hoverStartClose}
           >
             <a
               href="#"
@@ -177,7 +175,6 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           {/* Know Your Rights */}
           <li ref={rightsRef} className={`nav-accordion-item${openAccordion === "rights" ? " accordion-open" : ""}`}
             onMouseEnter={() => hoverOpen("rights")}
-            onMouseLeave={hoverStartClose}
           >
             <a
               href="#"
