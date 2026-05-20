@@ -12,7 +12,7 @@ import { deriveExcerpt, PINNED_GUIDES } from "./guides/_lib"
 
 export const metadata: Metadata = {
   title: "Civil Rights Attorney Directory",
-  description: "Find verified civil rights attorneys with a proven record against law enforcement. Search by state or practice area.",
+  description: "The nation's finest trial attorneys with proven records against law enforcement. Search by state or practice area.",
 }
 
 const STATE_NAMES: Record<string, string> = {

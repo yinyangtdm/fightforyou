@@ -25,12 +25,16 @@ export const metadata: Metadata = {
     template: "%s | fightfor.you",
     default: "fightfor.you",
   },
-  description: "Find verified civil rights attorneys with a proven record against law enforcement.",
+  description: "The nation's finest trial attorneys with proven records against law enforcement.",
   metadataBase: new URL("https://fightfor.you"),
   openGraph: {
     siteName: "fightfor.you",
     images: [{ url: "https://fightfor.you/og-image.png", width: 1200, height: 630 }],
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://fightfor.you/og-image.png"],
   },
 }
 
