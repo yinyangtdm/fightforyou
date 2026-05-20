@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "Terms and conditions for using fightfor.you.",
+  description: "Terms and conditions governing use of the fightfor.you attorney directory.",
 }
 
 export default function TermsPage() {

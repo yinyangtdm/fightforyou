@@ -11,8 +11,8 @@ import Image from "next/image"
 import { deriveExcerpt, PINNED_GUIDES } from "./guides/_lib"
 
 export const metadata: Metadata = {
-  title: "Civil Rights Attorney Directory",
-  description: "The nation's finest trial attorneys with proven records against law enforcement. Search by state or practice area.",
+  title: "Find Attorneys Who Fight Law Enforcement",
+  description: "When law enforcement causes harm, the odds are stacked against you — qualified immunity, police unions, city lawyers. Find the attorneys who know how to level the playing field.",
 }
 
 const STATE_NAMES: Record<string, string> = {

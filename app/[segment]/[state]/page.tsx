@@ -78,7 +78,7 @@ export async function generateMetadata({
 
   return {
     title: `${data.specialty} Attorneys in ${data.stateName}`,
-    description: `Find verified ${data.specialty} attorneys in ${data.stateName} with a proven record against law enforcement.`,
+    description: `Browse verified ${data.specialty} attorneys in ${data.stateName} with proven track records against law enforcement. Real case results and bar-verified credentials.`,
   }
 }
 

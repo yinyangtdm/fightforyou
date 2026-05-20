@@ -9,8 +9,8 @@ import StatePicker from "./StatePicker"
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "State Filing Deadlines",
-  description: "State-by-state statutes of limitations and notice-of-claim deadlines for civil rights cases. Missing a deadline permanently bars your claim.",
+  title: "Civil Rights Filing Deadlines by State",
+  description: "State-by-state statutes of limitations and notice-of-claim deadlines for civil rights lawsuits. Missing a deadline permanently bars your claim — look up your state now.",
 }
 
 async function getNavData() {

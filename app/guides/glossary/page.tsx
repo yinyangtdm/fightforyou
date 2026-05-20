@@ -8,8 +8,8 @@ import type { Metadata } from "next"
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "Legal Glossary",
-  description: "Plain-language definitions of legal terms used in civil rights cases — from qualified immunity to Section 1983.",
+  title: "Civil Rights Legal Glossary",
+  description: "Plain-language definitions of every legal term you'll encounter in a civil rights case — Section 1983, qualified immunity, discovery, damages, and more.",
 }
 
 const TERMS: { term: string; definition: string }[] = [

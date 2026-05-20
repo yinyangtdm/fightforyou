@@ -10,8 +10,8 @@ import { deriveExcerpt, PINNED_GUIDES } from "./_lib"
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "Know Your Rights — Guides",
-  description: "Plain-language guides on civil rights, police misconduct, search and seizure, and how to pursue a case.",
+  title: "Know Your Rights — Civil Rights Guides",
+  description: "Plain-language guides on civil rights law, police misconduct, qualified immunity, search and seizure, and how to pursue a case against law enforcement.",
 }
 
 async function getData() {

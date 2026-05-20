@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How fightfor.you handles your information.",
+  description: "How fightfor.you collects, uses, and protects your information.",
 }
 
 export default function PrivacyPage() {

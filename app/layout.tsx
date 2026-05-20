@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | fightfor.you",
     default: "fightfor.you",
   },
-  description: "The nation's finest trial attorneys with proven records against law enforcement.",
+  description: "When law enforcement causes harm, the odds are stacked against you — qualified immunity, police unions, city lawyers. Find the attorneys who know how to level the playing field.",
   metadataBase: new URL("https://fightfor.you"),
   openGraph: {
     siteName: "fightfor.you",
