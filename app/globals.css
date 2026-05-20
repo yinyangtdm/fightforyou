@@ -2768,6 +2768,15 @@ footer {
   margin: 4px 0 0;
 }
 
+.contact-disclaimer-link {
+  color: var(--text-muted);
+  text-decoration: underline;
+}
+
+.contact-disclaimer-link:hover {
+  color: var(--text-secondary);
+}
+
 .contact-success {
   display: flex;
   flex-direction: column;

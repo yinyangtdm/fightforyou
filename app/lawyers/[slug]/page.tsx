@@ -21,19 +21,25 @@ async function getData(slug: string) {
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
 
-  const [listing, specialtyRows] = await Promise.all([
+  const [listing, specialtyRows, guideRows] = await Promise.all([
     prisma.listing.findUnique({
       where: { slug, approved: true },
     }),
     prisma.$queryRaw<{ specialty: string }[]>`
       SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
     `,
+    prisma.guide.findMany({
+      where: { published: true },
+      select: { title: true, slug: true },
+      orderBy: { createdAt: "desc" },
+      take: 50,
+    }),
   ])
 
   await prisma.$disconnect()
   if (!listing) return null
 
-  return { listing, specialties: specialtyRows.map((r) => r.specialty) }
+  return { listing, specialties: specialtyRows.map((r) => r.specialty), guides: guideRows }
 }
 
 export async function generateMetadata({
@@ -78,7 +84,7 @@ export default async function ProfilePage({
   const data = await getData(slug)
   if (!data) notFound()
 
-  const { listing, specialties } = data
+  const { listing, specialties, guides } = data
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
   const badgeClass = listing.isNonprofit ? "listing-card-badge--nonprofit" : listing.isFirm ? "listing-card-badge--firm" : ""
@@ -162,7 +168,7 @@ export default async function ProfilePage({
   return (
     <div className="public profile-public">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Nav specialties={specialties} guides={[]} />
+      <Nav specialties={specialties} guides={guides} />
 
       <main className="profile-page" id="main-content">
         <div className="breadcrumb-container">

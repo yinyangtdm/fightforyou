@@ -25,33 +25,45 @@ async function getListing(slug: string) {
   const prisma = new PrismaClient({
     adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
   })
-  const listing = await prisma.listing.findUnique({
-    where: { slug, approved: true },
-    select: {
-      name: true,
-      slug: true,
-      isFirm: true,
-      isNonprofit: true,
-      phone: true,
-      photoUrl: true,
-      streetAddress: true,
-      city: true,
-      state: true,
-      zipCode: true,
-      specialties: true,
-    },
-  })
+  const [listing, specialtyRows, guideRows] = await Promise.all([
+    prisma.listing.findUnique({
+      where: { slug, approved: true },
+      select: {
+        name: true,
+        slug: true,
+        isFirm: true,
+        isNonprofit: true,
+        phone: true,
+        photoUrl: true,
+        streetAddress: true,
+        city: true,
+        state: true,
+        zipCode: true,
+        specialties: true,
+      },
+    }),
+    prisma.$queryRaw<{ specialty: string }[]>`
+      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing" ORDER BY specialty
+    `,
+    prisma.guide.findMany({
+      where: { published: true },
+      select: { title: true, slug: true },
+      orderBy: { createdAt: "desc" },
+      take: 50,
+    }),
+  ])
   await prisma.$disconnect()
-  return listing
+  return listing ? { listing, specialties: specialtyRows.map((r) => r.specialty), guides: guideRows } : null
 }
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params
-  const listing = await getListing(slug)
-  if (!listing) return {}
+  const data = await getListing(slug)
+  if (!data) return {}
 
+  const { listing } = data
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null
   const location = [listing.city, stateName].filter(Boolean).join(", ")
@@ -82,9 +94,10 @@ export async function generateMetadata(
 
 export default async function ContactPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const listing = await getListing(slug)
-  if (!listing) notFound()
+  const data = await getListing(slug)
+  if (!data) notFound()
 
+  const { listing, specialties, guides } = data
   const addressParts = [
     listing.streetAddress,
     listing.city,
@@ -101,7 +114,7 @@ export default async function ContactPage({ params }: { params: Promise<{ slug: 
 
   return (
     <div className="public">
-      <Nav specialties={[]} guides={[]} />
+      <Nav specialties={specialties} guides={guides} />
       <main className="contact-page" id="main-content">
         <div className="breadcrumb-container">
           <Breadcrumb items={breadcrumbItems} />

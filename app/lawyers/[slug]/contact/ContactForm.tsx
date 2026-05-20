@@ -247,8 +247,12 @@ export default function ContactForm({ slug, attorneyName }: { slug: string; atto
       </button>
 
       <p className="contact-disclaimer">
-        Submitting this form does not create an attorney-client relationship.
-        Do not include confidential information in your message.
+        By submitting this form, you agree to our{" "}
+        <a href="/terms" className="contact-disclaimer-link">Terms of Service</a>{" "}
+        and{" "}
+        <a href="/privacy" className="contact-disclaimer-link">Privacy Policy</a>.
+        Submission of this form does not create an attorney-client relationship and should not be construed as legal advice.
+        Do not include privileged or confidential information in your message.
       </p>
     </form>
   )
