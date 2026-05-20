@@ -2569,7 +2569,7 @@ footer {
 .hero-sub { animation: fadeUp 0.6s 0.2s ease both; }
 
 /* ── DESKTOP ONLY ── */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .nav-hamburger { display: none; }
   .nav-accordion-arrow { display: none; }
   .nav-accordion-list { display: none; }
