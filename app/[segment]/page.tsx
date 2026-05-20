@@ -104,7 +104,7 @@ export async function generateMetadata({
 
   const title =
     data.type === "state"
-      ? `Attorneys Against Law Enforcement in ${data.label}`
+      ? `${data.label} Attorneys with the Best Track Records Against Law Enforcement`
       : `${data.label} Attorneys`
 
   const description =
