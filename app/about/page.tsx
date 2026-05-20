@@ -15,7 +15,7 @@ export default function AboutPage() {
     <div className="public">
       <NavServer />
 
-      <main className="guide-page" id="main-content">
+      <main className="guide-page" id="main-content" style={{ paddingTop: "52px" }}>
         <div className="guide-page-inner">
           <article className="guide-article">
             <h1 className="guide-title">About fightfor.you</h1>
