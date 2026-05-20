@@ -1,6 +1,8 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useRef } from "react"
+import { Turnstile } from "@marsidev/react-turnstile"
+import type { TurnstileInstance } from "@marsidev/react-turnstile"
 
 const STATE_OPTIONS: [string, string][] = [
   ["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],["AR","Arkansas"],["CA","California"],
@@ -56,6 +58,9 @@ export default function ContactForm({ slug, attorneyName }: { slug: string; atto
   const [submitted, setSubmitted] = useState(false)
   const [serverError, setServerError] = useState("")
   const [loading, setLoading] = useState(false)
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
+  const turnstileRef = useRef<TurnstileInstance>(null)
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) {
     const { name, value } = e.target
@@ -85,7 +90,7 @@ export default function ContactForm({ slug, attorneyName }: { slug: string; atto
       const res = await fetch(`/api/contact/${slug}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, attorneyName }),
+        body: JSON.stringify({ ...form, attorneyName, turnstileToken }),
       })
       if (!res.ok) {
         const data = await res.json()
@@ -97,6 +102,8 @@ export default function ContactForm({ slug, attorneyName }: { slug: string; atto
       setServerError("Something went wrong. Please try again.")
     } finally {
       setLoading(false)
+      turnstileRef.current?.reset()
+      setTurnstileToken(null)
     }
   }
 
@@ -219,9 +226,23 @@ export default function ContactForm({ slug, attorneyName }: { slug: string; atto
         </div>
       </div>
 
+      {siteKey && (
+        <Turnstile
+          ref={turnstileRef}
+          siteKey={siteKey}
+          onSuccess={setTurnstileToken}
+          onExpire={() => setTurnstileToken(null)}
+          options={{ theme: "dark" }}
+        />
+      )}
+
       {serverError && <p className="contact-error" role="alert">{serverError}</p>}
 
-      <button type="submit" className="btn-primary contact-submit" disabled={loading}>
+      <button
+        type="submit"
+        className="btn-primary contact-submit"
+        disabled={loading || (!!siteKey && !turnstileToken)}
+      >
         {loading ? "Sending…" : "Send Message"}
       </button>
 

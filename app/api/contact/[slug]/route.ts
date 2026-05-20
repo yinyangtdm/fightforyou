@@ -11,10 +11,22 @@ export async function POST(
 ) {
   const { slug } = await params
   const body = await req.json()
-  const { name, email, phone, city, state, message, attorneyName } = body
+  const { name, email, phone, city, state, message, attorneyName, turnstileToken } = body
 
   if (!name || !email || !phone || !city || !state || !message) {
     return NextResponse.json({ error: "All fields are required." }, { status: 400 })
+  }
+
+  if (process.env.TURNSTILE_SECRET_KEY) {
+    const verification = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ secret: process.env.TURNSTILE_SECRET_KEY, response: turnstileToken }),
+    })
+    const result = await verification.json() as { success: boolean }
+    if (!result.success) {
+      return NextResponse.json({ error: "Human verification failed. Please try again." }, { status: 400 })
+    }
   }
 
   const prisma = new PrismaClient({
