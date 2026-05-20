@@ -3,8 +3,6 @@ import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(
   req: NextRequest,
   { params }: { params: Promise<{ slug: string }> }
@@ -38,6 +36,7 @@ export async function POST(
   })
 
   if (process.env.RESEND_API_KEY) {
+    const resend = new Resend(process.env.RESEND_API_KEY)
     await resend.emails.send({
       from: "FightFor.you <noreply@fightfor.you>",
       to: "yinyangthetwin@gmail.com",
