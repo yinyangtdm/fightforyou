@@ -80,7 +80,7 @@ export const STATE_LEGAL_DATA: Record<string, StateDeadlineData> = {
     },
     qualifiedImmunity: {
       status: "limited",
-      summary: "The California Bane Act creates a state cause of action for civil rights violations that does not provide a qualified immunity defense, allowing plaintiffs to pursue claims against government officials under state law without the QI barrier.",
+      summary: "The California Bane Act creates a state-law cause of action for civil rights violations — and unlike federal § 1983 claims, it does not permit government officials to invoke qualified immunity as a defense. Plaintiffs can pursue Bane Act claims against state and local officials without clearing the QI hurdle that frequently defeats federal civil rights suits.",
       law: "Tom Bane Civil Rights Act",
       statute: "Cal. Civ. Code § 52.1",
     },

@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   },
   description: "When law enforcement causes harm, the odds are stacked against you — qualified immunity, police unions, city lawyers. Find the attorneys who know how to level the playing field.",
   metadataBase: new URL("https://fightfor.you"),
+  verification: {
+    google: "uoPZEzqiycSwWxTOEid6qmcvO5BUReUK6iAnvpuPviQ",
+  },
   openGraph: {
     siteName: "fightfor.you",
     images: [{ url: "https://fightfor.you/og-image.png", width: 1200, height: 630 }],
