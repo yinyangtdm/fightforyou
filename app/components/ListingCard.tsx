@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import { STATE_NAMES } from "../lib/slugs"
 
 type Listing = {
   slug: string
@@ -71,6 +72,14 @@ export default function ListingCard({ listing }: { listing: Listing }) {
               <div className="listing-card-meta-item">
                 <span className="listing-card-icon">📍</span>
                 <span className="listing-card-location">{location}</span>
+              </div>
+            )}
+            {listing.additionalStates.length > 0 && (
+              <div className="listing-card-meta-item">
+                <span className="listing-card-icon">🗺️</span>
+                <p className="listing-card-additional-states">
+                  Also serves: {listing.additionalStates.map(s => STATE_NAMES[s] ?? s).join(", ")}
+                </p>
               </div>
             )}
             {specialties.length > 0 && (
