@@ -37,7 +37,7 @@ export default async function GuidesPage() {
     <div className="public">
       <NavServer />
 
-      <main className="guides-page" id="main-content">
+      <main className="guides-index" id="main-content">
         <div className="guides-header">
           <h1>Guides &amp; Resources</h1>
           <p className="guides-subheading">
