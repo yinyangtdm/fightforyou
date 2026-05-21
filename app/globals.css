@@ -3108,7 +3108,8 @@ footer {
   .profile-actions-col .btn-primary { flex: unset; width: 100%; }
   .profile-share-row { flex: unset; }
 
-  .guides-page { padding: 58px var(--page-px) 56px; }
+  .guides-page { padding: 24px var(--page-px) 48px; }
+  .guides-header { padding-top: 20px; padding-bottom: 16px; }
   .guides-header h1,
   .guides-page > h1 { font-size: 24px; margin-bottom: 16px; }
   .guide-title { font-size: 24px; }
