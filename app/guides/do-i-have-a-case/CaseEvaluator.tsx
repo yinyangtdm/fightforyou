@@ -245,11 +245,11 @@ export default function CaseEvaluator() {
             ))}
           </div>
         )}
-        <p className="eval-disclaimer">
+        <div className="guide-disclaimer">
           This tool is for general educational purposes only and does not constitute legal advice.
           Laws vary by jurisdiction and change over time. Consult a licensed civil rights attorney
           for guidance specific to your situation.
-        </p>
+        </div>
       </div>
     </div>
   )

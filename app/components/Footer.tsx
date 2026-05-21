@@ -19,7 +19,7 @@ export default function Footer() {
             <h5>Legal Guides</h5>
             <ul>
               <li><Link href="/guides">Know Your Rights</Link></li>
-              <li><Link href="/guides/do-i-have-a-case">Do You Have a Case?</Link></li>
+              <li><Link href="/guides/do-i-have-a-case">&ldquo;Do I Have a Case?&rdquo;</Link></li>
               <li><Link href="/guides/filing-deadlines-by-state">State Filing Deadlines</Link></li>
               <li><Link href="/guides/qualified-immunity">Qualified Immunity Laws</Link></li>
               <li><Link href="/guides/glossary">Legal Glossary</Link></li>

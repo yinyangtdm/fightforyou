@@ -7,7 +7,7 @@ import CaseEvaluator from "./CaseEvaluator"
 export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
-  title: "Do I Have a Civil Rights Case?",
+  title: '"Do I Have a Case?" — Civil Rights Case Evaluator',
   description: "A structured self-evaluation covering liability, damages, and procedure — the three factors civil rights attorneys weigh when assessing a case against law enforcement.",
 }
 
@@ -22,7 +22,7 @@ export default function DoIHaveACasePage() {
         </div>
         <div className="guide-page-inner">
           <div className="guide-article">
-            <h1 className="guide-title">Do I Have a Case?</h1>
+            <h1 className="guide-title">&ldquo;Do I Have a Case?&rdquo;</h1>
             <div className="guide-meta">
               <Link href="/guides/author/fight-for-you" className="guide-author-link">By fightfor.you</Link>
               <span className="guide-meta-sep">·</span>

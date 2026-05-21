@@ -21,6 +21,15 @@ export function categoryFromSlug(slug: string): string {
 
 export const PINNED_GUIDES = [
   {
+    slug: "do-i-have-a-case",
+    href: "/guides/do-i-have-a-case",
+    title: "“Do I Have a Case?”",
+    excerpt: "A structured self-evaluation covering liability, damages, and procedure — the three factors civil rights attorneys weigh when assessing a case.",
+    authorName: "fightfor.you",
+    date: "May 20, 2026",
+    readLabel: "Evaluate your case →",
+  },
+  {
     slug: "filing-deadlines-by-state",
     href: "/guides/filing-deadlines-by-state",
     title: "Filing Deadlines by State",
