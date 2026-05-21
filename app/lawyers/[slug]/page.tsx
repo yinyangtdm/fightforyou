@@ -10,6 +10,7 @@ import Image from "next/image"
 import Link from "next/link"
 import type { Metadata } from "next"
 import SpecialtyList from "../../components/SpecialtyList"
+import AdditionalStatesList from "../../components/AdditionalStatesList"
 import ProfileMap from "../../components/ProfileMap"
 import ShareButton from "../../components/ShareButton"
 import ProfileButtons from "./ProfileButtons"
@@ -206,6 +207,14 @@ export default async function ProfilePage({
                   <circle cx="12" cy="10" r="3"/>
                 </svg>
                 <p className="profile-address">{[listing.streetAddress, listing.city, stateName, listing.zipCode].filter(Boolean).join(", ")}</p>
+              </div>
+            )}
+            {listing.additionalStates.length > 0 && (
+              <div className="profile-field">
+                <svg className="profile-field-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/>
+                </svg>
+                <AdditionalStatesList states={listing.additionalStates} />
               </div>
             )}
             {listing.specialties.length > 0 && (

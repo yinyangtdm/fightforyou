@@ -1547,6 +1547,11 @@ footer {
   white-space: nowrap;
 }
 
+.profile-also-serves-label {
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
 
 .btn-primary {
   display: inline-flex;
