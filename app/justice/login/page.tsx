@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 import { useState } from "react"
 import { signIn } from "next-auth/react"
 import { useRouter } from "next/navigation"
@@ -15,7 +15,7 @@ export default function LoginPage() {
       redirect: false,
     })
     if (result?.ok) {
-      router.push("/admin")
+      router.push("/justice")
     } else if (result?.error === "CredentialsSignin") {
       setError("Wrong password. Too many failed attempts will lock you out for 15 minutes.")
     } else {

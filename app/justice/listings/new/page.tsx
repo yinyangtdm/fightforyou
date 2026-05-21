@@ -1,8 +1,6 @@
-"use client"
+﻿"use client"
 import { useState, useRef } from "react"
 import { useRouter } from "next/navigation"
-import Link from "next/link"
-import { Listing } from "@prisma/client"
 
 interface FormState {
   isFirm: boolean
@@ -82,20 +80,6 @@ function parseAddress(input: string): { streetAddress?: string; city?: string; s
   return null
 }
 
-async function geocodeAddress(streetAddress: string, city: string, state: string, zipCode: string): Promise<{ latitude: number; longitude: number } | null> {
-  try {
-    const params = new URLSearchParams({ street: streetAddress, city, state, zip: zipCode, benchmark: "2020", format: "json" })
-    const res = await fetch(`https://geocoding.geo.census.gov/geocoder/locations/address?${params}`)
-    if (!res.ok) return null
-    const json = await res.json() as { result?: { addressMatches?: Array<{ coordinates: { x: number; y: number } }> } }
-    const match = json.result?.addressMatches?.[0]
-    if (!match) return null
-    return { latitude: match.coordinates.y, longitude: match.coordinates.x }
-  } catch {
-    return null
-  }
-}
-
 async function lookupByZip(zip: string): Promise<{ city: string; state: string } | null> {
   try {
     const res = await fetch(`https://api.zippopotam.us/us/${zip}`)
@@ -118,41 +102,23 @@ async function uploadFile(file: File): Promise<string> {
   return result.url!
 }
 
-interface EditFormProps {
-  listing: Listing
-}
-
-export default function EditForm({ listing }: EditFormProps) {
+export default function NewListingPage() {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState("")
   const [emailError, setEmailError] = useState("")
   const [phoneError, setPhoneError] = useState("")
+  const [photoUploading, setPhotoUploading] = useState(false)
   const [websiteError, setWebsiteError] = useState("")
   const [zipCodeError, setZipCodeError] = useState("")
   const [linkedinError, setLinkedinError] = useState("")
   const [facebookError, setFacebookError] = useState("")
-  const [photoUploading, setPhotoUploading] = useState(false)
   const [addressInput, setAddressInput] = useState("")
   const [pageText, setPageText] = useState("")
   const [autoFillLoading, setAutoFillLoading] = useState(false)
   const [fieldLoading, setFieldLoading] = useState<string | null>(null)
   const [copyConfirm, setCopyConfirm] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
-  const htmlFileInputRef = useRef<HTMLInputElement>(null)
-
-  function handleHtmlFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
-    const file = e.target.files?.[0]
-    e.target.value = ""
-    if (!file) return
-    const reader = new FileReader()
-    reader.onload = (ev) => {
-      const html = ev.target?.result as string
-      const doc = new DOMParser().parseFromString(html, "text/html")
-      setPageText(doc.body.innerText ?? doc.body.textContent ?? "")
-    }
-    reader.readAsText(file)
-  }
 
   const COPY_PROMPT = "Full official firm name. A 3-6 word descriptive nickname-style tagline. Email address. Phone number. 3-4 paragraph description focusing on history against police. Office address. Practice areas limited to civil rights, police misconduct, wrongful death, wrongful conviction, and other police-related fields. Notable results such as 7 figure settlements and verdicts against police. Key characteristics. Bar number. Website URL, LinkedIn, Facebook."
 
@@ -161,6 +127,85 @@ export default function EditForm({ listing }: EditFormProps) {
       setCopyConfirm(true)
       setTimeout(() => setCopyConfirm(false), 2000)
     })
+  }
+
+  const [form, setForm] = useState<FormState>({
+    isFirm: false,
+    name: "",
+    slug: "",
+    firm: "",
+    tagline: "",
+    email: "",
+    phone: "",
+    description: "",
+    photoUrl: "",
+    streetAddress: "",
+    city: "",
+    state: "",
+    zipCode: "",
+    additionalStates: "",
+    specialties: "",
+    notableResults: [""],
+    keyCharacteristics: [""],
+    barNumber: "",
+    website: "",
+    linkedin: "",
+    facebook: "",
+    approved: false,
+    featured: false,
+    isNonprofit: false,
+  })
+
+  function formatPhone(value: string): string {
+    const digits = value.replace(/\D/g, "").replace(/^1+/, "").slice(0, 10)
+    if (digits.length < 4) return digits.length ? `(${digits}` : ""
+    if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`
+    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
+  }
+
+  function normalizeSpecialties(raw: string): string {
+    const deduped = [...new Set(raw.split(",").map(s => s.trim()).filter(Boolean))]
+    return deduped.sort((a, b) => a.localeCompare(b)).join(", ")
+  }
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+    const { name, value } = e.target
+    const checked = (e.target as HTMLInputElement).checked
+    const type = e.target.type
+    if (name === "name") {
+      setForm(prev => ({ ...prev, name: value, slug: generateSlug(value) }))
+      return
+    }
+    if (name === "phone") {
+      setForm(prev => ({ ...prev, phone: formatPhone(value) }))
+      return
+    }
+    if (name === "isFirm" && checked) {
+      setForm(prev => ({ ...prev, isFirm: true, isNonprofit: false }))
+      return
+    }
+    if (name === "isNonprofit" && checked) {
+      setForm(prev => ({ ...prev, isNonprofit: true, isFirm: false }))
+      return
+    }
+    setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
+  }
+
+  async function handleParseAddress(override?: string) {
+    const parsed = parseAddress(override ?? addressInput)
+    if (!parsed) return
+    setForm(prev => ({
+      ...prev,
+      ...(parsed.streetAddress !== undefined && { streetAddress: parsed.streetAddress }),
+      ...(parsed.city !== undefined && { city: parsed.city }),
+      ...(parsed.state !== undefined && { state: parsed.state }),
+      ...(parsed.zipCode !== undefined && { zipCode: parsed.zipCode }),
+    }))
+    if (parsed.zipCode) {
+      setZipCodeError("")
+      const result = await lookupByZip(parsed.zipCode.slice(0, 5))
+      if (result) setForm(prev => ({ ...prev, city: result.city, state: result.state }))
+    }
   }
 
   type AutoFillData = {
@@ -292,85 +337,6 @@ export default function EditForm({ listing }: EditFormProps) {
     }
   }
 
-  const [form, setForm] = useState<FormState>({
-    isFirm: listing.isFirm ?? false,
-    name: listing.name,
-    slug: listing.slug,
-    firm: listing.firm ?? "",
-    tagline: listing.tagline ?? "",
-    email: listing.email ?? "",
-    phone: listing.phone ?? "",
-    description: listing.description ?? "",
-    photoUrl: listing.photoUrl ?? "",
-    streetAddress: listing.streetAddress ?? "",
-    city: listing.city ?? "",
-    state: listing.state ?? "",
-    zipCode: listing.zipCode ?? "",
-    additionalStates: (listing.additionalStates ?? []).join(", "),
-    specialties: (listing.specialties ?? []).join(", "),
-    notableResults: listing.notableResults.length ? listing.notableResults : [""],
-    keyCharacteristics: listing.keyCharacteristics.length ? listing.keyCharacteristics : [""],
-    barNumber: listing.barNumber ?? "",
-    website: listing.website ?? "",
-    linkedin: listing.linkedin ?? "",
-    facebook: listing.facebook ?? "",
-    approved: listing.approved ?? false,
-    featured: listing.featured ?? false,
-    isNonprofit: listing.isNonprofit ?? false,
-  })
-
-  function formatPhone(value: string): string {
-    const digits = value.replace(/\D/g, "").replace(/^1+/, "").slice(0, 10)
-    if (digits.length < 4) return digits.length ? `(${digits}` : ""
-    if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`
-    return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
-  }
-
-  function normalizeSpecialties(raw: string): string {
-    const deduped = [...new Set(raw.split(",").map(s => s.trim()).filter(Boolean))]
-    return deduped.sort((a, b) => a.localeCompare(b)).join(", ")
-  }
-
-  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
-    const { name, value } = e.target
-    const checked = (e.target as HTMLInputElement).checked
-    const type = e.target.type
-    if (name === "name") {
-      setForm(prev => ({ ...prev, name: value, slug: generateSlug(value) }))
-      return
-    }
-    if (name === "phone") {
-      setForm(prev => ({ ...prev, phone: formatPhone(value) }))
-      return
-    }
-    if (name === "isFirm" && checked) {
-      setForm(prev => ({ ...prev, isFirm: true, isNonprofit: false }))
-      return
-    }
-    if (name === "isNonprofit" && checked) {
-      setForm(prev => ({ ...prev, isNonprofit: true, isFirm: false }))
-      return
-    }
-    setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))
-  }
-
-  async function handleParseAddress(override?: string) {
-    const parsed = parseAddress(override ?? addressInput)
-    if (!parsed) return
-    setForm(prev => ({
-      ...prev,
-      ...(parsed.streetAddress !== undefined && { streetAddress: parsed.streetAddress }),
-      ...(parsed.city !== undefined && { city: parsed.city }),
-      ...(parsed.state !== undefined && { state: parsed.state }),
-      ...(parsed.zipCode !== undefined && { zipCode: parsed.zipCode }),
-    }))
-    if (parsed.zipCode) {
-      setZipCodeError("")
-      const result = await lookupByZip(parsed.zipCode.slice(0, 5))
-      if (result) setForm(prev => ({ ...prev, city: result.city, state: result.state }))
-    }
-  }
-
   function handleFileSelect(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0]
     e.target.value = ""
@@ -387,19 +353,8 @@ export default function EditForm({ listing }: EditFormProps) {
     setLoading(true)
     setError("")
     try {
-      const addressChanged =
-        form.streetAddress !== (listing.streetAddress ?? "") ||
-        form.city !== (listing.city ?? "") ||
-        form.state !== (listing.state ?? "") ||
-        form.zipCode !== (listing.zipCode ?? "")
-
-      let coords: { latitude: number; longitude: number } | null = null
-      if (addressChanged && form.streetAddress) {
-        coords = await geocodeAddress(form.streetAddress, form.city, form.state, form.zipCode)
-      }
-
-      const res = await fetch(`/api/listings/${listing.id}`, {
-        method: "PATCH",
+      const res = await fetch("/api/listings", {
+        method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...form,
@@ -407,11 +362,10 @@ export default function EditForm({ listing }: EditFormProps) {
           specialties: form.specialties.split(",").map(s => s.trim()).filter(Boolean),
           notableResults: form.notableResults.filter(s => s.trim()),
           keyCharacteristics: form.keyCharacteristics.filter(s => s.trim()),
-          ...(coords && { latitude: coords.latitude, longitude: coords.longitude }),
         }),
       })
-      if (!res.ok) throw new Error("Failed to update listing")
-      router.push("/admin/listings")
+      if (!res.ok) throw new Error("Failed to create listing")
+      router.push("/justice/listings")
     } catch (err) {
       setError((err as Error).message)
     } finally {
@@ -422,13 +376,7 @@ export default function EditForm({ listing }: EditFormProps) {
   return (
     <div className="admin-layout p-8">
       <div className="max-w-2xl mx-auto bg-[#3b4252] text-[#d8dee9] p-8 rounded-lg border border-[#4c566a]">
-        <div className="flex items-center gap-4 mb-6">
-          <Link href="/admin/listings" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">
-            &larr; Back
-          </Link>
-          <h1 className="text-2xl font-bold">Edit Listing</h1>
-          <span className="ml-auto text-sm text-[#4c566a] font-mono">#{listing.id}</span>
-        </div>
+        <h1 className="text-2xl font-bold mb-6 text-[#eceff4]">Add New Listing</h1>
         {error && <p className="text-red-500 mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -455,14 +403,6 @@ export default function EditForm({ listing }: EditFormProps) {
               >
                 {copyConfirm ? "Copied!" : "Copy prompt"}
               </button>
-              <input ref={htmlFileInputRef} type="file" accept=".html,text/html" onChange={handleHtmlFileSelect} className="hidden" />
-              <button
-                type="button"
-                onClick={() => htmlFileInputRef.current?.click()}
-                className="px-4 py-2 border border-[#4c566a] rounded text-sm hover:bg-[#434c5e]"
-              >
-                Upload HTML
-              </button>
             </div>
           </div>
           <div className="flex gap-6">
@@ -486,7 +426,7 @@ export default function EditForm({ listing }: EditFormProps) {
             <input required name="name" value={form.name} onChange={handleChange} className="w-full border rounded p-2" />
           </div>
           <div>
-            <label className="block text-sm font-medium mb-1">Slug</label>
+            <label className="block text-sm font-medium mb-1">Slug * (URL-friendly name e.g. john-smith)</label>
             <input readOnly name="slug" value={form.slug} className="w-full border rounded p-2 bg-[#2e3440] text-[#9aa5b4] cursor-default" />
           </div>
           <div>
@@ -574,19 +514,19 @@ export default function EditForm({ listing }: EditFormProps) {
             <label className="block text-sm font-medium mb-1">Full Address</label>
             <div className="flex gap-2">
               <input
-                type="text"
-                value={addressInput}
-                onChange={e => setAddressInput(e.target.value)}
-                onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); void handleParseAddress() } }}
-                onPaste={e => {
-                  e.preventDefault()
-                  const text = e.clipboardData.getData("text")
-                  setAddressInput(text)
-                  void handleParseAddress(text)
-                }}
-                placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
-                className="flex-1 border rounded p-2"
-              />
+  type="text"
+  value={addressInput}
+  onChange={e => setAddressInput(e.target.value)}
+  onKeyDown={e => { if (e.key === "Enter") { e.preventDefault(); void handleParseAddress() } }}
+  onPaste={e => {
+    e.preventDefault()
+    const text = e.clipboardData.getData("text")
+    setAddressInput(text)
+    void handleParseAddress(text)
+  }}
+  placeholder="e.g. 123 Main St, Los Angeles, CA 90001"
+  className="flex-1 border rounded p-2"
+/>
               <button type="button" onClick={() => void handleParseAddress()} className="px-4 py-2 border border-[#4c566a] rounded text-sm hover:bg-[#434c5e]">Parse</button>
               <button type="button" onClick={() => void handleFieldLookup("address")} disabled={!!fieldLoading} className="px-3 py-2 border rounded text-sm hover:bg-[#434c5e] disabled:opacity-40">{fieldLoading === "address" ? "…" : "Find"}</button>
             </div>
@@ -832,7 +772,7 @@ export default function EditForm({ listing }: EditFormProps) {
             <span>Featured</span>
           </label>
           <button type="submit" disabled={loading} className="w-full bg-[#5e81ac] text-white py-2 rounded hover:bg-[#81a1c1] disabled:opacity-50">
-            {loading ? "Saving..." : "Save Changes"}
+            {loading ? "Saving..." : "Add Listing"}
           </button>
         </form>
       </div>

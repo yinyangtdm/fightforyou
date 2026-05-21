@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server"
+﻿import { NextRequest, NextResponse } from "next/server"
 
 const COMING_SOON_HTML = `<!DOCTYPE html>
 <html lang="en">
@@ -35,7 +35,7 @@ export function middleware(request: NextRequest) {
   if (process.env.COMING_SOON !== "true") return NextResponse.next()
 
   const { pathname, searchParams } = request.nextUrl
-  if (pathname.startsWith("/admin") || pathname.startsWith("/api")) {
+  if (pathname.startsWith("/justice") || pathname.startsWith("/api")) {
     return NextResponse.next()
   }
 

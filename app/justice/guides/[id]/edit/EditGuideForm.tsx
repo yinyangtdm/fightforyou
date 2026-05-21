@@ -156,7 +156,7 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
         body: JSON.stringify(form),
       })
       if (!res.ok) throw new Error("Failed to save guide")
-      router.push("/admin/guides")
+      router.push("/justice/guides")
     } catch (err) {
       setError((err as Error).message)
     } finally {
@@ -168,7 +168,7 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
     <div className="min-h-screen bg-[#2e3440] p-8">
       <div className="max-w-2xl mx-auto bg-[#3b4252] p-8 rounded-lg border border-[#4c566a]">
         <div className="flex items-center gap-4 mb-6">
-          <Link href="/admin/guides" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">← Guides</Link>
+          <Link href="/justice/guides" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">← Guides</Link>
           <h1 className="text-2xl font-bold">Edit Guide</h1>
         </div>
         {error && <p className="text-red-500 mb-4">{error}</p>}

@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client"
+﻿import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
@@ -106,7 +106,7 @@ export default async function GuidesPage() {
         <div className="guides-cta">
           <h2>Are you an attorney?</h2>
           <p>Share your expertise by contributing a guide. Attorney submissions are reviewed before publishing.</p>
-          <Link href="/admin/login" className="btn-primary">Submit a Guide</Link>
+          <Link href="/justice/login" className="btn-primary">Submit a Guide</Link>
         </div>
       </main>
 

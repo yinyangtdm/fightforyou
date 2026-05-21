@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import Link from "next/link"
 import Image from "next/image"
 import { PrismaClient } from "@prisma/client"
@@ -18,7 +18,7 @@ export default async function ListingsPage({
   searchParams: Promise<{ sort?: string; dir?: string }>
 }) {
   const session = await auth()
-  if (!session) redirect("/admin/login")
+  if (!session) redirect("/justice/login")
 
   const { sort, dir } = await searchParams
 
@@ -45,7 +45,7 @@ export default async function ListingsPage({
 
   function sortHref(col: string) {
     const nextDir = sort === col && dir !== "desc" ? "desc" : "asc"
-    return `/admin/listings?sort=${col}&dir=${nextDir}`
+    return `/justice/listings?sort=${col}&dir=${nextDir}`
   }
 
   function sortIndicator(col: string) {
@@ -59,7 +59,7 @@ export default async function ListingsPage({
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-3xl font-bold text-[#eceff4]">Listings</h1>
           <Link
-            href="/admin/listings/new"
+            href="/justice/listings/new"
             className="bg-[#5e81ac] text-white px-4 py-2 rounded hover:bg-[#81a1c1]"
           >
             Add New
@@ -122,7 +122,7 @@ export default async function ListingsPage({
                     </td>
                     <td className="px-4 py-3 flex gap-4">
                       <a
-                        href={`/admin/listings/${listing.id}/edit`}
+                        href={`/justice/listings/${listing.id}/edit`}
                         className="text-[#88c0d0] hover:text-[#8fbcbb]"
                       >
                         Edit

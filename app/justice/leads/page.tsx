@@ -1,4 +1,4 @@
-import Link from "next/link"
+﻿import Link from "next/link"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { auth } from "../../../auth"
@@ -13,7 +13,7 @@ const prisma = new PrismaClient({
 
 export default async function LeadsPage() {
   const session = await auth()
-  if (!session) redirect("/admin/login")
+  if (!session) redirect("/justice/login")
 
   const [leads, listings, clickEvents] = await Promise.all([
     prisma.contactLead.findMany({ orderBy: { createdAt: "desc" } }),
@@ -62,7 +62,7 @@ export default async function LeadsPage() {
 
         <div className="flex items-center justify-between mb-8">
           <div>
-            <Link href="/admin" className="text-[#88c0d0] hover:text-[#8fbcbb] text-sm mb-2 inline-block">
+            <Link href="/justice" className="text-[#88c0d0] hover:text-[#8fbcbb] text-sm mb-2 inline-block">
               ← Dashboard
             </Link>
             <h1 className="text-3xl font-bold text-[#eceff4]">Leads</h1>

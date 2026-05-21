@@ -1,4 +1,4 @@
-import Link from "next/link"
+﻿import Link from "next/link"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
 import { auth } from "../../../auth"
@@ -11,7 +11,7 @@ const prisma = new PrismaClient({
 
 export default async function GuidesAdminPage() {
   const session = await auth()
-  if (!session) redirect("/admin/login")
+  if (!session) redirect("/justice/login")
 
   const guides = await prisma.guide.findMany({
     orderBy: { createdAt: "desc" },
@@ -23,10 +23,10 @@ export default async function GuidesAdminPage() {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-4">
-            <Link href="/admin" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">← Dashboard</Link>
+            <Link href="/justice" className="text-[#9aa5b4] hover:text-[#eceff4] text-sm">← Dashboard</Link>
             <h1 className="text-3xl font-bold text-[#eceff4]">Guides</h1>
           </div>
-          <Link href="/admin/guides/new" className="bg-[#5e81ac] text-white px-4 py-2 rounded hover:bg-[#81a1c1]">
+          <Link href="/justice/guides/new" className="bg-[#5e81ac] text-white px-4 py-2 rounded hover:bg-[#81a1c1]">
             Add New
           </Link>
         </div>
@@ -63,7 +63,7 @@ export default async function GuidesAdminPage() {
                       </span>
                     </td>
                     <td className="px-4 py-3 flex gap-4">
-                      <Link href={`/admin/guides/${guide.id}/edit`} className="text-[#88c0d0] hover:text-[#8fbcbb]">
+                      <Link href={`/justice/guides/${guide.id}/edit`} className="text-[#88c0d0] hover:text-[#8fbcbb]">
                         Edit
                       </Link>
                       <DeleteGuideButton id={guide.id} />

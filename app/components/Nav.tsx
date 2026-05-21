@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import Link from "next/link"
 import { useState, useEffect, useRef, useCallback } from "react"
@@ -200,7 +200,7 @@ export default function Nav({ specialties, guides = [] }: { specialties: string[
           </li>
 
           <li>
-            <Link href="/admin/login" className="nav-cta">Sign In</Link>
+            <Link href="/justice/login" className="nav-cta">Sign In</Link>
           </li>
         </ul>
 

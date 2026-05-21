@@ -1,4 +1,4 @@
-import NextAuth from "next-auth"
+﻿import NextAuth from "next-auth"
 import Credentials from "next-auth/providers/credentials"
 import { PrismaClient } from "@prisma/client"
 import { PrismaPg } from "@prisma/adapter-pg"
@@ -51,11 +51,11 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     }),
   ],
   pages: {
-    signIn: "/admin/login",
+    signIn: "/justice/login",
   },
   callbacks: {
     async redirect({ url, baseUrl }) {
-      return `${baseUrl}/admin`
+      return `${baseUrl}/justice`
     },
   },
 })

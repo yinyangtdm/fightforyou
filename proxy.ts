@@ -1,15 +1,15 @@
-import { auth } from "./auth"
+﻿import { auth } from "./auth"
 
 export default auth((req) => {
   const isLoggedIn = !!req.auth
-  const isAdminPage = req.nextUrl.pathname.startsWith("/admin")
-  const isLoginPage = req.nextUrl.pathname === "/admin/login"
+  const isAdminPage = req.nextUrl.pathname.startsWith("/justice")
+  const isLoginPage = req.nextUrl.pathname === "/justice/login"
 
   if (isAdminPage && !isLoginPage && !isLoggedIn) {
-    return Response.redirect(new URL("/admin/login", req.url))
+    return Response.redirect(new URL("/justice/login", req.url))
   }
 })
 
 export const config = {
-  matcher: ["/admin/:path*"]
+  matcher: ["/justice/:path*"]
 }

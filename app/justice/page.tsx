@@ -1,4 +1,4 @@
-import Link from "next/link"
+﻿import Link from "next/link"
 import { auth } from "../../auth"
 import { redirect } from "next/navigation"
 
@@ -7,7 +7,7 @@ export default async function AdminPage() {
   console.log("SESSION:", session)
 
   if (!session) {
-    redirect("/admin/login")
+    redirect("/justice/login")
   }
 
   return (
@@ -17,11 +17,11 @@ export default async function AdminPage() {
 
         <h2 className="text-lg font-semibold text-[#d8dee9] mb-3">Listings</h2>
         <div className="grid grid-cols-2 gap-6 mb-10">
-          <Link href="/admin/listings" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
+          <Link href="/justice/listings" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
             <h3 className="text-xl font-bold mb-2 text-[#eceff4]">Manage Listings</h3>
             <p className="text-[#9aa5b4]">View and edit existing listings</p>
           </Link>
-          <Link href="/admin/listings/new" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
+          <Link href="/justice/listings/new" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
             <h3 className="text-xl font-bold mb-2 text-[#eceff4]">Add New Listing</h3>
             <p className="text-[#9aa5b4]">Create a new lawyer or firm listing</p>
           </Link>
@@ -29,7 +29,7 @@ export default async function AdminPage() {
 
         <h2 className="text-lg font-semibold text-[#d8dee9] mb-3">CRM</h2>
         <div className="grid grid-cols-2 gap-6 mb-10">
-          <Link href="/admin/leads" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
+          <Link href="/justice/leads" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
             <h3 className="text-xl font-bold mb-2 text-[#eceff4]">Leads</h3>
             <p className="text-[#9aa5b4]">Review contact form submissions and track follow-ups</p>
           </Link>
@@ -37,11 +37,11 @@ export default async function AdminPage() {
 
         <h2 className="text-lg font-semibold text-[#d8dee9] mb-3">Guides</h2>
         <div className="grid grid-cols-2 gap-6">
-          <Link href="/admin/guides" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
+          <Link href="/justice/guides" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
             <h3 className="text-xl font-bold mb-2 text-[#eceff4]">Manage Guides</h3>
             <p className="text-[#9aa5b4]">View and edit existing guides</p>
           </Link>
-          <Link href="/admin/guides/new" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
+          <Link href="/justice/guides/new" className="bg-[#3b4252] p-6 rounded-lg border border-[#4c566a] hover:border-[#88c0d0] transition">
             <h3 className="text-xl font-bold mb-2 text-[#eceff4]">New Guide</h3>
             <p className="text-[#9aa5b4]">Write a new know-your-rights guide</p>
           </Link>

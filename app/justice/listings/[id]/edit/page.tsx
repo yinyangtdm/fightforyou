@@ -14,7 +14,7 @@ export default async function EditListingPage({
   params: Promise<{ id: string }>
 }) {
   const session = await auth()
-  if (!session) redirect("/admin/login")
+  if (!session) redirect("/justice/login")
 
   const id = parseInt((await params).id)
   if (isNaN(id)) notFound()
