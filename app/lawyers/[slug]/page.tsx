@@ -130,8 +130,23 @@ export default async function ProfilePage({
 
   breadcrumbItems.push({ label: listing.name, href: "" })
 
+  const stateSlug = listing.state
+    ? Object.entries(STATE_SLUGS).find(([, abbr]) => abbr === listing.state)?.[0]
+    : null
+
+  const breadcrumbLd = {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://fightfor.you" },
+      ...(stateSlug && stateName ? [{ "@type": "ListItem", "position": 2, "name": stateName, "item": `https://fightfor.you/${stateSlug}` }] : []),
+      { "@type": "ListItem", "position": stateSlug ? 3 : 2, "name": listing.name },
+    ],
+  }
+
   const jsonLd = {
     "@context": "https://schema.org",
+    "@graph": [
+    {
     "@type": listing.isFirm ? "LegalService" : "Attorney",
     "name": listing.name,
     "description": listing.tagline ?? listing.description?.slice(0, 200) ?? undefined,
@@ -153,6 +168,9 @@ export default async function ProfilePage({
       : listing.state ?? undefined,
     ...(listing.photoUrl && { "image": listing.photoUrl }),
     ...(listing.specialties.length > 0 && { "knowsAbout": listing.specialties }),
+    },
+    breadcrumbLd,
+  ],
   }
 
   return (

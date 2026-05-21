@@ -61,8 +61,17 @@ export default async function HomePage() {
   const featured = guides.filter((g) => g.featured)
   const rest = guides.filter((g) => !g.featured)
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "fightfor.you",
+    "url": "https://fightfor.you",
+    "description": "Free civil rights attorney directory — attorneys who fight police misconduct, excessive force, and government abuse.",
+  }
+
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="home-page" id="main-content">

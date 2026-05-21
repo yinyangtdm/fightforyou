@@ -11,9 +11,21 @@ export const metadata: Metadata = {
   description: "How qualified immunity shields police from lawsuits, which states have reformed or abolished it, and what it means for your chances of winning a civil rights case.",
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Qualified Immunity — What It Means for Your Case",
+  "description": "How qualified immunity shields police from lawsuits, which states have reformed or abolished it, and what it means for your chances of winning a civil rights case.",
+  "author": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+  "publisher": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+  "datePublished": "2026-05-09",
+  "url": "https://fightfor.you/guides/qualified-immunity",
+}
+
 export default async function QualifiedImmunityPage() {
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="guide-page" id="main-content">

@@ -117,8 +117,21 @@ export default async function GuidePage({
 
   const { guide } = data
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": guide.title,
+    ...(guide.excerpt && { "description": guide.excerpt }),
+    "author": { "@type": "Organization", "name": guide.authorName ?? "fightfor.you", "url": "https://fightfor.you" },
+    "publisher": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+    "datePublished": guide.createdAt.toISOString(),
+    "url": `https://fightfor.you/guides/${guide.slug}`,
+    ...(guide.coverImageUrl && { "image": guide.coverImageUrl }),
+  }
+
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="guide-page" id="main-content">

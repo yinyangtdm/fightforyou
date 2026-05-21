@@ -108,8 +108,23 @@ export default async function SegmentPage({
       ? `Attorneys and firms with a proven record against law enforcement in ${data.label}.`
       : (getSpecialtyDescription(data.label) ?? `Attorneys and firms specializing in ${data.label}.`)
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": heading,
+    "url": `https://fightfor.you/${segment}`,
+    "numberOfItems": data.listings.length,
+    "itemListElement": data.listings.map((l, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": l.name,
+      "url": `https://fightfor.you/lawyers/${l.slug}`,
+    })),
+  }
+
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="listing-page" id="main-content">

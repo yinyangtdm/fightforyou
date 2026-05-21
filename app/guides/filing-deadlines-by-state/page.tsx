@@ -11,9 +11,21 @@ export const metadata: Metadata = {
   description: "State-by-state statutes of limitations and notice-of-claim deadlines for civil rights lawsuits. Missing a deadline permanently bars your claim — look up your state now.",
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Civil Rights Filing Deadlines by State",
+  "description": "State-by-state statutes of limitations and notice-of-claim deadlines for civil rights lawsuits.",
+  "author": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+  "publisher": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+  "datePublished": "2026-05-09",
+  "url": "https://fightfor.you/guides/filing-deadlines-by-state",
+}
+
 export default async function FilingDeadlinesPage() {
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="guide-page" id="main-content">

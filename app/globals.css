@@ -2504,7 +2504,7 @@ footer {
 }
 
 /* ── CASE EVALUATOR ── */
-.evaluator { display: flex; flex-direction: column; gap: 12px; margin-top: 24px; }
+.evaluator { display: flex; flex-direction: column; gap: 24px; margin-top: 24px; }
 
 .eval-section {
   background: var(--nord1);

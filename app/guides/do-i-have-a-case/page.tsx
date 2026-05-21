@@ -11,9 +11,21 @@ export const metadata: Metadata = {
   description: "A structured self-evaluation covering liability, damages, and procedure — the three factors civil rights attorneys weigh when assessing a case against law enforcement.",
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": '"Do I Have a Case?" — Civil Rights Case Evaluator',
+  "description": "A structured self-evaluation covering liability, damages, and procedure — the three factors civil rights attorneys weigh when assessing a case against law enforcement.",
+  "author": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+  "publisher": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+  "datePublished": "2026-05-20",
+  "url": "https://fightfor.you/guides/do-i-have-a-case",
+}
+
 export default function DoIHaveACasePage() {
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="guide-page" id="main-content">

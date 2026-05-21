@@ -183,8 +183,20 @@ export default async function GlossaryPage({
     </nav>
   )
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Civil Rights Legal Glossary",
+    "description": "Plain-language definitions of every legal term you'll encounter in a civil rights case.",
+    "author": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+    "publisher": { "@type": "Organization", "name": "fightfor.you", "url": "https://fightfor.you" },
+    "datePublished": "2026-05-14",
+    "url": "https://fightfor.you/guides/glossary",
+  }
+
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="guide-page glossary-page" id="main-content">

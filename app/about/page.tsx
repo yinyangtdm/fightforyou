@@ -11,9 +11,19 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://fightfor.you/about" },
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "fightfor.you",
+  "url": "https://fightfor.you",
+  "description": "A free public directory of civil rights attorneys who fight police misconduct, excessive force, and government abuse — carefully selected, proven in court.",
+  "foundingDate": "2026",
+}
+
 export default function AboutPage() {
   return (
     <div className="public">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
       <main className="guide-page" id="main-content" style={{ paddingTop: "52px" }}>
