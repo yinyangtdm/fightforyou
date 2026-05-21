@@ -187,13 +187,13 @@ export default async function GlossaryPage({
     <div className="public">
       <NavServer />
 
-      <main className="guide-page" id="main-content">
+      <main className="guide-page glossary-page" id="main-content">
         <div className="guide-back-container">
           <Link href="/guides" className="guide-back">← All Guides</Link>
         </div>
         <div className="guide-page-inner">
           <div className="guide-article">
-            <h1 className="guide-title" style={{ paddingTop: 25 }}>Legal Glossary</h1>
+            <h1 className="guide-title">Legal Glossary</h1>
             <p className="guide-lead">
               Plain-language definitions of legal terms that come up in civil rights cases. If you&apos;re reading about a case, talking to an attorney, or trying to understand your rights, start here.
             </p>

@@ -2258,6 +2258,7 @@ footer {
   letter-spacing: -0.02em;
   color: var(--nord6);
   line-height: 1.1;
+  padding-top: 25px;
 }
 
 .guide-lead {
@@ -3076,8 +3077,6 @@ footer {
   .guides-subheading,
   .guide-card-excerpt { font-size: 16px; }
   .listing-section { padding: 24px 0; }
-  .guides-index .guides-header { padding-top: 48px; padding-bottom: 24px; }
-
   .guide-page-inner { padding: 0 var(--page-px) 56px; }
   .profile-body { padding: 12px var(--page-px) 56px; }
   .profile-hero {
@@ -3110,12 +3109,13 @@ footer {
   .profile-actions-col .btn-primary { flex: unset; width: 100%; }
   .profile-share-row { flex: unset; }
 
-  .guides-index { padding: 24px var(--page-px) 48px; }
+  .guides-index { padding: 39px 0 48px; }
   .guides-index .guides-header { padding-top: 20px; padding-bottom: 16px; }
   .guides-index .guides-header h1,
   .guides-index > h1,
   .guides-page > h1 { font-size: 24px; margin-bottom: 16px; }
-  .guide-title { font-size: 24px; }
+  .guide-title { font-size: 24px; padding-top: 14px; }
+  .glossary-page .guide-title { padding-top: 14px; }
 
   .glossary-page-btn { width: 56px; font-size: 12px; padding: 8px 0; }
 }
