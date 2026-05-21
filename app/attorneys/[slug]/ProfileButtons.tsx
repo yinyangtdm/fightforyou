@@ -42,7 +42,7 @@ export default function ProfileButtons({
       )}
 
       <Link
-        href={`/lawyers/${slug}/contact`}
+        href={`/attorneys/${slug}/contact`}
         className="btn-primary"
         onClick={() => track(slug, "contact", "contact_click")}
       >

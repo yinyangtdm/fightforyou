@@ -60,11 +60,11 @@ export async function generateMetadata(
   return {
     title,
     description,
-    alternates: { canonical: `https://fightfor.you/lawyers/${slug}/contact` },
+    alternates: { canonical: `https://fightfor.you/attorneys/${slug}/contact` },
     openGraph: {
       title,
       description,
-      url: `https://fightfor.you/lawyers/${slug}/contact`,
+      url: `https://fightfor.you/attorneys/${slug}/contact`,
       type: "website",
       siteName: "Fight For You",
       ...(listing.photoUrl && { images: [{ url: listing.photoUrl, width: 400, height: 400, alt: listing.name }] }),

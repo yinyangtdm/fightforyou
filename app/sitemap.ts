@@ -48,7 +48,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   const lawyerPages: MetadataRoute.Sitemap = listings.map((l) => ({
-    url: `${BASE}/lawyers/${l.slug}`,
+    url: `${BASE}/attorneys/${l.slug}`,
     changeFrequency: "monthly",
     priority: 0.8,
   }))

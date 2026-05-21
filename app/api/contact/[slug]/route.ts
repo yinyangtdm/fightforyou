@@ -43,7 +43,7 @@ export async function POST(
       subject: `New contact: ${name} → ${attorneyName}`,
       html: `
         <h2>New Contact Form Submission</h2>
-        <p><strong>Attorney:</strong> ${attorneyName} (<a href="https://fightfor.you/lawyers/${slug}">/lawyers/${slug}</a>)</p>
+        <p><strong>Attorney:</strong> ${attorneyName} (<a href="https://fightfor.you/attorneys/${slug}">/attorneys/${slug}</a>)</p>
         <hr />
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>

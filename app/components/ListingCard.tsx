@@ -18,7 +18,7 @@ type Listing = {
 }
 
 export default function ListingCard({ listing }: { listing: Listing }) {
-  const href = `/lawyers/${listing.slug}`
+  const href = `/attorneys/${listing.slug}`
   const location = [listing.city, listing.state]
     .filter(Boolean)
     .join(", ")

@@ -150,7 +150,7 @@ export default async function ProfilePage({
     "@type": listing.isFirm ? "LegalService" : "Attorney",
     "name": listing.name,
     "description": listing.tagline ?? listing.description?.slice(0, 200) ?? undefined,
-    "url": `https://fightfor.you/lawyers/${listing.slug}`,
+    "url": `https://fightfor.you/attorneys/${listing.slug}`,
     ...(listing.phone && { "telephone": listing.phone }),
     ...(listing.website && { "sameAs": listing.website }),
     ...((listing.streetAddress || listing.city || listing.state) && {

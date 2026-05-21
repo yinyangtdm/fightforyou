@@ -103,7 +103,7 @@ export default async function LeadsPage() {
                             ) : (
                               <div className="w-8 h-8 rounded bg-[#4c566a] shrink-0" />
                             )}
-                            <Link href={`/lawyers/${slug}`} target="_blank" className="text-[#88c0d0] hover:text-[#8fbcbb] font-medium">
+                            <Link href={`/attorneys/${slug}`} target="_blank" className="text-[#88c0d0] hover:text-[#8fbcbb] font-medium">
                               {listing?.name ?? slug}
                             </Link>
                           </div>
@@ -157,7 +157,7 @@ export default async function LeadsPage() {
                         {lead.createdAt.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
                       </td>
                       <td className="px-4 py-3 whitespace-nowrap">
-                        <Link href={`/lawyers/${lead.listingSlug}`} target="_blank" className="text-[#88c0d0] hover:text-[#8fbcbb]">
+                        <Link href={`/attorneys/${lead.listingSlug}`} target="_blank" className="text-[#88c0d0] hover:text-[#8fbcbb]">
                           {listing?.name ?? lead.listingSlug}
                         </Link>
                       </td>

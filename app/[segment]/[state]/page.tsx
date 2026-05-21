@@ -88,7 +88,7 @@ export default async function SpecialtyStatePage({
       "@type": "ListItem",
       "position": i + 1,
       "name": l.name,
-      "url": `https://fightfor.you/lawyers/${l.slug}`,
+      "url": `https://fightfor.you/attorneys/${l.slug}`,
     })),
   }
 
