@@ -3055,6 +3055,7 @@ footer {
 
   .hero { padding: 44px var(--page-px) 40px; }
   .hero h1 { font-size: 32px; }
+  .profile-hero-outer { padding-top: 15px; }
 
   .stats-bar { padding: 40px 0; }
   .stats-inner { gap: 28px; }
