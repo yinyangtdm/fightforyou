@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
+import Link from "next/link"
 import GeneralContactForm from "./ContactForm"
 
 export const metadata: Metadata = {
@@ -13,11 +14,14 @@ export default function ContactPage() {
   return (
     <div className="public">
       <NavServer />
-      <main className="contact-page" id="main-content">
-        <div className="contact-page-inner contact-page-inner--centered">
-          <div>
-            <h1 className="contact-page-title">Contact Us</h1>
-            <p className="contact-page-lead">
+      <main className="guide-page" id="main-content">
+        <div className="guide-back-container">
+          <Link href="/" className="guide-back">← Home</Link>
+        </div>
+        <div className="guide-page-inner">
+          <div className="guide-article" style={{ maxWidth: 600 }}>
+            <h1 className="guide-title">Contact Us</h1>
+            <p className="guide-lead">
               Questions, corrections, attorney listing requests, or anything else — we&apos;d love to hear from you.
             </p>
             <GeneralContactForm />

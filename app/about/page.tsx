@@ -26,7 +26,10 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavServer />
 
-      <main className="guide-page" id="main-content" style={{ paddingTop: "52px" }}>
+      <main className="guide-page" id="main-content">
+        <div className="guide-back-container">
+          <Link href="/" className="guide-back">← Home</Link>
+        </div>
         <div className="guide-page-inner">
           <article className="guide-article">
             <h1 className="guide-title">About fightfor.you</h1>

@@ -1189,9 +1189,10 @@ footer {
   width: fit-content;
 }
 
-.qi-abolished { background: rgba(163, 190, 140, 0.1); color: #a3be8c; border: 1px solid rgba(163, 190, 140, 0.3); }
-.qi-limited { background: rgba(235, 203, 139, 0.1); color: #ebcb8b; border: 1px solid rgba(235, 203, 139, 0.3); }
-.qi-federal { background: rgba(191, 97, 106, 0.1); color: #bf616a; border: 1px solid rgba(191, 97, 106, 0.3); }
+.qi-abolished { background: #a3be8c; color: #2e3440; border: none; }
+.qi-limited { background: #ebcb8b; color: #2e3440; border: none; }
+[data-theme="light"] .qi-limited { background: #c9a227; color: #eceff4; }
+.qi-federal { background: #bf616a; color: #eceff4; border: none; }
 
 
 .listing-section {
