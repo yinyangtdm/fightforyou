@@ -3012,6 +3012,7 @@ footer {
   .listing-card-top { flex-direction: column; }
 
   /* Profile */
+  .profile-hero-outer { padding-top: 25px; }
   .profile-body { padding: 12px var(--page-px) 64px; }
   .profile-name { font-size: 28px; }
   .profile-hero { margin: 0 0 16px; border-radius: 8px; grid-template-columns: 168px 1fr; }
