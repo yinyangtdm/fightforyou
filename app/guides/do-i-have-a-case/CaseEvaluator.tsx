@@ -213,10 +213,10 @@ export default function CaseEvaluator() {
       <div className="eval-verdict">
         <div className="eval-verdict-label" style={{ color: verdictColor }}>{verdictLabel}</div>
         <div className="eval-tier-guide">
-          <span className="eval-tier-pip" style={{ background: "rgba(163,190,140,0.15)", color: "#A3BE8C" }}>22+ strong</span>
-          <span className="eval-tier-pip" style={{ background: "rgba(129,161,193,0.15)", color: "#81A1C1" }}>13–21 viable</span>
-          <span className="eval-tier-pip" style={{ background: "rgba(235,203,139,0.15)", color: "#EBCB8B" }}>5–12 weak</span>
-          <span className="eval-tier-pip" style={{ background: "rgba(191,97,106,0.15)", color: "#BF616A" }}>0–4 unlikely</span>
+          <span className="eval-tier-pip" style={{ background: "#A3BE8C", color: "#2e3440" }}>22+ strong</span>
+          <span className="eval-tier-pip" style={{ background: "#81A1C1", color: "#2e3440" }}>13–21 viable</span>
+          <span className="eval-tier-pip" style={{ background: "#EBCB8B", color: "#2e3440" }}>5–12 weak</span>
+          <span className="eval-tier-pip" style={{ background: "#BF616A", color: "#2e3440" }}>0–4 unlikely</span>
         </div>
         <div className="eval-meter-track">
           <div className="eval-meter-fill" style={{ width: `${meterPct}%`, background: verdictColor }} />

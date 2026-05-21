@@ -27,7 +27,7 @@ const local = new PrismaClient({
 })
 
 const prod = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: PROD_URL, ssl: { rejectUnauthorized: false } }),
+  adapter: new PrismaPg({ connectionString: PROD_URL }),
 })
 
 // Fields to compare/sync (excludes id, createdAt, updatedAt)

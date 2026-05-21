@@ -62,8 +62,7 @@ export default function PrivacyPage() {
               <h2 className="guide-body-h2">Cookies</h2>
               <p>
                 This site sets no cookies for public visitors. The session cookie described above is only
-                set when an administrator logs into the admin panel and is not visible to or affecting
-                general visitors.
+                set when an administrator logs into the admin panel and is not visible to general visitors.
               </p>
 
               <h2 className="guide-body-h2">Attorney Listing Data</h2>
