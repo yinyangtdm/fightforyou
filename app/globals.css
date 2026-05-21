@@ -3032,7 +3032,7 @@ footer {
 
   /* Guides */
   .guides-header { padding-top: 70px; padding-bottom: 28px; }
-  .guides-header h1 { font-size: 34px; margin-bottom: 20px; }
+  .guides-header h1 { font-size: 30px; margin-bottom: 20px; }
   .guides-pinned { grid-template-columns: 1fr; }
   .guides-featured { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
