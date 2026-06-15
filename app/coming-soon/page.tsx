@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Coming Soon",
   description: "Attorney accounts and login are coming soon to fightfor.you.",

@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../lib/prisma"
 import { STATE_SLUGS, STATE_NAMES, toSlug } from "../lib/slugs"
 import { getSpecialtyDescription } from "../lib/specialty-descriptions"
+import { isDbUnavailable } from "../lib/db-errors"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 import ListingCard from "../components/ListingCard"
@@ -20,50 +20,52 @@ const SELECT = {
 }
 
 async function getData(segment: string) {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
+  try {
+    const stateAbbr = STATE_SLUGS[segment]
 
-  const stateAbbr = STATE_SLUGS[segment]
+    if (stateAbbr) {
+      const listings = await prisma.listing.findMany({
+        where: { approved: true, OR: [{ state: stateAbbr }, { additionalStates: { has: stateAbbr } }] },
+        select: SELECT,
+        orderBy: { name: "asc" },
+      })
+      return {
+        type: "state" as const,
+        stateAbbr,
+        label: STATE_NAMES[stateAbbr],
+        listings,
+      }
+    }
 
-  if (stateAbbr) {
+    const specialtyRows = await prisma.$queryRaw<{ specialty: string }[]>`
+      SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing"
+    `
+    const specialty = specialtyRows
+      .map((r) => r.specialty)
+      .find((s) => toSlug(s) === segment)
+
+    if (!specialty) {
+      return null
+    }
+
     const listings = await prisma.listing.findMany({
-      where: { approved: true, OR: [{ state: stateAbbr }, { additionalStates: { has: stateAbbr } }] },
+      where: { specialties: { has: specialty }, approved: true },
       select: SELECT,
       orderBy: { name: "asc" },
     })
-    await prisma.$disconnect()
     return {
-      type: "state" as const,
-      stateAbbr,
-      label: STATE_NAMES[stateAbbr],
+      type: "specialty" as const,
+      label: specialty,
       listings,
     }
-  }
-
-  const specialtyRows = await prisma.$queryRaw<{ specialty: string }[]>`
-    SELECT DISTINCT UNNEST(specialties) AS specialty FROM "Listing"
-  `
-  const specialty = specialtyRows
-    .map((r) => r.specialty)
-    .find((s) => toSlug(s) === segment)
-
-  if (!specialty) {
-    await prisma.$disconnect()
-    return null
-  }
-
-  const listings = await prisma.listing.findMany({
-    where: { specialties: { has: specialty }, approved: true },
-    select: SELECT,
-    orderBy: { name: "asc" },
-  })
-
-  await prisma.$disconnect()
-  return {
-    type: "specialty" as const,
-    label: specialty,
-    listings,
+  } catch (error) {
+    if (isDbUnavailable(error)) {
+      if (STATE_SLUGS[segment]) {
+        return { type: "unavailable" as const }
+      }
+      return null
+    }
+    throw error
   }
 }
 
@@ -74,7 +76,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { segment } = await params
   const data = await getData(segment)
-  if (!data) return {}
+  if (!data || data.type === "unavailable") return {}
 
   const title =
     data.type === "state"
@@ -97,6 +99,22 @@ export default async function SegmentPage({
   const { segment } = await params
   const data = await getData(segment)
   if (!data) notFound()
+  if (data.type === "unavailable") {
+    return (
+      <div className="public">
+        <NavServer />
+        <main className="listing-page" id="main-content">
+          <div className="listing-header">
+            <h1>Directory temporarily unavailable</h1>
+            <p className="listing-subheading">
+              We could not reach the database. Check your connection and try again.
+            </p>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    )
+  }
 
   const heading =
     data.type === "state"

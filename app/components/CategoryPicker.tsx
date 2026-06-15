@@ -1,14 +1,6 @@
 "use client"
 import { useState, useRef, useEffect } from "react"
-import { specialtyDescriptions } from "../lib/specialty-descriptions"
-import { STATE_NAMES } from "../lib/slugs"
-
-const ALL_OPTIONS: string[] = [
-  "General",
-  "Other",
-  ...Object.keys(specialtyDescriptions),
-  ...Object.values(STATE_NAMES),
-].sort()
+import { SORTED_CATEGORY_OPTIONS } from "../lib/guide-form"
 
 interface CategoryPickerProps {
   value: string[]
@@ -20,7 +12,7 @@ export default function CategoryPicker({ value, onChange }: CategoryPickerProps)
   const [open, setOpen] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  const filtered = ALL_OPTIONS
+  const filtered = SORTED_CATEGORY_OPTIONS
     .filter(o => !value.includes(o))
     .filter(o => o.toLowerCase().includes(query.toLowerCase()))
 

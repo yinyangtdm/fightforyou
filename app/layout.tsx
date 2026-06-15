@@ -3,6 +3,7 @@ import "./globals.css"
 import { Providers } from './providers'
 import type { Metadata } from "next"
 import Script from "next/script"
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] })
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] })
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             `}</Script>
           </>
         )}
+        <SpeedInsights />
       </body>
     </html>
   )

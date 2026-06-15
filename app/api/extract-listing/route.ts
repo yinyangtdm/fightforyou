@@ -1,5 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk"
 import { NextResponse } from "next/server"
+import { auth } from "../../../auth"
+import { lookupByZip, parseAddress } from "../../lib/address"
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
@@ -42,37 +44,9 @@ type AddressFields = {
   zipCode?: string
 }
 
-function splitAddressString(s: string): AddressFields | null {
-  s = s.trim()
-  // "street, city, ST zip"
-  const a = s.match(/^(.+),\s*(.+),\s*([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
-  if (a) return { streetAddress: a[1].trim(), city: a[2].trim(), state: a[3].toUpperCase(), zipCode: a[4] }
-  // "street, city ST zip" (no comma before state)
-  const b = s.match(/^(.+),\s*(.+?)\s+([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/)
-  if (b) return { streetAddress: b[1].trim(), city: b[2].trim(), state: b[3].toUpperCase(), zipCode: b[4] }
-  // "street city, ST, zip"
-  const z = s.match(/^(.+)\s+([^,]+),\s*([A-Za-z]{2}),\s*(\d{5}(-\d{4})?)$/)
-  if (z) return { streetAddress: z[1].trim(), city: z[2].trim(), state: z[3].toUpperCase(), zipCode: z[4] }
-  return null
-}
-
-async function lookupByZip(zip: string): Promise<{ city: string; state: string } | null> {
-  try {
-    const res = await fetch(`https://api.zippopotam.us/us/${zip}`, { signal: AbortSignal.timeout(4000) })
-    if (!res.ok) return null
-    const data = await res.json() as { places?: Array<{ "place name": string; "state abbreviation": string }> }
-    const place = data.places?.[0]
-    if (!place) return null
-    return { city: place["place name"], state: place["state abbreviation"] }
-  } catch {
-    return null
-  }
-}
-
 async function normalizeAddress(fields: AddressFields): Promise<AddressFields> {
-  // If streetAddress looks like a full combined string Claude didn't split, parse it now
   if (fields.streetAddress && !fields.zipCode) {
-    const parsed = splitAddressString(fields.streetAddress)
+    const parsed = parseAddress(fields.streetAddress)
     if (parsed) fields = { ...fields, ...parsed }
   }
   // Validate and correct city/state from zip — zippopotam.us is authoritative for US zips
@@ -200,6 +174,11 @@ ${siteText}`,
 }
 
 export async function POST(req: Request) {
+  const session = await auth()
+  if (!session) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+  }
+
   try {
     const body = await req.json() as { text?: string; name?: string; firm?: string }
 

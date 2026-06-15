@@ -1,11 +1,12 @@
-﻿import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+﻿import { prisma } from "../lib/prisma"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
 import { deriveExcerpt, PINNED_GUIDES } from "./_lib"
+import { isDbUnavailable } from "../lib/db-errors"
+import DbUnavailableNotice from "../components/DbUnavailableNotice"
 
 export const dynamic = "force-dynamic"
 
@@ -15,20 +16,21 @@ export const metadata: Metadata = {
 }
 
 async function getData() {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-  const guides = await prisma.guide.findMany({
-    where: { published: true },
-    orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-    select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
-  })
-  await prisma.$disconnect()
-  return { guides }
+  try {
+    const guides = await prisma.guide.findMany({
+      where: { published: true },
+      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+    })
+    return { guides, dbUnavailable: false as const }
+  } catch (error) {
+    if (!isDbUnavailable(error)) throw error
+    return { guides: [], dbUnavailable: true as const }
+  }
 }
 
 export default async function GuidesPage() {
-  const { guides } = await getData()
+  const { guides, dbUnavailable } = await getData()
 
   const featured = guides.filter((g) => g.featured)
   const rest = guides.filter((g) => !g.featured)
@@ -44,6 +46,8 @@ export default async function GuidesPage() {
             Plain-language explanations of the laws, rights, and legal processes that matter when police misconduct affects your life.
           </p>
         </div>
+
+        {dbUnavailable && <DbUnavailableNotice />}
 
         {featured.length > 0 && (
           <div className="guides-featured">

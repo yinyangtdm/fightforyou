@@ -1,23 +1,24 @@
 import { notFound } from "next/navigation"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../../lib/prisma"
 import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
 import { categorySlug } from "../_lib"
+import { isDbUnavailable } from "../../lib/db-errors"
 
 export const revalidate = 3600
 
 async function getData(slug: string) {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-  const guide = await prisma.guide.findUnique({ where: { slug, published: true } })
-  await prisma.$disconnect()
-  if (!guide) return null
-  return { guide }
+  try {
+    const guide = await prisma.guide.findUnique({ where: { slug, published: true } })
+    if (!guide) return null
+    return { guide }
+  } catch (error) {
+    if (isDbUnavailable(error)) return { type: "unavailable" as const }
+    throw error
+  }
 }
 
 export async function generateMetadata({
@@ -27,7 +28,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params
   const data = await getData(slug)
-  if (!data) return {}
+  if (!data || ("type" in data && data.type === "unavailable")) return {}
   return {
     title: data.guide.title,
     description: data.guide.excerpt ?? undefined,
@@ -114,6 +115,23 @@ export default async function GuidePage({
   const { slug } = await params
   const data = await getData(slug)
   if (!data) notFound()
+  if ("type" in data && data.type === "unavailable") {
+    return (
+      <div className="public">
+        <NavServer />
+        <main className="guide-page" id="main-content">
+          <div className="guide-back-container">
+            <Link href="/guides" className="guide-back">← All Guides</Link>
+          </div>
+          <div className="guide-page-inner">
+            <h1 className="guide-title">Guide temporarily unavailable</h1>
+            <p>We could not reach the database. Check your connection and try again.</p>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    )
+  }
 
   const { guide } = data
 

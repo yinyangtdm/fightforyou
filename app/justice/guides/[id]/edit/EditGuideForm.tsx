@@ -4,53 +4,7 @@ import { useRouter } from "next/navigation"
 import Link from "next/link"
 import CategoryPicker from "../../../../components/CategoryPicker"
 import { Guide } from "@prisma/client"
-import { specialtyDescriptions } from "../../../../lib/specialty-descriptions"
-import { STATE_NAMES } from "../../../../lib/slugs"
-
-const ALL_CATEGORY_OPTIONS: string[] = [
-  "General",
-  "Other",
-  ...Object.keys(specialtyDescriptions),
-  ...Object.values(STATE_NAMES),
-]
-
-function detectCategories(body: string): string[] {
-  const lower = body.toLowerCase()
-  return ALL_CATEGORY_OPTIONS.filter(opt => lower.includes(opt.toLowerCase()))
-}
-
-function insertMarkdown(
-  textarea: HTMLTextAreaElement,
-  before: string,
-  after = "",
-  placeholder = "text",
-  onUpdate: (val: string) => void
-) {
-  const start = textarea.selectionStart
-  const end = textarea.selectionEnd
-  const selected = textarea.value.slice(start, end) || placeholder
-  const newVal = textarea.value.slice(0, start) + before + selected + after + textarea.value.slice(end)
-  onUpdate(newVal)
-  setTimeout(() => {
-    textarea.focus()
-    const cursor = start + before.length + selected.length + after.length
-    textarea.selectionStart = textarea.selectionEnd = cursor
-  }, 0)
-}
-
-function generateSlug(title: string): string {
-  let s = title
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-+|-+$/g, "")
-  if (s.length > 60) {
-    s = s.slice(0, 60).replace(/-[^-]*$/, "")
-  }
-  return s
-}
+import { detectCategories, generateGuideSlug, insertMarkdown } from "../../../../lib/guide-form"
 
 interface FormState {
   title: string
@@ -94,7 +48,7 @@ export default function EditGuideForm({ guide }: { guide: Guide }) {
     const checked = (e.target as HTMLInputElement).checked
     const type = e.target.type
     if (name === "title") {
-      setForm(prev => ({ ...prev, title: value, slug: generateSlug(value) }))
+      setForm(prev => ({ ...prev, title: value, slug: generateGuideSlug(value) }))
       return
     }
     setForm(prev => ({ ...prev, [name]: type === "checkbox" ? checked : value }))

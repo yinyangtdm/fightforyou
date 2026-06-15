@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Accessibility",
   description: "fightfor.you's commitment to web accessibility for all visitors.",

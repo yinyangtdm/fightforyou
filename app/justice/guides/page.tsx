@@ -1,13 +1,8 @@
 ﻿import Link from "next/link"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../../lib/prisma"
 import { auth } from "../../../auth"
 import { redirect } from "next/navigation"
 import DeleteGuideButton from "./DeleteGuideButton"
-
-const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-})
 
 export default async function GuidesAdminPage() {
   const session = await auth()

@@ -1,16 +1,9 @@
-﻿import React from 'react'
-import Link from "next/link"
-import Image from "next/image"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+﻿import Link from "next/link"
+import { prisma } from "../../lib/prisma"
 import { auth } from "../../../auth"
 import { redirect } from "next/navigation"
 import DeleteButton from "./DeleteButton"
 import BulkPhotoUpload from "./BulkPhotoUpload"
-
-const prisma = new PrismaClient({
-  adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-})
 
 export default async function ListingsPage({
   searchParams,

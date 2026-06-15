@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../../../lib/prisma"
 import { Resend } from "resend"
 
 export async function POST(
@@ -27,11 +26,7 @@ export async function POST(
     }
   }
 
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-
-  await prisma.contactLead.create({
+    await prisma.contactLead.create({
     data: { listingSlug: slug, name, email, phone, city, state, message },
   })
 

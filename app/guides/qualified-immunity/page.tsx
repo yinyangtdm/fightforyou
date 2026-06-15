@@ -2,7 +2,7 @@ import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import Link from "next/link"
 import type { Metadata } from "next"
-import QIStatePicker from "./StatePicker"
+import LegalStatePicker from "../../components/LegalStatePicker"
 
 export const dynamic = "force-dynamic"
 
@@ -49,7 +49,7 @@ export default async function QualifiedImmunityPage() {
               a government official.
             </p>
 
-            <QIStatePicker />
+            <LegalStatePicker variant="qualified-immunity" />
 
             <div className="guide-body">
               <h3 className="guide-body-h3">What Is Qualified Immunity?</h3>

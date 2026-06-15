@@ -1,25 +1,27 @@
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../../../lib/prisma"
 import NavServer from "../../../components/NavServer"
 import Footer from "../../../components/Footer"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
-import { deriveExcerpt, categorySlug, PINNED_GUIDES } from "../../_lib"
+import { deriveExcerpt, PINNED_GUIDES } from "../../_lib"
+import { isDbUnavailable } from "../../../lib/db-errors"
+import DbUnavailableNotice from "../../../components/DbUnavailableNotice"
 
 export const dynamic = "force-dynamic"
 
 async function getData(authorSlug: string) {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-  const guides = await prisma.guide.findMany({
-    where: { published: true, authorSlug },
-    orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-    select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
-  })
-  await prisma.$disconnect()
-  return { guides }
+  try {
+    const guides = await prisma.guide.findMany({
+      where: { published: true, authorSlug },
+      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+    })
+    return { guides, dbUnavailable: false as const }
+  } catch (error) {
+    if (!isDbUnavailable(error)) throw error
+    return { guides: [], dbUnavailable: true as const }
+  }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -34,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function AuthorPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const { guides } = await getData(slug)
+  const { guides, dbUnavailable } = await getData(slug)
 
   const authorName = slug === "fight-for-you" ? "fightfor.you" : (guides[0]?.authorName ?? slug)
   const showPinned = slug === "fight-for-you"
@@ -50,6 +52,8 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
       <div className="guides-page">
         <h1>Guides by {authorName}</h1>
+
+        {dbUnavailable && <DbUnavailableNotice />}
 
         {showPinned && (
           <div className="guides-grid">

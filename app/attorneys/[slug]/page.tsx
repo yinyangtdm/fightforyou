@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation"
 import { headers } from "next/headers"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../../lib/prisma"
 import { STATE_NAMES, STATE_SLUGS, toSlug } from "../../lib/slugs"
+import { isDbUnavailable } from "../../lib/db-errors"
 import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import Breadcrumb from "../../components/Breadcrumb"
@@ -18,18 +18,16 @@ import ProfileButtons from "./ProfileButtons"
 export const revalidate = 3600
 
 async function getData(slug: string) {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-
-  const listing = await prisma.listing.findUnique({
-    where: { slug, approved: true },
-  })
-
-  await prisma.$disconnect()
-  if (!listing) return null
-
-  return { listing }
+  try {
+    const listing = await prisma.listing.findUnique({
+      where: { slug, approved: true },
+    })
+    if (!listing) return null
+    return { listing }
+  } catch (error) {
+    if (isDbUnavailable(error)) return { type: "unavailable" as const }
+    throw error
+  }
 }
 
 export async function generateMetadata({
@@ -39,7 +37,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params
   const data = await getData(slug)
-  if (!data) return {}
+  if (!data || ("type" in data && data.type === "unavailable")) return {}
 
   const { listing } = data
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null
@@ -73,6 +71,22 @@ export default async function ProfilePage({
   const from = referer ? new URL(referer).pathname : ""
   const data = await getData(slug)
   if (!data) notFound()
+  if ("type" in data && data.type === "unavailable") {
+    return (
+      <div className="public">
+        <NavServer />
+        <main className="listing-page" id="main-content">
+          <div className="listing-header">
+            <h1>Profile temporarily unavailable</h1>
+            <p className="listing-subheading">
+              We could not reach the database. Check your connection and try again.
+            </p>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    )
+  }
 
   const { listing } = data
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null

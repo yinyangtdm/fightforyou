@@ -43,6 +43,10 @@ next-env.d.ts
 # local data
 profiles.sql
 scripts/emails.csv
+Lawyer Profile Pics/
+exclusion_list.txt
+results_*.json
+app/generated/
 
 docker-compose.yml
 .aider*

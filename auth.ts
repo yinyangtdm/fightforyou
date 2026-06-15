@@ -1,32 +1,25 @@
 ﻿import NextAuth from "next-auth"
 import Credentials from "next-auth/providers/credentials"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "./app/lib/prisma"
+import { authConfig } from "./auth.config"
 
 const WINDOW_MS = 15 * 60 * 1000  // 15 minutes
 const MAX_ATTEMPTS = 5
 
 async function checkRateLimit(ip: string): Promise<boolean> {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
   const since = new Date(Date.now() - WINDOW_MS)
   const count = await prisma.loginAttempt.count({
     where: { ip, createdAt: { gte: since } },
   })
-  await prisma.$disconnect()
   return count < MAX_ATTEMPTS
 }
 
 async function recordAttempt(ip: string) {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
   await prisma.loginAttempt.create({ data: { ip } })
-  await prisma.$disconnect()
 }
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
+  ...authConfig,
   providers: [
     Credentials({
       name: "credentials",
@@ -50,12 +43,4 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       },
     }),
   ],
-  pages: {
-    signIn: "/justice/login",
-  },
-  callbacks: {
-    async redirect({ url, baseUrl }) {
-      return `${baseUrl}/justice`
-    },
-  },
 })

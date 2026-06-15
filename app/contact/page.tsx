@@ -4,6 +4,8 @@ import Footer from "../components/Footer"
 import Link from "next/link"
 import GeneralContactForm from "./ContactForm"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Contact",
   description: "Get in touch with fightfor.you — report an error, request a listing, or send us a message.",

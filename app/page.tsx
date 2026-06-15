@@ -1,63 +1,55 @@
 export const dynamic = "force-dynamic"
 
 import type { Metadata } from "next"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "./lib/prisma"
 import NavServer from "./components/NavServer"
 import Footer from "./components/Footer"
 import SearchBar from "./components/SearchBar"
 import Link from "next/link"
 import Image from "next/image"
 import { deriveExcerpt, PINNED_GUIDES } from "./guides/_lib"
+import { STATE_NAMES } from "./lib/slugs"
+import { isDbUnavailable } from "./lib/db-errors"
+import DbUnavailableNotice from "./components/DbUnavailableNotice"
 
 export const metadata: Metadata = {
   title: "Find Attorneys Who Fight Law Enforcement",
   description: "When law enforcement causes harm, the odds are stacked against you — qualified immunity, police unions, city lawyers. Find the attorneys who know how to level the playing field.",
 }
 
-const STATE_NAMES: Record<string, string> = {
-  AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
-  CO: "Colorado", CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia",
-  HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa",
-  KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland",
-  MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri",
-  MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
-  NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio",
-  OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
-  SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont",
-  VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming",
-  DC: "Washington D.C.",
-}
-
 async function getSearchData() {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
+  try {
+    const [guides, specialtyRows] = await Promise.all([
+      prisma.guide.findMany({
+        where: { published: true },
+        orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
+        select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
+      }),
+      prisma.$queryRaw<{ specialty: string }[]>`
+        SELECT DISTINCT UNNEST(specialties) AS specialty
+        FROM "Listing"
+        WHERE array_length(specialties, 1) > 0
+        ORDER BY specialty
+      `,
+    ])
 
-  const [guides, specialtyRows] = await Promise.all([
-    prisma.guide.findMany({
-      where: { published: true },
-      orderBy: [{ featured: "desc" }, { createdAt: "desc" }],
-      select: { id: true, title: true, slug: true, excerpt: true, body: true, categories: true, coverImageUrl: true, authorName: true, authorSlug: true, createdAt: true, featured: true },
-    }),
-    prisma.$queryRaw<{ specialty: string }[]>`
-      SELECT DISTINCT UNNEST(specialties) AS specialty
-      FROM "Listing"
-      WHERE array_length(specialties, 1) > 0
-      ORDER BY specialty
-    `,
-  ])
+    const states = Object.values(STATE_NAMES).sort()
+    const practices = specialtyRows.map((r) => r.specialty).filter(Boolean)
 
-  await prisma.$disconnect()
-
-  const states = Object.values(STATE_NAMES).sort()
-  const practices = specialtyRows.map((r) => r.specialty).filter(Boolean)
-
-  return { states, guides, practices }
+    return { states, guides, practices, dbUnavailable: false as const }
+  } catch (error) {
+    if (!isDbUnavailable(error)) throw error
+    return {
+      states: Object.values(STATE_NAMES).sort(),
+      guides: [],
+      practices: [],
+      dbUnavailable: true as const,
+    }
+  }
 }
 
 export default async function HomePage() {
-  const { states, guides, practices } = await getSearchData()
+  const { states, guides, practices, dbUnavailable } = await getSearchData()
   const featured = guides.filter((g) => g.featured)
   const rest = guides.filter((g) => !g.featured)
 
@@ -75,6 +67,7 @@ export default async function HomePage() {
       <NavServer />
 
       <main className="home-page" id="main-content">
+        {dbUnavailable && <DbUnavailableNotice />}
         {/* Hero */}
         <section className="hero-section">
           <div className="hero">
@@ -91,59 +84,21 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* Stats */}
-        <section className="stats-bar">
-          <div className="stats-inner">
-            <div className="stat-item">
-              <div className="stat-num">150<span>+</span></div>
-              <div className="stat-label">Attorneys<br />&amp; Firms</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-num">50</div>
-              <div className="stat-label">States<br />Covered</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-num">5<span>k+</span></div>
-              <div className="stat-label">Cases<br />Won</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-num">$3<span>B+</span></div>
-              <div className="stat-label">Recovered for<br />Clients</div>
-            </div>
-          </div>
-        </section>
-
-        {/* About */}
+        {/* Intro */}
         <section className="about-section">
           <div className="about-inner">
-            <h2>
-              The playing field is not level.{" "}
-              <em>This is.</em>
-            </h2>
             <p>
-              When you take on a police department, a sheriff&apos;s office, or a federal agency, you are not just facing
-              one officer. You are facing an entire legal machine — staffed by experienced attorneys, funded by taxpayer
-              dollars, and <strong>built to protect itself.</strong>
+              Police departments do not fight fair. They have city attorneys, union lawyers, and qualified
+              immunity on their side — and filing deadlines as short as 90 days working against you. By the
+              time most people know they need help, the clock is already running.
             </p>
             <p>
-              Most victims and families have never been through anything like this. The process is complex, the timeline
-              is long, and the opposition is formidable. <strong>Intimidation is part of the strategy.</strong>
+              fightfor.you lists civil rights attorneys with real wins against law enforcement — vetted,
+              not bought. Free to search. No account required. Find someone who has done this before.
             </p>
-            <p>
-              Our mission is to change that equation. Every attorney and firm listed here has a documented record of
-              success against law enforcement and government entities. There are <strong>no pay-to-play listings</strong> and <strong>no unvetted
-              submissions</strong> — <strong>only</strong> attorneys who have taken law enforcement to court and <strong>won.</strong>
-            </p>
-            <p>
-              Attorneys in this field almost universally work on contingency, meaning you pay nothing unless you win.
-              There is no reason to settle for anything less than the best. <strong>If they take your case, they believe they can win it.</strong>
-            </p>
-            <p>
-              We also believe that an informed client is a stronger client. This site gives you the legal knowledge you
-              need — including state-specific filing deadlines for both state and federal court, which can be as short as
-              90 days in some jurisdictions. Miss that window and <strong>no</strong> attorney, however skilled, can help you. Know your
-              rights, know your deadlines, and move forward with confidence.
-            </p>
+            <Link href="/about" className="home-about-link">
+              Read our full story →
+            </Link>
           </div>
         </section>
 

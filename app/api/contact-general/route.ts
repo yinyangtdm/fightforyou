@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../../lib/prisma"
 import { Resend } from "resend"
 
 export async function POST(req: NextRequest) {
@@ -23,11 +22,7 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-
-  await prisma.generalContact.create({ data: { name, email, subject, message } })
+    await prisma.generalContact.create({ data: { name, email, subject, message } })
 
   if (process.env.RESEND_API_KEY) {
     const resend = new Resend(process.env.RESEND_API_KEY)

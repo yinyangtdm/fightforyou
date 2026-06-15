@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
-import { PrismaClient } from "@prisma/client"
-import { PrismaPg } from "@prisma/adapter-pg"
+import { prisma } from "../../../lib/prisma"
+import { isDbUnavailable } from "../../../lib/db-errors"
 import NavServer from "../../../components/NavServer"
 import Footer from "../../../components/Footer"
 import Image from "next/image"
@@ -21,27 +21,28 @@ const STATE_NAMES: Record<string, string> = {
 }
 
 async function getListing(slug: string) {
-  const prisma = new PrismaClient({
-    adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
-  })
-  const listing = await prisma.listing.findUnique({
-    where: { slug, approved: true },
-    select: {
-      name: true,
-      slug: true,
-      isFirm: true,
-      isNonprofit: true,
-      phone: true,
-      photoUrl: true,
-      streetAddress: true,
-      city: true,
-      state: true,
-      zipCode: true,
-      specialties: true,
-    },
-  })
-  await prisma.$disconnect()
-  return listing
+  try {
+    const listing = await prisma.listing.findUnique({
+      where: { slug, approved: true },
+      select: {
+        name: true,
+        slug: true,
+        isFirm: true,
+        isNonprofit: true,
+        phone: true,
+        photoUrl: true,
+        streetAddress: true,
+        city: true,
+        state: true,
+        zipCode: true,
+        specialties: true,
+      },
+    })
+    return listing
+  } catch (error) {
+    if (isDbUnavailable(error)) return "unavailable" as const
+    throw error
+  }
 }
 
 export async function generateMetadata(
@@ -49,7 +50,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { slug } = await params
   const listing = await getListing(slug)
-  if (!listing) return {}
+  if (!listing || listing === "unavailable") return {}
 
   const type = listing.isNonprofit ? "Nonprofit" : listing.isFirm ? "Law Firm" : "Attorney"
   const stateName = listing.state ? STATE_NAMES[listing.state] ?? listing.state : null
@@ -83,6 +84,20 @@ export default async function ContactPage({ params }: { params: Promise<{ slug: 
   const { slug } = await params
   const listing = await getListing(slug)
   if (!listing) notFound()
+  if (listing === "unavailable") {
+    return (
+      <div className="public">
+        <NavServer />
+        <main className="contact-page" id="main-content">
+          <div className="contact-page-inner">
+            <h1>Contact form temporarily unavailable</h1>
+            <p>We could not reach the database. Check your connection and try again.</p>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    )
+  }
 
   const addressParts = [
     listing.streetAddress,

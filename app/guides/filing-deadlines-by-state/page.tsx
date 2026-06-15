@@ -2,7 +2,7 @@ import NavServer from "../../components/NavServer"
 import Footer from "../../components/Footer"
 import Link from "next/link"
 import type { Metadata } from "next"
-import StatePicker from "./StatePicker"
+import LegalStatePicker from "../../components/LegalStatePicker"
 
 export const dynamic = "force-dynamic"
 
@@ -49,7 +49,7 @@ export default async function FilingDeadlinesPage() {
               you need to know before that clock runs out.
             </p>
 
-            <StatePicker />
+            <LegalStatePicker variant="deadlines" />
 
             <div className="guide-body">
               <h3 className="guide-body-h3">Statute of Limitations</h3>

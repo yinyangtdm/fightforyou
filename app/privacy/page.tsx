@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import NavServer from "../components/NavServer"
 import Footer from "../components/Footer"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "How fightfor.you collects, uses, and protects your information.",
