@@ -68,18 +68,9 @@ export default async function HomePage() {
 
       <main className="home-page" id="main-content">
         {dbUnavailable && <DbUnavailableNotice />}
-        {/* Hero */}
+        {/* Search */}
         <section className="hero-section">
           <div className="hero">
-            <div>
-              <h1>
-                Carefully selected.<br />
-                <em>Proven in court.</em>
-              </h1>
-              <p className="hero-sub">
-                These attorneys and firms make it their business to take law enforcement and their governing bodies to court. And win.
-              </p>
-            </div>
             <SearchBar states={states} practices={practices} />
           </div>
         </section>
